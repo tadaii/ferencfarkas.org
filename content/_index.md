@@ -1,7 +1,7 @@
 ---
 title: "Home"
 date: 2017-08-30T21:06:19+02:00
-draft: true
+draft: false
 ---
 
 # "Mon père m'a raconté..."
@@ -9,9 +9,12 @@ draft: true
 
 ![Mon père m'a raconté](/img/book1.png "Mon père m'a raconté")<!-- display: block; max-width: 65%; margin: 40px auto; -->
 
-{{< button label="Order your copy now!" href="http://www.editions-delatour.com/fr/biographies-entretiens/3727-mon-pere-m-a-raconte-la-vie-du-compositeur-hongrois-ferenc-farkas-9782752103079.html">}}
+{{< button
+  label="Order your copy now!"
+  href="http://www.editions-delatour.com/fr/biographies-entretiens/3727-mon-pere-m-a-raconte-la-vie-du-compositeur-hongrois-ferenc-farkas-9782752103079.html"
+>}}
 
-Nous sommes en 1975. Mon père, Ferenc Farkas, est un compositeur hongrois dont les œuvres sont jouées dans le monde entier. Mais, jusqu’ici, très peu de publications lui ont été consacrées et, surtout, rien n’a été écrit sur sa vie. Est-ce à moi d’entreprendre ce travail ? Je le connais assez pour savoir qu’il ne le fera jamais lui-même car il est très discret et n’attache que peu d’importance à tout ce qui n’est pas son art. C’est pourquoi, cet été-là, je lui propose de me raconter ses souvenirs sous forme d’interviews que j’enregistre sur un petit cassettophone. 
+Nous sommes en 1975. Mon père, Ferenc Farkas, est un compositeur hongrois dont les œuvres sont jouées dans le monde entier. Mais, jusqu’ici, très peu de publications lui ont été consacrées et, surtout, rien n’a été écrit sur sa vie. Est-ce à moi d’entreprendre ce travail ? Je le connais assez pour savoir qu’il ne le fera jamais lui-même car il est très discret et n’attache que peu d’importance à tout ce qui n’est pas son art. C’est pourquoi, cet été-là, je lui propose de me raconter ses souvenirs sous forme d’interviews que j’enregistre sur un petit cassettophone.
 
 Dans ce récit, c’est mon père qui parle. Parfois, j’ai ajouté quelques commentaires : des souvenirs personnels mais surtout des précisions sur l’histoire de la Hongrie et sur le déroulement des événements politiques majeurs qui ont ponctué la vie de mes parents. Car mon père, né en 1905 dans l’Empire austro-hongrois florissant, a vécu deux guerres mondiales, deux révolutions, le communisme, la chute de l’URSS et l’apparition d’une Hongrie retrouvant enfin son indépendance après quatre siècles et demi de domination étrangère.
 
@@ -44,13 +47,13 @@ More than 800 detailed works in a printable format and ordered by work type. Mai
 
 ##### List of works by instrument
 
-**String instruments:**  
+**String instruments:**
 violin, viola, violoncello, double bass, guitar, harp, cimbalom
 
-**Wind instruments:**  
+**Wind instruments:**
 flute / recorder, oboe, clarinet, bassoon, horn, Alphorn, trumpet, trombone, tuba, saxophone, tarogato
 
-**Keyboard instruments:**  
+**Keyboard instruments:**
 piano, harpsichord, organ, accordion
 
 {{< download "pdf/repertoire.pdf" >}}
