@@ -1,0 +1,9 @@
+baseURL = "https://www.ferencfarkas.org/"
+languageCode = "en-us"
+title = "Ferenc Farkas"
+theme = "ferencfarkas.org"
+
+[params.header]
+  menuLabel = "Menu"
+  headline = "A european composer"
+  imageUrl = "/img/header-image.jpg"
