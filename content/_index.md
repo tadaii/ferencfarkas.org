@@ -1,7 +1,6 @@
 ---
 title: "Home"
-date: 2017-08-30T21:06:19+02:00
-draft: false
+date: 2017-12-23T22:18:34+01:00
 ---
 
 # "Mon père m'a raconté..."
