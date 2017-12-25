@@ -1,9 +1,33 @@
-baseURL = "https://www.ferencfarkas.org/"
+baseURL = "https://ferencfarkas.ifdesign.ch/"
 languageCode = "en-us"
 title = "Ferenc Farkas"
-theme = "ferencfarkas.org"
+enableRobotsTXT = true
 
 [params.header]
   menuLabel = "Menu"
   headline = "A european composer"
-  imageUrl = "/img/header-image.jpg"
+  imageUrl = "/media/img/header-image.jpg"
+
+[[menu.main]]
+  name = "Life"
+  identifier = "life"
+  weight = 100
+  url = "/life"
+
+[[menu.main]]
+  name = "Work"
+  identifier = "work"
+  weight = 200
+  url = "/work"
+
+[[menu.main]]
+  name = "Media"
+  identifier = "media"
+  weight = 300
+  url = "/media"
+
+[[menu.main]]
+  name = "Contact"
+  identifier = "contact"
+  weight = 400
+  url = "/contact"

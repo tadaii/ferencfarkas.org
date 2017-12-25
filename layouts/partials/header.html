@@ -1,0 +1,50 @@
+<header class="Header{{if .IsHome }} full{{end}}">
+  <div class="container">
+    <div class="Header-image" style="background-image: url({{ .Site.Params.Header.ImageUrl }})"></div>
+    <div class="Header-background">
+      <div class="Header-background-sides"></div>
+    </div>
+    <a class="Header-logo-headline" href="/">
+      <div class="Header-logo"><b>{{ .Site.Title }}</b></div>
+      <div class="Header-headline">
+        {{ .Site.Params.Header.Headline }}
+      </div>
+    </a>
+    <nav>
+      <div class="Header-nav-bg-wrapper">
+        <div class="Header-nav-bg Header-nav-bg--light"></div>
+        <div class="Header-nav-bg Header-nav-bg--medium"></div>
+        <div class="Header-nav-bg Header-nav-bg--full"></div>
+      </div>
+      <a class="Header-hamburger"
+        href="javascript:;"
+        data-menu-label="{{ .Site.Params.Header.MenuLabel }}">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+      <ul>
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main }}
+        <li{{if $currentPage.HasMenuCurrent "main" .}} class="is-selected"{{end}}>
+          <a href="{{ .URL }}">{{ .Name }}</a>
+          {{ if .HasChildren }}
+            <div class="Header-subnav-wrapper">
+              <div class="container">
+                <ul>
+                {{ range .Children }}
+                  {{ $isActive := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+                  <li{{if $isActive}} class="is-selected"{{end}}>
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                  </li>
+                {{ end }}
+                </ul>
+              </div>
+            </div>
+          {{ end }}
+        </li>
+      {{ end }}
+      </ul>
+    </nav>
+  </div>
+</header>

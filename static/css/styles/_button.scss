@@ -1,0 +1,15 @@
+
+button {
+  padding: 15px;
+  margin: (.5 * $s-spacing-base) 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: $c-white;
+  border-radius: 8px;
+  background: none;
+  border: none;
+  outline: none;
+  background-color: $c-black;
+
+  @include font-size(.875);
+}

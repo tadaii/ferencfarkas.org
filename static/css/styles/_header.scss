@@ -1,0 +1,433 @@
+$Header-height: 103px;
+$Header-height-full: 75vh;
+$Header-subnav-height: 60px;
+$Header-logo-width-xs: 165px;
+$Header-logo-width-ss: 190px;
+$Header-logo-width-sm: $Header-logo-width-ss;
+$Header-logo-width-md: 205px;
+$Header-logo-width-lg: 230px;
+$Header-logo-width-xl: $Header-logo-width-lg;
+$Header-nav-bottom-xs: 4vw;
+$Header-nav-bottom-md: 3vw;
+$Header-transition-duration: .3s;
+
+@mixin Header-nav-breakpoint-up() {
+  @media screen and (min-width: 561px) {
+    @content
+  }
+};
+
+@mixin Header-nav-breakpoint-down() {
+  @media screen and (max-width: 560px) {
+    @content
+  }
+};
+
+.Header {
+  position: relative;
+  height: $Header-height;
+  overflow: hidden;
+  margin-bottom: -2vw;
+  background-color: $c-black;
+  
+  @include media-breakpoint-up(md) {
+    will-change: height, padding-bottom;
+    transition: all $Header-transition-duration ease-in;
+  }
+
+  &.full {
+    height: $Header-height-full;
+  }
+
+  .container {
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  &-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(transparent, black);
+    background-size: 50%;
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+
+    &:before,
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      width: 40%;
+      height: 100%;
+      opacity: 0;
+      will-change: opacity;
+      transition: opacity $Header-transition-duration ease-out;
+
+      @include media-breakpoint-up(md) {
+        opacity: 1;
+      }
+    }
+
+    &:before {
+      left: 0;
+      background-image: linear-gradient(to left, transparent, black);
+    }
+
+    &:after {
+      right: 0;
+      background-image: linear-gradient(to right, transparent, black);
+    }
+  }
+
+  &-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    opacity: .2;
+
+    .full & {
+      opacity: 1;
+    }
+  }
+
+  &-logo-headline {
+    position: absolute;
+    left: $s-spacing-base;
+    bottom: calc(#{$Header-nav-bottom-xs} + 13px);
+    opacity: 1;
+    will-change: opacity;
+    transition: opacity $Header-transition-duration ease-out;
+
+    @include Header-nav-breakpoint-down {
+      .is-nav-open & {
+        opacity: 0;
+      }
+    }
+
+    @include media-breakpoint-up(md) {
+      bottom: calc(#{$Header-nav-bottom-md} + 13px);
+    }
+  }
+
+  &-logo {
+    width: $Header-logo-width-xs;
+    height: 0.21128 * $Header-logo-width-xs;
+    background-image: url(/svg/signature.svg);
+    background-size: 100% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    .full & {
+      @include media-breakpoint-up(ss) {
+        width: $Header-logo-width-ss;
+        height: 0.21128 * $Header-logo-width-ss;
+      }
+
+      @include media-breakpoint-up(sm) {
+        width: $Header-logo-width-sm;
+        height: 0.21128 * $Header-logo-width-sm;
+      }
+
+      @include media-breakpoint-up(md) {
+        width: $Header-logo-width-md;
+        height: 0.21128 * $Header-logo-width-md;
+      }
+
+      @include media-breakpoint-up(lg) {
+        width: $Header-logo-width-lg;
+        height: 0.21128 * $Header-logo-width-lg;
+      }
+
+      @include media-breakpoint-up(xl) {
+        width: $Header-logo-width-xl;
+        height: 0.21128 * $Header-logo-width-xl;
+      }
+    }
+
+    b {
+      display: none;
+    }
+  }
+
+  &-headline {
+    display: none;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: $c-white;
+    -webkit-font-smoothing: antialiased;
+
+    .full & {
+      display: block;
+    }
+  }
+
+  &-hamburger {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-left: $f-fontsize-xs;
+    outline: none;
+
+    @include Header-nav-breakpoint-up {
+      display: none;
+    }
+
+    &:after {
+      content: attr(data-menu-label);
+      display: block;
+      position: absolute;
+      top: 0;
+      left: calc(100% + #{($f-fontsize-xs)});
+      text-transform: uppercase;
+      opacity: .65;
+      will-change: opacity;
+      transition: opacity $Header-transition-duration ease-in;
+    }
+
+    span {
+      display: block;
+      margin-top: 3px;
+      height: 3px;
+      width: 22px;
+      background-color: $c-black;
+      opacity: 1;
+      will-change: background-color, opacity;
+      transition: all $Header-transition-duration linear;
+
+      &:first-of-type {
+        transform-origin: 2.5px 0;
+      }
+
+      &:last-of-type {
+        transform-origin: 0 2.5px;
+      }
+    }
+  }
+
+  &-nav-bg-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: -2vw;
+    z-index: -1;
+  }
+
+  &-nav-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120vw;
+    height: 50vh;
+    background-color: $c-primary;
+    transform-origin: 0 0;
+    will-change: transform, opacity;
+
+    &--full {
+      opacity: .9;
+      transform: rotate(-6deg);
+    }
+
+    &--medium {
+      opacity: .6;
+      transform: rotate(-10deg);
+    }
+
+    &--light {
+      opacity: .25;
+      transform: rotate(-14deg);
+    }
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: calc(100% - 115px);
+    bottom: $Header-nav-bottom-xs;
+    padding-left: 5px;
+    z-index: 0;
+    will-change: left;
+    transition: left $Header-transition-duration ease-in;
+
+    @include Header-nav-breakpoint-up {
+      left: $Header-logo-width-sm + (2.5 * $s-spacing-base);
+    }
+
+    @include media-breakpoint-up(md) {
+      left: $Header-logo-width-md + (2.5 * $s-spacing-base);
+      bottom: $Header-nav-bottom-md;
+    }
+
+    @include media-breakpoint-up(lg) {
+      left: $Header-logo-width-lg + (2.5 * $s-spacing-base);
+    }
+  }
+
+  ul,
+  li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    visibility: hidden;
+    margin-left: $s-spacing-base / 2;
+    padding: $f-fontsize-lg ($f-fontsize-xs / 2) $f-fontsize-xs;
+    will-change: visibility;
+
+    @include Header-nav-breakpoint-up {
+      visibility: visible;
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin-left: $s-spacing-base;
+    }
+  }
+
+  li {
+    a {
+      position: relative;
+      display: block;
+      padding: 0 ($f-fontsize-xs / 2);
+      font-weight: 400;
+      text-transform: uppercase;
+      color: $c-black;
+      outline: none;
+
+      @include media-breakpoint-up(md) {
+        padding: 0 ($f-fontsize-md / 2);
+      }
+
+      @include media-breakpoint-up(lg) {
+        padding: 0 ($f-fontsize-lg / 2);
+      }
+    }
+
+    &.is-open > a:after {
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: -$s-spacing-base;
+      left: calc(50% - 5px);
+      width: 0; 
+      height: 0; 
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid $c-secondary;
+    }
+
+    &.is-selected > a {
+      color: $c-white;
+    }
+  }
+
+  &-subnav-wrapper {
+    display: none;
+    position: absolute;
+    left: -$s-spacing-base;
+    width: 100vw;
+    height: 2 * $Header-subnav-height;
+    margin-top: $s-spacing-base;
+    padding-top: $s-spacing-base / 2;
+    background-color: $c-secondary;
+    will-change: visibility;
+    transition: visibility $Header-transition-duration ease-in;
+  
+    @include Header-nav-breakpoint-up {
+      left: calc(-#{$Header-logo-width-sm + (2.5 * $s-spacing-base)});
+    }
+    
+    @include media-breakpoint-up(md) {
+      left: calc(-#{$Header-logo-width-md + (2.5 * $s-spacing-base)});
+    }
+  
+    @include media-breakpoint-up(lg) {
+      left: calc(-#{$Header-logo-width-lg + (2.5 * $s-spacing-base)} - ((100vw - #{$s-container-width})/2));
+    }
+  
+    .is-open &,
+    .is-selected & {
+      display: block;
+    }
+  
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: inherit;
+      width: 3 * $s-spacing-base;
+      background-image: linear-gradient(to right, transparent, $c-secondary);
+  
+      @include media-breakpoint-up(lg) {
+        right: calc((100vw - #{$s-container-width})/2);
+      }
+    }
+  
+    .container {
+      overflow-x: auto;
+    }
+  
+    ul {
+      margin: 0;
+      padding-top: $f-fontsize-xs / 2;
+      padding-right: $s-spacing-base;
+  
+      li a {
+        padding-right: .5 * $s-spacing-base;
+        white-space: nowrap;
+        font-weight: 100;
+      }
+  
+      li:last-of-type a {
+        padding-right: 2 * $s-spacing-base;
+      }
+    }
+  }
+
+  &.is-subnav-open {
+    height: calc(#{$Header-height} + #{$Header-subnav-height});
+    padding-bottom: $Header-subnav-height;
+
+    &.full {
+      height: calc(#{$Header-height-full} + #{$Header-subnav-height});
+    }
+  }
+  
+  &.is-nav-open {
+    @include Header-nav-breakpoint-down {
+      nav {
+        left: $s-spacing-base;
+      }
+
+      .Header-hamburger {
+        span {
+          background-color: $c-white;
+        }
+
+        &:after {
+          display: none;
+        }
+      }
+
+      ul {
+        visibility: visible;
+      }
+    }
+  }
+}

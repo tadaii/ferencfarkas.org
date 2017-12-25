@@ -3,6 +3,7 @@ title: "Home"
 date: 2017-12-23T22:18:34+01:00
 ---
 
+{{% section %}}
 # "Mon père m'a raconté..."
 ## paru aux éditions Delatour
 
@@ -20,7 +21,9 @@ Dans ce récit, c’est mon père qui parle. Parfois, j’ai ajouté quelques co
 Ce livre ne relate donc pas seulement la vie longue et intense d’un compositeur, mais l’Histoire de tout un siècle.
 
 {{< more "test" "Discover more on his life" >}}
+{{% /section %}}
 
+{{% section highlight %}}
 # New CD
 
 ![Complete chamber music for cello, vol 1](/img/cd1.jpg)
@@ -31,13 +34,12 @@ Ce livre ne relate donc pas seulement la vie longue et intense d’un compositeu
 Toccata Classics continues its exploration of Ferenc Farkas's music with this first of two releases of his chamber works for cello.
 
 {{< button label="Listen to samples and buy" href="https://toccataclassics.com/product/farkas-chamber-music-cello-v1/">}}
-<br>
 
 {{< more "media" "Discover more medias" >}}
+{{% /section %}}
 
-
+{{% section invert %}}
 # Catalogue of works
-
 ##### Complete catalogue of works
 
 More than 800 detailed works in a printable format and ordered by work type. Maintained and updated by Françoise Farkas.
@@ -57,4 +59,5 @@ piano, harpsichord, organ, accordion
 
 {{< download "pdf/repertoire.pdf" >}}
 
-{{< more "test" "Discover our selection of works" >}}
+{{< more "work/selection" "Discover our selection of works" >}}
+{{% /section %}}

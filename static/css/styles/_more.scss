@@ -1,0 +1,14 @@
+.More {
+  display: inline-block;
+  padding-bottom: 9px;
+  margin: 20px 0 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-bottom: 1px solid $c-black;
+  opacity: .9;
+
+  &:before {
+    content: '➔';
+    display: inline-block;
+  }
+}
