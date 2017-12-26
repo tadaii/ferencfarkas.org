@@ -4,7 +4,7 @@ date: 2017-12-23T22:18:34+01:00
 ---
 
 {{% section %}}
-# "Ton père m'a raconté..."
+# "Mon père m'a raconté..."
 ## paru aux éditions Delatour
 
 {{% columns %}}
@@ -40,7 +40,7 @@ mais l’Histoire de tout un siècle.
 {{% /column %}}
 {{% /columns %}}
 
-{{< more "test" "Discover more on his life" >}}
+{{< more "life/biography" "Discover more on his life" >}}
 {{% /section %}}
 
 {{% section highlight %}}
