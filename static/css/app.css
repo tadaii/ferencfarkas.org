@@ -71,24 +71,6 @@ body.invert {
   margin: 1% auto 0;
 }
 
-.row {
-  display: flex;
-  flex-direction: row;
-}
-
-.col {
-  flex: 1;
-  padding: 0 20px;
-}
-
-.col:first-child {
-  padding-left: 0;
-}
-
-.col:last-child {
-  padding-right: 0;
-}
-
 *:not(body).highlight {
   color: #FAB700;
 }
@@ -401,6 +383,29 @@ img {
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
 }
 
+.Columns {
+  display: flex;
+  flex-direction: row;
+  margin: -20px;
+}
+
+@media (max-width: 479px) {
+  .Columns {
+    flex-direction: column;
+  }
+}
+
+.Columns .Column {
+  flex: 1;
+  padding: 20px;
+}
+
+@media (max-width: 479px) {
+  .Columns .Column {
+    order: 1 !important;
+  }
+}
+
 button {
   padding: 15px;
   margin: 10px 0;
@@ -440,7 +445,6 @@ button {
   font-weight: 400;
   text-transform: uppercase;
   border-bottom: 1px solid black;
-  opacity: .9;
 }
 
 .More:before {
@@ -548,11 +552,15 @@ Section.invert .Download .download__meta {
 }
 
 .Section.invert {
-  color: black;
+  color: #DDDDDD;
 }
 
 .Section.invert:after {
   background-color: #777777;
+}
+
+.Section.invert h1, .Section.invert h2, .Section.invert h3, .Section.invert h4, .Section.invert h5, .Section.invert h6 {
+  color: white;
 }
 
 .Header {

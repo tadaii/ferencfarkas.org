@@ -36,24 +36,6 @@ body {
   margin: 1% auto 0;
 }
 
-.row {
-  display: flex;
-  flex-direction: row;
-}
-
-.col {
-  flex: 1;
-  padding: 0 $s-spacing-base;
-
-  &:first-child {
-    padding-left: 0;
-  }
-
-  &:last-child {
-    padding-right: 0;
-  }
-}
-
 *:not(body).highlight {
   color: $c-primary;
 }
