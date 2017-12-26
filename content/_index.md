@@ -4,7 +4,7 @@ date: 2017-12-23T22:18:34+01:00
 ---
 
 {{% section %}}
-# "Mon père m'a raconté..."
+# "Ton père m'a raconté..."
 ## paru aux éditions Delatour
 
 {{% columns %}}
