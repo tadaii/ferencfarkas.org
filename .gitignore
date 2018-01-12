@@ -2,5 +2,5 @@
 .vscode
 /public
 _site_FF
-SETUP.*
+SETUP*
 node_modules
