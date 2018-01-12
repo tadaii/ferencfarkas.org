@@ -1,0 +1,50 @@
+# The source file to be parsed for extracting datas.
+src: "CATALOGUE_2016.html"
+
+# The destination root folder.
+#dst: "../../../data/catalog/works"
+dst:
+  works_root: "../../../content/work/catalog"
+  categories: "../../../data/catalog/categories.yaml"
+  relations: "../../../data/catalog/relations.yaml"
+  publishers: "../../../data/catalog/publishers.yaml"
+
+# Add front matter delimiters and save file as .md if true.
+is-front-matter: true
+
+# The work object metadata/fields mapping.
+# - catalog_id
+# - title: <- other-titles
+#   - official: en
+#   - original:  hu
+#   - en: 
+#   - hu: 
+#   - de:
+#   - fr:
+#   - it:
+#   - es:
+# - version: <- description containing the word "section"
+# - description <- row following title without meta key, usually starting with "for..."
+meta:
+- duration: (?i)durata # <string> 00:00
+- composition_date: (?i)composed # <string> 1945 - 1946
+- parts: (?i)parts? # <array<string>>
+- subject: (?i)subject # <string<Person>>
+- synopsis: (?i) # <text<Person>>
+- cast: (?i)cast # <array<Person>>
+- choregraphy: (?i)choregraphy # <string<Person>|array<Person>>
+- text: (?i)text # <string<Person>>
+- setting: (?i)setting # <string>
+- reworking: (?i)reworking # <string|array<string>>
+- publication: (?i)publication # <string<Id>>
+  reworking: (?i)publication-reworking
+  in: (?i)publication-in
+  source: (?i)publication-source
+  nb: (?i)publication-n.b.
+- libretto: (?i)libretto
+- score: (?i)score
+- source: (?i)source
+  reworking: (?i)source-reworking
+- dedication: (?i)ded?icated
+- world_premiere: (?i)world-premiere
+- nb: (?i)n.b.
