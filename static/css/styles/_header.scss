@@ -162,10 +162,23 @@ $Header-transition-duration: .3s;
 
   &-headline {
     display: none;
+    font-size: 14px;
     font-weight: 300;
     text-transform: uppercase;
     color: $c-white;
     -webkit-font-smoothing: antialiased;
+
+    @include media-breakpoint-up(ss) {
+      font-size: 16px;
+    }
+
+    @include media-breakpoint-up(md) {
+      font-size: 17.5px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size: 20px;
+    }
 
     .full & {
       display: block;
@@ -302,18 +315,20 @@ $Header-transition-duration: .3s;
     a {
       position: relative;
       display: block;
-      padding: 0 ($f-fontsize-xs / 2);
+      padding: 0 ($s-spacing-base / 4);
+      @include font-size(.9);
+      font-size: 16px;
       font-weight: 400;
       text-transform: uppercase;
       color: $c-black;
       outline: none;
 
-      @include media-breakpoint-up(md) {
-        padding: 0 ($f-fontsize-md / 2);
+      @include media-breakpoint-up(ss) {
+        padding: 0 ($s-spacing-base / 3);
       }
 
-      @include media-breakpoint-up(lg) {
-        padding: 0 ($f-fontsize-lg / 2);
+      @include media-breakpoint-up(md) {
+        padding: 0 ($s-spacing-base / 2);
       }
     }
 

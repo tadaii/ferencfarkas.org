@@ -1,7 +1,7 @@
 
 // 1st level heading couple
 h1 {
-  font-family: 'Lora', serif;
+  font-family: $f-serif;
   font-weight: 700;
   @include heading-margin(1.625);
   @include font-size(1.625);
@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: $f-sans;
   font-weight: 300;
   @include heading-margin(1.375);
   @include font-size(1.375);
@@ -22,14 +22,14 @@ h1 + h2 {
 
 // 2nd level heading couple
 h3 {
-  font-family: 'Open Sans', serif;
+  font-family: $f-sans;
   font-weight: 700;
   @include heading-margin(1.125);
   @include font-size(1.125);
 }
 
 h4 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: $f-sans;
   font-weight: 300;
   @include heading-margin(1.125);
   @include font-size(1.125);
@@ -41,7 +41,7 @@ h3 + h4 {
 
 // 3rd level heading couple
 h5 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: $f-sans;
   font-weight: 300;
   text-transform: uppercase;
   @include font-size;

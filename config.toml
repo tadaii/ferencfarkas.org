@@ -3,32 +3,35 @@ languageCode = "en-us"
 title = "Ferenc Farkas"
 enableRobotsTXT = true
 
+[outputFormats]
+[outputFormats.JSON]
+mediaType = "application/json"
 
 [params.header]
-  menuLabel = "Menu"
-  headline = "A european composer"
-  imageUrl = "/media/img/header-image.jpg"
+menuLabel = "Menu"
+headline = "A european composer"
+imageUrl = "/media/img/header-image.jpg"
 
 [[menu.main]]
-  name = "Life"
-  identifier = "life"
-  weight = 100
-  url = "/life"
+name = "Life"
+identifier = "life"
+weight = 100
+url = "/life"
 
 [[menu.main]]
-  name = "Work"
-  identifier = "work"
-  weight = 200
-  url = "/work"
+name = "Work"
+identifier = "work"
+weight = 200
+url = "/work"
 
 [[menu.main]]
-  name = "Media"
-  identifier = "media"
-  weight = 300
-  url = "/media"
+name = "Media"
+identifier = "media"
+weight = 300
+url = "/media"
 
 [[menu.main]]
-  name = "Contact"
-  identifier = "contact"
-  weight = 400
-  url = "/contact"
+name = "Contact"
+identifier = "contact"
+weight = 400
+url = "/contact"

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Frank+Ruhl+Libre:300,700");
 * {
   box-sizing: border-box;
 }
@@ -7,47 +7,47 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   color: #333333;
   background-color: transparent;
-  font-size: 14px;
-  line-height: 1.3833;
+  font-size: 19px;
+  line-height: 1.5;
 }
 
 @media (min-width: 375px) {
-  body {
-    font-size: 16px;
-  }
-}
-
-@media (min-width: 768px) {
-  body {
-    font-size: 18px;
-  }
-}
-
-@media (min-width: 1024px) {
   body {
     font-size: 20px;
   }
 }
 
-@media (min-width: 375px) {
-  body {
-    line-height: 1.375;
-  }
-}
-
 @media (min-width: 768px) {
   body {
-    line-height: 1.366;
+    font-size: 21px;
   }
 }
 
 @media (min-width: 1024px) {
   body {
-    line-height: 1.35;
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 375px) {
+  body {
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    line-height: 1.5;
   }
 }
 
@@ -80,285 +80,287 @@ body.invert {
 }
 
 h1 {
-  font-family: 'Lora', serif;
+  font-family: "Frank Ruhl Libre", serif;
   font-weight: 700;
-  margin: 22.75px 0 11.375px;
-  font-size: 22.75px;
-  line-height: 1.24497;
+  margin: 30.875px 0 15.4375px;
+  font-size: 30.875px;
+  line-height: 1.35;
 }
 
 @media (min-width: 375px) {
-  h1 {
-    margin: 26px 0 13px;
-  }
-}
-
-@media (min-width: 768px) {
-  h1 {
-    margin: 29.25px 0 14.625px;
-  }
-}
-
-@media (min-width: 1024px) {
   h1 {
     margin: 32.5px 0 16.25px;
   }
 }
 
-@media (min-width: 375px) {
-  h1 {
-    font-size: 26px;
-  }
-}
-
 @media (min-width: 768px) {
   h1 {
-    font-size: 29.25px;
+    margin: 34.125px 0 17.0625px;
   }
 }
 
 @media (min-width: 1024px) {
+  h1 {
+    margin: 35.75px 0 17.875px;
+  }
+}
+
+@media (min-width: 375px) {
   h1 {
     font-size: 32.5px;
   }
 }
 
-@media (min-width: 375px) {
-  h1 {
-    line-height: 1.2375;
-  }
-}
-
 @media (min-width: 768px) {
   h1 {
-    line-height: 1.2294;
+    font-size: 34.125px;
   }
 }
 
 @media (min-width: 1024px) {
   h1 {
-    line-height: 1.215;
+    font-size: 35.75px;
+  }
+}
+
+@media (min-width: 375px) {
+  h1 {
+    line-height: 1.35;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    line-height: 1.35;
+  }
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    line-height: 1.35;
   }
 }
 
 h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  margin: 19.25px 0 9.625px;
-  font-size: 19.25px;
-  line-height: 1.24497;
+  margin: 26.125px 0 13.0625px;
+  font-size: 26.125px;
+  line-height: 1.35;
 }
 
 @media (min-width: 375px) {
-  h2 {
-    margin: 22px 0 11px;
-  }
-}
-
-@media (min-width: 768px) {
-  h2 {
-    margin: 24.75px 0 12.375px;
-  }
-}
-
-@media (min-width: 1024px) {
   h2 {
     margin: 27.5px 0 13.75px;
   }
 }
 
-@media (min-width: 375px) {
-  h2 {
-    font-size: 22px;
-  }
-}
-
 @media (min-width: 768px) {
   h2 {
-    font-size: 24.75px;
+    margin: 28.875px 0 14.4375px;
   }
 }
 
 @media (min-width: 1024px) {
+  h2 {
+    margin: 30.25px 0 15.125px;
+  }
+}
+
+@media (min-width: 375px) {
   h2 {
     font-size: 27.5px;
   }
 }
 
-@media (min-width: 375px) {
-  h2 {
-    line-height: 1.2375;
-  }
-}
-
 @media (min-width: 768px) {
   h2 {
-    line-height: 1.2294;
+    font-size: 28.875px;
   }
 }
 
 @media (min-width: 1024px) {
   h2 {
-    line-height: 1.215;
+    font-size: 30.25px;
+  }
+}
+
+@media (min-width: 375px) {
+  h2 {
+    line-height: 1.35;
+  }
+}
+
+@media (min-width: 768px) {
+  h2 {
+    line-height: 1.35;
+  }
+}
+
+@media (min-width: 1024px) {
+  h2 {
+    line-height: 1.35;
   }
 }
 
 h1 + h2 {
-  margin-top: -9.625px;
+  margin-top: -13.0625px;
 }
 
 @media (min-width: 375px) {
-  h1 + h2 {
-    margin-top: -11px;
-  }
-}
-
-@media (min-width: 768px) {
-  h1 + h2 {
-    margin-top: -12.375px;
-  }
-}
-
-@media (min-width: 1024px) {
   h1 + h2 {
     margin-top: -13.75px;
   }
 }
 
-h3 {
-  font-family: 'Open Sans', serif;
-  font-weight: 700;
-  margin: 15.75px 0 7.875px;
-  font-size: 15.75px;
-}
-
-@media (min-width: 375px) {
-  h3 {
-    margin: 18px 0 9px;
-  }
-}
-
 @media (min-width: 768px) {
-  h3 {
-    margin: 20.25px 0 10.125px;
+  h1 + h2 {
+    margin-top: -14.4375px;
   }
 }
 
 @media (min-width: 1024px) {
+  h1 + h2 {
+    margin-top: -15.125px;
+  }
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  margin: 21.375px 0 10.6875px;
+  font-size: 21.375px;
+}
+
+@media (min-width: 375px) {
   h3 {
     margin: 22.5px 0 11.25px;
   }
 }
 
-@media (min-width: 375px) {
-  h3 {
-    font-size: 18px;
-  }
-}
-
 @media (min-width: 768px) {
   h3 {
-    font-size: 20.25px;
+    margin: 23.625px 0 11.8125px;
   }
 }
 
 @media (min-width: 1024px) {
   h3 {
+    margin: 24.75px 0 12.375px;
+  }
+}
+
+@media (min-width: 375px) {
+  h3 {
     font-size: 22.5px;
+  }
+}
+
+@media (min-width: 768px) {
+  h3 {
+    font-size: 23.625px;
+  }
+}
+
+@media (min-width: 1024px) {
+  h3 {
+    font-size: 24.75px;
   }
 }
 
 h4 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  margin: 15.75px 0 7.875px;
-  font-size: 15.75px;
+  margin: 21.375px 0 10.6875px;
+  font-size: 21.375px;
 }
 
 @media (min-width: 375px) {
-  h4 {
-    margin: 18px 0 9px;
-  }
-}
-
-@media (min-width: 768px) {
-  h4 {
-    margin: 20.25px 0 10.125px;
-  }
-}
-
-@media (min-width: 1024px) {
   h4 {
     margin: 22.5px 0 11.25px;
   }
 }
 
-@media (min-width: 375px) {
-  h4 {
-    font-size: 18px;
-  }
-}
-
 @media (min-width: 768px) {
   h4 {
-    font-size: 20.25px;
+    margin: 23.625px 0 11.8125px;
   }
 }
 
 @media (min-width: 1024px) {
+  h4 {
+    margin: 24.75px 0 12.375px;
+  }
+}
+
+@media (min-width: 375px) {
   h4 {
     font-size: 22.5px;
   }
 }
 
-h3 + h4 {
-  margin-top: -7.875px;
-}
-
-@media (min-width: 375px) {
-  h3 + h4 {
-    margin-top: -9px;
-  }
-}
-
 @media (min-width: 768px) {
-  h3 + h4 {
-    margin-top: -10.125px;
+  h4 {
+    font-size: 23.625px;
   }
 }
 
 @media (min-width: 1024px) {
+  h4 {
+    font-size: 24.75px;
+  }
+}
+
+h3 + h4 {
+  margin-top: -10.6875px;
+}
+
+@media (min-width: 375px) {
   h3 + h4 {
     margin-top: -11.25px;
   }
 }
 
-h5 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
-  font-size: 14px;
-}
-
-@media (min-width: 375px) {
-  h5 {
-    font-size: 16px;
-  }
-}
-
 @media (min-width: 768px) {
-  h5 {
-    font-size: 18px;
+  h3 + h4 {
+    margin-top: -11.8125px;
   }
 }
 
 @media (min-width: 1024px) {
+  h3 + h4 {
+    margin-top: -12.375px;
+  }
+}
+
+h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 19px;
+}
+
+@media (min-width: 375px) {
   h5 {
     font-size: 20px;
   }
 }
 
+@media (min-width: 768px) {
+  h5 {
+    font-size: 21px;
+  }
+}
+
+@media (min-width: 1024px) {
+  h5 {
+    font-size: 22px;
+  }
+}
+
 p {
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: 100;
   margin: 20px 0 10px;
 }
 
@@ -409,7 +411,7 @@ img {
 button {
   padding: 15px;
   margin: 10px 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: white;
   border-radius: 8px;
@@ -417,24 +419,24 @@ button {
   border: none;
   outline: none;
   background-color: black;
-  font-size: 12.25px;
+  font-size: 16.625px;
 }
 
 @media (min-width: 375px) {
   button {
-    font-size: 14px;
+    font-size: 17.5px;
   }
 }
 
 @media (min-width: 768px) {
   button {
-    font-size: 15.75px;
+    font-size: 18.375px;
   }
 }
 
 @media (min-width: 1024px) {
   button {
-    font-size: 17.5px;
+    font-size: 19.25px;
   }
 }
 
@@ -442,6 +444,7 @@ button {
   display: inline-block;
   padding-bottom: 9px;
   margin: 20px 0 10px;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   border-bottom: 1px solid black;
@@ -716,10 +719,29 @@ Section.invert .Download .download__meta {
 
 .Header-headline {
   display: none;
+  font-size: 14px;
   font-weight: 300;
   text-transform: uppercase;
   color: white;
   -webkit-font-smoothing: antialiased;
+}
+
+@media (min-width: 375px) {
+  .Header-headline {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .Header-headline {
+    font-size: 17.5px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Header-headline {
+    font-size: 20px;
+  }
 }
 
 .full .Header-headline {
@@ -730,7 +752,7 @@ Section.invert .Download .download__meta {
   position: relative;
   display: flex;
   flex-direction: column;
-  padding-left: 14px;
+  padding-left: 19px;
   outline: none;
 }
 
@@ -745,7 +767,7 @@ Section.invert .Download .download__meta {
   display: block;
   position: absolute;
   top: 0;
-  left: calc(100% + 14px);
+  left: calc(100% + 19px);
   text-transform: uppercase;
   opacity: .65;
   will-change: opacity;
@@ -848,7 +870,7 @@ Section.invert .Download .download__meta {
   flex-direction: row;
   visibility: hidden;
   margin-left: 10px;
-  padding: 20px 7px 14px;
+  padding: 22px 9.5px 19px;
   will-change: visibility;
 }
 
@@ -867,20 +889,40 @@ Section.invert .Download .download__meta {
 .Header li a {
   position: relative;
   display: block;
-  padding: 0 7px;
+  padding: 0 5px;
+  font-size: 17.1px;
+  font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
   color: black;
   outline: none;
 }
 
+@media (min-width: 375px) {
+  .Header li a {
+    font-size: 18px;
+  }
+}
+
 @media (min-width: 768px) {
   .Header li a {
-    padding: 0 9px;
+    font-size: 18.9px;
   }
 }
 
 @media (min-width: 1024px) {
+  .Header li a {
+    font-size: 19.8px;
+  }
+}
+
+@media (min-width: 375px) {
+  .Header li a {
+    padding: 0 6.66667px;
+  }
+}
+
+@media (min-width: 768px) {
   .Header li a {
     padding: 0 10px;
   }
@@ -962,7 +1004,7 @@ Section.invert .Download .download__meta {
 
 .Header-subnav-wrapper ul {
   margin: 0;
-  padding-top: 7px;
+  padding-top: 9.5px;
   padding-right: 20px;
 }
 
@@ -1008,24 +1050,24 @@ footer {
   font-weight: 300;
   color: #9A9A9A;
   overflow: hidden;
-  font-size: 11.55px;
+  font-size: 15.675px;
 }
 
 @media (min-width: 375px) {
   footer {
-    font-size: 13.2px;
+    font-size: 16.5px;
   }
 }
 
 @media (min-width: 768px) {
   footer {
-    font-size: 14.85px;
+    font-size: 17.325px;
   }
 }
 
 @media (min-width: 1024px) {
   footer {
-    font-size: 16.5px;
+    font-size: 18.15px;
   }
 }
 

@@ -2,18 +2,22 @@
 $s-container-width: 1024px;
 $s-spacing-base:    20px;
 
+// Font type
+$f-sans: 'Open Sans', sans-serif;
+$f-serif: 'Frank Ruhl Libre', serif;
+
 // Font size
-$f-fontsize-xs:   14px;
-$f-lineheight-xs: 1.3833;
+$f-fontsize-xs:   19px;
+$f-lineheight-xs: 1.5;
 
-$f-fontsize-ss:   16px;
-$f-lineheight-ss: 1.375;
+$f-fontsize-ss:   20px;
+$f-lineheight-ss: 1.5;
 
-$f-fontsize-md:   18px;
-$f-lineheight-md: 1.366;
+$f-fontsize-md:   21px;
+$f-lineheight-md: 1.5;
 
-$f-fontsize-lg:   20px;
-$f-lineheight-lg: 1.35;
+$f-fontsize-lg:   22px;
+$f-lineheight-lg: 1.5;
 
 $font-sizes: (
   xs: $f-fontsize-xs,
