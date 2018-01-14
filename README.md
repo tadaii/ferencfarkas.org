@@ -2,7 +2,7 @@
 
 The **ferencfarkas.org** project aims to promote the work of hungarian classical music composer **Ferenc Farkas** (1905 - 2000).
 
-## What is it ?
+## Goals of the project
 
 The **ferencfarkas.org** project is a website with 3 main goals in mind:
 
