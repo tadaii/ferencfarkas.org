@@ -6,7 +6,7 @@ Please [read the shortcodes documentation on the Hugo website](https://gohugo.io
 
 ## Layout shortcodes
 
-### section
+### Section {#id}
 
 The `section` shortcode wraps your content in a block. Every page content file must have at least 1 `section`. Sections help separate different parts of a page making it more readable.
 
@@ -16,12 +16,12 @@ Base syntax:
 {{% section %}}
 ```
 
-#### Mode
+#### Modes
 Section accepts a mode argument which changes the its background color. If no mode is provided, background color is white.
 
 Available modes are:
 
-##### highlight
+##### Highlight
 
 Sets the background color to the **primary color** defined in your corporate styles.
 
@@ -29,7 +29,7 @@ Sets the background color to the **primary color** defined in your corporate sty
 {{% section highlight %}}
 ```
 
-##### focus
+##### Focus
 
 Sets the background color to the **secondary color**.
 
@@ -37,7 +37,7 @@ Sets the background color to the **secondary color**.
 {{% section focus %}}
 ```
 
-##### invert
+##### Invert
 
 Sets the background color to dark gray (defined in your corporate styles).
 
