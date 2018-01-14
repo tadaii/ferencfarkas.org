@@ -4,4 +4,4 @@
 _site_FF
 SETUP*
 node_modules
-content/work/catalog/*
+content/work/catalog/*.md
