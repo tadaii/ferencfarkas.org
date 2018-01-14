@@ -4,7 +4,7 @@ Shortcodes are simple snippets that can be used inside markdwon content files al
 
 Please [read the shortcodes documentation on the Hugo website](https://gohugo.io/content-management/shortcodes/).
 
-## Layout shortcodes
+## Layout
 
 ### Section {#id}
 
@@ -16,12 +16,12 @@ Base syntax:
 {{% section %}}
 ```
 
-#### Modes
+##### Modes
 Section accepts a mode argument which changes the its background color. If no mode is provided, background color is white.
 
 Available modes are:
 
-##### Highlight
+###### Highlight
 
 Sets the background color to the **primary color** defined in your corporate styles.
 
@@ -29,7 +29,7 @@ Sets the background color to the **primary color** defined in your corporate sty
 {{% section highlight %}}
 ```
 
-##### Focus
+###### Focus
 
 Sets the background color to the **secondary color**.
 
@@ -37,7 +37,7 @@ Sets the background color to the **secondary color**.
 {{% section focus %}}
 ```
 
-##### Invert
+###### Invert
 
 Sets the background color to dark gray (defined in your corporate styles).
 
@@ -45,3 +45,41 @@ Sets the background color to dark gray (defined in your corporate styles).
 {{% section invert %}}
 ```
 
+### Columns {#id}
+
+#### Column {#id}
+
+
+## Containers {#id}
+
+### Collapsible {#id}
+
+### Accordion {#id}
+
+### Slides {#id}
+
+#### Slide {#id}
+
+
+## Media {#id}
+
+### Image {#id}
+
+### Audioplayer {#id}
+
+### Vimeo {#id}
+
+### Youtube {#id}
+
+### Tweet{#id}
+
+## Links {#id}
+
+### Cross references {#id}
+### More {#id}
+### Downlaod {#id}
+
+
+## Actions
+
+### Button {#id}
