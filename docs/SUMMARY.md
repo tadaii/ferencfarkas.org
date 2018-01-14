@@ -6,9 +6,6 @@
 * [Tools](TOOLS.md)
 * [Installation](INSTALL.md)
 
-## UI Guide
-* [Corporate styles](ui-guide/corporate-styles.md)
-
 ### Content editing
 
 * [Content organization](content/organization.md)
@@ -17,6 +14,9 @@
 * [Edit content](content/edit.md)
 * [Publish content](content/publish.md)
 * [Catalog](content/catalog.md)
+
+## UI Guide
+* [Corporate styles](ui-guide/corporate-styles.md)
 
 ## Reference
 
