@@ -57,7 +57,7 @@ type Work struct {
 // NewCatalogID generates a new CatalogID object.
 func NewCatalogID(title string, count int) CatalogID {
 	name := strings.ToLower(sanitize.Name(title))
-	guid := uuid.NewV4()
+	guid, _ := uuid.NewV4()
 	numid := count + 1
 	id := fmt.Sprintf("%04d", numid) + "-" + name
 
