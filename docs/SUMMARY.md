@@ -6,7 +6,7 @@
 * [Tools](TOOLS.md)
 * [Installation](INSTALL.md)
 
-### [Content editing[(content/README.md)
+### [Content editing](content/README.md)
 
 * [Content organization](content/organization.md)
 * [Content types](content/types.md)
