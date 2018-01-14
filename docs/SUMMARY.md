@@ -16,6 +16,7 @@
 * [Catalog](content/catalog.md)
 
 ## UI Guide
+* [Prototypes](ui-guide/prototypes.md)
 * [Corporate styles](ui-guide/corporate-styles.md)
 
 ## Reference
