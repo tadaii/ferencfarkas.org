@@ -9,7 +9,7 @@ date: 2017-12-23T22:18:34+01:00
 
 {{% columns %}}
 {{% column align="center" %}}
-![Mon père m'a raconté](/media/img/book1.png "Mon père m'a raconté")<!-- display: block; max-width: 65%; margin: 40px auto; -->
+![Mon père m'a pas raconté](/media/img/book1.png "Mon père m'a raconté")<!-- display: block; max-width: 65%; margin: 40px auto; -->
 
 {{< button
   label="Order your copy now!"
