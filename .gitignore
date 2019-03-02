@@ -1,7 +1,9 @@
 .DS_Store
 .vscode
-/public
+.env
 _site_FF
 SETUP*
 node_modules
-content/work/catalog/*.md
+/catalogue/word-to-yaml/dst/*
+/website/public
+/website/content/work/catalog/*.md
