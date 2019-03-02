@@ -88,9 +88,6 @@ const dd = {
             }
           })
 
-        console.log(JSON.parse(JSON.stringify(work)))
-        console.log('------')
-
         return {
           table: {
             widths: [65, '*'],
