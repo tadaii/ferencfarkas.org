@@ -1,10 +1,10 @@
 {
   "src": {
-    "works": "../word-to-yaml/dst/works",
-    "categories": "../word-to-yaml/dst/categories.yaml",
-    "publishers": "../word-to-yaml/dst/publishers.yaml",
-    "relations": "../word-to-yaml/dst/relations",
+    "works": "../word-to-yaml/dist/works",
+    "categories": "../word-to-yaml/dist/categories.yaml",
+    "publishers": "../word-to-yaml/dist/publishers.yaml",
+    "relations": "../word-to-yaml/dist/relations",
     "fileExtensions": [".yaml"]
   },
-  "dst": "./dst/catalogue.pdf"
+  "dst": "./dist/catalogue.pdf"
 }
