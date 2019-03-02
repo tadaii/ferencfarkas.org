@@ -68,7 +68,7 @@ const dd = {
               return [
                 {},
                 {
-                  text: work.title,
+                  text: work.title.translations.hu,
                   bold: true,
                   fontSize: 9,
                   margin: [0, 22, 40, 0]
