@@ -5,11 +5,7 @@ const PdfPrinter = require('pdfmake')
 const yaml = require('yaml')
 const shell = require('shelljs')
 const { join, resolve, dirname, basename, extname } = require('path')
-const {
-  readdirSync,
-  readFileSync,
-  createWriteStream
-} = require('fs')
+const { readdirSync, readFileSync, createWriteStream } = require('fs')
 
 // Load yaml file
 const loadFile = file => {
@@ -18,15 +14,15 @@ const loadFile = file => {
 
 // Load yaml files from dir
 const loadDir = (dir, asMap = false) => {
-  const files = readdirSync(resolve(dir))
-    .filter(file => config.src.fileExtensions.includes(extname(file)))
+  const files = readdirSync(resolve(dir)).filter(file =>
+    config.src.fileExtensions.includes(extname(file))
+  )
 
   if (asMap) {
-    return files
-      .reduce((acc, file) => {
-        acc[basename(file, extname(file))] = loadFile(join(dir, file))
-        return acc
-      }, {})
+    return files.reduce((acc, file) => {
+      acc[basename(file, extname(file))] = loadFile(join(dir, file))
+      return acc
+    }, {})
   }
 
   return files.map(y => loadFile(join(dir, y)))
@@ -46,7 +42,7 @@ const categories = loadFile(config.src.categories)
 
 // Build PDF content
 const dd = {
-  footer: function(currentPage, pageCount) {
+  footer: function (currentPage, pageCount) {
     return {
       text: currentPage.toString() + ' / ' + pageCount,
       height: 320,
@@ -56,47 +52,68 @@ const dd = {
   },
   content: [
     categories.map((category, index) => {
-      const worksInCategory = relations.categories[category.catalog_id.uuid]
-        .map(uuid => {
-          const work = works.find(w => uuid === w.catalog_id.uuid)
-          let workTable = Object.keys(work).filter((key) => {
-            return key !== 'catalog_id' && key !== 'category_id'
-          })
-          .filter(key => key !== 'date')
+      const worksInCategory = relations.categories[
+        category['catalog-id'].uuid
+      ].map(uuid => {
+        const work = works.find(w => uuid === w['catalog-id'].uuid)
+        let workTable = Object.keys(work)
+          .filter(
+            key =>
+              !['catalog-id', 'date', 'original-value', 'movements'].includes(
+                key
+              )
+          )
           .map(key => {
             if (key === 'title') {
               return [
                 {},
-                { text: work.title, bold: true, fontSize: 9, margin: [0, 22, 40, 0] }
+                {
+                  text: work.title,
+                  bold: true,
+                  fontSize: 9,
+                  margin: [0, 22, 40, 0]
+                }
               ]
             } else {
               return [
-                { text: key, alignment: 'right', bold: true, fontSize: 6, margin: [0, 0, 0, 1] },
+                {
+                  text: key,
+                  alignment: 'right',
+                  bold: true,
+                  fontSize: 6,
+                  margin: [0, 0, 0, 1]
+                },
                 { text: work[key], margin: [0, -1, 40, -1] }
               ]
             }
           })
 
-          return {
-            table: {
-              widths: [ 65, '*' ],
-              body: workTable
-            },
-            layout: 'noBorders'
-          }
-        })
+        console.log(JSON.parse(JSON.stringify(work)))
+        console.log('------')
 
-      return [{
-        table: {
-          widths: [62, '*'],
-          body: [
-            [{}, { text: (category.title + '').toUpperCase(), fontSize: 15 }]
-          ]
+        return {
+          table: {
+            widths: [65, '*'],
+            body: workTable
+          },
+          layout: 'noBorders'
+        }
+      })
+
+      return [
+        {
+          table: {
+            widths: [62, '*'],
+            body: [
+              [{}, { text: (category.title + '').toUpperCase(), fontSize: 15 }]
+            ]
+          },
+          margin: [0, 15, 0, 0],
+          layout: 'noBorders',
+          pageBreak: index > 0 ? 'before' : ''
         },
-        margin: [0, 15, 0, 0],
-        layout: 'noBorders',
-        pageBreak: index > 0 ? 'before' : ''
-      }, worksInCategory]
+        worksInCategory
+      ]
     })
   ],
   defaultStyle: {
@@ -108,10 +125,10 @@ const dd = {
 // Define fonts to use in PDF file
 const fonts = {
   OpenSans: {
-      normal: resolve('./fonts/OpenSans-Light.ttf'),
-      bold: resolve('./fonts/OpenSans-Semibold.ttf'),
-      italics: resolve('./fonts/OpenSans-Italic.ttf'),
-      bolditalics: resolve('./fonts/OpenSans-BoldItalic.ttf')
+    normal: resolve('./fonts/OpenSans-Light.ttf'),
+    bold: resolve('./fonts/OpenSans-Semibold.ttf'),
+    italics: resolve('./fonts/OpenSans-Italic.ttf'),
+    bolditalics: resolve('./fonts/OpenSans-BoldItalic.ttf')
   }
 }
 
