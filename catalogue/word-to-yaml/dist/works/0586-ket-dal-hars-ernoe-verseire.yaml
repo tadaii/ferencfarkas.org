@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0586-ket-dal-hars-ernoe-verseire
+  num-id: 586
+  name: ket-dal-hars-ernoe-verseire
+  uuid: b8669e52-a296-4f0e-b809-77a761f22586
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Két dal Hárs Ernö verseire
+composition-date: "1989"
+source: manuscript by András Farkas

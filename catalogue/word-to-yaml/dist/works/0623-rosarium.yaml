@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0623-rosarium
+  num-id: 623
+  name: rosarium
+  uuid: a24532e8-9bc6-4654-9a99-fbd8ccd7c468
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: de
+  original: de
+  sort:
+  - de
+  translations:
+    de: Rosarium
+composition-date: 1933-1976
+reworking: Rosarium for voice, flute, violoncello and guitar

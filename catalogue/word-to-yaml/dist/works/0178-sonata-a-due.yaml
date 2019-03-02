@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0178-sonata-a-due
+  num-id: 178
+  name: sonata-a-due
+  uuid: a7a7b8af-feba-42bb-9f7c-101513ec2fdf
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Sonata a due
+composition-date: "1961"
+movements:
+- original-value: Maestoso, Andante moderato, Allegro non troppo

@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0742-vizkereszt
+  num-id: 742
+  name: vizkereszt
+  uuid: d0436eee-23ed-4128-9910-7c753a4f496c
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - en
+  translations:
+    en: Twelfth night by Shakespeare, 1954
+    hu: Vízkereszt

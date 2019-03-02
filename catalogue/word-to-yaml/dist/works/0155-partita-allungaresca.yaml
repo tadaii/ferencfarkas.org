@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0155-partita-allungaresca
+  num-id: 155
+  name: partita-allungaresca
+  uuid: 00017959-ddf3-4daf-9205-e7d0a2ab984c
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Partita all'ungaresca
+composition-date: "1995"
+reworking: Partita all’ungaresca for string orchestra Contrafacta Hungarica for wind
+  octet
+source: manuscript by András Farkas

@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0569-fuelemile
+  num-id: 569
+  name: fuelemile
+  uuid: 008f0302-37d5-414c-ac83-d29047cb7b23
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Fülemile
+composition-date: "1941"

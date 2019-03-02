@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0144-loecsei-tancok
+  num-id: 144
+  name: loecsei-tancok
+  uuid: 59bc3fd5-a99a-4420-a1d3-24ce90acac65
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - it
+  translations:
+    hu: Löcsei táncok
+    it: Antiche danze
+composition-date: "1947"
+movements:
+- original-value: Allegro moderato, Allegro molto moderato, Andantino
+source: manuscript by András Farkas
+dedication: Molnár Zoltánnak ajánlja a régi barátsággal és szeretettel

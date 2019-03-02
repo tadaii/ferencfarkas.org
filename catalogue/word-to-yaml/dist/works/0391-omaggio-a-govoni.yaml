@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0391-omaggio-a-govoni
+  num-id: 391
+  name: omaggio-a-govoni
+  uuid: 564b808f-3c78-4d18-a29b-a965b1f5d060
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Omaggio a Govoni
+composition-date: "1990"
+source: manuscript by András Farkas

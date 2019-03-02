@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0580-harom-kuruc-dal
+  num-id: 580
+  name: harom-kuruc-dal
+  uuid: 06cd95cf-3a63-467d-a518-c386e40b20b7
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - en
+  translations:
+    en: Three songs
+    hu: Három kuruc dal
+composition-date: "1953"
+reworking: Kurucdal for 4-part male choir and piano ad lib. Csínom Palkó, opera

@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0606-mistel
+  num-id: 606
+  name: mistel
+  uuid: d6fb141f-e8ed-489a-85bd-366221d32131
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: de
+  original: hu
+  sort:
+  - de
+  - hu
+  translations:
+    de: Mistel
+    hu: Fagyöngy
+composition-date: "1932"
+reworking: Mistel / Fagyöngy for voice and orchestra

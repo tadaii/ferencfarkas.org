@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0422-villancico
+  num-id: 422
+  name: villancico
+  uuid: 6d440b06-c48b-4e28-8b14-938b04ef44f3
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: es
+  original: es
+  sort:
+  - es
+  translations:
+    es: Villancico
+composition-date: "1998"
+reworking: 'Kicsi gyermek for female choir Christmas album no 10 : Kicsi gyermek for
+  voice and piano'
+dedication: to Françoise Farkas

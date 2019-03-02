@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0416-tavasz-nyar-oesz-tel
+  num-id: 416
+  name: tavasz-nyar-oesz-tel
+  uuid: c3e63a75-3361-4b73-9d16-7d00bbbc5937
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Tavasz, nyár, ősz, tél
+composition-date: "1962"

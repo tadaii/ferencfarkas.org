@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0394-pasztell
+  num-id: 394
+  name: pasztell
+  uuid: b7baf07d-edfb-4747-961a-e0dc49e1634d
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Pasztell
+composition-date: "1986"

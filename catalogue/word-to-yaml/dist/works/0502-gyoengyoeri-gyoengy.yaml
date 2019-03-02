@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0502-gyoengyoeri-gyoengy
+  num-id: 502
+  name: gyoengyoeri-gyoengy
+  uuid: b2ebb237-d5f8-4f05-b559-627310972d16
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Gyöngyöri-gyöngy
+reworking: A string of pearls for children’s choir

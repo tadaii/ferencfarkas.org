@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0182-sonatina-no-2
+  num-id: 182
+  name: sonatina-no-2
+  uuid: 94b3cbb8-17cf-4ba8-9e09-e457bbd39db0
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Sonatina no.2
+composition-date: "1931"
+movements:
+- original-value: Allegro molto, Andante, Scherzando
+dedication: to Ede Zathureczky

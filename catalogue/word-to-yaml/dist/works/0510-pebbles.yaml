@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0510-pebbles
+  num-id: 510
+  name: pebbles
+  uuid: a7db526d-5617-47fa-9978-acf96b30d161
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Pebbles
+    hu: Kavicsok
+composition-date: 1979 - 1980
+dedication: Istvánkának

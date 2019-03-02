@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0504-hat-magyar-nepdal
+  num-id: 504
+  name: hat-magyar-nepdal
+  uuid: 23948adf-9f28-4c11-a4dd-2bb3e4de4b37
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Hat magyar népdal
+reworking: Six chansons populaires hongroises for children’s choir

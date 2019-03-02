@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0119-dialoghi
+  num-id: 119
+  name: dialoghi
+  uuid: 3360682b-e34e-4dc8-867d-82337bcfb730
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: de
+  original: de
+  sort:
+  - de
+  translations:
+    de: Dialoghi
+composition-date: "1987"
+movements:
+- original-value: Moderato cantabile, Scherzo, Allegro leggero

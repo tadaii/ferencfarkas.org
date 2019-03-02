@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0260-a-gyermek-hazamegy
+  num-id: 260
+  name: a-gyermek-hazamegy
+  uuid: 0ffb5022-cfcc-4722-995f-54a13cfa4faa
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: A gyermek hazamegy
+composition-date: 1991-1992
+setting: 2, 2, 2, 2 – 2, 2, 1, 0 – timp. – archi
+source: 'score, piano reduction, vocal score and performance material: manuscript
+  by András Farkas'

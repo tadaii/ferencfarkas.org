@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0084-concertino-for-harpsichord-and-string-orchestra-or-string-quintet-or-string-quartet
+  num-id: 84
+  name: concertino-for-harpsichord-and-string-orchestra-or-string-quintet-or-string-quartet
+  uuid: e855ed2b-dff1-481b-be41-8d4215e72928
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Concertino for harpsichord and string orchestra or string quintet or string
+      quartet
+composition-date: "1949"
+reworking: Concertino for piano and orchestra

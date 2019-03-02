@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0392-omaggio-a-leopardi
+  num-id: 392
+  name: omaggio-a-leopardi
+  uuid: c95f9db0-927e-4384-a7f1-f6d3748e3d25
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Omaggio a Leopardi
+composition-date: "1990"
+source: manuscript by András Farkas

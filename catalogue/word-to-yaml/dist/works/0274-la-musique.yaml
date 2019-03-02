@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0274-la-musique
+  num-id: 274
+  name: la-musique
+  uuid: 9828ffe8-5648-40af-875b-3adf0d8660d3
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: pt
+  original: pt
+  sort:
+  - pt
+  translations:
+    pt: La musique
+composition-date: "1990"
+setting: 2 fl., 2 ob., 2 cl., 2 fg., 2 cor., 2 tr.
+dedication: écrit pour le Florilège vocal de Tours et dédié á Claude Panterne

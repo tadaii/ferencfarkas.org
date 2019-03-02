@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0651-estampas-espanolas
+  num-id: 651
+  name: estampas-espanolas
+  uuid: cb482166-211b-4d7b-a7b9-8de7abf36db4
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Estampas espanolas
+composition-date: "1988"

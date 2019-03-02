@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0441-hommage-a-trakl
+  num-id: 441
+  name: hommage-a-trakl
+  uuid: 821e9b25-45dc-473a-835c-d2f3d9e6b858
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Hommage à Trakl
+composition-date: 1996-1997
+dedication: an die “Harmonie” Lindenholzhausen und seinem Dirigenten Martin Winkler
+  herzlichst gewidmet

@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0608-negy-dal-paskandi-geza-verseire
+  num-id: 608
+  name: negy-dal-paskandi-geza-verseire
+  uuid: ed11d046-8169-45b2-a980-989cc9987d62
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Négy dal Páskándi Géza verseire
+composition-date: 1989-1990
+source: manuscript by András Farkas

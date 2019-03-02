@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0483-keresztoeltes
+  num-id: 483
+  name: keresztoeltes
+  uuid: 48093714-25ad-47b9-91c3-d3f1fb86e7fe
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Keresztöltés
+composition-date: "1967"

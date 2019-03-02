@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0333-emleksorok
+  num-id: 333
+  name: emleksorok
+  uuid: 06892e1f-b964-4bf9-a96c-63fd5b72842d
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Emléksorok
+composition-date: "1962"
+dedication: Kókai Rezsö emlékének

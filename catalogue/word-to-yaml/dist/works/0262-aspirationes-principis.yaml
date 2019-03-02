@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0262-aspirationes-principis
+  num-id: 262
+  name: aspirationes-principis
+  uuid: cf462cd9-22e9-42aa-b6eb-09eba1c3f3ac
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Aspirationes principis
+    hu: Rákóczi cantata
+composition-date: 1974-1975
+setting: 3 (picc.), 3 (III=c.i.), 3 (cl. b.), 3 (cfg.) – 4, 3, 3, 0 – timp., batt.
+  – 2 arpe, pf., cel. – archi

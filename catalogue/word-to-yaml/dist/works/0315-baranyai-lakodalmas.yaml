@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0315-baranyai-lakodalmas
+  num-id: 315
+  name: baranyai-lakodalmas
+  uuid: e9931582-ca50-4c40-bd07-0bb6255b6812
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: ms
+  original: ms
+  sort:
+  - ms
+  - en
+  translations:
+    en: Wedding songs from Baranya
+    ms: Baranyai lakodalmas
+composition-date: "1957"
+setting: 3 clarinets, 3 cimbaloms, strings
+reworking: Baranyai lakodalmas / Wedding songs from Baranya for 3-part mixed choir
+source: manuscript by András Farkas

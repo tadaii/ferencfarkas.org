@@ -1,0 +1,29 @@
+catalog-id:
+  id: 0004-egy-ur-velenceboel-casanova
+  num-id: 4
+  name: egy-ur-velenceboel-casanova
+  uuid: 22e98878-b579-42f5-bb04-720659886f3e
+date: "2019-03-02T15:13:23+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - en
+  - fr
+  - de
+  translations:
+    de: Ein Herr aus Venedig, Casanova
+    en: A gentleman from Venice, Casanova
+    fr: Un seigneur de Venise, Casanova
+    hu: Egy ur Velencéből, Casanova
+composition-date: 1979-1980
+synopsis: Bolzano, 1756. Casanova, escaping from the lead chambers of Venice meets
+  the Comte of Parma and his former love, Francesca.
+setting: 1, 1, 1, 1 – 2, 1, 1, 0 – timp., batt. – arpa, pf. (cel.) – 1 vl. I, 1 vl.
+  II, 1 viola, 1 vlc., 1 cb.
+source: 'score & piano reduction: manuscript by András Farkas performance material:
+  Hungarian State Opera House of Budapest'
+world-premiere: 'Hungarian State Opera House of Budapest, 4 june 1991, conducted by
+  János Kovács, stage dir.: László Vámos, stage design: Attila Csikós, costumes: Tivadar
+  Márk'

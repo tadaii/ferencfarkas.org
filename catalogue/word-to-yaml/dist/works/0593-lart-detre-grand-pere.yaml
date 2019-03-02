@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0593-lart-detre-grand-pere
+  num-id: 593
+  name: lart-detre-grand-pere
+  uuid: c377313c-df88-43f7-9112-f823572f9ddb
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: L'art d'être grand-père
+composition-date: "1985"
+source: manuscript by András Farkas
+dedication: pour l'anniversaire de Grand-maman et de la petite famille

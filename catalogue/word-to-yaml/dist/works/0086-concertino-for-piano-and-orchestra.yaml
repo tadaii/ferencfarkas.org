@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0086-concertino-for-piano-and-orchestra
+  num-id: 86
+  name: concertino-for-piano-and-orchestra
+  uuid: d60b3303-189d-4dd8-8cc1-7b5789a66e77
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Concertino for piano and orchestra
+composition-date: "1947"
+setting: 2 ( picc. ), 2 ( c.i.), 2, 2 (cfg) – 4, 2, 3, 0 – timp., batt. – archi
+reworking: Concertino for harpsichord and string orchestra or string quintet or string
+  quartet

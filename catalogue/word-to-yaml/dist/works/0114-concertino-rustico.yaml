@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0114-concertino-rustico
+  num-id: 114
+  name: concertino-rustico
+  uuid: 1ffe7674-d396-4adb-b05a-91046062fae9
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: es
+  original: es
+  sort:
+  - es
+  translations:
+    es: Concertino rustico
+composition-date: "1977"
+movements:
+- original-value: Allegro, Andante, Allegro vivace
+reworking: Concertino rustico for Alphorn and string orchestra
+source: manuscript by András Farkas

@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0266-deep-river
+  num-id: 266
+  name: deep-river
+  uuid: 0cd85786-7faf-4cbb-b42e-b62f77a460b4
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  - af
+  translations:
+    af: Zúgj hullám
+    en: Deep river
+composition-date: "1965"
+setting: 1, 0, 2 (cl.b.), 1 – 0, 2, 1, 0 – chit. – 3 vl., 2 vla, 1 vlc., 1 cb.
+source: 'score: manuscript by András Farkas'

@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0377-laus-joannis-vitezue-archiepiscopi
+  num-id: 377
+  name: laus-joannis-vitezue-archiepiscopi
+  uuid: 3f616bbf-5196-43cb-9f58-a7227345d3da
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: la
+  original: hu
+  sort:
+  - la
+  - hu
+  translations:
+    hu: Vitéz János érsek dicsérete
+    la: Laus Joannis Vitézü Archiepiscopi
+composition-date: "1986"
+source: manuscript by András Farkas

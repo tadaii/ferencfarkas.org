@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0364-integer-vitae
+  num-id: 364
+  name: integer-vitae
+  uuid: 01bbd4ff-7ae4-4c22-ac6b-0a36b22bdf5c
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: la
+  original: la
+  sort:
+  - la
+  translations:
+    la: Integer vitae
+composition-date: "1999"
+source: manuscript by András Farkas
+dedication: Kiss Katalinnak és az Ars Nova énekegyüttesnek

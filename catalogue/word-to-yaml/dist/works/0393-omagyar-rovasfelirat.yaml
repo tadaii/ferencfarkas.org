@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0393-omagyar-rovasfelirat
+  num-id: 393
+  name: omagyar-rovasfelirat
+  uuid: 78253340-8c8e-4c73-a6b9-e6c587c88033
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Ómagyar rovásfelirat
+composition-date: "1997"
+source: manuscript by András Farkas

@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0561-erdely
+  num-id: 561
+  name: erdely
+  uuid: cff805e6-82a8-4174-bf9c-72cff712f5a8
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Erdély
+composition-date: "1940"
+source: manuscript by András Farkas

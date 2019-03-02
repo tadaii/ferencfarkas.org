@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0285-turris-hungariae-enek-vitez-thury-gyoergyroel
+  num-id: 285
+  name: turris-hungariae-enek-vitez-thury-gyoergyroel
+  uuid: b777955e-0e7b-4da3-b1a9-394e285e28fb
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Turris Hungariae. Enek Vitéz Thúry Györgyröl
+composition-date: 1977-1978
+setting: 2, 2, 2, 2 – 3, 2, 3, 0 – timp., batt. - archi
+source: 'piano reduction: manuscript by András Farkas'

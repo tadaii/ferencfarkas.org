@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0007-vidroczki
+  num-id: 7
+  name: vidroczki
+  uuid: 30dd635b-8962-4911-a295-09233c5005b9
+date: "2019-03-02T15:13:23+00:00"
+title:
+  main: pl
+  original: pl
+  sort:
+  - pl
+  translations:
+    pl: Vidróczki
+composition-date: 1958-1959
+source: 'piano reduction : manuscript by András Farkas'

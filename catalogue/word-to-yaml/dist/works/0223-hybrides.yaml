@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0223-hybrides
+  num-id: 223
+  name: hybrides
+  uuid: 6554ec05-d714-4e9a-8c29-dab6cfb67b3b
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Hybrides
+composition-date: "1957"
+reworking: Hybrides for cimbalom

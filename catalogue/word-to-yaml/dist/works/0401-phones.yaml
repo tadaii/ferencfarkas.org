@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0401-phones
+  num-id: 401
+  name: phones
+  uuid: 74adced1-d3e8-407b-98ea-60672da13560
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Phones
+composition-date: "1992"
+source: manuscript by András Farkas

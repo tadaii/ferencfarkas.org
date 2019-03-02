@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0278-magyar-betlehem
+  num-id: 278
+  name: magyar-betlehem
+  uuid: 5e4d5ff9-1556-463e-8890-75e33b28e62e
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Magyar Betlehem
+composition-date: "1938"
+setting: 1, 1, 1, 0 – 0, 0, 1, 0 – timp., batt. – arpa, pf., arm. – archi
+source: 'score, piano reduction & performance material: manuscript by András Farkas'

@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0220-five-easy-piano-pieces
+  num-id: 220
+  name: five-easy-piano-pieces
+  uuid: a30eb4fb-39e3-4167-b90c-5b9cc7e8047a
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Five easy piano pieces
+    hu: Öt könnyü zongoradarab
+composition-date: "1956"
+reworking: Five easy piano pieces for 2 cimbaloms Csángó szonatina for 3 guitars Sonatina
+  for harp
+dedication: to my son András

@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0060-finnish-popular-dances
+  num-id: 60
+  name: finnish-popular-dances
+  uuid: c676ba1c-d49c-40b5-b3dd-05d6989df4d9
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  - de
+  - ca
+  translations:
+    ca: Danses populaires finlandaises
+    de: Finnische Volkstänze
+    en: Finnish popular dances
+composition-date: "1935"

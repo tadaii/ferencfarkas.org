@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0227-journal-1987
+  num-id: 227
+  name: journal-1987
+  uuid: 7166aa36-3257-4bac-b74c-374d8a55ffb0
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Journal 1987
+    hu: Naplójegyzetek 1987
+composition-date: "1987"

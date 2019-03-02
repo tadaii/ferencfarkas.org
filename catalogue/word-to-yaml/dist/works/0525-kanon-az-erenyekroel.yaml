@@ -1,0 +1,13 @@
+catalog-id:
+  id: 0525-kanon-az-erenyekroel
+  num-id: 525
+  name: kanon-az-erenyekroel
+  uuid: f70483c8-6804-4d35-8c9f-f1c7d2aa4dff
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Kánon az erényekröl

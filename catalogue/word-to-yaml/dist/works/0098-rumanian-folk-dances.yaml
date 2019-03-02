@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0098-rumanian-folk-dances
+  num-id: 98
+  name: rumanian-folk-dances
+  uuid: 13b35102-9ded-4de1-87aa-d3a0442d272f
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Rumanian folk dances
+    hu: Bihari román táncok
+composition-date: "1988"
+reworking: Rumanian folk dances for violin or viola or flute or clarinet and piano
+  Rumanian folk dances for recorder or violin and cimbalom
+dedication: to András Adorjan

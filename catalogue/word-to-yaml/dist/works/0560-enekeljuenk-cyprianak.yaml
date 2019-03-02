@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0560-enekeljuenk-cyprianak
+  num-id: 560
+  name: enekeljuenk-cyprianak
+  uuid: ece7a3b4-9fca-4ae0-afcf-fceccca50031
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Enekeljünk Cypriának
+reworking: Enekeljünk Cypriának for voice, flute, harpsichord and violoncello

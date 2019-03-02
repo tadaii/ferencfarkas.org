@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0564-eszterlanc
+  num-id: 564
+  name: eszterlanc
+  uuid: a74f2fd3-a2b4-4d36-ba9f-8681297a49de
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Eszterlánc
+composition-date: "1936"

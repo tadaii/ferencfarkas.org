@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0531-pastorale-di-natale
+  num-id: 531
+  name: pastorale-di-natale
+  uuid: cc2858e2-07da-4cca-9f15-894f25050003
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Pastorale di Natale
+source: manuscript by András Farkas

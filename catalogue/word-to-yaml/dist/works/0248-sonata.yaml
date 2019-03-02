@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0248-sonata
+  num-id: 248
+  name: sonata
+  uuid: 45c7ee75-58ba-49fe-b4bc-a8392e381baa
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Sonata
+composition-date: "1932"

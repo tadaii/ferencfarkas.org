@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0268-erdelyi-betlehemes-jatek
+  num-id: 268
+  name: erdelyi-betlehemes-jatek
+  uuid: 3f9a45a9-0cc5-4e7f-af2a-cc527f6a1999
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Erdélyi betlehemes játék
+composition-date: "1940"
+setting: flauto dolce, archi

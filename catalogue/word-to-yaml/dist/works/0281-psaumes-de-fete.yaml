@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0281-psaumes-de-fete
+  num-id: 281
+  name: psaumes-de-fete
+  uuid: c5772267-e69b-4789-8854-f4d7b2b8727b
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Psaumes de fête
+composition-date: "1977"
+reworking: Psaumes de fête for tenor and baritone solo, male choir and orchestra
+source: 'score & vocal score: manuscript by András Farkas'

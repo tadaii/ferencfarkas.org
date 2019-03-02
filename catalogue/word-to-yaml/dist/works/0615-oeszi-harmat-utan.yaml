@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0615-oeszi-harmat-utan
+  num-id: 615
+  name: oeszi-harmat-utan
+  uuid: a8ce32b1-b6ca-4d2b-9a22-b2f0a632e3d5
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Őszi harmat után
+composition-date: "1975"
+source: manuscript by András Farkas

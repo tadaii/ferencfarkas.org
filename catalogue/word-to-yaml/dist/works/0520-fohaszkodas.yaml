@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0520-fohaszkodas
+  num-id: 520
+  name: fohaszkodas
+  uuid: e8dcf73a-d9cc-495c-8a0b-4aee037e0761
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Fohászkodás
+composition-date: "1995"
+source: manuscript by András Farkas

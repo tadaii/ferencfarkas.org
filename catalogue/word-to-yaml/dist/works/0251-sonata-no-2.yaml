@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0251-sonata-no-2
+  num-id: 251
+  name: sonata-no-2
+  uuid: 4c10aff4-3e16-4a79-831f-abd90f366bfb
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Sonata no. 2
+composition-date: "1987"
+movements:
+- original-value: 'Allegro impetuoso - Passacaglia, Omaggio a Bach - Toccata (Allegro)
+    Motto : Európát játszottam / J''ai joué l''Europe - Kuszajáték / C''est un jeu
+    confus - Eszakot, Délt, Keletet, Nyugatot... / Du Nord, du Sud, de l''Est, de
+    l''Ouest... Szilágyi Domokos / Domokos Szilágyi, poète transylvanien (l938-l976)'
+source: manuscript by András Farkas

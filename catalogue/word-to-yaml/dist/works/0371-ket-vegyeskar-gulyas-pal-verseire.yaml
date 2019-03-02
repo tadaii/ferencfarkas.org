@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0371-ket-vegyeskar-gulyas-pal-verseire
+  num-id: 371
+  name: ket-vegyeskar-gulyas-pal-verseire
+  uuid: 5ec46db4-876c-4434-8d52-de19e793e5b6
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - en
+  translations:
+    en: Two choruses for mixed voice
+    hu: Két vegyeskar Gulyás Pál verseire
+composition-date: 1975-1976
+dedication: a Maróthi György Kórusnak és karnagyának Czövek Lajosnak

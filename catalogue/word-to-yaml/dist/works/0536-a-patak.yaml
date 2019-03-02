@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0536-a-patak
+  num-id: 536
+  name: a-patak
+  uuid: 168a1d1a-6ca8-407d-b70c-73c20daf5844
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: tr
+  original: tr
+  sort:
+  - tr
+  translations:
+    tr: A patak
+composition-date: "1953"
+source: manuscript by András Farkas

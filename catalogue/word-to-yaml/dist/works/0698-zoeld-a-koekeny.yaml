@@ -1,0 +1,13 @@
+catalog-id:
+  id: 0698-zoeld-a-koekeny
+  num-id: 698
+  name: zoeld-a-koekeny
+  uuid: d7ca28d5-788a-432e-a727-cf18ee105b5e
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Zöld a kökény

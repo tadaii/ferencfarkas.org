@@ -1,0 +1,13 @@
+catalog-id:
+  id: 0716-cyrano-de-bergerac-by-edmond-rostand-rev-1962
+  num-id: 716
+  name: cyrano-de-bergerac-by-edmond-rostand-rev-1962
+  uuid: 4ea6ac42-0958-4ce7-a450-4054dd476449
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Cyrano de Bergerac by Edmond Rostand, rev. 1962

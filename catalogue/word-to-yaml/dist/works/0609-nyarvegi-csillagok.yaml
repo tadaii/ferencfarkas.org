@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0609-nyarvegi-csillagok
+  num-id: 609
+  name: nyarvegi-csillagok
+  uuid: 30907f5a-535e-4a8b-8ee1-027799106bee
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Nyárvégi csillagok
+composition-date: "1940"

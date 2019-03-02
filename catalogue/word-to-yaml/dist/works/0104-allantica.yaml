@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0104-allantica
+  num-id: 104
+  name: allantica
+  uuid: b5032872-dc7d-4680-b292-00ece440e514
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: All'antica
+composition-date: "1962"
+movements:
+- original-value: Pastorale, Aria con variazioni, Giga
+reworking: Concertino all'antica for baryton or violoncello or viola and string orchestra
+  All’antica for viola da gamba or violoncello and harpsichord or piano
+source: manuscript by András Farkas

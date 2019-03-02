@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0283-tinodi-historiaja-eger-var-viadalarol
+  num-id: 283
+  name: tinodi-historiaja-eger-var-viadalarol
+  uuid: 4b956e7e-83c6-4b60-a2f7-046f463b9d2f
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Tinódi históriája Eger Vár Viadaláról
+composition-date: "1952"
+setting: 2, 1, 2, 2 – 4, 2, 3, 0 – timp., batt. – arpa, archi
+source: 'score: manuscript by András Farkas'
+dedication: to Zoltan Kodály for his 70th birthday

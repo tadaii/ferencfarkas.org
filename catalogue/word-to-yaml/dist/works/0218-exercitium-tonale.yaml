@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0218-exercitium-tonale
+  num-id: 218
+  name: exercitium-tonale
+  uuid: 55463aca-5b89-4493-a429-f44f8291e831
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: la
+  original: la
+  sort:
+  - la
+  translations:
+    la: Exercitium tonale
+composition-date: "1982"
+reworking: quatre préludes for harp Exercitium tonale for cimbalom
+dedication: to Angelo Gilardino

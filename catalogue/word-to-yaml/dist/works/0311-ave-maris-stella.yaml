@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0311-ave-maris-stella
+  num-id: 311
+  name: ave-maris-stella
+  uuid: a7a02772-c1ef-4fb9-aeee-c55dab1f8f61
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Ave Maris Stella
+composition-date: "1999"

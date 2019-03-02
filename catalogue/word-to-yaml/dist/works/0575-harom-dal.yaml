@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0575-harom-dal
+  num-id: 575
+  name: harom-dal
+  uuid: 69675909-865b-43cc-8682-46320b9fde93
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Három dal
+composition-date: 1923-25

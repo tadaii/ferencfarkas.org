@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0231-little-suite-for-the-left-hand
+  num-id: 231
+  name: little-suite-for-the-left-hand
+  uuid: 6208f8ff-8e4d-45a5-b4a9-12c4bc48aebc
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Little suite for the left hand
+source: manuscript by András Farkas

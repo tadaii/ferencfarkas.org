@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0470-vinus-vina-vinum
+  num-id: 470
+  name: vinus-vina-vinum
+  uuid: 25737443-3167-4464-a961-64158e9ff00e
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: la
+  original: la
+  sort:
+  - la
+  translations:
+    la: Vinus, vina, vinum
+composition-date: "1975"
+reworking: Pataki diákdalok a l8.századból for 4-part mixed choir
+dedication: á la Chorale de l’Orient

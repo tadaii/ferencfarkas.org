@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0614-oesz-delutan-a-kertben
+  num-id: 614
+  name: oesz-delutan-a-kertben
+  uuid: c00a1375-3ed4-4458-94a6-5aa02200e982
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Ősz délután a kertben
+composition-date: "1923"
+source: manuscript by András Farkas

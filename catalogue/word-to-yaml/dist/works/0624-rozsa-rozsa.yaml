@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0624-rozsa-rozsa
+  num-id: 624
+  name: rozsa-rozsa
+  uuid: 144e9619-64bc-45f3-88bd-0b0d936ec969
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Rózsa, rózsa
+composition-date: "1995"
+source: manuscript by András Farkas

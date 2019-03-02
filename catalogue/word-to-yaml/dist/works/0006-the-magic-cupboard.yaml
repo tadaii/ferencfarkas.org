@@ -1,0 +1,25 @@
+catalog-id:
+  id: 0006-the-magic-cupboard
+  num-id: 6
+  name: the-magic-cupboard
+  uuid: 3f38aeca-7b2b-47b9-84f0-beb3e90d7a86
+date: "2019-03-02T15:13:23+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  - de
+  - fr
+  translations:
+    de: Der Wunderschrank
+    en: The magic cupboard
+    fr: L’armoire magique
+    hu: A büvös szekrény
+composition-date: "1984"
+synopsis: Suleika will set her husband free from the prison
+setting: 1, 1, 1, 1 – 2, 1, 1, 0 – 1 vl. I, 1 vl. II, 1 vla, 1 vlc., 1 cb.
+reworking: The magic cupboard for orchestra - concert-overture from the opera “The
+  magic cupboard” Overture to a comedy for orchestra
+world-premiere: Zürich, Opera Studio, 1984, conducted by Tamás Blum

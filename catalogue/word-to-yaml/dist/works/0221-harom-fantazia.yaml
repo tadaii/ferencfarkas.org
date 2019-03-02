@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0221-harom-fantazia
+  num-id: 221
+  name: harom-fantazia
+  uuid: 78ab3ef8-fbee-4e60-ba38-c0a43dd11127
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Három fantázia
+composition-date: 1943, rev. 1973

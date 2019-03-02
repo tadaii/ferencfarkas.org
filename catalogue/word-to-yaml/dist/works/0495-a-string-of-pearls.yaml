@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0495-a-string-of-pearls
+  num-id: 495
+  name: a-string-of-pearls
+  uuid: dd6ba94c-e8b1-44aa-9d37-3d20d590aea4
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: A string of pearls
+reworking: Gyöngyöri-gyöngy for children's choir

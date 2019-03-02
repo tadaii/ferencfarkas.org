@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0235-old-hungarian-melodies
+  num-id: 235
+  name: old-hungarian-melodies
+  uuid: 9f72aa8f-f7fa-4a01-bba8-2c10d256f360
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Old Hungarian melodies
+    hu: Régi magyar dallamok

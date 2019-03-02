@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0282-megerett-a-szoeloe
+  num-id: 282
+  name: megerett-a-szoeloe
+  uuid: 3ba8cb9a-f74d-46fc-9979-c436037ff7b7
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - hu
+  translations:
+    hu: Megérett a szőlő
+composition-date: "1951"
+setting: fl. (picc.), 3 cl., 3 zimb. ungh., archi
+source: 'score & vocal score: manuscript by András Farkas'

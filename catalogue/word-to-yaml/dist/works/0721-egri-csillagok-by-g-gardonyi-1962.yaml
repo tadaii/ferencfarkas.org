@@ -1,0 +1,13 @@
+catalog-id:
+  id: 0721-egri-csillagok-by-g-gardonyi-1962
+  num-id: 721
+  name: egri-csillagok-by-g-gardonyi-1962
+  uuid: 7721b17d-4029-4cb4-9c49-c41e558cbd8c
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Egri csillagok by G. Gárdonyi, 1962

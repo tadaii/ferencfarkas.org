@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0581-hommage-a-alpbach
+  num-id: 581
+  name: hommage-a-alpbach
+  uuid: d202eab1-0125-444b-8366-42cb0019847d
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Hommage à Alpbach
+composition-date: "1968"

@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0688-kilenc-magyar-nepdal-kamaraegyuettes-kiserettel
+  num-id: 688
+  name: kilenc-magyar-nepdal-kamaraegyuettes-kiserettel
+  uuid: afe1017b-0fde-481b-8aba-e2a1eed0c742
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Kilenc magyar népdal kamaraegyüttes kisérettel
+composition-date: "1958"
+setting: 1, 1, 1, 1 - 0, 0, 0, 0 – arpa, zimb. ungh., citera – archi
+source: 'score: manuscript by András Farkas'

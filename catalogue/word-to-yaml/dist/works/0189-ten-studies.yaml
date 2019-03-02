@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0189-ten-studies
+  num-id: 189
+  name: ten-studies
+  uuid: 563e3b05-8ee1-4c26-9695-95beda0c06e6
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Ten studies
+composition-date: "1997"
+reworking: Ten studies for 2 violins
+dedication: to Gyula and Yukari Stuller

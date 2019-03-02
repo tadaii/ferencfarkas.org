@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0627-songs-from-the-twelfth-night-by-shakespeare
+  num-id: 627
+  name: songs-from-the-twelfth-night-by-shakespeare
+  uuid: 81e1d452-74f9-4858-a814-e89d9cc9d332
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Songs from the “Twelfth night” by Shakespeare
+    hu: Dalok “A vizkeresztből” by Shakespeare
+composition-date: "1954"
+reworking: Songs from the “Twelfth night” by Shakespeare for voice and harp Songs
+  from the “Twelfth night” by Shakespeare for voice and guitar The “Twelfth night”
+  by W. Shakespeare, incidental music

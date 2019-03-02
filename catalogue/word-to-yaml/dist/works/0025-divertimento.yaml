@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0025-divertimento
+  num-id: 25
+  name: divertimento
+  uuid: 8d8fd8f0-fd60-4d44-9fa9-c14384c89d2d
+date: "2019-03-02T15:13:23+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Divertimento
+composition-date: "1930"
+setting: 2, 2, 2, 2 – 2, 2, 0, 0 – timp., batt. - archi
+dedication: al Maestro Ottorino Respighi
+nb: this work received the “Franz Liszt Prize” in 1933

@@ -1,0 +1,13 @@
+catalog-id:
+  id: 0678-50-csardas
+  num-id: 678
+  name: 50-csardas
+  uuid: 4cca144f-74ef-44d8-bd3e-5c58c27f2c02
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: de
+  original: de
+  sort:
+  - de
+  translations:
+    de: 50 Csárdás

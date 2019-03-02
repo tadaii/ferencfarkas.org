@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0202-allegro-impetuoso
+  num-id: 202
+  name: allegro-impetuoso
+  uuid: 1723c074-4fa9-4431-8226-1a08084f8914
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: pl
+  original: pl
+  sort:
+  - pl
+  translations:
+    pl: Allegro impetuoso
+composition-date: "1991"
+dedication: to Nóra Mercz

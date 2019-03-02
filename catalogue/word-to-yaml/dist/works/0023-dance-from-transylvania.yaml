@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0023-dance-from-transylvania
+  num-id: 23
+  name: dance-from-transylvania
+  uuid: 2374d630-e074-41e5-9a7e-12578d12df98
+date: "2019-03-02T15:13:23+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Dance from Transylvania
+    hu: Erdélyi tánc
+composition-date: "1954"
+setting: 2, 1, 2, 1 – 2, 2, 0, 0 – archi

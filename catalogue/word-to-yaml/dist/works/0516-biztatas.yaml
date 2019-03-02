@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0516-biztatas
+  num-id: 516
+  name: biztatas
+  uuid: 75f48d8c-59e2-4975-b3d1-8c7d8eea4519
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Biztatás
+composition-date: "1969"

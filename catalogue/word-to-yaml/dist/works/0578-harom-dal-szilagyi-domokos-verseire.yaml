@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0578-harom-dal-szilagyi-domokos-verseire
+  num-id: 578
+  name: harom-dal-szilagyi-domokos-verseire
+  uuid: 507f8c96-77c0-4867-ae16-6643723fd5d1
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Három dal Szilágyi Domokos verseire
+composition-date: 1989-90
+source: manuscript by András Farkas

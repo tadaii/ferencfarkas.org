@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0431-bacchylides-bekedala
+  num-id: 431
+  name: bacchylides-bekedala
+  uuid: 86f8f38e-d478-4c30-a7fe-a3072049cab2
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Bacchylides békedala
+composition-date: "1933"
+source: manuscript by András Farkas

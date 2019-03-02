@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0473-a-lany-dala
+  num-id: 473
+  name: a-lany-dala
+  uuid: eb4a5a2a-8372-4162-b967-20203310c808
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: cs
+  original: cs
+  sort:
+  - cs
+  translations:
+    cs: A lány dala
+composition-date: "1987"
+dedication: Biller Istvánnak és a Budafoki Kamarakórusnak

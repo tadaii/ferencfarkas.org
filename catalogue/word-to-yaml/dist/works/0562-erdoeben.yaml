@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0562-erdoeben
+  num-id: 562
+  name: erdoeben
+  uuid: a21dcb93-0514-43e3-9d4f-dfd84ef9bd9e
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - de
+  translations:
+    de: Im Walde
+    hu: Erdőben
+composition-date: "1952"

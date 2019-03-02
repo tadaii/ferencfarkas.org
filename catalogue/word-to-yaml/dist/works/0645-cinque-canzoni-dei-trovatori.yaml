@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0645-cinque-canzoni-dei-trovatori
+  num-id: 645
+  name: cinque-canzoni-dei-trovatori
+  uuid: 1a155358-db52-4755-8a41-3382a407c3b0
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: co
+  original: co
+  sort:
+  - co
+  translations:
+    co: Cinque canzoni dei trovatori
+reworking: Öt francia trubadúr dallam for voice and piano, text in French and Hungarian

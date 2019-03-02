@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0061-hungarian-dances-from-the-17th-century
+  num-id: 61
+  name: hungarian-dances-from-the-17th-century
+  uuid: d2c5404d-ae41-4a79-a398-4e960f80008d
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Hungarian dances from the 17th century
+composition-date: "1961"
+reworking: Hungarian dances from the 17th centura for chamber orchestra Choreae hungaricae
+  for chamber orchestra Choreae hungaricae for string orchestra Choreae hungaricae
+  for piano
+nb: 'The “Hungarian dances from the 17th century” are a regrouping of “Choreae hungaricae”:
+  “6 Dances” and “5 Dances”'

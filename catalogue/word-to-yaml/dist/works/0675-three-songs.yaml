@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0675-three-songs
+  num-id: 675
+  name: three-songs
+  uuid: 658ac1c2-fb4d-4a70-8b5d-6cb0c1aa4f80
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Three songs
+composition-date: "1989"
+source: manuscript by András Farkas

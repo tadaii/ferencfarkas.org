@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0607-negy-dal-erdelyi-jozsef-verseire
+  num-id: 607
+  name: negy-dal-erdelyi-jozsef-verseire
+  uuid: c9d423fc-5e87-42f5-9098-adacd32f890f
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Négy dal Erdélyi József verseire
+composition-date: 1938-1941
+source: manuscript by András Farkas

@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0559-emlekkoenyvbe
+  num-id: 559
+  name: emlekkoenyvbe
+  uuid: ded1e6d2-cb91-4b8d-ae43-148f659e3d6b
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Emlékkönyvbe
+composition-date: "1955"
+source: manuscript by András Farkas

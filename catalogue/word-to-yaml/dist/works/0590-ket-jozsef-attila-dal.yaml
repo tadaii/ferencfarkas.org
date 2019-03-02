@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0590-ket-jozsef-attila-dal
+  num-id: 590
+  name: ket-jozsef-attila-dal
+  uuid: 533641c6-0b74-4239-a2f8-8c397dc19908
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - de
+  translations:
+    de: Zwei Lieder nach Gedichten von Attila József
+    hu: Két József Attila dal
+composition-date: 1939-1946

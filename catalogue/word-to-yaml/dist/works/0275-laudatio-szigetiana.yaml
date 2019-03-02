@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0275-laudatio-szigetiana
+  num-id: 275
+  name: laudatio-szigetiana
+  uuid: 84366e6d-5dd1-4649-b190-e32c727af88e
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: la
+  original: hu
+  sort:
+  - la
+  - hu
+  translations:
+    hu: Szigetvár dicsérete
+    la: Laudatio Szigetiana
+composition-date: "1966"
+setting: 3 (picc.), 2, 2, 2 – 4, 3, 3, 1 – timp., batt. (3 ess.) – arpa, cel. ad lib.
+  – archi

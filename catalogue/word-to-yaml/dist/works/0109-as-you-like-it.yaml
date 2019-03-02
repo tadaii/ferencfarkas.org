@@ -1,0 +1,21 @@
+catalog-id:
+  id: 0109-as-you-like-it
+  num-id: 109
+  name: as-you-like-it
+  uuid: 09f997fb-6429-4f7b-8e34-d275208fa206
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: As you like it
+composition-date: 1939, rev. 1969
+movements:
+- original-value: Petite ouverture, Chanson I - Chanson II, Intermezzo, Madrigal
+reworking: As you like it for 2 violins and harp Petite ouverture for flute, horn
+  and harp Két madrigál for 4-part male choir Vadászkar for 4-part male choir Három
+  dal Shakespeare "Ahogy tetszik" cimű vigjátékából / Drei Lieder aus dem Lustspiel
+  "Wie es euch gefällt" von Shakespeare for voice and piano Ahogy tetszik / As you
+  like it by Shakespeare – incidental music

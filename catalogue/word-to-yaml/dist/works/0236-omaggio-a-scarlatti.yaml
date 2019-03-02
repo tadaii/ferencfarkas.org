@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0236-omaggio-a-scarlatti
+  num-id: 236
+  name: omaggio-a-scarlatti
+  uuid: 686e3c95-b82d-4800-831c-baf10a3d54ec
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Omaggio a Scarlatti
+composition-date: "1984"

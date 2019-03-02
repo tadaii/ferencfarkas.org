@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0686-harom-katonanota
+  num-id: 686
+  name: harom-katonanota
+  uuid: 48e558da-92df-4d5d-b0fa-3c072fb395d1
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Három katonanóta
+composition-date: "1933"
+source: manuscript by András Farkas

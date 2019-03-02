@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0344-foeldrenges
+  num-id: 344
+  name: foeldrenges
+  uuid: 726dade5-d7c3-4b45-9911-04b581438a36
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - en
+  translations:
+    en: Earthquake
+    hu: Földrengés
+composition-date: "1959"

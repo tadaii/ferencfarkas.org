@@ -1,0 +1,13 @@
+catalog-id:
+  id: 0724-faust-by-goethe-1947
+  num-id: 724
+  name: faust-by-goethe-1947
+  uuid: 12f889fd-20b6-4aa1-a56b-fdc8b719a6db
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Faust by Goethe, 1947

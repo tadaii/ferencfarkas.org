@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0314-baranyai-lakodalmas
+  num-id: 314
+  name: baranyai-lakodalmas
+  uuid: 9579185b-28bd-47a1-bbf6-c94a2a80c676
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: ms
+  original: ms
+  sort:
+  - ms
+  - en
+  translations:
+    en: Wedding songs from Baranya
+    ms: Baranyai lakodalmas
+composition-date: 1940, rev. 1974
+reworking: Baranyai lakodalmas / Wedding songs from Baranya for 4-part mixed choir
+  and piano or orchestra

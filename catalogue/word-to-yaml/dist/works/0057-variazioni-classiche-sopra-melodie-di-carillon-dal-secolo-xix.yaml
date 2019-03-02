@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0057-variazioni-classiche-sopra-melodie-di-carillon-dal-secolo-xix
+  num-id: 57
+  name: variazioni-classiche-sopra-melodie-di-carillon-dal-secolo-xix
+  uuid: 86cd3d7e-752c-40dc-8051-dec74dc0e86d
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: it
+  original: hu
+  sort:
+  - it
+  - hu
+  translations:
+    hu: Klasszikus variációk soproni zenélő-óra dallamokra a XIX.sz. elejéről
+    it: Variazioni classiche sopra melodie di «carillon» dal secolo XIX
+composition-date: 1975-1976
+setting: 2 (picc.), 2, 2, 2 – 4, 3, 3, 0 – timp., batt. – cel. (pf. ad lib.) – archi

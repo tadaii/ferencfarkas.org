@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0425-a-labodi-hegy-alatt
+  num-id: 425
+  name: a-labodi-hegy-alatt
+  uuid: 70de305c-f35d-4e02-b94d-a2d8a4b995c3
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: A lábodi hegy alatt
+composition-date: "1936"

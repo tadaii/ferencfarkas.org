@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0198-variazioni-ungheresi
+  num-id: 198
+  name: variazioni-ungheresi
+  uuid: 4726ff73-52c8-47f0-babd-841e691a73f5
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: co
+  original: co
+  sort:
+  - co
+  translations:
+    co: Variazioni ungheresi
+composition-date: "1963"
+movements:
+- original-value: Thema, Variation I – IX
+reworking: Variazioni ungheresi for flute and guitar Zalai változatok for cimbalom

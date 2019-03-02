@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0602-mely-esti-csendben
+  num-id: 602
+  name: mely-esti-csendben
+  uuid: 0ace15a2-258a-40cf-826f-1984e58c6b20
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Mély esti csendben
+composition-date: "1928"

@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0648-die-lieder-des-wanderers
+  num-id: 648
+  name: die-lieder-des-wanderers
+  uuid: 200d7503-f5af-4ac9-bd9f-a9bb16b4a05a
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: ny
+  original: ny
+  sort:
+  - ny
+  - id
+  translations:
+    id: A vándor dalai
+    ny: Die Lieder des Wanderers
+composition-date: "1956"
+reworking: Die Lieder des Wanderers for voice and piano
+source: 'score & performance material : manuscript by András Farkas piano reduction
+  Editio Musica Budapest'

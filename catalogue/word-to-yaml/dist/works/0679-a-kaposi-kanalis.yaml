@@ -1,0 +1,13 @@
+catalog-id:
+  id: 0679-a-kaposi-kanalis
+  num-id: 679
+  name: a-kaposi-kanalis
+  uuid: 0d5a25b6-2f99-467c-a838-58c80f9aa6c9
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: A kaposi kanális

@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0612-omaggio-a-pessoa
+  num-id: 612
+  name: omaggio-a-pessoa
+  uuid: e6d4e01e-ccf9-4c8a-b237-630fabe7e1d1
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: pt
+  original: pt
+  sort:
+  - pt
+  translations:
+    pt: Omaggio a Pessoa
+composition-date: "1985"
+reworking: Omaggio a Pessoa, cantata
+source: manuscript by András Farkas

@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0677-tres-cantiones-sacrae
+  num-id: 677
+  name: tres-cantiones-sacrae
+  uuid: 2d62cbe3-46de-474d-896b-98e8f93c43b4
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: ie
+  original: ie
+  sort:
+  - ie
+  translations:
+    ie: Tres cantiones sacrae
+composition-date: "1991"
+reworking: Cantiones sacrae for voice and piano
+source: 'score & performance material: manuscript by András Farkas'

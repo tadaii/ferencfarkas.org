@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0239-petite-suite-alpestre
+  num-id: 239
+  name: petite-suite-alpestre
+  uuid: cbac2804-884f-46a1-a210-82b8815dc89e
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Petite suite alpestre
+composition-date: "1976"
+source: manuscript by András Farkas
+dedication: to József Molnár

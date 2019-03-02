@@ -1,0 +1,21 @@
+catalog-id:
+  id: 0725-foeldiekkel-jatszo
+  num-id: 725
+  name: foeldiekkel-jatszo
+  uuid: c76352d0-7086-4675-9e18-1137e69b6c80
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Földiekkel játszó
+movements:
+- original-value: Szemrehányás – text by Mihály Csokonai Vitéz Nehéz tudni – text
+    by Mihály Csokonai Vitéz Mint sír – text by Mihály Csokonai Vitéz A nefelejts
+    - text by Ferenc Verseghy A magánossághoz – text by Mihály Csokonai Vitéz Felfogadtam
+    – text by Mihály Csokonai Vitéz Románc – text by Sándor Kisfaludy Sári rózsám
+    – texy Mihály Csokonai Vitéz
+setting: 1, 1, 1, 1 - 0, 0, 0, 0 – arpa - archi
+source: 'score: manuscript by András Farkas'

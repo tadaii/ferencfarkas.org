@@ -1,0 +1,13 @@
+catalog-id:
+  id: 0712-az-elmeruelt-harang-by-g-hauptmann-1940
+  num-id: 712
+  name: az-elmeruelt-harang-by-g-hauptmann-1940
+  uuid: e92f4b2b-9e8a-44ed-be6a-95c90ae782bc
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Az elmerült harang by G. Hauptmann, 1940

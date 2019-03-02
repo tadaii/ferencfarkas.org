@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0113-citharoedia-strigoniensis
+  num-id: 113
+  name: citharoedia-strigoniensis
+  uuid: 0907c638-5f37-4d30-a0ab-a49f916979e3
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: jw
+  original: jw
+  sort:
+  - jw
+  translations:
+    jw: Citharoedia strigoniensis
+composition-date: "1973"

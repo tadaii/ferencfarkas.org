@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0373-koeszoentoe
+  num-id: 373
+  name: koeszoentoe
+  uuid: c720c53b-2528-4a7e-a6a6-072a7d464088
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Köszöntő
+composition-date: "1990"
+source: manuscript by András Farkas

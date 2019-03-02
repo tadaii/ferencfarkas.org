@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0313-ballada-irisz-fatyolarol
+  num-id: 313
+  name: ballada-irisz-fatyolarol
+  uuid: 9cacb13a-8674-4edd-afd4-4f5ab828b178
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Ballada Irisz fátyoláról
+composition-date: "1983"

@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0172-scenes-from-hungary
+  num-id: 172
+  name: scenes-from-hungary
+  uuid: 1bb0467f-8c0d-4785-a77a-effb1689a68c
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Scenes from Hungary
+    hu: Magyar jelenetek
+composition-date: "1980"
+dedication: to the Swiss Clarinet Players

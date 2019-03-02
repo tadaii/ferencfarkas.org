@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0152-negy-magyar-tanc
+  num-id: 152
+  name: negy-magyar-tanc
+  uuid: 0f5738c7-28fb-466a-8aef-04a10595afa0
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Négy magyar tánc
+source: manuscript by András Farkas

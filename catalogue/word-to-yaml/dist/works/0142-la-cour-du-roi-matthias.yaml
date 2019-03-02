@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0142-la-cour-du-roi-matthias
+  num-id: 142
+  name: la-cour-du-roi-matthias
+  uuid: a59ccab6-a73f-4f7b-9c6a-25db7566ed2b
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: de
+  original: hu
+  sort:
+  - de
+  - hu
+  translations:
+    de: La cour du roi Matthias
+    hu: Mátyás király udvara
+composition-date: "1977"
+reworking: Panegyricus, scenic play
+dedication: to the Berner Solisten

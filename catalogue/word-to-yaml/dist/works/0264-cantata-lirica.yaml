@@ -1,0 +1,23 @@
+catalog-id:
+  id: 0264-cantata-lirica
+  num-id: 264
+  name: cantata-lirica
+  uuid: 276b7ab2-849a-42d3-8f87-5941b7dbc2e4
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: it
+  original: hu
+  sort:
+  - it
+  - hu
+  - en
+  translations:
+    en: St. John’s fountain
+    hu: Szent János kútja
+    it: Cantata lirica
+composition-date: "1945"
+setting: 2 (picc.), 2, 2, 2 – 3, 2, 1, o – arpa, cel. – archi
+source: 'piano reduction : printed by the composer, © 1952 , manuscript by András
+  Farkas'
+nb: piano reduction of nos 2, 4, 5, 6 also in esperanto translated, manuscript by
+  András Farkas

@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0108-arioso
+  num-id: 108
+  name: arioso
+  uuid: 3f6db0f3-0500-4e9d-a709-fdc0bb71baa0
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Arioso
+composition-date: "1926"

@@ -1,0 +1,24 @@
+catalog-id:
+  id: 0656-fruit-basket
+  num-id: 656
+  name: fruit-basket
+  uuid: c531308f-052f-4d2a-8a16-d26aacab3e52
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  - da
+  - fr
+  translations:
+    da: Fruchtkorb
+    en: Fruit basket
+    fr: Panier de fruits
+    hu: Gyümölcskosár
+reworking: Fruit basket for voice (soprano) and piano Fruit basket for voice, clarinet,
+  violin, violoncello and piano Fruit basket for voice, clarinet, viola and piano
+  Fruit basket for voice and clarinet quartet Fruit basket for voice and wind quintet
+source: 'no.1-6 : Solo Music Budapest, no. 35, © 1997 (Hungarian and German) : [solomusic.kft@upcmail.hu](mailto:solomusic.kft@upcmail.hu)
+  no.7-12 : manuscript by András Farkas French translation by András Farkas andrasfarkas@hotmail.com'

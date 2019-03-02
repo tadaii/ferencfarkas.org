@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0694-nyolc-somogyi-nepdal-corriger-dans-site
+  num-id: 694
+  name: nyolc-somogyi-nepdal-corriger-dans-site
+  uuid: 4862e528-68fe-4248-bd8d-371f9c39ff77
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Nyolc Somogyi népdal corriger dans site
+composition-date: "1973"
+source: manuscript by András Farkas

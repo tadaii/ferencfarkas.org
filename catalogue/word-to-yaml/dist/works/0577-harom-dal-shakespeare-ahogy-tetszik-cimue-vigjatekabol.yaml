@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0577-harom-dal-shakespeare-ahogy-tetszik-cimue-vigjatekabol
+  num-id: 577
+  name: harom-dal-shakespeare-ahogy-tetszik-cimue-vigjatekabol
+  uuid: 7baa0db0-c103-4468-bc77-4934369de16e
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - de
+  translations:
+    de: Drei Lieder aus dem Lustspiel "Wie es euch gefällt" von Shakespeare
+    hu: Három dal Shakespeare "Ahogy tetszik" cimü vigjátékából
+composition-date: "1937"
+reworking: Ahogy tetszik / As you like it by Shakespeare – incidental music

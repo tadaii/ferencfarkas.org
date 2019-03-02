@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0670-six-hungarian-folk-songs
+  num-id: 670
+  name: six-hungarian-folk-songs
+  uuid: deb69d8e-8119-4742-9cee-a46c186af2d2
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Six Hungarian folk songs
+composition-date: "1947"

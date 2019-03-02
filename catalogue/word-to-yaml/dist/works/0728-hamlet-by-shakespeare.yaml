@@ -1,0 +1,13 @@
+catalog-id:
+  id: 0728-hamlet-by-shakespeare
+  num-id: 728
+  name: hamlet-by-shakespeare
+  uuid: 3d4c6259-322b-4c48-b3e1-958cf1dd9180
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Hamlet by Shakespeare

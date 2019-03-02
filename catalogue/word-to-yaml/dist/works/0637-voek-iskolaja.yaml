@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0637-voek-iskolaja
+  num-id: 637
+  name: voek-iskolaja
+  uuid: 720cbe79-a677-43fa-b68e-4e360e7e2cd0
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Vők iskolája
+composition-date: "1958"
+reworking: Vők iskolája, operetta

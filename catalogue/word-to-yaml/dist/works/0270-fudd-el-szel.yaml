@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0270-fudd-el-szel
+  num-id: 270
+  name: fudd-el-szel
+  uuid: 62b52830-4ff4-4e1b-bce0-9c30403236d6
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: es
+  original: es
+  sort:
+  - es
+  translations:
+    es: Fúdd el szél
+composition-date: "1953"
+setting: 2 (picc.), 1, 2, 1 – 2, 2, 0, 0 – arpa – archi
+source: 'score : manuscript by András Farkas'

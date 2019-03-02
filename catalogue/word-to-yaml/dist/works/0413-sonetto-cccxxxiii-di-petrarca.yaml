@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0413-sonetto-cccxxxiii-di-petrarca
+  num-id: 413
+  name: sonetto-cccxxxiii-di-petrarca
+  uuid: b2fa4fca-1cf5-4950-a6ae-de779f0cf530
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Sonetto CCCXXXIII di Petrarca
+composition-date: "1992"
+dedication: Pro memoria M.

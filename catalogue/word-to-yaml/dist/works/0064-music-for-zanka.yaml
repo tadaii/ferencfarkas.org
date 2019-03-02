@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0064-music-for-zanka
+  num-id: 64
+  name: music-for-zanka
+  uuid: 48754953-db5f-4522-932f-54b7a7bae53e
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  - lt
+  translations:
+    en: Music for Zánka
+    lt: Zánkai muzsika
+composition-date: "1986"

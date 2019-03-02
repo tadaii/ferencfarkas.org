@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0380-lupus-fecit
+  num-id: 380
+  name: lupus-fecit
+  uuid: b2d9bfe3-e729-478d-9677-3cc8e64132a5
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: la
+  original: la
+  sort:
+  - la
+  translations:
+    la: Lupus fecit
+composition-date: "1979"
+dedication: au Choeur des XVI de Fribourg et á son chef André Ducret

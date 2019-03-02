@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0605-minden-fueszal-zeng-
+  num-id: 605
+  name: minden-fueszal-zeng-
+  uuid: 2288c55e-43b1-4c38-85ca-1bc91ed138fd
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Minden füszál zeng...
+composition-date: "1930"
+source: manuscript by András Farkas

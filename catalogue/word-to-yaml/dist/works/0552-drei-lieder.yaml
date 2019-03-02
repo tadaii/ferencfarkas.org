@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0552-drei-lieder
+  num-id: 552
+  name: drei-lieder
+  uuid: 3110763a-257c-41ef-bb9a-b4efdfc1f6b1
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: de
+  original: hu
+  sort:
+  - de
+  - hu
+  - en
+  translations:
+    de: Drei Lieder
+    en: Three Eulau songs
+    hu: Három dal
+composition-date: "1958"

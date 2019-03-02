@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0370-jer-nezd-a-balatont
+  num-id: 370
+  name: jer-nezd-a-balatont
+  uuid: 87227646-5842-4103-9c5e-c4d655a2f003
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hr
+  original: hr
+  sort:
+  - hr
+  translations:
+    hr: Jer nézd a Balatont
+composition-date: "1988"
+source: manuscript by András Farkas

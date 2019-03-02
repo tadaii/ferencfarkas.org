@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0099-serenata-concertante
+  num-id: 99
+  name: serenata-concertante
+  uuid: dd65a77f-5bd3-495e-a167-4d19617c42ff
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Serenata concertante
+composition-date: "1967"

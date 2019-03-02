@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0625-rozsahullato-fa
+  num-id: 625
+  name: rozsahullato-fa
+  uuid: 4262a040-3e20-4f47-959d-5dfc03a94ce0
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Rózsahullató fa
+composition-date: "1995"

@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0352-heide-skizzen
+  num-id: 352
+  name: heide-skizzen
+  uuid: 811e335f-0fb7-4643-ad9f-0eb837d554ab
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: de
+  original: de
+  sort:
+  - de
+  translations:
+    de: Heide-Skizzen
+composition-date: "1980"
+dedication: Herrn Dr. Alfred Toepfer in Dankbarkeit herzlichst gewidmet

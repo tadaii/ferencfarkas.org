@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0557-elillant-evek-szoeloehegyen
+  num-id: 557
+  name: elillant-evek-szoeloehegyen
+  uuid: ecce64b2-dcd3-42ee-b17e-2427be835fb9
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Elillant évek szölöhegyén
+composition-date: "1990"
+source: manuscript by András Farkas

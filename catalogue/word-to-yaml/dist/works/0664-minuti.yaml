@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0664-minuti
+  num-id: 664
+  name: minuti
+  uuid: 007eb457-1107-4d14-ac2b-b0c15bee2034
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Minuti
+composition-date: "1990"
+source: manuscript by András Farkas

@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0410-sancti-pauli-epistola-v-ad-corinthos
+  num-id: 410
+  name: sancti-pauli-epistola-v-ad-corinthos
+  uuid: 5b40ae68-6f41-4799-8561-cb5036549b74
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: la
+  original: la
+  sort:
+  - la
+  translations:
+    la: Sancti Pauli Epistola V. ad Corinthos
+composition-date: "1997"
+dedication: Szeged város felkérésére készült mü, az Egyházzenei Fesztiválra

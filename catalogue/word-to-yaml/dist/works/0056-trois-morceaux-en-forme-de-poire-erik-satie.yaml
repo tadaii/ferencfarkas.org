@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0056-trois-morceaux-en-forme-de-poire-erik-satie
+  num-id: 56
+  name: trois-morceaux-en-forme-de-poire-erik-satie
+  uuid: 3adcc1d8-60d4-4609-b667-b5c3930e4ace
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Trois morceaux en forme de poire (Erik Satie)
+composition-date: "1991"
+setting: 2, 2, 2, 2 – 2, 2, 0, 0 – timp.+ batt. (1 es.) – archi
+dedication: to András

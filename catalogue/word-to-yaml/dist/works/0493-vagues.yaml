@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0493-vagues
+  num-id: 493
+  name: vagues
+  uuid: 24b44786-805c-440b-864b-2307675d71b6
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: es
+  original: hu
+  sort:
+  - es
+  - hu
+  translations:
+    es: Vagues
+    hu: Hullámok
+composition-date: "1987"

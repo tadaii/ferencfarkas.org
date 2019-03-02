@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0537-a-remenyhez
+  num-id: 537
+  name: a-remenyhez
+  uuid: a8edf15b-74c1-4f3d-8349-3ffaf4e3b83e
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: A reményhez
+composition-date: "1956"

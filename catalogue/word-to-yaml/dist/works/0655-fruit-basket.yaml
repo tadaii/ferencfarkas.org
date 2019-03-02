@@ -1,0 +1,23 @@
+catalog-id:
+  id: 0655-fruit-basket
+  num-id: 655
+  name: fruit-basket
+  uuid: 4a849e62-7e69-4b56-86b2-3cf74539ee30
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  - da
+  - fr
+  translations:
+    da: / Fruchtkorb
+    en: Fruit basket
+    fr: Panier de fruits
+    hu: Gyümölcskosár
+composition-date: "1980"
+reworking: Fruit basket for voice (soprano) and piano Fruit basket for voice, clarinet,
+  violin, violoncello and piano Fruit basket for voice, clarinet, viola and piano
+  Fruit basket for voice and clarinet quartet Fruit basket for voice and guitar

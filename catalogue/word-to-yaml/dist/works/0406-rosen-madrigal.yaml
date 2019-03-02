@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0406-rosen-madrigal
+  num-id: 406
+  name: rosen-madrigal
+  uuid: bed99ae3-1e7d-4f93-ba8b-424ae7e9cb86
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  - en
+  translations:
+    en: Rosen-Madrigal
+    hu: Rózsa madrigal
+composition-date: "1947"
+reworking: Madrigal à la rose for mixed choir
+dedication: a székesfehérvári Kamarakórusnak

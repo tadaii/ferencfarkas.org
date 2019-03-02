@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0570-futamok
+  num-id: 570
+  name: futamok
+  uuid: 3e463ef7-9b44-4711-83e6-c4ba50cdc154
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Futamok
+composition-date: "1983"
+dedication: Boldizsár Keönch

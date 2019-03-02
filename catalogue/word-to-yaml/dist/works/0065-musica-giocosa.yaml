@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0065-musica-giocosa
+  num-id: 65
+  name: musica-giocosa
+  uuid: bcb14b0f-1950-46d0-b2f5-c0baa874bcb2
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Musica giocosa
+composition-date: "1982"
+dedication: a Györi Filharmonikus Zenekar felkérésére

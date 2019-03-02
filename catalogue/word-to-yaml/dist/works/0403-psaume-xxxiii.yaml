@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0403-psaume-xxxiii
+  num-id: 403
+  name: psaume-xxxiii
+  uuid: 7bac59e7-04ba-4d90-8c26-98ddcfdeb840
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: fr
+  original: hu
+  sort:
+  - fr
+  - hu
+  translations:
+    fr: Psaume XXXIII
+    hu: XXXIII genfi szoltár
+composition-date: "1976"
+source: manuscript by András Farkas

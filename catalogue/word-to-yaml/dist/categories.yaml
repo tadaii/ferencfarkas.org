@@ -1,0 +1,126 @@
+- catalog-id:
+    id: 0001-opera
+    num-id: 1
+    name: opera
+    uuid: 495982ac-db2f-4562-97b3-01cfc1e27539
+  title: Opera
+- catalog-id:
+    id: 0002-operetta-musical-comedy
+    num-id: 2
+    name: operetta-musical-comedy
+    uuid: 3ea118ea-2738-43b1-88c9-1fbd6b803f66
+  title: Operetta, Musical Comedy
+- catalog-id:
+    id: 0003-ballet-scenic-play
+    num-id: 3
+    name: ballet-scenic-play
+    uuid: 6d9c972c-296c-483c-92cc-5639c0437bda
+  title: Ballet, Scenic Play
+- catalog-id:
+    id: 0004-orchestra
+    num-id: 4
+    name: orchestra
+    uuid: e1b2448f-c9f4-4e70-a5df-f7da2cc5b9f1
+  title: Orchestra
+- catalog-id:
+    id: 0005-string-orchestra
+    num-id: 5
+    name: string-orchestra
+    uuid: e2fb7d17-e863-420c-a370-d42d3c7f4700
+  title: String Orchestra
+- catalog-id:
+    id: 0006-wind-orchestra
+    num-id: 6
+    name: wind-orchestra
+    uuid: 557fd4ed-d2b0-4f86-8acd-f429f79eba0c
+  title: Wind Orchestra
+- catalog-id:
+    id: 0007-concerto
+    num-id: 7
+    name: concerto
+    uuid: cbe04950-4b1c-413d-a345-8743988b7b64
+  title: Concerto
+- catalog-id:
+    id: 0008-chambermusic
+    num-id: 8
+    name: chambermusic
+    uuid: f0add758-3960-427d-8e16-c9daabf7c7ec
+  title: Chambermusic
+- catalog-id:
+    id: 0009-instrumental-solo
+    num-id: 9
+    name: instrumental-solo
+    uuid: 17c74646-543d-4f07-bf14-fea75d7f427a
+  title: Instrumental Solo
+- catalog-id:
+    id: 0010-cantata-oratorio
+    num-id: 10
+    name: cantata-oratorio
+    uuid: f210c021-123e-4896-86d9-1a70ec9ad798
+  title: Cantata, Oratorio
+- catalog-id:
+    id: 0011-mass
+    num-id: 11
+    name: mass
+    uuid: f5ddc9de-fead-46a1-97b7-0a302ab3fc79
+  title: Mass
+- catalog-id:
+    id: 0012-mixed-choir
+    num-id: 12
+    name: mixed-choir
+    uuid: 3eea8f36-a9bc-48ec-9d61-e60c17ee42ef
+  title: Mixed Choir
+- catalog-id:
+    id: 0013-malechoir
+    num-id: 13
+    name: malechoir
+    uuid: a886bd9f-83bf-49dc-b7c0-3f13b3a82d9d
+  title: Malechoir
+- catalog-id:
+    id: 0014-female-choir
+    num-id: 14
+    name: female-choir
+    uuid: 2e27c4cb-8d47-4416-a514-249fa5141ac5
+  title: Female Choir
+- catalog-id:
+    id: 0015-childrens-choir
+    num-id: 15
+    name: childrens-choir
+    uuid: 213a5b73-bacb-4213-a87f-ed8d6cd88ea1
+  title: Children'S Choir
+- catalog-id:
+    id: 0016-miscellaneous-choir-canon
+    num-id: 16
+    name: miscellaneous-choir-canon
+    uuid: ab3bb6c6-f246-40b9-8fa4-900aa31d6a5c
+  title: Miscellaneous Choir / Canon
+- catalog-id:
+    id: 0017-voice-and-piano-organ
+    num-id: 17
+    name: voice-and-piano-organ
+    uuid: d7e77116-b821-4fa7-a7d3-fb5475c59b3c
+  title: Voice And Piano / Organ
+- catalog-id:
+    id: 0018-voiceand-other-instruments-or-orchestra
+    num-id: 18
+    name: voiceand-other-instruments-or-orchestra
+    uuid: 224d0ac9-c328-46ff-a759-18f1156addaf
+  title: Voiceand Other Instrument(S) Or Orchestra
+- catalog-id:
+    id: 0019-hungarianfolk-song-folk-music
+    num-id: 19
+    name: hungarianfolk-song-folk-music
+    uuid: ef209a7d-e1f3-4b44-9b30-4430f1c5af1b
+  title: Hungarianfolk Song – Folk Music
+- catalog-id:
+    id: 0020-incidental-music-radio-plays
+    num-id: 20
+    name: incidental-music-radio-plays
+    uuid: 302165d7-e8cb-46a8-a4e0-3f75b2500e59
+  title: Incidental Music, Radio Plays
+- catalog-id:
+    id: 0021-film-music
+    num-id: 21
+    name: film-music
+    uuid: 3f58f6c2-eddb-4611-9d1a-f578ce39024c
+  title: Film Music

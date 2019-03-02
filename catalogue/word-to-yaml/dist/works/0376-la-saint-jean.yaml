@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0376-la-saint-jean
+  num-id: 376
+  name: la-saint-jean
+  uuid: 8285f40b-4961-4d23-9c8f-0007d8db4a70
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: La Saint Jean
+composition-date: "1987"
+source: manuscript by András Farkas

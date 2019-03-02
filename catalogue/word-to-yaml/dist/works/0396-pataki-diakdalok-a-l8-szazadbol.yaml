@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0396-pataki-diakdalok-a-l8-szazadbol
+  num-id: 396
+  name: pataki-diakdalok-a-l8-szazadbol
+  uuid: bc4efa5c-e13e-4f92-bbf1-7de758071890
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Pataki diákdalok a l8.századból
+reworking: Chansons d’étudiants hongrois for mixed choir
+dedication: a Budapesti Madrigálkórusnak és karnagyának, Szekeres Ferencnek

@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0402-psalm-cxxxi
+  num-id: 402
+  name: psalm-cxxxi
+  uuid: 7c37c5ac-ca0a-4963-ad9f-b1dcb924bf73
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: mt
+  original: hu
+  sort:
+  - mt
+  - hu
+  translations:
+    hu: CXXXI szoltár
+    mt: Psalm CXXXI
+reworking: Psaume CXXXI for mixed choir
+dedication: Maklári Lajos emlékének

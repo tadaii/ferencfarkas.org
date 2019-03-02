@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0629-soeteted
+  num-id: 629
+  name: soeteted
+  uuid: 9d39e4c8-a8f8-4b2d-bbec-332596a3d853
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Sőtéted
+composition-date: "1994"
+movements:
+- original-value: Sötétedő Esteli lovas Szavadban búza Marasztalás

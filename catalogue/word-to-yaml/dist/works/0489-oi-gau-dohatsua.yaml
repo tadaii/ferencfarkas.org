@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0489-oi-gau-dohatsua
+  num-id: 489
+  name: oi-gau-dohatsua
+  uuid: 9e64963f-2c36-4d9e-b577-611e4666342c
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: eu
+  original: eu
+  sort:
+  - eu
+  translations:
+    eu: Oi ! Gau dohatsua
+composition-date: "1993"

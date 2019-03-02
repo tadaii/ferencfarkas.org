@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0022-dances-from-the-matra
+  num-id: 22
+  name: dances-from-the-matra
+  uuid: 1f76730c-a37c-4dd8-a150-6e253cee29f7
+date: "2019-03-02T15:13:23+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Dances from the Mátra
+    hu: Mátrai táncok
+composition-date: "1968"
+setting: 3 (III=picc.), 2, 2, 2 – 4, 3, 3, 0 – timp., batt. (2 ess.) – arpa - archi
+dedication: az Egri Szimfónikus Zenekarnak ötéves jubileumára

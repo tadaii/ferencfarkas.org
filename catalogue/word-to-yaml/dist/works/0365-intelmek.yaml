@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0365-intelmek
+  num-id: 365
+  name: intelmek
+  uuid: 7c372638-de2c-4300-8c16-661a806412a9
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Intelmek
+composition-date: "1987"
+source: manuscript by András Farkas

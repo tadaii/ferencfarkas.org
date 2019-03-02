@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0446-kyrie
+  num-id: 446
+  name: kyrie
+  uuid: 337b5a48-c80a-466b-98ff-370f8653a71f
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Kyrie
+composition-date: "1997"

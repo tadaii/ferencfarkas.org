@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0439-harom-enek-a-mohacsi-veszroel
+  num-id: 439
+  name: harom-enek-a-mohacsi-veszroel
+  uuid: 045b8f06-a976-466a-a1ff-36384d412e78
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Három ének a mohácsi vészröl
+composition-date: "1984"
+source: manuscript by András Farkas

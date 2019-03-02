@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0192-three-dance-paraphrases
+  num-id: 192
+  name: three-dance-paraphrases
+  uuid: f3843576-70ab-4e85-a69f-550fca2bda1c
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Three dance paraphrases
+    hu: Három táncparafrázis
+composition-date: "1972"
+movements:
+- original-value: Allegretto, Moderato, Allegro
+reworking: Three dance paraphrases for flute, viola and horn
+dedication: to the Berner Kammermusik-Ensemble

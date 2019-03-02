@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0318-chansons-de-fou
+  num-id: 318
+  name: chansons-de-fou
+  uuid: e5b11f51-423c-415b-9084-6952584a719d
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Chansons de fou
+composition-date: "1981"
+dedication: aux Choeurs de Chailly-sur-Clarens et à leur chef, András Farkas
+nb: This work received one prize at the "Concours de composition chorale 1983" in
+  Tours

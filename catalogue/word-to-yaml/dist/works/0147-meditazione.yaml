@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0147-meditazione
+  num-id: 147
+  name: meditazione
+  uuid: b27f8000-7d59-47a1-81a5-f4ffda0115b4
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Meditazione
+composition-date: "1990"
+reworking: Meditazione for flute and piano Meditazione for clarinet and piano
+dedication: to Marcello Barberi

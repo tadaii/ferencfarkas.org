@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0558-elment-a-bujdoso-fecske
+  num-id: 558
+  name: elment-a-bujdoso-fecske
+  uuid: 1f7f4e05-0f49-4040-8273-0faecae9d195
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Elment a bújdosó fecske
+composition-date: "1952"
+source: manuscript by András Farkas

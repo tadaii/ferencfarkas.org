@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0384-mennyboel-az-angyal
+  num-id: 384
+  name: mennyboel-az-angyal
+  uuid: 708acad8-47cd-4afc-a7f4-fe982320c0f6
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Mennyből az angyal
+reworking: 'Christmas album no.1: Mennyből az angyal for voice and piano'

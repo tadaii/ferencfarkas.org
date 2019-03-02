@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0404-psaume-cxxxi
+  num-id: 404
+  name: psaume-cxxxi
+  uuid: 97e78987-d644-47ca-8535-ae958dfc028a
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: mt
+  original: mt
+  sort:
+  - mt
+  translations:
+    mt: Psaume CXXXI
+reworking: Psalm CXXXI / CXXXI szoltár for mixed choir
+source: manuscript by András Farkas

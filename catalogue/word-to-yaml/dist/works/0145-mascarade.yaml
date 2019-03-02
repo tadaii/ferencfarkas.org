@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0145-mascarade
+  num-id: 145
+  name: mascarade
+  uuid: 9542b3e1-4f50-4b5b-95f4-5696abc58877
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  - it
+  translations:
+    fr: Mascarade
+    it: Maschere
+composition-date: "1983"
+reworking: Maschere for chamber orchestra Maschere for piano
+dedication: omaggio a Gino Severini all'occasione del centenario di sua nascita

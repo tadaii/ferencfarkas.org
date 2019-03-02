@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0066-musica-pentatonica
+  num-id: 66
+  name: musica-pentatonica
+  uuid: f412285f-f6cd-4e07-90de-0dbd2c13ffe1
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Musica pentatonica
+composition-date: "1945"
+reworking: Toccata for piano Toccata for organ

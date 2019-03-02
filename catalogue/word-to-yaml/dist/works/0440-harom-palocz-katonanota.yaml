@@ -1,0 +1,13 @@
+catalog-id:
+  id: 0440-harom-palocz-katonanota
+  num-id: 440
+  name: harom-palocz-katonanota
+  uuid: 391ee7ef-4d40-4f53-ab7e-cecac35b2485
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Három palócz katonanóta

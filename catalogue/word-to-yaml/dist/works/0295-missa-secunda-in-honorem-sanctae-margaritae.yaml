@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0295-missa-secunda-in-honorem-sanctae-margaritae
+  num-id: 295
+  name: missa-secunda-in-honorem-sanctae-margaritae
+  uuid: 0de9a7a4-f12a-4bd5-94e7-66c8a7c7d407
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: la
+  original: la
+  sort:
+  - la
+  translations:
+    la: Missa secunda in honorem Sanctae Margaritae
+composition-date: 1964 -1968
+movements:
+- original-value: Kyrie – Gloria – Sanctus – Benedictus – Agnus Dei
+reworking: Missa secunda for female choir and organ or string orchestra Kyrie for
+  mixed choir
+dedication: à ma femme Margit Farkas à l'occasion de nos 25 ans de mariage

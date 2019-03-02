@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0702-a-makrancos-hoelgy
+  num-id: 702
+  name: a-makrancos-hoelgy
+  uuid: d64a09fc-2042-4500-93a6-e8c213b1394b
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - en
+  translations:
+    en: The taming of the shrew by Shakespeare, 1939
+    hu: A makrancos hölgy

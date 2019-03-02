@@ -1,0 +1,13 @@
+catalog-id:
+  id: 0472-zug-az-erdoe-harsog-a-trombita
+  num-id: 472
+  name: zug-az-erdoe-harsog-a-trombita
+  uuid: f30ac6df-b612-4e10-a9f9-51d2ba373f5c
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Zúg az erdő, harsog a trombita

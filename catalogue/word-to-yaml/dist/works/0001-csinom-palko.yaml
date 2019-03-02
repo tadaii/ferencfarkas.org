@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0001-csinom-palko
+  num-id: 1
+  name: csinom-palko
+  uuid: 40d1c5e0-1aec-4466-837b-ce3b8cdf6e8f
+date: "2019-03-02T15:13:23+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Csínom Palkó
+composition-date: "1949"
+source: 'score : manuscript by András Farkas'
+world-premiere: 22.1.1950
+nb: Ferenc Farkas recieved the “Kossuth Prize” for this version in 1950

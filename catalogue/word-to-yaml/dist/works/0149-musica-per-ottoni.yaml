@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0149-musica-per-ottoni
+  num-id: 149
+  name: musica-per-ottoni
+  uuid: e530429f-ee1b-4c7f-9c23-eeacf7227759
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: it
+  original: hu
+  sort:
+  - it
+  - en
+  - hu
+  translations:
+    en: Brass music
+    hu: Rézfúvószene
+    it: Musica per ottoni
+composition-date: "1982"
+movements:
+- original-value: Allegro, Adagio, Allegro

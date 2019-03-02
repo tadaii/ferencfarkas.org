@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0263-at-the-bank-of-the-tisza
+  num-id: 263
+  name: at-the-bank-of-the-tisza
+  uuid: 8457d0e1-f47c-4f25-acc8-037233209525
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: At the bank of the Tisza
+    hu: Tisza partján
+composition-date: "1950"
+setting: 2, 2, 2, 2 – 4, 2, 3, 0 – timp., batt. – arpa – archi

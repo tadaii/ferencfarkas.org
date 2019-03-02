@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0399-petoefi-sorok
+  num-id: 399
+  name: petoefi-sorok
+  uuid: fb404f36-732b-4da3-aa69-2d99d77be356
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Petőfi sorok
+composition-date: "1995"

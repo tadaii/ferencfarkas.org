@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0459-salut
+  num-id: 459
+  name: salut
+  uuid: da9c64ef-3d2f-4065-8bc7-f07f50f70c3b
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  - de
+  translations:
+    de: Seid gegrüsst
+    fr: Salut
+composition-date: "1975"
+dedication: à la Chorale de l’Orient et à son chef András Farkas à l’occasion de son
+  30ème anniversaire

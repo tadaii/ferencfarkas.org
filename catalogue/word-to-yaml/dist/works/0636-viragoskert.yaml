@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0636-viragoskert
+  num-id: 636
+  name: viragoskert
+  uuid: e019989d-9926-4128-8a78-7fc49a805cca
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Virágoskert
+composition-date: 1989-1990
+dedication: Mancinak

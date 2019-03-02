@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0058-zwei-ungarische-taenze
+  num-id: 58
+  name: zwei-ungarische-taenze
+  uuid: 4e0d30ab-2b2b-4eed-925b-01cf2e59f957
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: de
+  original: de
+  sort:
+  - de
+  - en
+  translations:
+    de: Zwei ungarische Tänze
+    en: Two Hungarian dances
+composition-date: "1940"
+setting: 2, 1, 2, 1 – 2, 2, 1, 0 – batt. – arpa – archi
+reworking: Két magyar tánc for piano Shepherd dance for harp

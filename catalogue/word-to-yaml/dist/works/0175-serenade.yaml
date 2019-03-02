@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0175-serenade
+  num-id: 175
+  name: serenade
+  uuid: 018e147f-c7c7-40e1-926a-2345f2c92291
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Serenade
+    hu: Szerenád
+composition-date: "1965"
+movements:
+- original-value: Allegro moderato, Marcietta, Scherzino, Intermezzo, Rondo

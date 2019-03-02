@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0032-lavotta-suite
+  num-id: 32
+  name: lavotta-suite
+  uuid: c4965779-e92f-4262-b65e-111230affddb
+date: "2019-03-02T15:13:23+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Lavotta Suite
+composition-date: "1951"
+setting: 2 (picc.), 1, 2, 1 – 2, 1, 0, 0 – archi
+reworking: Lavottiana for wind quintet

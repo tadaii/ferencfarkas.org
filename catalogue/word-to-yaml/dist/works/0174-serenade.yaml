@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0174-serenade
+  num-id: 174
+  name: serenade
+  uuid: f68f2251-3a99-4195-9df3-7669836884d1
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Serenade
+    hu: Szerenád
+composition-date: "1940"
+movements:
+- original-value: Allegro moderato, Marcietta, Scherzino, Intermezzo, Rondino
+reworking: Serenade for flute and 2 violins

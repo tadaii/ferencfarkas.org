@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0682-aki-nem-lep-egyszerre
+  num-id: 682
+  name: aki-nem-lep-egyszerre
+  uuid: 42a551bf-4131-48d4-9aa2-45386c68c486
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Aki nem lép egyszerre
+source: manuscript by András Farkas

@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0617-oet-francia-trubadur-dallam
+  num-id: 617
+  name: oet-francia-trubadur-dallam
+  uuid: 0f5a5921-6634-4974-a82b-9fdb0eaa2c7b
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: sk
+  original: sk
+  sort:
+  - sk
+  - co
+  translations:
+    co: Cinque canzoni dei trovatori
+    sk: Öt francia trubadúr dallam
+composition-date: "1947"
+reworking: Cinque canzoni dei trovatori for voice and guitar

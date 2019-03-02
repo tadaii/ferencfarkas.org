@@ -1,0 +1,13 @@
+catalog-id:
+  id: 0521-hat-kis-kanon
+  num-id: 521
+  name: hat-kis-kanon
+  uuid: b928b343-539d-4c32-bfef-66962652305d
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Hat kis kánon

@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0316-beati-mortui
+  num-id: 316
+  name: beati-mortui
+  uuid: 4bcfb2e6-bedc-45f8-8e84-2ea7f5d6db04
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: la
+  original: la
+  sort:
+  - la
+  translations:
+    la: Beati mortui
+composition-date: "1994"
+dedication: Pro memoria M.

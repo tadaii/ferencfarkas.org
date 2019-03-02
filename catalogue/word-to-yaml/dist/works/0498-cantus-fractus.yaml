@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0498-cantus-fractus
+  num-id: 498
+  name: cantus-fractus
+  uuid: 11d384e2-d1a5-455a-a54b-c71f1cab419f
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: la
+  original: la
+  sort:
+  - la
+  translations:
+    la: Cantus fractus
+composition-date: "1982"

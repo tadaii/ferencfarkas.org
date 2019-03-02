@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0074-mischievous-tune-csinom-palko
+  num-id: 74
+  name: mischievous-tune-csinom-palko
+  uuid: 85cb7e34-5281-4746-97d9-d81f4d969d5d
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: vo
+  original: vo
+  sort:
+  - vo
+  translations:
+    vo: Mischievous tune “Csínom Palkó”
+setting: picc., 2 fl., 2 ob., c.i., 2 fg, cfg, clar.mib, 3 clar.sib, alt-clar.mib,
+  bass-clar. sib, cb-clar.sib, 2 alt-sass.mib, tenor-sass.sib, bar-sass.mib, vcl.,
+  stringbass, 4 cor, 3 tr.sib, 3 trbne c, euphonium c, tuba c, timpani, bells, xylophone,
+  2 perc.
+reworking: Csínom Palkó for wind orchestra Csínom Palkó for orchestra Csínom Palkó,
+  opera

@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0398-pensieri-notturni
+  num-id: 398
+  name: pensieri-notturni
+  uuid: b897e4d2-90d0-4870-ae88-787a101541f5
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Pensieri notturni
+composition-date: "1982"

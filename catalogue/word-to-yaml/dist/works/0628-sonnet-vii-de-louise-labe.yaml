@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0628-sonnet-vii-de-louise-labe
+  num-id: 628
+  name: sonnet-vii-de-louise-labe
+  uuid: c680b1ce-1333-417a-8143-e95d0b1486b0
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: crs
+  original: crs
+  sort:
+  - crs
+  translations:
+    crs: Sonnet VII de Louise Labé
+composition-date: "1944"
+reworking: Sonnet VII de Louise Labé for soprano, flute and harp

@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0355-hommage-a-rilke
+  num-id: 355
+  name: hommage-a-rilke
+  uuid: e1a3af33-a871-420d-8728-964ce236b38d
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: de
+  original: de
+  sort:
+  - de
+  translations:
+    de: Hommage à Rilke
+composition-date: "1984"

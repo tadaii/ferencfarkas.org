@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0676-tibicinium
+  num-id: 676
+  name: tibicinium
+  uuid: 9fb4b711-b3a8-49d4-bfa0-1b1de5796df0
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: la
+  original: la
+  sort:
+  - la
+  translations:
+    la: Tibicinium
+composition-date: "1960"

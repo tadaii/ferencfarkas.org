@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0476-baszk-dalok
+  num-id: 476
+  name: baszk-dalok
+  uuid: 952e0c01-c758-4d19-97e2-c8c7b0892df1
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - eu
+  translations:
+    eu: Euskal abestiak
+    hu: Baszk dalok
+composition-date: "1986"
+dedication: a Budatoki Kamarakórusnak és karnagyának Biller Istvánnak

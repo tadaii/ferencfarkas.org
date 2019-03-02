@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0358-hymnus-ad-sanctum-emericum
+  num-id: 358
+  name: hymnus-ad-sanctum-emericum
+  uuid: c2e326db-4f15-42e8-b4e9-744753946f9e
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: la
+  original: la
+  sort:
+  - la
+  translations:
+    la: Hymnus ad Sanctum Emericum
+composition-date: "1977"

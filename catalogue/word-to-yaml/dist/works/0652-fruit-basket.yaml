@@ -1,0 +1,25 @@
+catalog-id:
+  id: 0652-fruit-basket
+  num-id: 652
+  name: fruit-basket
+  uuid: acd07f3a-f310-49d2-a8c0-61923e05302e
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  - da
+  - fr
+  translations:
+    da: / Fruchtkorb
+    en: Fruit basket
+    fr: Panier de fruits
+    hu: Gyümölcskosár
+composition-date: "1946"
+reworking: Fruit basket for voice and piano Fruit basket for voice, clarinet, viola
+  and piano Fruit basket for voice and clarinet quartet Fruit basket for voice and
+  wind quintet Fruit basket fruits for voice and guitar
+dedication: “Altatódal / Wiegenlied / Berceuse” is dedicated to my son András for
+  his first birthday

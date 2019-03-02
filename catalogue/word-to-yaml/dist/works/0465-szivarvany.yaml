@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0465-szivarvany
+  num-id: 465
+  name: szivarvany
+  uuid: 185eedb0-7973-45be-bd17-74b3158a1d3e
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Szivárvány
+composition-date: "1974"
+dedication: A H.V.D. Sz. Liszt Ferenc Kórusának és karnagyának, Kis Istvánnak

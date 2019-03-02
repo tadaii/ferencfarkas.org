@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0166-ricordo-di-somogy
+  num-id: 166
+  name: ricordo-di-somogy
+  uuid: 02435bc7-2da8-430c-89d1-a72bdc607027
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Ricordo di Somogy
+composition-date: "1977"

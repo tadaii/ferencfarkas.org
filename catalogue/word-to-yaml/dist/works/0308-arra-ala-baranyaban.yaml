@@ -1,0 +1,13 @@
+catalog-id:
+  id: 0308-arra-ala-baranyaban
+  num-id: 308
+  name: arra-ala-baranyaban
+  uuid: 7e990c54-04ee-48b2-b270-184a1b7170e9
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Arra alá Baranyában

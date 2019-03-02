@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0153-notturno-op-2
+  num-id: 153
+  name: notturno-op-2
+  uuid: 6ecb835f-9af9-415f-bba0-c8678284b660
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Notturno, op.2
+composition-date: "1929"
+movements:
+- original-value: Andante, Allegretto

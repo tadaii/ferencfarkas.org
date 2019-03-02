@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0027-esztergomi-tancok-a-l8-szazadbol
+  num-id: 27
+  name: esztergomi-tancok-a-l8-szazadbol
+  uuid: 660cee34-f19a-40d1-85a9-de9f5c33837d
+date: "2019-03-02T15:13:23+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - en
+  translations:
+    en: Dances of Esztergom from the 18th century
+    hu: Esztergomi táncok a l8. századból
+composition-date: "1960"
+setting: flauto dolce, 2 cl. - 2 zimb. ungh. - archi
+source: 'score: manuscript by András Farkas'

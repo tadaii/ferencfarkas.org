@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0158-piccola-musica-di-concerto
+  num-id: 158
+  name: piccola-musica-di-concerto
+  uuid: 8b7b7190-be7c-4468-9c9b-9087555cce29
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Piccola musica di concerto
+reworking: Piccola musica di concerto for string orchestra

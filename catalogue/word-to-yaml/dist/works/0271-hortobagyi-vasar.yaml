@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0271-hortobagyi-vasar
+  num-id: 271
+  name: hortobagyi-vasar
+  uuid: ffaa3dc2-ef58-4a49-a3dc-c41f8c41e828
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Hortobágyi vásár
+composition-date: "1953"
+source: 'piano reduction: manuscript by András Farkas'

@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0579-harom-dal-szoecs-geza-verseire
+  num-id: 579
+  name: harom-dal-szoecs-geza-verseire
+  uuid: c94136cf-572b-4a0d-bc95-aed9544554ec
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Három dal Szöcs Géza verseire
+composition-date: "1989"
+source: manuscript by András Farkas

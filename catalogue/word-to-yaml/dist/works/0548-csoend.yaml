@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0548-csoend
+  num-id: 548
+  name: csoend
+  uuid: 99713d47-5770-4358-85f4-642350f4bc05
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: is
+  original: is
+  sort:
+  - is
+  translations:
+    is: Csönd
+composition-date: "1938"
+source: manuscript by András Farkas

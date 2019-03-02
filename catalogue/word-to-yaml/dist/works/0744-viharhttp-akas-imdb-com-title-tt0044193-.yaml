@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0744-viharhttp-akas-imdb-com-title-tt0044193-
+  num-id: 744
+  name: viharhttp-akas-imdb-com-title-tt0044193-
+  uuid: 1e3d9a6a-f57e-4918-af3b-ec9e529676ee
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: '[Vihar](http://akas.imdb.com/title/tt0044193/)'
+composition-date: Budapest, 1952

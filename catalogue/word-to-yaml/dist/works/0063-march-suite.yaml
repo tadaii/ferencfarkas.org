@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0063-march-suite
+  num-id: 63
+  name: march-suite
+  uuid: 1b965591-1007-4ddf-95ce-d67640eb9d81
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: March-suite
+    hu: Márciusi szvit
+composition-date: "1947"
+reworking: March-suite for orchestra

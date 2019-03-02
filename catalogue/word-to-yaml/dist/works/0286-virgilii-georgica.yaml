@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0286-virgilii-georgica
+  num-id: 286
+  name: virgilii-georgica
+  uuid: 5d7a430e-f7c3-4b88-b9f2-fc7021a0cf60
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Virgilii Georgica
+composition-date: "1988"
+setting: 2, 2, 2, 2 – 2, 2, 0, 0 – archi
+source: 'score, piano reduction & performance material: manuscript by András Farkas'
+dedication: aux Choeurs de Chailly sur Clarens á l'occasion de leur centenaire et
+  á leur chef András Farkas, hommage aux viticulteurs vaudois

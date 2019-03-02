@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0211-bordal
+  num-id: 211
+  name: bordal
+  uuid: e39b4768-080d-4949-b8d6-e4488fb2ce6d
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  - en
+  translations:
+    en: Bordal
+composition-date: "1937"

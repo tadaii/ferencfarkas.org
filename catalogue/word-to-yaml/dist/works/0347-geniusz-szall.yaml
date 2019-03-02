@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0347-geniusz-szall
+  num-id: 347
+  name: geniusz-szall
+  uuid: 1dc6c61f-ca0a-4c3d-a6cd-915360a9045c
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Géniusz száll
+composition-date: "1987"
+source: manuscript by András Farkas
+dedication: a boglári Vegyeskarnak

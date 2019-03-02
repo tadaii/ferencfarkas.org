@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0369-jelenesek
+  num-id: 369
+  name: jelenesek
+  uuid: bc86776e-f17a-4379-8ee7-1a9af2fd69cc
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Jelenések
+composition-date: "1983"
+dedication: A mü Debrecen város felkérésére készült

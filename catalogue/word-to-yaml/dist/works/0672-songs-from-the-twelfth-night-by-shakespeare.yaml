@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0672-songs-from-the-twelfth-night-by-shakespeare
+  num-id: 672
+  name: songs-from-the-twelfth-night-by-shakespeare
+  uuid: ce443744-5598-4d83-975d-0496fd90fbad
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Songs from the “Twelfth night” by Shakespeare
+reworking: Songs from the “Twelfth night” by Shakespeare for voice and piano Songs
+  from the “Twelfth night” by Shakespeare for voice and harp The “Twelfth night” by
+  W. Shakespeare, incidental music
+source: manuscript by András Farkas

@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0111-ballade
+  num-id: 111
+  name: ballade
+  uuid: ef398c59-9358-4a22-a20d-6cc62e592a4d
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Ballade
+composition-date: "1963"

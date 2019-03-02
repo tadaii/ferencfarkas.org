@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0020-csinom-palko
+  num-id: 20
+  name: csinom-palko
+  uuid: b51b8320-320f-4ca8-91cf-73b33db24614
+date: "2019-03-02T15:13:23+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Csínom Palkó
+setting: 1, 1, 2, 0 – 0, 2, 1, 0 – batt. – pf., harmonium, accordion – archi
+reworking: Csínom Palkó for wind orchestra Mischievous tune “Csínom Palkó” for wind
+  orchestra Csínom Palkó, opera
+source: 'piano-conductor& performance material: manuscript by András Farkas'

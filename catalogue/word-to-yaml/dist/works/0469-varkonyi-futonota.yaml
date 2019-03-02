@@ -1,0 +1,13 @@
+catalog-id:
+  id: 0469-varkonyi-futonota
+  num-id: 469
+  name: varkonyi-futonota
+  uuid: b24cbe62-29f4-4b26-919d-e4568aec8cbe
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: ms
+  original: ms
+  sort:
+  - ms
+  translations:
+    ms: Várkonyi futónóta

@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0356-honszeretet
+  num-id: 356
+  name: honszeretet
+  uuid: 2efdbdca-c8aa-4756-b7f4-ed9b76f7bded
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Honszeretet
+composition-date: "1969"

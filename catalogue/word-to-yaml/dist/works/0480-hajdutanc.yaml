@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0480-hajdutanc
+  num-id: 480
+  name: hajdutanc
+  uuid: b07ee2db-d97f-4305-899e-70ecb1fbf5ad
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Hajdútánc
+composition-date: "1975"
+reworking: Hajdútánc for male choir Hajdútánc for mixed choir

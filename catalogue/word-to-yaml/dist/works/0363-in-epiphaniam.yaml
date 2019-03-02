@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0363-in-epiphaniam
+  num-id: 363
+  name: in-epiphaniam
+  uuid: 5b3322c2-1e62-4410-851f-068671ac6308
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: la
+  original: la
+  sort:
+  - la
+  translations:
+    la: In Epiphaniam
+composition-date: "1970"
+reworking: Ein Krippenspiel aus Kőröshegy, Christmas cantata
+source: manuscript by András Farkas

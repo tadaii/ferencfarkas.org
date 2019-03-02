@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0336-enek-szent-erzsebetroel
+  num-id: 336
+  name: enek-szent-erzsebetroel
+  uuid: f45805cb-efdf-43b2-a1ca-48decde1a78a
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Ének Szent Erzsébetről
+composition-date: "1981"

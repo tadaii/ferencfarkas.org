@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0487-le-gout-de-la-paix
+  num-id: 487
+  name: le-gout-de-la-paix
+  uuid: 24580ec2-8845-4fdb-b21a-07cffac750d0
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: fr
+  original: hu
+  sort:
+  - fr
+  - hu
+  translations:
+    fr: Le goût de la paix
+    hu: A béke mosolya
+composition-date: "1960"

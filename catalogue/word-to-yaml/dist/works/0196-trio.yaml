@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0196-trio
+  num-id: 196
+  name: trio
+  uuid: e510cc21-4b81-49d1-bd0b-35abd81bc1d4
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Trio
+composition-date: "1979"

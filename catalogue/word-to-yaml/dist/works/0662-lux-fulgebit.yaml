@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0662-lux-fulgebit
+  num-id: 662
+  name: lux-fulgebit
+  uuid: 116bd814-de22-427e-aa1f-8c27f52ec653
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: la
+  original: la
+  sort:
+  - la
+  translations:
+    la: Lux fulgebit
+composition-date: "1995"
+setting: 1, 1, 1, 1 - 1, 0, 0, 0 – archi
+source: 'score & piano reduction: manuscript by András Farkas'

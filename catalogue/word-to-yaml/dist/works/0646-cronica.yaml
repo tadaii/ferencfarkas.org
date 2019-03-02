@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0646-cronica
+  num-id: 646
+  name: cronica
+  uuid: 2bdd0143-e216-4637-b817-f8f86b9cf2e0
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: pt
+  original: pt
+  sort:
+  - pt
+  translations:
+    pt: Cronica
+composition-date: "1973"

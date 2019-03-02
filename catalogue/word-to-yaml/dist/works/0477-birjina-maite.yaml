@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0477-birjina-maite
+  num-id: 477
+  name: birjina-maite
+  uuid: 22a3a3bf-c2b3-4906-8185-587087eb9d5f
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: ga
+  original: ga
+  sort:
+  - ga
+  translations:
+    ga: Birjina maite
+composition-date: "1993"

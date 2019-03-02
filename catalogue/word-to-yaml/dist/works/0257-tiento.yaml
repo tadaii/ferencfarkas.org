@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0257-tiento
+  num-id: 257
+  name: tiento
+  uuid: 48ac53ec-9952-4947-b9da-21ced778e8d7
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: es
+  original: es
+  sort:
+  - es
+  translations:
+    es: Tiento
+composition-date: "1993"

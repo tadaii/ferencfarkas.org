@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0661-la-guitarra
+  num-id: 661
+  name: la-guitarra
+  uuid: 3a4bbcea-48af-4847-9b5f-3d6ea86b78fc
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: es
+  original: es
+  sort:
+  - es
+  translations:
+    es: La guitarra
+composition-date: "1986"
+reworking: La guitarra for voice and guitar

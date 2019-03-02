@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0242-quatre-preludes
+  num-id: 242
+  name: quatre-preludes
+  uuid: 05fcf894-d484-48a2-8665-e45951edca63
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Quatre préludes
+reworking: Exercitium tonale for guitar Exercitium tonale for cimbalom

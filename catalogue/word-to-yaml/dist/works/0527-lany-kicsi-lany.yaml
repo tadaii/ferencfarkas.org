@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0527-lany-kicsi-lany
+  num-id: 527
+  name: lany-kicsi-lany
+  uuid: 556c91c2-05eb-4395-a5c6-cdf51797cffb
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Lány, kicsi lány
+composition-date: "1953"

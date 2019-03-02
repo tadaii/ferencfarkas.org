@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0340-ex-libro-job
+  num-id: 340
+  name: ex-libro-job
+  uuid: dc5fdc15-c7b9-42e4-9731-909f17a65996
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: pl
+  original: pl
+  sort:
+  - pl
+  translations:
+    pl: Ex libro Job
+composition-date: "1987"
+source: manuscript by András Farkas

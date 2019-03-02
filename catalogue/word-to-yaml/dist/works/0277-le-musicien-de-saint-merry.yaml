@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0277-le-musicien-de-saint-merry
+  num-id: 277
+  name: le-musicien-de-saint-merry
+  uuid: 4ddad343-43c5-4678-b473-6e48e140ade0
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: da
+  original: da
+  sort:
+  - da
+  translations:
+    da: Le musicien de Saint-Merry
+composition-date: "1984"
+reworking: Le musicien de Saint-Merry, cantate for female choir and wind ensemble

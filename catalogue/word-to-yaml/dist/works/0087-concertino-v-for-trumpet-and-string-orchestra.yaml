@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0087-concertino-v-for-trumpet-and-string-orchestra
+  num-id: 87
+  name: concertino-v-for-trumpet-and-string-orchestra
+  uuid: 270f1925-022e-4dfd-93e1-fa844348eed5
+date: "2019-03-02T15:13:24+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Concertino V for trumpet and string orchestra
+composition-date: "1984"
+dedication: Szeged város felkérésére a IV. Szegedi Kamarazenekari Napok alkalmából

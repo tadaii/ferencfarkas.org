@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0387-negysoros-versek
+  num-id: 387
+  name: negysoros-versek
+  uuid: 0d4156d2-f4de-4cec-9474-0c5559ad04d4
+date: "2019-03-02T15:13:26+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Négysoros versek
+composition-date: "1983"
+dedication: A Szlovákiai Magyar Tanitók Ènekkarának

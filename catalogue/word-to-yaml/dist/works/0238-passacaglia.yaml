@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0238-passacaglia
+  num-id: 238
+  name: passacaglia
+  uuid: a2a29a79-b8f6-4b10-a02c-d59d4046ee0b
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: co
+  original: co
+  sort:
+  - co
+  translations:
+    co: Passacaglia
+composition-date: "1968"
+reworking: Passacaglia for clarinet mi b, 2 clarinets si b, alto-clarinet mi b, 2
+  bass-clarinets

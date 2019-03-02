@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0680-a-malomnak-nincsen-koeve
+  num-id: 680
+  name: a-malomnak-nincsen-koeve
+  uuid: e22e5ddd-1f5b-4f65-9376-8e8696a0de79
+date: "2019-03-02T15:13:28+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: A malomnak nincsen köve
+source: manuscript by András Farkas

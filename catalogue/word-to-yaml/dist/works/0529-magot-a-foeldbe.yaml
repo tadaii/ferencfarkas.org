@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0529-magot-a-foeldbe
+  num-id: 529
+  name: magot-a-foeldbe
+  uuid: d2b08db7-717d-4437-a32c-d96f90625f28
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Magot a földbe
+composition-date: "1947"
+dedication: Székesfehérvár énekkarainak 1948 "Enneklö Fehérvár" ünnepére

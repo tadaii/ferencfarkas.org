@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0592-ket-viragenek
+  num-id: 592
+  name: ket-viragenek
+  uuid: c0e092ad-d66a-4958-b32c-fa92b8df61cd
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - de
+  translations:
+    de: Zwei Blumenlieder
+    hu: Két virágének
+composition-date: "1948"

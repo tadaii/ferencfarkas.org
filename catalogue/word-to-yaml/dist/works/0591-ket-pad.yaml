@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0591-ket-pad
+  num-id: 591
+  name: ket-pad
+  uuid: eddd632c-5f5f-4fda-9c97-6b0b414a2a21
+date: "2019-03-02T15:13:27+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Két pad
+dedication: Mezey Máriának

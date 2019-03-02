@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0339-esztergom-megveteleroel
+  num-id: 339
+  name: esztergom-megveteleroel
+  uuid: 684459f7-5784-46c1-9b50-e7ed1c837605
+date: "2019-03-02T15:13:25+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Esztergom megvételéröl
+composition-date: "1976"
+dedication: az Esztergomi Labor Müvek Balassa Bálint Kórusának és Szabó Tibor Karnagynak
