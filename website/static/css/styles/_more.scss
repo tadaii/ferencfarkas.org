@@ -1,0 +1,14 @@
+.More {
+  display: inline-block;
+  padding-bottom: 9px;
+  margin: 20px 0 10px;
+  font-family: $f-sans;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-bottom: 1px solid $c-black;
+
+  &:before {
+    content: '➔';
+    display: inline-block;
+  }
+}

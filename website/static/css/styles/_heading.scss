@@ -1,0 +1,51 @@
+
+// 1st level heading couple
+h1 {
+  font-family: $f-serif;
+  font-weight: 700;
+  @include heading-margin(1.625);
+  @include font-size(1.625);
+  @include line-height(.9);
+}
+
+h2 {
+  font-family: $f-sans;
+  font-weight: 300;
+  @include heading-margin(1.375);
+  @include font-size(1.375);
+  @include line-height(.9);
+}
+
+h1 + h2 {
+  @include heading-margin-couple(1.375);
+}
+
+// 2nd level heading couple
+h3 {
+  font-family: $f-sans;
+  font-weight: 700;
+  @include heading-margin(1.125);
+  @include font-size(1.125);
+}
+
+h4 {
+  font-family: $f-sans;
+  font-weight: 300;
+  @include heading-margin(1.125);
+  @include font-size(1.125);
+}
+
+h3 + h4 {
+  @include heading-margin-couple(1.125);
+}
+
+// 3rd level heading couple
+h5 {
+  font-family: $f-sans;
+  font-weight: 300;
+  text-transform: uppercase;
+  @include font-size;
+}
+
+h6 {
+}

@@ -1,0 +1,1522 @@
+- query: Csínom Palkó
+  code: hu
+- query: Egy ur Velencéből, Casanova
+  code: hu
+- query: A gentleman from Venice, Casanova
+  code: en
+- query: Un seigneur de Venise, Casanova
+  code: fr
+- query: Ein Herr aus Venedig, Casanova
+  code: de
+- query: The magic cupboard
+  code: en
+- query: A bűvös szekrény
+  code: hu
+- query: Der Wunderschrank
+  code: de
+- query: L’armoire magique
+  code: fr
+- query: A büvös szekrény
+  code: hu
+- query: Vidróczki
+  code: pl
+- query: A noszty fiú esete Tóth Marival
+  code: hu
+- query: The case of Noszty junior with Maria Tóth
+  code: en
+- query: Paradies der Schwiegersöhne
+  code: de
+- query: Piroschka
+  code: de
+- query: Vők iskolája (Anyósgeneralis)
+  code: hu
+- query: Sons-in-law’s school
+  code: en
+- query: Zeng az erdő
+  code: az
+- query: The forest resounds
+  code: en
+- query: A három csavargó
+  code: hu
+- query: The three vagabonds
+  code: en
+- query: Panegyricus
+  code: la
+- query: The sly students
+  code: en
+- query: Furfangos diákok
+  code: hu
+- query: Die listigen Studenten
+  code: de
+- query: Capriccio all'ungherese
+  code: it
+- query: Choreae hungaricae
+  code: la
+- query: Dances from Kálló
+  code: en
+- query: Kállai táncok
+  code: hu
+- query: Dances from the Mátra
+  code: en
+- query: Mátrai táncok
+  code: hu
+- query: Dance from Transylvania
+  code: en
+- query: Erdélyi tánc
+  code: hu
+- query: Dinner-music
+  code: en
+- query: Tafelmusik
+  code: de
+- query: Musique de table
+  code: fr
+- query: Divertimento
+  code: en
+- query: Elegia
+  code: pt
+- query: Esztergomi táncok a l8. századból
+  code: hu
+- query: Dances of Esztergom from the 18th century
+  code: en
+- query: Festive overture
+  code: en
+- query: Ünnepi nyitany
+  code: hu
+- query: Funérailles (Franz Liszt)
+  code: fr
+- query: Hungarian dances from the 17th century
+  code: en
+- query: Lavotta Suite
+  code: hu
+- query: March suite
+  code: en
+- query: Márciusi szvit
+  code: hu
+- query: Maschere
+  code: it
+- query: Overture to a comedy
+  code: en
+- query: Bevezetö zene egy vigjátékhoz
+  code: hu
+- query: Philharmonic overture
+  code: en
+- query: Filharmónikus nyitány
+  code: hu
+- query: Planctus et consolationes
+  code: la
+- query: Preludio e fuga
+  code: es
+- query: Rhapsodia carpatiana
+  code: en
+- query: Rhapsodie über ungarische Volkslieder
+  code: de
+- query: Scherzo sinfonico
+  code: es
+- query: Sirius
+  code: en
+- query: Sketches from Bükk
+  code: en
+- query: Bükki vázlatok
+  code: hu
+- query: Suite "A három csavargó”
+  code: hu
+- query: Suite “The three vagabonds"
+  code: en
+- query: Suite "Det gyldene smil"
+  code: "no"
+- query: Suite “Arany mosoly”
+  code: hu
+- query: Suite "Flugten fra Millionerne"
+  code: da
+- query: Suite from the incidental music to «The tragedy of man» by Imre Madách
+  code: en
+- query: Szvit az "Ember tragédiája" Kísérőzenéjéből
+  code: hu
+- query: Suite montreusienne
+  code: fr
+- query: Symphonic overture
+  code: en
+- query: Szimfonikus nyitany
+  code: hu
+- query: Symphony
+  code: en
+- query: Szeged fountain's symphony
+  code: en
+- query: Szegedi szökökút szimfónia
+  code: hu
+- query: The marionette’s dance suite
+  code: en
+- query: Bábtáncoltató-szvit
+  code: hu
+- query: Timon of Athens
+  code: en
+- query: Trois morceaux en forme de poire (Erik Satie)
+  code: fr
+- query: Variazioni classiche sopra melodie di «carillon» dal secolo XIX
+  code: it
+- query: Klasszikus variációk soproni zenélő-óra dallamokra a XIX.sz. elejéről
+  code: hu
+- query: Zwei ungarische Tänze
+  code: de
+- query: Two Hungarian dances
+  code: en
+- query: Finnish popular dances
+  code: en
+- query: Finnische Volkstänze
+  code: de
+- query: Danses populaires finlandaises
+  code: ca
+- query: Jelky András
+  code: hu
+- query: March-suite
+  code: en
+- query: Music for Zánka
+  code: en
+- query: Zánkai muzsika
+  code: lt
+- query: Musica giocosa
+  code: it
+- query: Musica pentatonica
+  code: it
+- query: Musica serena
+  code: pt
+- query: Partita all'ungaresca
+  code: en
+- query: Piccola musica di concerto
+  code: it
+- query: Cassazione
+  code: it
+- query: Early Hungarian dances
+  code: en
+- query: Intrada, Passacaglia, Saltarello
+  code: en
+- query: Mischievous tune “Csínom Palkó”
+  code: vo
+- query: Alla danza ungherese
+  code: it
+- query: Hétfalusi boricza-tánc
+  code: hu
+- query: Aria e rondo all'ungherese for oboe, violin solo and string orchestra
+  code: en
+- query: Aria e rondo all'ungherese for 2 violins and string orchestra
+  code: en
+- query: Concertino all'antica for baryton (viola di bordone) or violoncello or viola
+    and string orchestra
+  code: en
+- query: Concertino for harp and orchestra
+  code: en
+- query: Concertino for harp and string orchestra or string quartet
+  code: en
+- query: Concertino for harpsichord and string orchestra or string quintet or string
+    quartet
+  code: en
+- query: Concertino IV for oboe and string orchestra
+  code: en
+- query: Concertino for piano and orchestra
+  code: en
+- query: Concertino V for trumpet and string orchestra
+  code: en
+- query: Concertino rustico
+  code: es
+- query: Fantasia for piano and orchestra
+  code: en
+- query: Epithalamium
+  code: ht
+- query: Feast from Esztergom
+  code: hu
+- query: Esztergomi vigasságok
+  code: hu
+- query: Hungarian rondo (Zoltán Kodály)
+  code: hu
+- query: Old Hungarian dances from the 17th century
+  code: en
+- query: Régi magyar táncok a 17. századból
+  code: hu
+- query: Relazioni
+  code: it
+- query: Ricordo di Roma
+  code: it
+- query: Rondo capriccio
+  code: fr
+- query: Rumanian folk dances
+  code: en
+- query: Bihari román táncok
+  code: hu
+- query: Serenata concertante
+  code: en
+- query: Trittico concertato
+  code: it
+- query: 3 X 33
+  code: en
+- query: Albumlap
+  code: hu
+- query: Albumblatt
+  code: jw
+- query: All'antica
+  code: en
+- query: Arioso
+  code: fr
+- query: As you like it
+  code: en
+- query: Ballade
+  code: en
+- query: Burattinata
+  code: it
+- query: Citharoedia strigoniensis
+  code: jw
+- query: Contrafacta Hungarica
+  code: bi
+- query: Csángó szonatina
+  code: hu
+- query: Dances from Csiksomlyós
+  code: en
+- query: Csiksomlyósi táncok
+  code: hu
+- query: Dances from Esztergom
+  code: en
+- query: Esztergomi táncok
+  code: hu
+- query: Dialoghi
+  code: de
+- query: Drei Sätze
+  code: de
+- query: Early Hungarian dances from the 17th century
+  code: en
+- query: Echo des Carpates
+  code: en
+- query: Egloga - Burattinata
+  code: it
+- query: Eclogue
+  code: en
+- query: Epithalame
+  code: ht
+- query: Fantasia
+  code: en
+- query: Five pieces for 2 cimbaloms
+  code: en
+- query: Öt darab két cimbalomra
+  code: hu
+- query: Kleine Turmmusik
+  code: nl
+- query: Nyírbátori toronyzene
+  code: hu
+- query: Kuruc songs and dances from the country of Ugrocz
+  code: en
+- query: Kuruc dalok és táncok az Ugróczi-kéziratból
+  code: hu
+- query: La cour du roi Matthias
+  code: de
+- query: Mátyás király udvara
+  code: hu
+- query: Lavottiana
+  code: hu
+- query: Löcsei táncok
+  code: hu
+- query: Antiche danze
+  code: it
+- query: Mascarade
+  code: fr
+- query: Meditazione
+  code: it
+- query: Musica per ottoni
+  code: it
+- query: Brass music
+  code: en
+- query: Rézfúvószene
+  code: hu
+- query: Musique de Ugrócz
+  code: fr
+- query: Négy magyar tánc
+  code: hu
+- query: Notturno, op.2
+  code: it
+- query: Old Hungarian dances
+  code: en
+- query: Passacaglia
+  code: co
+- query: Petite ouverture
+  code: fr
+- query: Prélude et chaconne égarée
+  code: fr
+- query: Quattro pezzi
+  code: it
+- query: Négy darab
+  code: hu
+- query: Rákóczi nóta
+  code: hu
+- query: Ricordanze
+  code: it
+- query: Ricordo di Somogy
+  code: hu
+- query: Rondo “Latidiremi”
+  code: en
+- query: Scenes from Hungary
+  code: en
+- query: Magyar jelenetek
+  code: hu
+- query: Scherzino e intermezzo
+  code: it
+- query: Serenade
+  code: en
+- query: Szerenád
+  code: hu
+- query: Serenade for wind quintet
+  code: en
+- query: Fűvósötös-szerenád
+  code: hu
+- query: Six Hungarian folk songs
+  code: en
+- query: Sonata a due
+  code: en
+- query: Sonate romantique
+  code: fr
+- query: Romantikus szonáta
+  code: ms
+- query: Sonatina
+  code: en
+- query: Sonatina no.1
+  code: en
+- query: Sonatina no.2
+  code: en
+- query: Sonatina no.3
+  code: en
+- query: Sonatina based on Hungarian folk songs
+  code: en
+- query: Népdalszonatina
+  code: hu
+- query: String quartet
+  code: en
+- query: vónos négyes
+  code: hu
+- query: Student songs from the 18th century
+  code: en
+- query: Diákdalok a XVIII. Századból
+  code: hu
+- query: Ten studies
+  code: en
+- query: Three burlesques
+  code: en
+- query: Három burleszk
+  code: hu
+- query: Three dance paraphrases
+  code: en
+- query: Három táncparafrázis
+  code: hu
+- query: Tre bagattelle
+  code: "no"
+- query: Trigon
+  code: en
+- query: Trio
+  code: en
+- query: Two ungaresca
+  code: en
+- query: Variazioni ungheresi
+  code: co
+- query: 3 x 33
+  code: en
+- query: 33 Battute per Angelica
+  code: it
+- query: Allegro impetuoso
+  code: pl
+- query: Ballad
+  code: en
+- query: Buccinata
+  code: it
+- query: Canephorae
+  code: ia
+- query: Correspondances
+  code: fr
+- query: Deux aquarelles
+  code: fr
+- query: Két akvarell
+  code: hu
+- query: Deux esquisses pour la main gauche
+  code: fr
+- query: Drinking song
+  code: en
+- query: Bordal
+  code: en
+- query: Exercitium tonale
+  code: la
+- query: Exitus
+  code: de
+- query: Five easy piano pieces
+  code: en
+- query: Öt könnyü zongoradarab
+  code: hu
+- query: Három fantázia
+  code: hu
+- query: Holidays excursions
+  code: en
+- query: Nyári kirándulások
+  code: hu
+- query: Hybrides
+  code: fr
+- query: Interludium
+  code: en
+- query: Journal 1986
+  code: en
+- query: Naplójegyzetek 1986
+  code: hu
+- query: Journal 1987
+  code: en
+- query: Naplójegyzetek 1987
+  code: hu
+- query: Két magyar tánc
+  code: hu
+- query: Két zongoradarab magyar népdalok felett
+  code: hu
+- query: Two pieces on Hungarian folk songs
+  code: en
+- query: Little piano pieces after Hungarian folk songs
+  code: en
+- query: Kis zongoradarabok magyar népdalok niyomán
+  code: hu
+- query: Little suite for the left hand
+  code: en
+- query: Movimento improvvisato
+  code: it
+- query: Névnapi köszöntő
+  code: hu
+- query: Old Hungarian melodies
+  code: en
+- query: Régi magyar dallamok
+  code: hu
+- query: Omaggio a Scarlatti
+  code: it
+- query: Organoedia Pelsonia
+  code: cy
+- query: Petite suite alpestre
+  code: fr
+- query: Postludium
+  code: pl
+- query: Quaderno Romano
+  code: it
+- query: Római hangjegyfüzet
+  code: hu
+- query: Quatre préludes
+  code: fr
+- query: Régi nóta, régi tánc
+  code: hu
+- query: Sanctus
+  code: es
+- query: Shepherd dance
+  code: en
+- query: Six pièces brèves
+  code: fr
+- query: Sonata
+  code: en
+- query: Sonata no. 1
+  code: en
+- query: Sonata no. 2
+  code: en
+- query: Subulo
+  code: ny
+- query: Táncmuszika
+  code: hu
+- query: Dance music
+  code: en
+- query: Three Monograms
+  code: en
+- query: Három monogramm
+  code: hu
+- query: Tiento
+  code: es
+- query: Toccata
+  code: en
+- query: Zalai változatok
+  code: hu
+- query: Hungarian variations
+  code: en
+- query: A gyermek hazamegy
+  code: hu
+- query: Alles war ein Spiel
+  code: de
+- query: Aspirationes principis
+  code: en
+- query: Rákóczi cantata
+  code: hu
+- query: At the bank of the Tisza
+  code: en
+- query: Tisza partján
+  code: hu
+- query: Cantata lirica
+  code: it
+- query: Szent János kútja
+  code: hu
+- query: St. John’s fountain
+  code: en
+- query: Cantus Pannonicus
+  code: la
+- query: Deep river
+  code: en
+- query: Zúgj hullám
+  code: af
+- query: Ein Krippenspiel aus Kőröshegy
+  code: de
+- query: Kőröshegyi Bethlehemes kantáta
+  code: hu
+- query: Christmas cantata
+  code: en
+- query: Cantate de Noël
+  code: fr
+- query: Erdélyi betlehemes játék
+  code: hu
+- query: Flying flags
+  code: en
+- query: Bontott zászlok
+  code: hu
+- query: Fúdd el szél
+  code: es
+- query: Hortobágyi vásár
+  code: hu
+- query: Kölcsey Szózata
+  code: hu
+- query: Krúdy-sorok
+  code: sk
+- query: La musique
+  code: pt
+- query: Laudatio Szigetiana
+  code: la
+- query: Szigetvár dicsérete
+  code: hu
+- query: Le musicien de Saint-Merry
+  code: da
+- query: Magyar Betlehem
+  code: hu
+- query: Omaggio a Pessoa
+  code: pt
+- query: Psaumes de fête
+  code: fr
+- query: Szüret
+  code: hu
+- query: Megérett a szőlő
+  code: hu
+- query: Tinódi históriája Eger Vár Viadaláról
+  code: hu
+- query: Turris Hungariae. Enek Vitéz Thúry Györgyröl
+  code: hu
+- query: Virgilii Georgica
+  code: en
+- query: Vita poetae
+  code: la
+- query: Vivit Dominus
+  code: la
+- query: Waiting for spring
+  code: en
+- query: Tavaszvárás
+  code: hu
+- query: Missa brevis in honorem Sancti Stephani
+  code: la
+- query: Missa quarta
+  code: pt
+- query: Missa Hungarica
+  code: hu
+- query: Missa in honorem Sancti Andreae
+  code: la
+- query: Missa secunda in honorem Sanctae Margaritae
+  code: la
+- query: Proprium tergestinum
+  code: la
+- query: Requiem pro memoria M.
+  code: it
+- query: A kisdednek
+  code: hu
+- query: A nyári délutánok
+  code: hu
+- query: A reggel
+  code: hu
+- query: A tücsök és a hangya
+  code: hu
+- query: Ad Musicam
+  code: pt
+- query: Aldott éj
+  code: hu
+- query: It came upon the midnight clear
+  code: en
+- query: Alkony
+  code: mg
+- query: Dusk
+  code: en
+- query: Aphorismae
+  code: sk
+- query: Április végén
+  code: hu
+- query: Arra alá Baranyában
+  code: hu
+- query: Aubade
+  code: fr
+- query: Ave Maria
+  code: en
+- query: Ave Maris Stella
+  code: en
+- query: Az öröm illan
+  code: hu
+- query: Ballada Irisz fátyoláról
+  code: hu
+- query: Baranyai lakodalmas
+  code: ms
+- query: Wedding songs from Baranya
+  code: en
+- query: Beati mortui
+  code: la
+- query: Chansons d’étudiants hongrois du 18ème siècle
+  code: fr
+- query: Chansons de fou
+  code: fr
+- query: Come away
+  code: en
+- query: Crépuscule
+  code: fr
+- query: Csónakos-dal
+  code: rm
+- query: Dans cette étable
+  code: fr
+- query: Danse macabre
+  code: fr
+- query: Haláltánc
+  code: hu
+- query: De inundatione
+  code: en
+- query: De Sancta Hostia
+  code: la
+- query: De Sancto Ladislas Rege
+  code: ia
+- query: Deutsche Lieder
+  code: de
+- query: Dos canciones de Gongora
+  code: es
+- query: Dulde, trage
+  code: de
+- query: Écoute-moi, je te prie
+  code: fr
+- query: Egünttobatez nindaguelarik
+  code: eu
+- query: Ekkosang
+  code: lg
+- query: Emléksorok
+  code: hu
+- query: Emmaus. Cantata after St. Luke
+  code: en
+- query: Emmaus
+  code: de
+- query: Ének Szent Erzsébetről
+  code: hu
+- query: Epigramma de suo libro
+  code: it
+- query: Erdély
+  code: hu
+- query: Esztergom megvételéröl
+  code: hu
+- query: Ex libro Job
+  code: pl
+- query: Ez karácsony
+  code: hu
+- query: Felhők
+  code: hu
+- query: Feu profond
+  code: fr
+- query: Földrengés
+  code: hu
+- query: Earthquake
+  code: en
+- query: Fóti dal
+  code: rm
+- query: Futás a gond elől
+  code: hu
+- query: Géniusz száll
+  code: hu
+- query: Göcseji madrigal
+  code: en
+- query: Madrigal from Göcsej
+  code: en
+- query: Hajdútánc
+  code: hu
+- query: Hajnal nóta
+  code: ga
+- query: Halálházasitó
+  code: hu
+- query: Heide-Skizzen
+  code: de
+- query: Himnusz Szent István királyhoz
+  code: hu
+- query: Hin zum Brunnen
+  code: de
+- query: Auf dem Marktplatz von Jánoshid
+  code: de
+- query: Hommage à Rilke
+  code: de
+- query: Honszeretet
+  code: hu
+- query: Horatius ad Thaliarcam
+  code: la
+- query: Hymnus ad Sanctum Emericum
+  code: la
+- query: Hymnus ad Sanctum Gerardum
+  code: la
+- query: Hymnus in honorem Sanctae Crucis
+  code: la
+- query: Hymnus in nativitate Christi
+  code: en
+- query: Ici entrez vous
+  code: fr
+- query: In Epiphaniam
+  code: la
+- query: Integer vitae
+  code: la
+- query: Intelmek
+  code: hu
+- query: Itt az Úrnak angyala
+  code: hu
+- query: Je suis l’archange de Dieu
+  code: fr
+- query: Jelenések
+  code: hu
+- query: Jer nézd a Balatont
+  code: hr
+- query: Két vegyeskar Gulyás Pál verseire
+  code: hu
+- query: Two choruses for mixed voice
+  code: en
+- query: King Herod and the cock
+  code: en
+- query: Köszöntő
+  code: hu
+- query: Kyrie
+  code: fr
+- query: La cigale et la fourmi
+  code: fr
+- query: La Saint Jean
+  code: en
+- query: Laus Joannis Vitézü Archiepiscopi
+  code: la
+- query: Vitéz János érsek dicsérete
+  code: hu
+- query: Le roi Hérode et le coq
+  code: fr
+- query: Lotharingiai népdalok
+  code: lt
+- query: Lieder aus Lothringen
+  code: de
+- query: Lupus fecit
+  code: la
+- query: Madrigal à la rose
+  code: en
+- query: Májusi dalocska
+  code: hu
+- query: Májusi sütkérezés
+  code: hu
+- query: Mennyből az angyal
+  code: hu
+- query: Merre száll ?
+  code: hu
+- query: Milliók Szájával
+  code: hu
+- query: Négysoros versek
+  code: hu
+- query: Népek Karéneke
+  code: hu
+- query: Ode
+  code: en
+- query: Óh, napsugár
+  code: cs
+- query: Omaggio a Govoni
+  code: it
+- query: Omaggio a Leopardi
+  code: it
+- query: Ómagyar rovásfelirat
+  code: hu
+- query: Pasztell
+  code: hu
+- query: Pásztorok talpra
+  code: hu
+- query: Pataki diákdalok a l8.századból
+  code: hu
+- query: Pater Noster
+  code: pl
+- query: Pensieri notturni
+  code: it
+- query: Petőfi sorok
+  code: hu
+- query: Phaedri fabulae
+  code: la
+- query: Phones
+  code: en
+- query: Psalm CXXXI
+  code: mt
+- query: CXXXI szoltár
+  code: hu
+- query: Psaume XXXIII
+  code: fr
+- query: XXXIII genfi szoltár
+  code: hu
+- query: Psaume CXXXI
+  code: mt
+- query: Quittez pasteurs
+  code: fr
+- query: Rose-madrigal
+  code: en
+- query: Rózsa madrigal
+  code: hu
+- query: Rosen-Madrigal
+  code: en
+- query: Rossz előjelek
+  code: hu
+- query: Rubáiyát
+  code: hu
+- query: Sainte nuit
+  code: fr
+- query: Sancti Pauli Epistola V. ad Corinthos
+  code: la
+- query: Sérénade wallone
+  code: fr
+- query: Sirfelirat
+  code: mfe
+- query: Sonetto CCCXXXIII di Petrarca
+  code: it
+- query: Sous le sapin
+  code: fr
+- query: Szent Margit királynéról
+  code: hu
+- query: Tavasz, nyár, ősz, tél
+  code: hu
+- query: Three Greek folk songs - Τρία Ελληνικά λαϊκά τραγούδια
+  code: el
+- query: Trois poèmes
+  code: fr
+- query: Vallon szerenád (Walloon folk song)
+  code: en
+- query: Vázaképek
+  code: hu
+- query: Vig reggeli énekléssel
+  code: hu
+- query: Villancico
+  code: es
+- query: 6. Zsoltár
+  code: hu
+- query: 11. Zsoltár
+  code: hu
+- query: A lábodi hegy alatt
+  code: hu
+- query: A sziv és a test vitája
+  code: hu
+- query: Apeldoorn beschikt
+  code: nl
+- query: Bacchushoz
+  code: hu
+- query: Bacchylides békedala
+  code: hu
+- query: Chanson du pâtre
+  code: fr
+- query: Fel !
+  code: pt
+- query: Fleur de colza
+  code: fr
+- query: Fölkél a hűs hajnali szél
+  code: hu
+- query: Hajnal nóta (Aubade)
+  code: ga
+- query: Három ének a mohácsi vészröl
+  code: hu
+- query: Három palócz katonanóta
+  code: hu
+- query: Hommage à Trakl
+  code: fr
+- query: Két madrigál
+  code: hu
+- query: Ki búban ül
+  code: en
+- query: Kurucdal
+  code: so
+- query: La rivière
+  code: fr
+- query: Le débat du coeur et du corps
+  code: fr
+- query: Mutation
+  code: en
+- query: Officium Rhythmicum Sancti Stephani Regis
+  code: la
+- query: Pataki bordal
+  code: yo
+- query: Pintes-üveg
+  code: hu
+- query: Psalmus et Hymni
+  code: la
+- query: Quattro canti popolare trentini
+  code: it
+- query: Rekrutasor
+  code: en
+- query: Rondeau et Epilogue
+  code: fr
+- query: Sainte Nuit
+  code: fr
+- query: Salut
+  code: fr
+- query: Seid gegrüsst
+  code: de
+- query: Sárga recepice
+  code: hu
+- query: Silence
+  code: en
+- query: Stille
+  code: de
+- query: Somogyi juhász nótái
+  code: hu
+- query: Szivárvány
+  code: hu
+- query: Temetöben
+  code: de
+- query: Vadászkar
+  code: hu
+- query: Vallon szerenád (Sérénade wallone)
+  code: crs
+- query: Várkonyi futónóta
+  code: ms
+- query: Vinus, vina, vinum
+  code: la
+- query: Zöld mezőnek közepében
+  code: hu
+- query: Zúg az erdő, harsog a trombita
+  code: hu
+- query: A lány dala
+  code: cs
+- query: Bakonyi pártabúcsúztató
+  code: hu
+- query: Baszk dalok
+  code: hu
+- query: Euskal abestiak
+  code: eu
+- query: Birjina maite
+  code: ga
+- query: Cantus fractus
+  code: la
+- query: Emen eldu gerade
+  code: de
+- query: Hat magyar népdal
+  code: hu
+- query: Keresztöltés
+  code: hu
+- query: Kicsi gyermek
+  code: hu
+- query: Laus beatae Margaritae
+  code: en
+- query: Le goût de la paix
+  code: fr
+- query: A béke mosolya
+  code: hu
+- query: Magnificat
+  code: fr
+- query: Oi ! Gau dohatsua
+  code: eu
+- query: Ronde
+  code: es
+- query: Körtánc
+  code: hu
+- query: Six chansons populaires hongroises
+  code: fr
+- query: Tillió-Lió
+  code: hu
+- query: Vagues
+  code: es
+- query: Hullámok
+  code: hu
+- query: A string of pearls
+  code: en
+- query: Ákom-bákom hadsereg
+  code: da
+- query: Állatok világa
+  code: hu
+- query: Christmas album
+  code: en
+- query: Karácsonyi album
+  code: hu
+- query: Cigány-nóta
+  code: cs
+- query: Gribouillis
+  code: fr
+- query: Irka-firka
+  code: tr
+- query: Gyöngyöri-gyöngy
+  code: hu
+- query: Karácsonyi dalok gitár kísérettel
+  code: hu
+- query: Két Petőfi-vers
+  code: hu
+- query: La guerre
+  code: en
+- query: Öt kis gyermekkar
+  code: hu
+- query: Pebbles
+  code: en
+- query: Kavicsok
+  code: hu
+- query: Vizek, hegyek, napfény (Water, mounts, sunshine)
+  code: hu
+- query: Állj be közibénk !
+  code: en
+- query: Biztatás
+  code: hu
+- query: Dal a szabadságról
+  code: hu
+- query: De arte
+  code: en
+- query: De vita
+  code: nl
+- query: Fohászkodás
+  code: hu
+- query: Hat kis kánon
+  code: hu
+- query: In Gryllum
+  code: en
+- query: Kánon a munkáról
+  code: hu
+- query: Kánon a versekröl
+  code: eo
+- query: Kánon az erényekröl
+  code: hu
+- query: Labitur occulte
+  code: en
+- query: Lány, kicsi lány
+  code: hu
+- query: Légy áldott szép hazánk
+  code: hu
+- query: Magot a földbe
+  code: hu
+- query: Március
+  code: hu
+- query: Pastorale di Natale
+  code: it
+- query: Psalmus 33
+  code: en
+- query: '12 : Venite filii'
+  code: la
+- query: A célról
+  code: hu
+- query: A csillagok érted égnek
+  code: hu
+- query: A köd
+  code: en
+- query: A patak
+  code: tr
+- query: A reményhez
+  code: hu
+- query: Add a kezed
+  code: en
+- query: Autumnalia
+  code: ro
+- query: Őszi vázlatok
+  code: hu
+- query: Herbstskizzen
+  code: de
+- query: Ave verum
+  code: pl
+- query: Baci
+  code: tr
+- query: Ballade de Guillevic
+  code: en
+- query: Cantiones optimae
+  code: en
+- query: Cantiones sacrae
+  code: ie
+- query: Csönd
+  code: is
+- query: Diákdalok a XVIII. századból
+  code: hu
+- query: Die Lieder des Wanderers
+  code: ny
+- query: A vándor dalai
+  code: id
+- query: Drei Lieder
+  code: de
+- query: Három dal
+  code: hu
+- query: Three Eulau songs
+  code: en
+- query: Due solfeggio
+  code: it
+- query: Egy szál fehér virág
+  code: hu
+- query: Egy tulipánthoz
+  code: hu
+- query: Elfelejtett dallamok
+  code: hu
+- query: Elillant évek szölöhegyén
+  code: hu
+- query: Elment a bújdosó fecske
+  code: hu
+- query: Emlékkönyvbe
+  code: hu
+- query: Enekeljünk Cypriának
+  code: hu
+- query: Erdőben
+  code: hu
+- query: Im Walde
+  code: de
+- query: Esik, esik, esik...
+  code: pl
+- query: Eszterlánc
+  code: hu
+- query: Fejfák
+  code: en
+- query: Felhő
+  code: hu
+- query: Fordulat
+  code: hu
+- query: Fruit basket
+  code: en
+- query: Gyümölcskosár
+  code: hu
+- query: Fruchtkorb
+  code: da
+- query: Panier de fruits
+  code: fr
+- query: Fülemile
+  code: hu
+- query: Futamok
+  code: hu
+- query: Gáláns ünnepség
+  code: hu
+- query: Gasel
+  code: et
+- query: Gyász helyett
+  code: hu
+- query: Gyöngy
+  code: hu
+- query: Perle
+  code: es
+- query: Három dal Kis Ferenc verseire
+  code: hu
+- query: Három dal Shakespeare "Ahogy tetszik" cimü vigjátékából
+  code: hu
+- query: Drei Lieder aus dem Lustspiel "Wie es euch gefällt" von Shakespeare
+  code: de
+- query: Három dal Szilágyi Domokos verseire
+  code: hu
+- query: Három dal Szöcs Géza verseire
+  code: hu
+- query: Három kuruc dal
+  code: hu
+- query: Three songs
+  code: en
+- query: Hommage à Alpbach
+  code: fr
+- query: Húnyt szemmel
+  code: hu
+- query: Jó Csönd-herceg elött
+  code: hu
+- query: Kalender
+  code: de
+- query: Naptár
+  code: hu
+- query: Calendar
+  code: en
+- query: Karácsony
+  code: hu
+- query: Két dal Hárs Ernö verseire
+  code: hu
+- query: Két dal József Attila verseire
+  code: hu
+- query: Két dal Kavafisz verseire
+  code: hu
+- query: Két dal Kisfaludy Sándor verseire
+  code: hu
+- query: Két József Attila dal
+  code: hu
+- query: Zwei Lieder nach Gedichten von Attila József
+  code: de
+- query: Két pad
+  code: hu
+- query: Két virágének
+  code: hu
+- query: Zwei Blumenlieder
+  code: de
+- query: L'art d'être grand-père
+  code: fr
+- query: La complainte de Manama
+  code: fr
+- query: Láng
+  code: vi
+- query: Le retour d'Apollon
+  code: en
+- query: Le sylphe
+  code: fr
+- query: Lied Mephistos
+  code: de
+- query: Mefisztó dala
+  code: hu
+- query: Magyarország királynőjéről
+  code: hu
+- query: Maláj ábrándok
+  code: hu
+- query: Malayische Traumbilder
+  code: de
+- query: Margaréta
+  code: su
+- query: Mély esti csendben
+  code: hu
+- query: Miedo
+  code: es
+- query: Milyen ?
+  code: hu
+- query: Minden füszál zeng...
+  code: hu
+- query: Mistel
+  code: de
+- query: Fagyöngy
+  code: hu
+- query: Négy dal Erdélyi József verseire
+  code: hu
+- query: Négy dal Páskándi Géza verseire
+  code: hu
+- query: Nyárvégi csillagok
+  code: hu
+- query: O ha cinke volnék...
+  code: cs
+- query: Könnt ich fliegen wie eine Meise...
+  code: de
+- query: Október végi este
+  code: sk
+- query: Orpheus respiciens
+  code: en
+- query: Ősz délután a kertben
+  code: hu
+- query: Őszi harmat után
+  code: hu
+- query: Öt dal erdélyi költők verseire
+  code: hu
+- query: Öt francia trubadúr dallam
+  code: sk
+- query: Cinque canzoni dei trovatori
+  code: co
+- query: Pacsirta
+  code: hu
+- query: Párizsban járt az ősz
+  code: hu
+- query: Pastorali
+  code: it
+- query: Pour Isabelle
+  code: fr
+- query: Régi temetö
+  code: hu
+- query: Rosarium
+  code: de
+- query: Rózsa, rózsa
+  code: hu
+- query: Rózsahullató fa
+  code: hu
+- query: Schumann módjara
+  code: hu
+- query: Songs from the “Twelfth night” by Shakespeare
+  code: en
+- query: Dalok “A vizkeresztből” by Shakespeare
+  code: hu
+- query: Sonnet VII de Louise Labé
+  code: crs
+- query: Sőtéted
+  code: en
+- query: Souvenir de Malmaison
+  code: fr
+- query: Spleen
+  code: en
+- query: Szerelmek madarai. Három dal 18. századbeli versekre
+  code: hu
+- query: Drei Lieder nach Gedichten aus dem 18. Jahrhundert
+  code: de
+- query: Szeretlek, kedvesem
+  code: hu
+- query: Trois chansons de Guillevic
+  code: fr
+- query: Három Guillevic dal
+  code: hu
+- query: Three Guillevic songs
+  code: en
+- query: Verskulcs
+  code: hu
+- query: Virágoskert
+  code: hu
+- query: Vők iskolája
+  code: hu
+- query: Canzone turca a Giulia
+  code: it
+- query: Török vers Jùliára
+  code: hu
+- query: Chanson de Gwendoline
+  code: fr
+- query: Chartina (Χαρτινα)
+  code: el
+- query: Papirszeletek
+  code: hu
+- query: Cronica
+  code: pt
+- query: Erdőkön, mezőkön
+  code: hu
+- query: Estampas espanolas
+  code: en
+- query: / Fruchtkorb
+  code: da
+- query: Gitár dalok
+  code: hu
+- query: Guitar songs
+  code: en
+- query: Két dal Berda József verseire
+  code: hu
+- query: La guitarra
+  code: es
+- query: Lux fulgebit
+  code: la
+- query: Márai miniaturok
+  code: gn
+- query: Minuti
+  code: it
+- query: Quatre quatrains avec 4 cordes
+  code: fr
+- query: Ragyogj
+  code: hu
+- query: Tibicinium
+  code: la
+- query: Tres cantiones sacrae
+  code: ie
+- query: 50 Csárdás
+  code: de
+- query: A kaposi kanális
+  code: hu
+- query: A malomnak nincsen köve
+  code: hu
+- query: A Tiszából a Dunába
+  code: hu
+- query: Aki nem lép egyszerre
+  code: hu
+- query: Amott kerekedik
+  code: hu
+- query: Danube valley garland
+  code: en
+- query: Dunavölgyi koszorú
+  code: hu
+- query: Erdő, erdő
+  code: en
+- query: Három katonanóta
+  code: hu
+- query: Hull a szilva a fáról
+  code: hu
+- query: Kilenc magyar népdal kamaraegyüttes kisérettel
+  code: hu
+- query: Kőmives Kelemen balladája
+  code: en
+- query: Jól van dolga a mostani huszárnak
+  code: hu
+- query: Négy magyar népdal
+  code: hu
+- query: Népdalok klarinét és cselló kisérettel
+  code: hu
+- query: Nyolc Somogyi népdal corriger dans site
+  code: hu
+- query: Play up, Gipsy! Húzd rá cigány!
+  code: hu
+- query: Spiel auf, Zigeuner!
+  code: de
+- query: Te vagy a legény, Tyukodi pajtás
+  code: hu
+- query: Zöld a kökény
+  code: hu
+- query: Zúg az erdő, zeng a mező
+  code: hu
+- query: A fösvény
+  code: hu
+- query: L'avare by Molière, 1963
+  code: fr
+- query: A Jézusfaragó ember by J. Nyirő, 1937
+  code: hu
+- query: A makrancos hölgy
+  code: hu
+- query: The taming of the shrew by Shakespeare, 1939
+  code: en
+- query: A mennyetjárt ifiùr by G. Kopányi, 1954
+  code: hu
+- query: A nagy világszinház by Calderon, 1938
+  code: hu
+- query: A nagyùr by M. Bánffy, 1942
+  code: hu
+- query: A tizenkét hónap
+  code: hu
+- query: A verbunkos cigány by A. Dékány, 1950
+  code: cs
+- query: Ahogy tetszik
+  code: hu
+- query: As you like it by Shakespeare, 1937
+  code: en
+- query: Angalit és a remeték by Z. Jékely, 1944
+  code: hu
+- query: Angliai Erzsébet, 1968-1969
+  code: hu
+- query: Árpád ébredése by M. Vörösmarty, 1937
+  code: hu
+- query: Az elmerült harang by G. Hauptmann, 1940
+  code: hu
+- query: Az ember tragédiája by I. Madách, 1935
+  code: hu
+- query: Bùbos vitéz by Aron Tamási, 1952
+  code: hu
+- query: Csongor és tünde by M. Vörösmarty, 1941
+  code: hu
+- query: Cyrano de Bergerac by Edmond Rostand, rev. 1962
+  code: en
+- query: Délibáb kisasszony, 1940
+  code: hu
+- query: Dohányon vett kapitány, 1948
+  code: hu
+- query: Donna Juana by Lope de Vega, 1950
+  code: co
+- query: Dzsomárt szönyege by R. Tazsibajev, 1952-1953
+  code: en
+- query: Egri csillagok by G. Gárdonyi, 1962
+  code: hu
+- query: És Pippa táncol by Gerdhart Hauptmann, 1935
+  code: hu
+- query: Farkasok by T. Bárány, 1960
+  code: hu
+- query: Faust by Goethe, 1947
+  code: en
+- query: Földiekkel játszó
+  code: hu
+- query: Fülemile, 1941
+  code: hu
+- query: Győri sasfiók by Feldai-Dalos, 1972
+  code: hu
+- query: Hamlet by Shakespeare
+  code: en
+- query: Hófehérke és a hét törpe by Amy Károlyi, 1956
+  code: hu
+- query: Holicsi Cupido by Ferenc Herczeg, 1978
+  code: hu
+- query: Kóbor hegedüs by A. Dékány, 1950
+  code: en
+- query: Macbeth by Shakespeare, 1939
+  code: en
+- query: Májusi fény by A. Dékány, 1950
+  code: hu
+- query: Makrancos hőlgyöz
+  code: pt
+- query: The taming of the shrew/ by Shakespeare, 1939, rév. 1960
+  code: en
+- query: Non ci sono più donne by Diotima, 1930
+  code: it
+- query: Nöuralom by Aristophanes, 1963
+  code: en
+- query: Pusztai itélet, 1957
+  code: hu
+- query: II. Rákóczi Ferenc fogsága by E. Szigligeti
+  code: hu
+- query: Romeo and Juliet by Shakespeare, 1940, rev. 1953, 1961
+  code: en
+- query: Sakuntala gyürüje by Géza Hegedüs, 1957
+  code: en
+- query: Tisztùjitas by I. Nagy, 1957
+  code: hu
+- query: Vízkereszt
+  code: hu
+- query: Twelfth night by Shakespeare, 1954
+  code: en
+- query: Zéta by Géza Gárdonyi, 1967
+  code: en
+- query: '[Vihar](http://akas.imdb.com/title/tt0044193/)'
+  code: hu

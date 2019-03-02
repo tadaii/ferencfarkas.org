@@ -1,0 +1,10 @@
+{
+  "src": {
+    "works": "../word-to-yaml/dst/works",
+    "categories": "../word-to-yaml/dst/categories.yaml",
+    "publishers": "../word-to-yaml/dst/publishers.yaml",
+    "relations": "../word-to-yaml/dst/relations",
+    "fileExtensions": [".yaml"]
+  },
+  "dst": "./dst/catalogue.pdf"
+}

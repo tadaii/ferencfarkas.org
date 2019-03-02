@@ -1,0 +1,66 @@
+# The source file to be parsed for extracting datas.
+src: "src/CATALOGUE_2018_filtered_cleaned.html"
+
+language-api-url: https://ws.detectlanguage.com/0.2/detect
+
+# The destination root folder.
+#dst: "../../../data/catalog/works"
+dst:
+  works-root: "dst/works"
+  relations: "dst/relations"
+  categories: "dst/categories.yaml"
+  publishers: "dst/publishers.yaml"
+  meta: "dst/meta.yaml"
+
+# Add front matter delimiters and save file as .md if true.
+is-front-matter: false
+
+# Skip links matching this pattern
+skip-links-pattern: (?mi)^(#.*|(http(s)?://)?www\.ferencfarkas\.org.*)
+
+# The work object metadata/fields mapping.
+# - catalog-id
+# - title: <- other-titles => alternate-titles
+#   - official: en
+#   - original:  de
+#   - en:
+#   - hu:
+#   - de:
+#   - fr:
+#   - it:
+#   - es(pagnol):
+#   - gr(eek)
+#   - po(rtugais)
+#   - ba(sque)
+#   - la(tin)
+#   - da(nois)
+#   - es(peranto)
+# - version: <- description containing the word "section"
+# - description <- row following title without meta key, usually starting with "for..."
+work-mapping:
+- version: "(?i)^description: for" # version and description: what's the difference ?
+- duration: (?i)durata # <string> 00:00
+- composition-date: (?i)composed
+- movements: (?i)^parts?
+- setting: (?i)^(ur)?setting
+- subject: (?i)subject
+- synopsis: (?i)synopsis
+- cast: (?i)cast
+- choreography: (?i)choregraphy
+- text: (?i)text
+- adaptation: (?i)^adapted
+- reworking: (?i)^reworking # relations
+- libretto: (?i)^libretto
+- score: (?i)score # relations
+- source: (?i)^source # a gicler => on les a toutes
+  reworking: (?i)^source-reworking # only 1 instance of source-reowrking in the whole catalogue => can we avoid defining a field for 1 instance of it
+- world-premiere: (?i)world-premiere
+- dedication: (?i)ded?icated
+- nb: (?i)^n\.b\.?
+# Publication is a relation between a work and a publisher
+# => publication infos should be stored in the relation
+- publication: (?i)^publication
+  reworking: (?i)^publication-reworking
+  in: (?i)^publication-in #cahier
+  source: (?i)^publication-source
+  nb: (?i)^publication-n\.b\.?

@@ -1,0 +1,3 @@
+<div class="Column{{if (.Get "align")}} {{.Get "align"}}{{end}}"{{if or (.Get "order") (.Get "size")}} style="{{if (.Get "order")}}order:{{.Get "order"}};{{end}}{{if (.Get "size")}}flex-grow:{{.Get "size"}};{{end}}"{{end}}>
+  {{ .Inner }}
+</div>

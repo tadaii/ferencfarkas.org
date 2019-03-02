@@ -1,0 +1,77 @@
+// Spacing
+$s-container-width: 1024px;
+$s-spacing-base:    20px;
+
+// Font type
+$f-sans: 'Open Sans', sans-serif;
+$f-serif: 'Frank Ruhl Libre', serif;
+
+// Font size
+$f-fontsize-xs:   19px;
+$f-lineheight-xs: 1.5;
+
+$f-fontsize-ss:   20px;
+$f-lineheight-ss: 1.5;
+
+$f-fontsize-md:   21px;
+$f-lineheight-md: 1.5;
+
+$f-fontsize-lg:   22px;
+$f-lineheight-lg: 1.5;
+
+$font-sizes: (
+  xs: $f-fontsize-xs,
+  ss: $f-fontsize-ss,
+  md: $f-fontsize-md,
+  lg: $f-fontsize-lg
+);
+
+$line-heights: (
+  xs: $f-lineheight-xs,
+  ss: $f-lineheight-ss,
+  md: $f-lineheight-md,
+  lg: $f-lineheight-lg
+);
+
+// Breakpoint
+$l-breakpoint-xs: 0px;
+$l-breakpoint-ss: 375px;
+$l-breakpoint-sm: 480px;
+$l-breakpoint-md: 768px;
+$l-breakpoint-lg: 1024px;
+$l-breakpoint-xl: 1200px;
+
+$grid-breakpoints: (
+  xs: $l-breakpoint-xs,
+  ss: $l-breakpoint-ss,
+  sm: $l-breakpoint-sm,
+  md: $l-breakpoint-md,
+  lg: $l-breakpoint-lg,
+  xl: $l-breakpoint-xl
+);
+
+// Color
+$c-white:             white;
+$c-almost-white:      #e0e0e0;
+$c-gray-lighter:      #DDDDDD;
+$c-gray-light:        #9A9A9A;
+$c-gray-dark:         #777777;
+$c-gray-darker:       #333333;
+$c-almost-black:      #1f1f1f;
+$c-black:             black;
+
+$c-primary:           #FAB700;
+$c-primary-light:     lighten($c-primary, 10%);
+$c-primary-dark:      darken($c-primary, 10%);
+
+$c-secondary:         #83CACC;
+$c-secondary-light:   lighten($c-secondary, 10%);
+$c-secondary-dark:    darken($c-secondary, 10%);
+
+// Section color
+$c-section-highlight-bg:  $c-primary;
+$c-section-highlight-txt: $c-black;
+$c-section-focus-bg:      $c-secondary;
+$c-section-focus-txt:     $c-black;
+$c-section-invert-bg:     $c-gray-dark;
+$c-section-invert-txt:    $c-white;

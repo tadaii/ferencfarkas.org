@@ -1,0 +1,43 @@
+baseURL = "https://ferencfarkas.ifdesign.ch"
+languageCode = "en-us"
+title = "Ferenc Farkas - A european composer"
+enableRobotsTXT = true
+
+[outputFormats]
+[outputFormats.JSON]
+mediaType = "application/json"
+
+[params]
+description = "Ferenc Farkas official website."
+
+[params.og]
+image = "/media/img/og-image.jpg"
+
+[params.header]
+menuLabel = "Menu"
+headline = "A european composer"
+imageUrl = "/media/img/header-image.jpg"
+
+[[menu.main]]
+name = "Life"
+identifier = "life"
+weight = 100
+url = "/life"
+
+[[menu.main]]
+name = "Work"
+identifier = "work"
+weight = 200
+url = "/work"
+
+[[menu.main]]
+name = "Media"
+identifier = "media"
+weight = 300
+url = "/media"
+
+[[menu.main]]
+name = "Contact"
+identifier = "contact"
+weight = 400
+url = "/contact"

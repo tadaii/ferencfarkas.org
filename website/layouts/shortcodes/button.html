@@ -1,0 +1,3 @@
+<button {{ with .Get "href"}} data-href="{{.}}"{{ end }} {{ with .Get "click"}} data-click="{{.}}"{{ end }}>
+  {{ .Get "label" }}
+</button>
