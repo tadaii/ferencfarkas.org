@@ -4,6 +4,7 @@
 _site_FF
 SETUP*
 node_modules
-/catalogue/word-to-yaml/dst/*
+/catalogue/word-to-yaml/dist/*
+/catalogue/pdf-generator/dist/*
 /website/public
 /website/content/work/catalog/*.md
