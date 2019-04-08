@@ -2,8 +2,8 @@ catalog-id:
   id: 0674-szerelmek-madarai-harom-dal-18-szazadbeli-versekre
   num-id: 674
   name: szerelmek-madarai-harom-dal-18-szazadbeli-versekre
-  uuid: 4f18acdb-5de7-4af8-83de-a183d7c6d9ff
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 4da1f64e-6120-4f4e-891d-b9eb8d74d68a
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Szerelmek madarai. Három dal 18. századbeli versekre
+description: for voice and orchestra
 movements:
 - original-value: 1) A tavaszhoz - text by Ferenc Kazinczy 2) Chloé Daphnishoz - text
     by Mihály Csokonai Vitéz 3) Amor - text by Mihály Csokonai Vitéz

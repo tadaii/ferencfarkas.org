@@ -2,8 +2,8 @@ catalog-id:
   id: 0161-quattro-pezzi
   num-id: 161
   name: quattro-pezzi
-  uuid: a5cbd651-3178-4545-9a23-507b4c88d286
-date: "2019-04-08T21:09:34+00:00"
+  uuid: a12adbf1-b77e-463d-b913-1d6d9241d0ba
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: it
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     hu: Négy darab
     it: Quattro pezzi
+description: for violoncello and piano
 composition-date: "1965"
 movements:
 - original-value: Intrada, Scherzo, Petit poème, Rondo

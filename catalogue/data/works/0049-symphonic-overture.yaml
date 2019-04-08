@@ -2,8 +2,8 @@ catalog-id:
   id: 0049-symphonic-overture
   num-id: 49
   name: symphonic-overture
-  uuid: 0366f90e-d2d5-469d-ba2c-b4a085337651
-date: "2019-04-08T21:09:33+00:00"
+  uuid: e3133c35-385b-42cf-8712-0749d0ff1cc9
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: Symphonic overture
     hu: Szimfonikus nyitany
+description: for orchestra
 composition-date: "1952"
 setting: 3 (III=picc.), 3 (III=c.i.), 3 (III=cl.b.), 3 (III=cfg.) – 4, 4, 3, 1 – timp.,
   batt. – arpa – archi

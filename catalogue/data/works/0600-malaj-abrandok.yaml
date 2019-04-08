@@ -2,8 +2,8 @@ catalog-id:
   id: 0600-malaj-abrandok
   num-id: 600
   name: malaj-abrandok
-  uuid: ab1fddb4-efa8-406b-9688-afd22aaf58a0
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 6d557b5a-8648-4d73-a3dd-3938ea2aa784
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -13,4 +13,5 @@ title:
   translations:
     de: Malayische Traumbilder
     hu: Maláj ábrándok
+description: for voice (mezzo-soprano) and piano
 composition-date: "1943"

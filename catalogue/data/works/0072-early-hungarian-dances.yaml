@@ -2,8 +2,8 @@ catalog-id:
   id: 0072-early-hungarian-dances
   num-id: 72
   name: early-hungarian-dances
-  uuid: 6f130645-ed76-41fd-bb00-970fd0a2e74d
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 37add047-b6db-4cfc-ae28-4c9fff93326b
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: Early Hungarian dances
+description: for wind orchestra arranged by László Zempléni, 2015
 movements:
 - original-value: 1) Intrada – 2) Slow dance / Lassú – 3) Dance of Lázár Apor / Apor
     Lázár tánca – 4) Dance of the prince of Transylvania / Erdélyi fejedelem tánca

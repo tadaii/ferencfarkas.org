@@ -2,8 +2,8 @@ catalog-id:
   id: 0153-notturno-op-2
   num-id: 153
   name: notturno-op-2
-  uuid: 73c47c91-08fc-46b6-b3e7-812c5925116f
-date: "2019-04-08T21:09:34+00:00"
+  uuid: f037d080-56a3-4d67-b582-52489d180fb1
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: it
   original: it
@@ -11,6 +11,7 @@ title:
   - it
   translations:
     it: Notturno, op.2
+description: for violin, viola and violoncello
 composition-date: "1929"
 movements:
 - original-value: Andante, Allegretto

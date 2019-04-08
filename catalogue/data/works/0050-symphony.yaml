@@ -2,8 +2,8 @@ catalog-id:
   id: 0050-symphony
   num-id: 50
   name: symphony
-  uuid: 6b816cc5-0ecd-40b4-a533-24effc1f46ff
-date: "2019-04-08T21:09:33+00:00"
+  uuid: 230bdd61-aa8c-46f6-87c5-6a30b1f9e591
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: Symphony
+description: for orchestra
 composition-date: "1952"
 movements:
 - original-value: '1. Symphonic overture ([Editio Musica Budapest](http://www.kotta.info/en/product/F-30/FARKAS-FERENC-SYMPHONIC-OVERTURE))

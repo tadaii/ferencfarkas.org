@@ -2,8 +2,8 @@ catalog-id:
   id: 0249-sonata
   num-id: 249
   name: sonata
-  uuid: d4f2f4fa-ca07-4f5f-a586-188cfa21eff8
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 6b324f31-b14b-4ee2-b8c5-7d18bcf63e09
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: Sonata
+description: for guitar
 composition-date: "1979"
 movements:
 - original-value: 1) Allegro - 2) Dialogo - 3) Rondo

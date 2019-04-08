@@ -2,8 +2,8 @@ catalog-id:
   id: 0298-requiem-pro-memoria-m-
   num-id: 298
   name: requiem-pro-memoria-m-
-  uuid: 51990980-a57b-4539-8e1f-50759a545ee5
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 0dff6655-9742-4c1e-9c79-266e650ee09d
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: it
   original: it
@@ -11,6 +11,7 @@ title:
   - it
   translations:
     it: Requiem pro memoria M.
+description: for mixed choir and orchestra
 composition-date: "1992"
 movements:
 - original-value: Requiem – Kyrie - Die Irae – Recordare – Confutatis – Lacrimosa

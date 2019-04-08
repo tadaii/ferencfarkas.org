@@ -2,8 +2,8 @@ catalog-id:
   id: 0508-la-guerre
   num-id: 508
   name: la-guerre
-  uuid: c25bba96-40a8-4bca-8539-5a01923b8c5d
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 3e9626d3-0689-4ab3-81d2-723efd1c222b
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: en
   original: en
@@ -11,5 +11,7 @@ title:
   - en
   translations:
     en: La guerre
+description: Melodie based on motifs from Madagascar for 2-part children's choir or
+  upper voices
 composition-date: "1936"
 source: manuscript by András Farkas

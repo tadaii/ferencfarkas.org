@@ -2,8 +2,8 @@ catalog-id:
   id: 0043-sketches-from-buekk
   num-id: 43
   name: sketches-from-buekk
-  uuid: bae48f65-211b-4508-8c89-a63cb9fb109b
-date: "2019-04-08T21:09:33+00:00"
+  uuid: f0ed3ab2-9b03-40d9-864e-feaf82242447
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: Sketches from Bükk
     hu: Bükki vázlatok
+description: for orchestra
 composition-date: "1955"
 movements:
 - original-value: 1) Tájkép - 2) Kis vasúton - 3) Sivel a rengetegben - 4) Idill -

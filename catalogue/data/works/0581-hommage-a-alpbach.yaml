@@ -2,8 +2,8 @@ catalog-id:
   id: 0581-hommage-a-alpbach
   num-id: 581
   name: hommage-a-alpbach
-  uuid: b19cb914-a76f-451b-86e1-a8d15c853e04
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 0f33ae4f-f544-4066-aa03-5abb56071b2c
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: fr
   original: fr
@@ -11,4 +11,6 @@ title:
   - fr
   translations:
     fr: Hommage à Alpbach
+description: 1) Die Stunden / Az órák 2) Schweigen / Hallgatás 3) Die künftigen Lieder
+  / A jövő dalai 4) Alles kommt wie es muss / Minden jön, hogyha kell
 composition-date: "1968"

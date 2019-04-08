@@ -2,8 +2,8 @@ catalog-id:
   id: 0398-pensieri-notturni
   num-id: 398
   name: pensieri-notturni
-  uuid: 7c778c8e-3169-40c0-a4ef-91c3a22866e3
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 9654c268-694f-4f71-9a8b-477f0b9f3d3d
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: it
   original: it
@@ -11,6 +11,7 @@ title:
   - it
   translations:
     it: Pensieri notturni
+description: for 4-part mixed choir
 composition-date: "1982"
 movements:
 - original-value: 1) La notte 2) Di morte certo 3) Madrigale alla notte

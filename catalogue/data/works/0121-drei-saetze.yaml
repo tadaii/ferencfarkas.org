@@ -2,8 +2,8 @@ catalog-id:
   id: 0121-drei-saetze
   num-id: 121
   name: drei-saetze
-  uuid: e725f410-1bab-4b4f-8af5-3d74aa4f6e12
-date: "2019-04-08T21:09:34+00:00"
+  uuid: b7ec2cca-72ea-4f0d-8606-a24999b0d8f5
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: de
   original: de
@@ -11,6 +11,7 @@ title:
   - de
   translations:
     de: Drei Sätze
+description: for flute, violoncello and harpsichord
 composition-date: "1983"
 movements:
 - original-value: Preludio, Feuille d'album, Rondo

@@ -2,8 +2,8 @@ catalog-id:
   id: 0076-timon-of-athens
   num-id: 76
   name: timon-of-athens
-  uuid: 760b06de-0211-45c7-a8c3-348f36916973
-date: "2019-04-08T21:09:34+00:00"
+  uuid: ea2a6b04-16b4-422c-b58e-e0764566ebd5
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,8 @@ title:
   - en
   translations:
     en: Timon of Athens
+description: for wind orchestra, percussion and piano 3 pieces from the incidental
+  music to "Timon of Athens" by William Shakespeare
 composition-date: 1935, rev. 1967
 movements:
 - original-value: 1) Alkibiadesz indulójá / Alcibiade’s march - 2) Asztali zene /

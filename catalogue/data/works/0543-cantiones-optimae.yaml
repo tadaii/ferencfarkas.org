@@ -2,8 +2,8 @@ catalog-id:
   id: 0543-cantiones-optimae
   num-id: 543
   name: cantiones-optimae
-  uuid: 5855d80e-6883-4590-ba5a-159f95fa88da
-date: "2019-04-08T21:09:35+00:00"
+  uuid: f1be278c-47a7-4742-95c4-e4f8ada8b47a
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: Cantiones optimae
+description: for soprano and piano or organ - based on old Hungarian sacred melodies
 movements:
 - original-value: 1) Bátoritás a halál ellen / Encouragement devant la mort 2) Könyörgés
     / Imploration 3) Máriá ének / Chant à Marie 4) O Jézus / Oh Jésus

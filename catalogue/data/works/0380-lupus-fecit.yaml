@@ -2,8 +2,8 @@ catalog-id:
   id: 0380-lupus-fecit
   num-id: 380
   name: lupus-fecit
-  uuid: d1340aa6-3126-437e-8183-74b661f979c3
-date: "2019-04-08T21:09:35+00:00"
+  uuid: ace7b94d-0588-4203-8470-5af692153af3
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: la
   original: la
@@ -11,6 +11,7 @@ title:
   - la
   translations:
     la: Lupus fecit
+description: for 4-part mixed choir
 composition-date: "1979"
 movements:
 - original-value: '1) Epitaphium - Epitaph from Aquincum - durata : 2 ‘ 50 ‘’ 2) Cantus

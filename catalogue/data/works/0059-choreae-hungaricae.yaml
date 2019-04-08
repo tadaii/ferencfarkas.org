@@ -2,8 +2,8 @@ catalog-id:
   id: 0059-choreae-hungaricae
   num-id: 59
   name: choreae-hungaricae
-  uuid: 85211b84-e1d1-4e0b-af02-f603e96795f9
-date: "2019-04-08T21:09:34+00:00"
+  uuid: be902611-a770-43ee-801a-9ffde455d2a9
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: la
   original: la
@@ -11,6 +11,7 @@ title:
   - la
   translations:
     la: Choreae hungaricae
+description: for string orchestra 3 cycles of Hungarian baroque dances
 composition-date: "1961"
 movements:
 - original-value: '4 Dances from the Vietórisz-Kodex ( l7th century): 1) Allegro moderato

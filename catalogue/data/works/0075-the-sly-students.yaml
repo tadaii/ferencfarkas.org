@@ -2,8 +2,8 @@ catalog-id:
   id: 0075-the-sly-students
   num-id: 75
   name: the-sly-students
-  uuid: d6dccb93-2f3b-460b-b50d-5db304f64f9d
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 3a612827-1486-45ff-83a3-1c7bf602d960
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: hu
@@ -15,6 +15,8 @@ title:
     de: Die listigen Studenten
     en: The sly students
     hu: Furfangos diákok
+description: for wind orchestra suite from the ballet of the same title arranged by
+  Tony Kurmann, 2014
 movements:
 - original-value: 1) Vásár Debrecenben / Fair in Debrecen - 2) Air de danse - 3) Diákok
     tánca / Students’dance - 4) Cigányzene / Gipsy-music - 5) Pas de deux - 6) Finale

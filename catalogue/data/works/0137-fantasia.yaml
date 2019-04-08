@@ -2,8 +2,8 @@ catalog-id:
   id: 0137-fantasia
   num-id: 137
   name: fantasia
-  uuid: 55a945bb-dc96-43bc-9880-ea471e1f6430
-date: "2019-04-08T21:09:34+00:00"
+  uuid: cba833e4-a417-41f3-a208-150f2b80d41a
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: Fantasia
+description: for 2 pianos
 composition-date: "1929"
 reworking: Fantasia for piano and orchestra
 source: manuscript by András Farkas

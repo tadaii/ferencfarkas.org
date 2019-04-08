@@ -2,8 +2,8 @@ catalog-id:
   id: 0655-fruit-basket
   num-id: 655
   name: fruit-basket
-  uuid: 220f0487-9248-4c1b-be4b-a2722379a7f4
-date: "2019-04-08T21:09:36+00:00"
+  uuid: d6219d8a-e610-45b4-96b6-74674a63ef33
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: en
   original: hu
@@ -17,6 +17,7 @@ title:
     en: Fruit basket
     fr: Panier de fruits
     hu: Gyümölcskosár
+description: for voice and wind quintet
 composition-date: "1980"
 movements:
 - original-value: 1) Gáspár / Kaspar / Bastide 2) Ládika / Das Zauberkästlein / Le

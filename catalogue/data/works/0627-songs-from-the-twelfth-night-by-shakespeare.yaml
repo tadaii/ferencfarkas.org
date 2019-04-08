@@ -2,8 +2,8 @@ catalog-id:
   id: 0627-songs-from-the-twelfth-night-by-shakespeare
   num-id: 627
   name: songs-from-the-twelfth-night-by-shakespeare
-  uuid: 04ad3543-63a7-4c4c-855e-896fecf531cb
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 796e08c5-171e-44ca-bb44-232642c24ab7
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,8 @@ title:
   translations:
     en: Songs from the “Twelfth night” by Shakespeare
     hu: Dalok “A vizkeresztből” by Shakespeare
+description: for voice and piano - from the incidental music to “Vízkereszt /Twelfth
+  night” by W. Shakespeare
 composition-date: "1954"
 movements:
 - original-value: '1) O mistress mine / Óh drága - durata : 1'' 2) Hey, Robin / Hej,

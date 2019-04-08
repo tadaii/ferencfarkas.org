@@ -2,8 +2,8 @@ catalog-id:
   id: 0237-organoedia-pelsonia
   num-id: 237
   name: organoedia-pelsonia
-  uuid: da89ff69-d3f0-4581-be76-f582e1171deb
-date: "2019-04-08T21:09:34+00:00"
+  uuid: db64a36a-d60f-4852-8fca-4f81488f5ff3
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: cy
   original: cy
@@ -11,4 +11,5 @@ title:
   - cy
   translations:
     cy: Organoedia Pelsonia
+description: for organ
 composition-date: "1989"

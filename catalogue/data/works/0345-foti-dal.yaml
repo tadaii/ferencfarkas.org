@@ -2,8 +2,8 @@ catalog-id:
   id: 0345-foti-dal
   num-id: 345
   name: foti-dal
-  uuid: 96377f8b-2790-4e12-95d9-ff609b483085
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 158ad61f-8eb2-4013-8caa-9d3f77013c9b
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: rm
   original: rm
@@ -11,4 +11,5 @@ title:
   - rm
   translations:
     rm: Fóti dal
+description: for 4-part mixed choir
 composition-date: "1993"

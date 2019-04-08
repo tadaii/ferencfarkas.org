@@ -2,8 +2,8 @@ catalog-id:
   id: 0236-omaggio-a-scarlatti
   num-id: 236
   name: omaggio-a-scarlatti
-  uuid: 71e2e068-afa0-4a5c-8533-ed6e562c20f4
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 27d06a9d-0383-42f2-a725-fe7c2ee7e8ab
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: it
   original: it
@@ -11,6 +11,7 @@ title:
   - it
   translations:
     it: Omaggio a Scarlatti
+description: for harpsichord
 composition-date: "1984"
 movements:
 - original-value: 1) Allegro moderato - 2) Intermezzo 1, Andante - 3) Fuga, Allegro

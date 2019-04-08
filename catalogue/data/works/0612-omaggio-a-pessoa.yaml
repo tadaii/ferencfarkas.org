@@ -2,8 +2,8 @@ catalog-id:
   id: 0612-omaggio-a-pessoa
   num-id: 612
   name: omaggio-a-pessoa
-  uuid: 1e8bf095-9bf8-454a-97be-e454655c7303
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 6a8b8cb9-e885-47b7-834d-983943ce5b72
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: pt
   original: pt
@@ -11,6 +11,7 @@ title:
   - pt
   translations:
     pt: Omaggio a Pessoa
+description: for voice and piano
 composition-date: "1985"
 movements:
 - original-value: '1) As ilhas afortunadas - durata: 2’30'''' 2) Já sobre a fronte

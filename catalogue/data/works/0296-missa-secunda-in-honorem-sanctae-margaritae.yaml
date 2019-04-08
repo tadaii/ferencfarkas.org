@@ -2,8 +2,8 @@ catalog-id:
   id: 0296-missa-secunda-in-honorem-sanctae-margaritae
   num-id: 296
   name: missa-secunda-in-honorem-sanctae-margaritae
-  uuid: 34bbe6d5-ddf1-4b17-9ad4-611267fb60b3
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 7639911d-e1b2-43db-985a-5a5796602724
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: la
   original: la
@@ -11,6 +11,7 @@ title:
   - la
   translations:
     la: Missa secunda in honorem Sanctae Margaritae
+description: for female choir and organ or string orchestra
 composition-date: "1992"
 movements:
 - original-value: Kyrie – Gloria – Sanctus – Benedictus – Agnus Dei

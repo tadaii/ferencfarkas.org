@@ -2,8 +2,8 @@ catalog-id:
   id: 0142-la-cour-du-roi-matthias
   num-id: 142
   name: la-cour-du-roi-matthias
-  uuid: cbe8dfc2-c212-4c92-8136-a10644130cf6
-date: "2019-04-08T21:09:34+00:00"
+  uuid: c90ab0f9-4917-4cf6-a1a5-744b5573788b
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: de
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     de: La cour du roi Matthias
     hu: Mátyás király udvara
+description: dance suite for clarinet, bassoon, horn and string quintet
 composition-date: "1977"
 movements:
 - original-value: 1) Lovagok tánca / Danse des chevaliers - 2) Udvaroncok tánca /

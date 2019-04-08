@@ -2,8 +2,8 @@ catalog-id:
   id: 0659-ket-dal-berda-jozsef-verseire
   num-id: 659
   name: ket-dal-berda-jozsef-verseire
-  uuid: 79414dae-8720-4d58-a07a-deaa3acdca6e
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 74f80d3a-f016-4592-b169-581101c6ec93
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Két dal Berda József verseire
+description: for voice and clarinet
 composition-date: "1995"
 movements:
 - original-value: 1) Gyertya mellett 2) Titok

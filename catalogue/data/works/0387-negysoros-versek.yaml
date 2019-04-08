@@ -2,8 +2,8 @@ catalog-id:
   id: 0387-negysoros-versek
   num-id: 387
   name: negysoros-versek
-  uuid: 0783e1ea-2071-43f7-a3b8-59df3cd984af
-date: "2019-04-08T21:09:35+00:00"
+  uuid: f265095a-17b6-45e6-ba23-6373505c7e57
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Négysoros versek
+description: for 4-part mixed choir
 composition-date: "1983"
 movements:
 - original-value: '1) Kirándulás - text by Jenő Dsida - durata : 1’ 2) Négysoros -

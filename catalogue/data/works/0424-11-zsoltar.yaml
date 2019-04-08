@@ -2,8 +2,8 @@ catalog-id:
   id: 0424-11-zsoltar
   num-id: 424
   name: 11-zsoltar
-  uuid: b36ff939-0542-45d8-9654-c5c66ceece90
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 57cf5dec-ff5d-43ab-90bc-780d3257fdf6
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,6 @@ title:
   - hu
   translations:
     hu: 11. Zsoltár
+description: for 4-part mixed choir
 composition-date: "1988"
 source: manuscript by András Farkas

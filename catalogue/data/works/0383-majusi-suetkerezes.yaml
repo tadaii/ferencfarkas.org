@@ -2,8 +2,8 @@ catalog-id:
   id: 0383-majusi-suetkerezes
   num-id: 383
   name: majusi-suetkerezes
-  uuid: 85e5137f-f269-4533-874b-c4023569234c
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 170c5bb8-b85d-4996-bce9-fa9ee1dd6653
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,6 @@ title:
   - hu
   translations:
     hu: Májusi sütkérezés
+description: for 4-part mixed choir
 composition-date: "1991"
 source: manuscript by András Farkas

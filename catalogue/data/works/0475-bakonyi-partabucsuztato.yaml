@@ -2,8 +2,8 @@ catalog-id:
   id: 0475-bakonyi-partabucsuztato
   num-id: 475
   name: bakonyi-partabucsuztato
-  uuid: 74641e48-d4b0-42dc-ae43-e35ce61a861e
-date: "2019-04-08T21:09:35+00:00"
+  uuid: b578158d-969d-4513-86fb-4d0ea05c9ca1
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,6 @@ title:
   - hu
   translations:
     hu: Bakonyi pártabúcsúztató
+description: for 3-part female choir
 dedication: a SZMT Kisfaludy Müvelödési Ház Liszt Ferenc Kórusának és karnagyának
   Kollár Kálmánnak

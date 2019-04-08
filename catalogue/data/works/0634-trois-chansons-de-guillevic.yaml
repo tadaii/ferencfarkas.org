@@ -2,8 +2,8 @@ catalog-id:
   id: 0634-trois-chansons-de-guillevic
   num-id: 634
   name: trois-chansons-de-guillevic
-  uuid: ecb1d0d8-26c8-4bd0-b69c-e7aae16758cd
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 2c993a6c-7485-40e8-aefc-ad11d08ab5f7
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: fr
   original: hu
@@ -15,6 +15,7 @@ title:
     en: Three Guillevic songs
     fr: Trois chansons de Guillevic
     hu: Három Guillevic dal
+description: for voice and piano
 composition-date: "1960"
 movements:
 - original-value: 1) Le menuisier / Az asztalos 2) Roses / Rózsák 3) Le goût de la

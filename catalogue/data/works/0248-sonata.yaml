@@ -2,8 +2,8 @@ catalog-id:
   id: 0248-sonata
   num-id: 248
   name: sonata
-  uuid: 3228967a-06b1-4abc-88ae-0e9b235ac0d6
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 59a5caee-64c6-4ed1-afeb-4f19953a65f6
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: Sonata
+description: for violoncello
 composition-date: "1932"
 movements:
 - original-value: 1 ) Allegro - 2) Andante - 3) Allegro molto

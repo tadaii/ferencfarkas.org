@@ -2,8 +2,8 @@ catalog-id:
   id: 0691-jol-van-dolga-a-mostani-huszarnak
   num-id: 691
   name: jol-van-dolga-a-mostani-huszarnak
-  uuid: 4bc4d307-179e-4fd5-8481-ce315bcab876
-date: "2019-04-08T21:09:36+00:00"
+  uuid: f5ec8d85-49dd-4427-aba7-2bf2a2e4b3af
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,4 +11,5 @@ title:
   - hu
   translations:
     hu: Jól van dolga a mostani huszárnak
+description: for voice and piano
 source: manuscript by András Farkas

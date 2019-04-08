@@ -2,8 +2,8 @@ catalog-id:
   id: 0518-de-arte
   num-id: 518
   name: de-arte
-  uuid: aac6c1cb-4d5a-4355-8423-9da885cbe8e3
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 6135c49f-7706-4ff4-bdfe-934ee0badb34
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: en
   original: en
@@ -11,5 +11,6 @@ title:
   - en
   translations:
     en: De arte
+description: canon
 composition-date: "1995"
 source: manuscript by András Farkas

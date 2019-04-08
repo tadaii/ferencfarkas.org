@@ -2,8 +2,8 @@ catalog-id:
   id: 0570-futamok
   num-id: 570
   name: futamok
-  uuid: 68dfd2c0-80cb-47a1-aeab-f4f20302e6e1
-date: "2019-04-08T21:09:36+00:00"
+  uuid: b641b20b-6ae2-4c25-bdfb-7d87527f1cdf
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Futamok
+description: for voice and piano
 composition-date: "1983"
 movements:
 - original-value: 1) Hová visz ez az út ? 2) Az éjszakában... 3) Utak röppennek el...

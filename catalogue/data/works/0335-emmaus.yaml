@@ -2,8 +2,8 @@ catalog-id:
   id: 0335-emmaus
   num-id: 335
   name: emmaus
-  uuid: fd514ae3-2d83-4776-8e49-f3870e680669
-date: "2019-04-08T21:09:35+00:00"
+  uuid: ddebf170-70d7-4697-b512-5a820c66da17
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: de
   original: de
@@ -11,6 +11,8 @@ title:
   - de
   translations:
     de: Emmaus
+description: for 4-part mixed choir Version in Latin from "Emmaus. Cantata after St.Luke"
+  for mixed choir
 composition-date: "1985"
 reworking: Emmaus. Cantata after St.Luke in English for mixed choir
 source: manuscript by András Farkas

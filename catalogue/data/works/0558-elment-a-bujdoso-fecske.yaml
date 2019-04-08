@@ -2,8 +2,8 @@ catalog-id:
   id: 0558-elment-a-bujdoso-fecske
   num-id: 558
   name: elment-a-bujdoso-fecske
-  uuid: 1affe8b8-f796-4716-bc76-a1eb3d5cf7e4
-date: "2019-04-08T21:09:36+00:00"
+  uuid: c75b7566-a198-4a0c-99a7-d0e4bf405dbb
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,7 @@ title:
   - hu
   translations:
     hu: Elment a bújdosó fecske
+description: for voice and piano - from the incidental music to "Búbos Vitéz" by Aron
+  Tamási
 composition-date: "1952"
 source: manuscript by András Farkas

@@ -2,8 +2,8 @@ catalog-id:
   id: 0443-ket-madrigal
   num-id: 443
   name: ket-madrigal
-  uuid: 1981a74a-a07f-4e25-8c10-de1fe24e46d0
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 33c9d6b2-5b7e-473c-a6f7-9622cbe3a554
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,8 @@ title:
   - hu
   translations:
     hu: Két madrigál
+description: for 4-part male choir from the incidental music "Ahogy tetszik / As you
+  like it" by Shakespeare
 composition-date: "1937"
 movements:
 - original-value: 1) Éld hát világod 2) Ha szeretsz

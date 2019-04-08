@@ -2,8 +2,8 @@ catalog-id:
   id: 0223-hybrides
   num-id: 223
   name: hybrides
-  uuid: cb127d86-496b-453f-bb35-8ab3b13fabe7
-date: "2019-04-08T21:09:34+00:00"
+  uuid: d21ba69d-b121-489f-9456-af33439a6000
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: fr
   original: fr
@@ -11,6 +11,7 @@ title:
   - fr
   translations:
     fr: Hybrides
+description: for piano
 composition-date: "1957"
 movements:
 - original-value: 1) Soggetto - 2) Marcietta - 3) Melodia - 4) Minuetto - 5) Tarantella

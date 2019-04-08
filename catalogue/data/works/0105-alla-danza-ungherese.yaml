@@ -2,8 +2,8 @@ catalog-id:
   id: 0105-alla-danza-ungherese
   num-id: 105
   name: alla-danza-ungherese
-  uuid: 29466046-ef9c-4b8d-b409-85b2dd26a7bb
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 50b39802-7905-4ebf-802c-91357fd5e776
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: it
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     hu: Hétfalusi boricza-tánc
     it: Alla danza ungherese
+description: for violin and piano
 composition-date: "1934"
 reworking: Alla danza ungherese for violin and string orchestra Alla danza ungherese
   for violin and cimbalom Alla danza ungherese for violoncello and piano

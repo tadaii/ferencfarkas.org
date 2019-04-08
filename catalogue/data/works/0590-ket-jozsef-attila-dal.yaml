@@ -2,8 +2,8 @@ catalog-id:
   id: 0590-ket-jozsef-attila-dal
   num-id: 590
   name: ket-jozsef-attila-dal
-  uuid: 7dd624f5-621e-4a6b-8e74-ca5e8a12cfee
-date: "2019-04-08T21:09:36+00:00"
+  uuid: a434c893-9195-445a-8e41-86b18b8f3631
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     de: Zwei Lieder nach Gedichten von Attila József
     hu: Két József Attila dal
+description: for voice and piano
 composition-date: 1939-1946
 movements:
 - original-value: '1) Jut az ember... / Sah zwei Blumen blühn am Wege - durata : 2''

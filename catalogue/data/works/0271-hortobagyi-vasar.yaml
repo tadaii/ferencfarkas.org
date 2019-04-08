@@ -2,8 +2,8 @@ catalog-id:
   id: 0271-hortobagyi-vasar
   num-id: 271
   name: hortobagyi-vasar
-  uuid: da4c5437-9739-4745-b956-973d80306d49
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 3f43e672-cbfc-4448-a6e6-a3f8158149b0
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,6 @@ title:
   - hu
   translations:
     hu: Hortobágyi vásár
+description: cantata for mixed choir and orchestra
 composition-date: "1953"
 source: 'piano reduction: manuscript by András Farkas'

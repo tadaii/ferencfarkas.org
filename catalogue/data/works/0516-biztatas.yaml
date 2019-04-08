@@ -2,8 +2,8 @@ catalog-id:
   id: 0516-biztatas
   num-id: 516
   name: biztatas
-  uuid: 475c63c1-892b-4f02-af1e-91b0690d4a75
-date: "2019-04-08T21:09:35+00:00"
+  uuid: f7652b71-b925-4f23-a15c-05914e31b7a7
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,4 +11,5 @@ title:
   - hu
   translations:
     hu: Biztatás
+description: canon a 3
 composition-date: "1969"

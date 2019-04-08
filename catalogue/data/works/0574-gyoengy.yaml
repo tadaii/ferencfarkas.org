@@ -2,8 +2,8 @@ catalog-id:
   id: 0574-gyoengy
   num-id: 574
   name: gyoengy
-  uuid: b97d838c-e460-454b-a24a-5b47d001f43b
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 1860bc0a-2d40-42a7-8435-5547a3a45fac
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -13,4 +13,5 @@ title:
   translations:
     es: Perle
     hu: Gyöngy
+description: for voice and piano
 composition-date: "1939"

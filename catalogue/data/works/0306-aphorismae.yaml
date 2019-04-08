@@ -2,8 +2,8 @@ catalog-id:
   id: 0306-aphorismae
   num-id: 306
   name: aphorismae
-  uuid: 7cea53b3-634d-41be-b49c-d1144742f028
-date: "2019-04-08T21:09:35+00:00"
+  uuid: cf1778f0-3aa0-4eb8-af2b-9954ac1e6d2a
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: sk
   original: sk
@@ -11,5 +11,6 @@ title:
   - sk
   translations:
     sk: Aphorismae
+description: for 4-part mixed choir
 composition-date: "1997"
 source: manuscript by András Farkas

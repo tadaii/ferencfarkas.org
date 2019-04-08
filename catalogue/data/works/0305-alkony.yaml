@@ -2,8 +2,8 @@ catalog-id:
   id: 0305-alkony
   num-id: 305
   name: alkony
-  uuid: 2d2fe5de-86ec-449a-96a0-5c663fedc12d
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 04ae4db8-a8a9-4d66-b27b-6e1f866284ba
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: mg
   original: mg
@@ -13,4 +13,5 @@ title:
   translations:
     en: Dusk
     mg: Alkony
+description: for 4-part mixed choir
 reworking: Crépuscule for mixed choir

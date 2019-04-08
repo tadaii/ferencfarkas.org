@@ -2,8 +2,8 @@ catalog-id:
   id: 0523-kanon-a-munkarol
   num-id: 523
   name: kanon-a-munkarol
-  uuid: 222be91e-8bbe-4812-ae86-306d436b58e4
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 0ef09fd2-04bf-47a0-8178-43c1a877bcb0
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,3 +11,4 @@ title:
   - hu
   translations:
     hu: Kánon a munkáról
+description: canon a 3

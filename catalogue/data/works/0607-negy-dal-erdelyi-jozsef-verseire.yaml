@@ -2,8 +2,8 @@ catalog-id:
   id: 0607-negy-dal-erdelyi-jozsef-verseire
   num-id: 607
   name: negy-dal-erdelyi-jozsef-verseire
-  uuid: e57c5e22-aa6a-49f7-a3ba-7edaf9d1aad3
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 5bb76be0-6e1c-4ad2-9a14-2f1cb0c6a285
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Négy dal Erdélyi József verseire
+description: for voice and piano
 composition-date: 1938-1941
 movements:
 - original-value: '1) Utlevél - durata : 1’50'''' 2) Igazán - durata : 1’20'''' 3)

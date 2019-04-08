@@ -2,8 +2,8 @@ catalog-id:
   id: 0087-concertino-v-for-trumpet-and-string-orchestra
   num-id: 87
   name: concertino-v-for-trumpet-and-string-orchestra
-  uuid: 846396ec-ee9d-4da7-a8dd-d6ba4f7e99d6
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 4397eb25-e48c-48a6-a0df-df4026cb76a7
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: Concertino V for trumpet and string orchestra
+description: 'piano reduction : [Editio Musica Budapest](http://www.emb.hu/en/product/13013)'
 composition-date: "1984"
 movements:
 - original-value: 1) Allegro - 2) Andante moderato - 3) Allegro

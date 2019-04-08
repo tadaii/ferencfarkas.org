@@ -2,8 +2,8 @@ catalog-id:
   id: 0017-the-sly-students
   num-id: 17
   name: the-sly-students
-  uuid: dd0a0f5d-0175-4d98-ba75-f69d47ca332a
-date: "2019-04-08T21:09:33+00:00"
+  uuid: da6ae3e8-c0cc-48a4-bb59-3b3451c12078
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: hu
@@ -15,6 +15,7 @@ title:
     de: Die listigen Studenten
     en: The sly students
     hu: Furfangos diákok
+description: ballet in one act and 6 scenes based on the novel by Mór Jókai
 composition-date: 1949, rev. 1956
 subject: Gusztáv Oláh
 synopsis: the director of the Debrecen College, Professor Horváth, intends his daughter,Rózsika,

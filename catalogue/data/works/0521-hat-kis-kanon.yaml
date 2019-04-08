@@ -2,8 +2,8 @@ catalog-id:
   id: 0521-hat-kis-kanon
   num-id: 521
   name: hat-kis-kanon
-  uuid: 854385ef-016b-4ca7-9e89-e892b8876bca
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 16b9a138-ae9c-4a1c-85fd-72139cb1084f
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Hat kis kánon
+description: 6 canons
 movements:
 - original-value: '1) Enek a tavaszhoz - text by Mihály Csokonai Vitéz 2) Serkentö
     ének - text by János Batsányi 3) Harang felirat / Vivos voco 4) köszöntő / Wishing

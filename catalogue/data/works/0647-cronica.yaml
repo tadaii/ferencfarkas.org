@@ -2,8 +2,8 @@ catalog-id:
   id: 0647-cronica
   num-id: 647
   name: cronica
-  uuid: 25442f73-4d7d-4836-ac86-4c5e20a09750
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 9560b056-0c8c-4991-82f2-fe21c5411fbd
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: pt
   original: pt
@@ -11,6 +11,7 @@ title:
   - pt
   translations:
     pt: Cronica
+description: for voice (tenor) and 2 guitars
 composition-date: "1973"
 movements:
 - original-value: '1) Hadnagyoknak tanulság – durata: 1’30'''' 2) Príni Péternek…./

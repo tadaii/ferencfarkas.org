@@ -2,8 +2,8 @@ catalog-id:
   id: 0684-danube-valley-garland
   num-id: 684
   name: danube-valley-garland
-  uuid: 6b48480d-fd3d-4f24-977b-d47d8360e5d2
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 4c60ba1f-33dc-45c2-8e2f-839c132701f2
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: Danube valley garland
     hu: Dunavölgyi koszorú
+description: for soprano solo, tenor solo and orchestra
 composition-date: "1976"
 movements:
 - original-value: 3 Slovak songs 1) Apenko, mamenko / Edesapám, anyám – translated

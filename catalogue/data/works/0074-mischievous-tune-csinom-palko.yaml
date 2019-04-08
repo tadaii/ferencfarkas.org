@@ -2,8 +2,8 @@ catalog-id:
   id: 0074-mischievous-tune-csinom-palko
   num-id: 74
   name: mischievous-tune-csinom-palko
-  uuid: 33089ead-0db0-466a-9479-dc1c1ab18072
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 834f7722-9581-4c8c-b1e0-3eece4ce3166
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: vo
   original: vo
@@ -11,6 +11,8 @@ title:
   - vo
   translations:
     vo: Mischievous tune “Csínom Palkó”
+description: for wind orchestra Suite from the opera “Csínom Palkó” arranged by Tony
+  Kurmann, 2013
 setting: picc., 2 fl., 2 ob., c.i., 2 fg, cfg, clar.mib, 3 clar.sib, alt-clar.mib,
   bass-clar. sib, cb-clar.sib, 2 alt-sass.mib, tenor-sass.sib, bar-sass.mib, vcl.,
   stringbass, 4 cor, 3 tr.sib, 3 trbne c, euphonium c, tuba c, timpani, bells, xylophone,

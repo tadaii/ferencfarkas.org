@@ -2,8 +2,8 @@ catalog-id:
   id: 0315-baranyai-lakodalmas
   num-id: 315
   name: baranyai-lakodalmas
-  uuid: 71d6c85d-8de0-4f29-a273-2e0bc7730084
-date: "2019-04-08T21:09:35+00:00"
+  uuid: d4acf0c5-0219-4db6-8533-0999fc1ddd80
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: ms
   original: ms
@@ -13,6 +13,8 @@ title:
   translations:
     en: Wedding songs from Baranya
     ms: Baranyai lakodalmas
+description: for 4-part mixed choir and piano or orchestra Suite from “Baranyai lakodalmas”
+  for 3-part mixed choir
 composition-date: "1957"
 setting: 3 clarinets, 3 cimbaloms, strings
 reworking: Baranyai lakodalmas / Wedding songs from Baranya for 3-part mixed choir

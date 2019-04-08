@@ -2,8 +2,8 @@ catalog-id:
   id: 0625-rozsahullato-fa
   num-id: 625
   name: rozsahullato-fa
-  uuid: e1788163-1b8a-4bf0-92d4-6a7fc66fd3cd
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 8122bf0d-9fd4-4edd-9f35-9e0ad37da859
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,4 +11,5 @@ title:
   - hu
   translations:
     hu: Rózsahullató fa
+description: for voice and piano
 composition-date: "1995"

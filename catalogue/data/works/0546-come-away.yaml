@@ -2,8 +2,8 @@ catalog-id:
   id: 0546-come-away
   num-id: 546
   name: come-away
-  uuid: a97fc755-1ee6-467f-a176-25d203616adb
-date: "2019-04-08T21:09:35+00:00"
+  uuid: f18eca2a-5e37-4d48-ba96-6b30ccc8345e
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,8 @@ title:
   - en
   translations:
     en: Come away
+description: for voice and piano Extract from “Songs from the “Twelfth night” by W.
+  Shakespeare
 composition-date: "1954"
 reworking: Come away for mixed choir Songs from the “Twelfth night” by Shakespeare
   for voice and harp “Vízkereszt /Twelfth night” by W. Shakespeare, incidental music

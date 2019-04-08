@@ -2,8 +2,8 @@ catalog-id:
   id: 0435-fleur-de-colza
   num-id: 435
   name: fleur-de-colza
-  uuid: 91cae6fd-9e1f-40c8-b993-af7729930961
-date: "2019-04-08T21:09:35+00:00"
+  uuid: ebf1bb3d-03ca-45ee-b4a0-b60c417a24d7
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: fr
   original: fr
@@ -11,6 +11,7 @@ title:
   - fr
   translations:
     fr: Fleur de colza
+description: for 4-part male choir French version from "Sárga recepice" for male choir
 composition-date: "1939"
 reworking: Sárga recepice for male choir
 source: manuscript by András Farkas

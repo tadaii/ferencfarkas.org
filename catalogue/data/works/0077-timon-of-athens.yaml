@@ -2,8 +2,8 @@ catalog-id:
   id: 0077-timon-of-athens
   num-id: 77
   name: timon-of-athens
-  uuid: 38f349de-7965-4da6-bd77-628bd7f73ae1
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 185e9163-48cd-4af2-9cd0-27a8c8cf0b8b
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,8 @@ title:
   - en
   translations:
     en: Timon of Athens
+description: for wind orchestra, percussion and piano 3 pieces from the incidental
+  music to "Timon of Athens" by William Shakespeare arranged by Tony Kurmann, 2014
 movements:
 - original-value: 1) Alkibiadesz indulójá / Alcibiade’s march - 2) Asztali zene /
     Dinner music - 3) Tánc / Dance

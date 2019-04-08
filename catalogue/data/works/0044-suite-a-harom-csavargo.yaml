@@ -2,8 +2,8 @@ catalog-id:
   id: 0044-suite-a-harom-csavargo
   num-id: 44
   name: suite-a-harom-csavargo
-  uuid: 2e81e2a8-427a-4200-876e-41fce22f6c79
-date: "2019-04-08T21:09:33+00:00"
+  uuid: 11bf6685-bafa-4956-a643-5f66a76dcd20
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: hu
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: Suite “The three vagabonds"
     hu: Suite "A három csavargó”
+description: for orchestra suite from the ballet "A három csavargó / The three vagabonds"
 composition-date: 1932-1933
 setting: 1, 1, 2, 1 - 2, 1, 0, 0 - timp., batt. - archi
 reworking: A három csavargó, ballet

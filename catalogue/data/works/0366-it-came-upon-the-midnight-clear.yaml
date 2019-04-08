@@ -2,8 +2,8 @@ catalog-id:
   id: 0366-it-came-upon-the-midnight-clear
   num-id: 366
   name: it-came-upon-the-midnight-clear
-  uuid: a160fdf7-4aa8-4d2f-8c7b-98d21efa1b57
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 33ed5100-9eea-498e-adeb-5290bbcec903
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: It came upon the midnight clear
     hu: Aldott éj
+description: English Christmas song for 4-part mixed choir
 composition-date: "1948"
 reworking: Sainte nuit for mixed choir Sainte nuit for male choir Christmas albumfor
   children's choir and piano or organ Christmas album for voice and piano

@@ -2,8 +2,8 @@ catalog-id:
   id: 0461-serenade-wallone
   num-id: 461
   name: serenade-wallone
-  uuid: f3651881-af7c-46ae-a91c-612a01caedb2
-date: "2019-04-08T21:09:35+00:00"
+  uuid: b0f5a7f5-f38b-4be2-aaee-31dc0496e49b
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: fr
   original: fr
@@ -11,5 +11,6 @@ title:
   - fr
   translations:
     fr: Sérénade wallone
+description: song of the country of Liège for 3 part male choir
 reworking: Sérénade wallone for mixed choir Vallon szerenád for mixed choir Vallon
   szerenád for male choir Vallon szerenád for female choir

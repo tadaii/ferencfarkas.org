@@ -2,8 +2,8 @@ catalog-id:
   id: 0564-eszterlanc
   num-id: 564
   name: eszterlanc
-  uuid: 9828e93c-1f32-4852-8296-865dde7a44da
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 5ba736b6-401a-425d-ad84-e3bef6b02e3a
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Eszterlánc
+description: for voice and piano
 composition-date: "1936"
 movements:
 - original-value: '1) Viola szerelmem - durata : 1’27’’ 2) Csillaghasú ég alatt -

@@ -2,8 +2,8 @@ catalog-id:
   id: 0372-king-herod-and-the-cock
   num-id: 372
   name: king-herod-and-the-cock
-  uuid: b8fc7f23-763b-4edd-8e75-04fa99190645
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 42c1fe06-35bd-4e2b-a50b-b2c21801a10e
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: en
   original: en
@@ -11,5 +11,6 @@ title:
   - en
   translations:
     en: King Herod and the cock
+description: English Christmas song for 4-part mixed choir
 reworking: Le roi Hérode et le coq for 4-part mixed choir
 dedication: A Françoise, avec affection

@@ -2,8 +2,8 @@ catalog-id:
   id: 0272-koelcsey-szozata
   num-id: 272
   name: koelcsey-szozata
-  uuid: f4394ea1-2e06-4ff3-a069-0d3b8aac50eb
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 1798dc1b-b17e-4b83-b3d7-0f5d3949c2e4
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Kölcsey Szózata
+description: cantata for tenor solo, mixed choir and orchestra
 composition-date: 1992-1993
 movements:
 - original-value: 1) Preludio - 2) Küzdés - 3) Szép Erdély - 4) Quasi marcia funebre

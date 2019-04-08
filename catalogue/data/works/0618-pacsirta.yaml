@@ -2,8 +2,8 @@ catalog-id:
   id: 0618-pacsirta
   num-id: 618
   name: pacsirta
-  uuid: 9037958b-f325-4060-b4c8-d02a58287d8e
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 6a456de3-d831-41c9-b503-12ebfe3eecbd
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,6 @@ title:
   - hu
   translations:
     hu: Pacsirta
+description: for voice and piano
 composition-date: "1989"
 source: manuscript by András Farkas

@@ -2,8 +2,8 @@ catalog-id:
   id: 0263-at-the-bank-of-the-tisza
   num-id: 263
   name: at-the-bank-of-the-tisza
-  uuid: 94902a34-0a7e-4f86-9bf0-31ff753ca491
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 98b9e9b3-ba99-4708-bba8-65efed6d4d08
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: en
   original: hu
@@ -13,5 +13,6 @@ title:
   translations:
     en: At the bank of the Tisza
     hu: Tisza partján
+description: Folk song cantata for mixed choir (soli ad lib.) and orchestra
 composition-date: "1950"
 setting: 2, 2, 2, 2 – 4, 2, 3, 0 – timp., batt. – arpa – archi

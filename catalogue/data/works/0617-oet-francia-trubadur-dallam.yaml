@@ -2,8 +2,8 @@ catalog-id:
   id: 0617-oet-francia-trubadur-dallam
   num-id: 617
   name: oet-francia-trubadur-dallam
-  uuid: 7329182e-3a5d-46d0-a4d3-e804cb11d7db
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 1d296db3-05ed-4f0c-a8a2-3ef43509c127
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: sk
   original: sk
@@ -13,6 +13,7 @@ title:
   translations:
     co: Cinque canzoni dei trovatori
     sk: Öt francia trubadúr dallam
+description: for voice and piano
 composition-date: "1947"
 movements:
 - original-value: 1) Volez vos que je vos chant / Zengek néked ime halld 2) Belle

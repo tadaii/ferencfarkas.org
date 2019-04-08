@@ -2,8 +2,8 @@ catalog-id:
   id: 0533-a-celrol
   num-id: 533
   name: a-celrol
-  uuid: 5eb6095f-6ff0-4634-99fe-d39dca9bf178
-date: "2019-04-08T21:09:35+00:00"
+  uuid: f66d2967-d54b-40e6-b964-6c6d61ba3e22
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,6 @@ title:
   - hu
   translations:
     hu: A célról
+description: for voice and piano
 composition-date: "1995"
 source: manuscript by András Farkas

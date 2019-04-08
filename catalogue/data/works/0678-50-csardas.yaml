@@ -2,8 +2,8 @@ catalog-id:
   id: 0678-50-csardas
   num-id: 678
   name: 50-csardas
-  uuid: 3c13a385-3c53-4979-a2a2-da4c22247a78
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 14f1ad1a-c023-4e29-a21a-50999cca6ff6
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: de
   original: de
@@ -11,3 +11,4 @@ title:
   - de
   translations:
     de: 50 Csárdás
+description: for voice (violin) and piano

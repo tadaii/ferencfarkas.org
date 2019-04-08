@@ -2,8 +2,8 @@ catalog-id:
   id: 0378-le-roi-herode-et-le-coq
   num-id: 378
   name: le-roi-herode-et-le-coq
-  uuid: 05bcba18-50e0-4c76-92e0-961efcaf8d75
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 4b3cfd30-2857-423d-8e11-b576978ea5a1
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: fr
   original: fr
@@ -11,4 +11,6 @@ title:
   - fr
   translations:
     fr: Le roi Hérode et le coq
+description: English Christmas song for 4-part mixed choir French version from “King
+  Herod and the cock” for mixed choir
 reworking: King Herod and the cock for mixed choir

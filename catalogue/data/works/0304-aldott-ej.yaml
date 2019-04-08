@@ -2,8 +2,8 @@ catalog-id:
   id: 0304-aldott-ej
   num-id: 304
   name: aldott-ej
-  uuid: 171e3b09-abcd-41fb-b29d-b5c5f22d6bd3
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 3b3ab731-6487-4827-be8f-c43ede0564db
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: hu
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: It came upon the midnight clear
     hu: Aldott éj
+description: English Christmas song for 4-part mixed choir
 composition-date: "1948"
 reworking: Sainte nuit for mixed choir Sainte nuit for male choir Christmas album
   for children's choir and piano or organ Christmas album for voice and piano

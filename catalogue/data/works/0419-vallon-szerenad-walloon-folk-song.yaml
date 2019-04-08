@@ -2,8 +2,8 @@ catalog-id:
   id: 0419-vallon-szerenad-walloon-folk-song
   num-id: 419
   name: vallon-szerenad-walloon-folk-song
-  uuid: c07f7e69-4f99-4b9b-b064-959b5a488dd4
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 485294a4-8c64-4777-9052-599c167dcb1b
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: en
   original: en
@@ -11,5 +11,7 @@ title:
   - en
   translations:
     en: Vallon szerenád (Walloon folk song)
+description: song of the country of Liège for 4-part mixed choir Hungarian version
+  from “Sérénade wallone” for mixed choir
 reworking: Sérénade wallone for mixed choir Sérénade wallone for male choir Vallon
   szerenád for male choir Vallon szerenád for female choir

@@ -2,8 +2,8 @@ catalog-id:
   id: 0053-the-marionettes-dance-suite
   num-id: 53
   name: the-marionettes-dance-suite
-  uuid: bf20c58d-2b04-49ca-96e6-6ffd02739322
-date: "2019-04-08T21:09:33+00:00"
+  uuid: 391ed9c0-c4a1-4e27-887f-d6b13b86dbe9
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: The marionette’s dance suite
     hu: Bábtáncoltató-szvit
+description: for orchestra
 composition-date: 1940-1941
 movements:
 - original-value: 1) Nyitány / Ouvertüre - 2) Intermezzo - 3) Bojtárok és angyalok

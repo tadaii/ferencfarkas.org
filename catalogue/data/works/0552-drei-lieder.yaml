@@ -2,8 +2,8 @@ catalog-id:
   id: 0552-drei-lieder
   num-id: 552
   name: drei-lieder
-  uuid: f04641de-bc46-4cac-b060-63897b063624
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 02e2531d-c7eb-477c-8335-6042e9d89009
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: de
   original: hu
@@ -15,6 +15,7 @@ title:
     de: Drei Lieder
     en: Three Eulau songs
     hu: Három dal
+description: for voice (tenor) and piano
 composition-date: "1958"
 movements:
 - original-value: 1) In den leuchtenden Abend / Fénylö estében 2) Lege deine Welt

@@ -2,8 +2,8 @@ catalog-id:
   id: 0177-six-hungarian-folk-songs
   num-id: 177
   name: six-hungarian-folk-songs
-  uuid: b7e466c7-0a7b-439b-bf10-42e2c4a60baf
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 52da073f-4891-4014-a441-267301727ce3
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: Six Hungarian folk songs
+description: for voice ad lib. recorder, violin and violoncello
 composition-date: "1947"
 movements:
 - original-value: 1.Zendülj fel Szent János – 2. Arokparti kökény – 3. Kerek utca

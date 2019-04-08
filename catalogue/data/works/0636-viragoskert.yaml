@@ -2,8 +2,8 @@ catalog-id:
   id: 0636-viragoskert
   num-id: 636
   name: viragoskert
-  uuid: cc34356b-29e7-45ce-a222-5f5bd23fea4a
-date: "2019-04-08T21:09:36+00:00"
+  uuid: fe0c6bc0-9aee-449f-bcaf-c5f693107f2f
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Virágoskert
+description: for voice and piano
 composition-date: 1989-1990
 movements:
 - original-value: 1) Margaréta - text by József Erdélyi 2) Fehér virág - text by István

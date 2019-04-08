@@ -2,8 +2,8 @@ catalog-id:
   id: 0565-fejfak
   num-id: 565
   name: fejfak
-  uuid: fbb60ff3-5413-4cfd-9a01-786fa294ccfe
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 9cd34e47-d9b3-4e3c-a06d-742a8e5680b8
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: Fejfák
+description: for voice and piano
 composition-date: "1982"
 movements:
 - original-value: 1) Amit te cselekedtél 2) Egyszerű fejfa 3) Csak egy arccal

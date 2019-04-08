@@ -2,8 +2,8 @@ catalog-id:
   id: 0264-cantata-lirica
   num-id: 264
   name: cantata-lirica
-  uuid: e8283535-0466-4d1d-b702-ef4cab2340d1
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 3c76e941-09b4-419d-bd3f-7320269fbf2d
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: it
   original: hu
@@ -15,6 +15,7 @@ title:
     en: St. John’s fountain
     hu: Szent János kútja
     it: Cantata lirica
+description: cantata for mixed choir and orchestra
 composition-date: "1945"
 movements:
 - original-value: 1) Andante – 2) Emléke visszacsillog / Still fällt ein sanftes Leuchten

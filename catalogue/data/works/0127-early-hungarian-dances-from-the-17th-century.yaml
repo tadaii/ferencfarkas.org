@@ -2,8 +2,8 @@ catalog-id:
   id: 0127-early-hungarian-dances-from-the-17th-century
   num-id: 127
   name: early-hungarian-dances-from-the-17th-century
-  uuid: 8cae6aa6-45b3-4157-b60d-1b436e18da8a
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 364dbb62-4fb0-46eb-9334-654f77d5bb3b
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,8 @@ title:
   - en
   translations:
     en: Early Hungarian dances from the 17th century
+description: Antiche danze ungheresi del 17. secolo / Régi magyar táncok a 17. századból
+  / Danses hongroises du 17ème siècle / Alte ungarische Tänze / Old Hungarian dances
 composition-date: "1987"
 movements:
 - original-value: Intrada, Chorea, Magyar tánc / Hungarian dance, Erdélyi Fejedelem

@@ -2,8 +2,8 @@ catalog-id:
   id: 0003-csinom-palko
   num-id: 3
   name: csinom-palko
-  uuid: ead89813-0ed7-4592-9ab1-84380a4e3710
-date: "2019-04-08T21:09:33+00:00"
+  uuid: a04a3f0a-8b06-40f4-8b68-d1be5552c349
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Csínom Palkó
+description: popular romantic opera in 3 acts 2nd and definitive version for the theatre
 composition-date: "1960"
 synopsis: Hungary, 1705, during the uprising of Ferenc Rákóczi, Prince of Transylvania
   against the Habsbourg’s domination

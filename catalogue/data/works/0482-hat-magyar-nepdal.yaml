@@ -2,8 +2,8 @@ catalog-id:
   id: 0482-hat-magyar-nepdal
   num-id: 482
   name: hat-magyar-nepdal
-  uuid: abbd3dfc-009b-420a-954e-44e528a1d777
-date: "2019-04-08T21:09:35+00:00"
+  uuid: d62c4998-9451-4663-b100-faced9095aca
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Hat magyar népdal
+description: for 3-part female choir
 composition-date: "1935"
 movements:
 - original-value: 1) Párositó 2) Sánta béke 3) Két szál pünkösd rózsa 4) Megdöglött

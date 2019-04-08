@@ -2,8 +2,8 @@ catalog-id:
   id: 0458-sainte-nuit
   num-id: 458
   name: sainte-nuit
-  uuid: 710cfb61-ce27-4bdd-9aa5-7f671f28ea57
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 1cf58805-13f5-4494-8a9a-b5fc6676856f
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: fr
   original: fr
@@ -11,6 +11,7 @@ title:
   - fr
   translations:
     fr: Sainte Nuit
+description: English Christmas song for 4-part male choir
 composition-date: "1975"
 reworking: Aldott éj for mixed choir It came upon the midnight clear for mixed choir
   Sainte nuit for mixed choir Christmas album for children's choir and piano or organ

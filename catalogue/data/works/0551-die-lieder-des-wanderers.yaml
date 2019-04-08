@@ -2,8 +2,8 @@ catalog-id:
   id: 0551-die-lieder-des-wanderers
   num-id: 551
   name: die-lieder-des-wanderers
-  uuid: feaff1a3-e161-412b-94cf-70477a0e1043
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 39e44a02-9542-4fbb-8a13-a054580db195
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: ny
   original: ny
@@ -13,6 +13,7 @@ title:
   translations:
     id: A vándor dalai
     ny: Die Lieder des Wanderers
+description: for voice and piano
 composition-date: "1956"
 movements:
 - original-value: '1) Utra kelni, messzi menni / Rastlos wandern – durata : 2’42''''

@@ -2,8 +2,8 @@ catalog-id:
   id: 0011-paradies-der-schwiegersoehne
   num-id: 11
   name: paradies-der-schwiegersoehne
-  uuid: 25227b66-8f7c-4edd-9334-4f7f972463f8
-date: "2019-04-08T21:09:33+00:00"
+  uuid: 859096a0-a20c-4867-8428-6aaa3c671bd8
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: de
   original: de
@@ -11,6 +11,7 @@ title:
   - de
   translations:
     de: Paradies der Schwiegersöhne
+description: operetta in 2 acts German version of the operetta “Vők iskolája (Anyósgeneralis)”
 composition-date: "1959"
 synopsis: the revolt of the husbands against their wives
 setting: 2 (picc.), 1, 2, 1 – 3, 2, 3, 0 – timp., batt. – arpa – archi

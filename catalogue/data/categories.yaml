@@ -2,125 +2,125 @@
     id: 0001-opera
     num-id: 1
     name: opera
-    uuid: 00440272-30f0-4a37-8002-a33040920d46
+    uuid: 4ffa2826-1958-4ee7-a6e3-d731b46dbb9a
   title: Opera
 - catalog-id:
     id: 0002-operetta-musical-comedy
     num-id: 2
     name: operetta-musical-comedy
-    uuid: b6635044-b7da-44f9-809b-68178b17aaa3
+    uuid: 743a6def-25af-4f78-bafd-0891401d0e53
   title: Operetta, Musical Comedy
 - catalog-id:
     id: 0003-ballet-scenic-play
     num-id: 3
     name: ballet-scenic-play
-    uuid: 98310ef8-d5d3-4145-84d1-cbc18b4e78c2
+    uuid: 973251a2-71dc-49a1-b0d6-208799623e9e
   title: Ballet, Scenic Play
 - catalog-id:
     id: 0004-orchestra
     num-id: 4
     name: orchestra
-    uuid: 8b0c74f4-d482-48c6-8853-74cb0f819f44
+    uuid: 6f7da787-3f6d-438d-ae29-2a67ea790fc3
   title: Orchestra
 - catalog-id:
     id: 0005-string-orchestra
     num-id: 5
     name: string-orchestra
-    uuid: 14dc28c9-1249-4097-8265-c96c73f4fae8
+    uuid: 58f9a792-c5b6-4eb3-b930-6ec68e0a9010
   title: String Orchestra
 - catalog-id:
     id: 0006-wind-orchestra
     num-id: 6
     name: wind-orchestra
-    uuid: 411d7594-2f6c-4ac1-a5ec-f8624bf5f7aa
+    uuid: 83a0e0d3-74f1-4a2b-a6fd-2de1c8a52128
   title: Wind Orchestra
 - catalog-id:
     id: 0007-concerto
     num-id: 7
     name: concerto
-    uuid: 49bd3905-7b70-4f2e-bc94-0f82704d1e4a
+    uuid: 88a1b991-c3a5-4af7-803e-053586b5eee1
   title: Concerto
 - catalog-id:
     id: 0008-chambermusic
     num-id: 8
     name: chambermusic
-    uuid: 365138bc-eb07-4381-ac32-1560094a5a3a
+    uuid: 3e8bd370-7675-41a1-a166-054352d107b4
   title: Chambermusic
 - catalog-id:
     id: 0009-instrumental-solo
     num-id: 9
     name: instrumental-solo
-    uuid: bf97c5d0-cbc0-46bb-a97e-3c400a6f322a
+    uuid: 5ed9d63e-c14b-40d5-8098-788c811c01a3
   title: Instrumental Solo
 - catalog-id:
     id: 0010-cantata-oratorio
     num-id: 10
     name: cantata-oratorio
-    uuid: 0ee634ac-b3f2-4116-95cd-982e4e5528ac
+    uuid: ce7a2d69-78c5-4366-a20f-fa951a8552bc
   title: Cantata, Oratorio
 - catalog-id:
     id: 0011-mass
     num-id: 11
     name: mass
-    uuid: d47ec9bc-15e1-4846-a0c6-c73249453d6b
+    uuid: 3a27fee1-5690-44ce-a590-d07f41033dd6
   title: Mass
 - catalog-id:
     id: 0012-mixed-choir
     num-id: 12
     name: mixed-choir
-    uuid: 28a48c41-d2f1-4278-8b5b-d3c33af07c59
+    uuid: f6d9e319-cb6a-4546-aa61-b5d9c7f63edd
   title: Mixed Choir
 - catalog-id:
     id: 0013-malechoir
     num-id: 13
     name: malechoir
-    uuid: 191d7b3f-d934-4656-960e-f1f4c3d2d2e2
+    uuid: 25e0311c-1474-47fe-8c6e-a2558f0f6d2c
   title: Malechoir
 - catalog-id:
     id: 0014-female-choir
     num-id: 14
     name: female-choir
-    uuid: 35eb956c-ba23-4f30-8bbf-0c1998d6a907
+    uuid: ec575440-6ad2-4145-9bcd-be118302b5ee
   title: Female Choir
 - catalog-id:
     id: 0015-childrens-choir
     num-id: 15
     name: childrens-choir
-    uuid: 1577a727-c604-477b-8326-5026ce443229
+    uuid: 92b135c7-b321-41de-bb85-2051b03e8dbe
   title: Children'S Choir
 - catalog-id:
     id: 0016-miscellaneous-choir-canon
     num-id: 16
     name: miscellaneous-choir-canon
-    uuid: 4788afb0-615f-483d-8243-fc6b670b0790
+    uuid: eac98c09-55e3-4e3a-8055-c2b7c06049ed
   title: Miscellaneous Choir / Canon
 - catalog-id:
     id: 0017-voice-and-piano-organ
     num-id: 17
     name: voice-and-piano-organ
-    uuid: a10106fb-868f-48b7-a0b2-b4827de1283c
+    uuid: 2bbd7e21-2642-4119-ba22-753dcb4a6a4d
   title: Voice And Piano / Organ
 - catalog-id:
     id: 0018-voiceand-other-instruments-or-orchestra
     num-id: 18
     name: voiceand-other-instruments-or-orchestra
-    uuid: 6102355b-5f83-40ff-939d-ed9d64e637a8
+    uuid: b01b7f50-8e7c-44f4-8685-6363a3507d97
   title: Voiceand Other Instrument(S) Or Orchestra
 - catalog-id:
     id: 0019-hungarianfolk-song-folk-music
     num-id: 19
     name: hungarianfolk-song-folk-music
-    uuid: 7a54cb4f-eca9-4365-ad03-6ea6c253d36f
+    uuid: e925feda-2fad-4d28-b7b8-098b2d5a60e1
   title: Hungarianfolk Song – Folk Music
 - catalog-id:
     id: 0020-incidental-music-radio-plays
     num-id: 20
     name: incidental-music-radio-plays
-    uuid: 33aa56b2-58da-49d3-98c7-0ab6205f4a09
+    uuid: 78c4f298-8c82-4932-b31c-0adba6bf25d4
   title: Incidental Music, Radio Plays
 - catalog-id:
     id: 0021-film-music
     num-id: 21
     name: film-music
-    uuid: 77136b0d-7bfb-4041-8922-ed0707f81e2e
+    uuid: ad916d0d-9884-46c7-a033-9ea9c6e59d74
   title: Film Music

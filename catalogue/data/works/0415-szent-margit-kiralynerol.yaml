@@ -2,8 +2,8 @@ catalog-id:
   id: 0415-szent-margit-kiralynerol
   num-id: 415
   name: szent-margit-kiralynerol
-  uuid: 0e09def4-101c-4a49-bf55-9035b0077385
-date: "2019-04-08T21:09:35+00:00"
+  uuid: da0e6ac2-f72e-43bd-afdc-d30f6043ffc6
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: hu
   original: hu
@@ -11,4 +11,5 @@ title:
   - hu
   translations:
     hu: Szent Margit királynéról
+description: for 4-part mixed choir or choir in unison and organ
 composition-date: "1971"

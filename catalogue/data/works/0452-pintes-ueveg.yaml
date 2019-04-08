@@ -2,8 +2,8 @@ catalog-id:
   id: 0452-pintes-ueveg
   num-id: 452
   name: pintes-ueveg
-  uuid: e83ed408-a9e5-4eac-8452-1eef7dd30cac
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 4bbb39ba-e7a1-4d4f-a37c-3431a280d9bb
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Pintes-üveg
+description: 5 drinking songs for 4-part male choir
 composition-date: "1934"
 movements:
 - original-value: 1) Igyunk ilt... 2) Ez a bor nem drága.... 3) Oh én édös pintös

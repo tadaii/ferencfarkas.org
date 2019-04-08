@@ -2,8 +2,8 @@ catalog-id:
   id: 0478-cantus-fractus
   num-id: 478
   name: cantus-fractus
-  uuid: ecf83d12-9419-41f2-ad57-97d792c1daa9
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 9a4a98f7-5b53-465f-9433-5a2f77d7a455
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: la
   original: la
@@ -11,6 +11,8 @@ title:
   - la
   translations:
     la: Cantus fractus
+description: 3 Hungarian Gregorian melodies for unison female or children's choir,
+  baritone solo and 3 guitars
 composition-date: "1982"
 movements:
 - original-value: 1) Sequentia 2) Alleluja 3) Hymnus

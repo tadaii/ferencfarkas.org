@@ -2,8 +2,8 @@ catalog-id:
   id: 0014-zeng-az-erdoe
   num-id: 14
   name: zeng-az-erdoe
-  uuid: 6503f330-036f-4e68-8709-89f443f058bc
-date: "2019-04-08T21:09:33+00:00"
+  uuid: aaa0d083-f610-45cc-9162-d7de2880f1fc
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: az
   original: az
@@ -13,6 +13,7 @@ title:
   translations:
     az: Zeng az erdő
     en: The forest resounds
+description: operetta in 3 acts
 composition-date: "1951"
 setting: 2 (picc.), 1, 2, 1 – 3, 2, 3, 0 – timp., batt (2 ess.) – archi
 reworking: Állj be közibénk ! for 3 equal voices with piano accompaniment Zeng az

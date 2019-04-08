@@ -2,8 +2,8 @@ catalog-id:
   id: 0687-hull-a-szilva-a-farol
   num-id: 687
   name: hull-a-szilva-a-farol
-  uuid: e2a4d750-51d3-4a84-b4a5-f00d17cfb3a3
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 59247cd6-ff62-41de-bd42-7922cde7c9f6
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,4 +11,5 @@ title:
   - hu
   translations:
     hu: Hull a szilva a fáról
+description: for voice and piano
 source: manuscript by András Farkas

@@ -2,8 +2,8 @@ catalog-id:
   id: 0064-music-for-zanka
   num-id: 64
   name: music-for-zanka
-  uuid: 83a75453-66ae-4dc4-b855-887bf71c5518
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 57cfbd05-b8a2-4a73-924a-635fddf7545c
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: en
@@ -13,6 +13,7 @@ title:
   translations:
     en: Music for Zánka
     lt: Zánkai muzsika
+description: for string orchestra
 composition-date: "1986"
 movements:
 - original-value: 1) Sonatina - 2) Arietta - 3) Rondo

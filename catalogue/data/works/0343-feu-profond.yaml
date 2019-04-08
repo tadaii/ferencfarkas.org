@@ -2,8 +2,8 @@ catalog-id:
   id: 0343-feu-profond
   num-id: 343
   name: feu-profond
-  uuid: 6edddbc3-dffa-4dcc-a138-29abdb0a1355
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 67686629-0102-4911-8a34-711d83d8329e
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: fr
   original: fr
@@ -11,6 +11,7 @@ title:
   - fr
   translations:
     fr: Feu profond
+description: for 4-part mixed choir
 composition-date: "1981"
 movements:
 - original-value: 1) D’un été 2) Parabole au coin du feu 3) Eau-forte

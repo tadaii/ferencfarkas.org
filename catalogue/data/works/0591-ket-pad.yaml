@@ -2,8 +2,8 @@ catalog-id:
   id: 0591-ket-pad
   num-id: 591
   name: ket-pad
-  uuid: f9963596-0ce3-4cd5-af3a-d0f40e04a212
-date: "2019-04-08T21:09:36+00:00"
+  uuid: bc16fb23-4803-451e-b94a-abe26fe6e216
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,4 +11,5 @@ title:
   - hu
   translations:
     hu: Két pad
+description: for voice and piano
 dedication: Mezey Máriának

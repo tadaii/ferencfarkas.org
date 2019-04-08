@@ -2,8 +2,8 @@ catalog-id:
   id: 0626-schumann-modjara
   num-id: 626
   name: schumann-modjara
-  uuid: b883cae2-f995-4d89-891f-ec8325fe9da0
-date: "2019-04-08T21:09:36+00:00"
+  uuid: bec6dde1-3214-41ad-b725-6c889175cd01
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,3 +11,4 @@ title:
   - hu
   translations:
     hu: Schumann módjara
+description: for voice and piano - A la manière de Schumann

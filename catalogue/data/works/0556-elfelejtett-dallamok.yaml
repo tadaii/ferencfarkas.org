@@ -2,8 +2,8 @@ catalog-id:
   id: 0556-elfelejtett-dallamok
   num-id: 556
   name: elfelejtett-dallamok
-  uuid: 4a3b446a-7601-4b65-b61b-6a6f0dc3d8ff
-date: "2019-04-08T21:09:36+00:00"
+  uuid: bc6ebc20-55d7-4079-8b35-5b0a2e1ad07f
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Elfelejtett dallamok
+description: for voice and piano
 composition-date: "1980"
 movements:
 - original-value: '1) Az örömhez - text by Benedek Virág - durata : 1’02'''' 2) Barátimhoz

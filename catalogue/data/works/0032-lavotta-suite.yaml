@@ -2,8 +2,8 @@ catalog-id:
   id: 0032-lavotta-suite
   num-id: 32
   name: lavotta-suite
-  uuid: 755e7979-ee89-4b21-bc0c-55f0b7f693e6
-date: "2019-04-08T21:09:33+00:00"
+  uuid: 07a47b96-d807-4384-a4ba-84a654fc56dd
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Lavotta Suite
+description: for chamber orchestra
 composition-date: "1951"
 movements:
 - original-value: 1) Ungarisch - 2) Menuet - 3) Marsch nach Pannonien - 4) Ungarisch

@@ -2,8 +2,8 @@ catalog-id:
   id: 0666-pastorali
   num-id: 666
   name: pastorali
-  uuid: 8080dd12-f3e3-43f1-8c12-1a96bec9cb92
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 4f6e119a-f10b-4ef2-8059-5bb7cee80870
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: it
   original: it
@@ -11,6 +11,7 @@ title:
   - it
   translations:
     it: Pastorali
+description: for voice and orchestra
 composition-date: "1931"
 movements:
 - original-value: Andante pastorale Allegro ma non troppo Lento Molto gaio, festeggiante

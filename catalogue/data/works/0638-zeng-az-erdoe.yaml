@@ -2,8 +2,8 @@ catalog-id:
   id: 0638-zeng-az-erdoe
   num-id: 638
   name: zeng-az-erdoe
-  uuid: 1b166c8b-df14-436c-a04b-f9aa4c44199d
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 3a33972b-78b5-45e3-8b68-95667d3011d0
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: az
   original: az
@@ -11,6 +11,7 @@ title:
   - az
   translations:
     az: Zeng az erdő
+description: for voice and piano - from the operetta “Zeng az erdő”
 composition-date: "1951"
 movements:
 - original-value: '1) Be szép az erdő - durata : 1’50'''' 2) Fütty-dal – durata: 3’10''''

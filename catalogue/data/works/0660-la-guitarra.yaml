@@ -2,8 +2,8 @@ catalog-id:
   id: 0660-la-guitarra
   num-id: 660
   name: la-guitarra
-  uuid: af66f612-42ff-41c2-969b-51919944a232
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 78f92283-87c0-4800-99ca-dbd5aa5b7da4
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: es
   original: es
@@ -11,5 +11,6 @@ title:
   - es
   translations:
     es: La guitarra
+description: for voice and guitar
 composition-date: "1986"
 reworking: La guitarra for voice and 2 guitars

@@ -2,8 +2,8 @@ catalog-id:
   id: 0258-toccata
   num-id: 258
   name: toccata
-  uuid: d1793e0d-64ec-4e98-b297-087071c0fd35
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 158022ba-24cc-4276-abdf-3a27e3d7d941
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: en
   original: en
@@ -11,4 +11,5 @@ title:
   - en
   translations:
     en: Toccata
+description: for organ or piano extract from “Musica pentatonica” for string orchestra
 composition-date: "1945"

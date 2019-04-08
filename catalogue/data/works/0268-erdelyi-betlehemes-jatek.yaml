@@ -2,8 +2,8 @@ catalog-id:
   id: 0268-erdelyi-betlehemes-jatek
   num-id: 268
   name: erdelyi-betlehemes-jatek
-  uuid: e99d40be-027a-42d4-a269-b25412fc0786
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 113b0680-f9d6-4cf4-9b7e-a69299fe6927
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,6 @@ title:
   - hu
   translations:
     hu: Erdélyi betlehemes játék
+description: Christmas cantata for unisono choir and small orchestra
 composition-date: "1940"
 setting: flauto dolce, archi

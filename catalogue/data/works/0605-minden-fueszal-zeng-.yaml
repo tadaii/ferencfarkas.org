@@ -2,8 +2,8 @@ catalog-id:
   id: 0605-minden-fueszal-zeng-
   num-id: 605
   name: minden-fueszal-zeng-
-  uuid: 437b3b7d-6bbc-4aa1-ba34-859e3a9c12cc
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 4cd0eeb3-6ded-41e7-ad1d-86d99b3548f6
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,6 @@ title:
   - hu
   translations:
     hu: Minden füszál zeng...
+description: for voice and piano
 composition-date: "1930"
 source: manuscript by András Farkas

@@ -2,8 +2,8 @@ catalog-id:
   id: 0596-le-retour-dapollon
   num-id: 596
   name: le-retour-dapollon
-  uuid: ebf056d0-6830-49de-82f4-8fa1c58abf14
-date: "2019-04-08T21:09:36+00:00"
+  uuid: b94a584d-50f7-4144-b4ff-6213839f2549
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: en
   original: en
@@ -11,5 +11,6 @@ title:
   - en
   translations:
     en: Le retour d'Apollon
+description: for voice and piano
 composition-date: "1982"
 source: manuscript by András Farkas

@@ -2,8 +2,8 @@ catalog-id:
   id: 0582-hunyt-szemmel
   num-id: 582
   name: hunyt-szemmel
-  uuid: 3986208f-99de-427d-8c1a-f546b63f2c65
-date: "2019-04-08T21:09:36+00:00"
+  uuid: ec1d4a64-db13-4ca1-9469-55cf43b86711
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,6 @@ title:
   - hu
   translations:
     hu: Húnyt szemmel
+description: for voice and piano
 composition-date: "1928"
 source: manuscript by András Farkas

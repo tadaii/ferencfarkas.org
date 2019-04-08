@@ -2,8 +2,8 @@ catalog-id:
   id: 0677-tres-cantiones-sacrae
   num-id: 677
   name: tres-cantiones-sacrae
-  uuid: 26ea8f88-e5b0-4a80-a8b0-f397c8574492
-date: "2019-04-08T21:09:36+00:00"
+  uuid: e72f3146-6ce8-4ff0-9637-a3ac00b104a5
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: ie
   original: ie
@@ -11,6 +11,7 @@ title:
   - ie
   translations:
     ie: Tres cantiones sacrae
+description: for voice (soprano) and string quartet
 composition-date: "1991"
 movements:
 - original-value: '1) Paulus ad Corinthos de charitate – durata: 5’15’’ 2) Canticum

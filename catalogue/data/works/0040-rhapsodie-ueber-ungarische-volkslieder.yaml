@@ -2,8 +2,8 @@ catalog-id:
   id: 0040-rhapsodie-ueber-ungarische-volkslieder
   num-id: 40
   name: rhapsodie-ueber-ungarische-volkslieder
-  uuid: 3fabd8a2-0bee-4c79-a9b2-4de6df980bcb
-date: "2019-04-08T21:09:33+00:00"
+  uuid: f90ea133-90d0-49ad-b630-f449609eec3d
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: de
   original: de
@@ -11,6 +11,7 @@ title:
   - de
   translations:
     de: Rhapsodie über ungarische Volkslieder
+description: for orchestra
 composition-date: "1949"
 movements:
 - original-value: 1) Allegro - 2) Allegro moderato - 3) Tempo di marcia - 4) Allegro

@@ -2,8 +2,8 @@ catalog-id:
   id: 0197-two-ungaresca
   num-id: 197
   name: two-ungaresca
-  uuid: 435efb41-b6ab-4860-8e03-16ff37b94803
-date: "2019-04-08T21:09:34+00:00"
+  uuid: c1956e1a-1d4b-4dfc-a6d6-b464daac1109
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: Two ungaresca
+description: for tárogató and cimbalom or harpsichord
 composition-date: "1989"
 movements:
 - original-value: 1) Ein ungarischer Tanz - 2) Ungaresca

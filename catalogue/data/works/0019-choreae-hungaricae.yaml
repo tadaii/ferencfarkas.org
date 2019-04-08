@@ -2,8 +2,8 @@ catalog-id:
   id: 0019-choreae-hungaricae
   num-id: 19
   name: choreae-hungaricae
-  uuid: 46a8100b-3d04-46b7-957a-59a956a7b1d1
-date: "2019-04-08T21:09:33+00:00"
+  uuid: d579f973-5895-495e-a2f0-a81c47f2748e
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: la
   original: la
@@ -11,6 +11,7 @@ title:
   - la
   translations:
     la: Choreae hungaricae
+description: for chamber orchestra 3 cycles of Hungarian baroque dances
 composition-date: "1961"
 movements:
 - original-value: '4 Dances from the Vietórisz-Kodex ( l7th century): 1) Allegro moderato
@@ -23,3 +24,6 @@ setting: fl., ob. (or fl. II) – cemb. or pf. or zimb. ungh. ad lib. - archi
 reworking: Choreae hungaricae for string orchestra Choreae hungaricae for piano Hungarian
   Dances from the 17th century for chamber orchestra Hungarian Dances from the 17th
   century for string orchestra
+nb: '[Editio Musica Budapest ](http://www.kotta.info/en/search?sender=search&amp;searchText=Choraea+Hungaricae&amp;bSubmit=OK)
+  The “5 Dances” and “6 Dances” are separately edited under the name “Hungarian Dances
+  from the 17th century “'

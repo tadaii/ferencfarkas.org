@@ -2,8 +2,8 @@ catalog-id:
   id: 0179-sonate-romantique
   num-id: 179
   name: sonate-romantique
-  uuid: 5205649e-1754-4877-b082-0b9bc3858735
-date: "2019-04-08T21:09:34+00:00"
+  uuid: eb5b7463-38c8-4993-ac57-b3e21a5917a0
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: fr
   original: fr
@@ -13,6 +13,7 @@ title:
   translations:
     fr: Sonate romantique
     ms: Romantikus szonáta
+description: for bassoon and piano hommage á Brahms
 composition-date: "1982"
 movements:
 - original-value: Allegro agitato, Scherzo, Andante moderato, Allegro vivace

@@ -2,8 +2,8 @@ catalog-id:
   id: 0274-la-musique
   num-id: 274
   name: la-musique
-  uuid: f6ea0c13-5fac-44b0-8c66-e98cad28bf65
-date: "2019-04-08T21:09:34+00:00"
+  uuid: f8d3d02d-9408-42c6-a356-ea5e2db3778c
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: pt
   original: pt
@@ -11,6 +11,7 @@ title:
   - pt
   translations:
     pt: La musique
+description: for mixed choir and wind ensemble
 composition-date: "1990"
 setting: 2 fl., 2 ob., 2 cl., 2 fg., 2 cor., 2 tr.
 dedication: écrit pour le Florilège vocal de Tours et dédié á Claude Panterne

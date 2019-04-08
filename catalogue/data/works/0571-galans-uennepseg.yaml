@@ -2,8 +2,8 @@ catalog-id:
   id: 0571-galans-uennepseg
   num-id: 571
   name: galans-uennepseg
-  uuid: 833d6205-6c23-4372-bbc3-d301ca60f1fc
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 47426fb4-f6c2-4aee-80f7-01090f7a6e6d
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,6 @@ title:
   - hu
   translations:
     hu: Gáláns ünnepség
+description: for voice and piano
 composition-date: "1928"
 source: manuscript by András Farkas

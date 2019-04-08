@@ -2,8 +2,8 @@ catalog-id:
   id: 0156-passacaglia
   num-id: 156
   name: passacaglia
-  uuid: e4ba28c8-ab14-4938-85b9-7ee92436c763
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 823e2df6-fb0d-4e21-8e85-940bc30ab3cd
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: co
   original: co
@@ -11,5 +11,6 @@ title:
   - co
   translations:
     co: Passacaglia
+description: for clarinet mi b, 2 clarinets si b, alto-clarinet mi b, 2 bass-clarinets
 composition-date: "1931"
 reworking: Passacaglia for organ

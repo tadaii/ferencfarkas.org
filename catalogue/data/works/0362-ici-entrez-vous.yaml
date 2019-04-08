@@ -2,8 +2,8 @@ catalog-id:
   id: 0362-ici-entrez-vous
   num-id: 362
   name: ici-entrez-vous
-  uuid: aa449015-b5d5-4e33-84d7-92b6deeb7471
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 0013349e-8332-481d-817a-d87de72f722c
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: fr
   original: fr
@@ -11,5 +11,6 @@ title:
   - fr
   translations:
     fr: Ici entrez vous
+description: for 4-part mixed choir
 composition-date: "1993"
 source: manuscript by András Farkas

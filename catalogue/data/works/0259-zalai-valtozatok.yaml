@@ -2,8 +2,8 @@ catalog-id:
   id: 0259-zalai-valtozatok
   num-id: 259
   name: zalai-valtozatok
-  uuid: 4f48cb53-ac66-4f68-9cf4-90f4f0bbafbc
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 97b6c16c-f3d7-4d16-b07b-14aceefd3178
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: hu
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: Hungarian variations
     hu: Zalai változatok
+description: for cimbalom
 composition-date: "1980"
 movements:
 - original-value: Thema, Variations I - VIII

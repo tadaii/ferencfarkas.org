@@ -2,8 +2,8 @@ catalog-id:
   id: 0391-omaggio-a-govoni
   num-id: 391
   name: omaggio-a-govoni
-  uuid: 2a8fffa8-6bb8-41b3-993c-e4ce7f905ff2
-date: "2019-04-08T21:09:35+00:00"
+  uuid: fd5d0f4c-1a63-46cf-9909-4bf49f6fbdb8
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: it
   original: it
@@ -11,6 +11,7 @@ title:
   - it
   translations:
     it: Omaggio a Govoni
+description: for 4-part mixed choir
 composition-date: "1990"
 movements:
 - original-value: '1) Dopo il temporale - durata : 4’ 2) Il picchio - durata : 1’'

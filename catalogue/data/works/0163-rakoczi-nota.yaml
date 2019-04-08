@@ -2,8 +2,8 @@ catalog-id:
   id: 0163-rakoczi-nota
   num-id: 163
   name: rakoczi-nota
-  uuid: 1285f583-c98f-4e33-8dd3-372aabc30ed4
-date: "2019-04-08T21:09:34+00:00"
+  uuid: ea9dbcd6-20e7-438f-848b-8334f3af46ff
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Rákóczi nóta
+description: for tárogató and cimbalom or harpsichord arranged by Varga, 1988
 movements:
 - original-value: 1. Rákóczi nóta – 2. Buga Jakab – 3. Fordulj kedves lovam
 reworking: Fúdd el szél, cantata

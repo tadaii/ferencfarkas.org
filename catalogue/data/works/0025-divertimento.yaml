@@ -2,8 +2,8 @@ catalog-id:
   id: 0025-divertimento
   num-id: 25
   name: divertimento
-  uuid: c1c050bf-9a2a-4ef5-93ea-c9efa79d1cda
-date: "2019-04-08T21:09:33+00:00"
+  uuid: dd9780be-294e-4b19-9b65-920c72843139
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: Divertimento
+description: for orchestra
 composition-date: "1930"
 movements:
 - original-value: 1) Allegro leggiero - 2) Allegro giocoso - 3) Tempo di Minuetto

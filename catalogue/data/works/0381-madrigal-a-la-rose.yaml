@@ -2,8 +2,8 @@ catalog-id:
   id: 0381-madrigal-a-la-rose
   num-id: 381
   name: madrigal-a-la-rose
-  uuid: a088824c-cc28-4981-ab1b-8095f79b23a1
-date: "2019-04-08T21:09:35+00:00"
+  uuid: e583840f-016c-4de1-b55f-7c6310efd19c
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: en
   original: en
@@ -11,5 +11,7 @@ title:
   - en
   translations:
     en: Madrigal à la rose
+description: for 4-part mixed choir French version from “Rózsa madrigál” for mixed
+  choir
 composition-date: "1947"
 reworking: Rózsa madrigal / Rosen-Madrigal / Rose-Madrigal for mixed choir

@@ -2,8 +2,8 @@ catalog-id:
   id: 0193-tre-bagattelle
   num-id: 193
   name: tre-bagattelle
-  uuid: 6afe28a8-9b8f-4059-9b43-acb7efa906e6
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 132c01ad-f5cd-40f7-a9e9-d3178266182c
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: "no"
   original: "no"
@@ -11,6 +11,7 @@ title:
   - "no"
   translations:
     "no": Tre bagattelle
+description: for flute, clarinet and bassoon
 composition-date: "1992"
 movements:
 - original-value: Allegretto, Andante, Allegro

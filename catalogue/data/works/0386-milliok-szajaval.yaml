@@ -2,8 +2,8 @@ catalog-id:
   id: 0386-milliok-szajaval
   num-id: 386
   name: milliok-szajaval
-  uuid: 315e6e96-4d3e-402d-9993-8beaf662942d
-date: "2019-04-08T21:09:35+00:00"
+  uuid: fa8af0c4-eb2a-4f21-aed5-cb7159905398
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,6 @@ title:
   - hu
   translations:
     hu: Milliók Szájával
+description: for 4-part mixed choir
 composition-date: "1963"
 dedication: a Vasas Központi Művészegyüttes Énekkarának és vezetőjének Vass Lajosnak

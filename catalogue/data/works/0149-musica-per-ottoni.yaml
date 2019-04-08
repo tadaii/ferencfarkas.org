@@ -2,8 +2,8 @@ catalog-id:
   id: 0149-musica-per-ottoni
   num-id: 149
   name: musica-per-ottoni
-  uuid: ac70322b-b7ce-476b-b7ff-d066ed500de8
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 0ee20a0a-9975-4357-bf6d-55c74b444134
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: it
   original: hu
@@ -15,6 +15,7 @@ title:
     en: Brass music
     hu: Rézfúvószene
     it: Musica per ottoni
+description: for brass sextet (3 trompets, 2 trombones, tuba)
 composition-date: "1982"
 movements:
 - original-value: Allegro, Adagio, Allegro

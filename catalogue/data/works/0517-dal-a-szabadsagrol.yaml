@@ -2,8 +2,8 @@ catalog-id:
   id: 0517-dal-a-szabadsagrol
   num-id: 517
   name: dal-a-szabadsagrol
-  uuid: 7ecaa3d4-177f-4672-b3a2-2eb4713c4f64
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 308d88e0-bb88-4ebc-9090-5e7a3ba69f53
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,4 +11,5 @@ title:
   - hu
   translations:
     hu: Dal a szabadságról
+description: for unisono choir with piano accompaniment ad.lib.
 composition-date: "1953"

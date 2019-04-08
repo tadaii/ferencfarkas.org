@@ -2,8 +2,8 @@ catalog-id:
   id: 0267-ein-krippenspiel-aus-koeroeshegy
   num-id: 267
   name: ein-krippenspiel-aus-koeroeshegy
-  uuid: 4a62f69a-40ff-4ac6-9a39-7d844e9af921
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 96f418f6-474a-47bf-b13b-a7267bf5d882
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: de
   original: hu
@@ -17,6 +17,8 @@ title:
     en: Christmas cantata
     fr: Cantate de Noël
     hu: Kőröshegyi Bethlehemes kantáta
+description: Christmas cantata for narrator, mixed (or children’s) choir, organ and
+  instrumental ensemble or orchestra
 composition-date: "1970"
 movements:
 - original-value: Präludium – Chor a cappella – Evangelium – Chor – Evangelium – Chor

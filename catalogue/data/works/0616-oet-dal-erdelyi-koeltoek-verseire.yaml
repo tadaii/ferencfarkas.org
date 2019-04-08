@@ -2,8 +2,8 @@ catalog-id:
   id: 0616-oet-dal-erdelyi-koeltoek-verseire
   num-id: 616
   name: oet-dal-erdelyi-koeltoek-verseire
-  uuid: 1b6a1f9d-c602-4969-9ed6-1935e312bf68
-date: "2019-04-08T21:09:36+00:00"
+  uuid: b266151e-3ac8-494b-ab18-c4379be7dbe7
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Öt dal erdélyi költők verseire
+description: for voice and piano
 composition-date: 1981-1982
 movements:
 - original-value: 1) Öreg költő - text by László Cs. Szabó 2) Ajánlás - text by Lajos

@@ -2,8 +2,8 @@ catalog-id:
   id: 0396-pataki-diakdalok-a-l8-szazadbol
   num-id: 396
   name: pataki-diakdalok-a-l8-szazadbol
-  uuid: 030e076a-b8b3-40ab-ae67-3b3f3258d7f7
-date: "2019-04-08T21:09:35+00:00"
+  uuid: c643f1b2-616a-4a22-96c4-0bea58be6b4b
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Pataki diákdalok a l8.századból
+description: for 4-part mixed choir
 movements:
 - original-value: '1) Erdőkön, mezőkön - durata : 1’30‘’ 2) Semper ferventer / Vinnéd
     csak mindég - Hungarian translated by Melinda Kistétényi - durata : 1’10'''' 3)

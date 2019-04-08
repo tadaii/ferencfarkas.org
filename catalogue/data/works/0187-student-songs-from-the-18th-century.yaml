@@ -2,8 +2,8 @@ catalog-id:
   id: 0187-student-songs-from-the-18th-century
   num-id: 187
   name: student-songs-from-the-18th-century
-  uuid: 10b1f3a0-ad9f-4c38-ac27-361b9f8cc0ae
-date: "2019-04-08T21:09:34+00:00"
+  uuid: e83be003-4dfc-422b-94eb-88d6b31a5e08
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,9 @@ title:
   translations:
     en: Student songs from the 18th century
     hu: Diákdalok a XVIII. Századból
+description: for 4 clarinets (sib) or 3 clarinets and bass clarinet extracts from
+  “Pataki diákdaloka 18. századból” for mixed choir arranged and edited by Ottó Fricsovszky,
+  Eva Perényi and Péter Perényi
 composition-date: 3’30’
 movements:
 - original-value: 1) Moderato poco rubato - 2) Quasi minuetto, grazioso - 3) Allegro

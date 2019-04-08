@@ -2,8 +2,8 @@ catalog-id:
   id: 0160-quattro-pezzi
   num-id: 160
   name: quattro-pezzi
-  uuid: 43cdf2f5-faec-4bb3-8cfd-012700324d23
-date: "2019-04-08T21:09:34+00:00"
+  uuid: f98726d4-4ced-4a3a-9d36-64542633f7d8
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: it
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     hu: Négy darab
     it: Quattro pezzi
+description: for double-bass and piano
 composition-date: "1965"
 movements:
 - original-value: Intrada, Scherzo, Petit poème, Rondo

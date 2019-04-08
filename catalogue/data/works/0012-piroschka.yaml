@@ -2,8 +2,8 @@ catalog-id:
   id: 0012-piroschka
   num-id: 12
   name: piroschka
-  uuid: 1a1992d2-04de-4949-9162-4b8ebe555704
-date: "2019-04-08T21:09:33+00:00"
+  uuid: c7dc3741-fbaf-4f9f-83fc-e7941cadac89
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: de
   original: de
@@ -11,6 +11,7 @@ title:
   - de
   translations:
     de: Piroschka
+description: musical comedy in 2 acts and 7 scenes based on a subject by Hugo Hartung
 composition-date: "1964"
 synopsis: 'beginning of the 20th century: a German student falls in love with a Hungarian
   girl, Piroschka'

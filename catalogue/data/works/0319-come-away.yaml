@@ -2,8 +2,8 @@ catalog-id:
   id: 0319-come-away
   num-id: 319
   name: come-away
-  uuid: 3ec06007-c07b-4b7d-810b-f2d23afeaee3
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 54756e1d-5c30-45d0-8a0f-896e553f6d08
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,8 @@ title:
   - en
   translations:
     en: Come away
+description: for 4-part mixed choir from the incidental music to “Vízkereszt /Twelfth
+  night” by W. Shakespeare
 composition-date: "1995"
 reworking: Come away for voice and piano Songs from the “Twelfth night” by Shakespeare
   for voice and harp “Vízkereszt /Twelfth night” by W. Shakespeare, incidental music

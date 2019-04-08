@@ -2,8 +2,8 @@ catalog-id:
   id: 0095-relazioni
   num-id: 95
   name: relazioni
-  uuid: f84d8acb-759c-464b-846f-c732277d7f54
-date: "2019-04-08T21:09:34+00:00"
+  uuid: be6d157d-0551-4d78-9d92-e7d8f07284d1
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: it
   original: it
@@ -11,6 +11,7 @@ title:
   - it
   translations:
     it: Relazioni
+description: for violin and string orchestra
 composition-date: "1997"
 movements:
 - original-value: Andante moderato - Allegro - Allegretto

@@ -2,8 +2,8 @@ catalog-id:
   id: 0643-chartina-
   num-id: 643
   name: chartina-
-  uuid: ad57ed0c-71f7-4408-8106-22e7c3d52803
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 7d83619b-89d1-429a-bb34-64e5e7af8644
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: el
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     el: Chartina (Χαρτινα)
     hu: Papirszeletek
+description: for voice and clarinet in sib
 composition-date: "1987"
 movements:
 - original-value: 1) Ώ ανήμπορο / Milyen hasztalan 2) Κυριακή / Ünnepest 3) Ο γελωτοποιός

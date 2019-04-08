@@ -2,8 +2,8 @@ catalog-id:
   id: 0103-allantica
   num-id: 103
   name: allantica
-  uuid: b1d8cf33-6874-49be-9c49-5c77b218164d
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 5b0bc449-1ee6-44e6-b600-f76580dccbc0
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: All'antica
+description: for viola da gamba or violoncello and harpsichord or piano
 composition-date: "1962"
 movements:
 - original-value: Pastorale, Aria con variazioni, Giga

@@ -2,8 +2,8 @@ catalog-id:
   id: 0442-je-suis-larchange-de-dieu
   num-id: 442
   name: je-suis-larchange-de-dieu
-  uuid: ac3ccd06-2ebc-4eac-b18b-1a096ecb3629
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 62c67349-d5fa-436a-bf8a-ad592ef77fcb
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: fr
   original: fr
@@ -11,6 +11,7 @@ title:
   - fr
   translations:
     fr: Je suis l’archange de Dieu
+description: French Christmas song for 4-part male choir
 composition-date: 1975, 1994
 reworking: Je suis l’archange de Dieu for mixed choir Itt az Úrnak angyala for mixed
   choir

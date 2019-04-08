@@ -2,8 +2,8 @@ catalog-id:
   id: 0208-correspondances
   num-id: 208
   name: correspondances
-  uuid: c17833a7-646f-454c-8b7e-2b723c279d93
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 005113b5-fe06-4bdd-a39c-2418c814b394
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: fr
   original: fr
@@ -11,6 +11,7 @@ title:
   - fr
   translations:
     fr: Correspondances
+description: for piano
 composition-date: "1957"
 movements:
 - original-value: 1) Andante - 2) Allegro - 3) Quasi lento - 4) Allegretto - 5) Andante

@@ -2,8 +2,8 @@ catalog-id:
   id: 0164-ricordanze
   num-id: 164
   name: ricordanze
-  uuid: 0934a878-5ec4-48ac-80cb-31731e1074cf
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 55c46efd-7c58-4c81-9b94-018845f8d06e
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: it
   original: it
@@ -11,5 +11,6 @@ title:
   - it
   translations:
     it: Ricordanze
+description: for clarinet, violin, viola and violoncello
 composition-date: "1984"
 reworking: Ricordanze for English horn, violin, viola and violoncello

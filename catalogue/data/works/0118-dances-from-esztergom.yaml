@@ -2,8 +2,8 @@ catalog-id:
   id: 0118-dances-from-esztergom
   num-id: 118
   name: dances-from-esztergom
-  uuid: f8041cc3-7f52-43fd-ae63-62b22793e727
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 1c0d338d-29cc-44c7-92bf-b000f22a0594
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: Dances from Esztergom
     hu: Esztergomi táncok
+description: for tárogató and cimbalom
 composition-date: "1988"
 movements:
 - original-value: Allegro moderato, Lo stesso tempo, Lassù, Allegro vivace, Quasi

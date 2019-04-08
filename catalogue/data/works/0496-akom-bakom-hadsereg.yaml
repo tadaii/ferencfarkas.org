@@ -2,8 +2,8 @@ catalog-id:
   id: 0496-akom-bakom-hadsereg
   num-id: 496
   name: akom-bakom-hadsereg
-  uuid: 9ffc01fb-845e-405b-b700-81d6664e3a7e
-date: "2019-04-08T21:09:35+00:00"
+  uuid: bd0d221e-76dd-426a-9e95-386f7bbb6286
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: da
   original: da
@@ -11,6 +11,7 @@ title:
   - da
   translations:
     da: Ákom-bákom hadsereg
+description: for 2-parts children's choir
 composition-date: "1977"
 movements:
 - original-value: '1) Tavaszi dal - text by Zoltán Zelk - durata : 20‘’ 2) A napsugár

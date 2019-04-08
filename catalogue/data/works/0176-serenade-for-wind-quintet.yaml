@@ -2,8 +2,8 @@ catalog-id:
   id: 0176-serenade-for-wind-quintet
   num-id: 176
   name: serenade-for-wind-quintet
-  uuid: 2fd72862-4ec4-4058-8b45-8040007e1475
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 972f73ad-6421-4451-a220-6babb96ce915
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: Serenade for wind quintet
     hu: Fűvósötös-szerenád
+description: for flute, oboe, clarinet, horn and bassoon
 composition-date: "1951"
 movements:
 - original-value: Allegro, Andante espressivo, Saltarello

@@ -2,8 +2,8 @@ catalog-id:
   id: 0278-magyar-betlehem
   num-id: 278
   name: magyar-betlehem
-  uuid: d2439e97-3397-4e12-acca-0ac517d5a35b
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 5e4cab40-cbf5-4c8a-8c47-4f42d944258d
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Magyar Betlehem
+description: Christmas cantata for mixed choir (dancers) and chamber orchestra
 composition-date: "1938"
 setting: 1, 1, 1, 0 – 0, 0, 1, 0 – timp., batt. – arpa, pf., arm. – archi
 source: 'score, piano reduction & performance material: manuscript by András Farkas'

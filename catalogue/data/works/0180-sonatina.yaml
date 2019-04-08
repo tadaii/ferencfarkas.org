@@ -2,8 +2,8 @@ catalog-id:
   id: 0180-sonatina
   num-id: 180
   name: sonatina
-  uuid: 854fef69-a9a7-4e38-b992-6b31913cac40
-date: "2019-04-08T21:09:34+00:00"
+  uuid: ecabfeb0-b083-4f8a-90aa-277182020f35
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: Sonatina
+description: for flute and piano
 composition-date: "1970"
 movements:
 - original-value: Allegro non troppo, Andante moderato, Allegro

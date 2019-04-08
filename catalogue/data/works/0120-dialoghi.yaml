@@ -2,8 +2,8 @@ catalog-id:
   id: 0120-dialoghi
   num-id: 120
   name: dialoghi
-  uuid: e66e5093-4c32-46b0-a823-1e8cd93c661d
-date: "2019-04-08T21:09:34+00:00"
+  uuid: c8146811-1c46-400b-a4b7-9ff4c3e23c40
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: de
   original: de
@@ -11,6 +11,7 @@ title:
   - de
   translations:
     de: Dialoghi
+description: for clarinet and violoncello
 composition-date: "1987"
 movements:
 - original-value: Moderato cantabile, Scherzo, Allegro leggero

@@ -2,8 +2,8 @@ catalog-id:
   id: 0201-33-battute-per-angelica
   num-id: 201
   name: 33-battute-per-angelica
-  uuid: f9d2e305-9419-4c11-90db-07b1f749d17f
-date: "2019-04-08T21:09:34+00:00"
+  uuid: db94b0bd-c9a1-41b7-8af1-7e6de39648d8
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: it
   original: it
@@ -11,4 +11,5 @@ title:
   - it
   translations:
     it: 33 Battute per Angelica
+description: for flute
 composition-date: "1995"

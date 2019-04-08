@@ -2,8 +2,8 @@ catalog-id:
   id: 0045-suite-det-gyldene-smil
   num-id: 45
   name: suite-det-gyldene-smil
-  uuid: 768aeba5-b0ac-4735-9d27-e885b1d22475
-date: "2019-04-08T21:09:33+00:00"
+  uuid: 530b8562-72f8-4c44-9504-f42d15cd5597
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: "no"
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     hu: Suite “Arany mosoly”
     "no": Suite "Det gyldene smil"
+description: for orchestra suite from the fim music to "Det gyldene smil"
 composition-date: "1935"
 movements:
 - original-value: 1) Marsch - 2) Vals - 3) Tarantella - 4) Chanson - Finale

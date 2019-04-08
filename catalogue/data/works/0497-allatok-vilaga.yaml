@@ -2,8 +2,8 @@ catalog-id:
   id: 0497-allatok-vilaga
   num-id: 497
   name: allatok-vilaga
-  uuid: c615f401-fc37-4f1b-8348-463dfa1f8433
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 6983c3bb-30a0-4b31-94a1-2bd3c4d08fe9
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Állatok világa
+description: for 2 and 3-part children's choir
 composition-date: "1976"
 movements:
 - original-value: '1) Medvebocs - durata : 40‘’ 2) A majom - durata : 30‘’ 3) Mókus

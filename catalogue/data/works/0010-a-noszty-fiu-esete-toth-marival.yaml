@@ -2,8 +2,8 @@ catalog-id:
   id: 0010-a-noszty-fiu-esete-toth-marival
   num-id: 10
   name: a-noszty-fiu-esete-toth-marival
-  uuid: a3c1405b-a835-4971-9d1a-b7d5da48107d
-date: "2019-04-08T21:09:33+00:00"
+  uuid: 7b203e9a-9ff9-42ee-9671-cd8cd2837111
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: hu
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: The case of Noszty junior with Maria Tóth
     hu: A noszty fiú esete Tóth Marival
+description: musical comedy in 3 acts based on the novel by Kálmán Mikszáth
 composition-date: "1971"
 setting: 2, 1, 2, 1 – 2, 2, 1, 0 – timp., batt. – arpa, pf., cel. – archi
 source: 'score & piano reduction: manuscript by András Farkas'

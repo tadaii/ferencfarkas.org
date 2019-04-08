@@ -2,8 +2,8 @@ catalog-id:
   id: 0536-a-patak
   num-id: 536
   name: a-patak
-  uuid: 4edfb3b7-a1b2-404a-a843-6d9d3aa50226
-date: "2019-04-08T21:09:35+00:00"
+  uuid: b5b01584-1c7a-49ce-b8a4-81002ed1eb16
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: tr
   original: tr
@@ -11,5 +11,6 @@ title:
   - tr
   translations:
     tr: A patak
+description: for voice and piano
 composition-date: "1953"
 source: manuscript by András Farkas

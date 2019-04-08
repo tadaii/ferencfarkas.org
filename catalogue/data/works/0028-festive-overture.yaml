@@ -2,8 +2,8 @@ catalog-id:
   id: 0028-festive-overture
   num-id: 28
   name: festive-overture
-  uuid: b7e70450-7384-48bc-88c6-fc2db236b4ed
-date: "2019-04-08T21:09:33+00:00"
+  uuid: 3e8c9c14-0815-4ccb-b4a6-a201d4edaf0f
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: Festive overture
     hu: Ünnepi nyitany
+description: for orchestra
 composition-date: 1968-1969
 setting: 3 (III=picc.), 2, 2, 2 – 4, 3, 3, 0 – timp., batt. – archi
 dedication: in occasionem diei anniversarii XXV liberationis Agriae

@@ -2,8 +2,8 @@ catalog-id:
   id: 0130-early-hungarian-dances-from-the-17th-century
   num-id: 130
   name: early-hungarian-dances-from-the-17th-century
-  uuid: c3b75de5-5dee-4309-b07b-b63c40250e6f
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 6465c743-945b-4ca7-baf3-cfdcfa806734
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,8 @@ title:
   - en
   translations:
     en: Early Hungarian dances from the 17th century
+description: Antiche danze ungheresi del 17. secolo / Régi magyar táncok a 17. századból
+  / Danses hongroises du 17ème siècle / Alte ungarische Tänze / Old Hungarian dances
 movements:
 - original-value: 1. Intrada - 2. Lento - 3. Danza delle scapole - 4. Chorea - 5.
     Saltarello

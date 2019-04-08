@@ -2,8 +2,8 @@ catalog-id:
   id: 0288-vivit-dominus
   num-id: 288
   name: vivit-dominus
-  uuid: 47285820-9d74-4446-9cc5-4cf86032396f
-date: "2019-04-08T21:09:34+00:00"
+  uuid: c96f6659-474e-4192-a030-5026e7432524
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: la
   original: la
@@ -11,6 +11,7 @@ title:
   - la
   translations:
     la: Vivit Dominus
+description: cantata for mixed choir and orchestra
 composition-date: "1981"
 setting: 2 (picc.), 2, 2, 2 – 2, 2, 0, 0 – timp., batt. (1 es.) – archi
 dedication: au Choeur J-S. Bach de Lausanne et á son chef András Farkas

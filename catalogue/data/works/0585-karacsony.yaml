@@ -2,8 +2,8 @@ catalog-id:
   id: 0585-karacsony
   num-id: 585
   name: karacsony
-  uuid: 62f3f584-8892-49ca-8e2d-de7f1e51a04e
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 5843f0cd-2ad1-4c03-9cbf-3e228407e393
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Karácsony
+description: Christmas song for voice and piano
 composition-date: "1997"
 source: manuscript by András Farkas
 dedication: Pászthy Júliának

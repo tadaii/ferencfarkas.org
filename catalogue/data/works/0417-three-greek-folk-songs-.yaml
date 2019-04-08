@@ -2,8 +2,8 @@ catalog-id:
   id: 0417-three-greek-folk-songs-
   num-id: 417
   name: three-greek-folk-songs-
-  uuid: 6030ae85-563b-4ece-87ab-5b52c7e7d6d4
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 278e2f75-23c1-4f34-9963-181b3f0a2c4e
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: el
   original: el
@@ -11,6 +11,7 @@ title:
   - el
   translations:
     el: Three Greek folk songs - Τρία Ελληνικά λαϊκά τραγούδια
+description: for 4-part mixed choir
 composition-date: "1994"
 movements:
 - original-value: '1) Ιερακινα - Durata : 1‘ 2) Λεμονακι - Durata : 1‘ 3) Ι αχια του

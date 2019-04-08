@@ -2,8 +2,8 @@ catalog-id:
   id: 0356-honszeretet
   num-id: 356
   name: honszeretet
-  uuid: e6e822a9-260a-4c1b-8727-46130310e46f
-date: "2019-04-08T21:09:35+00:00"
+  uuid: a5c558d6-b74b-4bfc-85f3-bfa6fd5cb784
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: hu
   original: hu
@@ -11,4 +11,5 @@ title:
   - hu
   translations:
     hu: Honszeretet
+description: for 4-part mixed choir
 composition-date: "1969"

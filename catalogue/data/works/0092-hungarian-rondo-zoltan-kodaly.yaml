@@ -2,8 +2,8 @@ catalog-id:
   id: 0092-hungarian-rondo-zoltan-kodaly
   num-id: 92
   name: hungarian-rondo-zoltan-kodaly
-  uuid: 35996388-72cc-4768-8aa5-c90e24349a79
-date: "2019-04-08T21:09:34+00:00"
+  uuid: dc7e8bf9-c17d-469d-a752-244a9663bcb7
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,7 @@ title:
   - hu
   translations:
     hu: Hungarian rondo (Zoltán Kodály)
+description: for violoncello and string orchestra adapatation of the work for violoncello
+  and piano of the same title by Zoltán Kodály
 composition-date: "1982"
 source: 'score & performance material: manuscript by András Farkas'

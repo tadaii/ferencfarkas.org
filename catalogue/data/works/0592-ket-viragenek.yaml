@@ -2,8 +2,8 @@ catalog-id:
   id: 0592-ket-viragenek
   num-id: 592
   name: ket-viragenek
-  uuid: ce724be2-e12c-4331-8664-b93053ba3c4f
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 62b9bc2d-cce5-4ecf-a1e6-867c7e693d28
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     de: Zwei Blumenlieder
     hu: Két virágének
+description: for voice (mezzo-soprano) and piano
 composition-date: "1948"
 movements:
 - original-value: 1) Viránének /Blumenlied - text in Hungarian by Miklos Radnóti 2)

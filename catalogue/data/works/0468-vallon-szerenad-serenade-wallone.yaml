@@ -2,8 +2,8 @@ catalog-id:
   id: 0468-vallon-szerenad-serenade-wallone
   num-id: 468
   name: vallon-szerenad-serenade-wallone
-  uuid: 5c806177-e03a-44ad-bac9-7c372aba8b40
-date: "2019-04-08T21:09:35+00:00"
+  uuid: f0b25bdb-f843-4ef0-ba48-b8c3773fe50c
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: crs
   original: crs
@@ -11,5 +11,7 @@ title:
   - crs
   translations:
     crs: Vallon szerenád (Sérénade wallone)
+description: song of the country of Liège for 3-part male choir Hungarian version
+  from “Sérénade wallone" for male choir
 reworking: Sérénade wallone for mixed choir Vallon szerenád for mixed choir Sérénade
   wallone for male choir Vallon szerenád for female choir

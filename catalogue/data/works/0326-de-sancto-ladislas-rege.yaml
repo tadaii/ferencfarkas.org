@@ -2,8 +2,8 @@ catalog-id:
   id: 0326-de-sancto-ladislas-rege
   num-id: 326
   name: de-sancto-ladislas-rege
-  uuid: d6336a05-3d42-45f2-b569-14b38976bfe6
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 6d9338c9-1253-417d-a491-a69a3ae70ed3
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: ia
   original: ia
@@ -11,6 +11,7 @@ title:
   - ia
   translations:
     ia: De Sancto Ladislas Rege
+description: for 4-part mixed choir
 composition-date: "1977"
 source: manuscript by András Farkas
 dedication: Archiepiscopo Cardinali Ladislao Lékai in honorem dedicata

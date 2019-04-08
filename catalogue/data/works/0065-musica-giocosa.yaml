@@ -2,8 +2,8 @@ catalog-id:
   id: 0065-musica-giocosa
   num-id: 65
   name: musica-giocosa
-  uuid: 4da4e6e3-350e-4b14-a6ad-7684bb77281e
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 9bb3c728-c1ab-4ec8-8c67-47daf7808b52
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: it
   original: it
@@ -11,6 +11,7 @@ title:
   - it
   translations:
     it: Musica giocosa
+description: for string orchestra
 composition-date: "1982"
 movements:
 - original-value: 1) Allegro - 2) Arietta - 3) Gavotte con variazioni - 4) Allegro

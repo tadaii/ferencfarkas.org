@@ -2,8 +2,8 @@ catalog-id:
   id: 0351-halalhazasito
   num-id: 351
   name: halalhazasito
-  uuid: 204e3a47-4be1-42df-a32d-8ddc6eeaa134
-date: "2019-04-08T21:09:35+00:00"
+  uuid: ebbd8621-6381-4cf1-ae69-0d1cbe02125f
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,6 @@ title:
   - hu
   translations:
     hu: Halálházasitó
+description: for 4-part mixed choir
 composition-date: "1994"
 source: manuscript by András Farkas

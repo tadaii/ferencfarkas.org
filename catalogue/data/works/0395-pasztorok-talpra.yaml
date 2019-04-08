@@ -2,8 +2,8 @@ catalog-id:
   id: 0395-pasztorok-talpra
   num-id: 395
   name: pasztorok-talpra
-  uuid: 597f1b5e-3d74-40be-a10a-eabf99680665
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 0007ad61-559a-42bc-adf4-a2f1ad45dab5
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: hu
   original: hu
@@ -11,4 +11,6 @@ title:
   - hu
   translations:
     hu: Pásztorok talpra
+description: French Christmas song for 4-part mixed choir Hungarian version from "Dans
+  cette étable" for mixed choir
 reworking: Dans cette étable for mixed choir Dans cette étable for male choir

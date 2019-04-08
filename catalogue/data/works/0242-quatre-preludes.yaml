@@ -2,8 +2,8 @@ catalog-id:
   id: 0242-quatre-preludes
   num-id: 242
   name: quatre-preludes
-  uuid: 3441ddaa-2519-4f66-ac96-cadb80c64cc3
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 2b75de6f-35b1-4f1b-bd2d-5b7f45b6ea59
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: fr
   original: fr
@@ -11,6 +11,7 @@ title:
   - fr
   translations:
     fr: Quatre préludes
+description: for harp extract from "Exercitium tonale" for guitar
 movements:
 - original-value: 1) Andante sostenuto (Sarabande) - 2) Allegro - 3) Andante - 4)
     Allegro

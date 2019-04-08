@@ -2,8 +2,8 @@ catalog-id:
   id: 0205-canephorae
   num-id: 205
   name: canephorae
-  uuid: a6aaa185-d2c8-4062-a10b-257542a49dbd
-date: "2019-04-08T21:09:34+00:00"
+  uuid: cd88e8bb-c953-4bce-ab2e-aa81dfa6b58f
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: ia
   original: ia
@@ -11,6 +11,7 @@ title:
   - ia
   translations:
     ia: Canephorae
+description: for organ
 composition-date: "1931"
 movements:
 - original-value: 1) Maestoso - 2) Andante - 3) Leggierissimo - 4) Lento - 5) Allegro

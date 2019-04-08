@@ -2,8 +2,8 @@ catalog-id:
   id: 0418-trois-poemes
   num-id: 418
   name: trois-poemes
-  uuid: 5fc38972-4a2e-4d80-a8df-576e5dedb842
-date: "2019-04-08T21:09:35+00:00"
+  uuid: f5b58e16-30d3-4612-9526-3ff4e5cccb31
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: fr
   original: fr
@@ -11,6 +11,7 @@ title:
   - fr
   translations:
     fr: Trois poèmes
+description: for 4-part mixed choir
 composition-date: "1984"
 movements:
 - original-value: '1) Le champ d’août – durata: 3‘ 2) Cède automne – durata: 1’40‘’

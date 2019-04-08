@@ -2,8 +2,8 @@ catalog-id:
   id: 0239-petite-suite-alpestre
   num-id: 239
   name: petite-suite-alpestre
-  uuid: 0b2960f4-7bda-4add-a90e-9bcc2af7d4ab
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 718ee7db-da63-4db2-a342-63e83d7f049f
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: fr
   original: fr
@@ -11,6 +11,7 @@ title:
   - fr
   translations:
     fr: Petite suite alpestre
+description: for Alphorn
 composition-date: "1976"
 movements:
 - original-value: 1) Prélude - 2) Etude - 3) Scherzo - 4) Tempo di valse - 5) Intermède

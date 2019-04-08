@@ -2,8 +2,8 @@ catalog-id:
   id: 0285-turris-hungariae-enek-vitez-thury-gyoergyroel
   num-id: 285
   name: turris-hungariae-enek-vitez-thury-gyoergyroel
-  uuid: 01b70825-59e3-4a36-9306-ef214c4a1350
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 06307f11-3b3c-462b-bac2-97c990df91b4
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Turris Hungariae. Enek Vitéz Thúry Györgyröl
+description: cantata for reciter, male choir and orchestra
 composition-date: 1977-1978
 setting: 2, 2, 2, 2 – 3, 2, 3, 0 – timp., batt. - archi
 source: 'piano reduction: manuscript by András Farkas'

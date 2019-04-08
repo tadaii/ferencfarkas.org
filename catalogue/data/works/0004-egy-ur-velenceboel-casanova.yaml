@@ -2,8 +2,8 @@ catalog-id:
   id: 0004-egy-ur-velenceboel-casanova
   num-id: 4
   name: egy-ur-velenceboel-casanova
-  uuid: d6fa285e-0043-4ef7-908b-ed77f44cd14e
-date: "2019-04-08T21:09:33+00:00"
+  uuid: f7d99b6a-0966-482a-b825-96c6d11a48cd
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: hu
   original: hu
@@ -17,6 +17,7 @@ title:
     en: A gentleman from Venice, Casanova
     fr: Un seigneur de Venise, Casanova
     hu: Egy ur Velencéből, Casanova
+description: opera in 2 acts
 composition-date: 1979-1980
 synopsis: Bolzano, 1756. Casanova, escaping from the lead chambers of Venice meets
   the Comte of Parma and his former love, Francesca.

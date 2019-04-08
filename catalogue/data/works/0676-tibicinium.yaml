@@ -2,8 +2,8 @@ catalog-id:
   id: 0676-tibicinium
   num-id: 676
   name: tibicinium
-  uuid: 1e2fd6ac-5c71-47dc-986a-fbbb3a47a6ee
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 861b48b3-dc86-4e14-a802-9d76426a8ad3
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: la
   original: la
@@ -11,6 +11,7 @@ title:
   - la
   translations:
     la: Tibicinium
+description: for voice and flute
 composition-date: "1960"
 movements:
 - original-value: 1) Töredék / Fragment 2) Nyári ünnep / Sommerfest

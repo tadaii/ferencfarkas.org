@@ -2,8 +2,8 @@ catalog-id:
   id: 0688-kilenc-magyar-nepdal-kamaraegyuettes-kiserettel
   num-id: 688
   name: kilenc-magyar-nepdal-kamaraegyuettes-kiserettel
-  uuid: 37678df8-ed40-4063-9d46-a4d784da067a
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 4627d5fa-973d-4d93-86b1-500ee1fcceaf
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Kilenc magyar népdal kamaraegyüttes kisérettel
+description: for voice and orchestra
 composition-date: "1958"
 movements:
 - original-value: '1) Esett a hó – durata . 1’40'''' 2) Szántani kék - durata: 1’20''''

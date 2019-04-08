@@ -2,8 +2,8 @@ catalog-id:
   id: 0465-szivarvany
   num-id: 465
   name: szivarvany
-  uuid: 557d928c-14e8-4f98-8ba6-bc4192c03b14
-date: "2019-04-08T21:09:35+00:00"
+  uuid: c7f3ee73-f77f-4b93-82a8-59969326d419
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,6 @@ title:
   - hu
   translations:
     hu: Szivárvány
+description: for 4-part male choir
 composition-date: "1974"
 dedication: A H.V.D. Sz. Liszt Ferenc Kórusának és karnagyának, Kis Istvánnak

@@ -2,8 +2,8 @@ catalog-id:
   id: 0269-flying-flags
   num-id: 269
   name: flying-flags
-  uuid: a1086492-96e5-4c06-beb3-4bc0c113c7a1
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 13847fbd-3680-42a6-86eb-16f46491724b
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: Flying flags
     hu: Bontott zászlok
+description: cantata for soprano and baritone solo, male choir and orchestra
 composition-date: 1972-1973
 movements:
 - original-value: 1) Sej, haj – 2) Nem mozdulok – 3) Most téged énekellek – 4) Pihenjetek

@@ -2,8 +2,8 @@ catalog-id:
   id: 0377-laus-joannis-vitezue-archiepiscopi
   num-id: 377
   name: laus-joannis-vitezue-archiepiscopi
-  uuid: 8107fdeb-161b-48c8-8059-755421621113
-date: "2019-04-08T21:09:35+00:00"
+  uuid: d0653f7b-6df4-4fbc-8afb-d127c2a9ff3b
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: la
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     hu: Vitéz János érsek dicsérete
     la: Laus Joannis Vitézü Archiepiscopi
+description: for 4-part mixed choir
 composition-date: "1986"
 movements:
 - original-value: '1) Evocatio - Hungarian translated by István Tóth - durata : 2’30’’

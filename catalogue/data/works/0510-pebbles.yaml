@@ -2,8 +2,8 @@ catalog-id:
   id: 0510-pebbles
   num-id: 510
   name: pebbles
-  uuid: af535664-eab5-4bee-8a87-d9db94f74ef9
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 6c789533-1316-4fa1-b188-f267240859f3
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: Pebbles
     hu: Kavicsok
+description: for 2 and 3-part children's choir
 composition-date: 1979 - 1980
 movements:
 - original-value: '1) There was an old man /Egyszer egy ember - text by Edward Lear

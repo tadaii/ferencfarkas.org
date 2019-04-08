@@ -2,8 +2,8 @@ catalog-id:
   id: 0421-vig-reggeli-eneklessel
   num-id: 421
   name: vig-reggeli-eneklessel
-  uuid: ede53beb-94ac-446e-b314-429d7c7cdea3
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 423839ad-92c2-4a01-9243-04023132d94e
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Vig reggeli énekléssel
+description: for 4-part mixed choir
 composition-date: "1989"
 source: manuscript by András Farkas
 dedication: a Komlói Pedagógus Kórusnak

@@ -2,8 +2,8 @@ catalog-id:
   id: 0650-erdoekoen-mezoekoen
   num-id: 650
   name: erdoekoen-mezoekoen
-  uuid: 866007e8-c9de-4b67-9cf1-d096468d8af0
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 673cfa36-939d-4f06-a2d8-b6edce4b979d
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,6 @@ title:
   - hu
   translations:
     hu: Erdőkön, mezőkön
+description: Student song from the 18th century for tenor and harpsichord
 reworking: Pataki diákdalok a 18.századból for 4-part mixed choir, no.1
 source: manuscript by András Farkas

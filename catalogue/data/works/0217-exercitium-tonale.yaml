@@ -2,8 +2,8 @@ catalog-id:
   id: 0217-exercitium-tonale
   num-id: 217
   name: exercitium-tonale
-  uuid: b7af7774-2a5e-44fb-8626-a234f0fd87a7
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 69aa7440-5308-4ace-bf06-b70ee1734dfb
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: la
   original: la
@@ -11,6 +11,7 @@ title:
   - la
   translations:
     la: Exercitium tonale
+description: for cimbalom 15 preludes
 composition-date: "1982"
 movements:
 - original-value: 1) Intrada - 2) Siciliana - 3) Cavatina (Omaggio a Donizetti) -

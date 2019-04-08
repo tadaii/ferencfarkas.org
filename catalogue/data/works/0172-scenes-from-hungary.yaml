@@ -2,8 +2,8 @@ catalog-id:
   id: 0172-scenes-from-hungary
   num-id: 172
   name: scenes-from-hungary
-  uuid: 65b60406-b53b-4698-b6f4-99adeb5479ba
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 2efcb098-e199-4a5c-8c5f-b0adda8c1b69
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: Scenes from Hungary
     hu: Magyar jelenetek
+description: for 4 clarinets
 composition-date: "1980"
 movements:
 - original-value: 1) Trinkspruch / Toast - 2) Spiel / Play - 3) Lied des Flüchtlings

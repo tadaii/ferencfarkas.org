@@ -2,8 +2,8 @@ catalog-id:
   id: 0425-a-labodi-hegy-alatt
   num-id: 425
   name: a-labodi-hegy-alatt
-  uuid: b531d74d-7242-4293-8072-86d2adbac3a3
-date: "2019-04-08T21:09:35+00:00"
+  uuid: b8d85f4b-88a1-4a03-babb-a32d93243134
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: A lábodi hegy alatt
+description: 4 melodies from the district of Somogy for 3-part male choir
 composition-date: "1936"
 movements:
 - original-value: 1) A lábodi hegy alatt 2) Sej haj fehér a virág 3) Ha felülök a

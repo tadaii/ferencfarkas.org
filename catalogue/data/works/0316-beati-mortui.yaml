@@ -2,8 +2,8 @@ catalog-id:
   id: 0316-beati-mortui
   num-id: 316
   name: beati-mortui
-  uuid: 73b834f3-c824-4389-9d0c-d074b95a4d87
-date: "2019-04-08T21:09:35+00:00"
+  uuid: e9c49573-ad42-4c9b-9abf-19bdf0e9d4bc
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: la
   original: la
@@ -11,5 +11,6 @@ title:
   - la
   translations:
     la: Beati mortui
+description: for 4-part mixed choir
 composition-date: "1994"
 dedication: Pro memoria M.

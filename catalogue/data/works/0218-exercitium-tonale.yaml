@@ -2,8 +2,8 @@ catalog-id:
   id: 0218-exercitium-tonale
   num-id: 218
   name: exercitium-tonale
-  uuid: a495be06-ab4e-4b5d-b5b4-ed4cfc80ecb3
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 4aaec1f4-b823-4ae4-ae2d-23b4d61b3fcd
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: la
   original: la
@@ -11,6 +11,7 @@ title:
   - la
   translations:
     la: Exercitium tonale
+description: for guitar 24 preludes
 composition-date: "1982"
 movements:
 - original-value: 1) Intrada - 2) Andante - 3) Allegro - 4) Allegro - 5) Allegro -

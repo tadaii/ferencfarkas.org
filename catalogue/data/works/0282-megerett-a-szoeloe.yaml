@@ -2,8 +2,8 @@ catalog-id:
   id: 0282-megerett-a-szoeloe
   num-id: 282
   name: megerett-a-szoeloe
-  uuid: 8951b1cf-9437-499b-91e3-8546e1d4cf5a
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 777784bc-82e4-4277-ba4e-a8ab72386bf6
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: hu
   original: hu
@@ -12,6 +12,7 @@ title:
   - hu
   translations:
     hu: Megérett a szőlő
+description: cantata for mixed choir and orchestra
 composition-date: "1951"
 movements:
 - original-value: 1) Moderato - 2) Meno mosso - 3) Megérett a szőlő - 4) Szőlőtaposó

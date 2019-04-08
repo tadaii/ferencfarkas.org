@@ -2,8 +2,8 @@ catalog-id:
   id: 0009-vidroczki
   num-id: 9
   name: vidroczki
-  uuid: 5007e3b2-3d95-430b-97e2-0558586c3380
-date: "2019-04-08T21:09:33+00:00"
+  uuid: 41f6d782-9237-4243-a1a4-dad3316b8cdc
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: pl
   original: pl
@@ -11,6 +11,7 @@ title:
   - pl
   translations:
     pl: Vidróczki
+description: popular romantic opera in 3 acts 2nd version for the theatre
 composition-date: "1978"
 synopsis: The adventures and the death of Vidróczki, bandit from the Mátra country,
   19th century

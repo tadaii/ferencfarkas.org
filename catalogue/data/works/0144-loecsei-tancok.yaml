@@ -2,8 +2,8 @@ catalog-id:
   id: 0144-loecsei-tancok
   num-id: 144
   name: loecsei-tancok
-  uuid: 4155bb17-cc11-4032-a019-90830d76f671
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 04185609-36a1-4cd3-b671-646c0ce8bbec
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: hu
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     hu: Löcsei táncok
     it: Antiche danze
+description: for string quartet dances from the 17th century
 composition-date: "1947"
 movements:
 - original-value: Allegro moderato, Allegro molto moderato, Andantino

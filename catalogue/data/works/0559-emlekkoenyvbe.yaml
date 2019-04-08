@@ -2,8 +2,8 @@ catalog-id:
   id: 0559-emlekkoenyvbe
   num-id: 559
   name: emlekkoenyvbe
-  uuid: 0b4a6734-4535-4820-8192-81e630d5f12a
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 6c708124-32d7-4b05-973c-9318c13b56dd
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,6 @@ title:
   - hu
   translations:
     hu: Emlékkönyvbe
+description: for voice and piano
 composition-date: "1955"
 source: manuscript by András Farkas

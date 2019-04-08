@@ -2,8 +2,8 @@ catalog-id:
   id: 0186-string-quartet
   num-id: 186
   name: string-quartet
-  uuid: 1f3a5cfd-52fd-4278-a12c-f1e387a1e4af
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 38804e12-774e-46d4-b886-07bfdd8e2f88
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: String quartet
     hu: vónos négyes
+description: for string quartet
 composition-date: 1970-1972
 movements:
 - original-value: 1) Allegro maestoso - 2) Moderato - 3) Moderato

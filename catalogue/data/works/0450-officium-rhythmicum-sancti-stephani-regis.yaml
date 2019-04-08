@@ -2,8 +2,8 @@ catalog-id:
   id: 0450-officium-rhythmicum-sancti-stephani-regis
   num-id: 450
   name: officium-rhythmicum-sancti-stephani-regis
-  uuid: e13c06c3-f502-4dee-abfa-be82bc466edc
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 1571b45f-089d-4cb7-8766-e299e9e950c8
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: la
   original: la
@@ -11,6 +11,7 @@ title:
   - la
   translations:
     la: Officium Rhythmicum Sancti Stephani Regis
+description: for 3-4 part male choir
 composition-date: "1970"
 source: manuscript by András Farkas
 dedication: au Pape Paul VI

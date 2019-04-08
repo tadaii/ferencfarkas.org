@@ -2,8 +2,8 @@ catalog-id:
   id: 0487-le-gout-de-la-paix
   num-id: 487
   name: le-gout-de-la-paix
-  uuid: e4fdc0de-2dd4-419f-a964-4ca1c01f9963
-date: "2019-04-08T21:09:35+00:00"
+  uuid: a1713d3c-873a-423a-abc1-754be13acb39
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: fr
   original: hu
@@ -13,4 +13,5 @@ title:
   translations:
     fr: Le goût de la paix
     hu: A béke mosolya
+description: for 3-part female choir
 composition-date: "1960"

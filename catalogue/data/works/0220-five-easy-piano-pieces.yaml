@@ -2,8 +2,8 @@ catalog-id:
   id: 0220-five-easy-piano-pieces
   num-id: 220
   name: five-easy-piano-pieces
-  uuid: d6c7bee3-4ad6-4523-9b8d-b1d0f6e5dc7b
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 6b3fdf07-dd6d-4af3-9598-dd3760f39c19
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: Five easy piano pieces
     hu: Öt könnyü zongoradarab
+description: for piano based on Hungarian folk songs from Moldavia
 composition-date: "1956"
 movements:
 - original-value: 1) Szonatina / Sonatine / Sonatina - 2) Dal / Lied / Song - 3) Táncnóta

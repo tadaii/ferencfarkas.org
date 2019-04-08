@@ -2,8 +2,8 @@ catalog-id:
   id: 0035-overture-to-a-comedy
   num-id: 35
   name: overture-to-a-comedy
-  uuid: adde81a4-5526-4c22-8847-d32c6e44003c
-date: "2019-04-08T21:09:33+00:00"
+  uuid: 8c2b99c9-21a4-4316-917f-c62711339f90
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: Overture to a comedy
     hu: Bevezetö zene egy vigjátékhoz
+description: for orchestra
 composition-date: "1928"
 setting: 2, 2, 2, 2 - 3, 2, 3, 0 – timp., batt. – arpa – archi
 reworking: 'score & performance material: AFPublishing The magic cupboard, opera The

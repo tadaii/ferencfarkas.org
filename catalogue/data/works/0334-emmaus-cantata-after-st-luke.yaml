@@ -2,8 +2,8 @@ catalog-id:
   id: 0334-emmaus-cantata-after-st-luke
   num-id: 334
   name: emmaus-cantata-after-st-luke
-  uuid: 6ab8d1d9-33ab-49a0-9d38-5814ee58e20e
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 9cc8402b-688a-4917-a2a8-2fe9e6b773f2
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: en
   original: en
@@ -11,5 +11,6 @@ title:
   - en
   translations:
     en: Emmaus. Cantata after St. Luke
+description: for 4-part mixed choir
 composition-date: "1985"
 reworking: Emmaus. Cantata after St.Luke in Latin for mixed choir

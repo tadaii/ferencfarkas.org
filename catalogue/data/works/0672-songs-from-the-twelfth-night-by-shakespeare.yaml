@@ -2,8 +2,8 @@ catalog-id:
   id: 0672-songs-from-the-twelfth-night-by-shakespeare
   num-id: 672
   name: songs-from-the-twelfth-night-by-shakespeare
-  uuid: b5a69139-d6ef-4441-b053-ab64c1c64de3
-date: "2019-04-08T21:09:36+00:00"
+  uuid: cd2c596e-859c-43af-a10a-bae1f03aea02
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,8 @@ title:
   - en
   translations:
     en: Songs from the “Twelfth night” by Shakespeare
+description: for voice and guitar from the incidental music to the “Twelfth night”
+  by W. Shakespeare arranged by Benjamin Bunch
 movements:
 - original-value: '1) O mistress mine - durata : 1'' 2) Hey, Robin, jolly - durata
     : 45'''''

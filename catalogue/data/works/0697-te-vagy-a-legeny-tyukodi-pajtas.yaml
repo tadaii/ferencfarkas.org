@@ -2,8 +2,8 @@ catalog-id:
   id: 0697-te-vagy-a-legeny-tyukodi-pajtas
   num-id: 697
   name: te-vagy-a-legeny-tyukodi-pajtas
-  uuid: 79886f5d-a4b2-449b-835f-23781d234d39
-date: "2019-04-08T21:09:36+00:00"
+  uuid: c0f09e13-3da8-4678-af62-0fdf95ad6dac
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,4 +11,5 @@ title:
   - hu
   translations:
     hu: Te vagy a legény, Tyukodi pajtás
+description: for voice and piano
 source: manuscript by András Farkas

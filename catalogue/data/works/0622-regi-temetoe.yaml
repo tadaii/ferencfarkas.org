@@ -2,8 +2,8 @@ catalog-id:
   id: 0622-regi-temetoe
   num-id: 622
   name: regi-temetoe
-  uuid: 0aa9ebbc-7f2c-46d4-b409-7bf0d5dd2f20
-date: "2019-04-08T21:09:36+00:00"
+  uuid: bceec83a-697f-4b88-802c-f4e7c12f39e8
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,4 +11,7 @@ title:
   - hu
   translations:
     hu: Régi temetö
+description: 1) Bajusz Balázs voltam 2) Itt nyugszik a Fehér Sára 3) Sütő Borcsa voltam
+  4) Im itt nyugszik Edes Ignác 5) Ime sírja Bakos Vincének 6) Láncoskuti Nagy Elek
+  7) En Csibor Pál
 composition-date: "1995"

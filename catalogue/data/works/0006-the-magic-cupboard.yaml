@@ -2,8 +2,8 @@ catalog-id:
   id: 0006-the-magic-cupboard
   num-id: 6
   name: the-magic-cupboard
-  uuid: 27e394eb-f912-4352-97ef-844bab594e73
-date: "2019-04-08T21:09:33+00:00"
+  uuid: b2e30807-764a-4604-bf72-eb3e6e9d2e21
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: hu
@@ -17,6 +17,8 @@ title:
     en: The magic cupboard
     fr: L’armoire magique
     hu: A büvös szekrény
+description: opera in 2 acts version for chamber orchestra based on a story from “Thausand-and-one
+  nights”
 composition-date: "1984"
 synopsis: Suleika will set her husband free from the prison
 setting: 1, 1, 1, 1 – 2, 1, 1, 0 – 1 vl. I, 1 vl. II, 1 vla, 1 vlc., 1 cb.

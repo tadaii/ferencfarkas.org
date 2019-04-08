@@ -2,8 +2,8 @@ catalog-id:
   id: 0311-ave-maris-stella
   num-id: 311
   name: ave-maris-stella
-  uuid: 6821e131-a070-4897-8e40-81afadcc5c1b
-date: "2019-04-08T21:09:35+00:00"
+  uuid: aa662f90-61fe-472a-b70b-69c7e5334ce7
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: en
   original: en
@@ -11,4 +11,5 @@ title:
   - en
   translations:
     en: Ave Maris Stella
+description: for 4-part mixed choir
 composition-date: "1999"

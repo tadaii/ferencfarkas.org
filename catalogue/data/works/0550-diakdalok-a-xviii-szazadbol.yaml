@@ -2,8 +2,8 @@ catalog-id:
   id: 0550-diakdalok-a-xviii-szazadbol
   num-id: 550
   name: diakdalok-a-xviii-szazadbol
-  uuid: d21deb2b-d808-4a8c-9c2a-a1c90a5ea565
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 68b23d83-2fcc-4493-a8e7-417384855d25
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Diákdalok a XVIII. századból
+description: for voice and piano
 composition-date: "1993"
 movements:
 - original-value: '1) Ha nem láttam volna - durata : 2’ 2) Elmehetsz már - durata

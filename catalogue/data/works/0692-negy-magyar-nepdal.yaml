@@ -2,8 +2,8 @@ catalog-id:
   id: 0692-negy-magyar-nepdal
   num-id: 692
   name: negy-magyar-nepdal
-  uuid: 8c8073bd-62f6-444b-aaa1-6d29b3cb1aab
-date: "2019-04-08T21:09:36+00:00"
+  uuid: ef7be6e0-740b-460c-a7b8-5b03a7d18e5b
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Négy magyar népdal
+description: for voice and piano
 movements:
 - original-value: '1) Béres legény – durata: 2’10'''' 2) Csütörtökön este csak azt...
     – durata: 1'' 3) Nincsen hideg – durata: 1’30'''' 4 ) Szántani kék – durata: 1’20'''''

@@ -2,8 +2,8 @@ catalog-id:
   id: 0360-hymnus-in-honorem-sanctae-crucis
   num-id: 360
   name: hymnus-in-honorem-sanctae-crucis
-  uuid: 6a4562b0-9085-4900-a32b-2412c5b663c5
-date: "2019-04-08T21:09:35+00:00"
+  uuid: ea40fe9d-d486-47b2-9bcf-453a2d69199c
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: la
   original: la
@@ -11,4 +11,5 @@ title:
   - la
   translations:
     la: Hymnus in honorem Sanctae Crucis
+description: for 4-part mixed choir
 composition-date: "1994"

@@ -2,8 +2,8 @@ catalog-id:
   id: 0192-three-dance-paraphrases
   num-id: 192
   name: three-dance-paraphrases
-  uuid: 1189e50e-9c48-4451-8b7a-cfed47371b27
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 35da0e6c-eac2-4d42-a09e-a6a2991c2843
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: Three dance paraphrases
     hu: Három táncparafrázis
+description: for clarinet, viola and horn
 composition-date: "1972"
 movements:
 - original-value: Allegretto, Moderato, Allegro

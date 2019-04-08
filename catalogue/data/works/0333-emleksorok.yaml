@@ -2,8 +2,8 @@ catalog-id:
   id: 0333-emleksorok
   num-id: 333
   name: emleksorok
-  uuid: 23549913-9cd6-4963-a707-72601241f2c8
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 128c65db-2b45-464a-9747-839b199be3d4
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,6 @@ title:
   - hu
   translations:
     hu: Emléksorok
+description: for 4-part mixed choir
 composition-date: "1962"
 dedication: Kókai Rezsö emlékének

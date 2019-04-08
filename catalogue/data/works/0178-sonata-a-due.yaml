@@ -2,8 +2,8 @@ catalog-id:
   id: 0178-sonata-a-due
   num-id: 178
   name: sonata-a-due
-  uuid: 86bcba00-d11c-4ad1-8d10-7b8d03474f7b
-date: "2019-04-08T21:09:34+00:00"
+  uuid: a01d0222-bcad-4ff5-908c-3a136c05b15e
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: Sonata a due
+description: for viola and violoncello
 composition-date: "1961"
 movements:
 - original-value: Maestoso, Andante moderato, Allegro non troppo

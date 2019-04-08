@@ -2,8 +2,8 @@ catalog-id:
   id: 0686-harom-katonanota
   num-id: 686
   name: harom-katonanota
-  uuid: d69d0aaf-e524-4074-9d38-9d400dc6896c
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 09d16892-c8fe-4bcd-96cb-599d834699e4
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Három katonanóta
+description: for voice and piano
 composition-date: "1933"
 movements:
 - original-value: 1) Edes anyám hun van az az édes tej... 2) Hétfön reggel nyolcat

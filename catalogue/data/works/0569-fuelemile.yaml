@@ -2,8 +2,8 @@ catalog-id:
   id: 0569-fuelemile
   num-id: 569
   name: fuelemile
-  uuid: 821a8e9c-4e6e-4470-9286-3bbfa95873c6
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 8a8bc10c-0b67-4674-b561-4ad79f57a79f
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,4 +11,5 @@ title:
   - hu
   translations:
     hu: Fülemile
+description: 1) Dicsértessék, adjon Isten... 2) Fülemile
 composition-date: "1941"

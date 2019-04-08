@@ -2,8 +2,8 @@ catalog-id:
   id: 0211-bordal
   num-id: 211
   name: bordal
-  uuid: 3f94b7b4-55e2-4310-a5f9-541394ee46a3
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 299c7966-6a57-4c24-abee-6e6d1d7bdf3c
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: en
@@ -12,4 +12,5 @@ title:
   - en
   translations:
     en: Bordal
+description: for piano
 composition-date: "1937"

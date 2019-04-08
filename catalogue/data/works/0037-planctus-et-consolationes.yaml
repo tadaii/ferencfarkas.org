@@ -2,8 +2,8 @@ catalog-id:
   id: 0037-planctus-et-consolationes
   num-id: 37
   name: planctus-et-consolationes
-  uuid: 77598863-7bfb-4800-b8fe-0027e9eb4be8
-date: "2019-04-08T21:09:33+00:00"
+  uuid: f40b5299-d6d6-4969-bd69-fcf7bfe8b744
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: la
   original: la
@@ -11,6 +11,7 @@ title:
   - la
   translations:
     la: Planctus et consolationes
+description: for orchestra
 composition-date: "1965"
 movements:
 - original-value: Introduzione - Marcia funebre I - Consolatio I. - Marcia funebre

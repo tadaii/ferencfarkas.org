@@ -2,8 +2,8 @@ catalog-id:
   id: 0294-missa-in-honorem-sancti-andreae
   num-id: 294
   name: missa-in-honorem-sancti-andreae
-  uuid: 7e3d2101-f30c-40f5-bbdb-9c708ee1c465
-date: "2019-04-08T21:09:35+00:00"
+  uuid: acd77a5c-a988-436e-a213-fc5fcb942f0f
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: la
   original: la
@@ -11,6 +11,7 @@ title:
   - la
   translations:
     la: Missa in honorem Sancti Andreae
+description: for mixed choir and orchestra
 composition-date: "1968"
 movements:
 - original-value: Kyrie – Gloria – Credo – Sanctus – Benedictus – Agnus Dei

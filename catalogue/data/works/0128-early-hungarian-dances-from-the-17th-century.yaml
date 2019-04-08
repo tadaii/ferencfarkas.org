@@ -2,8 +2,8 @@ catalog-id:
   id: 0128-early-hungarian-dances-from-the-17th-century
   num-id: 128
   name: early-hungarian-dances-from-the-17th-century
-  uuid: 8bae4484-c1a5-47cc-8f31-a2581709da31
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 9147298c-fcba-4dd2-8733-229f7c97dc62
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,8 @@ title:
   - en
   translations:
     en: Early Hungarian dances from the 17th century
+description: Antiche danze ungheresi del 17. secolo / Régi magyar táncok a 17. századból
+  / Danses hongroises du 17ème siècle / Alte ungarische Tänze / Old Hungarian dances
 composition-date: "1987"
 movements:
 - original-value: Allegro moderato, Andante moderato, Allegro, Allegro

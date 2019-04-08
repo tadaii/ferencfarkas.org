@@ -2,8 +2,8 @@ catalog-id:
   id: 0287-vita-poetae
   num-id: 287
   name: vita-poetae
-  uuid: cb6e63f2-8022-47c1-bc17-d8329a173906
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 189d8b6e-d0d7-4e4c-8678-6e5c444c83c0
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: la
   original: la
@@ -11,6 +11,7 @@ title:
   - la
   translations:
     la: Vita poetae
+description: cantata for mezzo-soprano solo, 3 male voices, mixed choir and 16 instruments
 composition-date: "1976"
 movements:
 - original-value: 1) Studia - 2) Amores - 3) Amicitiá - 4) Mors matris - 5) Vita aulica

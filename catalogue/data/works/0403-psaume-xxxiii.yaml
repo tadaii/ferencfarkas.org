@@ -2,8 +2,8 @@ catalog-id:
   id: 0403-psaume-xxxiii
   num-id: 403
   name: psaume-xxxiii
-  uuid: 4eb3d2a7-f033-4b43-8667-39d167a70f74
-date: "2019-04-08T21:09:35+00:00"
+  uuid: bb2ea416-c5d3-4305-a272-a9f0e897c599
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: fr
   original: hu
@@ -13,5 +13,6 @@ title:
   translations:
     fr: Psaume XXXIII
     hu: XXXIII genfi szoltár
+description: for 4-part mixed choir
 composition-date: "1976"
 source: manuscript by András Farkas

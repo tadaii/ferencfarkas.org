@@ -2,8 +2,8 @@ catalog-id:
   id: 0601-margareta
   num-id: 601
   name: margareta
-  uuid: 3faf9ca3-7e09-484e-957d-06d5dbf79d08
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 9ebd4b99-29b9-4f4f-bb48-50c2a9afcc4f
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: su
   original: su
@@ -11,5 +11,6 @@ title:
   - su
   translations:
     su: Margaréta
+description: for voice and piano Extract from “Virároskért” for voice and piano
 composition-date: "19891990"
 dedication: Mancinak

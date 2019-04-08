@@ -2,8 +2,8 @@ catalog-id:
   id: 0393-omagyar-rovasfelirat
   num-id: 393
   name: omagyar-rovasfelirat
-  uuid: 35d32d61-9f1b-4d02-86c4-40275d786081
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 490b1738-2fcb-4512-bafd-3fea2f9ae9b3
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,6 @@ title:
   - hu
   translations:
     hu: Ómagyar rovásfelirat
+description: for 4-part mixed choir
 composition-date: "1997"
 source: manuscript by András Farkas

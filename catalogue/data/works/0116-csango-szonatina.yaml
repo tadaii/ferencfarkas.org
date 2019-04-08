@@ -2,8 +2,8 @@ catalog-id:
   id: 0116-csango-szonatina
   num-id: 116
   name: csango-szonatina
-  uuid: cb2d30b8-89fc-4a4f-8aae-ca52a075f0b7
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 7d8a9479-2755-470f-93e7-e7439babf8cb
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Csángó szonatina
+description: for 3 guitars
 composition-date: "1977"
 movements:
 - original-value: 1) Sonatina - 2) Canzone - 3) Rondo

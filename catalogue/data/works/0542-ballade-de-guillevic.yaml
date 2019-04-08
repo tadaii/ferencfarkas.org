@@ -2,8 +2,8 @@ catalog-id:
   id: 0542-ballade-de-guillevic
   num-id: 542
   name: ballade-de-guillevic
-  uuid: 8efd5a32-faf4-4a06-bf04-6125d80f4c51
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 46ef0565-a6dd-4261-b992-c4b69fb592bc
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: Ballade de Guillevic
+description: for voice and piano
 composition-date: "1961"
 source: manuscript by András Farkas
 dedication: pour l'anniversaire de Manci

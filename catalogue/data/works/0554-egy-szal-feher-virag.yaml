@@ -2,8 +2,8 @@ catalog-id:
   id: 0554-egy-szal-feher-virag
   num-id: 554
   name: egy-szal-feher-virag
-  uuid: 1acb7a77-5b73-4fe9-af81-9d32bc8bcc32
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 47398e2d-85e0-44c4-ae17-b25b006a838f
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,4 +11,5 @@ title:
   - hu
   translations:
     hu: Egy szál fehér virág
+description: for voice and piano
 source: manuscript by András Farkas

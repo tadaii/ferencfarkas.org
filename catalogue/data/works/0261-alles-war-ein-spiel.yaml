@@ -2,8 +2,8 @@ catalog-id:
   id: 0261-alles-war-ein-spiel
   num-id: 261
   name: alles-war-ein-spiel
-  uuid: 01fd1d49-41d3-43cc-a143-4ac278d4f7c2
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 2bdbff43-759e-47e6-8aa4-2e57e2ab3fd1
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: de
   original: de
@@ -11,6 +11,7 @@ title:
   - de
   translations:
     de: Alles war ein Spiel
+description: concert-cantata for soprano solo, 5 solo instruments and string orchestra
 composition-date: "1986"
 movements:
 - original-value: Preludio – Alles war ein Spiel – Ritornell-Kadenz – Abendwolke,

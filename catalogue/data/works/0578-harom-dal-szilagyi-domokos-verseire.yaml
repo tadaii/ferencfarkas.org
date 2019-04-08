@@ -2,8 +2,8 @@ catalog-id:
   id: 0578-harom-dal-szilagyi-domokos-verseire
   num-id: 578
   name: harom-dal-szilagyi-domokos-verseire
-  uuid: 2f822863-77d0-4e7c-b66a-63bd240335e4
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 3d2a744b-64e3-4558-b556-35acdf77eb10
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Három dal Szilágyi Domokos verseire
+description: for voice and piano
 composition-date: 1989-90
 movements:
 - original-value: 1) Dal 2) Alkony 3) Ragyogj

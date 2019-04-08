@@ -2,8 +2,8 @@ catalog-id:
   id: 0290-missa-brevis-in-honorem-sancti-stephani
   num-id: 290
   name: missa-brevis-in-honorem-sancti-stephani
-  uuid: 3a8592dc-1971-4636-88d8-b036f5515e41
-date: "2019-04-08T21:09:34+00:00"
+  uuid: ffe818a1-c84e-4273-8e54-e3a5dc75e0b6
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: la
   original: la
@@ -13,6 +13,7 @@ title:
   translations:
     la: Missa brevis in honorem Sancti Stephani
     pt: Missa quarta
+description: for male choir and organ or string orchestra
 composition-date: 1994-1995
 movements:
 - original-value: Kyrie – Gloria – Sanctus – Benedictus – Agnus Dei

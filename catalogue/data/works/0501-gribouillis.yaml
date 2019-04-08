@@ -2,8 +2,8 @@ catalog-id:
   id: 0501-gribouillis
   num-id: 501
   name: gribouillis
-  uuid: aea8cbc8-cdc2-4225-bb1e-fe17b40dd1f2
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 58580d9a-9b8c-4ac1-9acf-7663b92e319b
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: fr
   original: fr
@@ -13,6 +13,7 @@ title:
   translations:
     fr: Gribouillis
     tr: Irka-firka
+description: for 3-part childrens' choir
 composition-date: "1987"
 movements:
 - original-value: '1) Inconvénients / Kellemetlenek - durata : 40‘’ 2) La puce savante

@@ -2,8 +2,8 @@ catalog-id:
   id: 0527-lany-kicsi-lany
   num-id: 527
   name: lany-kicsi-lany
-  uuid: d87c9fbb-5035-4f5d-abb7-79a049de5c63
-date: "2019-04-08T21:09:35+00:00"
+  uuid: adce2685-7dc9-4194-8ccf-720fd72234ae
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,4 +11,5 @@ title:
   - hu
   translations:
     hu: Lány, kicsi lány
+description: for 2-part choir with piano accompaniment
 composition-date: "1953"

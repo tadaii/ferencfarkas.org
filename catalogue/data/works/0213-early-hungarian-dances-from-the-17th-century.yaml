@@ -2,8 +2,8 @@ catalog-id:
   id: 0213-early-hungarian-dances-from-the-17th-century
   num-id: 213
   name: early-hungarian-dances-from-the-17th-century
-  uuid: d9610b43-6137-4549-8fda-fb1aaee8d8cb
-date: "2019-04-08T21:09:34+00:00"
+  uuid: f9e858f2-6db3-45a9-805d-729356c2054d
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,8 @@ title:
   - en
   translations:
     en: Early Hungarian dances from the 17th century
+description: Antiche danze ungheresi del 17. secolo / Régi magyar táncok a 17. századból
+  / Danses hongroises du 17ème siècle / Alte ungarische Tänze / Old Hungarian dances
 movements:
 - original-value: 1) Erdélyi fejedelem tánca / Danse du Prince de Transylvanie - 2)
     Magyar tánc / Danse hongroise 3) Chorea - 4) Lapockás tánc / Danse "Lapockás"

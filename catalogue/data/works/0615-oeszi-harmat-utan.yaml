@@ -2,8 +2,8 @@ catalog-id:
   id: 0615-oeszi-harmat-utan
   num-id: 615
   name: oeszi-harmat-utan
-  uuid: cc7f466b-22f0-4524-8077-0d6e306ed28e
-date: "2019-04-08T21:09:36+00:00"
+  uuid: dd9de0b4-1189-4099-8a38-79a66f05b802
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Őszi harmat után
+description: Kuruc songs for voice and piano
 composition-date: "1975"
 movements:
 - original-value: '1) Őszi harmat után - durata: 1’50'''' 2) Mit bùsùlsz kenyeres

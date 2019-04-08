@@ -2,8 +2,8 @@ catalog-id:
   id: 0246-six-pieces-breves
   num-id: 246
   name: six-pieces-breves
-  uuid: a02835f2-4a1c-469d-8bd8-93cb2bede2cd
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 392c3922-3848-4ab9-a090-c6dd0d241763
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: fr
   original: fr
@@ -11,6 +11,7 @@ title:
   - fr
   translations:
     fr: Six pièces brèves
+description: for guitar
 composition-date: "1970"
 movements:
 - original-value: 1) Preambolo - 2) Scène de ballet - 3) Danse guerrière - 4) Grinzing

@@ -2,8 +2,8 @@ catalog-id:
   id: 0270-fudd-el-szel
   num-id: 270
   name: fudd-el-szel
-  uuid: ee0a65ae-1aa6-4d2f-88c5-94d6fffc173f
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 8b4b6103-1328-4a46-a66e-5d402d36b743
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: es
   original: es
@@ -11,6 +11,8 @@ title:
   - es
   translations:
     es: Fúdd el szél
+description: cantata for tenor and baritone solo, male choir and orchestra based on
+  Hungarian Kouroutz melodies (17th and 18th century)
 composition-date: "1953"
 movements:
 - original-value: 1) Rákóczi László balladája - 2) Buga Jakab éneke - 3) Rákóczi kesergöje

@@ -2,8 +2,8 @@ catalog-id:
   id: 0230-little-piano-pieces-after-hungarian-folk-songs
   num-id: 230
   name: little-piano-pieces-after-hungarian-folk-songs
-  uuid: 5c7fac7a-053a-46f1-89eb-f07bb4ad3647
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 95bf2f0d-6a5e-4f26-9e5a-d810e561938f
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: Little piano pieces after Hungarian folk songs
     hu: Kis zongoradarabok magyar népdalok niyomán
+description: for piano
 composition-date: "1935"
 movements:
 - original-value: 1) Előjáték / Vorspiel - 2) Kétszólamù invenció / Zweistimmige Invention

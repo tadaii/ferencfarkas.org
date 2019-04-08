@@ -2,8 +2,8 @@ catalog-id:
   id: 0210-deux-esquisses-pour-la-main-gauche
   num-id: 210
   name: deux-esquisses-pour-la-main-gauche
-  uuid: 34925ae1-9569-4919-8b3b-64b4bca4156d
-date: "2019-04-08T21:09:34+00:00"
+  uuid: bf5a1387-902c-40ce-9dfc-f649e9467aaf
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: fr
   original: fr
@@ -11,6 +11,7 @@ title:
   - fr
   translations:
     fr: Deux esquisses pour la main gauche
+description: for piano
 composition-date: "1996"
 movements:
 - original-value: 1) Moderato - 2) Andante

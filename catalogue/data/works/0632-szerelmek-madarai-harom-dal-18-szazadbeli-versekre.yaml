@@ -2,8 +2,8 @@ catalog-id:
   id: 0632-szerelmek-madarai-harom-dal-18-szazadbeli-versekre
   num-id: 632
   name: szerelmek-madarai-harom-dal-18-szazadbeli-versekre
-  uuid: 6d70a69b-5f19-4996-b30c-52c082ca8278
-date: "2019-04-08T21:09:36+00:00"
+  uuid: c112bffb-8178-4542-9d0f-cc77a970f453
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     de: Drei Lieder nach Gedichten aus dem 18. Jahrhundert
     hu: Szerelmek madarai. Három dal 18. századbeli versekre
+description: for voice (soprano) and piano
 composition-date: "1937"
 movements:
 - original-value: '1) A tavaszhoz / An den Frühling - text by Ferenc Kazinczy – durata

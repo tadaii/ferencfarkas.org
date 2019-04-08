@@ -2,8 +2,8 @@ catalog-id:
   id: 0219-exitus
   num-id: 219
   name: exitus
-  uuid: 3236335d-2f34-4370-9262-590e245ba81c
-date: "2019-04-08T21:09:34+00:00"
+  uuid: a9f66ffc-14c5-49d9-b1f8-ac15ed54b492
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: de
   original: de
@@ -11,6 +11,7 @@ title:
   - de
   translations:
     de: Exitus
+description: for organ
 composition-date: "1990"
 movements:
 - original-value: 1) Allegro moderato (preludium) - 2) Allegro (fuga)

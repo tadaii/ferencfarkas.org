@@ -2,8 +2,8 @@ catalog-id:
   id: 0671-songs-from-the-twelfth-night-by-shakespeare
   num-id: 671
   name: songs-from-the-twelfth-night-by-shakespeare
-  uuid: 922a2a2b-c726-4f06-b147-b5a96b9febab
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 81510387-5136-4ecf-a24a-4b507539b705
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,8 @@ title:
   - en
   translations:
     en: Songs from the “Twelfth night” by Shakespeare
+description: for voice and harp from the incidental music to “Vízkereszt /Twelfth
+  night” by W. Shakespeare
 composition-date: "1954"
 movements:
 - original-value: '1) O mistress mine - durata : 1'' 2) Hey, Robin, jolly - durata

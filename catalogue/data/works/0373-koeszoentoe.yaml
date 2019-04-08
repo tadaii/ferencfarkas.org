@@ -2,8 +2,8 @@ catalog-id:
   id: 0373-koeszoentoe
   num-id: 373
   name: koeszoentoe
-  uuid: 3e78c679-1d93-4791-88b5-d255413be251
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 2d943cc1-c4bd-498b-8c30-9cd06e05a18d
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,6 @@ title:
   - hu
   translations:
     hu: Köszöntő
+description: for 4-part mixed choir
 composition-date: "1990"
 source: manuscript by András Farkas

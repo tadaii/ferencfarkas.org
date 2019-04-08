@@ -2,8 +2,8 @@ catalog-id:
   id: 0512-six-chansons-populaires-hongroises
   num-id: 512
   name: six-chansons-populaires-hongroises
-  uuid: 9be2189f-97d6-4747-b739-9117d59cf840
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 77f367e4-f842-43c0-b386-b439073f2781
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: fr
   original: fr
@@ -11,6 +11,8 @@ title:
   - fr
   translations:
     fr: Six chansons populaires hongroises
+description: for 3-part children's choir French version from “Hat magyar népdal” for
+  children's choir
 movements:
 - original-value: 1) La choucroute 2) Va-t-y, va-t-on ? 3) Au bord de la route 4)
     Le cheval du juge 5) Le violon de l’oncle Antoine 6) Kalamaïko

@@ -2,8 +2,8 @@ catalog-id:
   id: 0384-mennyboel-az-angyal
   num-id: 384
   name: mennyboel-az-angyal
-  uuid: 619c5b31-3c3b-4dda-bedf-3469192392c5
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 249aea7a-3231-42be-ad5c-877a880f2377
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: hu
   original: hu
@@ -11,4 +11,5 @@ title:
   - hu
   translations:
     hu: Mennyből az angyal
+description: Hungarian Christmas song for 4-part mixed choir
 reworking: 'Christmas album no.1: Mennyből az angyal for voice and piano'

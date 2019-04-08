@@ -2,8 +2,8 @@ catalog-id:
   id: 0476-baszk-dalok
   num-id: 476
   name: baszk-dalok
-  uuid: b41f6713-adba-469a-b066-ce23ec74bdae
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 1a91cd5a-5e27-4779-9bde-3ca6b3129da1
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     eu: Euskal abestiak
     hu: Baszk dalok
+description: 5 Basque songs for 3-part female choir or children's choir
 composition-date: "1986"
 movements:
 - original-value: 1) Süss rám / Argizagi ederra 2) Kárbaveszett szerenád / Errefusa

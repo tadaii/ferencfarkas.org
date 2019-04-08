@@ -2,8 +2,8 @@ catalog-id:
   id: 0370-jer-nezd-a-balatont
   num-id: 370
   name: jer-nezd-a-balatont
-  uuid: a382508b-2c01-40c1-8c81-dd8605d6df19
-date: "2019-04-08T21:09:35+00:00"
+  uuid: b4772c63-c3df-46b1-bc3b-692c61ba2fa2
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: hr
   original: hr
@@ -11,5 +11,6 @@ title:
   - hr
   translations:
     hr: Jer nézd a Balatont
+description: for 4-part mixed choir
 composition-date: "1988"
 source: manuscript by András Farkas

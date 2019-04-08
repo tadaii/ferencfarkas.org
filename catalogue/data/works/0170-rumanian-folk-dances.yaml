@@ -2,8 +2,8 @@ catalog-id:
   id: 0170-rumanian-folk-dances
   num-id: 170
   name: rumanian-folk-dances
-  uuid: 9035c1a6-58f7-49cb-997d-a0cf054a3a81
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 6042786b-93d7-44b6-b163-b100e406176c
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: Rumanian folk dances
     hu: Bihari román táncok
+description: for violin or viola or flute or clarinet and piano
 composition-date: "1950"
 reworking: Rumanian folk dances for recorder or violin and cimbalom Rumanian folk
   dances for flute and string orchestra

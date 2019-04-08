@@ -2,8 +2,8 @@ catalog-id:
   id: 0414-sous-le-sapin
   num-id: 414
   name: sous-le-sapin
-  uuid: 6a8de1c1-1cc4-4b90-b9fa-60f1e2e36b81
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 442fd33f-1efa-4596-be01-3137bc92c87f
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: fr
   original: fr
@@ -11,6 +11,7 @@ title:
   - fr
   translations:
     fr: Sous le sapin
+description: for 4-part mixed choir
 composition-date: "1979"
 source: manuscript by András Farkas
 dedication: à Paul Richard

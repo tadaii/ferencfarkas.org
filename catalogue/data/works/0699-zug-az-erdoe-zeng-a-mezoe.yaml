@@ -2,8 +2,8 @@ catalog-id:
   id: 0699-zug-az-erdoe-zeng-a-mezoe
   num-id: 699
   name: zug-az-erdoe-zeng-a-mezoe
-  uuid: 8b8dc650-d696-4d1c-9bb7-492b94bcba02
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 145c8eb2-a07f-4b3d-94af-7f3620fa5f3e
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,4 +11,5 @@ title:
   - hu
   translations:
     hu: Zúg az erdő, zeng a mező
+description: for voice and piano
 source: manuscript by András Farkas

@@ -2,8 +2,8 @@ catalog-id:
   id: 0232-maschere
   num-id: 232
   name: maschere
-  uuid: 7ee8abe8-83d9-40b3-89a1-23148e2ddfe9
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 6d9d5795-983c-4227-beb6-4a469c10f82c
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: it
   original: it
@@ -11,6 +11,8 @@ title:
   - it
   translations:
     it: Maschere
+description: for piano 3 pieces composed after the paintings of Gino Severini illustrating
+  figures of the “ Commedia dell’arte”
 composition-date: "1983"
 movements:
 - original-value: 1) Colombina - 2) Povero Pulcinella - 3) Arlecchino

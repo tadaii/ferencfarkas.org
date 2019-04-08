@@ -2,8 +2,8 @@ catalog-id:
   id: 0631-spleen
   num-id: 631
   name: spleen
-  uuid: 9aa8f265-e2e6-492f-9c7c-ef7fafb0398d
-date: "2019-04-08T21:09:36+00:00"
+  uuid: ca0142f8-41ba-490d-be98-5f1ea9c5072d
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: en
   original: en
@@ -11,4 +11,5 @@ title:
   - en
   translations:
     en: Spleen
+description: for voice and piano
 composition-date: "1997"

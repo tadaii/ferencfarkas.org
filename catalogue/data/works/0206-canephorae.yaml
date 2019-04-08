@@ -2,8 +2,8 @@ catalog-id:
   id: 0206-canephorae
   num-id: 206
   name: canephorae
-  uuid: 1d07a63c-14f0-4a20-88b5-f7f5fb1ea7e3
-date: "2019-04-08T21:09:34+00:00"
+  uuid: f5f2651e-1712-44f0-8eb0-63c3ebc6a4eb
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: ia
   original: ia
@@ -11,6 +11,7 @@ title:
   - ia
   translations:
     ia: Canephorae
+description: for piano
 composition-date: "1931"
 movements:
 - original-value: 1 ) Preludio - 2) Andante - 3) Leggierissimo - 4) Lento - 5) Fughetta

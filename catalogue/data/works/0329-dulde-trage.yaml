@@ -2,8 +2,8 @@ catalog-id:
   id: 0329-dulde-trage
   num-id: 329
   name: dulde-trage
-  uuid: a0951035-f654-4030-9e58-258692b5f3b0
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 36fceba9-b812-40a8-93f2-8462ee5ddc85
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: de
   original: de
@@ -11,5 +11,6 @@ title:
   - de
   translations:
     de: Dulde, trage
+description: for 4-part mixed choir
 composition-date: "1997"
 source: manuscript by András Farkas

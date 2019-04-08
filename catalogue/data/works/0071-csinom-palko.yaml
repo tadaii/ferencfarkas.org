@@ -2,8 +2,8 @@ catalog-id:
   id: 0071-csinom-palko
   num-id: 71
   name: csinom-palko
-  uuid: b28e65ed-8248-4672-bb96-150345ef4032
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 95f2116b-e2d0-46e3-9a33-0edb773adaa3
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,8 @@ title:
   - hu
   translations:
     hu: Csínom Palkó
+description: for wind orchestra Suite from the opera “Csínom Palkó” arranged by János
+  Eördögh, 1959
 setting: fl., cl. mi b, 3 cl. si b, 2 cor. mi b, 2 saxhorn si b, saxhorn (grave) si
   b, euphonium, 2 tr. si b, 2 tr. mi b, Tr.b. si b, 3 trb., 2 tuba, batt.
 reworking: Mischievous tune “Csínom Palkó” for wind orchestra Csínom Palkó for orchestra

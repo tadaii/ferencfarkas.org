@@ -2,8 +2,8 @@ catalog-id:
   id: 0020-csinom-palko
   num-id: 20
   name: csinom-palko
-  uuid: 5499aa4a-9878-41b5-bd1e-0a794461eb41
-date: "2019-04-08T21:09:33+00:00"
+  uuid: 4f0b0fb0-a4ea-468c-8279-dcd96a3a29ae
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,8 @@ title:
   - hu
   translations:
     hu: Csínom Palkó
+description: for orchestra Suite from the opera “Csínom Palkó” arranged by Sándor
+  Somló
 movements:
 - original-value: 1) Bevezetés - 2) Jöttünk Edelényből - 3) Zsuzsi dala - 4) Balogh
     Adám dala - 5) Jó estét - 6) Kis Dunaág - 7) Jójzakát - 8) Hüséges szivemmel

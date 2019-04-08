@@ -2,8 +2,8 @@ catalog-id:
   id: 0522-in-gryllum
   num-id: 522
   name: in-gryllum
-  uuid: a164546d-5df1-467d-a8a3-0948e3e892a7
-date: "2019-04-08T21:09:35+00:00"
+  uuid: d741aa9e-fc68-4074-bb7c-1f5e7356ea49
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: en
   original: en
@@ -11,5 +11,6 @@ title:
   - en
   translations:
     en: In Gryllum
+description: canon
 composition-date: "1995"
 source: manuscript by András Farkas

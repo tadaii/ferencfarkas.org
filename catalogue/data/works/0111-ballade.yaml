@@ -2,8 +2,8 @@ catalog-id:
   id: 0111-ballade
   num-id: 111
   name: ballade
-  uuid: e0e30938-e30e-4525-9309-37b799c46e33
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 71d55e25-e14a-41ac-a63b-40412a9d6f91
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: en
@@ -11,4 +11,5 @@ title:
   - en
   translations:
     en: Ballade
+description: for violoncello and piano
 composition-date: "1963"

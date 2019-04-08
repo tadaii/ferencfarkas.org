@@ -2,8 +2,8 @@ catalog-id:
   id: 0251-sonata-no-2
   num-id: 251
   name: sonata-no-2
-  uuid: b6aeed44-f081-44db-b0c0-ff459993e909
-date: "2019-04-08T21:09:34+00:00"
+  uuid: b10e5912-203d-42d6-9002-a1a650031e03
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: Sonata no. 2
+description: for piano
 composition-date: "1987"
 movements:
 - original-value: 'Allegro impetuoso - Passacaglia, Omaggio a Bach - Toccata (Allegro)

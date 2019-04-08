@@ -2,8 +2,8 @@ catalog-id:
   id: 0693-nepdalok-klarinet-es-csello-kiserettel
   num-id: 693
   name: nepdalok-klarinet-es-csello-kiserettel
-  uuid: 5e4693ed-9b4e-4529-9593-3dc330e90ee6
-date: "2019-04-08T21:09:36+00:00"
+  uuid: eb9b7ca0-ea3c-4399-8441-c0ab27048a28
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Népdalok klarinét és cselló kisérettel
+description: for voice, clarinet and violoncello
 movements:
 - original-value: '1) Amott kerekedik – durata: 1'' 2) Tavaszi szél - durata: 40''''
     3) Ott az erdőszélen - durata: 1''50'''' 4) Megyen már a hajnalcsillag – durata:

@@ -2,8 +2,8 @@ catalog-id:
   id: 0051-szeged-fountains-symphony
   num-id: 51
   name: szeged-fountains-symphony
-  uuid: d6bba711-982d-46a7-ac7d-11fcd7d91c13
-date: "2019-04-08T21:09:33+00:00"
+  uuid: e7d6ef59-2868-417a-8142-75dca3768e0a
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: hu
@@ -13,5 +13,6 @@ title:
   translations:
     en: Szeged fountain's symphony
     hu: Szegedi szökökút szimfónia
+description: for orchestra
 composition-date: "1979"
 setting: 3 (picc.), 3, 3, 2 – 4, 3, 3, 1 – timp., batt. – arpa, cel. – archi

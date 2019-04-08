@@ -2,8 +2,8 @@ catalog-id:
   id: 0490-ronde
   num-id: 490
   name: ronde
-  uuid: 64eea06c-4320-424a-9836-a1c1f19bd417
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 1671da50-7f64-480a-ba4e-5399736c89f5
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: es
   original: hu
@@ -13,5 +13,6 @@ title:
   translations:
     es: Ronde
     hu: Körtánc
+description: for 3-part female or children’s choir
 composition-date: "1975"
 dedication: Andrásnak

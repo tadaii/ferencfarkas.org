@@ -2,8 +2,8 @@ catalog-id:
   id: 0515-allj-be-koezibenk-
   num-id: 515
   name: allj-be-koezibenk-
-  uuid: e56f5fe0-3e27-4fdd-af00-1af038b92118
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 2703468e-c9d4-45a0-9140-da3cd3c5bd0f
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,8 @@ title:
   - en
   translations:
     en: Állj be közibénk !
+description: for 3 equal voices with piano accompaniment from the operetta "Zeng az
+  erdő"
 composition-date: "1951"
 reworking: Zeng az erdő, operetta
 dedication: a Vasas Kórusnak

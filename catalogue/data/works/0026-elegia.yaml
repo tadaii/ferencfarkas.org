@@ -2,8 +2,8 @@ catalog-id:
   id: 0026-elegia
   num-id: 26
   name: elegia
-  uuid: 94136a50-db00-457c-b9c3-7ef6be3f5728
-date: "2019-04-08T21:09:33+00:00"
+  uuid: 53e6bd33-a7a4-44cc-b1df-2eb80712c6b2
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: pt
   original: pt
@@ -11,6 +11,7 @@ title:
   - pt
   translations:
     pt: Elegia
+description: for orchestra
 composition-date: "1952"
 setting: 3 (III = picc.), 3 (III = c.i.), 3 (III = cl. b.), 3 (III = cfg) – 4, 4,
   3, 1 – timp., batt. – arpa – archi

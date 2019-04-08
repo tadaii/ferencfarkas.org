@@ -2,8 +2,8 @@ catalog-id:
   id: 0030-hungarian-dances-from-the-17th-century
   num-id: 30
   name: hungarian-dances-from-the-17th-century
-  uuid: 9435feee-a71f-438b-949f-e6c9db0ee6d1
-date: "2019-04-08T21:09:33+00:00"
+  uuid: 9c1f2ac5-75ec-4e73-aaef-7c2ef63bac33
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: Hungarian dances from the 17th century
+description: for chamber orchestra
 composition-date: "1961"
 movements:
 - original-value: 1) Allegro moderato - Lo stesso tempo - 2) Andante moderato - Lo

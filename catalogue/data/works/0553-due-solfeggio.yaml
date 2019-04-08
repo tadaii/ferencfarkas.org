@@ -2,8 +2,8 @@ catalog-id:
   id: 0553-due-solfeggio
   num-id: 553
   name: due-solfeggio
-  uuid: 410e6a8b-3399-4bec-bb40-bb759c2ccd0f
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 0d549d3c-c8ba-4219-bc01-e2e7cfd751af
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: it
   original: it
@@ -11,6 +11,7 @@ title:
   - it
   translations:
     it: Due solfeggio
+description: 2 vocal studies for beginners, without text for voice and piano
 composition-date: "1955"
 nb: 'no. 1 is the melody from “Négy dal Erdélyi József verseire” , no. 1 : “Utlevél”
   for voice and piano no 2 is the melody from “Emlékkönyvbe” for voice and piano'

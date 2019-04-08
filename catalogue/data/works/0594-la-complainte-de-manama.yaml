@@ -2,8 +2,8 @@ catalog-id:
   id: 0594-la-complainte-de-manama
   num-id: 594
   name: la-complainte-de-manama
-  uuid: 72c5ac15-217a-42e8-aade-10fcb6ebfcd8
-date: "2019-04-08T21:09:36+00:00"
+  uuid: a2227c67-c76a-4ed6-a0eb-6d05644a6871
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: fr
   original: fr
@@ -11,5 +11,6 @@ title:
   - fr
   translations:
     fr: La complainte de Manama
+description: for voice and piano
 composition-date: "1929"
 source: manuscript by András Farkas

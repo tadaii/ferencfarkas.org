@@ -2,8 +2,8 @@ catalog-id:
   id: 0492-tillio-lio
   num-id: 492
   name: tillio-lio
-  uuid: a4a167ff-4726-4c59-b308-f28cc9207964
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 8d193316-3e0a-4120-9878-e5dc36df11ac
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Tillió-Lió
+description: for 2-part female choir or children's choir
 composition-date: "1969"
 movements:
 - original-value: '1) Fecske elfut a szárnyán - text by Ernö Szép - durata : 1‘20‘’

@@ -2,8 +2,8 @@ catalog-id:
   id: 0667-quatre-quatrains-avec-4-cordes
   num-id: 667
   name: quatre-quatrains-avec-4-cordes
-  uuid: aa098b53-f68f-4de7-975e-6f2b37dec33e
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 965d0442-31e1-4b31-8821-9d3f95af09f1
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: fr
   original: fr
@@ -11,6 +11,7 @@ title:
   - fr
   translations:
     fr: Quatre quatrains avec 4 cordes
+description: for voice and violoncello
 composition-date: "1996"
 movements:
 - original-value: '1) Bel éventail - text by Stéphane Mallarmé – durata: 40'''' 2)

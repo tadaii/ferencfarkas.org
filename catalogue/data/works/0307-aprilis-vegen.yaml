@@ -2,8 +2,8 @@ catalog-id:
   id: 0307-aprilis-vegen
   num-id: 307
   name: aprilis-vegen
-  uuid: 4d3573af-db2b-4f6d-950e-11d8eefd2b21
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 28a42659-2084-44bc-be7a-56989598ab7f
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,6 @@ title:
   - hu
   translations:
     hu: Április végén
+description: for 4-part mixed choir
 composition-date: "1986"
 source: manuscript by András Farkas

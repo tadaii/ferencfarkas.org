@@ -2,8 +2,8 @@ catalog-id:
   id: 0695-play-up-gipsy-huzd-ra-cigany
   num-id: 695
   name: play-up-gipsy-huzd-ra-cigany
-  uuid: 5e3fbbc9-96b6-45b8-bac7-3eb90880c44f
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 2e37b125-5878-4b18-9bac-87c5fc096447
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -13,3 +13,4 @@ title:
   translations:
     de: Spiel auf, Zigeuner!
     hu: Play up, Gipsy! Húzd rá cigány!
+description: 60 Hungarian songs for violin and piano

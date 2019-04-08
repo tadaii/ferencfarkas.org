@@ -2,8 +2,8 @@ catalog-id:
   id: 0175-serenade
   num-id: 175
   name: serenade
-  uuid: e85692d5-83b1-4731-97b8-48dda5ea8eb5
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 134a6a32-0880-4153-a4c8-c49e616b13b1
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: Serenade
     hu: Szerenád
+description: for recorder and 2 violins
 composition-date: "1965"
 movements:
 - original-value: Allegro moderato, Marcietta, Scherzino, Intermezzo, Rondo

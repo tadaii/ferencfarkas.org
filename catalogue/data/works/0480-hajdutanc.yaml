@@ -2,8 +2,8 @@ catalog-id:
   id: 0480-hajdutanc
   num-id: 480
   name: hajdutanc
-  uuid: a0f0bf80-ca13-424e-978d-4a707fad7d7a
-date: "2019-04-08T21:09:35+00:00"
+  uuid: f097f0fe-5e53-4ea8-a709-5abfc60ddafd
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,6 @@ title:
   - hu
   translations:
     hu: Hajdútánc
+description: for 3-part female choir or children's choir
 composition-date: "1975"
 reworking: Hajdútánc for male choir Hajdútánc for mixed choir

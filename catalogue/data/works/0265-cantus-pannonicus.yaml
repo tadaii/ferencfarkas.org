@@ -2,8 +2,8 @@ catalog-id:
   id: 0265-cantus-pannonicus
   num-id: 265
   name: cantus-pannonicus
-  uuid: cfbe1e96-ae26-4ebe-9ffc-5a7e2ceca02c
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 6d476faf-074d-496c-ab9f-eb16abd35e05
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: la
   original: la
@@ -11,6 +11,7 @@ title:
   - la
   translations:
     la: Cantus Pannonicus
+description: cantata for soprano solo, mixed choir and orchestra
 composition-date: "1959"
 movements:
 - original-value: 1) Laus Pannoniae – 2) De Agnete – 3) Abiens valere iubet sanctos

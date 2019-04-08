@@ -2,8 +2,8 @@ catalog-id:
   id: 0313-ballada-irisz-fatyolarol
   num-id: 313
   name: ballada-irisz-fatyolarol
-  uuid: 82005b57-82ba-4130-950d-3917599ceca0
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 5b23a86a-f87e-46dd-b099-a367862dd67c
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: hu
   original: hu
@@ -11,4 +11,5 @@ title:
   - hu
   translations:
     hu: Ballada Irisz fátyoláról
+description: for 4-part mixed choir
 composition-date: "1983"

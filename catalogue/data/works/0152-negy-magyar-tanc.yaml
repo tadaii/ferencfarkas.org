@@ -2,8 +2,8 @@ catalog-id:
   id: 0152-negy-magyar-tanc
   num-id: 152
   name: negy-magyar-tanc
-  uuid: 00b4bf7e-55fe-4d09-9c58-6618f2556808
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 11799b9f-e556-4725-a055-e0feb6eb586e
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: hu
   original: hu
@@ -11,4 +11,5 @@ title:
   - hu
   translations:
     hu: Négy magyar tánc
+description: for flute and cimbalom
 source: manuscript by András Farkas

@@ -2,8 +2,8 @@ catalog-id:
   id: 0134-eclogue
   num-id: 134
   name: eclogue
-  uuid: 14b468de-54fd-44c6-ab8e-36a7b3ed09ea
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 0e07d261-472c-447f-be36-c00975a23e41
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: en
@@ -11,5 +11,6 @@ title:
   - en
   translations:
     en: Eclogue
+description: for violoncello and harp
 reworking: Egloga-Burattinata for flute or violin and guitar Eclogue for viola and
   guitar Eclogue for flute and harp

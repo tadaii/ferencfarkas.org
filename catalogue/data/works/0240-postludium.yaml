@@ -2,8 +2,8 @@ catalog-id:
   id: 0240-postludium
   num-id: 240
   name: postludium
-  uuid: 91cb75a2-99fb-47b7-b494-0dad9b386292
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 506d5b3a-5df6-485f-b493-abfbe5b26f12
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: pl
   original: pl
@@ -11,4 +11,5 @@ title:
   - pl
   translations:
     pl: Postludium
+description: for organ
 composition-date: "1974"

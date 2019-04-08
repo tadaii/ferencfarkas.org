@@ -2,8 +2,8 @@ catalog-id:
   id: 0021-dances-from-kallo
   num-id: 21
   name: dances-from-kallo
-  uuid: bef7bd54-6240-4e6b-927a-b5a7294314b6
-date: "2019-04-08T21:09:33+00:00"
+  uuid: 2019935a-e4d0-4c95-b156-e6a701adb7e0
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: Dances from Kálló
     hu: Kállai táncok
+description: for orchestra
 composition-date: "1931"
 setting: 2, 2 (II = c.i.), 2, 2 - 2, 1, 1, 0 - pf. - archi
 reworking: Kállai táncok for folk orchestra

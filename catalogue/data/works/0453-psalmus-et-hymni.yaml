@@ -2,8 +2,8 @@ catalog-id:
   id: 0453-psalmus-et-hymni
   num-id: 453
   name: psalmus-et-hymni
-  uuid: 947a7718-5aca-4f26-a7ce-de01e4fc148c
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 782f1ed5-f3da-4470-9b76-45d162bec7a3
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: la
   original: la
@@ -11,6 +11,7 @@ title:
   - la
   translations:
     la: Psalmus et Hymni
+description: for 4-part male choir
 composition-date: "1988"
 movements:
 - original-value: '1) Psalmus X - durata : 2’50‘’ 2) Hymnus de Amore Divino - text

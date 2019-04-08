@@ -2,8 +2,8 @@ catalog-id:
   id: 0143-lavottiana
   num-id: 143
   name: lavottiana
-  uuid: 4dbccdd0-d965-4ff9-81b1-982424d5b67d
-date: "2019-04-08T21:09:34+00:00"
+  uuid: c3ffe95e-2c0e-424c-951f-045acfe3b741
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Lavottiana
+description: for wind quintet after themes from János von Lavotta (1764-1820)
 composition-date: "1967"
 movements:
 - original-value: 1) Indulás Pannónia felé / Marsch nach Pannonien - 2) Menüett /

@@ -2,8 +2,8 @@ catalog-id:
   id: 0052-the-magic-cupboard
   num-id: 52
   name: the-magic-cupboard
-  uuid: 4e4ba755-df53-485d-8d63-b7cfdea413e8
-date: "2019-04-08T21:09:33+00:00"
+  uuid: 20882e99-675a-40d9-a78d-0ad0ec6279d5
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: en
@@ -13,6 +13,7 @@ title:
   translations:
     de: Der Wunderschrank
     en: The magic cupboard
+description: for orchestra concert-overture from the opera “The magic cupboard”
 composition-date: "1942"
 setting: 2, 2, 2, 2 – 4, 3, 3, 1 – timp., batt. – arpa, cel., vibr.(ad lib.) – archi
 reworking: The magic cupboard, opera Overture to a comedy for orchestra

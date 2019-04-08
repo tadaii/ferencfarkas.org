@@ -2,8 +2,8 @@ catalog-id:
   id: 0221-harom-fantazia
   num-id: 221
   name: harom-fantazia
-  uuid: ca70727d-3334-4518-a714-43efc387f442
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 03706b42-b082-4a63-8a43-e2f8eaaf6b58
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Három fantázia
+description: for piano on 3 pieces for lute by Bálint Bakfark (l507-l576)
 composition-date: 1943, rev. 1973
 movements:
 - original-value: 1) Moderato, non troppo lento - 2) Andante - 3) Allegro

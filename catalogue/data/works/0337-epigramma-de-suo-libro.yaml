@@ -2,8 +2,8 @@ catalog-id:
   id: 0337-epigramma-de-suo-libro
   num-id: 337
   name: epigramma-de-suo-libro
-  uuid: eb214627-d7f7-415c-a758-1c3c7053823c
-date: "2019-04-08T21:09:35+00:00"
+  uuid: dfa85c25-076b-4393-933c-86027ca9ddc0
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: it
   original: it
@@ -11,4 +11,5 @@ title:
   - it
   translations:
     it: Epigramma de suo libro
+description: for 4-part mixed choir
 composition-date: "1960"

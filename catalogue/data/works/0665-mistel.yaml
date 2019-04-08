@@ -2,8 +2,8 @@ catalog-id:
   id: 0665-mistel
   num-id: 665
   name: mistel
-  uuid: b09c679e-fea7-414c-86a2-a5faae38055a
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 90b81fb2-a1d7-42a2-8693-c686cd1dde2a
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: de
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     de: Mistel
     hu: Fagyöngy
+description: for voice and orchestra
 composition-date: "1940"
 movements:
 - original-value: 1) Csigabiga 2) Tavaszban 3) Mint a fagyöngy sír 4) Ejszaka 5) Hajnali

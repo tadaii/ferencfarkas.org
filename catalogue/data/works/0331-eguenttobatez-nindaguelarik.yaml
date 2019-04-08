@@ -2,8 +2,8 @@ catalog-id:
   id: 0331-eguenttobatez-nindaguelarik
   num-id: 331
   name: eguenttobatez-nindaguelarik
-  uuid: 58627172-75d1-4f0d-bede-12fa9b19792a
-date: "2019-04-08T21:09:35+00:00"
+  uuid: e886612b-3a28-40a4-8635-7bc63d854cde
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: eu
   original: eu
@@ -11,4 +11,5 @@ title:
   - eu
   translations:
     eu: Egünttobatez nindaguelarik
+description: Basque song for 4-part mixed choir
 composition-date: "1993"

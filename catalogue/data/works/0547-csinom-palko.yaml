@@ -2,8 +2,8 @@ catalog-id:
   id: 0547-csinom-palko
   num-id: 547
   name: csinom-palko
-  uuid: f779dfb7-1412-420e-97ca-516fba5095c9
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 0e8d71a5-2a8e-4c0c-8864-94396e4d8d21
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Csínom Palkó
+description: 8 melodies from the opera of the same title for voice and piano
 composition-date: "1949"
 movements:
 - original-value: '1) Jójszakát - durata : 5’ 2) Ahol te jársz - durata : 3’ 3) Jó

@@ -2,8 +2,8 @@ catalog-id:
   id: 0114-concertino-rustico
   num-id: 114
   name: concertino-rustico
-  uuid: f7eff612-a5ab-45da-9a75-0170787e6a77
-date: "2019-04-08T21:09:34+00:00"
+  uuid: fc2f26eb-30dd-451a-8261-68ab81479bfe
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: es
   original: es
@@ -11,6 +11,7 @@ title:
   - es
   translations:
     es: Concertino rustico
+description: for Alphorn and organ
 composition-date: "1977"
 movements:
 - original-value: Allegro, Andante, Allegro vivace

@@ -2,8 +2,8 @@ catalog-id:
   id: 0376-la-saint-jean
   num-id: 376
   name: la-saint-jean
-  uuid: d3dc76ae-5ed3-48e1-a085-51f41b85ce55
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 32713d50-7574-4a33-a668-5ee76e52cd5d
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: en
   original: en
@@ -11,5 +11,6 @@ title:
   - en
   translations:
     en: La Saint Jean
+description: for 4-part mixed choir
 composition-date: "1987"
 source: manuscript by András Farkas

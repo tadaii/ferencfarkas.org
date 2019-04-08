@@ -2,8 +2,8 @@ catalog-id:
   id: 0549-deep-river
   num-id: 549
   name: deep-river
-  uuid: bf8dcf10-2a43-4e48-b8e2-39021ec0e2ef
-date: "2019-04-08T21:09:36+00:00"
+  uuid: d1d40a2f-2a58-47f3-bb69-258a3a423454
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: en
   original: en
@@ -13,6 +13,7 @@ title:
   translations:
     af: Zúgj hullám
     en: Deep river
+description: 12 Negro spirituals for voice and piano
 movements:
 - original-value: '1) Hazafelé / Swing low – durata : 1’30'''' 2) Ki tudja, látsz-e
     ? / Nobody knows – durata : 2’20'''' 3) Jöjj el, Mózes / Go down Moses – durata

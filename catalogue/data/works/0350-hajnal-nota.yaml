@@ -2,8 +2,8 @@ catalog-id:
   id: 0350-hajnal-nota
   num-id: 350
   name: hajnal-nota
-  uuid: 716f85a8-868f-4a20-a8b5-ac9d1fbb4fe2
-date: "2019-04-08T21:09:35+00:00"
+  uuid: a2c7229e-f0ad-4abe-9c24-576e704d3c10
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: ga
   original: ga
@@ -11,5 +11,7 @@ title:
   - ga
   translations:
     ga: Hajnal nóta
+description: French troubadour song from the 13th century for 4-part mixed choir Hungarian
+  version from “Aubade” for mixed choir
 reworking: Aubade for mixed choir Aubade for male choir Hajnal nóta for male choir
   Hajnal nóta for female choir

@@ -2,8 +2,8 @@ catalog-id:
   id: 0651-estampas-espanolas
   num-id: 651
   name: estampas-espanolas
-  uuid: f57457b1-b692-4f6d-b007-0a024f7ea29e
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 7fc7ab5b-05b2-4e5c-a5c3-79d9b0c38b15
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: Estampas espanolas
+description: for voice and guitar
 composition-date: "1988"
 movements:
 - original-value: '1) Noche de verano - text by A. Machado – durata: 2’30'''' 2) Amanecer

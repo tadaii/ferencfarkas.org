@@ -2,8 +2,8 @@ catalog-id:
   id: 0283-tinodi-historiaja-eger-var-viadalarol
   num-id: 283
   name: tinodi-historiaja-eger-var-viadalarol
-  uuid: 25161ed0-bffd-4ab7-bcc3-3104e563da25
-date: "2019-04-08T21:09:34+00:00"
+  uuid: e0a2fe58-0678-42bf-b297-e49e12cc37b8
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Tinódi históriája Eger Vár Viadaláról
+description: cantata for baritone solo, mixed choir and orchestra
 composition-date: "1952"
 setting: 2, 1, 2, 2 – 4, 2, 3, 0 – timp., batt. – arpa, archi
 source: 'score: manuscript by András Farkas'

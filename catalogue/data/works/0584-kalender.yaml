@@ -2,8 +2,8 @@ catalog-id:
   id: 0584-kalender
   num-id: 584
   name: kalender
-  uuid: d2aa91d5-f8ec-4c1a-bd75-e247a4a755a4
-date: "2019-04-08T21:09:36+00:00"
+  uuid: ce76f402-b665-448f-892f-ceb8abf629eb
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: de
   original: hu
@@ -15,6 +15,7 @@ title:
     de: Kalender
     en: Calendar
     hu: Naptár
+description: for soprano, tenor and piano
 composition-date: "1955"
 movements:
 - original-value: Januar / Január, Februar / Február, März / Március, April / Április

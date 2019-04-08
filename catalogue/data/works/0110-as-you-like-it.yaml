@@ -2,8 +2,8 @@ catalog-id:
   id: 0110-as-you-like-it
   num-id: 110
   name: as-you-like-it
-  uuid: 3f8eb201-7fef-49a5-97eb-8f19d106d1be
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 62f190d9-8f4d-45fe-9396-bbf48eae8340
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,8 @@ title:
   - en
   translations:
     en: As you like it
+description: for 2 violins and harp suite in old style based on the incidental music
+  for the play “Ahogy tetszik / As you like it” by William Shakespeare
 composition-date: 1939, rev. 1978
 movements:
 - original-value: Petite ouverture, Chanson, Intermezzo, Madrigal

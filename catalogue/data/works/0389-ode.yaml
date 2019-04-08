@@ -2,8 +2,8 @@ catalog-id:
   id: 0389-ode
   num-id: 389
   name: ode
-  uuid: 24fac3e1-2e4a-4f0b-8530-6213a6c420fd
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 4333b63a-500c-4c52-993a-facf866ef9c3
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: en
   original: en
@@ -11,5 +11,7 @@ title:
   - en
   translations:
     en: Ode
+description: for 4-part mixed choir and wind octet (2 oboes, 2 clarinets, 2 horns,
+  2 bassons)
 composition-date: "1976"
 source: manuscript by András Farkas

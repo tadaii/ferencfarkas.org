@@ -2,8 +2,8 @@ catalog-id:
   id: 0623-rosarium
   num-id: 623
   name: rosarium
-  uuid: e4ddd34d-6eb4-4237-a284-839f0c1db4a8
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 7a1caf27-6dec-434d-9abf-c56dddd4de89
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: de
   original: de
@@ -11,6 +11,7 @@ title:
   - de
   translations:
     de: Rosarium
+description: for voice and piano or organ
 composition-date: 1933-1976
 movements:
 - original-value: '1) Salve Regina – durata : 2’ 2) Ave Maria - durata: 2’21’’ 3)

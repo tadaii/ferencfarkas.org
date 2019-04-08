@@ -2,8 +2,8 @@ catalog-id:
   id: 0185-sonatina-based-on-hungarian-folk-songs
   num-id: 185
   name: sonatina-based-on-hungarian-folk-songs
-  uuid: d4e01436-61a4-492f-8e4b-9517d6bf6516
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 2e71c1e3-509d-4b97-ba6e-cefea6852d73
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,8 @@ title:
   translations:
     en: Sonatina based on Hungarian folk songs
     hu: Népdalszonatina
+description: Sonatina based on Hungarian folk songs for double-bass or bassoon or
+  violoncello and piano
 movements:
 - original-value: Allegro moderato, Andante espressivo, Allegro vivace
 source: manuscript by András Farkas

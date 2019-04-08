@@ -2,8 +2,8 @@ catalog-id:
   id: 0637-voek-iskolaja
   num-id: 637
   name: voek-iskolaja
-  uuid: ea2c03a3-24ee-4092-86f8-4d232c0e9d62
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 2e6f224d-7a84-4c11-9cd1-736e3a9a7886
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Vők iskolája
+description: for voice and piano - from the operetta “ Vők iskolája”
 composition-date: "1958"
 movements:
 - original-value: '1) Azt álmodtam ma éjjel - durata: 2’30'''' 2) Marcikám - durata:

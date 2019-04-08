@@ -2,8 +2,8 @@ catalog-id:
   id: 0034-maschere
   num-id: 34
   name: maschere
-  uuid: afa02baf-b5d6-474f-93bc-a113b259323c
-date: "2019-04-08T21:09:33+00:00"
+  uuid: 8af8d0d0-47cb-4339-9479-1c1edd5dc4bb
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: it
   original: it
@@ -11,6 +11,8 @@ title:
   - it
   translations:
     it: Maschere
+description: for chamber orchestra composed after the paintings of Gino Severini illustrating
+  figures of the «Commedia dell’arte»
 composition-date: "1983"
 movements:
 - original-value: 1) Il Capitano - 2) Pantalone - 3) Colombina - 4) Povero Pulcinella

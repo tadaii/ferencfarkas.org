@@ -2,8 +2,8 @@ catalog-id:
   id: 0656-fruit-basket
   num-id: 656
   name: fruit-basket
-  uuid: d8fd11af-9652-4e7d-bcce-f84db3c2167a
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 4486a8b9-dc70-44a5-9cf8-e46d534d709a
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: en
   original: hu
@@ -17,6 +17,7 @@ title:
     en: Fruit basket
     fr: Panier de fruits
     hu: Gyümölcskosár
+description: for voice and guitar adaptation by Ferenc Fodor
 movements:
 - original-value: 1) Gáspár / Kaspar / Bastide 2) Ládika / Das Zauberkästlein / Le
     pot de fer 3) Marasztalás / Sonnenstrahlen / Supplication 4) Falusi reggel / Dorfmorgen

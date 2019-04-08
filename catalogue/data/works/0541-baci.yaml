@@ -2,8 +2,8 @@ catalog-id:
   id: 0541-baci
   num-id: 541
   name: baci
-  uuid: 85e8bb30-4968-49b2-9810-3f5c243681f3
-date: "2019-04-08T21:09:35+00:00"
+  uuid: d9c07a9c-27dc-4522-a31e-43b8632064bd
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: tr
   original: tr
@@ -11,5 +11,6 @@ title:
   - tr
   translations:
     tr: Baci
+description: for voice and piano
 composition-date: "1930"
 source: manuscript by András Farkas

@@ -2,8 +2,8 @@ catalog-id:
   id: 0348-madrigal-from-goecsej
   num-id: 348
   name: madrigal-from-goecsej
-  uuid: 2273674e-4684-472c-a43d-803db1a33a1d
-date: "2019-04-08T21:09:35+00:00"
+  uuid: d36b787a-3c94-4223-aa01-52db74f63b68
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: en
   original: en
@@ -12,4 +12,5 @@ title:
   - en
   translations:
     en: Madrigal from Göcsej
+description: for 4-part mixed choir
 composition-date: "1969"

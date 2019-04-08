@@ -2,8 +2,8 @@ catalog-id:
   id: 0374-kyrie
   num-id: 374
   name: kyrie
-  uuid: c64253c2-d420-4ebd-bcd8-b6f16f2fdef8
-date: "2019-04-08T21:09:35+00:00"
+  uuid: a732920f-110f-4a5e-a911-c945da6a5473
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: fr
   original: fr
@@ -11,5 +11,7 @@ title:
   - fr
   translations:
     fr: Kyrie
+description: for 4-part mixed choir Extract from the”Missa secunda in honorem Santcta
+  Margaritae”
 composition-date: 1964-1968
 reworking: Missa secunda in honorem Santcta Margaritae

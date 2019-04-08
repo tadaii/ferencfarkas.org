@@ -2,8 +2,8 @@ catalog-id:
   id: 0427-apeldoorn-beschikt
   num-id: 427
   name: apeldoorn-beschikt
-  uuid: c7563b23-d3e8-440d-8191-34f97ae5467a
-date: "2019-04-08T21:09:35+00:00"
+  uuid: b924e59c-1c7c-42a3-845f-f75f41db50fd
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: nl
   original: nl
@@ -11,6 +11,7 @@ title:
   - nl
   translations:
     nl: Apeldoorn beschikt
+description: for 4-part male choir
 composition-date: "1997"
 source: manuscript by András Farkas
 nb: command from the European Male Choir Festival, Apeldoorn 1997

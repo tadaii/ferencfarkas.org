@@ -2,8 +2,8 @@ catalog-id:
   id: 0227-journal-1987
   num-id: 227
   name: journal-1987
-  uuid: 5b36aa8f-4d81-48e6-befe-988e15835f67
-date: "2019-04-08T21:09:34+00:00"
+  uuid: f15527cd-9031-4746-b518-b24b8a75a9e8
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: Journal 1987
     hu: Naplójegyzetek 1987
+description: for piano
 composition-date: "1987"
 movements:
 - original-value: 1) Projets du matin / Reggeli tervek - 2) Jeu / Játék - 3) Berceuse

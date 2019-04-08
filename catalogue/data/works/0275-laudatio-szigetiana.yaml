@@ -2,8 +2,8 @@ catalog-id:
   id: 0275-laudatio-szigetiana
   num-id: 275
   name: laudatio-szigetiana
-  uuid: d7865b47-2a26-47e3-8981-1eac3d4a07e0
-date: "2019-04-08T21:09:34+00:00"
+  uuid: a83720b0-3782-4e26-b45d-c4718bbfa0e0
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: la
   original: hu
@@ -13,6 +13,8 @@ title:
   translations:
     hu: Szigetvár dicsérete
     la: Laudatio Szigetiana
+description: oratorio in 2 parts for reciter, 6 soli, mixed choir, children’s choir
+  and orchestra
 composition-date: "1966"
 setting: 3 (picc.), 2, 2, 2 – 4, 3, 3, 1 – timp., batt. (3 ess.) – arpa, cel. ad lib.
   – archi

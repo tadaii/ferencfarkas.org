@@ -2,8 +2,8 @@ catalog-id:
   id: 0413-sonetto-cccxxxiii-di-petrarca
   num-id: 413
   name: sonetto-cccxxxiii-di-petrarca
-  uuid: 38647c18-572a-4f24-80fe-8ad31d423b56
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 55613992-2ac5-42e8-a8d0-2936c0dcf2e4
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: it
   original: it
@@ -11,5 +11,6 @@ title:
   - it
   translations:
     it: Sonetto CCCXXXIII di Petrarca
+description: for 4-part mixed choir
 composition-date: "1992"
 dedication: Pro memoria M.

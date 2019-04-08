@@ -2,8 +2,8 @@ catalog-id:
   id: 0169-rondo-latidiremi
   num-id: 169
   name: rondo-latidiremi
-  uuid: 5b0c1f65-1cd8-4db6-9352-0d4f07526ae0
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 4de7ecee-be97-4e9f-b29d-384b2cdf93b6
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: en
@@ -11,5 +11,6 @@ title:
   - en
   translations:
     en: Rondo “Latidiremi”
+description: for violin and piano
 composition-date: "1992"
 source: manuscript by András Farkas

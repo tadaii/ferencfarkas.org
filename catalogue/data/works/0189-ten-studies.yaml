@@ -2,8 +2,8 @@ catalog-id:
   id: 0189-ten-studies
   num-id: 189
   name: ten-studies
-  uuid: c2078885-3bbd-40c1-90bb-5c7915c04c18
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 7de13203-9e79-4699-a857-30d812a0e5c2
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: Ten studies
+description: for violin and viola
 composition-date: "1997"
 movements:
 - original-value: 1) Preludium - 2) Choral - 3) Sonatina - 4) Träumerei I - 5) Pizzicato

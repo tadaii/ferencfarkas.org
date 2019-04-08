@@ -2,8 +2,8 @@ catalog-id:
   id: 0698-zoeld-a-koekeny
   num-id: 698
   name: zoeld-a-koekeny
-  uuid: 9d637184-2bd4-484e-b52f-83772e2f6770
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 3d73e01e-5196-434a-ac7d-3b46b3f93b20
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Zöld a kökény
+description: for voice and piano
 movements:
 - original-value: '1) Az lászlai új majorban - durata: 1’20'''' 2) Az öcsényi kertek
     alja végén – durata: 50'''' 3) Bereg náni - durata: 50'''' 4) Egyszer két lányok

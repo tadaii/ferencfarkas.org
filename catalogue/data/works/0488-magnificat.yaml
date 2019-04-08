@@ -2,8 +2,8 @@ catalog-id:
   id: 0488-magnificat
   num-id: 488
   name: magnificat
-  uuid: cb15ee8d-84bb-405a-9797-cd39523270b9
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 8605a674-bf5c-45f2-9d07-03119c4a12a6
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: fr
   original: fr
@@ -11,5 +11,6 @@ title:
   - fr
   translations:
     fr: Magnificat
+description: for 3-part female choir and organ
 composition-date: "1994"
 dedication: for Vrouwen Kleinkoor Orpheus and Albert Wissink

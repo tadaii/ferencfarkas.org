@@ -2,8 +2,8 @@ catalog-id:
   id: 0115-contrafacta-hungarica
   num-id: 115
   name: contrafacta-hungarica
-  uuid: 7198483d-3c6f-4631-a6b4-61361011ea5e
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 744d2387-9675-4e6a-9671-b0981f67e673
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: bi
   original: bi
@@ -11,6 +11,7 @@ title:
   - bi
   translations:
     bi: Contrafacta Hungarica
+description: for wind octet Hungarian dances from the 16th century
 composition-date: "1976"
 movements:
 - original-value: Basse danse, Gagliarda, Passamezzo, Saltarello, Andante espressivo,

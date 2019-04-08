@@ -2,8 +2,8 @@ catalog-id:
   id: 0129-early-hungarian-dances-from-the-17th-century
   num-id: 129
   name: early-hungarian-dances-from-the-17th-century
-  uuid: e5df5e51-127a-4529-80a2-b770dd01dc66
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 4122bbd8-87c3-4a40-a912-59612c80facf
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,8 @@ title:
   - en
   translations:
     en: Early Hungarian dances from the 17th century
+description: Antiche danze ungheresi del 17. secolo / Régi magyar táncok a 17. századból
+  / Danses hongroises du 17ème siècle / Alte ungarische Tänze / Old Hungarian dances
 composition-date: "1988"
 movements:
 - original-value: Apor Lázár tánca, Chorea, Ugrós

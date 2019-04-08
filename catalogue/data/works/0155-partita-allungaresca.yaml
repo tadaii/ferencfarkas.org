@@ -2,8 +2,8 @@ catalog-id:
   id: 0155-partita-allungaresca
   num-id: 155
   name: partita-allungaresca
-  uuid: aba4f14c-a7be-4bbe-bae7-7d20c7fe6792
-date: "2019-04-08T21:09:34+00:00"
+  uuid: cf435223-2242-4ea1-af60-01faa150a351
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: Partita all'ungaresca
+description: for guitar quartet based on dances and melodies from the 16th century
 composition-date: "1995"
 movements:
 - original-value: 1) Allegro - 2) Andante - 3) Allegro (Hajdùtánc)

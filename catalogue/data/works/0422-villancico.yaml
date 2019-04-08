@@ -2,8 +2,8 @@ catalog-id:
   id: 0422-villancico
   num-id: 422
   name: villancico
-  uuid: f496867a-124e-48e4-876f-77dc3a8156f5
-date: "2019-04-08T21:09:35+00:00"
+  uuid: b5712a4e-d780-4ee3-bf5f-1aa93e7ab953
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: es
   original: es
@@ -11,6 +11,7 @@ title:
   - es
   translations:
     es: Villancico
+description: Christmas song from South America for 4-part mixed choir
 composition-date: "1998"
 reworking: 'Kicsi gyermek for female choir Christmas album no 10 : Kicsi gyermek for
   voice and piano'

@@ -2,8 +2,8 @@ catalog-id:
   id: 0166-ricordo-di-somogy
   num-id: 166
   name: ricordo-di-somogy
-  uuid: 69f38494-decb-4b4b-9604-96ed1dc452f1
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 6a68a225-616b-491f-aef3-ef87f8c95f84
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Ricordo di Somogy
+description: for guitar trio 5 Hungarian folk melodies
 composition-date: "1977"
 movements:
 - original-value: 1) Moderato - 2) Lento, quasi marcia funebre - 3) Allegro scherzando

@@ -2,8 +2,8 @@ catalog-id:
   id: 0382-majusi-dalocska
   num-id: 382
   name: majusi-dalocska
-  uuid: cf027b7b-b0c1-4f1b-8819-4f5dd2f1b696
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 9af9ae7b-4809-4f8e-a6e7-fcdec3a40cc9
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: hu
   original: hu
@@ -11,4 +11,5 @@ title:
   - hu
   translations:
     hu: Májusi dalocska
+description: for 4-part mixed choir
 composition-date: "1965"

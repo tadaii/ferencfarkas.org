@@ -2,8 +2,8 @@ catalog-id:
   id: 0469-varkonyi-futonota
   num-id: 469
   name: varkonyi-futonota
-  uuid: 05abe731-e047-4178-b45b-bdfc7cef22b1
-date: "2019-04-08T21:09:35+00:00"
+  uuid: f9711a4c-05d7-4787-920e-6db28770a00b
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: ms
   original: ms
@@ -11,3 +11,4 @@ title:
   - ms
   translations:
     ms: Várkonyi futónóta
+description: for 4-part male choir

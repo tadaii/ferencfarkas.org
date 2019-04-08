@@ -2,8 +2,8 @@ catalog-id:
   id: 0215-early-hungarian-dances
   num-id: 215
   name: early-hungarian-dances
-  uuid: 07ef4877-50e9-400d-bc00-0df5fb0bed3e
-date: "2019-04-08T21:09:34+00:00"
+  uuid: b22f3605-7f4c-4c6a-95fc-af579f5ee5d7
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,8 @@ title:
   - en
   translations:
     en: Early Hungarian dances
+description: Antiche danze ungheresi del 17. secolo / Danses hongroises du 17ème siècle
+  / Alte ungarische Tänze / Old Hungarian dances / Régi magyar táncok
 movements:
 - original-value: 1) Tanz des Fürsten von Siebenbürgen / Erdélyi fejedelem tánca -
     2) Ungarischer Tanz / Magyar tánc - 3) Chorea - 4) Der Tanz des Lázár Apor / Apor

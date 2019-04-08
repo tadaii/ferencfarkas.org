@@ -2,8 +2,8 @@ catalog-id:
   id: 0266-deep-river
   num-id: 266
   name: deep-river
-  uuid: 1fb32472-222d-4376-92b1-72512c4e5603
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 49a5b6b4-eee0-4ec3-89a2-8fca42764e2f
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: en
   original: en
@@ -13,6 +13,8 @@ title:
   translations:
     af: Zúgj hullám
     en: Deep river
+description: cantata for alto and baritone solo, mixed choir and chamber orchestra
+  based on Negro Spirituals
 composition-date: "1965"
 movements:
 - original-value: 1) Jöjj el Mózes - 2) Ki tudja ? - 3) Sohse csüggedj - 4) Hazafelé

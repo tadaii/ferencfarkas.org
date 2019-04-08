@@ -2,8 +2,8 @@ catalog-id:
   id: 0577-harom-dal-shakespeare-ahogy-tetszik-cimue-vigjatekabol
   num-id: 577
   name: harom-dal-shakespeare-ahogy-tetszik-cimue-vigjatekabol
-  uuid: b90d16a4-f4dd-440a-8586-8ee66a13945d
-date: "2019-04-08T21:09:36+00:00"
+  uuid: c4d0294b-e9bf-4d0e-a746-a77aedd2a74d
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -13,5 +13,6 @@ title:
   translations:
     de: Drei Lieder aus dem Lustspiel "Wie es euch gefällt" von Shakespeare
     hu: Három dal Shakespeare "Ahogy tetszik" cimü vigjátékából
+description: 1) Amiens dala / Das Lied des Amiens 2) Dal / Lied 3) Dal / Lied
 composition-date: "1937"
 reworking: Ahogy tetszik / As you like it by Shakespeare – incidental music

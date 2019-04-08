@@ -2,8 +2,8 @@ catalog-id:
   id: 0346-futas-a-gond-eloel
   num-id: 346
   name: futas-a-gond-eloel
-  uuid: 58790f9e-d3fc-429b-84d0-5b41c16e0df4
-date: "2019-04-08T21:09:35+00:00"
+  uuid: a3d75322-ff24-45e8-ac99-1ea069b2108c
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: hu
   original: hu
@@ -11,4 +11,5 @@ title:
   - hu
   translations:
     hu: Futás a gond elől
+description: for 4-part mixed choir
 composition-date: "1977"

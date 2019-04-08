@@ -2,8 +2,8 @@ catalog-id:
   id: 0088-concertino-rustico
   num-id: 88
   name: concertino-rustico
-  uuid: 4fd3f9ee-a013-4125-92fa-5841817d7bc1
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 4c9beee0-725b-4d67-9206-1bafb547917a
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: es
   original: es
@@ -11,6 +11,7 @@ title:
   - es
   translations:
     es: Concertino rustico
+description: for Alphorn and string orchestra
 composition-date: "1977"
 movements:
 - original-value: 1) Allegro - 2) Rubato, a piacere - 3) Allegro vivace

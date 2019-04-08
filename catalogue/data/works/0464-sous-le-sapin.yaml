@@ -2,8 +2,8 @@ catalog-id:
   id: 0464-sous-le-sapin
   num-id: 464
   name: sous-le-sapin
-  uuid: c254008c-7c96-436f-a302-76481e500312
-date: "2019-04-08T21:09:35+00:00"
+  uuid: b3019bf2-7c64-42af-8453-ae0b41c7ec97
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: fr
   original: fr
@@ -11,5 +11,6 @@ title:
   - fr
   translations:
     fr: Sous le sapin
+description: for 4-part male choir
 composition-date: "1979"
 source: manuscript by András Farkas

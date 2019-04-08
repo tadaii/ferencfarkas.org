@@ -2,8 +2,8 @@ catalog-id:
   id: 0572-gasel
   num-id: 572
   name: gasel
-  uuid: f66279a2-12e8-486b-b490-a80a68035fdb
-date: "2019-04-08T21:09:36+00:00"
+  uuid: ba6a6cb9-8b08-4969-b73f-dafdabed3a6d
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: et
   original: et
@@ -11,4 +11,5 @@ title:
   - et
   translations:
     et: Gasel
+description: for voice and piano
 composition-date: "1993"

@@ -2,8 +2,8 @@ catalog-id:
   id: 0611-oktober-vegi-este
   num-id: 611
   name: oktober-vegi-este
-  uuid: 89f09dde-bfb2-4f0d-bcd7-00f474ca8635
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 43364604-ca86-4c2a-86d6-71be5882af02
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: sk
   original: sk
@@ -11,6 +11,7 @@ title:
   - sk
   translations:
     sk: Október végi este
+description: for voice and piano
 composition-date: "1995"
 source: manuscript by András Farkas
 dedication: Pro memoria M.

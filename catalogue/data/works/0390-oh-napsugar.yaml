@@ -2,8 +2,8 @@ catalog-id:
   id: 0390-oh-napsugar
   num-id: 390
   name: oh-napsugar
-  uuid: 8bcc6d9d-e1b4-4b6c-bbe7-b51f250631d6
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 85652106-dfdb-416c-95f1-f147f262df95
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: cs
   original: cs
@@ -11,6 +11,7 @@ title:
   - cs
   translations:
     cs: Óh, napsugár
+description: for 4-part mixed choir
 composition-date: "1983"
 dedication: az Esztergomi Monteverdi kórusnak és karnagyának Hunyadi Zoltánnak az
   énekkar 20 éves jubileumára

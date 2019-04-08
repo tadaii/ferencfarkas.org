@@ -2,8 +2,8 @@ catalog-id:
   id: 0158-piccola-musica-di-concerto
   num-id: 158
   name: piccola-musica-di-concerto
-  uuid: 905433f6-2867-4258-bb64-b94ba9e03809
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 0219729b-5d79-4d4e-a862-8ae08bae930f
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: it
   original: it
@@ -11,6 +11,8 @@ title:
   - it
   translations:
     it: Piccola musica di concerto
+description: for guitar quartet adaptation by Philippe Rayer for the “Quatuor de Versailles”
+  authorised by the composer, 1987
 movements:
 - original-value: 1) Allegro - 2) Andante - 3) Scherzo - 4) Allegro
 reworking: Piccola musica di concerto for string orchestra

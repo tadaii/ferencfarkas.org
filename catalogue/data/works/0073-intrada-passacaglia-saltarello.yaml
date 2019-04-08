@@ -2,8 +2,8 @@ catalog-id:
   id: 0073-intrada-passacaglia-saltarello
   num-id: 73
   name: intrada-passacaglia-saltarello
-  uuid: 3f5cdf55-878c-4e99-b471-efcc588f0b63
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 0e484e75-b117-4322-9a21-dc282d632c41
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: Intrada, Passacaglia, Saltarello
+description: for wind ensemble
 composition-date: "1982"
 setting: 2, 2, 2, 2 (cfg) – 2, 2, 2,1
 reworking: Passacaglia for clarinet mi b, 2 clarinets si b, alto-clarinet mi b, 2

@@ -2,8 +2,8 @@ catalog-id:
   id: 0583-jo-csoend-herceg-eloett
   num-id: 583
   name: jo-csoend-herceg-eloett
-  uuid: c52e1e97-1ecb-49c5-a476-e8130582fe35
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 7d30bea3-f051-49b7-be77-791331a9596d
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,6 @@ title:
   - hu
   translations:
     hu: Jó Csönd-herceg elött
+description: for voice and piano
 composition-date: "1996"
 source: manuscript by András Farkas

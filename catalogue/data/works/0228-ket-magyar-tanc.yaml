@@ -2,8 +2,8 @@ catalog-id:
   id: 0228-ket-magyar-tanc
   num-id: 228
   name: ket-magyar-tanc
-  uuid: 7994edcb-d7b5-45f2-843f-531d2f3b5219
-date: "2019-04-08T21:09:34+00:00"
+  uuid: e66e56d4-3d55-459b-aea6-ee101db72d1d
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: hu
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: Two Hungarian dances
     hu: Két magyar tánc
+description: for piano
 composition-date: "1975"
 movements:
 - original-value: 1) Kecskeméti verbunk - 2) Pásztortánc

@@ -2,8 +2,8 @@ catalog-id:
   id: 0608-negy-dal-paskandi-geza-verseire
   num-id: 608
   name: negy-dal-paskandi-geza-verseire
-  uuid: 2286b1d4-63e2-41b8-b119-ecb42ffdb87d
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 41a0a5e8-bb15-4264-a7f4-315387360818
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Négy dal Páskándi Géza verseire
+description: for voice and piano
 composition-date: 1989-1990
 movements:
 - original-value: '1) Alagút - durata : 2’20'''' 2) Ars poetica a pusztán - durata

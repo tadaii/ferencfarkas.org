@@ -2,8 +2,8 @@ catalog-id:
   id: 0054-the-sly-students
   num-id: 54
   name: the-sly-students
-  uuid: 9209bd6a-8d7c-4e5f-9d4c-9c31712dd0ee
-date: "2019-04-08T21:09:33+00:00"
+  uuid: 79c64f6b-9b4d-4eab-8711-2f57b24f59aa
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: hu
@@ -15,6 +15,7 @@ title:
     de: Die listigen Studenten
     en: The sly students
     hu: Furfangos diákok
+description: for orchestra suite from the ballet of the same title
 composition-date: "1949"
 movements:
 - original-value: 1) Vásár Debrecenben / Fair in Debrecen - 2) Air de danse - 3) Diákok

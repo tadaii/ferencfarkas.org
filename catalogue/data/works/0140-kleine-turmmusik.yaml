@@ -2,8 +2,8 @@ catalog-id:
   id: 0140-kleine-turmmusik
   num-id: 140
   name: kleine-turmmusik
-  uuid: 3320bca6-038a-46f2-a133-b0324b4311db
-date: "2019-04-08T21:09:34+00:00"
+  uuid: e2fbee08-80d8-411a-a2b7-8db0c0727c67
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: nl
   original: hu
@@ -13,4 +13,5 @@ title:
   translations:
     hu: Nyírbátori toronyzene
     nl: Kleine Turmmusik
+description: for 3 trumpets, 3 trombones with 4 horns and tuba ad lib.
 composition-date: "1967"

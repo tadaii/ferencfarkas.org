@@ -2,8 +2,8 @@ catalog-id:
   id: 0302-a-tuecsoek-es-a-hangya
   num-id: 302
   name: a-tuecsoek-es-a-hangya
-  uuid: d63395c7-81da-494d-80fa-1f27a577870f
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 0ff5140f-faf6-407b-9c91-faebfa3c0a3a
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,9 @@ title:
   - hu
   translations:
     hu: A tücsök és a hangya
+description: for mezzo-soprano, 4-part mixed choir and 4 guitars or piano Hungarian
+  version from "La Cigale et la fourmi" for mixed choir, mezzo-soprano and piano or
+  4 guitars
 composition-date: "1977"
 reworking: La cigale et la fourmi for mezzo-soprano, 4-part mixed choir and piano
   or 4 guitars

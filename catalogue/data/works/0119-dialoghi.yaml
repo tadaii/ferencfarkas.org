@@ -2,8 +2,8 @@ catalog-id:
   id: 0119-dialoghi
   num-id: 119
   name: dialoghi
-  uuid: 1d044ca6-1fff-4522-8557-621928ad5a38
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 2a8169fc-b0ae-4599-b183-df9562f5547d
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: de
   original: de
@@ -11,6 +11,7 @@ title:
   - de
   translations:
     de: Dialoghi
+description: for clarinet or flute and bassoon or violoncello
 composition-date: "1987"
 movements:
 - original-value: Moderato cantabile, Scherzo, Allegro leggero

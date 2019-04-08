@@ -2,8 +2,8 @@ catalog-id:
   id: 0593-lart-detre-grand-pere
   num-id: 593
   name: lart-detre-grand-pere
-  uuid: 3c16402d-6581-4056-95af-d169c96d12ff
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 4823e41d-79ef-47c8-9721-21da4b14db1a
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: fr
   original: fr
@@ -11,6 +11,7 @@ title:
   - fr
   translations:
     fr: L'art d'être grand-père
+description: for voice and piano
 composition-date: "1985"
 movements:
 - original-value: '1) Jeanne et Georges - durata : 3’20'''' 2) Jeanne parle - durata

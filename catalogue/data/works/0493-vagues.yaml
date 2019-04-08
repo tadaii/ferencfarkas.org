@@ -2,8 +2,8 @@ catalog-id:
   id: 0493-vagues
   num-id: 493
   name: vagues
-  uuid: fbba50cc-75da-4803-bffc-bae7934d2e17
-date: "2019-04-08T21:09:35+00:00"
+  uuid: b6859e36-dd55-45d2-aa74-5de11d55de1b
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: es
   original: hu
@@ -13,4 +13,5 @@ title:
   translations:
     es: Vagues
     hu: Hullámok
+description: for 3-part female choir
 composition-date: "1987"

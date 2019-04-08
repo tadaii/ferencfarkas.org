@@ -2,8 +2,8 @@ catalog-id:
   id: 0226-journal-1986
   num-id: 226
   name: journal-1986
-  uuid: ca88f060-1d09-4ffb-825a-eae23af72b32
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 65f72208-0d02-4a2e-8268-a040c43c9fd0
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: Journal 1986
     hu: Naplójegyzetek 1986
+description: for piano
 composition-date: "1986"
 movements:
 - original-value: 1) Carte de visite / Névjegy - 2) Elan / Lendület - 3) Sur les ailes

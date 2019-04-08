@@ -2,8 +2,8 @@ catalog-id:
   id: 0664-minuti
   num-id: 664
   name: minuti
-  uuid: 2baeb996-e794-448e-aba2-6f4203506593
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 8dbb18a6-bdc9-4c06-b858-01aeffe3b5b8
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: it
   original: it
@@ -11,6 +11,7 @@ title:
   - it
   translations:
     it: Minuti
+description: for voice (baritone) and violoncello
 composition-date: "1990"
 movements:
 - original-value: '1) Il passato - text by G. Pascoli – durata: 1’20'''' 2) Congedo

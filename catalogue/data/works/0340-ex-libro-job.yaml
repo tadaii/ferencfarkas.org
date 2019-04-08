@@ -2,8 +2,8 @@ catalog-id:
   id: 0340-ex-libro-job
   num-id: 340
   name: ex-libro-job
-  uuid: 5e52809a-1f5d-46d1-af59-22c5ea7620b8
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 3b787bb2-0c7f-4c73-93ff-7ccabb661cb1
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: pl
   original: pl
@@ -11,6 +11,7 @@ title:
   - pl
   translations:
     pl: Ex libro Job
+description: for 4-part mixed choir
 composition-date: "1987"
 movements:
 - original-value: 1) Nihil in terra 2) Quamobrem ego 3) Beatus homo

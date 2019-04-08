@@ -2,8 +2,8 @@ catalog-id:
   id: 0354-auf-dem-marktplatz-von-janoshid
   num-id: 354
   name: auf-dem-marktplatz-von-janoshid
-  uuid: ee2c5428-9ff4-499f-9ce7-1f59227280b5
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 8a5c0d3a-f430-40c8-b7ce-6c5865c2916f
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: de
   original: de
@@ -12,6 +12,7 @@ title:
   - de
   translations:
     de: Auf dem Marktplatz von Jánoshid
+description: 2 Hungarian folk songs for 4-part mixed choir
 movements:
 - original-value: '1) Hin zum Brunnen - German translated by Hans Baumann - durata
     : 30‘’ 2) Auf dem Marktplatz von Jánoshid - German translated by Gottfried Wolters

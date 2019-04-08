@@ -2,8 +2,8 @@ catalog-id:
   id: 0404-psaume-cxxxi
   num-id: 404
   name: psaume-cxxxi
-  uuid: dfbd252f-1fd2-42c8-8984-bc8c637b9088
-date: "2019-04-08T21:09:35+00:00"
+  uuid: fff81c9d-a630-420e-afc4-fe5be1f21c2a
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: mt
   original: mt
@@ -11,5 +11,6 @@ title:
   - mt
   translations:
     mt: Psaume CXXXI
+description: for 4-part mixed choir
 reworking: Psalm CXXXI / CXXXI szoltár for mixed choir
 source: manuscript by András Farkas

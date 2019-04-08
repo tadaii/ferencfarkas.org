@@ -2,8 +2,8 @@ catalog-id:
   id: 0195-trigon
   num-id: 195
   name: trigon
-  uuid: 39074328-79f4-4850-a027-c88f87ed108d
-date: "2019-04-08T21:09:34+00:00"
+  uuid: e90f06ad-646d-4179-9aa9-394ca5a503b0
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: Trigon
+description: for flute, bass-clarinet and piano
 composition-date: "1995"
 movements:
 - original-value: Moderato molto, Andante moderato, Allegro

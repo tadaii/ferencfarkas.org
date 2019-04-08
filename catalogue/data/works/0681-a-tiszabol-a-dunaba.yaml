@@ -2,8 +2,8 @@ catalog-id:
   id: 0681-a-tiszabol-a-dunaba
   num-id: 681
   name: a-tiszabol-a-dunaba
-  uuid: 55876d12-7483-4b09-ab91-7d9d0f120ad2
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 71aa1d09-413e-488f-9a62-b7fcf515af7b
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: hu
   original: hu
@@ -11,3 +11,4 @@ title:
   - hu
   translations:
     hu: A Tiszából a Dunába
+description: for voice and piano

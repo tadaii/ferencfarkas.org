@@ -2,8 +2,8 @@ catalog-id:
   id: 0199-variazioni-ungheresi
   num-id: 199
   name: variazioni-ungheresi
-  uuid: ad586bca-a34b-48c4-8133-56367d449105
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 9119c677-98bd-47db-b015-440bb568894a
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: co
   original: co
@@ -11,6 +11,7 @@ title:
   - co
   translations:
     co: Variazioni ungheresi
+description: for flute and guitar on a folk melody from the country of Zala
 composition-date: "1963"
 movements:
 - original-value: Thema, Variation I – IX

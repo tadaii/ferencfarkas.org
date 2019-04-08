@@ -2,8 +2,8 @@ catalog-id:
   id: 0491-six-chansons-populaires-hongroises
   num-id: 491
   name: six-chansons-populaires-hongroises
-  uuid: 1e070a20-b342-4974-9fe7-bd12337765ab
-date: "2019-04-08T21:09:35+00:00"
+  uuid: a0bd9ecb-19a7-4772-9e68-f83b4cc219c4
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: fr
   original: fr
@@ -11,6 +11,8 @@ title:
   - fr
   translations:
     fr: Six chansons populaires hongroises
+description: for 3-part female choir French version from “Hat magyar népdal” for female
+  choir
 composition-date: "1935"
 movements:
 - original-value: 1) La choucroute 2) Va-t-y, va-t-on ? 3) Au bord de la route 4)

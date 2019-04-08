@@ -2,8 +2,8 @@ catalog-id:
   id: 0588-ket-dal-kavafisz-verseire
   num-id: 588
   name: ket-dal-kavafisz-verseire
-  uuid: 9eed2211-fef0-4ba3-bab9-c7a46cc18ff4
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 194e31f9-a46c-4ff5-b957-3c88709ad94d
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Két dal Kavafisz verseire
+description: for voice and piano
 composition-date: "1991"
 movements:
 - original-value: '1) Ta paratira (Fenêtres) - durata : 2’40'''' 2) Epithymies (Désirs)

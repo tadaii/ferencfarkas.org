@@ -2,8 +2,8 @@ catalog-id:
   id: 0150-musica-serena
   num-id: 150
   name: musica-serena
-  uuid: f92fad5c-d5d9-4d50-9f83-8494851e7f9b
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 3ddf8742-9d29-46f8-88f2-11199b165063
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: pt
   original: pt
@@ -11,6 +11,7 @@ title:
   - pt
   translations:
     pt: Musica serena
+description: for guitar quartet adaptation by Philippe Rayer authorised by the composer
 movements:
 - original-value: 1) Allegro - 2) Andante moderato - 3) Allegro vivace
 reworking: Musica serena for string orchestra

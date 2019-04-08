@@ -2,8 +2,8 @@ catalog-id:
   id: 0093-old-hungarian-dances-from-the-17th-century
   num-id: 93
   name: old-hungarian-dances-from-the-17th-century
-  uuid: 68f3baf5-bbf5-45b2-8f71-d9befb6ef74a
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 3416b54d-d611-49ec-919c-6b49ea3df33a
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: Old Hungarian dances from the 17th century
     hu: Régi magyar táncok a 17. századból
+description: for flute and string orchestra
 composition-date: "1990"
 movements:
 - original-value: 1) Allegro moderato - 2) Andante moderato - 3) Maestoso - 4) Allegro

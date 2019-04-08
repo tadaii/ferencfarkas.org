@@ -2,8 +2,8 @@ catalog-id:
   id: 0663-marai-miniaturok
   num-id: 663
   name: marai-miniaturok
-  uuid: 07805627-4de6-4066-adbb-f684eac9b20a
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 39971735-7e47-4d68-bde3-328381a2756b
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: gn
   original: gn
@@ -11,6 +11,7 @@ title:
   - gn
   translations:
     gn: Márai miniaturok
+description: for voice and guitar
 composition-date: "1992"
 movements:
 - original-value: '1) A fehér erdő – durata: 1’50'''' 2) Naptár - durata: 1'' 3) Próféta

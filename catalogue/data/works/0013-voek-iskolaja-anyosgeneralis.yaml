@@ -2,8 +2,8 @@ catalog-id:
   id: 0013-voek-iskolaja-anyosgeneralis
   num-id: 13
   name: voek-iskolaja-anyosgeneralis
-  uuid: 9e05536d-d1c9-4f47-9392-1180da458fce
-date: "2019-04-08T21:09:33+00:00"
+  uuid: 05c1c2a3-a0bc-40bd-993d-0656886f63f8
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: hu
   original: hu
@@ -13,6 +13,7 @@ title:
   translations:
     en: Sons-in-law’s school
     hu: Vők iskolája (Anyósgeneralis)
+description: operetta in 2 acts
 composition-date: "1958"
 synopsis: the revolt of the husbands against their wives
 setting: 2 (picc.), 1, 2, 1 – 3, 2, 3, 0 – timp., batt. – arpa – archi

@@ -2,8 +2,8 @@ catalog-id:
   id: 0281-psaumes-de-fete
   num-id: 281
   name: psaumes-de-fete
-  uuid: d8e73df5-8080-42ee-b9c6-ce0891fabdac
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 0f42b10c-6261-4ef3-a56d-0ce2be05fea2
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: fr
   original: fr
@@ -11,6 +11,7 @@ title:
   - fr
   translations:
     fr: Psaumes de fête
+description: cantata for tenor and baritone solo, male choir and organ
 composition-date: "1977"
 movements:
 - original-value: 1) Chantez avec allégresse - 2) O Eternel, notre Seigneur - 3) Que

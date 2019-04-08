@@ -2,8 +2,8 @@ catalog-id:
   id: 0099-serenata-concertante
   num-id: 99
   name: serenata-concertante
-  uuid: 076638d9-f68f-493f-955c-402ffbb11420
-date: "2019-04-08T21:09:34+00:00"
+  uuid: cdcfd241-d0fc-4e5b-8436-53085b05e9ab
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: Serenata concertante
+description: for flute and string orchestra
 composition-date: "1967"
 movements:
 - original-value: 1) Allegro moderato - 2) Andante espressivo - 3) Allegro vivace

@@ -2,8 +2,8 @@ catalog-id:
   id: 0470-vinus-vina-vinum
   num-id: 470
   name: vinus-vina-vinum
-  uuid: 25161d56-37a4-4eee-b955-363f8bc4ffd8
-date: "2019-04-08T21:09:35+00:00"
+  uuid: fade2542-0c31-4ba3-999a-cb1b23f6436a
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: la
   original: la
@@ -11,6 +11,7 @@ title:
   - la
   translations:
     la: Vinus, vina, vinum
+description: Hungarian drinking song for 4-part male choir
 composition-date: "1975"
 reworking: Pataki diákdalok a l8.századból for 4-part mixed choir
 dedication: á la Chorale de l’Orient

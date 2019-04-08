@@ -2,8 +2,8 @@ catalog-id:
   id: 0231-little-suite-for-the-left-hand
   num-id: 231
   name: little-suite-for-the-left-hand
-  uuid: ad00aac6-2b63-404a-b2d5-ce8d4c9740ff
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 0c1f09a9-c8d9-420d-9ae5-0d571eeb8a8c
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: en
   original: en
@@ -11,4 +11,5 @@ title:
   - en
   translations:
     en: Little suite for the left hand
+description: for piano in 2 parts
 source: manuscript by András Farkas

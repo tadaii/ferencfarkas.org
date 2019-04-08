@@ -2,8 +2,8 @@ catalog-id:
   id: 0113-citharoedia-strigoniensis
   num-id: 113
   name: citharoedia-strigoniensis
-  uuid: 88abd389-7262-4c6a-bf6a-24189981ba8b
-date: "2019-04-08T21:09:34+00:00"
+  uuid: ca2278ed-e592-4296-91a3-c99e0e598092
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: jw
   original: jw
@@ -11,6 +11,7 @@ title:
   - jw
   translations:
     jw: Citharoedia strigoniensis
+description: for guitar trio on Hungarian motifs from Esztergom (18th century)
 composition-date: "1973"
 movements:
 - original-value: 1) Intrada - 2) Minuetto - 3) Finale

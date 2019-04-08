@@ -2,8 +2,8 @@ catalog-id:
   id: 0499-christmas-album
   num-id: 499
   name: christmas-album
-  uuid: d416a4e2-185f-43b4-8e65-591da5540944
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 6afe2cc3-60e1-4130-a621-817b168c3fe2
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: en
   original: hu
@@ -13,6 +13,9 @@ title:
   translations:
     en: Christmas album
     hu: Karácsonyi album
+description: 15 traditional Christmas songs from Hungary, Austria, Germany, South
+  America, France, England, negro spiritual, for unisono children’s choir and piano
+  or organ
 composition-date: "1970"
 movements:
 - original-value: '1) Mennyből az angyal - durata : 1''50'''' 2) O, gyönyörű szép

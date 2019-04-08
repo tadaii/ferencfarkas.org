@@ -2,8 +2,8 @@ catalog-id:
   id: 0629-soeteted
   num-id: 629
   name: soeteted
-  uuid: 84433e31-b614-4520-821f-f97b2a27edf1
-date: "2019-04-08T21:09:36+00:00"
+  uuid: e39d4098-768a-43cb-b1fa-4111c6ed73af
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,7 @@ title:
   - en
   translations:
     en: Sőtéted
+description: for voice and piano
 composition-date: "1994"
 movements:
 - original-value: Sötétedő Esteli lovas Szavadban búza Marasztalás

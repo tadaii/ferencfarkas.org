@@ -2,8 +2,8 @@ catalog-id:
   id: 0234-nevnapi-koeszoentoe
   num-id: 234
   name: nevnapi-koeszoentoe
-  uuid: 3e7efa82-c5bb-48a7-bf61-816bc595f014
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 16cdd411-37f2-491f-b1a4-79eac603fafe
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: hu
   original: hu
@@ -11,6 +11,7 @@ title:
   - hu
   translations:
     hu: Névnapi köszöntő
+description: for piano
 composition-date: "1972"
 source: manuscript by András Farkas
 dedication: Mancikának szeretettel

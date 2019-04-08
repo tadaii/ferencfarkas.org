@@ -2,8 +2,8 @@ catalog-id:
   id: 0203-ballade
   num-id: 203
   name: ballade
-  uuid: c926df77-3f26-47b0-9535-a7d6b686f096
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 0404d045-f0b8-420e-b67e-9a0e5092a114
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: en
@@ -12,4 +12,5 @@ title:
   - en
   translations:
     en: Ballade
+description: for piano
 composition-date: "1955"

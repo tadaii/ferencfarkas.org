@@ -2,8 +2,8 @@ catalog-id:
   id: 0685-erdoe-erdoe
   num-id: 685
   name: erdoe-erdoe
-  uuid: 82ec71f7-f7e2-403e-aea5-9a3017b03ccb
-date: "2019-04-08T21:09:36+00:00"
+  uuid: 4934a63b-ed84-411f-b4e7-7979fa2bd6d9
+date: "2019-04-08T21:36:05+00:00"
 title:
   main: en
   original: en
@@ -11,3 +11,4 @@ title:
   - en
   translations:
     en: Erdő, erdő
+description: for voice and piano

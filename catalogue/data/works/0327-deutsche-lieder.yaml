@@ -2,8 +2,8 @@ catalog-id:
   id: 0327-deutsche-lieder
   num-id: 327
   name: deutsche-lieder
-  uuid: 64924520-1ddd-4a6c-9ac3-2f5e06c5e3b3
-date: "2019-04-08T21:09:35+00:00"
+  uuid: cac9568d-5030-4bb1-b301-989dee95d681
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: de
   original: de
@@ -11,6 +11,7 @@ title:
   - de
   translations:
     de: Deutsche Lieder
+description: for 4-part mixed choir based on poems by contemporary authors
 composition-date: "1976"
 movements:
 - original-value: '1) Es flogen einst drei Drosseln - text by John Erpenbeck - durata

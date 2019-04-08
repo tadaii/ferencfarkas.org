@@ -583,8 +583,10 @@ func setWorkProperty(work *Work, key string, value string) {
 		}
 	}
 
+	println("prop", prop)
+
 	switch prop {
-	case "version":
+	case "":
 		work.Description = value // write description and version based on value containing `for:` or not
 	case "duration":
 		work.Duration = NewWorkDuration(value)

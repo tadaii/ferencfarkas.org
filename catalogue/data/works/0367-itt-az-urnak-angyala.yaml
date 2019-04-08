@@ -2,8 +2,8 @@ catalog-id:
   id: 0367-itt-az-urnak-angyala
   num-id: 367
   name: itt-az-urnak-angyala
-  uuid: e7994581-e4ef-4ed5-9e32-fe06fa40d75d
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 25011986-211d-49f2-acd3-d4ae349006a6
+date: "2019-04-08T21:36:03+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,7 @@ title:
   - hu
   translations:
     hu: Itt az Úrnak angyala
+description: Christmas song for 4-part mixed choir Hungarian version from "Je suis
+  l'archange de Dieu" for mixed choir
 reworking: Je suis l’archange de Dieu for mixed choir Je suis l’archange de Dieu for
   male choir

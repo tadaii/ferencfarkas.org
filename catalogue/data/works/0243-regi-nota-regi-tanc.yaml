@@ -2,8 +2,8 @@ catalog-id:
   id: 0243-regi-nota-regi-tanc
   num-id: 243
   name: regi-nota-regi-tanc
-  uuid: 222e4f06-5ec3-4b0b-a2ba-721a98bb2525
-date: "2019-04-08T21:09:34+00:00"
+  uuid: b7430fe7-2e2f-43dc-92f6-046d25491520
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: hu
   original: hu
@@ -11,5 +11,6 @@ title:
   - hu
   translations:
     hu: Régi nóta, régi tánc
+description: for piano 2 little pieces on motifs from the 18th century
 movements:
 - original-value: 1) Nem nyughatom... - 2) Kis Verbunk / Kleiner Werbungstanz

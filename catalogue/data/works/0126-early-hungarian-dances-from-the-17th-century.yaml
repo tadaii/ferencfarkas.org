@@ -2,8 +2,8 @@ catalog-id:
   id: 0126-early-hungarian-dances-from-the-17th-century
   num-id: 126
   name: early-hungarian-dances-from-the-17th-century
-  uuid: 2812520d-9e72-483c-bf59-d70abfe7b0e7
-date: "2019-04-08T21:09:34+00:00"
+  uuid: dd8b6447-bf4e-4e9b-9a0c-0d654dcc3ca5
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: en
   original: en
@@ -11,6 +11,8 @@ title:
   - en
   translations:
     en: Early Hungarian dances from the 17th century
+description: Antiche danze ungheresi del 17. secolo / Régi magyar táncok a 17. századból
+  / Danses hongroises du 17ème siècle / Alte ungarische Tänze / Old Hungarian dances
 composition-date: "1976"
 movements:
 - original-value: Intrada, Lassú, Lapockás tánc, Ugrós

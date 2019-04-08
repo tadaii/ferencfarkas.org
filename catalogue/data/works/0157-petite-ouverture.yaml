@@ -2,8 +2,8 @@ catalog-id:
   id: 0157-petite-ouverture
   num-id: 157
   name: petite-ouverture
-  uuid: bb0cb762-30ec-4e61-8844-f49d7a7ced97
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 427c23f9-739f-4448-902f-7ba3ef1fb429
+date: "2019-04-08T21:36:01+00:00"
 title:
   main: fr
   original: fr
@@ -11,6 +11,8 @@ title:
   - fr
   translations:
     fr: Petite ouverture
+description: for flute, horn and harp extract from the incidental music to “Ahogy
+  tetszik / As you like it” by Shakespeare
 reworking: As you like it for violin, viola and harp As you like it for 2 violins
   and harp Két madriál for 4-part male choir Vadászkar for 4-part male choir Három
   dal Shakespeare "Ahogy tetszik" cimű vigjátékából / Drei Lieder aus dem Lustspiel

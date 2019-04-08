@@ -2,8 +2,8 @@ catalog-id:
   id: 0245-shepherd-dance
   num-id: 245
   name: shepherd-dance
-  uuid: a2564dd1-c14b-46c4-9668-4cd7ea521e4f
-date: "2019-04-08T21:09:34+00:00"
+  uuid: 30314407-58a7-4c25-b78d-b0ea66a8773e
+date: "2019-04-08T21:36:02+00:00"
 title:
   main: en
   original: en
@@ -11,4 +11,5 @@ title:
   - en
   translations:
     en: Shepherd dance
+description: for harp
 reworking: Két magyar tánc for piano Zwei ungarische Tänze for orchestra

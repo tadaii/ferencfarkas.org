@@ -2,8 +2,8 @@ catalog-id:
   id: 0046-suite-flugten-fra-millionerne
   num-id: 46
   name: suite-flugten-fra-millionerne
-  uuid: ea831f29-1dcf-458b-8411-450fdd6c99d5
-date: "2019-04-08T21:09:33+00:00"
+  uuid: 678ee3c2-6959-4e2f-977c-8c8be87852d2
+date: "2019-04-08T21:36:00+00:00"
 title:
   main: da
   original: da
@@ -11,6 +11,7 @@ title:
   - da
   translations:
     da: Suite "Flugten fra Millionerne"
+description: for orchestra suite from the film music to "Flugten fra Millionerne»
 composition-date: "1934"
 movements:
 - original-value: Introduzione (Moderato) - Allegro - Tempo di Tango - Tempo di Marcia

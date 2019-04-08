@@ -2,8 +2,8 @@ catalog-id:
   id: 0462-silence
   num-id: 462
   name: silence
-  uuid: 52b3a266-b11c-466e-8ce3-b6af2f1a7a80
-date: "2019-04-08T21:09:35+00:00"
+  uuid: 79af5b78-e420-4da7-a12b-24ab933525eb
+date: "2019-04-08T21:36:04+00:00"
 title:
   main: en
   original: en
@@ -13,5 +13,6 @@ title:
   translations:
     de: Stille
     en: Silence
+description: for 4-part male choir
 composition-date: "1975"
 dedication: á la Chorale “ l’Echo du Léman”, Lausanne
