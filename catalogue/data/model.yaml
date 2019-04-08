@@ -1,0 +1,41 @@
+catalog-id:
+  id: 0000-work-title-without-accent
+  num-id: 0
+  name: work-title-without-accent
+  uuid: 00000000-0000-0000-0000-000000000000
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Work Title
+    hu: Work Title in hungarian
+description: Romantic opera
+version: Mixed choir
+date: "2019-04-08T21:35:59+00:00" # Last update date
+composition-date: 1949-1950
+composition-location: Budapest
+duration: 360 # in seconds (360)
+setting: 2, 2, 2, 2 – 2, 2, 0, 0 – timp., batt. - archi
+synopsis: Summary of the action
+cast:
+- character: Suleika
+  voice: soprano
+- character: Hassan
+  voice: tenor
+- character: Baba
+  voice: narrator
+libretto:
+
+  translation: 
+text: 
+movements: (?i)^parts?
+
+adaptation: (?i)^adapted
+score: (?i)score # relations
+source: (?i)^source # a gicler => on les a toutes
+world-premiere: (?i)world-premiere
+dedication: (?i)ded?icated
+nb: (?i)^n\.b\.?
