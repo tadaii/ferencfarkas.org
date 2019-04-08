@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0025-divertimento
+  num-id: 25
+  name: divertimento
+  uuid: c1c050bf-9a2a-4ef5-93ea-c9efa79d1cda
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Divertimento
+composition-date: "1930"
+movements:
+- original-value: 1) Allegro leggiero - 2) Allegro giocoso - 3) Tempo di Minuetto
+    - 4) Intermezzo - 5) Allegro
+setting: 2, 2, 2, 2 – 2, 2, 0, 0 – timp., batt. - archi
+dedication: al Maestro Ottorino Respighi
+nb: this work received the “Franz Liszt Prize” in 1933

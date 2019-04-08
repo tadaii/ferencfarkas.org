@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0191-three-dance-paraphrases
+  num-id: 191
+  name: three-dance-paraphrases
+  uuid: 5940cd05-55eb-4326-9fa5-ca3971832746
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Three dance paraphrases
+    hu: Három táncparafrázis
+composition-date: "1972"
+movements:
+- original-value: Allegretto, Moderato, Allegro
+reworking: Three dance paraphrases for clarinet, viola and horn

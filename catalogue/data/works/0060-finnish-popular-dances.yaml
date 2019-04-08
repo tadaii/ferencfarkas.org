@@ -1,0 +1,21 @@
+catalog-id:
+  id: 0060-finnish-popular-dances
+  num-id: 60
+  name: finnish-popular-dances
+  uuid: e0b2b8f1-6514-44f6-9f14-4a85141ba0b3
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  - de
+  - ca
+  translations:
+    ca: Danses populaires finlandaises
+    de: Finnische Volkstänze
+    en: Finnish popular dances
+composition-date: "1935"
+movements:
+- original-value: 1) Askulan neliö - 2) Palpankilli - 3) Melkutus - 4) Lintunen -
+    5) Vanna piika - 6) Haili - 7) Kumerus

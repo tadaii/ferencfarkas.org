@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0380-lupus-fecit
+  num-id: 380
+  name: lupus-fecit
+  uuid: d1340aa6-3126-437e-8183-74b661f979c3
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: la
+  original: la
+  sort:
+  - la
+  translations:
+    la: Lupus fecit
+composition-date: "1979"
+movements:
+- original-value: '1) Epitaphium - Epitaph from Aquincum - durata : 2 ‘ 50 ‘’ 2) Cantus
+    nocturnus - text by Virgilius - durata : 2 ‘ 40 ‘’ 3) Optatio - text by Catullus
+    - durata : 1 ‘ 50 ‘’ 4) Canticum - text by Catullus - durata : 40 ‘’'
+dedication: au Choeur des XVI de Fribourg et á son chef André Ducret

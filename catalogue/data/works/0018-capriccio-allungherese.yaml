@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0018-capriccio-allungherese
+  num-id: 18
+  name: capriccio-allungherese
+  uuid: 45b7d1d5-a30b-4c64-aee5-20c44c61464f
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Capriccio all'ungherese
+composition-date: "1939"
+movements:
+- original-value: 1) Preludio - 2) Pastorale - 3) Játék / play - 4) Ha folyóviz volnék...
+    - 5) Tánc
+setting: 2, 1, 2, 1 – 2, 2, 1, 0 – timp. – arpa – archi

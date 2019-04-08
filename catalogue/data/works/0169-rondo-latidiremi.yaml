@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0169-rondo-latidiremi
+  num-id: 169
+  name: rondo-latidiremi
+  uuid: 5b0c1f65-1cd8-4db6-9352-0d4f07526ae0
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Rondo “Latidiremi”
+composition-date: "1992"
+source: manuscript by András Farkas

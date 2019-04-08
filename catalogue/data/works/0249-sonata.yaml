@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0249-sonata
+  num-id: 249
+  name: sonata
+  uuid: d4f2f4fa-ca07-4f5f-a586-188cfa21eff8
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Sonata
+composition-date: "1979"
+movements:
+- original-value: 1) Allegro - 2) Dialogo - 3) Rondo

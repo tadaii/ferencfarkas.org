@@ -1,0 +1,23 @@
+catalog-id:
+  id: 0613-orpheus-respiciens
+  num-id: 613
+  name: orpheus-respiciens
+  uuid: 80ac50fe-d4d1-4bde-b2af-e0bc1cdc6b39
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Orpheus respiciens
+composition-date: "1993"
+movements:
+- original-value: '1) Elmaradt lázálom - text by Sándor Csoóri - durata: 3’20''''
+    2) Sonetto CCLXXII - text by Petrarca - durata: 2’20'''' 3) Le portrait - text
+    by Charles Baudelaire - durata: 2’10'''' 4) Alma minha - text by Luis de Camoes
+    - durata: 2’40'''' 5) Nein, ich vergesse Dich nicht - text by R.M. Rilke - durata
+    : 1‘20'''' 6) Sone que tu me llevabas - text by A. Machado - durata: 2’20''''
+    7) Requiescat - text by O. Wilde - durata : 2’20'''' 8) El desdichado - text by
+    Nerval - durata : 3’30'''''
+dedication: Pro memoria M.

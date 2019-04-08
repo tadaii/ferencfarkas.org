@@ -1,0 +1,21 @@
+catalog-id:
+  id: 0287-vita-poetae
+  num-id: 287
+  name: vita-poetae
+  uuid: cb6e63f2-8022-47c1-bc17-d8329a173906
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: la
+  original: la
+  sort:
+  - la
+  translations:
+    la: Vita poetae
+composition-date: "1976"
+movements:
+- original-value: 1) Studia - 2) Amores - 3) Amicitiá - 4) Mors matris - 5) Vita aulica
+    - 6) Mors poëtae
+setting: 1 (picc.), 1 (c.i.), 1, 1 – 2, 1, 1, 0 – batt. (2 ess.) – arpa, pf. – vl.solo,
+  vla solo, vlc. solo, cb. solo
+reworking: Panegyricus, scenic play
+source: '[Editio Musica Budapest](http://www.kotta.info/en/product/F-11/FARKAS-FERENC-VITA-POETAE)'

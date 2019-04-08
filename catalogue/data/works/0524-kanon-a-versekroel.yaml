@@ -1,0 +1,13 @@
+catalog-id:
+  id: 0524-kanon-a-versekroel
+  num-id: 524
+  name: kanon-a-versekroel
+  uuid: 8a9e976c-83dc-4409-a53a-b4cc8077bef3
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: eo
+  original: eo
+  sort:
+  - eo
+  translations:
+    eo: Kánon a versekröl

@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0261-alles-war-ein-spiel
+  num-id: 261
+  name: alles-war-ein-spiel
+  uuid: 01fd1d49-41d3-43cc-a143-4ac278d4f7c2
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: de
+  original: de
+  sort:
+  - de
+  translations:
+    de: Alles war ein Spiel
+composition-date: "1986"
+movements:
+- original-value: Preludio – Alles war ein Spiel – Ritornell-Kadenz – Abendwolke,
+    Ritornell-Kadenz – Lass Scharren deiner Rosse Huf – Ritornell-Kadenz – Pergoleses
+    Ständchen – Ritornell-Kadenz – Auf dem Canal Grande – Ritornell-Kadenz – Morgenlied
+setting: cl., fg., trb., vl. solo, pf., archi
+source: 'score, piano reduction & performance material: manuscript by András Farkas'

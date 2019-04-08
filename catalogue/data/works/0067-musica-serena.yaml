@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0067-musica-serena
+  num-id: 67
+  name: musica-serena
+  uuid: 1dbdafb0-b287-4058-ae4e-205563b6639c
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: pt
+  original: pt
+  sort:
+  - pt
+  translations:
+    pt: Musica serena
+composition-date: "1982"
+movements:
+- original-value: 1) Allegro - 2) Andante moderato - 3) Allegro vivace
+reworking: Musica serena for guitar quartet

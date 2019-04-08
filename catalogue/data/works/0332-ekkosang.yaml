@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0332-ekkosang
+  num-id: 332
+  name: ekkosang
+  uuid: 8353b50b-ca5c-419e-9731-cc74d87a8755
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: lg
+  original: lg
+  sort:
+  - lg
+  translations:
+    lg: Ekkosang
+composition-date: "1999"
+dedication: Søren Birch und dem gemischten Chor Aalborg herzlichst gewidmet

@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0081-concertino-allantica-for-baryton-viola-di-bordone-or-violoncello-or-viola-and-string-orchestra
+  num-id: 81
+  name: concertino-allantica-for-baryton-viola-di-bordone-or-violoncello-or-viola-and-string-orchestra
+  uuid: 75be3c82-f841-480f-9bc3-adc38a6b3119
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Concertino all'antica for baryton (viola di bordone) or violoncello or viola
+      and string orchestra
+composition-date: "1964"
+movements:
+- original-value: 1) Pastorale - 2) Aria con variazioni - 3) Giga
+reworking: All’antica for viola da gamba or violoncello and harpsichord or piano All’antica
+  for viola and piano or harpsichord
+dedication: to János Liebner

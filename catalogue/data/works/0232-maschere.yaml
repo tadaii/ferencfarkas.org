@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0232-maschere
+  num-id: 232
+  name: maschere
+  uuid: 7ee8abe8-83d9-40b3-89a1-23148e2ddfe9
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Maschere
+composition-date: "1983"
+movements:
+- original-value: 1) Colombina - 2) Povero Pulcinella - 3) Arlecchino
+reworking: Maschere for chamber orchestra Maskarák / Maschere for wind trio
+source: manuscript by András Farkas
+dedication: omaggio a Gino Severini all'occasione dell centenario della sua nascita

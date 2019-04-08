@@ -1,0 +1,26 @@
+catalog-id:
+  id: 0075-the-sly-students
+  num-id: 75
+  name: the-sly-students
+  uuid: d6dccb93-2f3b-460b-b50d-5db304f64f9d
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  - de
+  translations:
+    de: Die listigen Studenten
+    en: The sly students
+    hu: Furfangos diákok
+movements:
+- original-value: 1) Vásár Debrecenben / Fair in Debrecen - 2) Air de danse - 3) Diákok
+    tánca / Students’dance - 4) Cigányzene / Gipsy-music - 5) Pas de deux - 6) Finale
+    (Részeg tánc / Drunken-dance – Tréfás gyászinduló / Humorous funeral march – Csikósok
+    tánca / Horseherds-dance)
+setting: picc., 2 fl., 2 ob., c.i., 2 fg, cfg, clar.mib, 3 clar.sib, bassethorn, bass-clar.
+  sib, cb-clar.sib, 2 alt-sass.mib, tenor-sass.sib, bar-sass.mib, vcl., stringbass,
+  4 cor, 3 tr.sib, 3 trbne, euphonium, tuba, timpani, bells, xylophone, 2 perc. harp.
+reworking: The sly students for orchestra The sly students, ballet

@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0351-halalhazasito
+  num-id: 351
+  name: halalhazasito
+  uuid: 204e3a47-4be1-42df-a32d-8ddc6eeaa134
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Halálházasitó
+composition-date: "1994"
+source: manuscript by András Farkas

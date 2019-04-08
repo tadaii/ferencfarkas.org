@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0185-sonatina-based-on-hungarian-folk-songs
+  num-id: 185
+  name: sonatina-based-on-hungarian-folk-songs
+  uuid: d4e01436-61a4-492f-8e4b-9517d6bf6516
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Sonatina based on Hungarian folk songs
+    hu: Népdalszonatina
+movements:
+- original-value: Allegro moderato, Andante espressivo, Allegro vivace
+source: manuscript by András Farkas

@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0630-souvenir-de-malmaison
+  num-id: 630
+  name: souvenir-de-malmaison
+  uuid: d551e02a-1faf-4fca-81a7-4d84c42d20a2
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Souvenir de Malmaison
+composition-date: "1996"
+source: manuscript by András Farkas
+dedication: Pro memoria M.

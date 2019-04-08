@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0254-tancmuszika
+  num-id: 254
+  name: tancmuszika
+  uuid: ccf85211-261e-4c1f-993a-9632f7df5aa1
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - en
+  translations:
+    en: Dance music
+    hu: Táncmuszika
+composition-date: "1922"
+source: manuscript by András Farkas

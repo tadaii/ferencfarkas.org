@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0235-old-hungarian-melodies
+  num-id: 235
+  name: old-hungarian-melodies
+  uuid: 358a3bb0-5188-4a06-8045-bf3b0960f6fb
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Old Hungarian melodies
+    hu: Régi magyar dallamok
+movements:
+- original-value: 1) Moderato, poco rubato - 2) Più mosso - 3) Allegro, piacevole

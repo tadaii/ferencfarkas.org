@@ -1,0 +1,24 @@
+catalog-id:
+  id: 0539-autumnalia
+  num-id: 539
+  name: autumnalia
+  uuid: f3adfda3-033f-4119-a9a8-fa048ee67538
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: ro
+  original: hu
+  sort:
+  - ro
+  - hu
+  - de
+  translations:
+    de: Herbstskizzen
+    hu: Őszi vázlatok
+    ro: Autumnalia
+composition-date: "1969"
+movements:
+- original-value: 1) Milyen sötét / Ach, wie dunkel - text in Hungarian by D. Kosztolányi
+    2) A távozó / Abschied - text in Hungarian by G. Juhász 3) A tél küszöbén / An
+    des Winters Schwelle - text in Hungarian by Z. Jékely 4) Őszi vázlat / Herbstskizze
+    - text in Hungarian by J. Pilinszky 5) Novemberi ég alatt / Novemberhimmel - text
+    in Hungarian by G. Illyés 6) Könnyű / Leichtes - text in Hungarian by G. Illyés

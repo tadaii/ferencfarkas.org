@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0321-csonakos-dal
+  num-id: 321
+  name: csonakos-dal
+  uuid: f3c6a8de-0199-440d-8b83-76d2c0748c96
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: rm
+  original: rm
+  sort:
+  - rm
+  translations:
+    rm: Csónakos-dal
+composition-date: "1958"

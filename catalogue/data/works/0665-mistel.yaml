@@ -1,0 +1,21 @@
+catalog-id:
+  id: 0665-mistel
+  num-id: 665
+  name: mistel
+  uuid: b09c679e-fea7-414c-86a2-a5faae38055a
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: de
+  original: hu
+  sort:
+  - de
+  - hu
+  translations:
+    de: Mistel
+    hu: Fagyöngy
+composition-date: "1940"
+movements:
+- original-value: 1) Csigabiga 2) Tavaszban 3) Mint a fagyöngy sír 4) Ejszaka 5) Hajnali
+    szél
+setting: 2 (picc.), 2 (c.i.), 2 (cl. b.), 1 - 2, 1, 0, 0 - arpa, cel. - archi
+reworking: Mistel / Fagyöngy for voice and piano

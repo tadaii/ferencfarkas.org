@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0633-szeretlek-kedvesem
+  num-id: 633
+  name: szeretlek-kedvesem
+  uuid: 5f221b20-58d4-4dd0-a4ee-516dff2f33c4
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Szeretlek, kedvesem
+composition-date: "1943"
+dedication: Vitéz Zilahi-Balogh Gyuláéknak sok szeretettel és hálával

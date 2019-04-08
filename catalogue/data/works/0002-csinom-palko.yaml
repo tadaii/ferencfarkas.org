@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0002-csinom-palko
+  num-id: 2
+  name: csinom-palko
+  uuid: f7b2c8a8-456e-417c-aaf5-4132d7e46a15
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Csínom Palkó
+composition-date: "1950"
+source: 'score, piano reduction & performance material : manuscript by András Farkas'
+world-premiere: Erkel Theater, Budapest, 1952

@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0190-three-burlesques
+  num-id: 190
+  name: three-burlesques
+  uuid: 095561cd-7f3d-4d65-ad7e-ad3c6d0a8b27
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Three burlesques
+    hu: Három burleszk
+composition-date: "1992"
+movements:
+- original-value: 1) Allegro - 2) Moderato, comodo - 3) Allegro
+reworking: Three burlesques / Három burleszk for piano

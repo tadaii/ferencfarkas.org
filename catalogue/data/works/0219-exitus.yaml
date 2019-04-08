@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0219-exitus
+  num-id: 219
+  name: exitus
+  uuid: 3236335d-2f34-4370-9262-590e245ba81c
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: de
+  original: de
+  sort:
+  - de
+  translations:
+    de: Exitus
+composition-date: "1990"
+movements:
+- original-value: 1) Allegro moderato (preludium) - 2) Allegro (fuga)

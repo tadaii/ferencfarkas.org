@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0618-pacsirta
+  num-id: 618
+  name: pacsirta
+  uuid: 9037958b-f325-4060-b4c8-d02a58287d8e
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Pacsirta
+composition-date: "1989"
+source: manuscript by András Farkas

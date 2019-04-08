@@ -1,0 +1,26 @@
+catalog-id:
+  id: 0510-pebbles
+  num-id: 510
+  name: pebbles
+  uuid: af535664-eab5-4bee-8a87-d9db94f74ef9
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Pebbles
+    hu: Kavicsok
+composition-date: 1979 - 1980
+movements:
+- original-value: '1) There was an old man /Egyszer egy ember - text by Edward Lear
+    - durata : 40‘’ 2) The beetle / A bogár - text by Edith King - durata : 40‘’ 3)
+    Double red Daisies /Százszorszép - text by Robert Graves - durata : 1’30‘’ 4)
+    Henry and Mary / Henrik és Mary - text by Robert Graves - durata : 40‘’ 5) To
+    the bat / Denevér, kisegér - text by Edith King - durata : 40‘’ 6) Rock-a-bye
+    / Csitt-csitt - text by Willoughby Wearing - durata : 1’20‘’ 7) Trams (Villamosok)
+    - text by Edith Sitwell - durata : 1‘ 8) Pebbles / Kavicsok - text by Edith King
+    - durata : 1’20‘’'
+dedication: Istvánkának

@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0097-rondo-capriccio
+  num-id: 97
+  name: rondo-capriccio
+  uuid: 10f6550d-c4a4-4d12-be91-8b670b50f562
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Rondo capriccio
+composition-date: "1979"
+reworking: Rondo capriccio for violin and piano Rondo capriccio for violin solo and
+  wind quintet
+dedication: Kocsis Albertnek

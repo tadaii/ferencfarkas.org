@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0639-a-koed
+  num-id: 639
+  name: a-koed
+  uuid: accbbecd-dee4-4c67-9ac1-dd9e00d886ba
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: A köd
+composition-date: "1959"
+setting: 1, 0, 1, 0 - 0, 0, 0, 0 – piano - archi
+reworking: A köd for voice and piano
+source: 'score, performance material & piano reduction: manuscript by András Farkas'

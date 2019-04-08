@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0229-ket-zongoradarab-magyar-nepdalok-felett
+  num-id: 229
+  name: ket-zongoradarab-magyar-nepdalok-felett
+  uuid: 3b1f8b56-04a3-4f48-95b0-ac53a463c127
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - en
+  translations:
+    en: Two pieces on Hungarian folk songs
+    hu: Két zongoradarab magyar népdalok felett
+composition-date: "1922"
+movements:
+- original-value: 1) Kőmives Kelemen - 2) A kertmegi kert alatt
+source: manuscript by András Farkas
+nb: Ferenc Farkas presented this work for his admission at the Music Academy of Budapest

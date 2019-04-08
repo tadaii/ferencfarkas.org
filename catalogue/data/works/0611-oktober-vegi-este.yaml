@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0611-oktober-vegi-este
+  num-id: 611
+  name: oktober-vegi-este
+  uuid: 89f09dde-bfb2-4f0d-bcd7-00f474ca8635
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: sk
+  original: sk
+  sort:
+  - sk
+  translations:
+    sk: Október végi este
+composition-date: "1995"
+source: manuscript by András Farkas
+dedication: Pro memoria M.

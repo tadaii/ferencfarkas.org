@@ -1,0 +1,13 @@
+catalog-id:
+  id: 0723-farkasok-by-t-barany-1960
+  num-id: 723
+  name: farkasok-by-t-barany-1960
+  uuid: 8828726b-ebf0-47bb-8c5d-2c2ca60c84a0
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Farkasok by T. Bárány, 1960

@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0601-margareta
+  num-id: 601
+  name: margareta
+  uuid: 3faf9ca3-7e09-484e-957d-06d5dbf79d08
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: su
+  original: su
+  sort:
+  - su
+  translations:
+    su: Margaréta
+composition-date: "19891990"
+dedication: Mancinak

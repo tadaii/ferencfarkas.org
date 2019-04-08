@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0620-pastorali
+  num-id: 620
+  name: pastorali
+  uuid: 0181ca75-4181-4023-9cca-205ca886429e
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Pastorali
+composition-date: 1931, rev. 1968
+movements:
+- original-value: Andante pastorale Allegro ma non troppo Lento Molto gaio, festeggiante
+    Andante
+reworking: Pastorali for voice and orchestra
+dedication: Madame Terézia Csajbók

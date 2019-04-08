@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0378-le-roi-herode-et-le-coq
+  num-id: 378
+  name: le-roi-herode-et-le-coq
+  uuid: 05bcba18-50e0-4c76-92e0-961efcaf8d75
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Le roi Hérode et le coq
+reworking: King Herod and the cock for mixed choir

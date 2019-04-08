@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0085-concertino-iv-for-oboe-and-string-orchestra
+  num-id: 85
+  name: concertino-iv-for-oboe-and-string-orchestra
+  uuid: 48c004b8-6b18-43b1-9008-4d35322a347e
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Concertino IV for oboe and string orchestra
+composition-date: "1983"
+movements:
+- original-value: 1) Allegro - 2) Choral varié - 3) Allegro
+dedication: to Jean-Paul Goy

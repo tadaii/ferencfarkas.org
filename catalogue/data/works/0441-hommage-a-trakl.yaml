@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0441-hommage-a-trakl
+  num-id: 441
+  name: hommage-a-trakl
+  uuid: 6a9f61ae-104e-4426-b59f-09d210578352
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Hommage à Trakl
+composition-date: 1996-1997
+movements:
+- original-value: '1) Rondell - durata : 1 ‘ 2) Im Park - durata : 2 ‘'
+dedication: an die “Harmonie” Lindenholzhausen und seinem Dirigenten Martin Winkler
+  herzlichst gewidmet

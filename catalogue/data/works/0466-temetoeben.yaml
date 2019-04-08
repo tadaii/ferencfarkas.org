@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0466-temetoeben
+  num-id: 466
+  name: temetoeben
+  uuid: beb05597-383f-4823-a284-75c6b593d1e8
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: de
+  original: de
+  sort:
+  - de
+  translations:
+    de: Temetöben
+composition-date: "1963"
+source: manuscript by András Farkas

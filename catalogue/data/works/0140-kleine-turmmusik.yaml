@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0140-kleine-turmmusik
+  num-id: 140
+  name: kleine-turmmusik
+  uuid: 3320bca6-038a-46f2-a133-b0324b4311db
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: nl
+  original: hu
+  sort:
+  - nl
+  - hu
+  translations:
+    hu: Nyírbátori toronyzene
+    nl: Kleine Turmmusik
+composition-date: "1967"

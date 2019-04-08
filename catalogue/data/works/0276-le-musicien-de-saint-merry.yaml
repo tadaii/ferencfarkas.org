@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0276-le-musicien-de-saint-merry
+  num-id: 276
+  name: le-musicien-de-saint-merry
+  uuid: 15a94a1d-2a2a-478d-b356-9708f3323b6b
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: da
+  original: da
+  sort:
+  - da
+  translations:
+    da: Le musicien de Saint-Merry
+composition-date: "1984"
+setting: 2 fl., 2 ob., 2 cl., 2 fg, 2 cor., 2 tr.
+reworking: Le musicien de Saint-Merry, cantate for female choir, flute and piano
+dedication: aux Philharmonistes de Châteauroux et á leur chef János Kömives

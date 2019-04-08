@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0222-holidays-excursions
+  num-id: 222
+  name: holidays-excursions
+  uuid: 2fd01adb-cc00-4ff3-9ad4-a95113862022
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Holidays excursions
+    hu: Nyári kirándulások
+composition-date: "1975"
+movements:
+- original-value: 1) By train / Vonaton - 2) On foot / Gyalogszerrel - 3) By bicycle
+    / Kerékpáron - 4) Sailing / Vitorlással - 5) Camp-fire / Tábortűz mellett - 6)
+    By bus / Autóbuszon

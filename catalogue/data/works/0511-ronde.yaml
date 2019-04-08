@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0511-ronde
+  num-id: 511
+  name: ronde
+  uuid: 199f35a4-000b-4ecd-9660-8f3e99cd650c
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: es
+  original: hu
+  sort:
+  - es
+  - hu
+  translations:
+    es: Ronde
+    hu: Körtánc
+composition-date: "1975"
+dedication: Andrásnak

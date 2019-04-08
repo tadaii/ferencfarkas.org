@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0193-tre-bagattelle
+  num-id: 193
+  name: tre-bagattelle
+  uuid: 6afe28a8-9b8f-4059-9b43-acb7efa906e6
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: "no"
+  original: "no"
+  sort:
+  - "no"
+  translations:
+    "no": Tre bagattelle
+composition-date: "1992"
+movements:
+- original-value: Allegretto, Andante, Allegro

@@ -1,0 +1,23 @@
+catalog-id:
+  id: 0061-hungarian-dances-from-the-17th-century
+  num-id: 61
+  name: hungarian-dances-from-the-17th-century
+  uuid: c0d2308e-cf17-45e2-b9f4-048a4f68f3b1
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Hungarian dances from the 17th century
+composition-date: "1961"
+movements:
+- original-value: 1) Allegro moderato - Lo stesso tempo - 2) Andante moderato - Lo
+    stesso tempo - 3) Allegro - Lo stesso tempo - 4) Moderato - Lo stesso tempo -
+    5) Quasi minuetto - 6) Allegro - Lo stesso tempo
+reworking: Hungarian dances from the 17th centura for chamber orchestra Choreae hungaricae
+  for chamber orchestra Choreae hungaricae for string orchestra Choreae hungaricae
+  for piano
+nb: 'The “Hungarian dances from the 17th century” are a regrouping of “Choreae hungaricae”:
+  “6 Dances” and “5 Dances”'

@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0385-merre-szall-
+  num-id: 385
+  name: merre-szall-
+  uuid: f08b9ea7-f059-4095-b9d5-d43b7856f5f5
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Merre száll ?
+composition-date: "1962"

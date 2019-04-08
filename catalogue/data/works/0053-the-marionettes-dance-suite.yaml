@@ -1,0 +1,22 @@
+catalog-id:
+  id: 0053-the-marionettes-dance-suite
+  num-id: 53
+  name: the-marionettes-dance-suite
+  uuid: bf20c58d-2b04-49ca-96e6-6ffd02739322
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: The marionette’s dance suite
+    hu: Bábtáncoltató-szvit
+composition-date: 1940-1941
+movements:
+- original-value: 1) Nyitány / Ouvertüre - 2) Intermezzo - 3) Bojtárok és angyalok
+    tánca / Dance of the shepherd boys and the angels - 4) Kis Miklós tánca / Dance
+    of Kis Miklós - 5) Heródes tánca / Dance of Herodes - 6) Az ördög tánca / Dance
+    of the devil - 7) A halál tánca / Dance of death - 8) Rondino
+setting: 2 (picc.), 1, 2, 1 - 2, 2, 1, 0 – timp., batt. – arpa – archi

@@ -1,0 +1,22 @@
+catalog-id:
+  id: 0230-little-piano-pieces-after-hungarian-folk-songs
+  num-id: 230
+  name: little-piano-pieces-after-hungarian-folk-songs
+  uuid: 5c7fac7a-053a-46f1-89eb-f07bb4ad3647
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Little piano pieces after Hungarian folk songs
+    hu: Kis zongoradarabok magyar népdalok niyomán
+composition-date: "1935"
+movements:
+- original-value: 1) Előjáték / Vorspiel - 2) Kétszólamù invenció / Zweistimmige Invention
+    - 3) Meghalt a béres / Der Knecht ist tot - 4) Lakodalmas / Dorfmusikanten spielen
+    zur Hochzeit - 5) Csárdás - 6) Pásztornóta / Hirtenlied – 7) Bordal /Trinklied
+dedication: für Marianne und Annelise Schütze zum Andenken, Vergnügen und üben gewidmet,
+  Kopenhagen, 1935

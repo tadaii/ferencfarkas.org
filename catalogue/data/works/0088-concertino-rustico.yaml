@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0088-concertino-rustico
+  num-id: 88
+  name: concertino-rustico
+  uuid: 4fd3f9ee-a013-4125-92fa-5841817d7bc1
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: es
+  original: es
+  sort:
+  - es
+  translations:
+    es: Concertino rustico
+composition-date: "1977"
+movements:
+- original-value: 1) Allegro - 2) Rubato, a piacere - 3) Allegro vivace
+reworking: Concertino rustico for Alphorn and organ
+dedication: to József Molnár

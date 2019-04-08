@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0133-eclogue
+  num-id: 133
+  name: eclogue
+  uuid: 1ca605cf-3eb0-4280-9c9e-2aae6ce2beb7
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Eclogue
+reworking: Eclogue for violoncello and harp Eclogue for flute and harp
+source: manuscript by András Farkas Egloga-Burattinata for flute or violin and guitar

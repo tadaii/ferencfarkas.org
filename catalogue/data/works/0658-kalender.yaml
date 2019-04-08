@@ -1,0 +1,24 @@
+catalog-id:
+  id: 0658-kalender
+  num-id: 658
+  name: kalender
+  uuid: d9144352-c205-431c-bf16-7385abd66ffd
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: de
+  original: hu
+  sort:
+  - de
+  - hu
+  - en
+  translations:
+    de: Kalender
+    en: Calendar
+    hu: Naptár
+composition-date: "1956"
+movements:
+- original-value: Januar / Január, Februar / Február, März / Március, April / Április,
+    Mai / Május, Juni / Június, Juli / Július, August / Augusztus, September / Szeptember,
+    Oktober / Október, November / November, Dezember / December
+setting: 1(picc.), 1, 1, 1 - 1, 0, 0, 0 – arpa – quintetto d’archi
+reworking: Kalender / Naptár / Calendar for soprano, tenor and piano

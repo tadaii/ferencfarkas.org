@@ -1,0 +1,21 @@
+catalog-id:
+  id: 0496-akom-bakom-hadsereg
+  num-id: 496
+  name: akom-bakom-hadsereg
+  uuid: 9ffc01fb-845e-405b-b700-81d6664e3a7e
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: da
+  original: da
+  sort:
+  - da
+  translations:
+    da: Ákom-bákom hadsereg
+composition-date: "1977"
+movements:
+- original-value: '1) Tavaszi dal - text by Zoltán Zelk - durata : 20‘’ 2) A napsugár
+    - text by Károly Jobbágy - durata : 30‘’ 3) Ákom bákom hadsereg - text by Erzsi
+    Gazdag - durata : 1’ 4) Tavaszi felhők - text by Ágnes Nemes-Nagy - durata : 50‘’
+    5) A cinke, a kis vércsék meg a sas - text by Gábor Devecseri - durata : 50’’
+    6) Májusi dal - text by Mária Iványi - durata : 40‘’ 7) Tréfás kitaláló - text
+    by György Végh - durata : 1‘'

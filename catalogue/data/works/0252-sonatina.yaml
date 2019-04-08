@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0252-sonatina
+  num-id: 252
+  name: sonatina
+  uuid: 83ab410c-9147-43da-8082-e9d0c687c6e1
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Sonatina
+movements:
+- original-value: Allegro moderato, Andante, Allegretto
+reworking: Five easy piano pieces for piano Five easy piano pieces for 2 cimbaloms
+  Csángó szonatina for 3 guitars

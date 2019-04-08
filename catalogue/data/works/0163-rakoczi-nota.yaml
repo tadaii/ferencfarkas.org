@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0163-rakoczi-nota
+  num-id: 163
+  name: rakoczi-nota
+  uuid: 1285f583-c98f-4e33-8dd3-372aabc30ed4
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Rákóczi nóta
+movements:
+- original-value: 1. Rákóczi nóta – 2. Buga Jakab – 3. Fordulj kedves lovam
+reworking: Fúdd el szél, cantata
+source: manuscript by András Farkas

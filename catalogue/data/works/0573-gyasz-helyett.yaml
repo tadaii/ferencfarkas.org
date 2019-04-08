@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0573-gyasz-helyett
+  num-id: 573
+  name: gyasz-helyett
+  uuid: 8b03caa5-eb80-4566-a813-a49ec04b5194
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Gyász helyett
+composition-date: "1943"

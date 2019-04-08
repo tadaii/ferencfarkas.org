@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0504-hat-magyar-nepdal
+  num-id: 504
+  name: hat-magyar-nepdal
+  uuid: 5bf08d5b-45ec-4713-8316-c5fae0ef4d7a
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Hat magyar népdal
+movements:
+- original-value: 1) Párositó 2) Sánta beke 3) Két szál pünkösd rózsa 4) Megdöglött
+    a biró lova 5) A ej, tirájrom 6) Kalamajkó
+reworking: Six chansons populaires hongroises for children’s choir

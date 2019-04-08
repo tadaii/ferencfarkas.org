@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0244-sanctus
+  num-id: 244
+  name: sanctus
+  uuid: 1e963f35-58a1-4463-9fb1-14d4034e1214
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: es
+  original: es
+  sort:
+  - es
+  translations:
+    es: Sanctus
+composition-date: "1973"

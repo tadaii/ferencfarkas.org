@@ -1,0 +1,13 @@
+catalog-id:
+  id: 0737-pusztai-itelet-1957
+  num-id: 737
+  name: pusztai-itelet-1957
+  uuid: 4936062f-6f54-45e0-9aa3-354a8553ee38
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Pusztai itélet, 1957

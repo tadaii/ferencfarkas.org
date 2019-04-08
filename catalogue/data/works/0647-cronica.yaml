@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0647-cronica
+  num-id: 647
+  name: cronica
+  uuid: 25442f73-4d7d-4836-ac86-4c5e20a09750
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: pt
+  original: pt
+  sort:
+  - pt
+  translations:
+    pt: Cronica
+composition-date: "1973"
+movements:
+- original-value: '1) Hadnagyoknak tanulság – durata: 1’30'''' 2) Príni Péternek…./
+    Sirva veszéköl – durata: 1’20'''' 3a) Egervár viadaljáról…: Ti magyarok – durata:
+    1'' 3b) Ez idö tájt Ali basa – durata: 50'''' 3c) Lőn jó reggelt – durata: 50''''
+    3d) Az tömlöcbástyán – durata: 1'' 4) Sok részögös – durata: 1'''

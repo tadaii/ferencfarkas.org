@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0334-emmaus-cantata-after-st-luke
+  num-id: 334
+  name: emmaus-cantata-after-st-luke
+  uuid: 6ab8d1d9-33ab-49a0-9d38-5814ee58e20e
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Emmaus. Cantata after St. Luke
+composition-date: "1985"
+reworking: Emmaus. Cantata after St.Luke in Latin for mixed choir

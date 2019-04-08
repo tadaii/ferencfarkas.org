@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0020-csinom-palko
+  num-id: 20
+  name: csinom-palko
+  uuid: 5499aa4a-9878-41b5-bd1e-0a794461eb41
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Csínom Palkó
+movements:
+- original-value: 1) Bevezetés - 2) Jöttünk Edelényből - 3) Zsuzsi dala - 4) Balogh
+    Adám dala - 5) Jó estét - 6) Kis Dunaág - 7) Jójzakát - 8) Hüséges szivemmel
+setting: 1, 1, 2, 0 – 0, 2, 1, 0 – batt. – pf., harmonium, accordion – archi
+reworking: Csínom Palkó for wind orchestra Mischievous tune “Csínom Palkó” for wind
+  orchestra Csínom Palkó, opera
+source: 'piano-conductor& performance material: manuscript by András Farkas'

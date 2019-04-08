@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0209-deux-aquarelles
+  num-id: 209
+  name: deux-aquarelles
+  uuid: 0c0cd51c-0099-453d-a1b3-91d5afebaef5
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: fr
+  original: hu
+  sort:
+  - fr
+  - hu
+  translations:
+    fr: Deux aquarelles
+    hu: Két akvarell
+composition-date: "1955"
+movements:
+- original-value: 1) Születésnapi köszöntő / Geburtstagsgruss - 2) Aprilisi szél /
+    Aprilwind
+dedication: 'születésnapi köszöntő : Mancié'

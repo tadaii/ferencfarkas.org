@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0272-koelcsey-szozata
+  num-id: 272
+  name: koelcsey-szozata
+  uuid: f4394ea1-2e06-4ff3-a069-0d3b8aac50eb
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Kölcsey Szózata
+composition-date: 1992-1993
+movements:
+- original-value: 1) Preludio - 2) Küzdés - 3) Szép Erdély - 4) Quasi marcia funebre
+    - 5) Rákos - 6) Zsarnok - 7) Profán Korál - 8) Fughetta (Emléklapra) - 9) Finale
+    (A szabadsághoz)
+setting: 2 (picc.), 2, 2, 2 – 4, 3, 3, 0 – timp., batt. – arpa – archi
+source: 'score, piano reduction & performance material: manuscript by András Farkas'

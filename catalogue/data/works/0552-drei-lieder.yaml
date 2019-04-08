@@ -1,0 +1,21 @@
+catalog-id:
+  id: 0552-drei-lieder
+  num-id: 552
+  name: drei-lieder
+  uuid: f04641de-bc46-4cac-b060-63897b063624
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: de
+  original: hu
+  sort:
+  - de
+  - hu
+  - en
+  translations:
+    de: Drei Lieder
+    en: Three Eulau songs
+    hu: Három dal
+composition-date: "1958"
+movements:
+- original-value: 1) In den leuchtenden Abend / Fénylö estében 2) Lege deine Welt
+    in meine Hände / Add a szived 3) Aus den Rissen meines Herzens / Gyönge nedvet

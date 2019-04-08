@@ -1,0 +1,21 @@
+catalog-id:
+  id: 0207-choreae-hungaricae
+  num-id: 207
+  name: choreae-hungaricae
+  uuid: 72855c34-6215-4f22-a793-828f16c8f2f3
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: la
+  original: la
+  sort:
+  - la
+  translations:
+    la: Choreae hungaricae
+composition-date: "1997"
+movements:
+- original-value: 1) Allegro moderato - 2) Allegro - 3) Lo stesso tempo - 4) Allegro
+    non troppo - 5) Meno mosso - 6) Quasi minuetto
+reworking: Choreae hungaricae for chamber orchestra Choreae hungaricae for string
+  orchestra
+source: manuscript by András Farkas
+dedication: to Sándor Ruitner

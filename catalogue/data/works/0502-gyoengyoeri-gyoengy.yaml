@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0502-gyoengyoeri-gyoengy
+  num-id: 502
+  name: gyoengyoeri-gyoengy
+  uuid: 164bb1ec-cca8-4bb9-b159-ae72916d07e9
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Gyöngyöri-gyöngy
+movements:
+- original-value: '1) Karikázó-tánc - durata : 1’10‘’ 2) Egyszer két lányok - durata
+    : 1’ 3) Csillagom, révészem - durata : 1’ 4) Sudidrom - durata : 30‘’ 5) Párositó
+    6) Gyöngyöri-gyöngy - durata no.5 & 6 : 1’20‘’ 7) Regős ének - durata : 1’30‘’
+    8) Lányoknak való nóta - durata : 1’30‘’ 9) Molnárnóta - durata : 1’20‘’'
+reworking: A string of pearls for children’s choir

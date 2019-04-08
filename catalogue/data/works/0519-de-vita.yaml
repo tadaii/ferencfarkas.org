@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0519-de-vita
+  num-id: 519
+  name: de-vita
+  uuid: 9564df73-fa7c-4cc2-b550-0b5be89ee9e3
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: nl
+  original: nl
+  sort:
+  - nl
+  translations:
+    nl: De vita
+composition-date: "1995"
+source: manuscript by András Farkas

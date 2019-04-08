@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0574-gyoengy
+  num-id: 574
+  name: gyoengy
+  uuid: b97d838c-e460-454b-a24a-5b47d001f43b
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - es
+  translations:
+    es: Perle
+    hu: Gyöngy
+composition-date: "1939"

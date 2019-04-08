@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0599-magyarorszag-kiralynoejeroel
+  num-id: 599
+  name: magyarorszag-kiralynoejeroel
+  uuid: 50b1f453-785f-4e41-b4c6-dcf541200bba
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Magyarország királynőjéről
+source: manuscript by András Farkas

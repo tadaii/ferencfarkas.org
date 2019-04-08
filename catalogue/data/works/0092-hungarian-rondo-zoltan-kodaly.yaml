@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0092-hungarian-rondo-zoltan-kodaly
+  num-id: 92
+  name: hungarian-rondo-zoltan-kodaly
+  uuid: 35996388-72cc-4768-8aa5-c90e24349a79
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Hungarian rondo (Zoltán Kodály)
+composition-date: "1982"
+source: 'score & performance material: manuscript by András Farkas'

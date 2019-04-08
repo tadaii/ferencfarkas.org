@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0424-11-zsoltar
+  num-id: 424
+  name: 11-zsoltar
+  uuid: b36ff939-0542-45d8-9654-c5c66ceece90
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: 11. Zsoltár
+composition-date: "1988"
+source: manuscript by András Farkas

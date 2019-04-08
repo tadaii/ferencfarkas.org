@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0675-three-songs
+  num-id: 675
+  name: three-songs
+  uuid: eb78e2f4-dab7-4658-9dc8-f0c9fc073a8f
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Three songs
+composition-date: "1989"
+movements:
+- original-value: 1) The music flows 2) Loneliness 3) The cold wind
+source: manuscript by András Farkas

@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0100-trittico-concertato
+  num-id: 100
+  name: trittico-concertato
+  uuid: cb208a65-d7dc-4065-ab6e-3c893252f314
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Trittico concertato
+composition-date: "1964"
+movements:
+- original-value: 1) Allegro moderato - 2) Passacaglia con dedica - 3) Allegro vivace
+dedication: to Gaspar Cassado

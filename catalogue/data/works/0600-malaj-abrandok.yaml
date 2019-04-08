@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0600-malaj-abrandok
+  num-id: 600
+  name: malaj-abrandok
+  uuid: ab1fddb4-efa8-406b-9688-afd22aaf58a0
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - de
+  translations:
+    de: Malayische Traumbilder
+    hu: Maláj ábrándok
+composition-date: "1943"

@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0382-majusi-dalocska
+  num-id: 382
+  name: majusi-dalocska
+  uuid: cf027b7b-b0c1-4f1b-8819-4f5dd2f1b696
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Májusi dalocska
+composition-date: "1965"

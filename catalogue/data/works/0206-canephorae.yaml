@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0206-canephorae
+  num-id: 206
+  name: canephorae
+  uuid: 1d07a63c-14f0-4a20-88b5-f7f5fb1ea7e3
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: ia
+  original: ia
+  sort:
+  - ia
+  translations:
+    ia: Canephorae
+composition-date: "1931"
+movements:
+- original-value: 1 ) Preludio - 2) Andante - 3) Leggierissimo - 4) Lento - 5) Fughetta
+    (Allegro moderato)
+reworking: Canephorae for organ
+source: manuscript by András Farkas

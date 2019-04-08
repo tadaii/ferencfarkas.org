@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0349-hajdutanc
+  num-id: 349
+  name: hajdutanc
+  uuid: 3bea725f-daa3-4f51-b948-b75cd198162a
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Hajdútánc
+composition-date: "1975"
+reworking: Hajdútánc for male choir Hajdútánc for female choir
+nb: Rákóczi Ferenc születésének 300. évfordulójára

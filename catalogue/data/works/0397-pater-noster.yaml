@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0397-pater-noster
+  num-id: 397
+  name: pater-noster
+  uuid: ed5c13e4-c115-4a03-8ddd-5d8f96ed406b
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: pl
+  original: pl
+  sort:
+  - pl
+  translations:
+    pl: Pater Noster
+composition-date: "1993"

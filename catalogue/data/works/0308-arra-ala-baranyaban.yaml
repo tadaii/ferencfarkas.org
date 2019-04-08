@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0308-arra-ala-baranyaban
+  num-id: 308
+  name: arra-ala-baranyaban
+  uuid: 86feae31-f341-48df-a4b8-9c32d94b3781
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Arra alá Baranyában
+movements:
+- original-value: 1) Zörög a citrom a kertbe... 2) Erre ? 3) Merre ? 4) Sej ! kis
+    kákicsom

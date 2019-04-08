@@ -1,0 +1,22 @@
+catalog-id:
+  id: 0262-aspirationes-principis
+  num-id: 262
+  name: aspirationes-principis
+  uuid: 81f3189d-3830-46f9-8c73-367bb3ac046a
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Aspirationes principis
+    hu: Rákóczi cantata
+composition-date: 1974-1975
+movements:
+- original-value: 1) “Recrudescunt...” – 2) Sententia – 3) Ad sonitum classici – 4)
+    Ad aspectum cadaverum – 5) Ad obtenta victoria – 6) De silentio – 7) Mikes levele
+    – 8) Epitaphium
+setting: 3 (picc.), 3 (III=c.i.), 3 (cl. b.), 3 (cfg.) – 4, 3, 3, 0 – timp., batt.
+  – 2 arpe, pf., cel. – archi

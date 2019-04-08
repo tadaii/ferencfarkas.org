@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0034-maschere
+  num-id: 34
+  name: maschere
+  uuid: afa02baf-b5d6-474f-93bc-a113b259323c
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Maschere
+composition-date: "1983"
+movements:
+- original-value: 1) Il Capitano - 2) Pantalone - 3) Colombina - 4) Povero Pulcinella
+    - 5) Arlecchino
+setting: 1, 1, 1, 1 – 0, 1, 0, 0 – archi
+reworking: Maschere for piano Mascarade / Maschere for wind trio

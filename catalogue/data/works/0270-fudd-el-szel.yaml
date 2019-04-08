@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0270-fudd-el-szel
+  num-id: 270
+  name: fudd-el-szel
+  uuid: ee0a65ae-1aa6-4d2f-88c5-94d6fffc173f
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: es
+  original: es
+  sort:
+  - es
+  translations:
+    es: Fúdd el szél
+composition-date: "1953"
+movements:
+- original-value: 1) Rákóczi László balladája - 2) Buga Jakab éneke - 3) Rákóczi kesergöje
+    - 4) Fordulj kedves lovam - 5) Rákóczi nóta - 6) Hej, fúdd el szél - 7) Ercsényi-Bercsényi
+    - 8) Janószy András bujdosó éneke
+setting: 2 (picc.), 1, 2, 1 – 2, 2, 0, 0 – arpa – archi
+source: 'score : manuscript by András Farkas'

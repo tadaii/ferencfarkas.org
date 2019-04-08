@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0580-harom-kuruc-dal
+  num-id: 580
+  name: harom-kuruc-dal
+  uuid: 7b2af9e7-2d22-42eb-aa95-342507d8dd48
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - en
+  translations:
+    en: Three songs
+    hu: Három kuruc dal
+composition-date: "1953"
+movements:
+- original-value: '1) Balogh Adám nótája - durata : 2'' 2) Te vagy a legény - durata
+    : 3’30'''' 3) Csínom Palkó - durata : 2’'
+reworking: Kurucdal for 4-part male choir and piano ad lib. Csínom Palkó, opera

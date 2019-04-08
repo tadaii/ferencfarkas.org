@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0036-philharmonic-overture
+  num-id: 36
+  name: philharmonic-overture
+  uuid: 1822a17f-33d3-4a67-b761-7ece783d204e
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Philharmonic overture
+    hu: Filharmónikus nyitány
+composition-date: 1977-1978
+setting: 3 (III = picc.), 3 (III = c.i.), 3, 3 (III = cfg.) – 4, 3, 3, 1 – timp.,
+  xyl., batt. – archi
+dedication: a Budapesti Filharmóniai Társaság megalakulásának l25. évfordulójára

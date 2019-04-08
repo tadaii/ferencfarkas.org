@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0103-allantica
+  num-id: 103
+  name: allantica
+  uuid: b1d8cf33-6874-49be-9c49-5c77b218164d
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: All'antica
+composition-date: "1962"
+movements:
+- original-value: Pastorale, Aria con variazioni, Giga
+reworking: Concertino all'antica for baryton or violoncello or viola and string orchestra
+  All’antica for viola and piano or harpsichord
+dedication: to János Liebner

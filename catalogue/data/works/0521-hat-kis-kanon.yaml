@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0521-hat-kis-kanon
+  num-id: 521
+  name: hat-kis-kanon
+  uuid: 854385ef-016b-4ca7-9e89-e892b8876bca
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Hat kis kánon
+movements:
+- original-value: '1) Enek a tavaszhoz - text by Mihály Csokonai Vitéz 2) Serkentö
+    ének - text by János Batsányi 3) Harang felirat / Vivos voco 4) köszöntő / Wishing
+    you all the wonderful joys 5) Mundus vult decipi / A világ csalódni akar 6) Epigramma
+    : Sohasem számos főben / Nimmer in tausend Köpfen - German text by F.Hebbel'

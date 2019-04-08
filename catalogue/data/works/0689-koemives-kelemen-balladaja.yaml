@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0689-koemives-kelemen-balladaja
+  num-id: 689
+  name: koemives-kelemen-balladaja
+  uuid: 7b0dafe0-50ce-43f7-8b8a-65a9d32b5dda
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Kőmives Kelemen balladája
+composition-date: "1960"
+reworking: Kőmives Kelemen balladája for voice and orchestra
+source: manuscript by András Farkas

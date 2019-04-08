@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0250-sonata-no-1
+  num-id: 250
+  name: sonata-no-1
+  uuid: eafbbcda-46cb-443d-aad2-59ea878267fb
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Sonata no. 1
+composition-date: "1930"
+movements:
+- original-value: Allegro, Adagio, Allegro
+source: manuscript by András Farkas

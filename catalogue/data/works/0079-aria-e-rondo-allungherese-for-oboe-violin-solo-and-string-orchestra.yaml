@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0079-aria-e-rondo-allungherese-for-oboe-violin-solo-and-string-orchestra
+  num-id: 79
+  name: aria-e-rondo-allungherese-for-oboe-violin-solo-and-string-orchestra
+  uuid: 1fa5d8bd-3e30-442d-bac5-8ded288bceae
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Aria e rondo all'ungherese for oboe, violin solo and string orchestra
+composition-date: "1994"
+reworking: Aria e rondo all’ungherese for 2 violins and string orchestra
+dedication: to Lajos Lencsés

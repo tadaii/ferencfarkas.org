@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0150-musica-serena
+  num-id: 150
+  name: musica-serena
+  uuid: f92fad5c-d5d9-4d50-9f83-8494851e7f9b
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: pt
+  original: pt
+  sort:
+  - pt
+  translations:
+    pt: Musica serena
+movements:
+- original-value: 1) Allegro - 2) Andante moderato - 3) Allegro vivace
+reworking: Musica serena for string orchestra
+source: manuscript by András Farkas

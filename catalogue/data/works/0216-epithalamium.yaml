@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0216-epithalamium
+  num-id: 216
+  name: epithalamium
+  uuid: 97f8c999-fc2f-40f2-a18a-20fc2a7ccf6c
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: ht
+  original: ht
+  sort:
+  - ht
+  translations:
+    ht: Epithalamium
+composition-date: "1973"
+reworking: Epithalame for oboe and organ Epithalamium for oboe and string orchestra
+dedication: compositum in occasionem nuptiarum fili mei. Franciscae et Andreae dedicatum

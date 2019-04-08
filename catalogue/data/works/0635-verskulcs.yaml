@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0635-verskulcs
+  num-id: 635
+  name: verskulcs
+  uuid: 9625aae1-6d12-4373-8cb2-e50367ae955b
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Verskulcs
+composition-date: "1994"
+source: manuscript by András Farkas

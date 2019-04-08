@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0141-kuruc-songs-and-dances-from-the-country-of-ugrocz
+  num-id: 141
+  name: kuruc-songs-and-dances-from-the-country-of-ugrocz
+  uuid: 7315cd46-1288-417a-8173-b1797d5d1576
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Kuruc songs and dances from the country of Ugrocz
+    hu: Kuruc dalok és táncok az Ugróczi-kéziratból
+composition-date: "1989"
+movements:
+- original-value: 1) Kuruc nóta - 2 ) Saltus I - 3) Bujdosó nóta - 4) Kuruc nóta -
+    5) Saltus II - 6) Saltus III

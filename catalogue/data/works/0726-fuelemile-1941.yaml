@@ -1,0 +1,13 @@
+catalog-id:
+  id: 0726-fuelemile-1941
+  num-id: 726
+  name: fuelemile-1941
+  uuid: 0e191f66-5aff-41e5-b55e-c285f4c17884
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Fülemile, 1941

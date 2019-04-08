@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0286-virgilii-georgica
+  num-id: 286
+  name: virgilii-georgica
+  uuid: 91b2f0f9-5fb1-46c1-9905-9e1532d65124
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Virgilii Georgica
+composition-date: "1988"
+movements:
+- original-value: 1) De varietate vinorum - 2) De vitibus colendis - 3) Conclusio
+setting: 2, 2, 2, 2 – 2, 2, 0, 0 – archi
+source: 'score, piano reduction & performance material: manuscript by András Farkas'
+dedication: aux Choeurs de Chailly sur Clarens á l'occasion de leur centenaire et
+  á leur chef András Farkas, hommage aux viticulteurs vaudois

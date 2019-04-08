@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0066-musica-pentatonica
+  num-id: 66
+  name: musica-pentatonica
+  uuid: 605879ff-e519-4e12-b6aa-1b252c84cd8b
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Musica pentatonica
+composition-date: "1945"
+movements:
+- original-value: 1) Toccata - 2) Aria - 3) Fuga
+reworking: Toccata for piano Toccata for organ

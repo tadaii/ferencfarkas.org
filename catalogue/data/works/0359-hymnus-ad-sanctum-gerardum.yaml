@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0359-hymnus-ad-sanctum-gerardum
+  num-id: 359
+  name: hymnus-ad-sanctum-gerardum
+  uuid: ef9cb159-6175-4824-b533-b73355594ac9
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: la
+  original: la
+  sort:
+  - la
+  translations:
+    la: Hymnus ad Sanctum Gerardum
+composition-date: "1982"
+source: manuscript by András Farkas

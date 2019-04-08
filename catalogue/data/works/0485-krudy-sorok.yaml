@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0485-krudy-sorok
+  num-id: 485
+  name: krudy-sorok
+  uuid: 0df64263-6cbb-4f75-b1f2-1d189982a3f8
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: sk
+  original: sk
+  sort:
+  - sk
+  translations:
+    sk: Krúdy-sorok
+composition-date: "1988"
+reworking: 'Krúdy-sorok : chamber cantata for female choir, oboe, 3 violins and violoncello'

@@ -1,0 +1,23 @@
+catalog-id:
+  id: 0024-dinner-music
+  num-id: 24
+  name: dinner-music
+  uuid: 60849c12-e4ea-4415-9840-7e3ee2c33457
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  - de
+  - fr
+  translations:
+    de: Tafelmusik
+    en: Dinner-music
+    fr: Musique de table
+composition-date: "1938"
+movements:
+- original-value: 1) Andante moderato - 2) Palotás-tempo - 3) Allegretto - 4) Andante
+    - 5) Allegro moderato
+setting: 1, 1, 2, 1 – 2, 1, 1, 0 – archi
+source: 'score: manuscript by András Farkas'

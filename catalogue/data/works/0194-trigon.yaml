@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0194-trigon
+  num-id: 194
+  name: trigon
+  uuid: ddf4e9d1-97ec-48fe-b27c-c96ca2e2dde5
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Trigon
+composition-date: "1988"
+movements:
+- original-value: Moderato molto, Andante moderato, Allegro
+reworking: Trigon for flute, bass-clarinet and piano

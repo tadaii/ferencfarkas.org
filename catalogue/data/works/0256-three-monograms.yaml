@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0256-three-monograms
+  num-id: 256
+  name: three-monograms
+  uuid: d1e6133b-527e-4a76-90e5-99ffc9f59e30
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Three Monograms
+    hu: Három monogramm
+composition-date: 1962, rev. 1972
+movements:
+- original-value: 1) M.R. (Maros Rudolf) - 2) Sz. I. (Szönyi István) - 3) L. Gy. (Ligeti
+    György)

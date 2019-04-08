@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0571-galans-uennepseg
+  num-id: 571
+  name: galans-uennepseg
+  uuid: 833d6205-6c23-4372-bbc3-d301ca60f1fc
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Gáláns ünnepség
+composition-date: "1928"
+source: manuscript by András Farkas

@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0115-contrafacta-hungarica
+  num-id: 115
+  name: contrafacta-hungarica
+  uuid: 7198483d-3c6f-4631-a6b4-61361011ea5e
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: bi
+  original: bi
+  sort:
+  - bi
+  translations:
+    bi: Contrafacta Hungarica
+composition-date: "1976"
+movements:
+- original-value: Basse danse, Gagliarda, Passamezzo, Saltarello, Andante espressivo,
+    Heiduckentanz
+reworking: Partita all’ungaresca for string orchestra Partita all’ungaresca for guitar
+  quartet
+dedication: dem Berner Bläseroktett und seinem Leiter András Farkas gewidmet

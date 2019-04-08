@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0407-rossz-eloejelek
+  num-id: 407
+  name: rossz-eloejelek
+  uuid: 97c60846-ecf3-4b23-b620-7f7fb86913d2
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Rossz előjelek
+composition-date: "1991"
+source: manuscript by András Farkas

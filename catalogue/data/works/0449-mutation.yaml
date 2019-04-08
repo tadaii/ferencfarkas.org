@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0449-mutation
+  num-id: 449
+  name: mutation
+  uuid: 185a111c-f8c3-4d2d-9fc2-d4a0430f01c7
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Mutation
+source: manuscript by András Farkas

@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0118-dances-from-esztergom
+  num-id: 118
+  name: dances-from-esztergom
+  uuid: f8041cc3-7f52-43fd-ae63-62b22793e727
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Dances from Esztergom
+    hu: Esztergomi táncok
+composition-date: "1988"
+movements:
+- original-value: Allegro moderato, Lo stesso tempo, Lassù, Allegro vivace, Quasi
+    lo stesso tempo
+dedication: to Csaba Nagy

@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0387-negysoros-versek
+  num-id: 387
+  name: negysoros-versek
+  uuid: 0783e1ea-2071-43f7-a3b8-59df3cd984af
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Négysoros versek
+composition-date: "1983"
+movements:
+- original-value: '1) Kirándulás - text by Jenő Dsida - durata : 1’ 2) Négysoros -
+    text by Jenő Dsida - durata : 1’50‘’ 3) Négy sor - text by Jenő Dsida - durata
+    : 1’30‘’ 4) Fecskék - text by Zoltán Jékely - durata : 1’40‘’ 5) Reggeli rajz
+    - text by Jenő Dsida - durata : 1‘'
+dedication: A Szlovákiai Magyar Tanitók Ènekkarának

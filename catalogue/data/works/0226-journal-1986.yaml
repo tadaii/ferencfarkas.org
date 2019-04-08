@@ -1,0 +1,25 @@
+catalog-id:
+  id: 0226-journal-1986
+  num-id: 226
+  name: journal-1986
+  uuid: ca88f060-1d09-4ffb-825a-eae23af72b32
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Journal 1986
+    hu: Naplójegyzetek 1986
+composition-date: "1986"
+movements:
+- original-value: 1) Carte de visite / Névjegy - 2) Elan / Lendület - 3) Sur les ailes
+    des rêves / Almok édes képzeménye - 4) Mes petits enfants jouent / Játszanak az
+    unokák - 5) Un jour parmi d'autres / "Ez a nap is mint a többi" - 6) Nuit blanche
+    / Almatlan éj - 7) Les feuilles tombent / A lombok hullnak - 8) Le temps s'enfuit
+    vite sur ses ailes / A szárnyas idő hirtelen elröpül - 9) Nulla dies sine linea
+    - 10) Ce n'est qu'un jeu / Csak játék - 11) Contemplation / Tünődés - 12) Gymnastique
+    du matin / Reggeli torna - 13) Entre doute et espoir / Kétség s remény közt -
+    14) Et malgré tout / Es mégis

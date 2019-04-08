@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0456-rekrutasor
+  num-id: 456
+  name: rekrutasor
+  uuid: dc467834-a67e-4a8b-90a2-e17976388f82
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Rekrutasor
+dedication: Vaszy Viktornak szeretettel és hálás köszönettel

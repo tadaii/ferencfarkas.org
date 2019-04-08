@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0547-csinom-palko
+  num-id: 547
+  name: csinom-palko
+  uuid: f779dfb7-1412-420e-97ca-516fba5095c9
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Csínom Palkó
+composition-date: "1949"
+movements:
+- original-value: '1) Jójszakát - durata : 5’ 2) Ahol te jársz - durata : 3’ 3) Jó
+    estét - durata : 5’ 4) Jöttünk Edelényből - durata : 5’ 5) Kis Dunaág - durata
+    : 3'' 6) Zsuzsi dala - durata : 5’ 7) Förgeteg dala - durata : 4’ 8) Hűséges szivemmel
+    - durata : 3’'

@@ -1,0 +1,23 @@
+catalog-id:
+  id: 0377-laus-joannis-vitezue-archiepiscopi
+  num-id: 377
+  name: laus-joannis-vitezue-archiepiscopi
+  uuid: 8107fdeb-161b-48c8-8059-755421621113
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: la
+  original: hu
+  sort:
+  - la
+  - hu
+  translations:
+    hu: Vitéz János érsek dicsérete
+    la: Laus Joannis Vitézü Archiepiscopi
+composition-date: "1986"
+movements:
+- original-value: '1) Evocatio - Hungarian translated by István Tóth - durata : 2’30’’
+    2) De tectis per Joannem Archiepiscopum Strigoniensem instauratis - Hungarian
+    translated by Agnes Kurcz - durata : 1’20’’ 3) Ad Joannem Archiepiscorum Strigoniensem
+    - Hungarian translated by Magda Szabó – durata : 2’ 4) De signo Joanni Vitézii
+    Archiepiscopi - Hungarian translated by Agnes Kurcz – durata : 1’30’’'
+source: manuscript by András Farkas

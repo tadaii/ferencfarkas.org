@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0029-funerailles-franz-liszt
+  num-id: 29
+  name: funerailles-franz-liszt
+  uuid: 5865ac39-a475-4056-8b55-c8afdd0cb43f
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Funérailles (Franz Liszt)
+composition-date: "1974"
+setting: 3 (picc.), 2 (c.i.), 2, 3(cfg) - 4, 3, 3, 1 – timp., batt. – arpa – archi
+dedication: for my son András

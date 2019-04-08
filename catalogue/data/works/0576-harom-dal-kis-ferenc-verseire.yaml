@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0576-harom-dal-kis-ferenc-verseire
+  num-id: 576
+  name: harom-dal-kis-ferenc-verseire
+  uuid: e2974909-df41-43b6-97e6-75d48802eca7
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Három dal Kis Ferenc verseire
+composition-date: "1982"

@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0369-jelenesek
+  num-id: 369
+  name: jelenesek
+  uuid: 1ccd4496-3258-4313-97e8-1632b8f466be
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Jelenések
+composition-date: "1983"
+movements:
+- original-value: 1) Homokóra-Játék 2) Elmúlnak 3) Vesztőhely a világ végén 4) A sirhalom
+    5) Hopp, Sári, hopp
+dedication: A mü Debrecen város felkérésére készült

@@ -1,0 +1,21 @@
+catalog-id:
+  id: 0227-journal-1987
+  num-id: 227
+  name: journal-1987
+  uuid: 5b36aa8f-4d81-48e6-befe-988e15835f67
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Journal 1987
+    hu: Naplójegyzetek 1987
+composition-date: "1987"
+movements:
+- original-value: 1) Projets du matin / Reggeli tervek - 2) Jeu / Játék - 3) Berceuse
+    / Altatódal - 4) Plaisanterie / Tréfa - 5) Ombres / Arnyak - 6) Moments de sérénité
+    / A derű pillanatai - 7) Passetemps / Időtöltés - 8) Attente / Várakozás - 9)
+    Promenade / Séta - 10) Colère / Mérgelödés

@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0641-canzone-turca-a-giulia
+  num-id: 641
+  name: canzone-turca-a-giulia
+  uuid: 803fbfd0-406b-42dc-87ad-48ec178f2ba3
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: it
+  original: hu
+  sort:
+  - it
+  - hu
+  translations:
+    hu: Török vers Jùliára
+    it: Canzone turca a Giulia
+composition-date: "1972"
+source: manuscript by András Farkas

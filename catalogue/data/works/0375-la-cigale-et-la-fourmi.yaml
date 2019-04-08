@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0375-la-cigale-et-la-fourmi
+  num-id: 375
+  name: la-cigale-et-la-fourmi
+  uuid: ec9b2b60-a7d9-48c1-88c8-74c20ff63137
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: La cigale et la fourmi
+composition-date: "1977"
+reworking: A tücsök és a hangya for mixed choir, mezzo-soprano solo and piano or 4
+  guitars
+source: manuscript by András Farkas
+nb: 'version for 4 guitars : see " A tücsök és a hangya" for mixed choir, mezzo-soprano
+  solo and piano or 4 guitars'

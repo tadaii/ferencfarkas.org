@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0044-suite-a-harom-csavargo
+  num-id: 44
+  name: suite-a-harom-csavargo
+  uuid: 2e81e2a8-427a-4200-876e-41fce22f6c79
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - en
+  translations:
+    en: Suite “The three vagabonds"
+    hu: Suite "A három csavargó”
+composition-date: 1932-1933
+setting: 1, 1, 2, 1 - 2, 1, 0, 0 - timp., batt. - archi
+reworking: A három csavargó, ballet
+source: 'score & performance material : manuscript by András Farkas'

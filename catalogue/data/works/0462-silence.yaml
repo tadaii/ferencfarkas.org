@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0462-silence
+  num-id: 462
+  name: silence
+  uuid: 52b3a266-b11c-466e-8ce3-b6af2f1a7a80
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  - de
+  translations:
+    de: Stille
+    en: Silence
+composition-date: "1975"
+dedication: á la Chorale “ l’Echo du Léman”, Lausanne

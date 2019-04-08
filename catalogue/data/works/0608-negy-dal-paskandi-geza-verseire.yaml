@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0608-negy-dal-paskandi-geza-verseire
+  num-id: 608
+  name: negy-dal-paskandi-geza-verseire
+  uuid: 2286b1d4-63e2-41b8-b119-ecb42ffdb87d
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Négy dal Páskándi Géza verseire
+composition-date: 1989-1990
+movements:
+- original-value: '1) Alagút - durata : 2’20'''' 2) Ars poetica a pusztán - durata
+    : 1’40'''' 3) A rés földje - durata : 1’30'''' 4) Tükörbe eresztett koporsó -
+    durata : 1‘50'''''
+source: manuscript by András Farkas

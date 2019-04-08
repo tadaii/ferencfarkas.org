@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0139-five-pieces-for-2-cimbaloms
+  num-id: 139
+  name: five-pieces-for-2-cimbaloms
+  uuid: 21bfdeda-58fb-4440-a428-5b9bafbafc13
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Five pieces for 2 cimbaloms
+    hu: Öt darab két cimbalomra
+movements:
+- original-value: 1) Szonatina - 2) Dal - 3) Táncnóta - 4) Kánon - 5) Rondo
+reworking: Five easy piano pieces for piano Csángó szonatina for 3 guitars Sonatina
+  for harp

@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0184-sonatina-based-on-hungarian-folk-songs
+  num-id: 184
+  name: sonatina-based-on-hungarian-folk-songs
+  uuid: 02c243f3-533b-4483-a117-2bf07d67e011
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Sonatina based on Hungarian folk songs
+    hu: Népdalszonatina
+composition-date: "1955"
+movements:
+- original-value: Allegro moderato, Andante espressivo, Allegro
+reworking: Sonatina based on Hungarian folk songs for double-bass and cimbalom
+dedication: to Lajos Montág

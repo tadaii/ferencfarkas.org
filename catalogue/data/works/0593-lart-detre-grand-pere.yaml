@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0593-lart-detre-grand-pere
+  num-id: 593
+  name: lart-detre-grand-pere
+  uuid: 3c16402d-6581-4056-95af-d169c96d12ff
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: L'art d'être grand-père
+composition-date: "1985"
+movements:
+- original-value: '1) Jeanne et Georges - durata : 3’20'''' 2) Jeanne parle - durata
+    : 1’30’’ 3) L''autre - durata : 2’30’'' 4) Promenade - durata : 2’30'''''
+source: manuscript by András Farkas
+dedication: pour l'anniversaire de Grand-maman et de la petite famille

@@ -1,0 +1,22 @@
+catalog-id:
+  id: 0420-vazakepek
+  num-id: 420
+  name: vazakepek
+  uuid: 5f5c84c1-13da-4da7-91c9-3ab3feb8eae2
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Vázaképek
+composition-date: "1985"
+movements:
+- original-value: '1) Anakreoni dal a tücsökhöz – Hungarian translated by Imre Trencsényi-Waldapfel
+    from Greek words by Anakreon – durata : 2‘30‘’ 2) Töredék a halálról – Hungarian
+    translated by Miklós Radnóti from Greek words by Anakreon – durata : 2’30‘’ 3)
+    A kedves dicsérete – Hungarian translated by Mihály Babits from Greek words by
+    Theokritos – durata : 3‘'
+dedication: az 1985. évi VII athéni kórusfesztivál felkérésére irótt mü. Dedicato
+  a Thrassos Cavouras

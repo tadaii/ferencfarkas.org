@@ -1,0 +1,21 @@
+catalog-id:
+  id: 0664-minuti
+  num-id: 664
+  name: minuti
+  uuid: 2baeb996-e794-448e-aba2-6f4203506593
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Minuti
+composition-date: "1990"
+movements:
+- original-value: '1) Il passato - text by G. Pascoli – durata: 1’20'''' 2) Congedo
+    - text by G. Carducci – durata: 50'''' 3) Amen per la Domenica in Albis - text
+    by S. Quasimodo – durata: 50'''' 4) I morti - text by S. Quasimodo – durata: 1’20''''
+    5) Ed è subito sera - text by S. Quasimodo - durata: 50'''' 6) La Rondine - text
+    by E. Montale –durata: 1'' 7) Ecco il segno - text by E. Montale – durata: 1'''
+source: manuscript by András Farkas

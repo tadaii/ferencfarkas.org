@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0708-ahogy-tetszik
+  num-id: 708
+  name: ahogy-tetszik
+  uuid: 51e8077e-839f-4090-b7bb-d1c8155f4fcc
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - en
+  translations:
+    en: As you like it by Shakespeare, 1937
+    hu: Ahogy tetszik
+reworking: As you like it for violin, viola and harp As you like it for 2 violins
+  and harp Petite ouverture for flute, horn and harp Két madrigal for 4-part male
+  choir Vadászkar for 4-part male choir Három dal Shakespeare "Ahogy tetszik" cimű
+  vigjátékából / Drei Lieder aus dem Lustspiel "Wie es euch gefällt" von Shakespeare
+  for voice and piano

@@ -1,0 +1,21 @@
+catalog-id:
+  id: 0228-ket-magyar-tanc
+  num-id: 228
+  name: ket-magyar-tanc
+  uuid: 7994edcb-d7b5-45f2-843f-531d2f3b5219
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - en
+  translations:
+    en: Two Hungarian dances
+    hu: Két magyar tánc
+composition-date: "1975"
+movements:
+- original-value: 1) Kecskeméti verbunk - 2) Pásztortánc
+reworking: Zwei ungarische Tänze for orchestra Shepherd dance for harp
+source: manuscript by András Farkas
+dedication: à Françoise avec beaucoup d'affection pour son anniversaire

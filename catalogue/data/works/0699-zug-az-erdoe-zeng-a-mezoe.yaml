@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0699-zug-az-erdoe-zeng-a-mezoe
+  num-id: 699
+  name: zug-az-erdoe-zeng-a-mezoe
+  uuid: 8b8dc650-d696-4d1c-9bb7-492b94bcba02
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Zúg az erdő, zeng a mező
+source: manuscript by András Farkas

@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0253-subulo
+  num-id: 253
+  name: subulo
+  uuid: aad7ccce-fd78-4a27-b02f-44dd8b7c4b64
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: ny
+  original: ny
+  sort:
+  - ny
+  translations:
+    ny: Subulo
+composition-date: "1989"

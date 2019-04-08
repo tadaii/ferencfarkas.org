@@ -1,0 +1,27 @@
+catalog-id:
+  id: 0017-the-sly-students
+  num-id: 17
+  name: the-sly-students
+  uuid: dd0a0f5d-0175-4d98-ba75-f69d47ca332a
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  - de
+  translations:
+    de: Die listigen Studenten
+    en: The sly students
+    hu: Furfangos diákok
+composition-date: 1949, rev. 1956
+subject: Gusztáv Oláh
+synopsis: the director of the Debrecen College, Professor Horváth, intends his daughter,Rózsika,
+  to marry Józsi, the son of Mr Streber, the town treasurer.
+choreography: Gyula Harangozó
+setting: 3 (picc.), 2, 2, 2 – 4, 3, 3, 1 – timp., batt. (3 ess.) – arpa – archi
+reworking: The sly students / Furfangos diákok, suite for orchestra The sly students
+  / Furfangos diákok, suite for wind orchestra
+source: 'score, piano reduction & performance material: manuscript by András Farkas'
+world-premiere: Hungarian State Opera of Budapest, 1949, conducted by Jenő Kenessey

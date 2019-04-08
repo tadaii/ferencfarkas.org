@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0479-emen-eldu-gerade
+  num-id: 479
+  name: emen-eldu-gerade
+  uuid: b3a598c2-efac-433a-8a2f-fa36baac6631
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: de
+  original: de
+  sort:
+  - de
+  translations:
+    de: Emen eldu gerade
+composition-date: "1993"

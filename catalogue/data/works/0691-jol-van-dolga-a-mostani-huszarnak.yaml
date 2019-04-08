@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0691-jol-van-dolga-a-mostani-huszarnak
+  num-id: 691
+  name: jol-van-dolga-a-mostani-huszarnak
+  uuid: 4bc4d307-179e-4fd5-8481-ce315bcab876
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Jól van dolga a mostani huszárnak
+source: manuscript by András Farkas

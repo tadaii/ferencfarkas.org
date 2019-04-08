@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0136-epithalame
+  num-id: 136
+  name: epithalame
+  uuid: fde18ff8-5884-46cb-a534-6d31fc1410d0
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: ht
+  original: ht
+  sort:
+  - ht
+  translations:
+    ht: Epithalame
+composition-date: "1978"
+reworking: Epithalamium for organ Epithalamium for oboe and string orchestra
+source: manuscript by András Farkas

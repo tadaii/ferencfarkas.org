@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0341-ez-karacsony
+  num-id: 341
+  name: ez-karacsony
+  uuid: 496eda83-9d2d-46fd-9852-f3c29ff6f2cf
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Ez karácsony
+reworking: Ein Krippenspiel aus Kőröshegy, Christmas cantata

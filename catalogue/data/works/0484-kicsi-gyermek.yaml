@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0484-kicsi-gyermek
+  num-id: 484
+  name: kicsi-gyermek
+  uuid: 931a33fc-dfac-4189-8623-6b8c056fdab9
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Kicsi gyermek
+composition-date: "1998"
+reworking: 'Villancico for mixed choir Christmas album for voice and piano no 10 :
+  Kicsi gyermek'
+source: manuscript by András Farkas

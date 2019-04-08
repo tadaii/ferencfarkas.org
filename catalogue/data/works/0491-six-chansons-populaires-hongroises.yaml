@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0491-six-chansons-populaires-hongroises
+  num-id: 491
+  name: six-chansons-populaires-hongroises
+  uuid: 1e070a20-b342-4974-9fe7-bd12337765ab
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Six chansons populaires hongroises
+composition-date: "1935"
+movements:
+- original-value: 1) La choucroute 2) Va-t-y, va-t-on ? 3) Au bord de la route 4)
+    Le cheval du juge 5) Le violon de l’oncle Antoine 6 ) Kalamaïko
+reworking: Hat magyar népdal for female choir

@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0196-trio
+  num-id: 196
+  name: trio
+  uuid: 4959a5f1-7922-4597-baa9-8e28cac2a09b
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Trio
+composition-date: "1979"
+movements:
+- original-value: 1) Allegro agitato - 2) Andante moderato - 3) Allegro leggero

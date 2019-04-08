@@ -1,0 +1,24 @@
+catalog-id:
+  id: 0218-exercitium-tonale
+  num-id: 218
+  name: exercitium-tonale
+  uuid: a495be06-ab4e-4b5d-b5b4-ed4cfc80ecb3
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: la
+  original: la
+  sort:
+  - la
+  translations:
+    la: Exercitium tonale
+composition-date: "1982"
+movements:
+- original-value: 1) Intrada - 2) Andante - 3) Allegro - 4) Allegro - 5) Allegro -
+    6) Andante sostenuto - 7) Una melodia semplice - 8) Andante moderato - 9) Gigue
+    - 10) Andante meditativo - 11) Allegro - 12) Cavatina (Omaggio a Donizetti) -
+    13) Allegro - 14) Allegro leggero - 15) Tempo di Minuetto - 16) Moto perpetuo
+    - 17) Canone - 18) In modo romantico (Omaggio a Schumann) - 19) Meditazione -
+    20) Andante moderato - 21) Allegro - 22) Andante - 23) Allegro - 24) Tempo di
+    Gavotta
+reworking: quatre préludes for harp Exercitium tonale for cimbalom
+dedication: to Angelo Gilardino

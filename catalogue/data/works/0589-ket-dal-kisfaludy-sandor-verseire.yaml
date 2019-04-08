@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0589-ket-dal-kisfaludy-sandor-verseire
+  num-id: 589
+  name: ket-dal-kisfaludy-sandor-verseire
+  uuid: d2ad618e-5d72-4959-af53-899a88007660
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Két dal Kisfaludy Sándor verseire
+composition-date: "1957"
+movements:
+- original-value: 1) Szüretkor 2) Napok jönnek

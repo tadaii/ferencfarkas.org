@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0619-parizsban-jart-az-oesz
+  num-id: 619
+  name: parizsban-jart-az-oesz
+  uuid: 1600ea9c-dbc6-46be-afa6-300c177d9614
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Párizsban járt az ősz
+composition-date: "1983"

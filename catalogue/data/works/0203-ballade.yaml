@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0203-ballade
+  num-id: 203
+  name: ballade
+  uuid: c926df77-3f26-47b0-9535-a7d6b686f096
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  - en
+  translations:
+    en: Ballade
+composition-date: "1955"

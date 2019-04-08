@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0173-scherzino-e-intermezzo
+  num-id: 173
+  name: scherzino-e-intermezzo
+  uuid: 54dc15a0-9d8b-4564-a4b9-0867b34acaad
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Scherzino e intermezzo
+composition-date: "1940"

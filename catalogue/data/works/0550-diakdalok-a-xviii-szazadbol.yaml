@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0550-diakdalok-a-xviii-szazadbol
+  num-id: 550
+  name: diakdalok-a-xviii-szazadbol
+  uuid: d21deb2b-d808-4a8c-9c2a-a1c90a5ea565
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Diákdalok a XVIII. századból
+composition-date: "1993"
+movements:
+- original-value: '1) Ha nem láttam volna - durata : 2’ 2) Elmehetsz már - durata
+    : 2’ 3) Gyászos szivem - durata : 2’ 4) Sóhajtással - durata : 2’ 5) Nem leszek
+    én - durata : 2’'
+source: manuscript by András Farkas

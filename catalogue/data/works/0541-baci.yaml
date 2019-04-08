@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0541-baci
+  num-id: 541
+  name: baci
+  uuid: 85e8bb30-4968-49b2-9810-3f5c243681f3
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: tr
+  original: tr
+  sort:
+  - tr
+  translations:
+    tr: Baci
+composition-date: "1930"
+source: manuscript by András Farkas

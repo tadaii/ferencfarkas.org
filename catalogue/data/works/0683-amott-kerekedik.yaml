@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0683-amott-kerekedik
+  num-id: 683
+  name: amott-kerekedik
+  uuid: d6ca598a-b59f-4b42-af9c-144f059a81a2
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Amott kerekedik
+source: manuscript by András Farkas

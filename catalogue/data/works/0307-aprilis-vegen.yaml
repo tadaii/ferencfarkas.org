@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0307-aprilis-vegen
+  num-id: 307
+  name: aprilis-vegen
+  uuid: 4d3573af-db2b-4f6d-950e-11d8eefd2b21
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Április végén
+composition-date: "1986"
+source: manuscript by András Farkas

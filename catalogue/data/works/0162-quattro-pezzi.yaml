@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0162-quattro-pezzi
+  num-id: 162
+  name: quattro-pezzi
+  uuid: a75fb507-6069-4e70-a582-97ca7739cd42
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: it
+  original: hu
+  sort:
+  - it
+  - hu
+  translations:
+    hu: Négy darab
+    it: Quattro pezzi
+composition-date: "1966"
+movements:
+- original-value: Intrada, Scherzo, Petit poème, Rondo
+reworking: Quatro pezzi for double-bass and piano Quatro pezzi for violoncello and
+  piano

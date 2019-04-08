@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0135-eclogue
+  num-id: 135
+  name: eclogue
+  uuid: 1e992bad-0ad5-4a01-87ba-831dcf36637b
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Eclogue
+composition-date: "1983"
+reworking: Egloga-Burattinata for flute or violin and guitar Eclogue for violoncello
+  and harp Eclogue for viola and guitar
+dedication: to Heidi Molnár-Berner

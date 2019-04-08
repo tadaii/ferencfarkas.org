@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0039-rhapsodia-carpatiana
+  num-id: 39
+  name: rhapsodia-carpatiana
+  uuid: 4dac65fd-50e3-4791-aec6-79eb11e829db
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Rhapsodia carpatiana
+composition-date: "1941"
+setting: 1, 1(c.i.), 2, 1 – 2, 2, 1, 0 – timp. – arpa ad lib. – archi
+source: 'score: manuscript by András Farkas'

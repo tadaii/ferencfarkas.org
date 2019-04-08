@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0612-omaggio-a-pessoa
+  num-id: 612
+  name: omaggio-a-pessoa
+  uuid: 1e8bf095-9bf8-454a-97be-e454655c7303
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: pt
+  original: pt
+  sort:
+  - pt
+  translations:
+    pt: Omaggio a Pessoa
+composition-date: "1985"
+movements:
+- original-value: '1) As ilhas afortunadas - durata: 2’30'''' 2) Já sobre a fronte
+    - durata: 1’20'''' 3) Viajar - durata: 1’30'''' 4) E talvez - durata: 1’'
+reworking: Omaggio a Pessoa, cantata
+source: manuscript by András Farkas

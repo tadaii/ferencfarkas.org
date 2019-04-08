@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0236-omaggio-a-scarlatti
+  num-id: 236
+  name: omaggio-a-scarlatti
+  uuid: 71e2e068-afa0-4a5c-8533-ed6e562c20f4
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Omaggio a Scarlatti
+composition-date: "1984"
+movements:
+- original-value: 1) Allegro moderato - 2) Intermezzo 1, Andante - 3) Fuga, Allegro
+    - 4) Intermezzo 2, Andante, 5) Rondo, Allegro - 6) Andante - 7) Allegro

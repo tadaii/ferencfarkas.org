@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0615-oeszi-harmat-utan
+  num-id: 615
+  name: oeszi-harmat-utan
+  uuid: cc7f466b-22f0-4524-8077-0d6e306ed28e
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Őszi harmat után
+composition-date: "1975"
+movements:
+- original-value: '1) Őszi harmat után - durata: 1’50'''' 2) Mit bùsùlsz kenyeres
+    - durata: 1‘40'''' 3) Hej, fùdd el szél - durata: 1’15'''' 4) Hová készülsz szívem
+    - durata: 1’40'''' 5) Fordulj kedves lovam - durata: 1’30'''' 6) Térj meg bùjdosásidból
+    - durata : 1’45'''''
+source: manuscript by András Farkas

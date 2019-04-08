@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0421-vig-reggeli-eneklessel
+  num-id: 421
+  name: vig-reggeli-eneklessel
+  uuid: ede53beb-94ac-446e-b314-429d7c7cdea3
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Vig reggeli énekléssel
+composition-date: "1989"
+source: manuscript by András Farkas
+dedication: a Komlói Pedagógus Kórusnak

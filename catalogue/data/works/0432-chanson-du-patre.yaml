@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0432-chanson-du-patre
+  num-id: 432
+  name: chanson-du-patre
+  uuid: 3bbf499c-c1f0-406c-b846-17cc0e1f6fcf
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Chanson du pâtre
+composition-date: "1976"
+source: manuscript by András Farkas

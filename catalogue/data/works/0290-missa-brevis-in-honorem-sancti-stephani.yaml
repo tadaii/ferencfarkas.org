@@ -1,0 +1,21 @@
+catalog-id:
+  id: 0290-missa-brevis-in-honorem-sancti-stephani
+  num-id: 290
+  name: missa-brevis-in-honorem-sancti-stephani
+  uuid: 3a8592dc-1971-4636-88d8-b036f5515e41
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: la
+  original: la
+  sort:
+  - la
+  - pt
+  translations:
+    la: Missa brevis in honorem Sancti Stephani
+    pt: Missa quarta
+composition-date: 1994-1995
+movements:
+- original-value: Kyrie – Gloria – Sanctus – Benedictus – Agnus Dei
+reworking: Missa brevis in honorem Sancti Stephani / Missa quarta for female choir
+  and organ or string orchestra
+dedication: au choeur d'hommes "Chant de Ville" d'Estavayer-le-Lac

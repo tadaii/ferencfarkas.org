@@ -1,0 +1,23 @@
+catalog-id:
+  id: 0280-psaumes-de-fete
+  num-id: 280
+  name: psaumes-de-fete
+  uuid: a9a628f3-885e-4def-9c4e-26f7971d4a3d
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Psaumes de fête
+composition-date: 1975-1977
+movements:
+- original-value: 1) Chantez avec allégresse - 2) O Eternel, notre Seigneur - 3) Que
+    les peuples te louent
+setting: 2, 2, 2, 2 – 2, 2, 0, 0 – timp. - arpa ad lib., mand. ad lib. – archi
+reworking: Psaumes de fête for tenor and baritone solo, male choir and organ
+source: 'score, piano reduction, vocal score & performance material: manuscript by
+  András Farkas'
+dedication: á la Chorale de l'Orient á l'occasion de la célébration de son centenaire
+  et á son chef András Farkas

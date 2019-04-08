@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0099-serenata-concertante
+  num-id: 99
+  name: serenata-concertante
+  uuid: 076638d9-f68f-493f-955c-402ffbb11420
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Serenata concertante
+composition-date: "1967"
+movements:
+- original-value: 1) Allegro moderato - 2) Andante espressivo - 3) Allegro vivace

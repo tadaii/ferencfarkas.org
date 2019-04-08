@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0131-echo-des-carpates
+  num-id: 131
+  name: echo-des-carpates
+  uuid: e313f27f-1638-4703-b805-b5712b48e5ea
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Echo des Carpates
+composition-date: "1990"

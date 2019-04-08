@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0068-partita-allungaresca
+  num-id: 68
+  name: partita-allungaresca
+  uuid: 03971119-6b18-420a-abe1-6a6f237a685c
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Partita all'ungaresca
+composition-date: "1974"
+movements:
+- original-value: 1) Basse danse - 2) Gagliarda - 3) Passamezzo - 4) Saltarello -
+    5) Intermezzo - 6) Heiduckentanz
+reworking: Contrafacta Hungarica, for wind octet Partita all’ungaresca for guitar
+  quartet

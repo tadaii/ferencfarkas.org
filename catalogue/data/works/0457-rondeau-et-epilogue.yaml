@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0457-rondeau-et-epilogue
+  num-id: 457
+  name: rondeau-et-epilogue
+  uuid: a0e14817-760f-4d93-b069-36cfb327f50b
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Rondeau et Epilogue
+composition-date: "1994"
+movements:
+- original-value: 1) Rondeau 2) Epilogue
+source: manuscript by András Farkas
+dedication: á la Chorale “Chant de Ville” d’Estavayer-le-Lac

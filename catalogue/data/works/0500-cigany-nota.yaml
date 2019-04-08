@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0500-cigany-nota
+  num-id: 500
+  name: cigany-nota
+  uuid: edee53e2-acd2-4f3e-bde4-1776092d7bcf
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: cs
+  original: cs
+  sort:
+  - cs
+  translations:
+    cs: Cigány-nóta
+composition-date: "1935"

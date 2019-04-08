@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0241-quaderno-romano
+  num-id: 241
+  name: quaderno-romano
+  uuid: 8940af4f-0049-4176-9847-9c79bd392b57
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: it
+  original: hu
+  sort:
+  - it
+  - hu
+  translations:
+    hu: Római hangjegyfüzet
+    it: Quaderno Romano
+composition-date: "1931"
+movements:
+- original-value: 1) Preludio - 2) Cavatina - 3) Dialogo - 4) Caccia - 5) Passeggiata
+    - 6) Epilogo

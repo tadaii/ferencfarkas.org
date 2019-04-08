@@ -1,0 +1,22 @@
+catalog-id:
+  id: 0266-deep-river
+  num-id: 266
+  name: deep-river
+  uuid: 1fb32472-222d-4376-92b1-72512c4e5603
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  - af
+  translations:
+    af: Zúgj hullám
+    en: Deep river
+composition-date: "1965"
+movements:
+- original-value: 1) Jöjj el Mózes - 2) Ki tudja ? - 3) Sohse csüggedj - 4) Hazafelé
+    - 5) Tovább - 6) Zúgj hullám - 7) Két kerék - 8) Reménysugár - 9) Alomvonat -
+    10) Véget ér
+setting: 1, 0, 2 (cl.b.), 1 – 0, 2, 1, 0 – chit. – 3 vl., 2 vla, 1 vlc., 1 cb.
+source: 'score: manuscript by András Farkas'

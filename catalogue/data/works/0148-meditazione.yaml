@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0148-meditazione
+  num-id: 148
+  name: meditazione
+  uuid: a9bb45d6-31d1-4f53-8c93-609fab149e6c
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Meditazione
+composition-date: "1999"
+dedication: to György Márton

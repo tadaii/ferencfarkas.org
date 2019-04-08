@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0033-march-suite
+  num-id: 33
+  name: march-suite
+  uuid: 3f171a8d-cb46-4f2e-bd4f-a123bfa54b21
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: March suite
+    hu: Márciusi szvit
+composition-date: "1947"
+movements:
+- original-value: 1) Allegro moderato - 2) Elegia, quasi lento - 3) Allegro vivace
+setting: 1, 0, 1, 0 – 2, 1, 0, 0 – archi
+reworking: March suite for string orchestra

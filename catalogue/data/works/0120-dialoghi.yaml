@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0120-dialoghi
+  num-id: 120
+  name: dialoghi
+  uuid: e66e5093-4c32-46b0-a823-1e8cd93c661d
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: de
+  original: de
+  sort:
+  - de
+  translations:
+    de: Dialoghi
+composition-date: "1987"
+movements:
+- original-value: Moderato cantabile, Scherzo, Allegro leggero
+reworking: Dialoghi for clarinet or flute and bassoon or violoncello
+source: manuscript by András Farkas

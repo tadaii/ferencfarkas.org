@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0486-laus-beatae-margaritae
+  num-id: 486
+  name: laus-beatae-margaritae
+  uuid: cc8d433d-073b-4ddf-938e-87c11f03ccdf
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Laus beatae Margaritae
+composition-date: "1994"
+dedication: for Vrouwen Kleinkoor Orpheus and Albert Wissink

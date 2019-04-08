@@ -1,0 +1,21 @@
+catalog-id:
+  id: 0010-a-noszty-fiu-esete-toth-marival
+  num-id: 10
+  name: a-noszty-fiu-esete-toth-marival
+  uuid: a3c1405b-a835-4971-9d1a-b7d5da48107d
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - en
+  translations:
+    en: The case of Noszty junior with Maria Tóth
+    hu: A noszty fiú esete Tóth Marival
+composition-date: "1971"
+setting: 2, 1, 2, 1 – 2, 2, 1, 0 – timp., batt. – arpa, pf., cel. – archi
+source: 'score & piano reduction: manuscript by András Farkas'
+world-premiere: 'Budapest Operetta, 1971, conducted by Tamás Bródy, stage dir.: László
+  Vámos, stage design: Mátyás Varga, costumes : Tivadar Márk, choreography : Ágnes
+  Roboz'

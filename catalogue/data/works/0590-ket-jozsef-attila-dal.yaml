@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0590-ket-jozsef-attila-dal
+  num-id: 590
+  name: ket-jozsef-attila-dal
+  uuid: 7dd624f5-621e-4a6b-8e74-ca5e8a12cfee
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - de
+  translations:
+    de: Zwei Lieder nach Gedichten von Attila József
+    hu: Két József Attila dal
+composition-date: 1939-1946
+movements:
+- original-value: '1) Jut az ember... / Sah zwei Blumen blühn am Wege - durata : 2''
+    2) Betlehemi királyok / Drei Könige in Bethlehem - durata : 3'''

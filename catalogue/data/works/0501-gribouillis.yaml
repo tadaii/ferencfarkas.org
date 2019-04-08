@@ -1,0 +1,27 @@
+catalog-id:
+  id: 0501-gribouillis
+  num-id: 501
+  name: gribouillis
+  uuid: aea8cbc8-cdc2-4225-bb1e-fe17b40dd1f2
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  - tr
+  translations:
+    fr: Gribouillis
+    tr: Irka-firka
+composition-date: "1987"
+movements:
+- original-value: '1) Inconvénients / Kellemetlenek - durata : 40‘’ 2) La puce savante
+    / Bolha temetés - durata : 1’20‘’ 3) Monsieur le Lézard / Gyík úr - durata : 20‘’
+    4) La marmotte enrhumée / A náthás mormoka - durata : 1’10’’ 5) Les quatre chatons
+    / A négy kiscica - durata : 1’40‘’ 6) Faridoles / Fura dolgok - durata : 50‘’
+    7) Rentrée des classes / Iskolakezdés - durata : 50‘’ 8) Les trois poussins /
+    A három kiscsibe - durée : 1’ 9) Le petit ouistiti / Kis selyemmajom - durata
+    : 1’'
+source: manuscript by András Farkas
+dedication: á Isabelle et István, premiers auditeurs et inspirateurs de ces petites
+  pièces

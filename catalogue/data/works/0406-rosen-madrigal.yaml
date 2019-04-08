@@ -1,0 +1,21 @@
+catalog-id:
+  id: 0406-rosen-madrigal
+  num-id: 406
+  name: rosen-madrigal
+  uuid: c1a338b1-47b7-4f4c-b298-36d26ca22e03
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  - en
+  translations:
+    en: Rosen-Madrigal
+    hu: Rózsa madrigal
+composition-date: "1947"
+reworking: Madrigal à la rose for mixed choir
+source: '[Editio Musica Budapest](http://www.emb.hu/en/product/5481) (Hungarian and
+  German text) English version by András Farkas “andrasfarkas@hotmail.com”'
+dedication: a székesfehérvári Kamarakórusnak

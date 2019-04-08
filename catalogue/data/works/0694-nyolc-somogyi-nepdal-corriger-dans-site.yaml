@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0694-nyolc-somogyi-nepdal-corriger-dans-site
+  num-id: 694
+  name: nyolc-somogyi-nepdal-corriger-dans-site
+  uuid: 9efba331-ef7d-4886-a2ca-18cc65e4d9be
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Nyolc Somogyi népdal corriger dans site
+composition-date: "1973"
+movements:
+- original-value: 1) Arra alá a Baranya szélben 2a) Erdők, mezők, 1.version 2b) Erdők,
+    mezők 2. version 3) Erre gyere ne menj arra 4) Erre gyere rózsam 5) Ha felülök
+    6) Megyen már 7a) Szól a kukukmadár, 1.version 7b) Szól a kukukmadár 2.version
+    8) Tavaszi szél
+source: manuscript by András Farkas

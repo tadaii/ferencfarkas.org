@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0143-lavottiana
+  num-id: 143
+  name: lavottiana
+  uuid: 4dbccdd0-d965-4ff9-81b1-982424d5b67d
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Lavottiana
+composition-date: "1967"
+movements:
+- original-value: 1) Indulás Pannónia felé / Marsch nach Pannonien - 2) Menüett /
+    Minuetto - 3) Lassù verbunk és figura / Langsamer Werbungstanz und Figura - 4)
+    Német táncnóta / Deutsche Tanzweise - 5) Rondo “Vigadózás a korcsmában” / Rondo
+    “Im Wirtshaus”
+reworking: Lavotta Suite for chamber orchestra

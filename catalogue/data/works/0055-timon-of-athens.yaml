@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0055-timon-of-athens
+  num-id: 55
+  name: timon-of-athens
+  uuid: fd229b38-a1e7-4f83-b135-3454f9fd09b1
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Timon of Athens
+composition-date: "1935"
+movements:
+- original-value: 1) Marcia d'Alcibiade - 2) Intermezzo, asztali zene / Table music
+    - 3) Danza
+setting: 1, 1, 2, 1 - 2, 2, 1, 0 - timp., batt.(2 ess.) - arpa, pf. – vlc., cb.
+reworking: Timon of Athens for wind orchestra, percussion and piano

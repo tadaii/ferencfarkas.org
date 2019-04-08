@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0224-hybrides
+  num-id: 224
+  name: hybrides
+  uuid: bfcb023d-3e62-45e8-9cc9-e8b138971850
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Hybrides
+composition-date: "1980"
+movements:
+- original-value: 1) Soggetto - 2) Marcietta - 3) Minuetto - 4) Tarantella - 5) Notturno
+    - 6) Valsette - 7) Cadenza - 8) Moto perpetuo
+reworking: Hybrides for piano
+dedication: to Viktória Herencsár

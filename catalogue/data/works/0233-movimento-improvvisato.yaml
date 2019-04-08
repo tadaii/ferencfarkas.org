@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0233-movimento-improvvisato
+  num-id: 233
+  name: movimento-improvvisato
+  uuid: 15cde44b-1867-449d-a7dc-ae3d365f5ee8
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Movimento improvvisato
+composition-date: "1983"

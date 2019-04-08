@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0037-planctus-et-consolationes
+  num-id: 37
+  name: planctus-et-consolationes
+  uuid: 77598863-7bfb-4800-b8fe-0027e9eb4be8
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: la
+  original: la
+  sort:
+  - la
+  translations:
+    la: Planctus et consolationes
+composition-date: "1965"
+movements:
+- original-value: Introduzione - Marcia funebre I - Consolatio I. - Marcia funebre
+    II - Consolatio II. - Consolatio III - Furioso - Consolatio IV.
+setting: 2 (picc.), 2, 2, 2 – 4, 2, 3, 1 – timp., batt. (5 ess.) – arpa, pf. (cel.)
+  – archi
+dedication: in memoriam Pál Fejős

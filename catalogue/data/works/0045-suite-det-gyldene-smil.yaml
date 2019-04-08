@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0045-suite-det-gyldene-smil
+  num-id: 45
+  name: suite-det-gyldene-smil
+  uuid: 768aeba5-b0ac-4735-9d27-e885b1d22475
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: "no"
+  original: hu
+  sort:
+  - "no"
+  - hu
+  translations:
+    hu: Suite “Arany mosoly”
+    "no": Suite "Det gyldene smil"
+composition-date: "1935"
+movements:
+- original-value: 1) Marsch - 2) Vals - 3) Tarantella - 4) Chanson - Finale
+setting: 1, 0, 2, 1 - 0, 2, 3, 0 - timp., batt. - pf (cel.), arpa - archi (3 vl.,
+  vlc., cb.)

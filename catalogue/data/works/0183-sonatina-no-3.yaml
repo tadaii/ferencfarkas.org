@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0183-sonatina-no-3
+  num-id: 183
+  name: sonatina-no-3
+  uuid: 58352071-31f5-475c-b123-617b0af9b33a
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Sonatina no.3
+composition-date: "1959"
+movements:
+- original-value: Allegro, Andante moderato, Allegro

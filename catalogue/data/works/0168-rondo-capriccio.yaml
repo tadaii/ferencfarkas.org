@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0168-rondo-capriccio
+  num-id: 168
+  name: rondo-capriccio
+  uuid: d53a0178-9fa4-4e4f-8db4-b2251b9fcba9
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Rondo capriccio
+composition-date: "1959"
+reworking: Rondo capriccio for violin and string orchestra Rondo capriccio for violin
+  and piano

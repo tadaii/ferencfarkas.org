@@ -1,0 +1,23 @@
+catalog-id:
+  id: 0327-deutsche-lieder
+  num-id: 327
+  name: deutsche-lieder
+  uuid: 64924520-1ddd-4a6c-9ac3-2f5e06c5e3b3
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: de
+  original: de
+  sort:
+  - de
+  translations:
+    de: Deutsche Lieder
+composition-date: "1976"
+movements:
+- original-value: '1) Es flogen einst drei Drosseln - text by John Erpenbeck - durata
+    : 1‘ 2) Der Biber - text by John Erpenbeck - durata : 1’30’’ 3) Altes Lied - text
+    by Waldemar Spender - durata : 2’ 4) Von der Liebe ein Lied - text by Wolfgang
+    Tilgner - durata : 1‘ 5) Frost - text by Heinz Kahlau - durata : 1’20’’ 6) An
+    der Vogel Frühling - text by Uwe Gressmann - durata : 1‘30‘‘ 7) Die Überlebenden
+    - text by Michael Thürmer - durata : 2‘10‘‘ 8) Die Fahrt - text by Christoph Eisenhuth
+    - durata : 2‘'
+dedication: dem Universitätchor Rostock und seinem Dirigenten Hans-Jürgen Plog

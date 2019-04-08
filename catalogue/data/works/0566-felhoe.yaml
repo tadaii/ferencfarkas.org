@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0566-felhoe
+  num-id: 566
+  name: felhoe
+  uuid: 66b3b77c-09d7-496d-94d4-b57569f751c2
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Felhő
+composition-date: "1988"
+source: manuscript by András Farkas

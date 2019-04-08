@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0047-suite-from-the-incidental-music-to-the-tragedy-of-man-by-imre-madach
+  num-id: 47
+  name: suite-from-the-incidental-music-to-the-tragedy-of-man-by-imre-madach
+  uuid: 0754cfc2-7959-47f7-a9cd-0fa7de2cf33a
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Suite from the incidental music to «The tragedy of man» by Imre Madách
+    hu: Szvit az "Ember tragédiája" Kísérőzenéjéből
+composition-date: "1938"
+movements:
+- original-value: 1) Miltiades bevonulása / Miltiades’s entrée - 2) Intermezzo - 3)
+    Római tánc / Roman dance- 4) Gladiátorok / Gladiators - 5) Bacchanália
+setting: 2, 2, 2, 2 – 4, 3, 3, 0 – timp. – arpa, cel. – archi

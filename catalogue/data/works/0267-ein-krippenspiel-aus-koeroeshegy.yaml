@@ -1,0 +1,28 @@
+catalog-id:
+  id: 0267-ein-krippenspiel-aus-koeroeshegy
+  num-id: 267
+  name: ein-krippenspiel-aus-koeroeshegy
+  uuid: 4a62f69a-40ff-4ac6-9a39-7d844e9af921
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: de
+  original: hu
+  sort:
+  - de
+  - hu
+  - en
+  - fr
+  translations:
+    de: Ein Krippenspiel aus Kőröshegy
+    en: Christmas cantata
+    fr: Cantate de Noël
+    hu: Kőröshegyi Bethlehemes kantáta
+composition-date: "1970"
+movements:
+- original-value: Präludium – Chor a cappella – Evangelium – Chor – Evangelium – Chor
+    – Evangelium – Chor – Ritornell – Chor a cappella – Evangelium – Chor – Evangelium
+    – Chor – Evangelium - Chor – Evangelium – Ritornell – Chor a cappella – Evangelium
+    – Chor – Pastorale – Evangelium – Chor – Ritornell – Chor a cappella - Postludium
+setting: 'instrumental ensemble: fl., fg., tr., vl., vla, vlc. orchestra: 2 (picc.),
+  2, 2, 2 – 2, 1, 0, 0 – arpa ad lib. – archi'
+reworking: Ez Karácsony for mixed choir In Epiphaniam for mixed choir

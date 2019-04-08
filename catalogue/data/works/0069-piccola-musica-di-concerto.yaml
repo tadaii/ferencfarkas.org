@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0069-piccola-musica-di-concerto
+  num-id: 69
+  name: piccola-musica-di-concerto
+  uuid: d2e1640c-4389-42a0-8c04-3c6b58d3cefd
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Piccola musica di concerto
+composition-date: "1961"
+movements:
+- original-value: 1) Allegro - 2) Andante - 3) Scherzo - 4) Allegro
+reworking: Piccola musica di concerto for guitar quartet

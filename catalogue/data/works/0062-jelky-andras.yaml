@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0062-jelky-andras
+  num-id: 62
+  name: jelky-andras
+  uuid: 85c31869-9e23-439c-a656-31ca48b15dc6
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Jelky András
+composition-date: 1973-1974
+movements:
+- original-value: 1) Er macht sich auf den Weg - 2) Ali Hussein - 3) Fu-Kong - 4)
+    Kwanga - 5) Rámáyun - 6) Auf dem Heimweg
+dedication: az Alsódunavölgyi Vizügyi Igazgatóság Kamarazenekarának és Baja Város
+  zenekedvelö közönségének

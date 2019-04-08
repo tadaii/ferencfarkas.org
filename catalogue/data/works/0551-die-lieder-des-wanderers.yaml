@@ -1,0 +1,21 @@
+catalog-id:
+  id: 0551-die-lieder-des-wanderers
+  num-id: 551
+  name: die-lieder-des-wanderers
+  uuid: feaff1a3-e161-412b-94cf-70477a0e1043
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: ny
+  original: ny
+  sort:
+  - ny
+  - id
+  translations:
+    id: A vándor dalai
+    ny: Die Lieder des Wanderers
+composition-date: "1956"
+movements:
+- original-value: '1) Utra kelni, messzi menni / Rastlos wandern – durata : 2’42''''
+    2) Tavaszi dal, vándordal / Frühlingswind – durata : 1’11’’ 3) A kalandor / Der
+    Abenteurer – durata : 6‘50‘‘'
+reworking: Die Lieder des Wanderers for voice, flute, viola and violoncello

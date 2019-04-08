@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0032-lavotta-suite
+  num-id: 32
+  name: lavotta-suite
+  uuid: 755e7979-ee89-4b21-bc0c-55f0b7f693e6
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Lavotta Suite
+composition-date: "1951"
+movements:
+- original-value: 1) Ungarisch - 2) Menuet - 3) Marsch nach Pannonien - 4) Ungarisch
+    - 5) Im Wirtshaus
+setting: 2 (picc.), 1, 2, 1 – 2, 1, 0, 0 – archi
+reworking: Lavottiana for wind quintet

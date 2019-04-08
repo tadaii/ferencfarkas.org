@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0204-buccinata
+  num-id: 204
+  name: buccinata
+  uuid: bb318add-84c7-4691-9407-1b17702f4d77
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Buccinata
+composition-date: "1990"
+dedication: to István Péter Farkas

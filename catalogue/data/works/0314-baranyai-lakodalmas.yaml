@@ -1,0 +1,21 @@
+catalog-id:
+  id: 0314-baranyai-lakodalmas
+  num-id: 314
+  name: baranyai-lakodalmas
+  uuid: cb0949a1-4380-4973-a123-5624146acc65
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: ms
+  original: ms
+  sort:
+  - ms
+  - en
+  translations:
+    en: Wedding songs from Baranya
+    ms: Baranyai lakodalmas
+composition-date: 1940, rev. 1974
+movements:
+- original-value: 1) Tulsó soron van a mi házunk 2) Házasodj meg 3) Ez az udvar 4)
+    Köszönöm a szállást 5) Edes anyám, adjon Isten 6) Muzsika szól hangosan
+reworking: Baranyai lakodalmas / Wedding songs from Baranya for 4-part mixed choir
+  and piano or orchestra

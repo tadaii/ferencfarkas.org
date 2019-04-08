@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0242-quatre-preludes
+  num-id: 242
+  name: quatre-preludes
+  uuid: 3441ddaa-2519-4f66-ac96-cadb80c64cc3
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Quatre préludes
+movements:
+- original-value: 1) Andante sostenuto (Sarabande) - 2) Allegro - 3) Andante - 4)
+    Allegro
+reworking: Exercitium tonale for guitar Exercitium tonale for cimbalom

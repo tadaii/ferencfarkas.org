@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0657-gitar-dalok
+  num-id: 657
+  name: gitar-dalok
+  uuid: f204b58b-6fb6-4e29-9af1-e5815d6e6223
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - en
+  translations:
+    en: Guitar songs
+    hu: Gitár dalok
+composition-date: "1983"
+movements:
+- original-value: 1) Egy fecske átsuhan 2) Merre száll 3) Csend van

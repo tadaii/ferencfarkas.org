@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0603-miedo
+  num-id: 603
+  name: miedo
+  uuid: b3d89dcd-718e-40e7-8ff5-edbc361fe683
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: es
+  original: es
+  sort:
+  - es
+  translations:
+    es: Miedo
+composition-date: "1995"
+source: manuscript by András Farkas
+dedication: Maria Teresa Uribe

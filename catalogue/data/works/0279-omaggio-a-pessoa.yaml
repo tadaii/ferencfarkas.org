@@ -1,0 +1,22 @@
+catalog-id:
+  id: 0279-omaggio-a-pessoa
+  num-id: 279
+  name: omaggio-a-pessoa
+  uuid: c9d3815a-326e-4fed-be4f-248786b4b0a3
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: pt
+  original: pt
+  sort:
+  - pt
+  translations:
+    pt: Omaggio a Pessoa
+composition-date: "1985"
+movements:
+- original-value: 1) As ilhas afortunadas / A boldogok földje - 2) Ja sobre a fronte
+    / Már ősz a hajdan - 3) Abdicaçao / Lemondás) - 4) Viajar ! / Visz az út ! - 5)
+    Nao é ainda / Nincs végleg itt - 6) Tao cedo passa / Oly hamar múlik - 7) E talvez
+    / Ki tudja - 8) Cada um cumpre / Azt az életet
+setting: 3 (III=picc.), 3 (III=c.i.), 3 (III=cl.b.), 2 (cfg.) – 4, 3, 3, 1 – timp.,
+  batt. – arpa – archi
+reworking: Omaggio a Pessoa for voice and piano

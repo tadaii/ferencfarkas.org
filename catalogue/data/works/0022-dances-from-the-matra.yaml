@@ -1,0 +1,21 @@
+catalog-id:
+  id: 0022-dances-from-the-matra
+  num-id: 22
+  name: dances-from-the-matra
+  uuid: 54cf7b9f-f4a9-4ce0-bd01-44611e47b2b1
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Dances from the Mátra
+    hu: Mátrai táncok
+composition-date: "1968"
+movements:
+- original-value: 1) Legényes / Young men’s dance - 2) Leánytánc / Young women’s dance
+    - 3) Cigánycsárdás / Gipsy dance
+setting: 3 (III=picc.), 2, 2, 2 – 4, 3, 3, 0 – timp., batt. (2 ess.) – arpa - archi
+dedication: az Egri Szimfónikus Zenekarnak ötéves jubileumára

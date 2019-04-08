@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0015-a-harom-csavargo
+  num-id: 15
+  name: a-harom-csavargo
+  uuid: 11f04298-2b95-4991-83b9-0a706be63bb2
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - en
+  translations:
+    en: The three vagabonds
+    hu: A három csavargó
+composition-date: 1932-1933
+setting: 1, 1, 2, 1 – 2, 1, 0, 0 – timp., batt. – archi
+reworking: Suite "A három csavargó / The three vagabonds" for orchestra
+source: 'score & performance material: manuscript by András Farkas'

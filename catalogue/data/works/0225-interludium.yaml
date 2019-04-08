@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0225-interludium
+  num-id: 225
+  name: interludium
+  uuid: 8508d232-f1e0-40c3-af53-742f25272201
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Interludium
+composition-date: "1973"

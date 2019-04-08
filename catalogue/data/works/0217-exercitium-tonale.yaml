@@ -1,0 +1,22 @@
+catalog-id:
+  id: 0217-exercitium-tonale
+  num-id: 217
+  name: exercitium-tonale
+  uuid: b7af7774-2a5e-44fb-8626-a234f0fd87a7
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: la
+  original: la
+  sort:
+  - la
+  translations:
+    la: Exercitium tonale
+composition-date: "1982"
+movements:
+- original-value: 1) Intrada - 2) Siciliana - 3) Cavatina (Omaggio a Donizetti) -
+    4) Etude - 5) Sarabande - 6) Moto perpetuo - 7) Una melodia semplice - 8) Mélodie
+    - 9) In modo romantico (Omaggio a Schumann) - 10) Gigue - 11) Meditazione - 12)
+    Etude - 13) Hétnyolcad / Seven-eight - 14) Etude - 15) Tempo di minuetto
+reworking: Quatre préludes for harp Exercitium tonale for guitar
+source: manuscript by András Farkas
+dedication: to Viktória Herencsár

@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0151-musique-de-ugrocz
+  num-id: 151
+  name: musique-de-ugrocz
+  uuid: b26e1a53-dcda-4f82-b7f5-df3d04c91fc2
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Musique de Ugrócz
+composition-date: "1987"
+movements:
+- original-value: 1) Preambulum - 2) Ad mensam - 3) Compliment-Tanz - 4) Serta saltationum
+    hungarorum

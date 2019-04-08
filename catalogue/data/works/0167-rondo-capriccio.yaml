@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0167-rondo-capriccio
+  num-id: 167
+  name: rondo-capriccio
+  uuid: 23f43345-c402-4f16-83b5-3b1c917784ce
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Rondo capriccio
+composition-date: "1957"
+reworking: Rondo capriccio for violin and string orchestra Rondo capriccio for violin
+  solo and wind quintet

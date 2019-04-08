@@ -1,0 +1,23 @@
+catalog-id:
+  id: 0142-la-cour-du-roi-matthias
+  num-id: 142
+  name: la-cour-du-roi-matthias
+  uuid: cbe8dfc2-c212-4c92-8136-a10644130cf6
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: de
+  original: hu
+  sort:
+  - de
+  - hu
+  translations:
+    de: La cour du roi Matthias
+    hu: Mátyás király udvara
+composition-date: "1977"
+movements:
+- original-value: 1) Lovagok tánca / Danse des chevaliers - 2) Udvaroncok tánca /
+    Danse des courtisans - 3) Udvarhölgyek tánca / Danse des dames d'honneur - 4)
+    Az udvari bolond tánca / Danse du bouffon de cour - 5) A vár népének tánca / Danse
+    du peuple du château
+reworking: Panegyricus, scenic play
+dedication: to the Berner Solisten

@@ -1,0 +1,32 @@
+catalog-id:
+  id: 0653-fruit-basket
+  num-id: 653
+  name: fruit-basket
+  uuid: 96861ea8-3c1c-41ae-817b-daf6db3a2a44
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  - da
+  - fr
+  translations:
+    da: Fruchtkorb
+    en: Fruit basket
+    fr: Panier de fruits
+    hu: Gyümölcskosár
+composition-date: "1972"
+movements:
+- original-value: 1) Gáspár / Kaspar / Bastide 2) Ládika / Das Zauberkästlein / Le
+    pot de fer 3) Marasztalás / Sonnenstrahlen / Supplication 4) Falusi reggel / Dorfmorgen
+    / Le coq et l'âne 5) Mondóka / Veilchen / Violette 6) A kőbéka / Der Steinfrosch
+    / Le crapaud 7) Altatódal / Wiegenlied / Berceuse 8) Száncsengő /Schlittenschellen
+    / La cloche du traineau 9) Békakirály / Froschkönig / Le roi des grenouilles 10)
+    A tündér / Das Elflein / La fée Bóbita 11) Paprika Jancsi szerenádja / Hanswurst-Serenade
+    / Sérénade de Pierrot 12) Déli felhők / Mittagswolken / Dans les nuages
+reworking: Fruit basket for voice (soprano) and piano Fruit basket for voice, clarinet,
+  violin, violoncello and piano Fruit basket for voice and clarinet quartet Fruit
+  basket for voice and wind quintet Fruit basket for voice and guitar
+dedication: to Sylvia Schwarzenbach

@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0598-lied-mephistos
+  num-id: 598
+  name: lied-mephistos
+  uuid: 0d2cea7e-d84e-4bab-a20f-6b0cc605c6f0
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: de
+  original: hu
+  sort:
+  - de
+  - hu
+  translations:
+    de: Lied Mephistos
+    hu: Mefisztó dala
+composition-date: "1947"
+source: manuscript by András Farkas

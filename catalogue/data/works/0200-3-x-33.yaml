@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0200-3-x-33
+  num-id: 200
+  name: 3-x-33
+  uuid: 6182df22-1f6a-4d37-b273-547d6d8e3543
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: 3 x 33
+composition-date: "1991"
+movements:
+- original-value: 1) Allegro ostinamente – 2) Allegro valorosamente – 3) Dodolante
+reworking: 3 x 33 for violin, viola and violoncello
+source: manuscript by András Farkas

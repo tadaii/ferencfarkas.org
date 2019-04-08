@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0586-ket-dal-hars-ernoe-verseire
+  num-id: 586
+  name: ket-dal-hars-ernoe-verseire
+  uuid: f5071c12-f850-40cb-a5fa-e7e032da5792
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Két dal Hárs Ernö verseire
+composition-date: "1989"
+movements:
+- original-value: '1) Ujév - durata : 1’15'''' 2) Római ősz - durata : 3’05'''''
+source: manuscript by András Farkas

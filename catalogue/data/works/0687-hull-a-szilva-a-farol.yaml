@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0687-hull-a-szilva-a-farol
+  num-id: 687
+  name: hull-a-szilva-a-farol
+  uuid: e2a4d750-51d3-4a84-b4a5-f00d17cfb3a3
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Hull a szilva a fáról
+source: manuscript by András Farkas

@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0497-allatok-vilaga
+  num-id: 497
+  name: allatok-vilaga
+  uuid: c615f401-fc37-4f1b-8348-463dfa1f8433
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Állatok világa
+composition-date: "1976"
+movements:
+- original-value: '1) Medvebocs - durata : 40‘’ 2) A majom - durata : 30‘’ 3) Mókus
+    altatódal - durata : 50‘’ 4) Békakirály - durata : 1‘ 5) Nyuszika meg a tojás
+    - durata : 1’20‘’ 6) Csacsi maki - durata : 40‘’'
+dedication: Izabellának

@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0532-psalmus-33
+  num-id: 532
+  name: psalmus-33
+  uuid: fd26a5a2-fa81-46c2-88d7-97c8aedd2190
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  - la
+  translations:
+    en: Psalmus 33
+    la: '12 : Venite filii'
+composition-date: "1995"
+source: manuscript by András Farkas

@@ -1,0 +1,13 @@
+catalog-id:
+  id: 0681-a-tiszabol-a-dunaba
+  num-id: 681
+  name: a-tiszabol-a-dunaba
+  uuid: 55876d12-7483-4b09-ab91-7d9d0f120ad2
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: A Tiszából a Dunába

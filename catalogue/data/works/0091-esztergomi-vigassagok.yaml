@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0091-esztergomi-vigassagok
+  num-id: 91
+  name: esztergomi-vigassagok
+  uuid: 31defc84-446a-4198-911a-c30a4b4d85cb
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - hu
+  translations:
+    hu: Esztergomi vigasságok
+composition-date: "1994"
+source: 'score & performance material: manuscript by András Farkas'

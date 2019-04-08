@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0452-pintes-ueveg
+  num-id: 452
+  name: pintes-ueveg
+  uuid: e83ed408-a9e5-4eac-8452-1eef7dd30cac
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Pintes-üveg
+composition-date: "1934"
+movements:
+- original-value: 1) Igyunk ilt... 2) Ez a bor nem drága.... 3) Oh én édös pintös
+    üvegöm... 4) Egy icce bor.... 5) Bort ittam én...

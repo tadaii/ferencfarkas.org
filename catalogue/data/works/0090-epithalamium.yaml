@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0090-epithalamium
+  num-id: 90
+  name: epithalamium
+  uuid: 090976bf-ed6b-4aec-9c9d-c3804865a24e
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: ht
+  original: ht
+  sort:
+  - ht
+  translations:
+    ht: Epithalamium
+composition-date: "1978"
+adaptation: by Lajos Lencsés, 2017
+reworking: Epithalamium for organ Epithalame for oboe and organ

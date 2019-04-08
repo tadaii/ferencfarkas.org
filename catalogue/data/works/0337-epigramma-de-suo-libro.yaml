@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0337-epigramma-de-suo-libro
+  num-id: 337
+  name: epigramma-de-suo-libro
+  uuid: eb214627-d7f7-415c-a758-1c3c7053823c
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: it
+  original: it
+  sort:
+  - it
+  translations:
+    it: Epigramma de suo libro
+composition-date: "1960"

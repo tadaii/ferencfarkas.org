@@ -1,0 +1,24 @@
+catalog-id:
+  id: 0584-kalender
+  num-id: 584
+  name: kalender
+  uuid: d2aa91d5-f8ec-4c1a-bd75-e247a4a755a4
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: de
+  original: hu
+  sort:
+  - de
+  - hu
+  - en
+  translations:
+    de: Kalender
+    en: Calendar
+    hu: Naptár
+composition-date: "1955"
+movements:
+- original-value: Januar / Január, Februar / Február, März / Március, April / Április
+    / Mai / Május, Juni / Június, Juli / Július, August / Augusztus, September / Szeptember,
+    Oktober / Október, November / November, Dezember / December
+reworking: Kalender / Naptár / Calendar for soprano, tenor 11 instruments
+dedication: Anna Báthy and Endre Rösler

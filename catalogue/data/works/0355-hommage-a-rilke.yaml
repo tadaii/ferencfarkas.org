@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0355-hommage-a-rilke
+  num-id: 355
+  name: hommage-a-rilke
+  uuid: 64dae8b0-9d44-4a87-bde0-13244e17f331
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: de
+  original: de
+  sort:
+  - de
+  translations:
+    de: Hommage à Rilke
+composition-date: "1984"
+movements:
+- original-value: 1) An allen Dingen / Minden dolgon 2) Herbst / Ősz 3) O sage Dichter
+    / A tiszted költö 4) Wir sind die Treibenden /Törtetünk szüntelen

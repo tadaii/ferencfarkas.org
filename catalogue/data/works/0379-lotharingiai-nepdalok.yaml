@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0379-lotharingiai-nepdalok
+  num-id: 379
+  name: lotharingiai-nepdalok
+  uuid: 89bfd1b9-ce50-4025-ba3d-e9ef0451936e
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: lt
+  original: lt
+  sort:
+  - lt
+  - de
+  translations:
+    de: Lieder aus Lothringen
+    lt: Lotharingiai népdalok
+movements:
+- original-value: 1) A Lothringi Legény / Der Lothringer Bur 2) A viz meg a bor /
+    Der Wein und das Wasser 3) A Földmüves dicsérete / Den Akkermann soll man loben

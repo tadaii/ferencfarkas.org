@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0046-suite-flugten-fra-millionerne
+  num-id: 46
+  name: suite-flugten-fra-millionerne
+  uuid: ea831f29-1dcf-458b-8411-450fdd6c99d5
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: da
+  original: da
+  sort:
+  - da
+  translations:
+    da: Suite "Flugten fra Millionerne"
+composition-date: "1934"
+movements:
+- original-value: Introduzione (Moderato) - Allegro - Tempo di Tango - Tempo di Marcia
+setting: 1, 1, 2, 1 – 2, 2, 1, 0 – timp., batt. – pf. ad lib. – archi

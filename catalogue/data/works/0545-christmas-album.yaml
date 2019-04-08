@@ -1,0 +1,39 @@
+catalog-id:
+  id: 0545-christmas-album
+  num-id: 545
+  name: christmas-album
+  uuid: d1ea97ab-df7d-46ba-aa66-6cb251bc5aa5
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Christmas album
+    hu: Karácsonyi album
+composition-date: "1970"
+movements:
+- original-value: '1) Mennyből az angyal - durata : 1''50'''' 2) O, gyönyörű szép
+    - text by Ilona Lovich - durata : 1''15'''' 3) Pásztorok, pásztorok - text by
+    Béla Tárkányi - durata : 1'' 4) Karácsonyi Bölcső dal - durata : 1'' 5) Kiskarácsony
+    - durata : 1'' 6) Midön a szűz - durata : 1’15'''' 7) Dicsőség - text by Jukundián
+    Simon - durata : 1’15'''' 8) Csendes éj ( Stille Nacht) - Hungarian translated
+    by Károly Vargha - durata : 2'' 9) O szép fenyő ( O Tannenbaum) - Hungarian translated
+    by Károly Vargha - durata : 2'' 10) Kicsi gyermek (Villancico) - Hungarian translated
+    by István Raics - durata : 2'' 11) Szent József így szólt (San Jousé m''a dit)
+    - Hungarian translated by István Raics – durata : 1’20'''' 12) Itt az Urnak angyala
+    (Je suis l''archange de Dieu) - Hungarian translated by István Raics - durata
+    2'' 13) Aldott éj (It came upon) – Hungarian translated by Károly Vargha - durata
+    2'' 14) Herodes és a kakas (King Herod and the cock) - Hungarian translated by
+    István Raics - durata 1’45'''' 15 ) Búcsút mond az év (What month) - Hungarian
+    translated by József Romhányi - durata 3'''
+reworking: '[Editio Musica Budapest](http://www.emb.hu/en/product/6334) Christmas
+  album for children’s choir Itt az Urnak angyala for mixed choir Je suis l''archange
+  de Dieu for mixed choir Je suis l’archange de Dieu for 4-part male choir King Herod
+  and the cock for mixed choir Le roi Hérode et le coq for mixed choir Mennyből az
+  angyal for mixed choir It came upon/Aldott éj for mixed choir Sainte nuit (french
+  version of "It came upon") for mixed choir Sainte nuit (french version of "It came
+  upon") for male choir Villancico for mixed choir Villancico / Kicsi gyermek for
+  3-part female choir or children’s choir'

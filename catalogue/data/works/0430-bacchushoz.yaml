@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0430-bacchushoz
+  num-id: 430
+  name: bacchushoz
+  uuid: faea1c26-ef98-484e-9ee1-ca9890a23162
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Bacchushoz
+composition-date: "1933"
+source: manuscript by András Farkas

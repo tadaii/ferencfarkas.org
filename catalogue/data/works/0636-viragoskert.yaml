@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0636-viragoskert
+  num-id: 636
+  name: viragoskert
+  uuid: cc34356b-29e7-45ce-a222-5f5bd23fea4a
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Virágoskert
+composition-date: 1989-1990
+movements:
+- original-value: 1) Margaréta - text by József Erdélyi 2) Fehér virág - text by István
+    Kormos 3) Leánykökörcsin - text by Lajos Aprily 4) Klematisz - text by Zoltán
+    Jékely 5) Napraforgó - text by Dezsö Kosztolányi 6) Krizantém - text by László
+    Nagy 7) Derengö rózsa - text by Attila József
+dedication: Mancinak

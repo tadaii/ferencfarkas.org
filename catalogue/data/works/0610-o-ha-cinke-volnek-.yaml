@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0610-o-ha-cinke-volnek-
+  num-id: 610
+  name: o-ha-cinke-volnek-
+  uuid: 92507f86-5d5c-4090-8007-49a5d00be0d9
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: cs
+  original: cs
+  sort:
+  - cs
+  - de
+  translations:
+    cs: O ha cinke volnék...
+    de: Könnt ich fliegen wie eine Meise...
+composition-date: "1947"

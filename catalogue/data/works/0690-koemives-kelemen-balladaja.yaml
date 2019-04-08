@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0690-koemives-kelemen-balladaja
+  num-id: 690
+  name: koemives-kelemen-balladaja
+  uuid: e574b357-9e6e-4666-bacb-490c14f5919a
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Kőmives Kelemen balladája
+composition-date: "1960"
+setting: 1, 0, 1, 0 - 0, 0, 0, 0 – pf. – archi
+reworking: Kőmives Kelemen balladája for voice and piano
+score: 'score: manuscript by András Farkas'

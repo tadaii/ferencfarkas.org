@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0640-cantiones-optimae
+  num-id: 640
+  name: cantiones-optimae
+  uuid: 18299864-5a04-4600-aff3-c35dab464e48
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Cantiones optimae
+movements:
+- original-value: 1) Bátoritás a halál ellen / Encouragement devant la mort 2) Könyörgés
+    / Imploration 3) Máriá ének / Chant á Marie 4) O Jézus / Oh Jésus
+reworking: Cantiones optimae for soprano and piano or organ

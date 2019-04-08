@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0517-dal-a-szabadsagrol
+  num-id: 517
+  name: dal-a-szabadsagrol
+  uuid: 7ecaa3d4-177f-4672-b3a2-2eb4713c4f64
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Dal a szabadságról
+composition-date: "1953"

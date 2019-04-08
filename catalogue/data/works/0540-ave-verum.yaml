@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0540-ave-verum
+  num-id: 540
+  name: ave-verum
+  uuid: c10abce5-6150-45e8-8649-5986717ff4d8
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: pl
+  original: pl
+  sort:
+  - pl
+  translations:
+    pl: Ave verum
+composition-date: "1933"

@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0058-zwei-ungarische-taenze
+  num-id: 58
+  name: zwei-ungarische-taenze
+  uuid: 2d4851ee-32fe-42a4-bc82-d09954b25da4
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: de
+  original: de
+  sort:
+  - de
+  - en
+  translations:
+    de: Zwei ungarische Tänze
+    en: Two Hungarian dances
+composition-date: "1940"
+movements:
+- original-value: 1) Tanz aus Kecskemét - 2) Hirtentanz
+setting: 2, 1, 2, 1 – 2, 2, 1, 0 – batt. – arpa – archi
+reworking: Két magyar tánc for piano Shepherd dance for harp

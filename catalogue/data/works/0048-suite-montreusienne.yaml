@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0048-suite-montreusienne
+  num-id: 48
+  name: suite-montreusienne
+  uuid: 08e75d66-1e2c-4055-99f3-42703a807c5d
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Suite montreusienne
+composition-date: "1988"
+movements:
+- original-value: 1) En route - 2) Promenade d'automne - 3) Danse en costumes anciens
+    - 4) Souvenirs de jeunesse
+setting: 2, 2, 2, 2 – 2, 2, 0, 0 – timp. – archi
+dedication: au Nouvel Orchestre de Montreux et á son chef András Farkas

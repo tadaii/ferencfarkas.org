@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0645-cinque-canzoni-dei-trovatori
+  num-id: 645
+  name: cinque-canzoni-dei-trovatori
+  uuid: 798035ac-21e4-43c3-8623-9deb57304ce4
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: co
+  original: co
+  sort:
+  - co
+  translations:
+    co: Cinque canzoni dei trovatori
+movements:
+- original-value: 1) Volez vos que je vos chant 2) Belle Doette 3) Quand li rossignols
+    s’écrie 4) A pris ai qu'en chantant plour 5) Fort m'enoia
+reworking: Öt francia trubadúr dallam for voice and piano, text in French and Hungarian

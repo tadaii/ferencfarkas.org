@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0273-krudy-sorok
+  num-id: 273
+  name: krudy-sorok
+  uuid: 432afd55-d222-40ce-9f4d-16ae79dd2638
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: sk
+  original: sk
+  sort:
+  - sk
+  translations:
+    sk: Krúdy-sorok
+composition-date: "1988"
+reworking: Krúdy-sorok for female choir and piano

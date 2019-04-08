@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0567-fordulat
+  num-id: 567
+  name: fordulat
+  uuid: 948d41c6-1ab6-4255-a572-f0fe1c119804
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Fordulat
+composition-date: "1939"

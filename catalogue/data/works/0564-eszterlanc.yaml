@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0564-eszterlanc
+  num-id: 564
+  name: eszterlanc
+  uuid: 9828e93c-1f32-4852-8296-865dde7a44da
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Eszterlánc
+composition-date: "1936"
+movements:
+- original-value: '1) Viola szerelmem - durata : 1’27’’ 2) Csillaghasú ég alatt -
+    durata : 1’39’’ 3) Békési föld - durata : 1’57’’ 4) Szívedet az Isten adta - durata
+    : 1’10’’'

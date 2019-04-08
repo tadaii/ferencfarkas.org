@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0188-ten-studies
+  num-id: 188
+  name: ten-studies
+  uuid: 825b03dc-192a-459e-be63-94d0d297c016
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Ten studies
+composition-date: "1982"
+movements:
+- original-value: 1) Preludium - 2) Choral - 3) Sonatina - 4) Träumerei I - 5) Pizzicato
+    - 6) Träumerei II - 7) Játék / Spiel - 8) Induló / Marsch - 9) Nocturne - 10)
+    "Vision fugitive"
+reworking: Ten studies for violin and viola
+dedication: Készült Vác Város Tanácsának felkérésére

@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0117-dances-from-csiksomlyos
+  num-id: 117
+  name: dances-from-csiksomlyos
+  uuid: 63a2a778-77e7-4a02-8871-b95913027160
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Dances from Csiksomlyós
+    hu: Csiksomlyósi táncok
+composition-date: "1988"
+dedication: to Csaba Nagy

@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0672-songs-from-the-twelfth-night-by-shakespeare
+  num-id: 672
+  name: songs-from-the-twelfth-night-by-shakespeare
+  uuid: b5a69139-d6ef-4441-b053-ab64c1c64de3
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Songs from the “Twelfth night” by Shakespeare
+movements:
+- original-value: '1) O mistress mine - durata : 1'' 2) Hey, Robin, jolly - durata
+    : 45'''''
+reworking: Songs from the “Twelfth night” by Shakespeare for voice and piano Songs
+  from the “Twelfth night” by Shakespeare for voice and harp The “Twelfth night” by
+  W. Shakespeare, incidental music
+source: manuscript by András Farkas

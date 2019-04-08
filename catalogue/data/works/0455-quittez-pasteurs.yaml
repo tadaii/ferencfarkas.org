@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0455-quittez-pasteurs
+  num-id: 455
+  name: quittez-pasteurs
+  uuid: db53596a-639d-411f-a2aa-fe875bbf9d82
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Quittez pasteurs
+composition-date: "1994"
+reworking: Quittez pasteurs for mixed choir A kisdednek for 4-part mixed choir

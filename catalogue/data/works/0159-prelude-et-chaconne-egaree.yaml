@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0159-prelude-et-chaconne-egaree
+  num-id: 159
+  name: prelude-et-chaconne-egaree
+  uuid: c4d64d05-9465-40c3-9948-1391bf67cbbb
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Prélude et chaconne égarée
+composition-date: "1990"
+movements:
+- original-value: Prélude, chaconne égarée
+source: manuscript by András Farkas

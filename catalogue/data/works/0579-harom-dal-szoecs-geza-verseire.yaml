@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0579-harom-dal-szoecs-geza-verseire
+  num-id: 579
+  name: harom-dal-szoecs-geza-verseire
+  uuid: b720b159-1842-49d7-af9d-4eba5859242a
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Három dal Szöcs Géza verseire
+composition-date: "1989"
+movements:
+- original-value: '1) Add rá - durata : 2 '' 2) Nézz a szemébe... - durata : 2 ''
+    10 '''' 3) Másnap - durata : 2 '' 20 '''''
+source: manuscript by András Farkas

@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0418-trois-poemes
+  num-id: 418
+  name: trois-poemes
+  uuid: 5fc38972-4a2e-4d80-a8df-576e5dedb842
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Trois poèmes
+composition-date: "1984"
+movements:
+- original-value: '1) Le champ d’août – durata: 3‘ 2) Cède automne – durata: 1’40‘’
+    3) Elégie d’août – durata: 2’20‘’'
+source: manuscript by András Farkas

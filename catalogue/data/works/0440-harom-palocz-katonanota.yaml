@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0440-harom-palocz-katonanota
+  num-id: 440
+  name: harom-palocz-katonanota
+  uuid: a6d9c0cc-b2c2-4bf1-84de-304fa00c567a
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Három palócz katonanóta
+movements:
+- original-value: 1) Ferenc József, az... 2) Réten, réten... 3) Csivirgónak, csavargónak...

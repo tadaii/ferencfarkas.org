@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0596-le-retour-dapollon
+  num-id: 596
+  name: le-retour-dapollon
+  uuid: ebf056d0-6830-49de-82f4-8fa1c58abf14
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Le retour d'Apollon
+composition-date: "1982"
+source: manuscript by András Farkas

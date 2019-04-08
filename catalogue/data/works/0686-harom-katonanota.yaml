@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0686-harom-katonanota
+  num-id: 686
+  name: harom-katonanota
+  uuid: d69d0aaf-e524-4074-9d38-9d400dc6896c
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Három katonanóta
+composition-date: "1933"
+movements:
+- original-value: 1) Edes anyám hun van az az édes tej... 2) Hétfön reggel nyolcat
+    ütött az óra 3) Ferenc József az apostoli király
+source: manuscript by András Farkas

@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0101-3-x-33
+  num-id: 101
+  name: 3-x-33
+  uuid: f08993ce-c381-44d6-b139-380e618444b4
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: 3 X 33
+composition-date: "1991"
+movements:
+- original-value: Intrada, Meditazione, Allegro impetuoso, Giocoso, Ninna-nanna, Scherzo,
+    Alla marcia, La Notte, Riasunto
+reworking: 3 x 33 for piano

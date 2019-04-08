@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0357-horatius-ad-thaliarcam
+  num-id: 357
+  name: horatius-ad-thaliarcam
+  uuid: dc0e7c19-2c02-4332-a3aa-18b68c2c7c1e
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: la
+  original: la
+  sort:
+  - la
+  translations:
+    la: Horatius ad Thaliarcam
+composition-date: "1999"
+source: manuscript by András Farkas
+dedication: a Magyar Rádió Énekkarának félszázados fennállása alkalmából

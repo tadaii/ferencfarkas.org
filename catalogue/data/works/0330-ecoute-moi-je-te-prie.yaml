@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0330-ecoute-moi-je-te-prie
+  num-id: 330
+  name: ecoute-moi-je-te-prie
+  uuid: 2fb34632-8dec-4960-ba8a-4baff4ec27b8
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: fr
+  original: fr
+  sort:
+  - fr
+  translations:
+    fr: Écoute-moi, je te prie
+composition-date: "1972"
+dedication: à Jacques Emile Viquerat

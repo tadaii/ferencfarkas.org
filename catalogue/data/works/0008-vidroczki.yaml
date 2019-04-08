@@ -1,0 +1,21 @@
+catalog-id:
+  id: 0008-vidroczki
+  num-id: 8
+  name: vidroczki
+  uuid: 042c05ff-6cf9-4881-80bc-3fc6382db970
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: pl
+  original: pl
+  sort:
+  - pl
+  translations:
+    pl: Vidróczki
+composition-date: 1963-1964
+synopsis: The adventures and the death of Vidróczki, bandit from the Mátra country,
+  19th century.
+setting: 3 (picc.), 2, 2 (cl.b.), 2 – 4, 3, 3, 0 – timp. batt. (3 ess) – arpa, pf.,
+  cel., zimb. ungh. – archi
+source: 'score & piano reduction : manuscript by András Farkas'
+world-premiere: 'Open Air Festival of Szeged, 1964, conducted by Viktor Vaszy, stage
+  dir.: András Mikó, stage design : Mátyás Varga, costumes : Tivadar Márk'

@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0651-estampas-espanolas
+  num-id: 651
+  name: estampas-espanolas
+  uuid: f57457b1-b692-4f6d-b007-0a024f7ea29e
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Estampas espanolas
+composition-date: "1988"
+movements:
+- original-value: '1) Noche de verano - text by A. Machado – durata: 2’30'''' 2) Amanecer
+    de otono - text by A. Machado – durata: 2’01'''' 3) Estampa de invierno - text
+    by J.R. Jiménez – durata: 3’50’’ 4) Cancion primaveral - text by Federico Garcia
+    Lorca – durata: 2’03'''''

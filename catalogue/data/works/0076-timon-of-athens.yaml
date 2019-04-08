@@ -1,0 +1,21 @@
+catalog-id:
+  id: 0076-timon-of-athens
+  num-id: 76
+  name: timon-of-athens
+  uuid: 760b06de-0211-45c7-a8c3-348f36916973
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Timon of Athens
+composition-date: 1935, rev. 1967
+movements:
+- original-value: 1) Alkibiadesz indulójá / Alcibiade’s march - 2) Asztali zene /
+    Dinner music - 3) Tánc / Dance
+setting: 4(IV=picc.), 3 (III=c.i.), 4(IV=cl.b.), 4(IV=cfg.) – 4, 4, 3, 1 – timp.,
+  batt. – pf.
+reworking: Timon of Athens for orchestra
+source: manuscript by András Farkas

@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0312-az-oeroem-illan
+  num-id: 312
+  name: az-oeroem-illan
+  uuid: cb8b12ff-edae-4160-8cfe-e20172223573
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Az öröm illan
+composition-date: "1962"
+movements:
+- original-value: '1) Az öröm illan - durata : 3’20‘’ 2) Ez a nap is – durata: 2’40‘’
+    3) Tavaszi Holdtölte - durata : 3’'
+dedication: a Debreceni Kodály kórusnak és karmesterének Gulyás Györgynek

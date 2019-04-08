@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0255-three-burlesques
+  num-id: 255
+  name: three-burlesques
+  uuid: 9d216cdf-e504-41d8-ae2e-7f5d23b90a1e
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: hu
+  sort:
+  - en
+  - hu
+  translations:
+    en: Three burlesques
+    hu: Három burleszk
+composition-date: "1941"
+movements:
+- original-value: 1) Allegro - 2) Moderato , comodo - 3) Allegro
+reworking: Three burlesques / Három burleszk for 2 clarinets, basset horn and 2 bass
+  clarinets

@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0248-sonata
+  num-id: 248
+  name: sonata
+  uuid: 3228967a-06b1-4abc-88ae-0e9b235ac0d6
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Sonata
+composition-date: "1932"
+movements:
+- original-value: 1 ) Allegro - 2) Andante - 3) Allegro molto

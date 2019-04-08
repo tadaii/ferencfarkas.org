@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0338-erdely
+  num-id: 338
+  name: erdely
+  uuid: 7414bbec-23ac-402b-ae00-377d7e930fae
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Erdély
+composition-date: "1940"

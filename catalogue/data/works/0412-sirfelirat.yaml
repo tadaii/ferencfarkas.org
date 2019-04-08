@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0412-sirfelirat
+  num-id: 412
+  name: sirfelirat
+  uuid: b010f949-199e-4bd3-b0ac-d2e0c60d94c9
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: mfe
+  original: mfe
+  sort:
+  - mfe
+  translations:
+    mfe: Sirfelirat
+composition-date: "1994"
+source: manuscript by András Farkas
+dedication: Pro memoria M.

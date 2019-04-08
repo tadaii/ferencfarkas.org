@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0247-sonata
+  num-id: 247
+  name: sonata
+  uuid: cedfe147-0ba3-4bc0-8d20-dacd1467585d
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Sonata
+composition-date: "1987"
+movements:
+- original-value: 1) Allegro - 2) Chaconne - 3) Gigue
+dedication: to Eszter Perényi

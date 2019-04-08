@@ -1,0 +1,19 @@
+catalog-id:
+  id: 0592-ket-viragenek
+  num-id: 592
+  name: ket-viragenek
+  uuid: ce724be2-e12c-4331-8664-b93053ba3c4f
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  - de
+  translations:
+    de: Zwei Blumenlieder
+    hu: Két virágének
+composition-date: "1948"
+movements:
+- original-value: 1) Viránének /Blumenlied - text in Hungarian by Miklos Radnóti 2)
+    Virágének /Blumenlied - text in Hungarian by György Sárközi

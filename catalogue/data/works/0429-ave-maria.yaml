@@ -1,0 +1,15 @@
+catalog-id:
+  id: 0429-ave-maria
+  num-id: 429
+  name: ave-maria
+  uuid: 654efa6b-4dec-4e1f-842f-ce3f4f4dba91
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Ave Maria
+composition-date: "1994"
+reworking: Ave Maria for mixed choir Ave Maria for female choir

@@ -1,0 +1,13 @@
+catalog-id:
+  id: 0732-macbeth-by-shakespeare-1939
+  num-id: 732
+  name: macbeth-by-shakespeare-1939
+  uuid: ab948bf2-a3a2-4745-9cfd-da40c8c8e81f
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Macbeth by Shakespeare, 1939

@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0082-concertino-for-harp-and-orchestra
+  num-id: 82
+  name: concertino-for-harp-and-orchestra
+  uuid: 6b85f54c-6129-4cc1-88ff-ee61781f7310
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Concertino for harp and orchestra
+composition-date: 1937, rev.1956
+movements:
+- original-value: 1) Allegro - 2) Andante - 3) Allegro moderato
+setting: 1( picc. ), 1, 2, 1 – 2, 1, 0, 0 – timp. – archi
+reworking: Concertino for harp and string orchestra or string quartet

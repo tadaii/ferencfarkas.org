@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0556-elfelejtett-dallamok
+  num-id: 556
+  name: elfelejtett-dallamok
+  uuid: 4a3b446a-7601-4b65-b61b-6a6f0dc3d8ff
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Elfelejtett dallamok
+composition-date: "1980"
+movements:
+- original-value: '1) Az örömhez - text by Benedek Virág - durata : 1’02'''' 2) Barátimhoz
+    - text by Dániel Berzsenyi - durata : 1’41’’ 3) Emlékezés - text by Mihály Babits
+    - durata : 1’46’’ 4) Nóta a halott szüzröl - text by Endre Ady - durata : 0’54’’'

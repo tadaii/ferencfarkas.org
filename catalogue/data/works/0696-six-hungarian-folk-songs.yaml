@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0696-six-hungarian-folk-songs
+  num-id: 696
+  name: six-hungarian-folk-songs
+  uuid: 8ff92533-e899-4045-947b-eeda0ba23bf5
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Six Hungarian folk songs
+composition-date: "1947"
+movements:
+- original-value: 1) Zendúlj föl Szent János 2) Arokparti kökény 3) Kerek utca 4)
+    Jánoshidi vásártéren 5) Fekete föld 6) Bogyiszlai kertek alja végén

@@ -1,0 +1,16 @@
+catalog-id:
+  id: 0031-kallai-tancok
+  num-id: 31
+  name: kallai-tancok
+  uuid: 1d1b4586-916c-4d40-8256-e763259f9839
+date: "2019-04-08T21:09:33+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Kállai táncok
+setting: cl, 2 zimb. ungh., archi
+reworking: 'score: manuscript by András Farkas Dances from Kálló /Kállai táncok for
+  orchestra'

@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0083-concertino-for-harp-and-string-orchestra-or-string-quartet
+  num-id: 83
+  name: concertino-for-harp-and-string-orchestra-or-string-quartet
+  uuid: 5db9dc79-4d00-409c-83ad-fcbedaeca747
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: en
+  original: en
+  sort:
+  - en
+  translations:
+    en: Concertino for harp and string orchestra or string quartet
+composition-date: "1994"
+movements:
+- original-value: 1) Allegro - 2) Andante - 3) Allegro
+reworking: Concertino for harp and orchestra

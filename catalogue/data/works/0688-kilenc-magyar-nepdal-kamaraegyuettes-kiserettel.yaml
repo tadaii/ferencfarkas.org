@@ -1,0 +1,21 @@
+catalog-id:
+  id: 0688-kilenc-magyar-nepdal-kamaraegyuettes-kiserettel
+  num-id: 688
+  name: kilenc-magyar-nepdal-kamaraegyuettes-kiserettel
+  uuid: 37678df8-ed40-4063-9d46-a4d784da067a
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Kilenc magyar népdal kamaraegyüttes kisérettel
+composition-date: "1958"
+movements:
+- original-value: '1) Esett a hó – durata . 1’40'''' 2) Szántani kék - durata: 1’20''''
+    3) Egyszer két lányok – durata: 1'' 4) Gyere be szivem – durata: 1’20'''' 5) Mihály
+    biró – durata: 1'' 6) Veres az ég – durata: 50'''' 7) Láttad-e - durata: 50''''
+    8) Erdő, erdő - durata: 1‘20'''' 9) Széles a Duna – durata: 40'''''
+setting: 1, 1, 1, 1 - 0, 0, 0, 0 – arpa, zimb. ungh., citera – archi
+source: 'score: manuscript by András Farkas'

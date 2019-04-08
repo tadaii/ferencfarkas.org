@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0649-enekeljuenk-cyprianak
+  num-id: 649
+  name: enekeljuenk-cyprianak
+  uuid: a3b4ab32-6b6d-436e-9ce4-77399ad2e341
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Enekeljünk Cypriának
+movements:
+- original-value: '1) Szemrehányás - durata : 2’20'''' 2) Daphnis hajnalkor - durata
+    : 2'' 3) Az esküvés - durata : 2'' 4) Két szeretö dalja - durata : 1’30'''''
+reworking: Enekeljünk Cypriának for voice and piano
+source: manuscript by András Farkas

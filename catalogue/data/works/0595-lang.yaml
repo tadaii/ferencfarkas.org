@@ -1,0 +1,14 @@
+catalog-id:
+  id: 0595-lang
+  num-id: 595
+  name: lang
+  uuid: b3b6c7c2-1ca3-42d6-80d0-4ab04f30a4f8
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: vi
+  original: vi
+  sort:
+  - vi
+  translations:
+    vi: Láng
+composition-date: "1941"

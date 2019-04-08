@@ -1,0 +1,20 @@
+catalog-id:
+  id: 0453-psalmus-et-hymni
+  num-id: 453
+  name: psalmus-et-hymni
+  uuid: 947a7718-5aca-4f26-a7ce-de01e4fc148c
+date: "2019-04-08T21:09:35+00:00"
+title:
+  main: la
+  original: la
+  sort:
+  - la
+  translations:
+    la: Psalmus et Hymni
+composition-date: "1988"
+movements:
+- original-value: '1) Psalmus X - durata : 2’50‘’ 2) Hymnus de Amore Divino - text
+    by Sancti Bernardi de Claravalle - durata : 2’50‘’ 3) De vitae vanitate - Anonymi
+    - durata : 1’30‘’ 4) De vero sponso Regis Filio- text by Sancti Petri Damiani
+    - durata : 2’50‘’'
+source: manuscript by András Farkas

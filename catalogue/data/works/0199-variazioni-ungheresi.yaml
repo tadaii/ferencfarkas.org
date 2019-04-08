@@ -1,0 +1,18 @@
+catalog-id:
+  id: 0199-variazioni-ungheresi
+  num-id: 199
+  name: variazioni-ungheresi
+  uuid: ad586bca-a34b-48c4-8133-56367d449105
+date: "2019-04-08T21:09:34+00:00"
+title:
+  main: co
+  original: co
+  sort:
+  - co
+  translations:
+    co: Variazioni ungheresi
+composition-date: "1963"
+movements:
+- original-value: Thema, Variation I – IX
+adaptation: by András Adorján
+reworking: Variazioni ungheresi for 2 guitars Zalai változatok for cimbalom

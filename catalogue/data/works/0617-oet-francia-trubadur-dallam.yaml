@@ -1,0 +1,22 @@
+catalog-id:
+  id: 0617-oet-francia-trubadur-dallam
+  num-id: 617
+  name: oet-francia-trubadur-dallam
+  uuid: 7329182e-3a5d-46d0-a4d3-e804cb11d7db
+date: "2019-04-08T21:09:36+00:00"
+title:
+  main: sk
+  original: sk
+  sort:
+  - sk
+  - co
+  translations:
+    co: Cinque canzoni dei trovatori
+    sk: Öt francia trubadúr dallam
+composition-date: "1947"
+movements:
+- original-value: 1) Volez vos que je vos chant / Zengek néked ime halld 2) Belle
+    Doette / O szépséges hugom 3) Quand li rossignols s'écrie / Fényuszállyal száll
+    a hajna 4) A pris ai qu'en chantant plour / Boldog vagyok mig könnyem 5) Fort
+    m'enoia, s’o auzes dire / Jaj de sanyarù tűrni nekem
+reworking: Cinque canzoni dei trovatori for voice and guitar
