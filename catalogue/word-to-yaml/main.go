@@ -160,9 +160,11 @@ func NewWorkDuration(duration string) WorkDuration {
 
 // WorkMovement represents a work's movement
 type WorkMovement struct {
-	Title         string       `yaml:",omitempty"`
-	Duration      WorkDuration `yaml:",omitempty"`
-	OriginalValue string       `yaml:"original-value,omitempty"`
+	Title         WorkTitle     `yaml:",omitempty"`
+	Duration      WorkDuration  `yaml:",omitempty"`
+	Text          []WorkText    `yaml:",omitempty"`
+	OriginalValue string        `yaml:"original-value,omitempty"`
+	SubMovements  *WorkMovement `yaml:"sub-movements,omitempty"`
 }
 
 // CastMember represents a member of a stage work casting
@@ -315,7 +317,7 @@ func main() {
 				// 	}
 				// }
 			default:
-				// fmt.Println("->", work.CatalogID.ID, "row has more than 2 columns")
+				fmt.Println("->", work.CatalogID.ID, "row has more than 2 columns")
 			}
 		}
 	}
@@ -623,28 +625,39 @@ func setWorkProperty(work *Work, key string, value string) {
 
 func getWorkMovements(content string) []interface{} {
 	var movements []interface{}
+	// partRe := regexp.MustCompile(`(?imU)(\d{1,2}([a-z])?\s*\)\s+)(.*)`)
 
-	partRe := regexp.MustCompile(`(?imU)(\d{1,2}([a-z])?\s*\)\s+)(.*)`)
+	// if !partRe.MatchString(content) {
+	movements = append(movements, WorkMovement{
+		OriginalValue: content,
+	})
 
-	if !partRe.MatchString(content) {
-		movements = append(movements, WorkMovement{
-			OriginalValue: content,
-		})
-	} else {
-		for _, match := range partRe.FindAllStringSubmatch(content, -1) {
-			if match[2] != "" {
-				fmt.Println("-->", match[1])
-			} else {
-				fmt.Println("->", match[1])
-			}
-		}
-		content = partRe.ReplaceAllStringFunc(content, func(match string) string {
-			fmt.Println("-->", match)
-			return "\n"
-		})
+	// } else {
+	// 	list := make([]interface{}, 0)
 
-		// fmt.Println(content)
-	}
+	// 	for _, match := range partRe.FindAllStringSubmatch(content, -1) {
+	// 		if match[2] != "" {
+	// 			// sub movement: 1a), 1b), ...
+	// 			index := len(list) - 1
+	// 			list[index]
+
+	// 			// if list[index] == nil {
+	// 			// 	list[index] := []string{}
+	// 			// }
+
+	// 			// list[index] = append(list[index], match[2])
+	// 		} else {
+	// 			// movement: 1), 2), ...
+	// 			list = append(list, match[1])
+	// 		}
+	// 	}
+	// 	content = partRe.ReplaceAllStringFunc(content, func(match string) string {
+	// 		fmt.Println(match)
+	// 		return "\n"
+	// 	})
+
+	// 	fmt.Println("-> c: ", content)
+	// }
 
 	return movements
 }
