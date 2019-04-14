@@ -38,15 +38,13 @@ skip-links-pattern: (?mi)^(#.*|(http(s)?://)?www\.ferencfarkas\.org.*)
 # - version: <- description containing the word "section"
 # - description <- row following title without meta key, usually starting with "for..."
 work-mapping:
-- version: "(?i)^description: for" # version and description: what's the difference ?
-- duration: (?i)durata # <string> 00:00
+- version: "(?i)^description: for"
+- duration: (?i)durata
 - composition-date: (?i)composed
 - movements: (?i)^parts?
 - setting: (?i)^(ur)?setting
-- subject: (?i)subject
 - synopsis: (?i)synopsis
 - cast: (?i)cast
-- choreography: (?i)choregraphy
 - text: (?i)text
 - adaptation: (?i)^adapted
 - reworking: (?i)^reworking # relations

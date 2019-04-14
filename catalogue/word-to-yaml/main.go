@@ -14,6 +14,7 @@ import (
 	"reflect"
 	"regexp"
 	"runtime"
+	"strconv"
 	"strings"
 	"time"
 
@@ -149,19 +150,10 @@ func NewWorkTitle(title string) WorkTitle {
 	}
 }
 
-// WorkDuration represents the duration of a work or movement in seconds
-type WorkDuration int
-
-// NewWorkDuration generates a WorkDuration expressed in seconds
-// based on a string input
-func NewWorkDuration(duration string) WorkDuration {
-	return 0
-}
-
 // WorkMovement represents a work's movement
 type WorkMovement struct {
 	Title         WorkTitle     `yaml:",omitempty"`
-	Duration      WorkDuration  `yaml:",omitempty"`
+	Duration      int           `yaml:",omitempty"`
 	Text          []WorkText    `yaml:",omitempty"`
 	OriginalValue string        `yaml:"original-value,omitempty"`
 	SubMovements  *WorkMovement `yaml:"sub-movements,omitempty"`
@@ -183,19 +175,15 @@ type WorkText struct {
 type Work struct {
 	CatalogID CatalogID `yaml:"catalog-id,omitempty"`
 	// the date of the work last update
-	Date  string
-	Title WorkTitle
-	// => only 1 instance of SubTitle in whole catalogue...
-	SubTitle        string        `yaml:"sub-title,omitempty"`
+	Date            string
+	Title           WorkTitle
 	Version         string        `yaml:",omitempty"`
 	Description     string        `yaml:",omitempty"`
-	Duration        WorkDuration  `yaml:",omitempty"`
+	Duration        int           `yaml:",omitempty"`
 	CompositionDate string        `yaml:"composition-date,omitempty"`
 	Movements       []interface{} `yaml:",omitempty"`
-	Subject         string        `yaml:",omitempty"`
 	Synopsis        string        `yaml:",omitempty"`
 	Cast            []CastMember  `yaml:",omitempty"`
-	Choreography    string        `yaml:",omitempty"` // => move in notes ?
 	Text            []WorkText    `yaml:",omitempty"`
 	Setting         string        `yaml:",omitempty"`
 	Adaptation      string        `yaml:",omitempty"`
@@ -316,8 +304,6 @@ func main() {
 				// 		// relations = addRelation(relations, PublishedBy, , work.CatalogID)
 				// 	}
 				// }
-			default:
-				fmt.Println("->", work.CatalogID.ID, "row has more than 2 columns")
 			}
 		}
 	}
@@ -583,27 +569,59 @@ func setWorkProperty(work *Work, key string, value string) {
 		}
 	}
 
-	println("prop", prop)
-
 	switch prop {
 	case "":
-		work.Description = value // write description and version based on value containing `for:` or not
+		if strings.HasPrefix(value, "for") {
+			work.Version = value
+		} else {
+			work.Description = value
+		}
 	case "duration":
-		work.Duration = NewWorkDuration(value)
+		// duration := 0
+		durationRe := regexp.MustCompile("(^(?P<min1>\\d+)[’'](?P<sec1>\\d+)[’']{2}$)|(^(?P<min2>\\d+)[’']$)|(^(?P<sec2>\\d+)[’']{2}$)")
+
+		match := durationRe.FindStringSubmatch(value)
+		groups := make(map[string]string)
+		for i, name := range durationRe.SubexpNames() {
+			if len(match) > 0 && i != 0 && name != "" {
+				groups[name] = match[i]
+			}
+		}
+
+		sec1, e := strconv.Atoi(groups["sec1"])
+		if e != nil {
+			sec1 = 0
+		}
+
+		sec2, e := strconv.Atoi(groups["sec2"])
+		if e != nil {
+			sec2 = 0
+		}
+
+		min1, e := strconv.Atoi(groups["min1"])
+		if e != nil {
+			min1 = 0
+		}
+
+		min2, e := strconv.Atoi(groups["min2"])
+		if e != nil {
+			min2 = 0
+		}
+
+		min := min1 + min2
+		sec := sec1 + sec2
+
+		work.Duration = (min * 60) + sec
 	case "composition-date":
 		work.CompositionDate = value
 	case "movements":
 		work.Movements = getWorkMovements(value)
 	case "setting":
 		work.Setting = value
-	case "subject":
-		work.Subject = value
 	case "synopsis":
 		work.Synopsis = value
 	case "cast":
 		work.Cast = getCastMembers(value)
-	case "choreography":
-		work.Choreography = value
 	case "text":
 		work.Text = getWorkText(value)
 	case "adaptation":
