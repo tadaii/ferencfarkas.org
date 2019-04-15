@@ -43,7 +43,7 @@ work-mapping:
 - composition-date: (?i)composed
 - movements: (?i)^parts?
 - setting: (?i)^(ur)?setting
-- synopsis: (?i)synopsis
+- action: (?i)synopsis
 - cast: (?i)cast
 - text: (?i)text
 - adaptation: (?i)^adapted
