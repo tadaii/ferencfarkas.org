@@ -68,7 +68,7 @@ const dd = {
               return [
                 {},
                 {
-                  text: work.title.translations.hu,
+                  text: work.title.sort.map(c => work.title.translations[c]).join(' / '),
                   bold: true,
                   fontSize: 9,
                   margin: [0, 22, 40, 0]
