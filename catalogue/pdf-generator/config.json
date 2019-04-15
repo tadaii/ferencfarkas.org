@@ -1,9 +1,9 @@
 {
   "src": {
-    "works": "../word-to-yaml/dist/works",
-    "categories": "../word-to-yaml/dist/categories.yaml",
-    "publishers": "../word-to-yaml/dist/publishers.yaml",
-    "relations": "../word-to-yaml/dist/relations",
+    "works": "../data/works",
+    "categories": "../data/categories.yaml",
+    "publishers": "../data/publishers.yaml",
+    "relations": "../data/relations",
     "fileExtensions": [".yaml"]
   },
   "dst": "./dist/catalogue.pdf"
