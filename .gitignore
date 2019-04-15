@@ -6,5 +6,6 @@ SETUP*
 node_modules
 /catalogue/word-to-yaml/dist/*
 /catalogue/pdf-generator/dist/*
+/catalogue/data/examples
 /website/public
 /website/content/work/catalog/*.md
