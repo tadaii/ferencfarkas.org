@@ -4,7 +4,7 @@
   "description": "JS utilities for the ferencfarkas.org project",
   "main": "index.js",
   "scripts": {
-    "frontend:dev": "parcel ./website/frontend/index.html",
+    "frontend:dev": "parcel ./website/frontend/index.html -d dist-fe",
     "frontend:build": "cross-env NODE_ENV='production' node ./website/frontend/build.js --entry ./website/frontend/index.html --target ./website/assets --hugo-config ./website/config.toml",
     "catalogue:pdf": "node ./catalogue/pdf-generator/index.js"
   },

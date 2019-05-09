@@ -4,40 +4,49 @@ title = "Ferenc Farkas - A european composer"
 enableRobotsTXT = true
 
 [outputFormats]
-[outputFormats.JSON]
-mediaType = "application/json"
+
+  [outputFormats.JSON]
+  mediaType = "application/json"
 
 [params]
 description = "Ferenc Farkas official website."
 
-[params.og]
-image = "/media/img/og-image.jpg"
+  [params.og]
+  image = "/media/img/og-image.jpg"
 
-[params.header]
-menuLabel = "Menu"
-headline = "A european composer"
-imageUrl = "/media/img/header-image.jpg"
+  [params.header]
+  menuLabel = "Menu"
+  headline = "A european composer"
+  imageUrl = "/media/img/header-image.jpg"
 
-[[menu.main]]
-name = "Life"
-identifier = "life"
-weight = 100
-url = "/life"
+  [params.frontend]
 
-[[menu.main]]
-name = "Work"
-identifier = "work"
-weight = 200
-url = "/work"
+    [params.frontend.hashes]
+    css = "a2b27638"
+    js = "a2b27638"
 
-[[menu.main]]
-name = "Media"
-identifier = "media"
-weight = 300
-url = "/media"
+[menu]
 
-[[menu.main]]
-name = "Contact"
-identifier = "contact"
-weight = 400
-url = "/contact"
+  [[menu.main]]
+  name = "Life"
+  identifier = "life"
+  weight = 100.0
+  url = "/life"
+
+  [[menu.main]]
+  name = "Work"
+  identifier = "work"
+  weight = 200.0
+  url = "/work"
+
+  [[menu.main]]
+  name = "Media"
+  identifier = "media"
+  weight = 300.0
+  url = "/media"
+
+  [[menu.main]]
+  name = "Contact"
+  identifier = "contact"
+  weight = 400.0
+  url = "/contact"

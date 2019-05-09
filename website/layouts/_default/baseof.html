@@ -1,7 +1,11 @@
+{{ $js := (printf "src.%s.js" .Site.Params.Frontend.Hashes.Js) }}
+{{ $css := (printf "src.%s.css" .Site.Params.Frontend.Hashes.Css) }}
+{{ $script := resources.Get $js | resources.Fingerprint }}
+{{ $style := resources.Get $css | resources.Fingerprint }}
 <!doctype html>
 <html lang="{{ .Site.LanguageCode }}">
   <head>
-    <meta charset="utf-8">    
+    <meta charset="utf-8">
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ .Site.Title }}" />
     <meta property="og:url" content="{{ .Site.BaseURL }}{{ .Page.URL }}" />
@@ -9,16 +13,18 @@
     <meta property="og:image" content="{{ .Site.Params.Og.Image }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ .Site.Title }}</title>
-    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
   </head>
   <body>
-    {{ partial "header.html" . }}
+    <div id="app">
+      {{ partial "header.html" . }}
 
-    {{ block "main" .}}
-    {{ end }}
+      {{ block "main" .}}
+      {{ end }}
 
-    {{ partial "footer.html" . }}
+      {{ partial "footer.html" . }}
+    </div>
 
-    <script src="/js/app.js"></script>
+    <script src="{{ $script.Permalink }}"></script>
   </body>
 </html>
