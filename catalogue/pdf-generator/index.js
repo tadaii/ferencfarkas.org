@@ -9,12 +9,12 @@ const { readdirSync, readFileSync, createWriteStream } = require('fs')
 
 // Load yaml file
 const loadFile = file => {
-  return yaml.parse(readFileSync(resolve(file), 'utf-8'))
+  return yaml.parse(readFileSync(resolve(__dirname, file), 'utf8'))
 }
 
 // Load yaml files from dir
 const loadDir = (dir, asMap = false) => {
-  const files = readdirSync(resolve(dir)).filter(file =>
+  const files = readdirSync(resolve(__dirname, dir)).filter(file =>
     config.src.fileExtensions.includes(extname(file))
   )
 
@@ -122,15 +122,15 @@ const dd = {
 // Define fonts to use in PDF file
 const fonts = {
   OpenSans: {
-    normal: resolve('./fonts/OpenSans-Light.ttf'),
-    bold: resolve('./fonts/OpenSans-Semibold.ttf'),
-    italics: resolve('./fonts/OpenSans-Italic.ttf'),
-    bolditalics: resolve('./fonts/OpenSans-BoldItalic.ttf')
+    normal: resolve(__dirname, './fonts/OpenSans-Light.ttf'),
+    bold: resolve(__dirname, './fonts/OpenSans-Semibold.ttf'),
+    italics: resolve(__dirname, './fonts/OpenSans-Italic.ttf'),
+    bolditalics: resolve(__dirname, './fonts/OpenSans-BoldItalic.ttf')
   }
 }
 
 // Set destination file and create folders if needed
-const dst = resolve(config.dst)
+const dst = resolve(__dirname, config.dst)
 const dstDir = dirname(dst)
 
 shell.mkdir('-p', dstDir)
@@ -140,5 +140,5 @@ const printer = new PdfPrinter(fonts)
 const doc = printer.createPdfKitDocument(dd)
 
 // Write PDF file to disk
-doc.pipe(createWriteStream(resolve(config.dst)))
+doc.pipe(createWriteStream(resolve(__dirname, config.dst)))
 doc.end()
