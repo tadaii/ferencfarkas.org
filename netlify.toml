@@ -1,7 +1,7 @@
 [build]
     command = "cd ./website && hugo -b $URL && npm run web:build:functions"
-    publish = "cd ./website/public"
-    functions = "functions"
+    publish = "website/public"
+    functions = "website/assets/lambda"
 
 [build.environment]
     HUGO_VERSION = "0.62.0"
