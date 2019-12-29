@@ -4,7 +4,7 @@
   "description": "The ferencfarkas.org project",
   "private": true,
   "scripts": {
-    "web:start": "cd ./website && hugo server",
+    "start": "cd ./website && hugo server",
     "web:build": "cd ./website && hugo && npm run web:build:functions",
     "web:build:functions": "echo 'netlify-lambda build website/assets/lambda'",
     "web:server": "cd ./website && hugo server",
