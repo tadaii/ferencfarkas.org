@@ -1,0 +1,42 @@
+<footer>
+  <div class="container">
+    <div class="footer--wrapper">
+      <div class="footer--menu">
+        <ul>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+          <li{{if $currentPage.HasMenuCurrent "main" .}} class="active"{{end}}>
+            <a href="{{ .URL }}">{{ .Name }}</a>
+            {{ if .HasChildren }}
+              <ul>
+              {{ range .Children }}
+                {{ $isActive := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+                <li{{if $isActive}} class="is-selected"{{end}}>
+                  <a href="{{ .URL }}">{{ .Name }}</a>
+                </li>
+              {{ end }}
+              </ul>
+            {{ end }}
+          </li>
+        {{ end }}
+        </ul>
+      </div>
+      <div class="footer--credits">
+        <span class="footer--copy">&copy;</span> {{ now.Format "2006" }} <em>ferencfarkas.org</em> / <a class="highlight" href="/contact/af-publishing/">AFPublishing</a>
+        <p>
+          This website is maintained by
+          <br>
+          Andras Farkas and his family.
+        </p>
+        <div class="footer--providers">
+          <a href="http://www.oepa.ch" target="_blank">
+            {{ partial "icons/oepa.svg" }}
+          </a>
+          <a href="https://www.gohugo.io" target="_blank">
+            {{ partial "icons/hugo.svg" }}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

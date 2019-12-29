@@ -150,15 +150,6 @@ func NewWorkTitle(title string) WorkTitle {
 	}
 }
 
-// WorkMovement represents a work's movement
-type WorkMovement struct {
-	Title         WorkTitle     `yaml:",omitempty"`
-	Duration      int           `yaml:",omitempty"`
-	Text          []WorkText    `yaml:",omitempty"`
-	OriginalValue string        `yaml:"original-value,omitempty"`
-	SubMovements  *WorkMovement `yaml:"sub-movements,omitempty"`
-}
-
 // CastMember represents a member of a stage work casting
 type CastMember struct {
 	Voice  string
@@ -173,20 +164,19 @@ type WorkText struct {
 
 // Work represents a work in the catalog.
 type Work struct {
-	CatalogID CatalogID `yaml:"catalog-id,omitempty"`
-	// the date of the work last update
-	Date            string
+	CatalogID       CatalogID `yaml:"catalog-id,omitempty"`
+	Date            string    // the date of the work last update
 	Title           WorkTitle
-	Version         string        `yaml:",omitempty"`
-	Description     string        `yaml:",omitempty"`
-	Duration        int           `yaml:",omitempty"`
-	CompositionDate string        `yaml:"composition-date,omitempty"`
-	Movements       []interface{} `yaml:",omitempty"`
-	Synopsis        string        `yaml:",omitempty"`
-	Cast            []CastMember  `yaml:",omitempty"`
-	Text            []WorkText    `yaml:",omitempty"`
-	Setting         string        `yaml:",omitempty"`
-	Adaptation      string        `yaml:",omitempty"`
+	Version         string       `yaml:",omitempty"`
+	Description     string       `yaml:",omitempty"`
+	Duration        int          `yaml:",omitempty"`
+	CompositionDate string       `yaml:"composition-date,omitempty"`
+	Movements       string       `yaml:",omitempty"`
+	Synopsis        string       `yaml:",omitempty"`
+	Cast            []CastMember `yaml:",omitempty"`
+	Text            []WorkText   `yaml:",omitempty"`
+	Setting         string       `yaml:",omitempty"`
+	Adaptation      string       `yaml:",omitempty"`
 	// unclear what Reworking really means:
 	// seems to be a list of references to other works
 	// with the same title but other settings/versions
@@ -577,7 +567,6 @@ func setWorkProperty(work *Work, key string, value string) {
 			work.Description = value
 		}
 	case "duration":
-		// duration := 0
 		durationRe := regexp.MustCompile("(^(?P<min1>\\d+)[’'](?P<sec1>\\d+)[’']{2}$)|(^(?P<min2>\\d+)[’']$)|(^(?P<sec2>\\d+)[’']{2}$)")
 
 		match := durationRe.FindStringSubmatch(value)
@@ -615,7 +604,7 @@ func setWorkProperty(work *Work, key string, value string) {
 	case "composition-date":
 		work.CompositionDate = value
 	case "movements":
-		work.Movements = getWorkMovements(value)
+		work.Movements = value
 	case "setting":
 		work.Setting = value
 	case "synopsis":
@@ -641,45 +630,6 @@ func setWorkProperty(work *Work, key string, value string) {
 	case "nb":
 		work.NB = value
 	}
-}
-
-func getWorkMovements(content string) []interface{} {
-	var movements []interface{}
-	// partRe := regexp.MustCompile(`(?imU)(\d{1,2}([a-z])?\s*\)\s+)(.*)`)
-
-	// if !partRe.MatchString(content) {
-	movements = append(movements, WorkMovement{
-		OriginalValue: content,
-	})
-
-	// } else {
-	// 	list := make([]interface{}, 0)
-
-	// 	for _, match := range partRe.FindAllStringSubmatch(content, -1) {
-	// 		if match[2] != "" {
-	// 			// sub movement: 1a), 1b), ...
-	// 			index := len(list) - 1
-	// 			list[index]
-
-	// 			// if list[index] == nil {
-	// 			// 	list[index] := []string{}
-	// 			// }
-
-	// 			// list[index] = append(list[index], match[2])
-	// 		} else {
-	// 			// movement: 1), 2), ...
-	// 			list = append(list, match[1])
-	// 		}
-	// 	}
-	// 	content = partRe.ReplaceAllStringFunc(content, func(match string) string {
-	// 		fmt.Println(match)
-	// 		return "\n"
-	// 	})
-
-	// 	fmt.Println("-> c: ", content)
-	// }
-
-	return movements
 }
 
 func getCastMembers(content string) []CastMember {

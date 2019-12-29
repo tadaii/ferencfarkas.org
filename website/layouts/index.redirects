@@ -1,0 +1,7 @@
+# redirects for Netlify - https://www.netlify.com/docs/redirects/
+/* /404.html 404
+{{- range $p := .Site.Pages -}}
+{{- range .Aliases }}
+{{ . }} {{ $p.RelPermalink -}}
+{{- end }}
+{{- end -}}

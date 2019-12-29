@@ -1,0 +1,28 @@
+a.more {
+  padding-bottom: .5rem;
+  font-weight: bolder;
+  color: $c-gray-darker;
+  border-bottom: 1px solid $c-gray-light;
+  transition: all .3s linear;
+
+  svg {
+    margin-left: .5rem;
+    vertical-align: middle;
+    width: auto;
+    height: 1rem;
+    margin-bottom: .2rem;
+
+    path {
+      fill: $c-gray-darker;
+    }
+  }
+
+  &:hover {
+    color: $c-black;
+    border-bottom: 1px solid $c-gray-darker;
+
+    svg path {
+      fill: $c-black;
+    }
+  }
+}

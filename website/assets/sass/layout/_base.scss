@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  font-size: 13px;
+}
+
+@media screen and (min-width: 375px) {}
+
+@media screen and (min-width: 480px) {}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  font-family: $f-sans;
+  line-height: 1.5;
+  font-weight: 400;
+  color: $c-gray-darker;
+  background-color: transparent;
+  -webkit-font-smoothing: antialiased;
+
+  &.highlight {
+    background-color: $c-section-highlight-bg;
+  }
+
+  &.focus {
+    background-color: $c-section-focus-bg;
+  }
+
+  &.invert {
+    background-color: $c-section-invert-bg;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $f-serif;
+  font-weight: 100;
+  line-height: 1.2;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid $c-gray-lighter;
+}
+
+a {
+  color: $c-gray-darker;
+  text-decoration: none;
+
+  &:hover {
+    color: $c-black;
+  }
+}
+
+em {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  max-width: 100%;
+
+  &.full {
+    padding: 0;
+  }
+
+  &:not(.full) {
+    @media screen and (min-width: 1024px) {
+      max-width: $s-container-width;
+    }
+  }
+}
+
+*:not(body).highlight {
+  color: $c-primary;
+}
+
+*:not(body).focus {
+  color: $c-secondary;
+}

@@ -1,0 +1,131 @@
+#player {
+  height: 0;
+  max-height: calc(10rem - 1px);
+  background-color: $c-black;
+
+  &.open {
+    height: calc(15vh - 1px);
+
+    .player--wrapper {
+      height: 15vh;
+      opacity: 1;
+    }
+  }
+
+  .player {
+    &--wrapper {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 0;
+      max-height: 10rem;
+      display: flex;
+      align-items: center;
+      font-family: $f-sans;
+      font-size: 1rem;
+      font-weight: normal;
+      color: $c-gray-lighter;
+      background-color: rgba(0,0,0, .9);
+      opacity: 0;
+      z-index: 1;
+      transition: .2s height linear, .3s opacity linear;
+
+      .container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+
+    &--waveform-wrapper {
+      flex: 2;
+      height: 100%;
+      padding: 0 1rem;
+    }
+
+    &--track-title {
+      height: calc(50% - 20px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: .5rem;
+    }
+
+    #waveform canvas {
+      width: 100%;
+    }
+  }
+}
+
+.play {
+  position: relative;
+  width: 4rem;
+  height: 4rem;
+  margin: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0, .05);
+  border-radius: 25%;
+  cursor: pointer;
+
+  #player & {
+    width: 2rem;
+    margin: 0;
+  }
+
+  &:focus,
+  &:active {
+    outline: none;
+  }
+
+  &:before {
+    content: '';
+    display: block;
+  }
+
+  &:not(.playing):before {
+    width: 0;
+    height: 0;
+    margin-left: .25rem;
+    border-top: 1.1rem solid transparent;
+    border-bottom: 1.1rem solid transparent;
+    border-left: 1.25rem solid rgba(0,0,0, .5);
+
+    #player & {
+      border-left-color: rgba(255,255,255, .5);
+    }
+  }
+
+  &.playing:before,
+  &.playing:after {
+    content: '';
+    width: .5rem;
+    height: 1.75rem;
+    background-color: rgba(0,0,0, .5);
+
+    #player & {
+      background-color: rgba(255,255,255, .5);
+    }
+  }
+
+  &.playing:after {
+    margin-left: .25rem;
+  }
+
+  &:hover {
+    background-color: rgba(0,0,0, .5);
+
+    &:not(.playing):before {
+      border-left-color: rgba(255,255,255, .875);
+    }
+
+    &.playing:before,
+    &.playing:after {
+      background-color: rgba(255,255,255, .875);
+    }
+  }
+
+}

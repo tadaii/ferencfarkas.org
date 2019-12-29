@@ -1,0 +1,14 @@
+article {
+  min-height: calc(100vh - 10rem);
+  font-size: 1.2rem;
+  font-weight: 200;
+
+  section:first-of-type {
+    margin-top: -6rem;
+    padding-top: calc(#{$s-section-v-padding} + 4rem);
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+}

@@ -1,37 +1,28 @@
-baseURL = "https://ferencfarkas.ifdesign.ch"
+baseURL = "/"
 languageCode = "en-us"
 title = "Ferenc Farkas - A european composer"
 enableRobotsTXT = true
+disableAliases = true
 
-[outputFormats]
-
-  [outputFormats.JSON]
-  mediaType = "application/json"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
+disallow_search_engines = false # set robots.txt to disallow everything
 description = "Ferenc Farkas official website."
 
   [params.og]
-  image = "/media/img/og-image.jpg"
-
-  [params.header]
-  menuLabel = "Menu"
-  headline = "A european composer"
-  imageUrl = "/media/img/header-image.jpg"
-
-  [params.frontend]
-
-    [params.frontend.hashes]
-    css = "a2b27638"
-    js = "a2b27638"
+  image = "/img/og-image.jpg"
 
 [menu]
 
   [[menu.main]]
-  name = "Life"
-  identifier = "life"
+  name = "Biography"
+  identifier = "biography"
   weight = 100.0
-  url = "/life"
+  url = "/biography"
 
   [[menu.main]]
   name = "Work"
@@ -40,13 +31,41 @@ description = "Ferenc Farkas official website."
   url = "/work"
 
   [[menu.main]]
-  name = "Media"
-  identifier = "media"
+  name = "Discover"
+  identifier = "discover"
   weight = 300.0
-  url = "/media"
+  url = "/discover"
 
   [[menu.main]]
   name = "Contact"
   identifier = "contact"
   weight = 400.0
   url = "/contact"
+
+[outputFormats]
+
+  [outputFormats.JSON]
+  mediaType = "application/json"
+
+# add redirects/headers
+[outputs]
+home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
+
+# remove .{ext} from text/netlify
+[mediaTypes."text/netlify"]
+suffixes = [""]
+delimiter = ""
+
+# add output format for netlify _redirects
+[outputFormats.REDIRECTS]
+mediatype = "text/netlify"
+baseName = "_redirects"
+isPlainText = true
+notAlternative = true
+
+# add output format for netlify _headers
+[outputFormats.HEADERS]
+mediatype = "text/netlify"
+baseName = "_headers"
+isPlainText = true
+notAlternative = true

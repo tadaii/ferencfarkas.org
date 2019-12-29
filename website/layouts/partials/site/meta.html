@@ -1,0 +1,6 @@
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{{ .Site.Title }}" />
+<meta property="og:url" content="{{ .Page.Permalink }}" />
+<meta property="og:description" content="{{ .Site.Params.Description }}" />
+<meta property="og:image" content="{{ .Site.Params.Og.Image }}" />
+{{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}

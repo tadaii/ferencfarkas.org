@@ -1,0 +1,89 @@
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include heroHeight;
+  background-color: $c-black;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 3rem), 0 100%);
+  z-index: 1;
+
+  .container {
+    height: 100%;
+  }
+
+  h1, .hero--subtitle {
+    display: block;
+    margin: 0;
+    color: $c-white;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .hero--subtitle {
+    font-family: $f-sans;
+    font-size: 2rem;
+    font-weight: 200;
+    color: $c-primary;
+  }
+
+  &--text {
+    position: absolute;
+    bottom: 6rem;
+    left: 1.5rem;
+    right: 1.5rem;
+    text-shadow: 0 0 2rem black;
+
+    @media screen and (min-width: 768px) {
+      left: 2rem;
+      right: 2rem;
+    }
+  }
+
+  &--image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: top center;
+    // background-attachment: fixed;
+    // filter: sepia(10%) saturate(100%) contrast(120%);
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background: transparent;
+      background: linear-gradient(4deg,
+        rgba(0,0,0,1) 0%,
+        rgba(0,0,0, .75) 40%,
+        rgba(0,0,0,0) 80%
+      );
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background: transparent;
+      background: linear-gradient(90deg,
+        rgba(0,0,0,1) 0%,
+        rgba(0,0,0,.35) 20%,
+        rgba(0,0,0,.1) 50%,
+        rgba(0,0,0,.35) 80%,
+        rgba(0,0,0,1) 100%
+      );
+    }
+  }
+}

@@ -1,30 +1,29 @@
-{{ $js := (printf "src.%s.js" .Site.Params.Frontend.Hashes.Js) }}
-{{ $css := (printf "src.%s.css" .Site.Params.Frontend.Hashes.Css) }}
-{{ $script := resources.Get $js | resources.Fingerprint }}
-{{ $style := resources.Get $css | resources.Fingerprint }}
 <!doctype html>
-<html lang="{{ .Site.LanguageCode }}">
+<html lang="{{ .Site.LanguageCode | default "en" }}">
   <head>
     <meta charset="utf-8">
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{ .Site.Title }}" />
-    <meta property="og:url" content="{{ .Site.BaseURL }}{{ .Page.URL }}" />
-    <meta property="og:description" content="{{ .Site.Params.Description }}" />
-    <meta property="og:image" content="{{ .Site.Params.Og.Image }}" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ .Site.Title }}</title>
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ block "title" . }}
+      {{- with .Title }}{{ . }} | {{ end }}{{ .Site.Title -}}
+      {{ end }}</title>
+    {{ range .AlternativeOutputFormats }}
+    <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+    {{ end }}
+    {{ block "site/styles" . }}{{ partial "site/styles.html" . }}{{ end }}
+    {{ block "site/scripts" . }}{{ partial "site/scripts.html" . }}{{ end }}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,900|Playfair+Display:400,700&display=swap">
+    {{- if .Params.HeroImage }}
+    <link rel="preload" href="{{ .Params.HeroImage }}" as="image">
+    {{ end -}}
+    {{ block "site/meta" . }}{{ partial "site/meta.html" . }}{{ end }}
   </head>
   <body>
-    <div id="app">
-      {{ partial "header.html" . }}
-
-      {{ block "main" .}}
-      {{ end }}
-
-      {{ partial "footer.html" . }}
-    </div>
-
-    <script src="{{ $script.Permalink }}"></script>
+    {{ block "header" . }}{{ partial "site/header.html" . }}{{ end }}
+    <main class="site-main" role="main">
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ block "footer" . }}{{ partial "site/footer.html" . }}{{ end }}
+    {{ partial "components/player.html" }}
   </body>
 </html>

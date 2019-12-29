@@ -1,0 +1,28 @@
+<nav>
+  <div class="nav--hamburger active">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="nav--wrapper">
+    <ul>
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+      <li{{if $currentPage.HasMenuCurrent "main" .}} class="active"{{end}}>
+        <a href="{{ .URL }}">{{ .Name }}</a>
+        {{/*  {{ if .HasChildren }}
+          <ul>
+          {{ range .Children }}
+            {{ $isActive := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+            <li{{if $isActive}} class="is-selected"{{end}}>
+              <a href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+          {{ end }}
+          </ul>
+        {{ end }}  */}}
+      </li>
+    {{ end }}
+    </ul>
+  </div>
+  <div class="nav--bottom"></div>
+</nav>

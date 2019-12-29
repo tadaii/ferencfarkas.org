@@ -1,0 +1,24 @@
+.row {
+  display: flex;
+  flex-direction: column;
+  margin: 0 -1.25rem;
+
+  @media screen and (min-width: 480px) {
+    flex-direction: row;
+  }
+
+  &.center {
+    align-items: center;
+  }
+
+  .column {
+    flex: 1;
+    padding: 1.25rem;
+
+    &.center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

@@ -1,0 +1,3 @@
+{{ $s := resources.Get "sass/app.scss" | toCSS | postCSS (dict "config" "postcss.config.js") | minify }}
+<link rel="stylesheet" href="{{ $s.Permalink }}" media="screen"/>
+<link rel="stylesheet" href="/css/flickity.css" media="screen">

@@ -1,5 +1,7 @@
-<section class="Section{{ if (.Get 0) }} {{ .Get 0 }}{{ end }}">
-  <div class="container">
-    {{ .Inner }}
+{{ $params := print (.Get 0) (.Get 1) (.Get 2) }}
+{{ $isFull := strings.Contains $params "full" }}
+<section class="{{ .Get 0 }} {{ .Get 1 }} {{ .Get 2 }}">
+  <div class="container{{ if $isFull }} full{{ end }}">
+    {{- .Inner | markdownify -}}
   </div>
 </section>

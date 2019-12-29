@@ -1,0 +1,54 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  @include heroHeight;
+  z-index: 2;
+  pointer-events: none;
+
+  .container {
+    height: 100%;
+  }
+
+  .signature-logo {
+    position: fixed;
+    top: -4px;
+    left: 1.5rem;
+    display: inline-flex;
+    background-color: rgba(0,0,0, .1);
+    box-shadow: 0 0 1rem .15rem rgba(0,0,0, .05);
+    opacity: .97;
+    z-index: 2;
+    pointer-events: all;
+
+    @media screen and (min-width: 768px) {
+      left: 2rem;
+    }
+
+    @media screen and (min-width: $s-container-width) {
+      left: calc(50% - (#{$s-container-width}/2) + 2rem);
+    }
+
+    svg {
+      height: 3.25rem;
+      width: 10rem;
+      margin-left: -1px;
+      fill: $c-primary;
+      transition: .2s fill linear;
+
+      @media screen and (min-width: 480px) {
+        height: 3.4rem;
+        width: 11rem;
+      }
+
+      @media screen and (min-width: 768px) {
+        height: 3.55rem;
+      }
+    }
+
+    &:not(.active):hover svg {
+      fill: $c-secondary;
+    }
+  }
+}

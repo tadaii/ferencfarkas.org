@@ -1,0 +1,53 @@
+@mixin heroHeight() {
+  height: calc(100vh - 10rem);
+  min-height: 200px;
+  max-height: 35rem;
+}
+
+@mixin font-size($scale: 1) {
+  $viewports: map_keys($font-sizes);
+
+  @each $viewport in $viewports {
+    $font-size: map_get($font-sizes, $viewport);
+
+    @include media-breakpoint-up($viewport) {
+      font-size: $scale * $font-size;
+    }
+  }
+}
+
+@mixin line-height($scale: 1) {
+  $viewports: map_keys($line-heights);
+
+  @each $viewport in $viewports {
+    $line-height: map_get($line-heights, $viewport);
+
+    @include media-breakpoint-up($viewport) {
+      line-height: $scale * $line-height;
+    }
+  }
+}
+
+@mixin heading-margin($scale: 1) {
+  $viewports: map_keys($font-sizes);
+
+  @each $viewport in $viewports {
+    $fontsize: map_get($font-sizes, $viewport);
+
+    @include media-breakpoint-up($viewport) {
+      margin: ($scale * $fontsize) 0 (($scale / 2) * $fontsize);
+    }
+  }
+}
+
+@mixin heading-margin-couple($scale: 1) {
+  $viewports: map_keys($font-sizes);
+
+  @each $viewport in $viewports {
+    $fontsize: map_get($font-sizes, $viewport);
+
+    @include media-breakpoint-up($viewport) {
+      margin-top: -(($scale / 2) * $fontsize);
+    }
+  }
+}

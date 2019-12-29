@@ -1,0 +1,106 @@
+.carousel {
+  height: 300px;
+  padding-bottom: 50%;
+
+  .flickity-viewport {
+    position: absolute;
+    width: 100%;
+  }
+
+  .carousel-cell {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: $c-black;
+
+    figure {
+      margin: 0;
+      // width: 100%;
+      height: 100%;
+
+      img {
+        // width: 100%;
+        width: auto;
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .flickity-prev-next-button {
+    &, &:hover {
+      background: transparent;
+    }
+
+    .flickity-button-icon {
+      fill: rgba(255,255,255, .75);
+    }
+  }
+
+  .flickity-page-dots {
+    bottom: 2rem;
+    z-index: 2;
+
+    .dot {
+      background: rgba(255,255,255, .7);
+    }
+  }
+}
+
+.__carousel__ {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 50%;
+  border: 3px solid red;
+
+  &--items-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+  }
+
+  &--item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid blue;
+
+    & > * {
+      margin: 0;
+    }
+  }
+
+  &--handler {
+    position: absolute;
+    top: calc(50% - 1rem);
+    cursor: pointer;
+
+    &.left {
+      left: 1rem;
+    }
+
+    &.right {
+      right: 1rem;
+    }
+
+    svg {
+      height: 2rem;
+      width: auto;
+
+      path {
+        fill: rgba(255,255,255, .75);
+        transition: .2s fill linear;
+      }
+    }
+
+    &:hover svg path {
+      fill: $c-primary;
+    }
+  }
+}

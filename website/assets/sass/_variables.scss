@@ -1,0 +1,33 @@
+$s-container-width: 1220px;
+$s-hamburger-width: 36px;
+$s-section-v-padding: 4rem;
+
+// Font type
+$f-sans: 'Lato', sans-serif;
+$f-serif: 'Playfair Display', serif;
+
+// Colors
+$c-white:             white;
+$c-almost-white:      #F0F0F0;
+$c-gray-lighter:      #DDDDDD;
+$c-gray-light:        #9A9A9A;
+$c-gray-dark:         #777777;
+$c-gray-darker:       #333333;
+$c-almost-black:      #1f1f1f;
+$c-black:             black;
+
+$c-primary:           #FAB700;
+$c-primary-light:     lighten($c-primary, 10%);
+$c-primary-dark:      darken($c-primary, 10%);
+
+$c-secondary:         #83CACC;
+$c-secondary-light:   lighten($c-secondary, 10%);
+$c-secondary-dark:    darken($c-secondary, 10%);
+
+// Section color
+$c-section-highlight-bg:  $c-primary;
+$c-section-highlight-txt: $c-black;
+$c-section-focus-bg:      $c-secondary;
+$c-section-focus-txt:     $c-black;
+$c-section-invert-bg:     $c-gray-dark;
+$c-section-invert-txt:    $c-white;

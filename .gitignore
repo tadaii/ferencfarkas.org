@@ -4,16 +4,3 @@
 .env
 
 node_modules
-
-_site_FF
-SETUP*
-
-/dist-fe
-
-/catalogue/word-to-yaml/dist/*
-/catalogue/pdf-generator/dist/*
-/catalogue/data/examples
-
-/website/public
-/website/content/work/catalog/*.md
-/website/resources
