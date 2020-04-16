@@ -52,9 +52,8 @@ footer {
       align-items: center;
       margin-top: 3rem;
 
-      svg.oepa,
-      svg.hugo {
-        height: 1.85rem;
+      .jota,
+      .hugo {
         width: auto;
         margin-right: .75rem;
         transition: .2s fill linear;
@@ -64,11 +63,13 @@ footer {
         }
       }
 
-      svg.oepa {
+      .jota {
+        height: 3rem;
         fill: $c-primary;
       }
 
-      svg.hugo {
+      .hugo {
+        height: 1.85rem;
         fill: $c-secondary;
       }
     }
