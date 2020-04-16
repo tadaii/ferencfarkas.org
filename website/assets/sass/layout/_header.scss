@@ -16,7 +16,6 @@ header {
     top: -4px;
     left: 1.5rem;
     display: inline-flex;
-    background-color: rgba(0,0,0, .1);
     box-shadow: 0 0 1rem .15rem rgba(0,0,0, .05);
     opacity: .97;
     z-index: 2;
@@ -31,19 +30,17 @@ header {
     }
 
     svg {
-      height: 3.25rem;
       width: 10rem;
       margin-left: -1px;
       fill: $c-primary;
       transition: .2s fill linear;
 
       @media screen and (min-width: 480px) {
-        height: 3.4rem;
-        width: 11rem;
+        width: 12rem;
       }
 
       @media screen and (min-width: 768px) {
-        height: 3.55rem;
+        width: 14rem;
       }
     }
 

@@ -2,7 +2,7 @@
 title: "Discover a world"
 subTitle: "..."
 slug: "discover"
-heroImage: /img/hero/hero6.jpg
+heroImage: /img/hero/hero9.jpg
 date: 2019-08-29T00:22:03+02:00
 menu:
   main:

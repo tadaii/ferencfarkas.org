@@ -1,0 +1,17 @@
+@keyframes hamburger-top {
+  50%  { transform: translateY(8px) }
+  100% { transform: translateY(8px) rotate(-45deg) }
+}
+
+@keyframes hamburger-bottom {
+  50%  { transform: translateY(-8px) }
+  100% { transform: translateY(-8px) rotate(45deg) }
+}
+
+@keyframes hamburger-top-reverse {
+  50%  { transform: translateY(8px) }
+}
+
+@keyframes hamburger-bottom-reverse {
+  50%  { transform: translateY(-8px) }
+}

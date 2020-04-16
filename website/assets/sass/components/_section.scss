@@ -17,11 +17,11 @@ section {
     background-color: $c-white;
   }
 
-  &.no-skew {
+  &.straight {
     margin: -1rem 0;
   }
 
-  &:not(.no-skew) {
+  &:not(.straight) {
     margin-top: -1px;
     padding: $s-section-v-padding 0 calc(#{$s-section-v-padding} + 2rem);
 
@@ -52,7 +52,7 @@ section {
   }
 
   &.invert {
-    color: $c-almost-white;
+    color: $c-section-invert-txt;
 
     &:after {
       background-color: $c-section-invert-bg;
@@ -60,6 +60,18 @@ section {
 
     h1, h2, h3, h4, h5, h6 {
       color: $c-white;
+    }
+  }
+
+  &.black {
+    color: $c-section-black-txt;
+
+    &:after {
+      background-color: $c-section-black-bg;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: $c-secondary;
     }
   }
 }

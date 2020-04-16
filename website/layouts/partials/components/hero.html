@@ -1,7 +1,9 @@
 <div class="hero">
   <div class="container">
     {{- if .Params.HeroImage }}
-    <div class="hero--image" style="background-image: url('{{ .Params.HeroImage }}')"></div>
+    <div class="hero--image" style="background-image: url('{{ .Params.HeroImage }}')">
+      <div class="hero--image--half-tone"></div>
+    </div>
     {{ end -}}
     <div class="hero--text">
       <h1>

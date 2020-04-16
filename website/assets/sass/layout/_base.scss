@@ -9,28 +9,12 @@ html, body {
 }
 
 html {
-  font-size: 13px;
-}
+  font-size: 15px;
 
-@media screen and (min-width: 375px) {}
-
-@media screen and (min-width: 480px) {}
-
-@media screen and (min-width: 768px) {
-  html {
-    font-size: 14px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  html {
-    font-size: 15px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  html {
-    font-size: 16px;
+  @media screen and (min-width: 1024px) {
+    html {
+      font-size: 16px;
+    }
   }
 }
 
@@ -53,6 +37,10 @@ body {
   &.invert {
     background-color: $c-section-invert-bg;
   }
+
+  &.black {
+    background-color: $c-section-black-bg;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -72,6 +60,19 @@ a {
 
   &:hover {
     color: $c-black;
+
+    .container p & {
+      padding-bottom: .15rem;
+      border-bottom: 1px solid $c-black;
+    }
+  }
+
+  .focus & {
+    color: $c-white;
+
+    .container p &:hover {
+      border-bottom-color: red;
+    }
   }
 }
 

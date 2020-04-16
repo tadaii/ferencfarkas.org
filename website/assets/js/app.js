@@ -10,9 +10,11 @@
       var nav = document.querySelector('header nav')
 
       if (!ham) return
+
       ham.addEventListener('click', function () {
         if (!nav) return
         nav.classList.toggle('open')
+        nav.blur()
       })
     }
   }
