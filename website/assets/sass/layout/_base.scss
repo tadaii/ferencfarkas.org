@@ -81,6 +81,38 @@ em {
   font-weight: bold;
 }
 
+blockquote {
+  position: relative;
+  margin-bottom: 4rem;
+  font-family: $f-serif;
+  font-style: italic;
+  font-size: 120%;
+  font-weight: 100;
+
+  &:before {
+    position: absolute;
+    top: 20%;
+    left: -2rem;
+    content: '';
+    width: 1px;
+    height: 85%;
+    background-color: $c-black;
+    opacity: .25;
+  }
+
+  &:after {
+    content: "‟";
+    position: absolute;
+    left: -3rem;
+    top: 10%;
+    display: block;
+    line-height: 0;
+    font-size: 200%;
+    color: $c-black;
+    opacity: .25;
+  }
+}
+
 .container {
   position: relative;
   width: 100%;

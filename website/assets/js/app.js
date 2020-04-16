@@ -25,7 +25,12 @@
       var sc
 
       if (!ls) return
-      sc = ls.getAttribute('class').trim()
+      ls.getAttribute('class').trim().split(' ')
+        .forEach(c => {
+          if (['highlight', 'focus', 'invert', 'black'].includes(c)) {
+            sc = c
+          }
+        })
 
       if (!sc) return
       document.body.classList.add(sc)
@@ -54,7 +59,7 @@
           })
 
           wavesurfer.on('finish', function () {
-            var play = document.querySelectorAll('.play')
+            var play = document.querySelectorAll('.play--button')
             for (var i = 0; i < play.length; i++) {
               play[i].classList.remove('playing')
             }
@@ -62,16 +67,16 @@
         }
       }, 500)
 
-      var play = document.querySelectorAll('.play')
+      var play = document.querySelectorAll('.play--button')
 
       if (!play) return
 
       for (var i = 0; i < play.length; i++) {
         play[i].addEventListener('click', function (event) {
           var player = document.querySelector('#player')
-          var playerPlay = document.querySelector('#player .play')
+          var playerPlay = document.querySelector('#player .play--button')
           var el = event.target === playerPlay
-            ? document.querySelector('.play[data-url="'+playing+'"]')
+            ? document.querySelector('.play--button[data-url="'+playing+'"]')
             : event.target
 
           var url = el.getAttribute('data-url')

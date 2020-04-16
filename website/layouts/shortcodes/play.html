@@ -1,2 +1,7 @@
-<div class="play" data-url="{{ .Get 0 }}">
+<div class="play">
+  <button class="play--button" data-url="{{ .Get 0 }}"></button>
+  <div class="play--meta">
+    <h5>{{ .Get 1 }}</h5>
+    <p>{{ .Get 2 }}</p>
+  </div>
 </div>
