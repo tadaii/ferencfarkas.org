@@ -51,7 +51,7 @@ Ferenc Farkas studied composition in Budapest with Albert Siklós and Leo Weine
 After working some time as a "repetiteur", he went to Rome in 1929 where the
 benefit of a scholarship allowed him to study with Ottorino Respighi.
 
-That wa sthe time whe he discovered his true artistic identity. Respighi
+That was the time whe he discovered his true artistic identity. Respighi
 introduced him to different forms and styles of Italian music. He also
 transmitted to him his virtuosity in the art of instrumentation, his taste
 for orchestral colours, his passion of ancient music and his vision for
@@ -67,7 +67,13 @@ always showed interest since he was child.
 > When I returned from Rome, I thought the world is mine but soon I understood
 that I will not succeed to find a stable job.
 
-In 1931, Hungary felt very intensely the Great Depression of 1929. Returning to Rome, Farkas finds only small “jobs” like theatre co-repetiteur, choirmaster and music teacher.
+_In 1931 the Great Depression was being felt heavily in Hungary._
+
+_Going back to Rome, Farkas found only odd jobs like theatre co-repetiteur,
+choirmaster and music teacher._ Vraiment utile cette info ?
+
+In 1933, he met the hungarian film director Pal Fejős, a well-known
+The meeting with the Hungarian director Pal Fejős, in 1933, gave my father the possibility of having his first experiences in the new aria of filmmaking. For Fejős he composes music for 6 films and 25 scores for short movies about Madagascar. With him, my father discovers other places and cultures: for shooting interests he passes 2 years in Vienna, 2 years in Copenhagen and he makes a long journey around Mediterranean Sea. Other film scores - 75 in total - with other directors, will follow till 1973.
 
 {{% /column %}}
 {{% /row %}}
