@@ -75,15 +75,20 @@
         play[i].addEventListener('click', function (event) {
           var player = document.querySelector('#player')
           var playerPlay = document.querySelector('#player .play--button')
+          var trackInfo = document.querySelector('#player .player--meta')
           var el = event.target === playerPlay
             ? document.querySelector('.play--button[data-url="'+playing+'"]')
             : event.target
 
           var url = el.getAttribute('data-url')
+          var title = el.getAttribute('data-title')
+          var detail = el.getAttribute('data-detail')
 
           if (!url) return
 
           player.classList.add('open')
+          trackInfo.querySelector('h5').innerText = title
+          trackInfo.querySelector('p').innerText = detail
 
           if (el.classList.contains('playing')) {
             wavesurfer.pause()

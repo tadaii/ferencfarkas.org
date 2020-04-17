@@ -10,7 +10,7 @@ menu:
     weight: 100
 ---
 
-{{% section focus straight %}}
+{{% section focus %}}
 ## Ferenc Farkas, his life, his work
 ### by András Farkas
 
@@ -41,45 +41,56 @@ contributed to a true renaissance of hungarian music.
 {{% /row %}}
 {{% /section %}}
 
-{{% section %}}
-{{< play "/audio/sly-students.mp3" "Fair in Debrecen" "The sly students - opera, 1949" >}}
-
+{{% section straight %}}
 {{% row %}}
 {{% column %}}
+{{< play "/audio/sly-students.mp3" "Fair in Debrecen" "The sly students - opera, 1949" >}}
 
-Ferenc Farkas studied composition in Budapest with Albert Siklós and Leo Weiner.
+Ferenc Farkas studied composition in Budapest with
+[Albert Siklós](https://wikipedia.org/wiki/Albert_Sikl%C3%B3s) and
+[Leo Weiner](https://wikipedia.org/wiki/Leó_Weiner).
 After working some time as a "repetiteur", he went to Rome in 1929 where the
-benefit of a scholarship allowed him to study with Ottorino Respighi.
+benefit of a scholarship allowed him to study with
+[Ottorino Respighi](https://wikipedia.org/wiki/Ottorino_Respighi).
 
-That was the time whe he discovered his true artistic identity. Respighi
+That was the time when he discovered his true artistic identity. Respighi
 introduced him to different forms and styles of Italian music. He also
 transmitted to him his virtuosity in the art of instrumentation, his taste
 for orchestral colours, his passion of ancient music and his vision for
 the modern art.
 
-In Rome, Ferenc Farkas became familiar with latin and mediterranean cultures,
+In Rome, Farkas became familiar with latin and mediterranean cultures,
 including painting and poetry amongst other types of expression in which he
 always showed interest since he was child.
 
+After two years of studies, he went back to Budapest.
+
 {{% /column %}}
 {{% column %}}
-
 > When I returned from Rome, I thought the world is mine but soon I understood
 that I will not succeed to find a stable job.
 
-_In 1931 the Great Depression was being felt heavily in Hungary._
+As the Great Depression was being felt heavily in Hungary, Farkas only found
+odd jobs like theatre co-repetiteur, choirmaster and music teacher.
 
-_Going back to Rome, Farkas found only odd jobs like theatre co-repetiteur,
-choirmaster and music teacher._ Vraiment utile cette info ?
+A meeting with [Pal Fejős](https://wikipedia.org/wiki/Paul_Fejos), a
+world-renowned hungarian film director, in 1933 was key in his musical career.
+Respighi was Fejős's favorite composer, so knowing
+Farkas was one of his student, he gave him his chance in one of his film.
 
-In 1933, he met the hungarian film director Pal Fejős, a well-known
-The meeting with the Hungarian director Pal Fejős, in 1933, gave my father the possibility of having his first experiences in the new aria of filmmaking. For Fejős he composes music for 6 films and 25 scores for short movies about Madagascar. With him, my father discovers other places and cultures: for shooting interests he passes 2 years in Vienna, 2 years in Copenhagen and he makes a long journey around Mediterranean Sea. Other film scores - 75 in total - with other directors, will follow till 1973.
+During their collaboration, Farkas composed the music of 6 movies and 25
+short films on Madagascar. He took advantage of this situation to travel and
+discover Europe and its cultures: for shooting interests he spent 2 years in
+Vienna, 2 years in Copenhagen and cruised around the Mediterranean during the
+winter of 1933-34.
+
+He continued to compose film music (a total of 75) until 1973.
 
 {{% /column %}}
 {{% /row %}}
 {{% /section %}}
 
-{{% section black full straight %}}
+{{% section black full %}}
 {{% slider %}}
 
 {{% slide %}}
@@ -95,4 +106,32 @@ The meeting with the Hungarian director Pal Fejős, in 1933, gave my father the
 {{% /slide %}}
 
 {{% /slider %}}
+{{% /section %}}
+{{% section highlight %}}
+{{% row %}}
+{{% column %}}
+{{< play "/audio/sly-students.mp3" "Suleika’s melody" "The magic cupboard - opera, 1942" >}}
+
+Ferenc Farkas returned in Hungary in 1936. His first real public success
+happened in 1937 with his “Concerto for harp”. It is also the time of his first stage music and radio works, on texts by Hungarian authors like “The tragedy of man” by Imre Madách in 1937, but also Shakespeare, Calderón, Moliere, Rostand, Aristophanes, Goethe, Lope de Vega. In all some 40 works which offer Farkas an unlimited field for experimentations and a source of endless inspiration. He will often use them to compose other works.
+
+In 1939, when the war broke out, Hungary, allied with Germany, had not yet
+entered the conflict but it recovered part of the territories it had lost at
+the end of the First World War.
+
+{{% /column %}}
+{{% column %}}
+
+> In 1941, Viktor Vaszy invited me to become a composition teacher at the
+Conservatory in Cluj - the capital of Transylvania, which returned to Hungary -
+and to conduct the Choir of the National Theatre.
+
+For me, this meant an official state position and a substantial increase in my
+financial income. I was more than 45 years old and I finally obtained a
+full time job.
+
+The first opera of Farkas, “The magic cupboard”, which dates from that time, brings my father national celebrity and fame across borders.
+
+{{% /column %}}
+{{% /row %}}
 {{% /section %}}
