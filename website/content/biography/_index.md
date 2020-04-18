@@ -25,7 +25,7 @@ awaited establishment of a free and sovereign Hungary. He died in Budapest on
 october 10th 2000, aged 95.
 
 His [huge work (about 800 titles)]({{< ref "/work" >}}) has played a
-determining role in the evolution of Hungarian music of the 20th century.
+determining role in the evolution of hungarian music of the 20th century.
 He was one of the most eminent musicians of the so-called “middle generation”.
 The preceding generation was the one of Bartók and Kodály, whose researches
 contributed to a true renaissance of hungarian music.
@@ -41,10 +41,10 @@ contributed to a true renaissance of hungarian music.
 {{% /row %}}
 {{% /section %}}
 
-{{% section straight %}}
+{{% section straight black %}}
 {{% row %}}
 {{% column %}}
-{{< play "/audio/sly-students.mp3" "Fair in Debrecen" "The sly students - opera, 1949" >}}
+{{< play "/audio/fair-in-debrecen.mp3" "Fair in Debrecen" "The sly students - opera, 1949" >}}
 
 Ferenc Farkas studied composition in Budapest with
 [Albert Siklós](https://wikipedia.org/wiki/Albert_Sikl%C3%B3s) and
@@ -90,7 +90,7 @@ He continued to compose film music (a total of 75) until 1973.
 {{% /row %}}
 {{% /section %}}
 
-{{% section black full %}}
+{{% section black full-gallery %}}
 {{% slider %}}
 
 {{% slide %}}
@@ -98,11 +98,11 @@ He continued to compose film music (a total of 75) until 1973.
 {{% /slide %}}
 
 {{% slide %}}
-{{< figure src="/img/hero/hero2.jpg" caption="Hero 1" attr="" attrlink="" >}}
+{{< figure src="/img/hero/hero2.jpg" caption="Hero 2" attr="" attrlink="" >}}
 {{% /slide %}}
 
 {{% slide %}}
-{{< figure src="/img/hero/hero3.jpg" caption="Hero 1" attr="" attrlink="" >}}
+{{< figure src="/img/hero/hero3.jpg" caption="Hero 3" attr="" attrlink="" >}}
 {{% /slide %}}
 
 {{% /slider %}}
@@ -110,7 +110,7 @@ He continued to compose film music (a total of 75) until 1973.
 {{% section highlight %}}
 {{% row %}}
 {{% column %}}
-{{< play "/audio/sly-students.mp3" "Suleika’s melody" "The magic cupboard - opera, 1942" >}}
+{{< play "/audio/suleikas-theme.mp3" "Suleika’s melody" "The magic cupboard - opera, 1942" >}}
 
 Ferenc Farkas returned in Hungary in 1936. His first real public success
 happened in 1937 with his “Concerto for harp”. It is also the time of his first stage music and radio works, on texts by Hungarian authors like “The tragedy of man” by Imre Madách in 1937, but also Shakespeare, Calderón, Moliere, Rostand, Aristophanes, Goethe, Lope de Vega. In all some 40 works which offer Farkas an unlimited field for experimentations and a source of endless inspiration. He will often use them to compose other works.
@@ -124,11 +124,9 @@ the end of the First World War.
 
 > In 1941, Viktor Vaszy invited me to become a composition teacher at the
 Conservatory in Cluj - the capital of Transylvania, which returned to Hungary -
-and to conduct the Choir of the National Theatre.
-
-For me, this meant an official state position and a substantial increase in my
-financial income. I was more than 45 years old and I finally obtained a
-full time job.
+and to conduct the Choir of the National Theatre. For me, this meant an official
+state position and a substantial increase in my financial income.
+I was more than 45 years old and I finally obtained a full time job.
 
 The first opera of Farkas, “The magic cupboard”, which dates from that time, brings my father national celebrity and fame across borders.
 

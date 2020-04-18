@@ -87,6 +87,7 @@
           if (!url) return
 
           player.classList.add('open')
+
           trackInfo.querySelector('h5').innerText = title
           trackInfo.querySelector('p').innerText = detail
 
@@ -107,11 +108,39 @@
           playerPlay.classList.toggle('playing')
         })
       }
+
+      var close = document.querySelector('.player--close')
+
+      close.addEventListener('click', function (event) {
+        wavesurfer.stop()
+        player.classList.remove('open')
+
+        var play = document.querySelectorAll('.play--button')
+        for (var i = 0; i < play.length; i++) {
+          play[i].classList.remove('playing')
+        }
+      })
+    }
+  }
+
+  var search = {
+    init () {
+      var queryInput = document.querySelector('form.search input[name="query"]')
+      var queryWrapper = document.querySelector('form.search .search--query-wrapper')
+
+      queryInput.addEventListener('focus', function () {
+        queryWrapper.classList.add('focused')
+      })
+
+      queryInput.addEventListener('blur', function () {
+        queryWrapper.classList.remove('focused')
+      })
     }
   }
 
   header.init()
   footer.init()
   audioPlayer.init()
+  search.init()
 
 })(window)

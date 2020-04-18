@@ -3,6 +3,8 @@ section {
   position: relative;
   display: flex;
   justify-content: center;
+  margin-top: -1px;
+  padding: $s-section-v-padding 0 calc(#{$s-section-v-padding} + 2rem);
   z-index: 0;
 
   &:after {
@@ -14,20 +16,22 @@ section {
     height: 100%;
     width: 100%;
     z-index: -1;
+    transform: skewY(1deg);
     background-color: $c-white;
   }
 
   &.straight {
-    margin: -2rem 0;
-    padding: 3rem 0 4rem;
-  }
-
-  &:not(.straight) {
-    margin-top: -1px;
-    padding: $s-section-v-padding 0 calc(#{$s-section-v-padding} + 2rem);
+    margin: -($s-section-v-padding/2) 0;
+    padding: $s-section-v-padding 0 $s-section-v-padding;
 
     &:after {
-      transform: skewY(1deg);
+      transform: none;
+    }
+  }
+
+  &.full-gallery {
+    .container {
+      clip-path: 0 10% 0 10%;
     }
   }
 

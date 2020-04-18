@@ -1,20 +1,17 @@
 #player {
   height: 0;
-  // max-height: calc(12rem - 1px);
   background-color: $c-black;
 
   &.open {
-    height: calc(10vh - 1px);
+    height: 10rem;
 
     .player--wrapper {
-      height: 15vh;
+      height: 20rem;
       opacity: 1;
     }
   }
 
   .player {
-    border: 10px solid red;
-
     &--wrapper {
       position: fixed;
       left: 0;
@@ -61,6 +58,37 @@
 
       p {
         font-weight: 100;
+      }
+    }
+
+    &--close {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+      width: 2rem;
+      height: 2rem;
+      padding: .35rem;
+      margin: 0;
+      background: none;
+      border: none;
+      cursor: pointer;
+
+      &:before,
+      &:after {
+        display: block;
+        content: '';
+        width: 1.25rem;
+        height: 2px;
+        background-color: $c-primary;
+        transform-origin: 50% 50%;
+      }
+
+      &:before {
+        transform: rotate(45deg) translateX(1px);
+      }
+
+      &:after {
+        transform: rotate(-45deg) translateX(1px);
       }
     }
   }

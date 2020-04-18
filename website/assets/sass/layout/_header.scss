@@ -16,18 +16,17 @@ header {
     top: -4px;
     left: 1.5rem;
     display: inline-flex;
-    // box-shadow: 0 0 1rem .15rem rgba(0,0,0, .05);
     opacity: .97;
     z-index: 2;
     pointer-events: all;
     filter: drop-shadow(0 0 1rem rgba(0,0,0, .25));
 
     @media screen and (min-width: 768px) {
-      left: 2rem;
+      left: 1.6rem;
     }
 
     @media screen and (min-width: $s-container-width) {
-      left: calc(50% - (#{$s-container-width}/2) + 2rem);
+      left: calc(50% - (#{$s-container-width}/2) + 1.75rem);
     }
 
     svg {

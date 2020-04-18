@@ -85,17 +85,17 @@ a {
     section.black & {
       border-bottom-color: $c-section-black-txt;
     }
-  }
 
-  &:hover {
-    background-color: rgba(0,0,0, .1);
+    &:hover {
+      background-color: rgba(0,0,0, .1);
 
-    section.black & {
-      background-color: rgba(255,255,255, .2);
-    }
+      section.black & {
+        background-color: rgba(255,255,255, .2);
+      }
 
-    .container p & {
-      border-bottom-style: solid;
+      .container p & {
+        border-bottom-style: solid;
+      }
     }
   }
 }
@@ -120,11 +120,11 @@ blockquote {
 
   &:before {
     position: absolute;
-    top: 20%;
+    top: 2.5rem;
     left: -2rem;
     content: '';
     width: 1px;
-    height: 85%;
+    height: calc(100% - 2.5rem);
     background-color: $c-secondary;
 
     section.highlight & {
@@ -140,7 +140,7 @@ blockquote {
     content: "‟";
     position: absolute;
     left: -3rem;
-    top: 10%;
+    top: 1.5rem;
     display: block;
     line-height: 0;
     font-size: 200%;
