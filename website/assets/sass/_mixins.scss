@@ -1,7 +1,7 @@
 @mixin heroHeight() {
   height: calc(100vh - 10rem);
   min-height: 200px;
-  max-height: 35rem;
+  max-height: 33rem;
 }
 
 @mixin font-size($scale: 1) {

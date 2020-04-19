@@ -37,6 +37,25 @@
     }
   }
 
+  var download = {
+    init() {
+      var units = ['KB', 'MB', 'GB']
+      var els = document.querySelectorAll('a.download .download--size')
+
+      els.forEach(el => {
+        var thousands = -1
+        var bytes = parseFloat(el.getAttribute('data-bytes'))
+
+        while (bytes > 1000) {
+          bytes /= 1024
+          thousands++
+        }
+
+        el.innerHTML = bytes.toFixed(1) + ' ' + units[thousands]
+      })
+    }
+  }
+
   var audioPlayer = {
     init () {
       var libLoaded = window.setInterval(function () {
@@ -125,21 +144,24 @@
 
   var search = {
     init () {
-      var queryInput = document.querySelector('form.search input[name="query"]')
-      var queryWrapper = document.querySelector('form.search .search--query-wrapper')
+      var qi = document.querySelector('form.search input[name="query"]')
+      var qw = document.querySelector('form.search .search--query-wrapper')
 
-      queryInput.addEventListener('focus', function () {
-        queryWrapper.classList.add('focused')
+      if (!qi) return
+
+      qi.addEventListener('focus', function () {
+        qw.classList.add('focused')
       })
 
-      queryInput.addEventListener('blur', function () {
-        queryWrapper.classList.remove('focused')
+      qi.addEventListener('blur', function () {
+        qw.classList.remove('focused')
       })
     }
   }
 
   header.init()
   footer.init()
+  download.init()
   audioPlayer.init()
   search.init()
 

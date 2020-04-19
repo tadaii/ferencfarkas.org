@@ -1,9 +1,6 @@
 a.more {
   padding-bottom: .5rem;
   font-weight: bolder;
-  color: $c-gray-darker;
-  border-bottom: 1px solid $c-gray-light;
-  transition: all .3s linear;
 
   svg {
     margin-left: .5rem;
@@ -14,15 +11,22 @@ a.more {
 
     path {
       fill: $c-gray-darker;
-    }
-  }
 
-  &:hover {
-    color: $c-black;
-    border-bottom: 1px solid $c-gray-darker;
+      section.highlight & {
+        fill: $c-section-highlight-txt;
+      }
 
-    svg path {
-      fill: $c-black;
+      section.focus & {
+        fill: $c-section-focus-txt;
+      }
+
+      section.invert & {
+        fill: $c-section-invert-txt;
+      }
+
+      section.black & {
+        fill: $c-section-black-txt;
+      }
     }
   }
 }

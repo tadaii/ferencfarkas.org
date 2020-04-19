@@ -6,18 +6,18 @@
   "scripts": {
     "start": "cd ./website && hugo server",
     "web:build": "cd ./website && hugo && npm run web:build:functions",
-    "web:build:functions": "echo 'netlify-lambda build website/assets/lambda'",
     "web:server": "cd ./website && hugo server",
     "catalogue:pdf": "node ./catalogue/pdf-generator/index.js"
   },
   "dependencies": {
     "autoprefixer": "^9.6.1",
+    "hyperapp": "^2.0.4",
     "lunr": "^2.3.8",
-    "netlify-lambda": "^1.5.0",
     "pdfmake": "^0.1.58",
-    "postcss-cli": "^6.1.3",
+    "postcss-cli": "^7.1.0",
     "postcss-custom-media": "^7.0.8",
     "shelljs": "^0.8.3",
+    "wavesurfer.js": "^3.3.3",
     "yaml": "^1.6.0"
   }
 }

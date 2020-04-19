@@ -185,3 +185,25 @@ article > .container {
 *:not(body).focus {
   color: $c-secondary;
 }
+
+.tag {
+  padding: .3rem .7rem;
+  font-size: .8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: $c-secondary;
+  border-radius: .8rem;
+
+  section.focus & {
+    color: $c-white;
+    background-color: $c-gray-dark;
+  }
+
+  section.invert & {
+    color: $c-gray-darker;
+  }
+
+  section.black & {
+    color: $c-black;
+  }
+}

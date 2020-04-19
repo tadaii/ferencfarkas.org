@@ -1,5 +1,8 @@
-{{ $s := resources.Get "js/app.js" | minify }}
-<script defer src="{{ $s.Permalink }}"></script>
+{{ $app := resources.Get "js/app.js" | minify }}
+{{ $catalogue := resources.Get "js/catalogue.js" | minify }}
+<script defer src="{{ $app.Permalink }}"></script>
+<script defer src="/js/hyperapp.min.js"></script>
+<script defer src="{{ $catalogue.Permalink }}"></script>
 <script defer src="/js/flickity.pkgd.min.js"></script>
 <script defer src="/js/wavesurfer.min.js"></script>
 <script defer src="/js/lunr.min.js"></script>

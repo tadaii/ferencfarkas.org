@@ -1,0 +1,18 @@
+{{ $stat := os.Stat (path.Join "./static" (.Get 0)) }}
+
+<a href="{{ .Get 0 }}" class="download">
+  <div class="download--type">
+    <div class="download--type-text">
+      {{ substr (path.Ext (.Get 0)) 1 }}
+    </div>
+    <div class="download--type-icon">
+      {{- partial "icons/file.svg" -}}
+    </div>
+  </div>
+  <div class="download--name">
+    <div class="download--title">
+      {{- .Get 1 -}}
+    </div>
+    <div class="download--size" data-bytes="{{ $stat.Size }}"></div>
+  </div>
+</a>

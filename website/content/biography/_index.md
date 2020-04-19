@@ -44,7 +44,7 @@ contributed to a true renaissance of hungarian music.
 {{% section straight black %}}
 {{% row %}}
 {{% column %}}
-{{< play "/audio/fair-in-debrecen.mp3" "Fair in Debrecen" "The sly students - opera, 1949" >}}
+{{< play "/audio/fair-in-debrecen.m4a" "Fair in Debrecen" "The sly students - opera, 1949" >}}
 
 Ferenc Farkas studied composition in Budapest with
 [Albert Siklós](https://wikipedia.org/wiki/Albert_Sikl%C3%B3s) and
@@ -110,7 +110,7 @@ He continued to compose film music (a total of 75) until 1973.
 {{% section highlight %}}
 {{% row %}}
 {{% column %}}
-{{< play "/audio/suleikas-theme.mp3" "Suleika’s melody" "The magic cupboard - opera, 1942" >}}
+{{< play "/audio/suleikas-theme.m4a" "Suleika’s melody" "The magic cupboard - opera, 1942" >}}
 
 Ferenc Farkas returned in Hungary in 1936. His first real public success
 happened in 1937 with his “Concerto for harp”. It is also the time of his first stage music and radio works, on texts by Hungarian authors like “The tragedy of man” by Imre Madách in 1937, but also Shakespeare, Calderón, Moliere, Rostand, Aristophanes, Goethe, Lope de Vega. In all some 40 works which offer Farkas an unlimited field for experimentations and a source of endless inspiration. He will often use them to compose other works.
