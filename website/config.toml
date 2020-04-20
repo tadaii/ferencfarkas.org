@@ -50,7 +50,6 @@ description = "Ferenc Farkas official website."
 # add redirects/headers
 [outputs]
 home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
-page = ["HTML", "JSON"]
 
 # remove .{ext} from text/netlify
 [mediaTypes."text/netlify"]
