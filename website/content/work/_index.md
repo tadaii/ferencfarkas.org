@@ -17,15 +17,6 @@ menu:
 
 {{< catalogue >}}
 
-<!-- <div class="works">
-  <div class="works--count">
-    <span class="works--count-amount"></span> works
-  </div>
-  <ul class="works--list">
-    <li></li>
-  </ul>
-</div> -->
-
 {{% /column %}}
 {{% column %}}
 ## Download

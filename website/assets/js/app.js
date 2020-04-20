@@ -142,27 +142,9 @@
     }
   }
 
-  var search = {
-    init () {
-      var qi = document.querySelector('form.search input[name="query"]')
-      var qw = document.querySelector('form.search .search--query-wrapper')
-
-      if (!qi) return
-
-      qi.addEventListener('focus', function () {
-        qw.classList.add('focused')
-      })
-
-      qi.addEventListener('blur', function () {
-        qw.classList.remove('focused')
-      })
-    }
-  }
-
   header.init()
   footer.init()
   download.init()
   audioPlayer.init()
-  search.init()
 
 })(window)

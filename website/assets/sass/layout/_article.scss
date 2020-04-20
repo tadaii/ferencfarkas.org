@@ -8,16 +8,8 @@ article {
   }
 
   section:first-of-type {
-    margin-top: -10rem;
+    margin-top: -8rem;
     padding-top: calc(#{$s-section-v-padding} + 4rem);
-
-    @media screen and (min-width: 420px) {
-      margin-top: -9rem;
-    }
-
-    @media screen and (min-width: 600px) {
-      margin-top: -8rem;
-    }
   }
 
   h2 {

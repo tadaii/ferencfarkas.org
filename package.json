@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "start": "cd ./website && hugo server",
-    "web:build": "cd ./website && hugo && npm run web:build:functions",
+    "web:build": "cd ./website && hugo",
     "web:server": "cd ./website && hugo server",
     "catalogue:pdf": "node ./catalogue/pdf-generator/index.js"
   },

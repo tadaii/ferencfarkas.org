@@ -1,5 +1,5 @@
 [build]
-    command = "cd ./website && hugo -b $URL && npm run web:build:functions"
+    command = "cd ./website && hugo -b $URL"
     publish = "website/public"
     functions = "website/assets/lambda"
 
