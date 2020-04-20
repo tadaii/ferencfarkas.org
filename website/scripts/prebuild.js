@@ -2,8 +2,8 @@ const { join, resolve } = require('path')
 const { readdir, readFile, writeFile } = require('fs-extra')
 const yaml = require('yaml')
 
-const src = resolve('..', 'catalogue')
-const dst = resolve('..', 'website/data')
+const src = resolve(__dirname, '../../catalogue')
+const dst = resolve(__dirname, '../../website/static/catalogue.json')
 
 const getWorks = async dir => {
   const works = []
@@ -11,7 +11,10 @@ const getWorks = async dir => {
 
   for (file of files) {
     const content = await readFile(join(dir, file))
-    works.push(yaml.parse(content.toString()))
+    const json = yaml.parse(content.toString())
+    json.id = json['catalog-id'].id
+    delete json['catalog-id']
+    works.push(json)
   }
 
   return works
@@ -19,7 +22,7 @@ const getWorks = async dir => {
 
 const prebuild = async ({ src, dst }) => {
   const works = await getWorks(join(src, 'data', 'works'))
-  await writeFile(join(dst, 'works.json'), JSON.stringify(works), 'utf8')
+  await writeFile(join(dst), JSON.stringify(works), 'utf8')
 }
 
 prebuild({ src, dst })

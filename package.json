@@ -4,9 +4,10 @@
   "description": "The ferencfarkas.org project",
   "private": true,
   "scripts": {
-    "start": "cd ./website && hugo server",
-    "web:build": "cd ./website && hugo",
-    "web:server": "cd ./website && hugo server",
+    "prebuild": "node ./website/scripts/prebuild",
+    "start": "npm run web:server",
+    "web:build": "npm run prebuild && cd ./website && hugo",
+    "web:server": "npm run prebuild && cd ./website && hugo server",
     "catalogue:pdf": "node ./catalogue/pdf-generator/index.js"
   },
   "dependencies": {
