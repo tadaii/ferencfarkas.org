@@ -1,0 +1,12 @@
+.catalogue {
+  .column {
+    &.list {
+      padding-top: 0;
+      flex-grow: 3;
+    }
+
+    &.refine {
+      padding-top: .75rem;
+    }
+  }
+}

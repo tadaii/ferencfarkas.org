@@ -1,6 +1,14 @@
 (() => {
   'use strict'
 
+  const SKIP_WORK_KEYS = [
+    'id',
+    'date',
+    'categories',
+    'title',
+    'description'
+  ]
+
   const app = hyperapp.app
   const h = hyperapp.h
   const node = document.getElementById("catalogue")
@@ -13,7 +21,7 @@
 
   const search = (state, query) => ({ ...state, query })
 
-  const container = content => h('form', { class: 'search', onsubmit }, content)
+  const container = content => h('form', { class: 'catalogue search', onsubmit }, content)
 
   const queryView = focused => h(
     'div', { class: [`search--query-wrapper ${focused && 'focused'}`]
@@ -38,31 +46,54 @@
     'div', { class: 'search--fields-wrapper' }, fields.map(fieldView)
   )
 
-  const workFields = work => h('')
-
-  const workView = work => h('div', { class: 'work' }, [
-    h('div', { class: 'work--title' }, [
-      h('h3', {}, [work.title.translations[work.title.main]]),
-      h('div', { class: 'work--tags' }, [])
-    ]),
-    h('dl', { class: 'work-fields' }, [])
-  ])
-
-  const workList = works => h(
-    'ul', { class: 'works--list' }, works.map(workView)
+  const categoryTags = (work, categories) => work.categories
+    .map(category => h(
+      'a',
+      { class: 'tag', href: '#' },
+      categories.find(c => c.id === category).tag
+    )
   )
 
-  const worksView = works => h('div', { class: 'works' }, [
-    h('div', { class: 'works--count' }, [
-      h('span', { class: 'works--count-amount' }, [ works.length ]),
-      ' works'
-    ]),
-    workList(works)
+  const workField = (key, value) => h('div', { class: 'work--field' }, [
+    h('dt', {}, [ key ]),
+    h('dd', {}, [ value.toString() ])
   ])
 
-  const loadCatalogue = (state, works) => ({
+  const workFields = work => Object.entries(work)
+    .filter(([ key, value ]) => !SKIP_WORK_KEYS.includes(key))
+    .map(([ key, value ]) => workField(key, value))
+
+  const workView = (work, state) => h('div', { class: 'work' }, [
+    h('div', { class: 'work--title' }, [
+      h('h3', {}, [work.title.translations[work.title.main]]),
+      h('div', { class: 'work--tags' }, categoryTags(work, state.categories))
+    ]),
+    h('div', { class: 'work--description' }, [ work.description ]),
+    h('dl', { class: 'work--fields' }, workFields(work))
+  ])
+
+  const workList = state => h(
+    'ul', { class: 'works--list' }, state.works
+      .map(work => workView(work, state))
+  )
+
+  const worksView = state => h('div', { class: 'works' }, [
+    h('div', { class: 'works--count' }, [
+      h('span', { class: 'works--count-amount' }, [ state.works.length ]),
+      ' works'
+    ]),
+    h('div', { class: 'row' }, [
+      h('div', { class: 'column list' }, workList(state)),
+      h('div', { class: 'column refine' }, [
+        h('h3', {}, ['Refine results'])
+      ])
+    ])
+  ])
+
+  const loadCatalogue = (state, catalogue) => ({
     ...state,
-    works
+    categories: catalogue.categories,
+    works: catalogue.works.slice(0, 10)
   })
 
   const fetchJSON = (dispatch, options) =>
@@ -81,7 +112,9 @@
       { name: 'version', title: 'Version' },
       { name: 'composition-date', title: 'Composition date' },
       { name: 'composition-location', title: 'Composition location' }
-    ]
+    ],
+    categories: [],
+    works: []
   }, [
     fetchJSON,
     {
@@ -96,7 +129,7 @@
     view: state => container([
       queryView(state.focused),
       fieldsView(state.fields),
-      worksView(state.works)
+      worksView(state)
     ])
   })
 })()

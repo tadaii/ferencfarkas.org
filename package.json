@@ -4,7 +4,7 @@
   "description": "The ferencfarkas.org project",
   "private": true,
   "scripts": {
-    "prebuild": "node ./website/scripts/prebuild",
+    "prebuild": "node ./scripts/prebuild-web",
     "start": "npm run web:server",
     "web:build": "npm run prebuild && cd ./website && hugo",
     "web:server": "npm run prebuild && cd ./website && hugo server",

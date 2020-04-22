@@ -67,7 +67,7 @@ a {
 
   .container p & {
     padding-bottom: .15rem;
-    border-bottom: 1px dotted $c-gray-dark;
+    border-bottom: 1px dashed $c-gray-dark;
     transition: background-color .2s ease;
 
     section.highlight & {

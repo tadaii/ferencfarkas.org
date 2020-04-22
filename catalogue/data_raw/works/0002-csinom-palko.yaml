@@ -1,0 +1,17 @@
+catalog-id:
+  id: 0002-csinom-palko
+  num-id: 2
+  name: csinom-palko
+  uuid: 67829aea-d564-45e0-9ad5-ec84e6e5cd33
+date: "2019-04-08T21:36:00+00:00"
+title:
+  main: hu
+  original: hu
+  sort:
+  - hu
+  translations:
+    hu: Csínom Palkó
+description: popular romantic opera in 3 acts 1st version for the theatre
+composition-date: "1950"
+source: 'score, piano reduction & performance material : manuscript by András Farkas'
+world-premiere: Erkel Theater, Budapest, 1952

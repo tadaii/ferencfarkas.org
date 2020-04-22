@@ -11,27 +11,16 @@ menu:
 ---
 
 {{% section highlight %}}
-{{% row %}}
-{{% column size="2" %}}
 ## Search
 
 {{< catalogue >}}
 
-{{% /column %}}
-{{% column %}}
-## Download
-
-{{< download "/pdf/catalogue.pdf" "Complete catalogue of works" >}}
-{{< download "/pdf/catalogue.pdf" "Unpublished works" >}}
-
-{{% /column %}}
-{{% /row %}}
 {{% /section %}}
 
 {{% section invert straight %}}
 ## Most popular works
 {{% row %}}
-{{% column %}}
+{{% column size="2" %}}
 
 <span class="tag">Opera</span>
 

@@ -1,126 +1,63 @@
-- catalog-id:
-    id: 0001-opera
-    num-id: 1
-    name: opera
-    uuid: 4ffa2826-1958-4ee7-a6e3-d731b46dbb9a
+- id: opera
+  tag: Opera
   title: Opera
-- catalog-id:
-    id: 0002-operetta-musical-comedy
-    num-id: 2
-    name: operetta-musical-comedy
-    uuid: 743a6def-25af-4f78-bafd-0891401d0e53
-  title: Operetta, Musical Comedy
-- catalog-id:
-    id: 0003-ballet-scenic-play
-    num-id: 3
-    name: ballet-scenic-play
-    uuid: 973251a2-71dc-49a1-b0d6-208799623e9e
-  title: Ballet, Scenic Play
-- catalog-id:
-    id: 0004-orchestra
-    num-id: 4
-    name: orchestra
-    uuid: 6f7da787-3f6d-438d-ae29-2a67ea790fc3
+- id: musical
+  tag: Musical
+  title: Operetta, Musical comedy
+- id: ballet
+  tag: Ballet / Scenic
+  title: Ballet, Scenic play
+- id: orchestra
+  tag: Orchestra
   title: Orchestra
-- catalog-id:
-    id: 0005-string-orchestra
-    num-id: 5
-    name: string-orchestra
-    uuid: 58f9a792-c5b6-4eb3-b930-6ec68e0a9010
-  title: String Orchestra
-- catalog-id:
-    id: 0006-wind-orchestra
-    num-id: 6
-    name: wind-orchestra
-    uuid: 83a0e0d3-74f1-4a2b-a6fd-2de1c8a52128
-  title: Wind Orchestra
-- catalog-id:
-    id: 0007-concerto
-    num-id: 7
-    name: concerto
-    uuid: 88a1b991-c3a5-4af7-803e-053586b5eee1
+- id: string
+  tag: String orchestra
+  title: String orchestra
+- id: wind
+  tag: Wind orchestra
+  title: Wind orchestra
+- id: concerto
+  tag: Concerto
   title: Concerto
-- catalog-id:
-    id: 0008-chambermusic
-    num-id: 8
-    name: chambermusic
-    uuid: 3e8bd370-7675-41a1-a166-054352d107b4
-  title: Chambermusic
-- catalog-id:
-    id: 0009-instrumental-solo
-    num-id: 9
-    name: instrumental-solo
-    uuid: 5ed9d63e-c14b-40d5-8098-788c811c01a3
-  title: Instrumental Solo
-- catalog-id:
-    id: 0010-cantata-oratorio
-    num-id: 10
-    name: cantata-oratorio
-    uuid: ce7a2d69-78c5-4366-a20f-fa951a8552bc
+- id: chamber
+  tag: Chamber
+  title: Chamber music
+- id: solo
+  tag: Instr. Solo
+  title: Instrumental solo
+- id: cantata_oratorio
+  tag: Oratorio
   title: Cantata, Oratorio
-- catalog-id:
-    id: 0011-mass
-    num-id: 11
-    name: mass
-    uuid: 3a27fee1-5690-44ce-a590-d07f41033dd6
+- id: mass
+  tag: Mass
   title: Mass
-- catalog-id:
-    id: 0012-mixed-choir
-    num-id: 12
-    name: mixed-choir
-    uuid: f6d9e319-cb6a-4546-aa61-b5d9c7f63edd
-  title: Mixed Choir
-- catalog-id:
-    id: 0013-malechoir
-    num-id: 13
-    name: malechoir
-    uuid: 25e0311c-1474-47fe-8c6e-a2558f0f6d2c
-  title: Malechoir
-- catalog-id:
-    id: 0014-female-choir
-    num-id: 14
-    name: female-choir
-    uuid: ec575440-6ad2-4145-9bcd-be118302b5ee
-  title: Female Choir
-- catalog-id:
-    id: 0015-childrens-choir
-    num-id: 15
-    name: childrens-choir
-    uuid: 92b135c7-b321-41de-bb85-2051b03e8dbe
-  title: Children'S Choir
-- catalog-id:
-    id: 0016-miscellaneous-choir-canon
-    num-id: 16
-    name: miscellaneous-choir-canon
-    uuid: eac98c09-55e3-4e3a-8055-c2b7c06049ed
-  title: Miscellaneous Choir / Canon
-- catalog-id:
-    id: 0017-voice-and-piano-organ
-    num-id: 17
-    name: voice-and-piano-organ
-    uuid: 2bbd7e21-2642-4119-ba22-753dcb4a6a4d
-  title: Voice And Piano / Organ
-- catalog-id:
-    id: 0018-voiceand-other-instruments-or-orchestra
-    num-id: 18
-    name: voiceand-other-instruments-or-orchestra
-    uuid: b01b7f50-8e7c-44f4-8685-6363a3507d97
-  title: Voiceand Other Instrument(S) Or Orchestra
-- catalog-id:
-    id: 0019-hungarianfolk-song-folk-music
-    num-id: 19
-    name: hungarianfolk-song-folk-music
-    uuid: e925feda-2fad-4d28-b7b8-098b2d5a60e1
-  title: Hungarianfolk Song – Folk Music
-- catalog-id:
-    id: 0020-incidental-music-radio-plays
-    num-id: 20
-    name: incidental-music-radio-plays
-    uuid: 78c4f298-8c82-4932-b31c-0adba6bf25d4
-  title: Incidental Music, Radio Plays
-- catalog-id:
-    id: 0021-film-music
-    num-id: 21
-    name: film-music
-    uuid: ad916d0d-9884-46c7-a033-9ea9c6e59d74
-  title: Film Music
+- id: choir
+  tag: Choir
+  title: Mixed choir
+- id: male
+  tag: Male choir
+  title: Male choir
+- id: female
+  tag: Female choir
+  title: Female choir
+- id: children
+  tag: Children choir
+  title: Children choir
+- id: misc_choir
+  tag: Misc choir
+  title: Miscellaneous choir / Canon
+- id: voice_piano
+  tag: Voice & piano
+  title: Voice and piano / Organ
+- id: voice
+  tag: Voice
+  title: Voice and other instrument(s) or orchestra
+- id: folk
+  tag: Folk
+  title: Hungarian folk song – Folk music
+- id: incidental
+  tag: Incidental / Radio
+  title: Incidental music, Radio plays
+- id: film
+  tag: Film
+  title: Film music
