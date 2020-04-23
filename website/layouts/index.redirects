@@ -5,3 +5,9 @@
 {{ . }} {{ $p.RelPermalink -}}
 {{- end }}
 {{- end -}}
+
+# Redirectbevery page to the homepage until golive
+/work         /
+/biography    /
+/discover     /
+/contact      /
