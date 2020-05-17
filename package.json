@@ -23,6 +23,6 @@
   "devDependencies": {
     "fs-extra": "^9.0.0",
     "postcss-cli": "^7.1.0",
-    "postcss-custom-media": "^7.0.8",
+    "postcss-custom-media": "^7.0.8"
   }
 }
