@@ -14,6 +14,7 @@
     "autoprefixer": "^9.6.1",
     "hyperapp": "^2.0.4",
     "lunr": "^2.3.8",
+    "lunr-languages": "^1.4.0",
     "pdfmake": "^0.1.58",
     "postcss-cli": "^7.1.0",
     "postcss-custom-media": "^7.0.8",
