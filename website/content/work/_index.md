@@ -11,7 +11,7 @@ menu:
 ---
 
 {{% section highlight %}}
-## Search
+## Catalogue of works
 
 {{< catalogue >}}
 
