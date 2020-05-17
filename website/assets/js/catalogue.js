@@ -17,11 +17,24 @@
 
   const onsubmit = (state, event) => {
     event.preventDefault()
+    const results = state.idx.search(state.query)
+    const r = results.map(result => result.ref)
+
+    console.log('=>', results)
+
+    return {
+      ...state,
+      results: state.works.filter(work => r.includes(work.id)).slice(0,10)
+    }
   }
 
   const search = (state, query) => ({ ...state, query })
 
-  const container = content => h('form', { class: 'catalogue search', onsubmit }, content)
+  const container = content => h(
+    'form',
+    { class: 'catalogue search', onsubmit },
+    content
+  )
 
   const queryView = focused => h(
     'div', { class: [`search--query-wrapper ${focused && 'focused'}`]
@@ -29,7 +42,7 @@
     h('input', {
       type: 'search',
       name: 'query',
-      placeholder: 'Egészségedre!',
+      placeholder: 'Type your query',
       oninput: [search, event => event.target.value],
       onfocus: (state ,event) => ({ ...state, focused: true }),
       onblur: (state ,event) => ({ ...state, focused: false })
@@ -50,42 +63,118 @@
     .map(category => h(
       'a',
       { class: 'tag', href: '#' },
-      categories.find(c => c.id === category).tag
+      categories[category].tag
     )
   )
 
-  const workField = (key, value) => h('div', { class: 'work--field' }, [
-    h('dt', {}, [ key ]),
-    h('dd', {}, [ value.toString() ])
-  ])
+  const workFieldSources = ({ value, owners }) => {
+    return h('ul', {}, [
+      value.map(source =>  h('li', {}, [
+        h('i', {}, [ `${source.type}:` ]),
+        h('a', { href: '#', class: 'link' }, [
+          `${owners[source.owner_id].name}`
+        ])
+      ]))
+    ])
+  }
 
-  const workFields = work => Object.entries(work)
+  const workFieldWorldPremiere = value => {
+    let str = value.date || ''
+    if (value.location) str += ` -  ${value.location}`
+    return value.detail
+      ? `${str}<br>${value.detail}`
+      : str
+  }
+
+  const workFieldValue = ({ key, value, owners, publishers }) => {
+    switch (key) {
+      case 'sources':
+        return workFieldSources({ value, owners })
+      case 'world_premiere':
+        return workFieldWorldPremiere(value)
+      default:
+        return typeof value === 'string' ? value : JSON.stringify(value)
+    }
+  }
+
+  const workField = ({ label, key, value, owners, publishers }) => h(
+    'div',
+    { class: 'work--field' }, [
+      h('dt', {}, [ label ]),
+      h('dd', {}, [ workFieldValue({ key, value, owners, publishers }) ])
+    ])
+
+  const workFields = ({ work, i18n, owners, publishers }) => Object
+    .entries(work)
     .filter(([ key, value ]) => !SKIP_WORK_KEYS.includes(key))
-    .map(([ key, value ]) => workField(key, value))
+    .map(([ key, value ]) => workField({
+      label: i18n.fields[key],
+      key,
+      value,
+      owners,
+      publishers
+    }))
 
-  const workView = (work, state) => h('div', { class: 'work' }, [
+  const workView = (work, state) => h('div', { class: 'work', id: work.id }, [
     h('div', { class: 'work--title' }, [
       h('h3', {}, [work.title.translations[work.title.main]]),
       h('div', { class: 'work--tags' }, categoryTags(work, state.categories))
     ]),
     h('div', { class: 'work--description' }, [ work.description ]),
-    h('dl', { class: 'work--fields' }, workFields(work))
+    h('dl', { class: 'work--fields' }, workFields({
+      work,
+      i18n: state.i18n,
+      owners: state.owners,
+      publishers: state.publishers
+    }))
   ])
 
-  const workList = state => h(
-    'ul', { class: 'works--list' }, state.works
+  const worksView = state => h(
+    'ul', { class: 'works--list' }, state.results
       .map(work => workView(work, state))
   )
 
-  const worksView = state => h('div', { class: 'works' }, [
+  const getFacets = (results, key, formatLabel) => {
+    return Object.entries(results.reduce((facets, item) => {
+      const facet = item[key]
+      const label = typeof formatLabel === 'function'
+        ? formatLabel(facet)
+        : key
+
+      if (facets[facet]) {
+        facets[facet].count++
+      } else {
+        facets[facet] = { count: 1, label }
+      }
+      return facets
+    }, {})).map(([ key, facet ]) => h('li', {}, [
+      h('input', { type: 'checkbox', name: key }),
+      h('span', { class: 'name' }, [ facet.label ]),
+      h('span', { class: 'count' }, [ facet.count ])
+    ]))
+  }
+
+  const facetCategories = state => h('ul', {}, getFacets(
+    state.results, 'categories', facet => state.categories[facet].tag
+  ))
+
+  const facetsView = state => [
+    h('div', { class: 'facets categories' }, [
+      h('h4', {}, [ 'Categories' ]),
+      facetCategories(state)
+    ])
+  ]
+
+  const catalogueView = state => h('div', { class: 'works' }, [
     h('div', { class: 'works--count' }, [
-      h('span', { class: 'works--count-amount' }, [ state.works.length ]),
+      h('span', { class: 'works--count-amount' }, [ state.results.length ]),
       ' works'
     ]),
     h('div', { class: 'row' }, [
-      h('div', { class: 'column list' }, workList(state)),
+      h('div', { class: 'column list' }, worksView(state)),
       h('div', { class: 'column refine' }, [
-        h('h3', {}, ['Refine results'])
+        h('h3', {}, ['Refine results']),
+        facetsView(state)
       ])
     ])
   ])
@@ -93,8 +182,18 @@
   const loadCatalogue = (state, catalogue) => ({
     ...state,
     categories: catalogue.categories,
-    works: catalogue.works.slice(0, 10)
+    works: catalogue.works,
+    owners: catalogue.owners,
+    publishers: catalogue.publishers,
+    results: catalogue.works.slice(0, 10)
   })
+
+  const loadIndex = (state, index) => ({
+    ...state,
+    idx: lunr.Index.load(index)
+  })
+
+  const loadI18n = (state, i18n) => ({ ...state, i18n })
 
   const fetchJSON = (dispatch, options) =>
     fetch(options.url)
@@ -113,23 +212,43 @@
       { name: 'composition-date', title: 'Composition date' },
       { name: 'composition-location', title: 'Composition location' }
     ],
-    categories: [],
-    works: []
+    i18n: { fields: {} },
+    categories: {},
+    owners: {},
+    publishers: {},
+    works: [],
+    results: [],
+    idx: {}
   }, [
     fetchJSON,
     {
-      url: '/catalogue.json',
+      url: '/_catalogue/c.json',
       onresponse: loadCatalogue
+    }
+  ], [
+    fetchJSON,
+    {
+      url: '/_catalogue/i.json',
+      onresponse: loadIndex
+    }
+  ], [
+    fetchJSON,
+    {
+      url: '/_catalogue/i18n/en.json',
+      onresponse: loadI18n
     }
   ]]
 
   app({
     node,
     init,
-    view: state => container([
-      queryView(state.focused),
-      fieldsView(state.fields),
-      worksView(state)
-    ])
+    view: state => {
+      window.state = state
+      return container([
+        queryView(state.focused),
+        fieldsView(state.fields),
+        catalogueView(state)
+      ])
+    }
   })
 })()

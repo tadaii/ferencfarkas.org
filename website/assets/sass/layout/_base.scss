@@ -65,7 +65,8 @@ a {
   text-decoration: none;
   transition: color .2s ease;
 
-  .container p & {
+  .container p &,
+  &.link {
     padding-bottom: .15rem;
     border-bottom: 1px dashed $c-gray-dark;
     transition: background-color .2s ease;

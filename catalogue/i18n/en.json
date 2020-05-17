@@ -1,0 +1,23 @@
+{
+  "fields": {
+    "cast": "Cast",
+    "categories": "Categories",
+    "composition_date": "Composition date",
+    "date": "Date",
+    "detail": "Detail",
+    "description": "Description",
+    "location": "Location",
+    "nb": "N.B.",
+    "owner_id": "Owner",
+    "reworks": "Reworks",
+    "role": "Roles",
+    "setting": "Setting",
+    "sources": "Sources",
+    "synopsis": "Synopsis",
+    "title": "Title",
+    "type": "Type",
+    "version": "Version",
+    "voice": "Voice",
+    "world_premiere": "World premiere"
+  }
+}

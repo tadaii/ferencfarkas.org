@@ -1,0 +1,23 @@
+{
+  "fields": {
+    "cast": "Distribution",
+    "categories": "Catégories",
+    "composition_date": "Date de composition",
+    "date": "Date",
+    "detail": "Détail",
+    "description": "Description",
+    "location": "Lieu",
+    "nb": "N.B.",
+    "owner_id": "Détenteur",
+    "reworks": "Reprise",
+    "role": "Rôle",
+    "setting": "Formnation",
+    "sources": "Sources",
+    "synopsis": "Synopsis",
+    "title": "Titre",
+    "type": "Type",
+    "version": "Version",
+    "voice": "Voix",
+    "world_premiere": "Première mondiale"
+  }
+}
