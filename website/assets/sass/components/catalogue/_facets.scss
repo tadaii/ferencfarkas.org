@@ -3,7 +3,11 @@
     margin: 0 0 .75rem;
     padding: 1rem 0 .25rem;
     font-size: 1.1rem;
-    border-top: 1px dotted rgba(0,0,0, .25);
+    border-top: 1px dashed rgba(0,0,0, .2);
+
+    .black & {
+      border-top-color: rgba(255,255,255, .2);
+    }
   }
 
   ul {
@@ -16,6 +20,7 @@
     display: flex;
     align-items: center;
     font-size: 1rem;
+    line-height: 1rem;
     font-weight: 200;
 
     input[type="checkbox"] {
@@ -28,7 +33,14 @@
 
     .count {
       margin: 0 .5rem;
+      padding: .35rem .5rem;
       font-weight: 400;
+      border-radius: .25rem;
+      background-color: rgba(255,255,255, .2);
+
+      .invert & {
+        background-color: rgba(0,0,0, .1);
+      }
     }
   }
 }

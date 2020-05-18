@@ -12,10 +12,11 @@
   const app = hyperapp.app
   const h = hyperapp.h
   const node = document.getElementById("catalogue")
+  const parent = node.parentNode
 
   if (!node) return
 
-  const onsubmit = (state, event) => {
+  const onSubmit = (state, event) => {
     event.preventDefault()
     const results = state.idx.search(state.query)
     const r = results.map(result => result.ref)
@@ -32,9 +33,36 @@
 
   const container = content => h(
     'form',
-    { class: 'catalogue search', onsubmit },
+    { class: 'catalogue search', onsubmit: onSubmit },
     content
   )
+
+  const scopeView = scope => {
+    const name = 'scope'
+    const values = [{
+      value: 'full',
+      label: 'Full catalogue'
+    }, {
+      value: 'selection',
+      label: 'Our selection'
+    }, {
+      value: 'popular',
+      label: 'Most popular works'
+    }]
+
+    return h(
+    'fieldset', { class: 'catalogue--scope' }, values
+      .map(value => h('label', { class: scope === value.value ? 'selected': '' }, [
+        h('input', {
+          type: 'radio',
+          name,
+          value: value.value,
+          checked: value.value === scope,
+          onchange: (state, event) => ({ ...state, scope: event.target.value })
+        }), value.label
+      ]))
+    )
+  }
 
   const queryView = focused => h(
     'div', { class: [`search--query-wrapper ${focused && 'focused'}`]
@@ -179,6 +207,30 @@
     ])
   ])
 
+  const setSectionBackground = (state, container) => {
+    const scopeClasses = {
+      full: 'highlight',
+      popular: 'invert',
+      selection: 'focus'
+    }
+
+    let section = container
+
+    while(section.tagName.toLowerCase() !== 'section') {
+      section = section.parentNode
+    }
+
+    [section, document.body].forEach(el => {
+      Object.values(scopeClasses).forEach(className => {
+        el.classList.remove(className)
+      })
+
+      el.classList.add(scopeClasses[state.scope])
+    })
+
+    return state
+  }
+
   const loadCatalogue = (state, catalogue) => ({
     ...state,
     categories: catalogue.categories,
@@ -204,6 +256,7 @@
   const init = [{
     focused: false,
     query: '',
+    scope: 'full',
     fields: [
       { name: 'title', title: 'Title', checked: true },
       { name: 'description', title: 'Description', checked: true },
@@ -245,10 +298,19 @@
     view: state => {
       window.state = state
       return container([
+        scopeView(state.scope),
         queryView(state.focused),
         fieldsView(state.fields),
         catalogueView(state)
       ])
-    }
+    },
+    subscriptions: state => [
+      [
+        (dispatch, options) => {
+          dispatch(setSectionBackground(state, options.parent))
+          return () => {}
+        }, { parent }
+      ]
+    ]
   })
 })()

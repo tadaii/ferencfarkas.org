@@ -8,6 +8,7 @@ label {
   }
 }
 
+input[type="radio"],
 input[type="checkbox"] {
   appearance: none;
   -webkit-appearance: none;
@@ -15,18 +16,46 @@ input[type="checkbox"] {
   height: 1.2rem;
   margin: 0 .35rem 0 0;
   border: 1px solid rgba(0,0,0, .5);
-  border-radius: .15rem;
   background-color: transparent;
+
+  .invert &,
+  .black & {
+    border-color: white;
+  }
+
+  &:checked:before {
+    content: '';
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-repeat: no-repeat;
+  }
+}
+
+input[type="radio"] {
+  border-radius: 50%;
+
+  &:checked:before {
+    background-position: -1px -1px;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 118 118' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='59.0001' cy='59' r='34.455' fill='black'/%3E%3C/svg%3E");
+
+    .invert &,
+    .black & {
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 118 118' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='59.0001' cy='59' r='34.455' fill='white'/%3E%3C/svg%3E");
+    }
+  }
+}
+
+input[type="checkbox"] {
+  border-radius: .15rem;
 
   &:checked {
     border: none;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 118 118' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M107.271 29.4768L100.836 23.0424L41.559 82.3199L17.1636 57.9245L10.7291 64.3589L41.3278 94.9576L41.559 94.7264L41.7902 94.9576L107.271 29.4768Z' fill='black'/%3E%3C/svg%3E");
 
-    &:before {
-      content: '';
-      display: block;
-      width: 1.2rem;
-      height: 1.2rem;
-      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 118 118' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M107.271 29.4768L100.836 23.0424L41.559 82.3199L17.1636 57.9245L10.7291 64.3589L41.3278 94.9576L41.559 94.7264L41.7902 94.9576L107.271 29.4768Z' fill='black'/%3E%3C/svg%3E");
+    .invert &,
+    .black & {
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 118 118' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M107.271 29.4768L100.836 23.0424L41.559 82.3199L17.1636 57.9245L10.7291 64.3589L41.3278 94.9576L41.559 94.7264L41.7902 94.9576L107.271 29.4768Z' fill='white'/%3E%3C/svg%3E");
     }
   }
 }

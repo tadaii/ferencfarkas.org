@@ -16,34 +16,3 @@ menu:
 {{< catalogue >}}
 
 {{% /section %}}
-
-{{% section invert straight %}}
-## Most popular works
-{{% row %}}
-{{% column size="2" %}}
-
-<span class="tag">Opera</span>
-
-{{% /column %}}
-{{% column %}}
-
-<span class="tag">Opera</span>
-
-{{% /column %}}
-{{% /row %}}
-{{% /section %}}
-{{% section focus %}}
-## Our selection
-{{% row %}}
-{{% column %}}
-
-<span class="tag">Opera</span>
-
-{{% /column %}}
-{{% column %}}
-
-<span class="tag">Opera</span>
-
-{{% /column %}}
-{{% /row %}}
-{{% /section %}}

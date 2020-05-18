@@ -1,0 +1,12 @@
+.catalogue--scope {
+  padding: 0 0 2rem;
+  border: none;
+
+  label {
+    margin: 0 1.5rem 0 .5rem;
+
+    &.selected {
+      font-weight: 400;
+    }
+  }
+}

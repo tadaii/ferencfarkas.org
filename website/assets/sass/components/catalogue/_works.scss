@@ -20,6 +20,10 @@
     margin-bottom: 1rem;
     border-bottom: 1px dashed rgba(0,0,0, .2);
 
+    .black & {
+      border-bottom-color: rgba(255,255,255, .2);
+    }
+
     &--title {
       display: flex;
       align-items: flex-start;
@@ -61,10 +65,15 @@
         font-weight: 500;
         font-size: .8rem;
         text-align: left;
+        color: rgba(0,0,0, .5);
 
         @media screen and (min-width: 500px) {
           font-size: .9rem;
           text-align: right;
+        }
+
+        .invert & {
+          color: $c-gray-darker;
         }
       }
 
