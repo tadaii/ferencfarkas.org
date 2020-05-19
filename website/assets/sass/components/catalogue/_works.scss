@@ -86,8 +86,16 @@
         padding: 0;
       }
 
-      li:before {
-        content: '– ';
+      li {
+        &:before {
+          content: '– ';
+          font-size: 1rem;
+        }
+      }
+
+      span {
+        margin-right: .25rem;
+        font-size: 1rem;
       }
     }
   }

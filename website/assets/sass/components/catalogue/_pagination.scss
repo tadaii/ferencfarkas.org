@@ -1,0 +1,29 @@
+.works-pagination {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+
+  button {
+    margin: 0 .25rem;
+    padding: .25rem .5rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    border: none;
+    background: none;
+    border-radius: .25rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgba(0,0,0, .1);
+    }
+
+    &.active {
+      font-weight: 500;
+      color: $c-white;
+      background-color: rgba(0,0,0, .5);
+    }
+  }
+}

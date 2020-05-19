@@ -26,21 +26,23 @@
     input[type="checkbox"] {
       margin-right: .75rem;
     }
+  }
+}
 
-    .name {
-      flex: 1;
-    }
+.facet {
+  &--name {
+    flex: 1;
+  }
 
-    .count {
-      margin: 0 .5rem;
-      padding: .35rem .5rem;
-      font-weight: 400;
-      border-radius: .25rem;
-      background-color: rgba(255,255,255, .2);
+  &--count {
+    margin: 0 .5rem;
+    padding: .35rem .5rem;
+    font-weight: 400;
+    border-radius: .25rem;
+    background-color: rgba(255,255,255, .2);
 
-      .invert & {
-        background-color: rgba(0,0,0, .1);
-      }
+    .invert & {
+      background-color: rgba(0,0,0, .1);
     }
   }
 }

@@ -1,6 +1,12 @@
 (() => {
   'use strict'
 
+  const SCOPES = {
+    full: 'Full catalogue',
+    selection: 'Our selection',
+    popular: 'Most popular works'
+  }
+
   const SKIP_WORK_KEYS = [
     'id',
     'date',
@@ -37,40 +43,31 @@
     content
   )
 
-  const scopeView = scope => {
-    const name = 'scope'
-    const values = [{
-      value: 'full',
-      label: 'Full catalogue'
-    }, {
-      value: 'selection',
-      label: 'Our selection'
-    }, {
-      value: 'popular',
-      label: 'Most popular works'
-    }]
-
-    return h(
-    'fieldset', { class: 'catalogue--scope' }, values
-      .map(value => h('label', { class: scope === value.value ? 'selected': '' }, [
-        h('input', {
-          type: 'radio',
-          name,
-          value: value.value,
-          checked: value.value === scope,
-          onchange: (state, event) => ({ ...state, scope: event.target.value })
-        }), value.label
-      ]))
+  const scopeView = scope => h(
+    'fieldset', { class: 'catalogue--scope' }, Object.entries(SCOPES)
+      .map(([ value, label ]) => h(
+        'label', { class: scope === value ? 'selected': '' }, [
+          h('input', {
+            type: 'radio',
+            name: 'scope',
+            value: value,
+            checked: value === scope,
+            onchange: (state, event) => ({
+              ...state,
+              scope: event.target.value
+            })
+          }),
+          label
+        ]))
     )
-  }
 
-  const queryView = focused => h(
+  const queryView = (focused, scope) => h(
     'div', { class: [`search--query-wrapper ${focused && 'focused'}`]
   }, [
     h('input', {
       type: 'search',
       name: 'query',
-      placeholder: 'Type your query',
+      placeholder: `Filter ${SCOPES[scope].toLowerCase()} with keywords`,
       oninput: [search, event => event.target.value],
       onfocus: (state ,event) => ({ ...state, focused: true }),
       onblur: (state ,event) => ({ ...state, focused: false })
@@ -95,16 +92,27 @@
     )
   )
 
-  const workFieldSources = ({ value, owners }) => {
-    return h('ul', {}, [
-      value.map(source =>  h('li', {}, [
-        h('i', {}, [ `${source.type}:` ]),
-        h('a', { href: '#', class: 'link' }, [
-          `${owners[source.owner_id].name}`
-        ])
-      ]))
-    ])
-  }
+  const workFieldCast = value => h('ul', {}, [
+    value.map(person =>  h('li', {}, [
+      person.role,
+      person.voice && h('span', {}, [` - ${person.voice} `])
+    ]))
+  ])
+
+  const workFieldReworks = value => h('ul', {}, [
+    value.map(rework =>  h('li', {}, [
+      h('a', { href: '#', class: 'link' }, [ rework ])
+    ]))
+  ])
+
+  const workFieldSources = ({ value, owners }) => h('ul', {}, [
+    value.map(source =>  h('li', {}, [
+      h('span', {}, [ `${source.type}:` ]),
+      h('a', { href: '#', class: 'link' }, [
+        `${owners[source.owner_id].name}`
+      ])
+    ]))
+  ])
 
   const workFieldWorldPremiere = value => {
     let str = value.date || ''
@@ -116,6 +124,10 @@
 
   const workFieldValue = ({ key, value, owners, publishers }) => {
     switch (key) {
+      case 'cast':
+        return workFieldCast(value)
+      case 'reworks':
+        return workFieldReworks(value)
       case 'sources':
         return workFieldSources({ value, owners })
       case 'world_premiere':
@@ -177,8 +189,8 @@
       return facets
     }, {})).map(([ key, facet ]) => h('li', {}, [
       h('input', { type: 'checkbox', name: key }),
-      h('span', { class: 'name' }, [ facet.label ]),
-      h('span', { class: 'count' }, [ facet.count ])
+      h('span', { class: 'facet--name' }, [ facet.label ]),
+      h('span', { class: 'facet--count' }, [ facet.count ])
     ]))
   }
 
@@ -193,7 +205,7 @@
     ])
   ]
 
-  const catalogueView = state => h('div', { class: 'works' }, [
+  const resultsView = state => h('div', { class: 'works' }, [
     h('div', { class: 'works--count' }, [
       h('span', { class: 'works--count-amount' }, [ state.results.length ]),
       ' works'
@@ -206,6 +218,44 @@
       ])
     ])
   ])
+
+  const paginationView = ({ total, size, current }) => {
+    if (total <= size) {
+      return
+    }
+
+    const maxPages = 7
+    const totalPages = Math.ceil(total/size)
+    const rangeOffset = (Math.floor(current/maxPages) * maxPages)
+    const pageOffest = Math.round((current - rangeOffset) / maxPages)
+    const offset = rangeOffset + pageOffest
+    let countPages = Math.min(totalPages, maxPages)
+    let displayLastPage = true
+
+    if (current === rangeOffset && totalPages - current < maxPages) {
+      displayLastPage = false
+      countPages = totalPages - current
+    }
+
+    const pages = [
+      ...[...Array(countPages).keys()].map(index => index + offset + 1),
+      ...(displayLastPage
+        ? [
+          ...(rangeOffset + maxPages + 2 === totalPages ? [] : ['...']),
+          ...[totalPages]
+        ]
+        : []
+      )
+    ]
+
+    return h(
+      'ul', { class: 'works-pagination' }, pages.map(page => h(
+        'li', {}, [
+          h('button', { class: page === current + 1 && 'active' }, [ page ])
+        ]
+      ))
+    )
+  }
 
   const setSectionBackground = (state, container) => {
     const scopeClasses = {
@@ -265,6 +315,8 @@
       { name: 'composition-date', title: 'Composition date' },
       { name: 'composition-location', title: 'Composition location' }
     ],
+    resultsPerPage: 10,
+    currentPage: 0,
     i18n: { fields: {} },
     categories: {},
     owners: {},
@@ -299,9 +351,14 @@
       window.state = state
       return container([
         scopeView(state.scope),
-        queryView(state.focused),
+        queryView(state.focused, state.scope),
         fieldsView(state.fields),
-        catalogueView(state)
+        resultsView(state),
+        paginationView({
+          total: state.results.length,
+          size: state.resultsPerPage,
+          current: state.currentPage
+        })
       ])
     },
     subscriptions: state => [
