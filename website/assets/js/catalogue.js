@@ -18,7 +18,7 @@
   const app = hyperapp.app
   const h = hyperapp.h
   const node = document.getElementById("catalogue")
-  const parent = node.parentNode
+  const parent = node && node.parentNode
 
   if (!node) return
 
@@ -46,7 +46,7 @@
   const scopeView = scope => h(
     'fieldset', { class: 'catalogue--scope' }, Object.entries(SCOPES)
       .map(([ value, label ]) => h(
-        'label', { class: scope === value ? 'selected': '' }, [
+        'label', { class: `inline ${scope === value ? 'selected': ''}` }, [
           h('input', {
             type: 'radio',
             name: 'scope',
@@ -75,10 +75,11 @@
     h('button', { type: 'submit' }, ['Search'])
   ])
 
-  const fieldView = ({ name, title, checked }) => h('label', {}, [
-    h('input', { type: 'checkbox', name, checked }),
-    title
-  ])
+  const fieldView = ({ name, title, checked }) => h(
+    'label', { class: 'inline' }, [
+      h('input', { type: 'checkbox', name, checked }),
+      title
+    ])
 
   const fieldsView = fields => h(
     'div', { class: 'search--fields-wrapper' }, fields.map(fieldView)

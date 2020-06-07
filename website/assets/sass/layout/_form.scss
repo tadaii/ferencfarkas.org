@@ -1,11 +1,71 @@
 label {
-  display: inline-flex;
-  align-items: center;
+  position: relative;
   font-size: 1rem;
 
   @media screen and (min-width: 600px) {
     font-size: 1.2rem;
   }
+
+  &.inline {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  &:not(.inline) {
+    display: flex;
+    flex-direction: column;
+
+    color: $c-black;
+
+    section.invert & {
+      color: $c-white;
+    }
+
+    section.black & {
+      color: $c-gray-light;
+    }
+  }
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  padding: .75rem;
+  max-width: 100%;
+  font-family: lato, sans-serif;
+  font-size: 1.35rem;
+  line-height: 1.35rem;
+  font-weight: 200;
+  border: none;
+  border-radius: .25rem;
+  color: $c-gray-darker;
+  background-color: rgba(0,0,0, .1);
+
+  section.focus & {
+    color: $c-almost-black;
+  }
+
+  section.invert & {
+    color: $c-almost-white;
+  }
+
+  section.black & {
+    color: $c-gray-light;
+    background-color: rgba(255,255,255, .1);
+  }
+
+  label & {
+    margin-top: .5rem;
+  }
+
+  &:not(textarea) {
+    height: 2.8rem;
+  }
+}
+
+textarea {
+  resize: vertical;
 }
 
 input[type="radio"],
@@ -57,5 +117,30 @@ input[type="checkbox"] {
     .black & {
       background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 118 118' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M107.271 29.4768L100.836 23.0424L41.559 82.3199L17.1636 57.9245L10.7291 64.3589L41.3278 94.9576L41.559 94.7264L41.7902 94.9576L107.271 29.4768Z' fill='white'/%3E%3C/svg%3E");
     }
+  }
+}
+
+button {
+  margin-top: 1rem;
+  padding: .75rem 1.5rem;
+  font-family: $f-sans;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: $c-white;
+  background-color: $c-gray-darker;
+  border-radius: 1.5rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0,0,0, .125);
+  cursor: pointer;
+
+  section.invert & {
+    color: $c-black;
+    background-color: $c-white;
+  }
+
+  section.black & {
+    color: $c-black;
+    background-color: $c-primary;
   }
 }
