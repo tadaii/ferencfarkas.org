@@ -168,19 +168,41 @@
       publishers
     }))
 
-  const workView = (work, state) => h('div', { class: 'work', id: work.id }, [
-    h('div', { class: 'work--title' }, [
-      h('h3', {}, [work.title.translations[work.title.main]]),
-      h('div', { class: 'work--tags' }, categoryTags(work, state.categories))
-    ]),
-    h('div', { class: 'work--description' }, [ work.description ]),
-    work.version ? h('div', { class: 'work--version' }, [ work.version ]) : '',
-    h('dl', { class: 'work--fields' }, workFields({
-      work,
-      i18n: state.i18n,
-      owners: state.owners,
-      publishers: state.publishers
-    }))
+  const workView = (work, state) => h('li', {}, [
+    h('a', {
+      class: 'work',
+      id: work.id,
+      href: '#',
+      onclick: (state, event) => {
+        if (!event.target.classList.contains('tag')) {
+          let container = event.target
+
+          while (container && !container.classList.contains('work')) {
+            container = container.parentNode
+          }
+
+          container.classList.toggle('open')
+        }
+
+        event.preventDefault()
+        return state
+      }
+    }, [
+      h('div', { class: 'work--title' }, [
+        h('h3', {}, [work.title.translations[work.title.main]]),
+        h('div', { class: 'work--tags' }, categoryTags(work, state.categories))
+      ]),
+      h('div', { class: 'work--description' }, [ work.description ]),
+      work.version
+        ? h('div', { class: 'work--version' }, [ work.version ])
+        : '',
+      h('dl', { class: 'work--fields' }, workFields({
+        work,
+        i18n: state.i18n,
+        owners: state.owners,
+        publishers: state.publishers
+      }))
+    ])
   ])
 
   const worksView = state => h(

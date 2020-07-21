@@ -1,10 +1,13 @@
 .works {
   &--count {
-    padding: 0 .5rem;
+    margin: 0 .75rem 1rem;
+    padding: 0 .25rem 1rem;
     font-size: 1.1rem;
+    border-bottom: 1px solid rgba(0,0,0, .075);
   }
 
   &--count-amount {
+    margin-right: .25rem;
     font-weight: 400;
   }
 
@@ -21,9 +24,20 @@
   .work {
     display: flex;
     flex-direction: column;
-    padding-bottom: 1.5rem;
-    margin-bottom: 1rem;
+    padding: .5rem 1rem 1.5rem;
     border-bottom: 1px dashed rgba(0,0,0, .2);
+    will-change: background-color;
+    transition: background-color .2s linear;
+
+    &:hover {
+      background-color: rgba(255,255,255, .1);
+    }
+
+    &.open {
+      .work--fields {
+        display: block;
+      }
+    }
 
     .black & {
       border-bottom-color: rgba(255,255,255, .2);

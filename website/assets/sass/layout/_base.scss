@@ -189,13 +189,14 @@ article > .container {
 }
 
 .tag {
-  padding: .3rem .7rem;
+  padding: .3rem .7rem !important;
   font-size: .8rem;
   font-weight: 500;
   text-transform: uppercase;
   white-space: nowrap;
   background-color: $c-secondary;
   border-radius: .8rem;
+  border-bottom: none !important;
 
   section.focus & {
     color: $c-white;
