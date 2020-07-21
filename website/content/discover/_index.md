@@ -11,5 +11,9 @@ menu:
 ---
 
 {{% section invert %}}
-## Media
+- books
+- interviews / articles
+- cd's
+- films
+- galleries
 {{% /section %}}
