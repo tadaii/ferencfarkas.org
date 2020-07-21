@@ -6,7 +6,131 @@
     }
 
     &.refine {
+      position: absolute;
+      right: -21.25rem;
+      height: 100vh;
       padding-top: .75rem;
+
+      @media screen and (min-width: 768px) {
+        position: relative;
+        right: auto;
+        height: auto;
+      }
+
+      &.open {
+        right: 0;
+
+        &:not(.sticked) {
+          right: -3.25rem;
+        }
+
+        .refine--wrapper {
+          right: 0;
+        }
+
+        .refine--handler svg {
+          margin-left: 0;
+          transform: rotate(-90deg);
+        }
+      }
+    }
+  }
+
+  .refine,
+  .refine--wrapper {
+    min-width: 18rem;
+    will-change: background-color, right;
+    transition: background-color .2s linear, right .2s linear;
+
+    .highlight & {
+      background-color: $c-section-highlight-bg;
+    }
+
+    .focus & {
+      background-color: $c-section-focus-bg;
+    }
+
+    .invert & {
+      background-color: $c-section-invert-bg;
+    }
+
+    .black & {
+      background-color: $c-section-black-bg;
+    }
+  }
+
+  .refine--wrapper {
+    &.sticked {
+      padding: .5rem 1.25rem 0;
+
+      @media screen and (min-width: 768px) {
+        padding-top: .75rem;
+        padding-right: .5rem;
+      }
+    }
+
+    &:not(.sticked) {
+      padding: 0 2.5rem 0 0;
+
+      @media screen and (min-width: 768px) {
+        padding: inherit;
+        padding-top: 0;
+      }
+    }
+
+    &.sticked {
+      position: fixed;
+      top: 0;
+      right: -18rem;
+      height: 100vh;
+    }
+
+    @media screen and (min-width: 768px) {
+      position: relative;
+      top: auto;
+
+      &, &.sticked {
+        right: auto;
+        height: auto;
+      }
+    }
+  }
+
+  .refine--handler {
+    position: absolute;
+    top: 0;
+    left: calc(2px - 2rem);
+    bottom: 0;
+    width: calc(2rem - 2px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0,0,0, .7);
+
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+
+    svg {
+      margin: 1.5rem 0 0 .125rem;
+      will-change: transform;
+      transition: transform .3s linear;
+
+      .highlight & {
+        fill: $c-section-highlight-bg;
+      }
+
+      .focus & {
+        fill: $c-section-focus-bg;
+      }
+
+      .invert & {
+        fill: $c-section-invert-bg;
+      }
+
+      .black & {
+        fill: $c-section-black-bg;
+      }
     }
   }
 }

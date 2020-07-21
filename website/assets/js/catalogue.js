@@ -12,7 +12,8 @@
     'date',
     'categories',
     'title',
-    'description'
+    'description',
+    'version'
   ]
 
   const app = hyperapp.app
@@ -21,6 +22,17 @@
   const parent = node && node.parentNode
 
   if (!node) return
+
+  window.addEventListener('scroll', () => {
+    const refinePanel = document.querySelector('.refine')
+    const refinePanelWrapper = document.querySelector('.refine--wrapper')
+
+    if (refinePanel.getBoundingClientRect().y <= 0) {
+      refinePanelWrapper.classList.add('sticked')
+    } else {
+      refinePanelWrapper.classList.remove('sticked')
+    }
+  })
 
   const onSubmit = (state, event) => {
     event.preventDefault()
@@ -62,7 +74,7 @@
     )
 
   const queryView = (focused, scope) => h(
-    'div', { class: [`search--query-wrapper ${focused && 'focused'}`]
+    'div', { class: [`search--query-wrapper ${focused ? 'focused' : ''}`]
   }, [
     h('input', {
       type: 'search',
@@ -162,6 +174,7 @@
       h('div', { class: 'work--tags' }, categoryTags(work, state.categories))
     ]),
     h('div', { class: 'work--description' }, [ work.description ]),
+    work.version ? h('div', { class: 'work--version' }, [ work.version ]) : '',
     h('dl', { class: 'work--fields' }, workFields({
       work,
       i18n: state.i18n,
@@ -189,9 +202,11 @@
       }
       return facets
     }, {})).map(([ key, facet ]) => h('li', {}, [
-      h('input', { type: 'checkbox', name: key }),
-      h('span', { class: 'facet--name' }, [ facet.label ]),
-      h('span', { class: 'facet--count' }, [ facet.count ])
+      h('label', {}, [
+        h('input', { type: 'checkbox', name: key }),
+        h('span', { class: 'facet--name' }, [ facet.label ]),
+        h('span', { class: 'facet--count' }, [ facet.count ])
+      ])
     ]))
   }
 
@@ -206,6 +221,20 @@
     ])
   ]
 
+  const refineHandlerView = () => h('a', {
+    class: 'refine--handler',
+    href: '#',
+    onclick: (state, event) => {
+      document.querySelector('.refine').classList.toggle('open')
+      event.preventDefault()
+      return state
+    }
+  }, [
+    h('svg', { viewBox: '0 0 24 24', width: 24, height: 24 }, [
+      h('path', { d: 'M6,13H18V11H6M3,6V8H21V6M10,18H14V16H10V18Z' }, [])
+    ])
+  ])
+
   const resultsView = state => h('div', { class: 'works' }, [
     h('div', { class: 'works--count' }, [
       h('span', { class: 'works--count-amount' }, [ state.results.length ]),
@@ -214,8 +243,11 @@
     h('div', { class: 'row' }, [
       h('div', { class: 'column list' }, worksView(state)),
       h('div', { class: 'column refine' }, [
-        h('h3', {}, ['Refine results']),
-        facetsView(state)
+        h('div', { class: 'refine--wrapper' }, [
+          refineHandlerView(),
+          h('h3', {}, ['Refine results']),
+          facetsView(state)
+        ])
       ])
     ])
   ])
@@ -258,7 +290,7 @@
     )
   }
 
-  const setSectionBackground = (state, container) => {
+  const customizeSection = (state, container) => {
     const scopeClasses = {
       full: 'highlight',
       popular: 'invert',
@@ -267,11 +299,15 @@
 
     let section = container
 
-    while(section.tagName.toLowerCase() !== 'section') {
+    while (section.tagName.toLowerCase() !== 'section') {
       section = section.parentNode
     }
 
-    [section, document.body].forEach(el => {
+    if (section) {
+      section.style.overflow = 'hidden'
+    }
+
+    [document.body, section].forEach(el => {
       Object.values(scopeClasses).forEach(className => {
         el.classList.remove(className)
       })
@@ -365,7 +401,7 @@
     subscriptions: state => [
       [
         (dispatch, options) => {
-          dispatch(setSectionBackground(state, options.parent))
+          dispatch(customizeSection(state, options.parent))
           return () => {}
         }, { parent }
       ]

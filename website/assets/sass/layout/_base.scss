@@ -66,6 +66,7 @@ a {
   transition: color .2s ease;
 
   .container p &,
+  section .container li &,
   &.link {
     padding-bottom: .15rem;
     border-bottom: 1px dashed $c-gray-dark;
@@ -192,6 +193,7 @@ article > .container {
   font-size: .8rem;
   font-weight: 500;
   text-transform: uppercase;
+  white-space: nowrap;
   background-color: $c-secondary;
   border-radius: .8rem;
 

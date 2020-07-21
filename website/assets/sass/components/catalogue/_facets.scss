@@ -1,4 +1,7 @@
 .facets {
+  overflow: auto;
+  max-height: calc(100% - 4.5rem);
+
   h4 {
     margin: 0 0 .75rem;
     padding: 1rem 0 .25rem;
@@ -16,9 +19,11 @@
     padding: 0;
   }
 
-  li {
+  label {
     display: flex;
+    flex-direction: row;
     align-items: center;
+    margin: .25rem;
     font-size: 1rem;
     line-height: 1rem;
     font-weight: 200;

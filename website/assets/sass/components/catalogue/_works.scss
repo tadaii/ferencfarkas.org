@@ -13,6 +13,11 @@
     padding: .5rem;
   }
 
+  .row {
+    flex-direction: row;
+    position: relative;
+  }
+
   .work {
     display: flex;
     flex-direction: column;
@@ -38,7 +43,13 @@
       font-size: 1.2rem;
     }
 
+    &--version {
+      font-size: .95rem;
+      font-weight: 500;
+    }
+
     &--fields {
+      display: none;
       margin: 1rem 0 0 0;
     }
 
@@ -47,7 +58,7 @@
       flex-direction: column;
       margin: 0 0 .65rem;
 
-      @media screen and (min-width: 500px) {
+      @media screen and (min-width: 768px) {
         flex-direction: row;
       }
 
@@ -67,7 +78,7 @@
         text-align: left;
         color: rgba(0,0,0, .5);
 
-        @media screen and (min-width: 500px) {
+        @media screen and (min-width: 768px) {
           font-size: .9rem;
           text-align: right;
         }
