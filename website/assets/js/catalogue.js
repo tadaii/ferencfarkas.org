@@ -168,6 +168,15 @@
       publishers
     }))
 
+  const workTitleView = (work, state) => {
+    return h('h3', {}, [
+      work.title.translations[work.title.main],
+      ...work.title.sort
+        .filter(key => key !== work.title.main)
+        .map(key => h('span', {}, [work.title.translations[key]]))
+    ])
+  }
+
   const workView = (work, state) => h('li', {}, [
     h('a', {
       class: 'work',
@@ -189,7 +198,7 @@
       }
     }, [
       h('div', { class: 'work--title' }, [
-        h('h3', {}, [work.title.translations[work.title.main]]),
+        workTitleView(work, state),
         h('div', { class: 'work--tags' }, categoryTags(work, state.categories))
       ]),
       h('div', { class: 'work--description' }, [ work.description ]),
