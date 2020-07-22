@@ -254,7 +254,8 @@
   }, [
     h('svg', { viewBox: '0 0 24 24', width: 24, height: 24 }, [
       h('path', { d: 'M6,13H18V11H6M3,6V8H21V6M10,18H14V16H10V18Z' }, [])
-    ])
+    ]),
+    h('span', { class: 'refine--handler-label' }, ['Refine results'])
   ])
 
   const resultsView = state => h('div', { class: 'works' }, [
