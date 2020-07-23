@@ -179,7 +179,6 @@
 
     if (value.date) {
       let date = value.date
-      console.log(date)
       if (date.toString().includes('T')) {
         date = formatDate(date)
       }
@@ -225,9 +224,14 @@
       h('dd', {}, workFieldValue({ key, value, owners, publishers }))
     ])
 
-  const workFields = ({ work, i18n, owners, publishers }) => Object
+  const workFields = ({ work, fields, i18n, owners, publishers }) => Object
     .entries(work)
     .filter(([ key, value ]) => !SKIP_WORK_KEYS.includes(key))
+    .sort((a,b) => {
+      const posA = fields.indexOf(a[0])
+      const posB = fields.indexOf(b[0])
+      return posA > posB ? 1 : posA < posB ? -1 : 0
+    })
     .map(([ key, value ]) => workField({
       label: i18n.fields[key],
       key,
@@ -275,6 +279,7 @@
       h('div', { class: 'work--description' }, [ work.description ]),
       h('dl', { class: 'work--fields' }, workFields({
         work,
+        fields: state.fields,
         i18n: state.i18n,
         owners: state.owners,
         publishers: state.publishers
@@ -446,6 +451,7 @@
     works: catalogue.works,
     owners: catalogue.owners,
     publishers: catalogue.publishers,
+    fields: catalogue.fields,
     results: catalogue.works
   })
 
@@ -479,6 +485,7 @@
     categories: {},
     owners: {},
     publishers: {},
+    fields: [],
     works: [],
     results: [],
     facets: {},
