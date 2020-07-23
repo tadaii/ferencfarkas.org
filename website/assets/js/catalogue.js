@@ -144,11 +144,11 @@
     ]))
   ])
 
-  const workFieldSources = ({ value, owners }) => h('ul', {}, [
-    value.map(source =>  h('li', {}, [
-      h('span', {}, [ `${source.type}:` ]),
+  const workFieldOwners = ({ value, owners }) => h('ul', {}, [
+    value.map(item =>  h('li', {}, [
+      h('span', {}, [ `${item.type}:` ]),
       h('a', { href: '#', class: 'link' }, [
-        `${owners[source.owner_id].name}`
+        `${owners[item.owner_id].name}`
       ])
     ]))
   ])
@@ -177,8 +177,9 @@
         return [workFieldCast(value)]
       case 'reworks':
         return [workFieldReworks(value)]
+      case 'publications':
       case 'sources':
-        return workFieldSources({ value, owners })
+        return workFieldOwners({ value, owners: {...owners, ...publishers} })
       case 'libretto':
       case 'texts':
         return [h('ul', {}, value.map(v => h('li', {}, [v])))]
@@ -483,7 +484,7 @@
       return container([
         scopeView(state.scope),
         queryView(state.focused, state.scope),
-        fieldsView(state.fields),
+        // fieldsView(state.fields),
         resultsView(state),
         paginationView({
           total: state.results.length,
