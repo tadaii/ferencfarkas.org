@@ -39,9 +39,10 @@ const buildCatalogue = async src => {
   const owners = a2o(await yaml2json(join(src, 'data', 'owners.yaml')))
   const publishers = a2o(await yaml2json(join(src, 'data', 'publishers.yaml')))
   const samples = await yaml2json(join(src, 'data', 'samples.yaml'))
+  const fields = await yaml2json(join(src, 'data', 'fields.yaml'))
   const works = await getWorks(join(src, 'data', 'works'))
 
-  return { categories, owners, publishers, samples, works }
+  return { categories, owners, publishers, samples, fields, works }
 }
 
 const buildSearchIndex = catalogue => {
