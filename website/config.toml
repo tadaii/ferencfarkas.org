@@ -30,11 +30,11 @@ description = "Ferenc Farkas official website."
   weight = 200.0
   url = "/work"
 
-  [[menu.main]]
-  name = "Discover"
-  identifier = "discover"
-  weight = 300.0
-  url = "/discover"
+  # [[menu.main]]
+  # name = "Discover"
+  # identifier = "discover"
+  # weight = 300.0
+  # url = "/discover"
 
   [[menu.main]]
   name = "Contact"

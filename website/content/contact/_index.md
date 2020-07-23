@@ -10,7 +10,7 @@ menu:
     weight: 400
 ---
 
-{{% section %}}
+{{% section invert %}}
 ## Contact
 
 {{% row %}}
@@ -32,9 +32,8 @@ menu:
   <p>
     <label>Enquiry:
       <select name="enquiry">
-        <option value="material">I'd like to get orchestral material</option>
-        <option value="manuscript">I'd like to have access to a manuscript</option>
-        <option value="event">I'd like to organize an event</option>
+        <option value="material">I need material to play a work</option>
+        <option value="manuscript">I need more information on Ferenc Farkas</option>
         <option value="website">I have a problem with the website</option>
         <option value="other">None of the above</option>
       </select>
@@ -62,19 +61,6 @@ Chemin des Bouvreuils 12
 1009 Pully, Switzerland
 <br>
 P 0041 21 728 47 27
-
-<br>
-
-### Ascolta Music Publishing
-Postbus 162
-<br>
-3990 DD Houten, The Netherlands
-<br>
-P +31 30 63 74 237
-<br>
-F ax +31 30 63 73 956
-<br>
-E info@ascolta.nl
 
 {{% /column %}}
 {{% /section %}}
