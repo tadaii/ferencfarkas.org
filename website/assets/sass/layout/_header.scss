@@ -14,19 +14,15 @@ header {
   .signature-logo {
     position: fixed;
     top: -4px;
-    left: 1.5rem;
+    left: 1.4rem;
     display: inline-flex;
     opacity: .97;
     z-index: 2;
     pointer-events: all;
     filter: drop-shadow(0 0 1rem rgba(0,0,0, .25));
 
-    @media screen and (min-width: 768px) {
-      left: 1.6rem;
-    }
-
     @media screen and (min-width: $s-container-width) {
-      left: calc(50% - (#{$s-container-width}/2) + 1.75rem);
+      left: calc(50% - (#{$s-container-width}/2) + 1.4rem);
     }
 
     svg {

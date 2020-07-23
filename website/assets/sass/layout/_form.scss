@@ -139,6 +139,7 @@ button {
     background-color: $c-white;
   }
 
+  section.invert &,
   section.black & {
     color: $c-black;
     background-color: $c-primary;
