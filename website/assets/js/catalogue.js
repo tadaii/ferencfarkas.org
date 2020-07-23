@@ -3,7 +3,6 @@
 
   const SCOPES = {
     full: 'Full catalogue',
-    selection: 'Our selection',
     popular: 'Most popular works'
   }
 
@@ -29,6 +28,20 @@
       month: 'short',
       day: 'numeric'
     })
+  }
+
+  const formatDuration = seconds => {
+    const h = Math.floor(seconds / 3600)
+    const m = Math.floor((seconds - (h * 3600)) / 60)
+    const s = Math.floor(seconds - (h * 3600) - (m * 60))
+
+    let str = ''
+
+    if (h > 0) str += `${h}h `
+    if (m > 0) str += `${m}‘ `
+    if (s > 0) str += `${s}”`
+
+    return str
   }
 
   window.addEventListener('scroll', () => {
@@ -188,6 +201,8 @@
     switch (key) {
       case 'cast':
         return [workFieldCast(value)]
+      case 'duration':
+        return [formatDuration(value)]
       case 'reworks':
         return [workFieldReworks(value)]
       case 'publications':
@@ -401,8 +416,7 @@
   const customizeSection = (state, container) => {
     const scopeClasses = {
       full: 'highlight',
-      popular: 'invert',
-      selection: 'focus'
+      popular: 'focus'
     }
 
     let section = container
