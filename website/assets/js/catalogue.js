@@ -23,6 +23,14 @@
 
   if (!node) return
 
+  const formatDate = date => {
+    return (new Date(date)).toLocaleString('en-GB', {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric'
+    })
+  }
+
   window.addEventListener('scroll', () => {
     const refinePanel = document.querySelector('.refine')
     const refinePanelWrapper = document.querySelector('.refine--wrapper')
@@ -157,7 +165,12 @@
     let dateLocation = []
 
     if (value.date) {
-      dateLocation.push(value.date)
+      let date = value.date
+      console.log(date)
+      if (date.toString().includes('T')) {
+        date = formatDate(date)
+      }
+      dateLocation.push(date)
     }
 
     if (value.location) {
