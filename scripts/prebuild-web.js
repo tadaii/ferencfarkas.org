@@ -47,14 +47,20 @@ const buildCatalogue = async src => {
 const buildSearchIndex = catalogue => {
   const idx = lunr(function () {
     this.ref('id')
-    // this.field('cast')
+    this.field('cast')
     this.field('composition_date')
     this.field('description')
     this.field('nb')
-    // this.field('synopsis')
+    this.field('synopsis')
+    this.field('title')
     this.field('version')
 
-    catalogue.works.forEach(doc => {
+    catalogue.works.forEach(work => {
+      const doc = { ...work }
+      doc.title = Object.values(doc.title.translations).join(', ')
+      if (doc.cast) {
+        doc.cast = doc.cast.map(c => `${c.voice} ${c.role}`).join(', ')
+      }
       this.add(doc)
     }, this)
   })

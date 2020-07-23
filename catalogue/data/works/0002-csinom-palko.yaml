@@ -1,24 +1,25 @@
-id: 0002-csinom-palko
-date: 2019-04-08T21:36:00+00:00
+---
 categories:
   - opera
+composition_date: 1950
+date: 2019-04-08T21:36:00.000Z
+description: Popular romantic opera in 3 acts
+id: 0002-csinom-palko
+sources:
+  - owner_id: afp
+    type: score
+  - owner_id: afp
+    type: piano reduction
+  - owner_id: afp
+    type: performance material
 title:
   main: hu
   original: hu
   sort:
-  - hu
+    - hu
   translations:
     hu: Csínom Palkó
-description: Popular romantic opera in 3 acts
 version: First version for the theatre
-composition_date: 1950
-sources:
-  - type: score
-    owner_id: 0001-afp
-  - type: piano reduction
-    owner_id: 0001-afp
-  - type: performance material
-    owner_id: 0001-afp
 world_premiere:
   date: 1952
-  location: Erkel Theater, Budapest
+  location: 'Erkel Theater, Budapest'

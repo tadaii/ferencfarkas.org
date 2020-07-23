@@ -1,0 +1,26 @@
+---
+categories:
+  - musical
+composition_date: 1951
+date: 2019-04-08T21:36:00.000Z
+description: Operetta in 3 acts
+duration: 160
+id: 0014-zeng-az-erdoe
+libretto:
+  - 'In hungarian by Géza Baróti, András Dékány and Lászó Dalos'
+reworks:
+  - Állj be közibénk! for 3 equal voices with piano accompaniment
+  - Zeng az erdő for voice and piano
+setting: '2 (picc.), 1, 2, 1 – 3, 2, 3, 0 – timp., batt (2 ess.) – archi'
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+    - en
+  translations:
+    en: The forest resounds
+    hu: Zeng az erdő
+world_premiere:
+  date: 1951
+  location: National Theatre of Miskolc

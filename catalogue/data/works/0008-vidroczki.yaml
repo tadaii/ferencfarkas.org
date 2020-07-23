@@ -1,29 +1,66 @@
-id: 0008-vidroczki
-date: 2019-04-08T21:36:00+00:00
+---
+cast:
+  - role: Vidróczki
+    voice: bass-baritone
+  - role: Eszter
+    voice: mezzo
+  - role: Harkányi Erzsébet
+    voice: soprano
+  - role: Kis Anna
+    voice: soprano
+  - role: Marsó Lenci
+    voice: bass
+  - role: Huntsch Konrád báró
+    voice: baritone
+  - role: Zsupi
+    voice: tenor
+  - role: Teca
+    voice: soprano
+  - role: Sisa Pista
+    voice: tenor
+  - role: Füzes
+    voice: bass
+  - role: Szögedi
+    voice: baritone
+  - role: Kivés
+    voice: tenor
+  - role: Gizella
+    voice: soprano
+  - role: Terézia
+    voice: mezzo
+  - role: Izabella
+    voice: mezzo
+  - role: Hajdu
+    voice: prose
 categories:
   - opera
-title:
-  main: pl
-  original: pl
-  sort:
-  - pl
-  translations:
-    pl: Vidróczki
-description: Popular romantic opera in 3 acts
-version: First version for the theatre
 composition_date: 1963-1964
-synopsis: The adventures and the death of Vidróczki, bandit from the Mátra country in the 19th century.
-setting: 3 (picc.), 2, 2 (cl.b.), 2 – 4, 3, 3, 0 – timp. batt. (3 ess) – arpa, pf., cel., zimb. ungh. – archi
+date: 2019-04-08T21:36:00.000Z
+description: Popular romantic opera in 3 acts
+duration: 112
+id: 0008-vidroczki
+libretto:
+  - In hungarian Ernő Innocent Vincze
+setting: '3 (picc.), 2, 2 (cl.b.), 2 – 4, 3, 3, 0 – timp. batt. (3 ess) – arpa, pf., cel., zimb. ungh. – archi'
 sources:
-  - type: score
-    owner_id: 0001-afp
-  - type: piano reduction
-    owner_id: 0001-afp
+  - owner_id: afp
+    type: score
+  - owner_id: afp
+    type: piano reduction
+synopsis: 'The adventures and the death of Vidróczki, bandit from the Mátra country in the 19th century.'
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Vidróczki
+version: First version for the theatre
 world_premiere:
   date: 1964
+  credits:
+    - Conducted by Viktor Vaszy
+    - 'Stage director: András Mikó'
+    - 'Stage design: Mátyás Varga'
+    - 'Costumes: Tivadar Márk'
   location: Open Air Festival of Szeged
-  detail: >
-    "Conducted by Viktor Vaszy,
-    Stage director: András Mikó,
-    Stage design: Mátyás Varga,
-    Costumes : Tivadar Márk"

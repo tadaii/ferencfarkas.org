@@ -1,0 +1,34 @@
+---
+categories:
+  - musical
+composition_date: 1971
+date: 2019-04-08T21:36:00.000Z
+description: Musical comedy in 3 acts based on the novel by Kálmán Mikszáth
+duration: 120
+id: 0010-a-noszty-fiu-esete-toth-marival
+libretto:
+  - 'In hungarian by András Benedek, Ferenc Karinthy, Dezsö Mészöly and Pál Zoltán'
+setting: '2, 1, 2, 1 – 2, 2, 1, 0 – timp., batt. – arpa, pf., cel. – archi'
+sources:
+  - owner_id: afp
+    type: score
+  - owner_id: afp
+    type: piano reduction
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+    - en
+  translations:
+    en: The case of Noszty junior with Maria Tóth
+    hu: A noszty fiú esete Tóth Marival
+world_premiere:
+  credits:
+    - Conducted by Tamás Bródy
+    - 'Stage director: László Vámos'
+    - 'Stage design: Mátyás Varga'
+    - 'Costumes: Tivadar Márk'
+    - 'Choreography : Ágnes Roboz'
+  date: 1971
+  location: Budapest Operetta

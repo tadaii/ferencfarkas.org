@@ -1,17 +1,20 @@
-id: 0007-vidroczki
-date: 2019-04-08T21:36:00+00:00
+---
 categories:
   - opera
-title:
-  main: pl
-  original: pl
-  sort:
-  - pl
-  translations:
-    pl: Vidróczki
-description: "Popular romantic opera: musical ballad in 2 parts for the radio"
-version: Original version
 composition_date: 1958-1959
+date: 2019-04-08T21:36:00.000Z
+description: 'Popular romantic opera: musical ballad in 2 parts for the radio'
+id: 0007-vidroczki
+libretto:
+  - In hungarian Ernő Innocent Vincze
 sources:
-  - type: piano reduction
-    owner_id: 0001-afp
+  - owner_id: afp
+    type: piano reduction
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Vidróczki
+version: Original version

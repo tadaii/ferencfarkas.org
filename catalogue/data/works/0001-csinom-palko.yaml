@@ -1,20 +1,21 @@
-id: 0001-csinom-palko
-date: 2019-04-08T21:35:59+00:00
+---
 categories:
   - opera
+composition_date: 1949
+date: 2019-04-08T21:35:59.000Z
+description: Popular romantic opera
+id: 0001-csinom-palko
+nb: Ferenc Farkas received the “Kossuth Prize” for this version in 1950
+sources:
+  - owner_id: afp
+    type: score
 title:
   main: hu
   original: hu
   sort:
-  - hu
+    - hu
   translations:
     hu: Csínom Palkó
-description: Popular romantic opera
 version: Original version for the radio
-composition_date: 1949
-sources:
-  - type: score
-    owner_id: 0001-afp
 world_premiere:
-  date: 1950-01-22
-nb: Ferenc Farkas recieved the “Kossuth Prize” for this version in 1950
+  date: 1950-01-22T00:00:00.000Z

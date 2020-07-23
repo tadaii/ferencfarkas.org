@@ -1,1 +1,6 @@
--
+- id: emb
+  name: Edition Musica Budapest
+- id: ldz
+  name: VEB Lied der Zeit Musikverlag, Berlin
+- id: universal
+  name: Universal Edition

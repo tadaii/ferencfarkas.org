@@ -1,29 +1,53 @@
-id: 0006-the-magic-cupboard
-date: 2019-04-08T21:36:00+00:00
+---
+cast:
+  - role: Suleika
+    voice: soprano
+  - role: The Kadi
+    voice: bass-baritone
+  - role: The Grand Vizier
+    voice: baritone
+  - role: The Mufti
+    voice: bass
+  - role: The Carpenter master
+    voice: tenor
+  - role: 3 Odalisques
+    voice: soprano, mezzo-soprano, alto
+  - role: The carpenters
+  - role: Suleikas neighbours
+    voice: coro
 categories:
   - opera
+composition_date: '1984'
+date: 2019-04-08T21:36:00.000Z
+description: Opera in 2 acts based on a story from "Thausand-and-one nights"
+id: 0006-the-magic-cupboard
+libretto:
+  - In hungarian by Gyula Kunszery
+  - German adaptation by Karlheinz Gutheim
+publications:
+  - type: TODO
+    owner_id: emb
+reworks:
+  - 'The magic cupboard for orchestra: concert-overture from the opera "The magic cupboard"'
+  - Overture to a comedy for orchestra
+setting: '1, 1, 1, 1 – 2, 1, 1, 0 – 1 vl. I, 1 vl. II, 1 vla, 1 vlc., 1 cb.'
+synopsis: Suleika will set her husband free from the prison
 title:
   main: en
   original: hu
   sort:
-  - en
-  - hu
-  - de
-  - fr
+    - en
+    - hu
+    - de
+    - fr
   translations:
     de: Der Wunderschrank
     en: The magic cupboard
     fr: L’armoire magique
     hu: A büvös szekrény
-description: Opera in 2 acts based on a story from "Thausand-and-one nights"
 version: for chamber orchestra
-composition_date: "1984"
-synopsis: Suleika will set her husband free from the prison
-setting: 1, 1, 1, 1 – 2, 1, 1, 0 – 1 vl. I, 1 vl. II, 1 vla, 1 vlc., 1 cb.
-reworks:
-  - "The magic cupboard for orchestra: concert-overture from the opera \"The magic cupboard\""
-  - Overture to a comedy for orchestra
 world_premiere:
   date: 1984
-  location: Opera Studio, Zürich
-  detail: Conducted by Tamás Blum
+  credits:
+    - Conducted by Tamás Blum
+  location: 'Opera Studio, Zürich'

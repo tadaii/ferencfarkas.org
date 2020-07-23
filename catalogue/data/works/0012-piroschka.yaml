@@ -1,0 +1,25 @@
+---
+categories:
+  - musical
+composition_date: 1964
+date: 2019-04-08T21:36:00.000Z
+description: Musical comedy in 2 acts and 7 scenes based on a subject by Hugo Hartung
+duration: 120
+id: 0012-piroschka
+libretto:
+  - In german by Karlheinz Gutheim
+publications:
+  - owner_id: universal
+    type: TODO
+setting: '2, 1, 2, 1 – 2, 2, 1, 0 – timp., batt. – arpa, pf. – archi - tárogató or sass. viola on stage'
+synopsis: 'Turn of the 20th century: a german student falls in love with a hungarian girl, Piroschka'
+title:
+  main: de
+  original: de
+  sort:
+    - de
+  translations:
+    de: Piroschka
+world_premiere:
+  date: 1970
+  location: 'Stadttheater, Kaiserslautern'

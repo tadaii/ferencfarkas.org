@@ -190,7 +190,9 @@ article > .container {
 
 .tag {
   padding: .3rem .7rem !important;
+  font-family: $f-sans;
   font-size: .8rem;
+  line-height: 1rem;
   font-weight: 500;
   text-transform: uppercase;
   white-space: nowrap;
@@ -204,7 +206,7 @@ article > .container {
   }
 
   section.invert & {
-    color: $c-gray-darker;
+    color: $c-black;
   }
 
   section.black & {
