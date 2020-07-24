@@ -24,60 +24,113 @@
   }
 
   .work {
-    display: flex;
-    flex-direction: column;
-    padding: .5rem 1rem 1.5rem;
-    border-bottom: 1px dashed rgba(0,0,0, .2);
-    will-change: background-color;
-    transition: background-color .2s linear;
-
-    &:hover {
-      background-color: rgba(255,255,255, .1);
-    }
-
-    &.open {
-      .work--fields {
-        display: block;
-      }
-    }
-
     .black & {
       border-bottom-color: rgba(255,255,255, .2);
     }
 
-    &--title {
-      margin: .5rem .5rem .5rem 0;
+    .tag {
+      float: right;
+      margin: 0 0 .5rem .5rem;
+    }
 
-      .tag {
-        float: right;
+    &--item-container {
+      padding: 1rem;
+      border-bottom: 1px dashed rgba(0,0,0, .2);
+      will-change: background-color;
+      transition: background-color .2s linear;
+
+      &:hover {
+        background-color: rgba(255,255,255, .1);
+      }
+    }
+
+    &--item-work,
+    &--item-version {
+      position: relative;
+      margin: 1rem 0 0 1.5rem;
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: .125rem;
+        left: -1.5rem;
+        width: 1.5rem;
+        height: 1.2rem;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 14 25' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.868238 12.283L12.8675 24.2822L13.8674 23.2823L2.86737 12.2822L13.8674 1.28215L12.8675 0.28221L0.868241 12.2815L0.868984 12.2822L0.868238 12.283Z' fill='black'%3E%3C/path%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-size: .4rem;
+        background-position: center;
+        transform: rotate(180deg);
+        will-change: transform;
+        transition: transform .1s ease-in;
+        cursor: pointer;
       }
 
-      span {
-        display: block;
-        font-size: 1rem;
-        opacity: .85;
+      .work--title,
+      .work--description,
+      .work--version {
+        cursor: pointer;
+      }
 
-        &:first-of-type {
-          margin-top: .5rem;
+      &.open {
+        & > .work--fields {
+          display: block;
+        }
+
+        &:before {
+          transform: rotate(270deg);
         }
       }
     }
 
+    &--item-work {
+      &:before {
+        top: .075rem;
+      }
+
+      .work--title {
+        margin-top: 1.5rem;
+        font-size: 1.1rem;
+
+        span {
+          font-size: .9rem;
+        }
+      }
+    }
+
+    &--item-version {
+      margin-left: 1rem;
+    }
+
+    &--title {
+      margin: 0;
+
+      span {
+        display: block;
+        margin-top: .25rem;
+        font-size: 1rem;
+        opacity: .85;
+      }
+    }
+
+    &--description,
+    &--version {
+      margin: .25rem 0 .5rem;
+    }
+
     &--description {
-      margin-top: .5rem;
-      font-size: 1.2rem;
+      font-size: 1.15rem;
       line-height: 1.2;
     }
 
     &--version {
-      margin-top: .3rem;
       font-size: .95rem;
       font-weight: 500;
     }
 
     &--fields {
       display: none;
-      margin: 1rem 0 0 0;
+      margin: 1rem 0 2rem;
     }
 
     &--field {
@@ -121,7 +174,7 @@
       }
 
       dd {
-        font-size: 1.1rem;
+        font-size: 1.05rem;
       }
 
       ul {

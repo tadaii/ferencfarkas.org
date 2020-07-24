@@ -20,7 +20,8 @@ const getWorks = async dir => {
   const files = await readdir(dir)
 
   for (file of files.filter(f => f.endsWith('.yaml'))) {
-    works.push(await yaml2json(join(dir, file)))
+    const work = await yaml2json(join(dir, file))
+    works.push({ categories: [], ...work })
   }
 
   return works

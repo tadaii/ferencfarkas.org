@@ -1,0 +1,38 @@
+---
+date: 2019-04-08T21:36:00.000Z
+id: panegyricus
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Panegyricus
+works:
+  - categories:
+      - ballet
+    composition_date: 1971-1972
+    description: 'Scenic play in 3 acts for soprano solo, 3 male voices, choir, actors, dancers and orchestra'
+    duration: 9600
+    id: panegyricus-1
+    nb: Commission of the town of Pécs for the 5th centenary of Janus Pannonius’death
+    reworks:
+      - 'Vita poetae, cantata'
+      - 'La cour du roi Matthias for clarinet, bassoon, horn and string quintet'
+    setting: '1 (picc.), 1 (c.i.), 1, 1 – 2, 1, 1, 0 – timp., batt. – arpa, pf. – archi: vl., vla., vlc., cb. (tutti, soli)'
+    sources:
+      - owner_id: afp
+        type: score
+      - owner_id: afp
+        type: piano reduction
+    synopsis: Episodes from the life of the poet Janus Pannonius (1434-1472)
+    texts:
+      - In latin by Janus Pannonius
+      - In italian by Lorenzo de Medici
+      - In hungarian (dialogues) by Miklós Gyárfás
+    world_premiere:
+      credits:
+        - Conducted by Tamás Breitner
+        - Choreography by Imre Eck
+      date: 1972
+      location: National Theatre of Pécs

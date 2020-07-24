@@ -12,7 +12,8 @@
     'categories',
     'title',
     'description',
-    'version'
+    'version',
+    'works'
   ]
 
   const app = hyperapp.app
@@ -47,6 +48,8 @@
   window.addEventListener('scroll', () => {
     const refinePanel = document.querySelector('.refine')
     const refinePanelWrapper = document.querySelector('.refine--wrapper')
+
+    if (!refinePanel) return
 
     if (refinePanel.getBoundingClientRect().y <= 0) {
       refinePanelWrapper.classList.add('sticked')
@@ -117,16 +120,17 @@
         ]))
     )
 
-  const queryView = (focused, scope) => h(
-    'div', { class: [`search--query-wrapper ${focused ? 'focused' : ''}`]
+  const queryView = state => h(
+    'div', { class: [`search--query-wrapper ${state.focused ? 'focused' : ''}`]
   }, [
     h('input', {
       type: 'search',
       name: 'query',
-      placeholder: `Filter ${SCOPES[scope].toLowerCase()} with keywords`,
+      value: state.query,
+      placeholder: `Filter ${SCOPES[state.scope].toLowerCase()} with keywords`,
       oninput: [onSearchInput, event => event.target.value],
-      onfocus: (state ,event) => ({ ...state, focused: true }),
-      onblur: (state ,event) => ({ ...state, focused: false })
+      onfocus: (state, event) => ({ ...state, focused: true }),
+      onblur: (state, event) => ({ ...state, focused: false })
     }),
     h('button', { type: 'submit' }, ['Search'])
   ])
@@ -213,7 +217,9 @@
       case 'world_premiere':
         return workFieldWorldPremiere(value)
       default:
-        return [typeof value === 'string' ? value : JSON.stringify(value)]
+        return [
+          typeof value === 'string' || typeof value === 'number' ? value : ''
+        ]
     }
   }
 
@@ -224,24 +230,51 @@
       h('dd', {}, workFieldValue({ key, value, owners, publishers }))
     ])
 
-  const workFields = ({ work, fields, i18n, owners, publishers }) => Object
-    .entries(work)
-    .filter(([ key, value ]) => !SKIP_WORK_KEYS.includes(key))
-    .sort((a,b) => {
-      const posA = fields.indexOf(a[0])
-      const posB = fields.indexOf(b[0])
-      return posA > posB ? 1 : posA < posB ? -1 : 0
-    })
-    .map(([ key, value ]) => workField({
-      label: i18n.fields[key],
-      key,
-      value,
-      owners,
-      publishers
-    }))
+  const workFields = (state, work) => {
+    const fields = state.fields
+    const i18n = state.i18n
+    const owners = state.owners
+    const publishers = state.publishers
 
-  const workTitleView = (state, work) => h('h3', { class: 'work--title' }, [
-    categoryTags(state, work),
+    const workFields = Object
+      .entries(work)
+      .filter(([ key, value ]) => !SKIP_WORK_KEYS.includes(key))
+
+    if (!workFields.length) return
+
+    return h('dl', { class: 'work--fields' }, workFields
+      .sort((a,b) => {
+        const posA = fields.indexOf(a[0])
+        const posB = fields.indexOf(b[0])
+        return posA > posB ? 1 : posA < posB ? -1 : 0
+      })
+      .map(([ key, value ]) => workField({
+        label: i18n.fields[key],
+        key,
+        value,
+        owners,
+        publishers
+      }))
+    )
+  }
+
+  const onWorkClick = (state, event) => {
+    if (!event.target.classList.contains('tag')) {
+      let container = event.target
+      while (container && !container.classList.contains('work')) {
+        container = container.parentNode
+      }
+      container.classList.toggle('open')
+    }
+
+    event.preventDefault()
+    return state
+  }
+
+  const workTitleView = (state, work) => h('h3', {
+    class: 'work--title',
+    onclick: onWorkClick
+  }, [
     work.title.translations[work.title.main],
     work.title.sort.length > 1
       ? h('span', {}, [work.title.sort
@@ -252,40 +285,28 @@
       : ''
   ])
 
-  const workView = (work, state) => h('li', {}, [
-    h('div', {
-      class: 'work',
-      id: work.id,
-      href: '#',
-      onclick: (state, event) => {
-        if (!event.target.classList.contains('tag')) {
-          let container = event.target
-
-          while (container && !container.classList.contains('work')) {
-            container = container.parentNode
-          }
-
-          container.classList.toggle('open')
-        }
-
-        event.preventDefault()
-        return state
-      }
+  const workView = (work, state, type) => {
+    return h('li', {
+      class: `work work--item-${type || 'container'}`,
+      id: work.id
     }, [
-      workTitleView(state, work),
-      work.version
-        ? h('div', { class: 'work--version' }, [ work.version ])
-        : '',
-      h('div', { class: 'work--description' }, [ work.description ]),
-      h('dl', { class: 'work--fields' }, workFields({
-        work,
-        fields: state.fields,
-        i18n: state.i18n,
-        owners: state.owners,
-        publishers: state.publishers
-      }))
+      work.categories && categoryTags(state, work),
+      work.title && workTitleView(state, work),
+      work.version && h('div', {
+        class: 'work--version',
+        onclick: onWorkClick
+      }, [ work.version ]),
+      work.description && h('div', {
+        class: 'work--description',
+        onclick: onWorkClick
+      }, [ work.description ]),
+      workFields(state, work),
+      work.works && h('ul', { class: 'works--list' }, work.works
+        .map(subWork => workView(subWork, state, 'work'))),
+      work.versions && h('ul', { class: 'works--list' }, work.versions
+        .map(version => workView(version, state, 'version')))
     ])
-  ])
+  }
 
   const worksView = state => h(
     'ul', { class: 'works--list' }, state.results
@@ -298,6 +319,10 @@
 
   const getFacets = (state, key, formatLabel) => {
     return Object.entries(state.results.reduce((facets, item) => {
+      if (!item[key].length) {
+        return facets
+      }
+
       const facet = item[key]
       const label = typeof formatLabel === 'function'
         ? formatLabel(facet)
@@ -309,7 +334,8 @@
         facets[facet] = { count: 1, label, value: facet }
       }
       return facets
-    }, {})).map(([ subKey, facet ]) => {
+    }, {}))
+    .map(([ subKey, facet ]) => {
       const facetKey = `${key}.${subKey}`
       return h('li', {}, [
         h('label', {}, [
@@ -329,7 +355,7 @@
   }
 
   const facetCategories = state => h('ul', {}, getFacets(
-    state, 'categories', facet => state.categories[facet].tag
+    state, 'categories', facet => state.categories[facet] && state.categories[facet].tag
   ))
 
   const facetsView = state => [
@@ -517,7 +543,7 @@
       window.state = state
       return container([
         scopeView(state.scope),
-        queryView(state.focused, state.scope),
+        queryView(state),
         // fieldsView(state.fields),
         resultsView(state),
         paginationView({

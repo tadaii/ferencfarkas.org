@@ -1,0 +1,47 @@
+
+---
+date: 2019-04-08T21:36:00.000Z
+id: a-harom-csavargo
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+    - en
+  translations:
+    en: The three vagabonds
+    hu: A három csavargó
+works:
+  - categories:
+      - ballet
+    composition_date: 1932-1933
+    description: Ballet in one act
+    duration: 1620
+    id: a-harom-csavargo-1
+    setting: '1, 1, 2, 1 – 2, 1, 0, 0 – timp., batt. – archi'
+    sources:
+      - owner_id: afp
+        type: score
+      - owner_id: afp
+        type: performance material
+  - categories:
+      - orchestra
+    composition-date: 1932-1933
+    description: Suite from the ballet "A három csavargó / The three vagabonds"
+    duration: 1620
+    id: a-harom-csavargo-2
+    setting: '1, 1, 2, 1 - 2, 1, 0, 0 - timp., batt. - archi'
+    sources:
+      - owner_id: afp
+        type: score
+      - owner_id: afp
+        type: performance material
+    title:
+      main: hu
+      original: hu
+      sort:
+        - hu
+        - en
+      translations:
+        en: Suite “The three vagabonds"
+        hu: Suite "A három csavargó”
