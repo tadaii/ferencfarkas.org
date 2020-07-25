@@ -2,8 +2,14 @@
   'use strict'
 
   const SCOPES = {
-    full: 'Full catalogue',
-    popular: 'Most popular works'
+    full: {
+      label: 'Full catalogue',
+      class: 'highlight'
+    },
+    popular: {
+      label: 'Most popular works',
+      class: 'invert'
+    }
   }
 
   const SKIP_WORK_KEYS = [
@@ -12,7 +18,7 @@
     'categories',
     'title',
     'description',
-    'version',
+    'versions',
     'works'
   ]
 
@@ -104,12 +110,12 @@
 
   const scopeView = scope => h(
     'fieldset', { class: 'catalogue--scope' }, Object.entries(SCOPES)
-      .map(([ value, label ]) => h(
+      .map(([ value, { label } ]) => h(
         'label', { class: `inline ${scope === value ? 'selected': ''}` }, [
           h('input', {
             type: 'radio',
             name: 'scope',
-            value: value,
+            value,
             checked: value === scope,
             onchange: (state, event) => ({
               ...state,
@@ -127,7 +133,7 @@
       type: 'search',
       name: 'query',
       value: state.query,
-      placeholder: `Filter ${SCOPES[state.scope].toLowerCase()} with keywords`,
+      placeholder: `Filter ${SCOPES[state.scope].label.toLowerCase()} with keywords`,
       oninput: [onSearchInput, event => event.target.value],
       onfocus: (state, event) => ({ ...state, focused: true }),
       onblur: (state, event) => ({ ...state, focused: false })
@@ -317,45 +323,59 @@
       .map(work => workView(work, state))
   )
 
-  const getFacets = (state, key, formatLabel) => {
-    return Object.entries(state.results.reduce((facets, item) => {
-      if (!item[key].length) {
+  const buildFacets = (state, key, formatLabel) => {
+    const build = (results, key, formatLabel) =>
+      results.reduce((facets, item) => {
+        const addFacet = facet => {
+          const label = typeof formatLabel === 'function'
+            ? formatLabel(facet)
+            : key
+
+          if (facets[facet]) {
+            facets[facet].count++
+          } else {
+            facets[facet] = { count: 1, label, value: facet }
+          }
+        }
+
+        if (item.works) {
+          const subFacets = build(item.works, key, formatLabel)
+          for (const facet of Object.keys(subFacets)) {
+            addFacet(facet)
+          }
+        }
+
+        if (!item[key]) return facets
+        if (!item[key].length) return facets
+
+        addFacet(item[key])
+
         return facets
-      }
+      }, {})
 
-      const facet = item[key]
-      const label = typeof formatLabel === 'function'
-        ? formatLabel(facet)
-        : key
-
-      if (facets[facet]) {
-        facets[facet].count++
-      } else {
-        facets[facet] = { count: 1, label, value: facet }
-      }
-      return facets
-    }, {}))
-    .map(([ subKey, facet ]) => {
-      const facetKey = `${key}.${subKey}`
-      return h('li', {}, [
-        h('label', {}, [
-          h('input', {
-            type: 'checkbox',
-            name: facetKey,
-            checked: state.facets[facetKey],
-            onclick: (state, event) => {
-              return facetFilter({ state, field: key, value: facet.value[0] })
-            }
-          }),
-          h('span', { class: 'facet--name' }, [ facet.label ]),
-          h('span', { class: 'facet--count' }, [ facet.count ])
+    return Object.entries(build(state.results, key, formatLabel))
+      .sort()
+      .map(([ subKey, facet ]) => {
+        const facetKey = `${key}.${subKey}`
+        return h('li', {}, [
+          h('label', {}, [
+            h('input', {
+              type: 'checkbox',
+              name: facetKey,
+              checked: state.facets[facetKey],
+              onclick: (state, event) => {
+                return facetFilter({ state, field: key, value: facet.value[0] })
+              }
+            }),
+            h('span', { class: 'facet--name' }, [ facet.label ]),
+            h('span', { class: 'facet--count' }, [ facet.count ])
+          ])
         ])
-      ])
-    })
+      })
   }
 
-  const facetCategories = state => h('ul', {}, getFacets(
-    state, 'categories', facet => state.categories[facet] && state.categories[facet].tag
+  const facetCategories = state => h('ul', {}, buildFacets(
+    state, 'categories', facet => state.categories[facet]?.tag
   ))
 
   const facetsView = state => [
@@ -382,7 +402,9 @@
 
   const resultsView = state => h('div', { class: 'works' }, [
     h('div', { class: 'works--count' }, [
-      h('span', { class: 'works--count-amount' }, [ state.results.length ]),
+      h('span', { class: 'works--count-amount' }, [
+        state.results.reduce((total, r) => total + r.works.length, 0)
+      ]),
       ' works'
     ]),
     h('div', { class: 'row' }, [
@@ -445,11 +467,6 @@
   }
 
   const customizeSection = (state, container) => {
-    const scopeClasses = {
-      full: 'highlight',
-      popular: 'focus'
-    }
-
     let section = container
 
     while (section.tagName.toLowerCase() !== 'section') {
@@ -461,11 +478,11 @@
     }
 
     [document.body, section].forEach(el => {
-      Object.values(scopeClasses).forEach(className => {
-        el.classList.remove(className)
+      Object.values(SCOPES).forEach(scope => {
+        el.classList.remove(scope.class)
       })
 
-      el.classList.add(scopeClasses[state.scope])
+      el.classList.add(SCOPES[state.scope].class)
     })
 
     return state
