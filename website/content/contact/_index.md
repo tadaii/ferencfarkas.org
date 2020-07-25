@@ -10,7 +10,7 @@ menu:
     weight: 400
 ---
 
-{{% section invert %}}
+{{% section %}}
 ## Contact
 
 {{% row %}}
