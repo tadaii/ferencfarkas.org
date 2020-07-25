@@ -26,7 +26,7 @@ works:
         type: performance material
   - categories:
       - orchestra
-    composition-date: 1932-1933
+    composition_date: 1932-1933
     description: Suite from the ballet "A három csavargó / The three vagabonds"
     duration: 1620
     id: a-harom-csavargo-2
