@@ -12,7 +12,7 @@
     align-items: center;
     font-size: 1.1rem;
     border: none;
-    background: none;
+    background: transparent;
     border-radius: .25rem;
     cursor: pointer;
     box-shadow: none;
@@ -25,6 +25,10 @@
       font-weight: 500;
       color: $c-white;
       background-color: rgba(0,0,0, .5);
+    }
+
+    .invert &:not(.active):not(:hover) {
+      background: transparent;
     }
   }
 }

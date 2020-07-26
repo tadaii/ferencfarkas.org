@@ -8,7 +8,7 @@
     },
     popular: {
       label: 'Most popular works',
-      class: 'invert'
+      class: 'focus'
     }
   }
 
