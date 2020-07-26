@@ -2,5 +2,7 @@
   name: Edition Musica Budapest
 - id: ldz
   name: VEB Lied der Zeit Musikverlag, Berlin
+  shortName: Lied der Zeit
 - id: universal
   name: Universal Edition
+  shortName: Universal

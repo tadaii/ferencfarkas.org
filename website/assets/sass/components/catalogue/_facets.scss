@@ -3,10 +3,9 @@
   max-height: calc(100% - 4.5rem);
 
   h4 {
-    margin: 0 0 .75rem;
+    margin: .25rem 0 .75rem;
     padding: 1rem 0 .25rem;
     font-size: 1.1rem;
-    border-top: 1px dashed rgba(0,0,0, .2);
 
     .black & {
       border-top-color: rgba(255,255,255, .2);

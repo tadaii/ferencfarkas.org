@@ -64,13 +64,18 @@
     }
   })
 
-  const search = state => {
-    const results = state.idx.search(state.query)
+  const searchIdx = (works, idx, query) => {
+    const results = idx.search(query)
     const r = results.map(result => result.ref)
+    return works.filter(work => r.includes(work.id))
+  }
 
+  const search = state => {
+    const results = searchIdx(state.works, state.idx, state.query)
     return {
       ...state,
-      results: state.works.filter(work => r.includes(work.id)),
+      results,
+      facets: buildFacets({ ...state, results }),
       currentPage: 0
     }
   }
@@ -84,21 +89,27 @@
     return search(state)
   }
 
-  const facetFilter = ({ state, field, value }) => {
-    const key = `${field}.${value}`
-    const facet = state.facets[key]
-    state.facets[key] = facet === undefined ? true : !facet
+  const filterResults = state => {
+    const activeFacets = Object.entries(state.facets)
+      .reduce((allActiveFacets, [key, def]) => {
+        const activeFacets = Object.entries(def.facets)
+          .filter(([key, { active }]) => active)
+          .map(([value]) => `${key}.${value}`)
+
+        return [
+          ...allActiveFacets,
+          ...activeFacets
+        ]}, [])
 
     return {
       ...state,
-      results: state.facets[key]
-        ? state.results.filter(work => {
-            if (Array.isArray(work[field])) {
-              return work[field].includes(value)
-            }
-          })
-        : search(state).results,
-      currentPage: 0
+      results: state.results.map(work => {
+        const filtered =
+          activeFacets.length &&
+          !work.facets.some(f => activeFacets.includes(f))
+
+        return { ...work, filtered }
+      })
     }
   }
 
@@ -320,70 +331,36 @@
         state.currentPage * state.resultsPerPage,
         (state.currentPage + 1) * state.resultsPerPage
       )
+      .filter(work => !work.filtered)
       .map(work => workView(work, state))
   )
 
-  const buildFacets = (state, key, formatLabel) => {
-    const build = (results, key, formatLabel) =>
-      results.reduce((facets, item) => {
-        const addFacet = facet => {
-          const label = typeof formatLabel === 'function'
-            ? formatLabel(facet)
-            : key
-
-          if (facets[facet]) {
-            facets[facet].count++
-          } else {
-            facets[facet] = { count: 1, label, value: facet }
-          }
-        }
-
-        if (item.works) {
-          const subFacets = build(item.works, key, formatLabel)
-          for (const facet of Object.keys(subFacets)) {
-            addFacet(facet)
-          }
-        }
-
-        if (!item[key]) return facets
-        if (!item[key].length) return facets
-
-        addFacet(item[key])
-
-        return facets
-      }, {})
-
-    return Object.entries(build(state.results, key, formatLabel))
-      .sort()
-      .map(([ subKey, facet ]) => {
-        const facetKey = `${key}.${subKey}`
-        return h('li', {}, [
-          h('label', {}, [
-            h('input', {
-              type: 'checkbox',
-              name: facetKey,
-              checked: state.facets[facetKey],
-              onclick: (state, event) => {
-                return facetFilter({ state, field: key, value: facet.value[0] })
-              }
-            }),
-            h('span', { class: 'facet--name' }, [ facet.label ]),
-            h('span', { class: 'facet--count' }, [ facet.count ])
-          ])
-        ])
-      })
-  }
-
-  const facetCategories = state => h('ul', {}, buildFacets(
-    state, 'categories', facet => state.categories[facet]?.tag
-  ))
-
-  const facetsView = state => [
-    h('div', { class: 'facets categories' }, [
-      h('h4', {}, [ 'Categories' ]),
-      facetCategories(state)
-    ])
-  ]
+  const facetsView = state => Object.entries(state.facets)
+    .filter(([ key, def ]) => Object.keys(def.facets).length)
+    .map(([ key, def ]) => h(
+      'div', { class: `facets ${key}` }, [
+        h('h4', {}, [def.label]),
+        h('ul', {}, Object.entries(def.facets)
+          .sort()
+          .map(([ fKey, facet ]) => h(
+            'li', {}, [
+              h('label', {}, [
+                h('input', {
+                  type: 'checkbox',
+                  name: `${key}.${fKey}`,
+                  checked: facet.active,
+                  onclick: (state, event) => {
+                    facet.active = event.target.checked
+                    return filterResults(state)
+                  }
+                }),
+                h('span', { class: 'facet--name' }, [ facet.label ]),
+                h('span', { class: 'facet--count' }, [ facet.count ])
+              ])
+            ])
+          )
+        )
+      ]))
 
   const refineHandlerView = () => h('a', {
     class: 'refine--handler',
@@ -403,7 +380,9 @@
   const resultsView = state => h('div', { class: 'works' }, [
     h('div', { class: 'works--count' }, [
       h('span', { class: 'works--count-amount' }, [
-        state.results.reduce((total, r) => total + r.works.length, 0)
+        state.results
+          .filter(result => !result.filtered)
+          .reduce((total, r) => total + r.works.length, 0)
       ]),
       ' works'
     ]),
@@ -412,14 +391,18 @@
       h('div', { class: 'column refine' }, [
         h('div', { class: 'refine--wrapper' }, [
           refineHandlerView(),
-          h('h3', {}, ['Refine results']),
-          facetsView(state)
+          h('div', { class: 'refine--inner' }, [
+            h('h3', {}, ['Refine results']),
+            facetsView(state)
+          ])
         ])
       ])
     ])
   ])
 
-  const paginationView = ({ total, size, current }) => {
+  const paginationView = ({ results, size, current }) => {
+    const total = results.filter(result => !result.filtered).length
+
     if (total <= size) {
       return
     }
@@ -458,7 +441,7 @@
             class: page === current + 1 && 'active',
             onclick: (state, event) => {
               event.preventDefault()
-              return { ...state, currentPage: page-1 }
+              return { ...state, currentPage: page - 1 }
             }
           }, [ page ])
         ]
@@ -488,20 +471,102 @@
     return state
   }
 
+  const buildFacet = (group, results, getValue, getLabel) => results
+    .reduce((facets, item) => {
+      const add = values => {
+        for (const value of values) {
+          const label = getLabel(value)
+
+          if (facets[value]) {
+            facets[value].count++
+          } else {
+            facets[value] = { count: 1, label, value, active: false }
+          }
+
+          if (!item.facets) {
+            item.facets = []
+          }
+
+          const workFacet = `${group}.${value}`
+
+          if (!item.facets.includes(workFacet)) {
+            item.facets.push(workFacet)
+          }
+        }
+      }
+
+      if (item.works || item.versions) {
+        const subFacets = buildFacet(
+          group,
+          item.works ? item.works : item.versions,
+          getValue,
+          getLabel
+        )
+
+        Object.values(subFacets).forEach(({ count, value }) => {
+          const arr = []
+          for(var i = 0; i < count; i++) {
+            arr.push(value)
+          }
+          add(arr)
+        })
+      }
+
+      const values = getValue(item)
+
+      if (!values) return facets
+      if (!values.length) return facets
+
+      add(values)
+
+      return facets
+    }, {})
+
+  const buildFacets = state => ({
+    c: {
+      label: 'Categories',
+      facets: buildFacet(
+        'c',
+        state.results,
+        item => item.categories,
+        facet => state.categories[facet]?.tag
+      )
+    },
+    p: {
+      label: 'Publishers',
+      facets: buildFacet(
+        'p',
+        state.results,
+        item => {
+          // TODO only count 1 for same publisher but different types (e.g. ldz on Paradies der Schwiegersöhne)
+          return item.publications?.map(p => p.owner_id)
+        },
+        facet =>
+          state.publishers[facet]?.shortName ||
+          state.publishers[facet]?.name
+      )
+    }
+  })
+
   const loadCatalogue = (state, catalogue) => ({
     ...state,
     categories: catalogue.categories,
     works: catalogue.works,
     owners: catalogue.owners,
     publishers: catalogue.publishers,
-    fields: catalogue.fields,
-    results: catalogue.works
+    fields: catalogue.fields
   })
 
-  const loadIndex = (state, index) => ({
-    ...state,
-    idx: lunr.Index.load(index)
-  })
+  const loadIndex = (state, index) => {
+    const idx = lunr.Index.load(index)
+    const results = searchIdx(state.works, idx, state.query)
+    return {
+      ...state,
+      idx,
+      results,
+      facets: buildFacets({ ...state, results })
+    }
+  }
 
   const loadI18n = (state, i18n) => ({ ...state, i18n })
 
@@ -564,7 +629,7 @@
         // fieldsView(state.fields),
         resultsView(state),
         paginationView({
-          total: state.results.length,
+          results: state.results,
           size: state.resultsPerPage,
           current: state.currentPage
         })
