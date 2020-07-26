@@ -168,7 +168,9 @@
       href: '#',
       onclick: (state, event) => {
         event.preventDefault()
-        return facetFilter({state, field: 'categories', value: category})
+        const active = state.facets.c.facets[category].active
+        state.facets.c.facets[category].active = !active
+        return filterResults(state)
       }
     },
     state.categories[category].tag))
