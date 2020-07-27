@@ -101,15 +101,23 @@
           ...activeFacets
         ]}, [])
 
+    const results = state.results.map(work => {
+      let filtered = false
+      for (const facet of activeFacets) {
+        if (!work.facets.includes(facet)) {
+          filtered = true
+          break
+        }
+      }
+
+      return { ...work, filtered }
+    })
+
     return {
       ...state,
-      results: state.results.map(work => {
-        const filtered =
-          activeFacets.length &&
-          !work.facets.some(f => activeFacets.includes(f))
-
-        return { ...work, filtered }
-      })
+      results,
+      activeFacets,
+      facets: buildFacets({ ...state, results, activeFacets })
     }
   }
 
@@ -329,11 +337,11 @@
 
   const worksView = state => h(
     'ul', { class: 'works--list' }, state.results
+      .filter(work => !work.filtered)
       .slice(
         state.currentPage * state.resultsPerPage,
         (state.currentPage + 1) * state.resultsPerPage
       )
-      .filter(work => !work.filtered)
       .map(work => workView(work, state))
   )
 
@@ -473,23 +481,24 @@
     return state
   }
 
-  const buildFacet = (group, results, getValue, getLabel) => results
-    .reduce((facets, item) => {
+  const buildFacet = ({ group, results, activeFacets, getValue, getLabel }) => {
+    return results.reduce((facets, item) => {
       const add = values => {
         for (const value of values) {
+          const workFacet = `${group}.${value}`
           const label = getLabel(value)
 
           if (facets[value]) {
             facets[value].count++
           } else {
-            facets[value] = { count: 1, label, value, active: false }
+            facets[value] = {
+              count: 1, label, value, active: activeFacets.includes(workFacet)
+            }
           }
 
           if (!item.facets) {
             item.facets = []
           }
-
-          const workFacet = `${group}.${value}`
 
           if (!item.facets.includes(workFacet)) {
             item.facets.push(workFacet)
@@ -498,12 +507,13 @@
       }
 
       if (item.works || item.versions) {
-        const subFacets = buildFacet(
+        const subFacets = buildFacet({
           group,
-          item.works ? item.works : item.versions,
+          results: item.works ? item.works : item.versions,
+          activeFacets,
           getValue,
           getLabel
-        )
+        })
 
         Object.values(subFacets).forEach(({ count, value }) => {
           const arr = []
@@ -523,32 +533,39 @@
 
       return facets
     }, {})
+  }
 
-  const buildFacets = state => ({
-    c: {
-      label: 'Categories',
-      facets: buildFacet(
-        'c',
-        state.results,
-        item => item.categories,
-        facet => state.categories[facet]?.tag
-      )
-    },
-    p: {
-      label: 'Publishers',
-      facets: buildFacet(
-        'p',
-        state.results,
-        item => {
-          // TODO only count 1 for same publisher but different types (e.g. ldz on Paradies der Schwiegersöhne)
-          return item.publications?.map(p => p.owner_id)
-        },
-        facet =>
-          state.publishers[facet]?.shortName ||
-          state.publishers[facet]?.name
-      )
+  const buildFacets = state => {
+    const results = [...state.results.filter(result => !result.filtered)]
+    const activeFacets = [...state.activeFacets]
+    return {
+      c: {
+        label: 'Categories',
+        facets: buildFacet({
+          group: 'c',
+          results,
+          activeFacets,
+          getValue: item => item.categories,
+          getLabel: facet => state.categories[facet]?.tag
+        })
+      },
+      p: {
+        label: 'Publishers',
+        facets: buildFacet({
+          group: 'p',
+          results,
+          activeFacets,
+          getValue: item => {
+            // TODO only count 1 for same publisher but different types (e.g. ldz on Paradies der Schwiegersöhne)
+            return item.publications?.map(p => p.owner_id)
+          },
+          getLabel: facet =>
+            state.publishers[facet]?.shortName ||
+            state.publishers[facet]?.name
+        })
+      }
     }
-  })
+  }
 
   const loadCatalogue = (state, catalogue) => ({
     ...state,
@@ -599,6 +616,7 @@
     works: [],
     results: [],
     facets: {},
+    activeFacets: [],
     idx: {}
   }, [
     fetchJSON,
