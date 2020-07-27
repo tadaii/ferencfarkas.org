@@ -6,7 +6,7 @@ date: 2019-03-17T18:18:43Z
 ---
 
 {{% section black %}}
-## New version coming in May 2020!
+## New version coming soon...
 
 We have completely reworked the website for a better user experience.
 
