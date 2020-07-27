@@ -15,7 +15,7 @@
     "hyperapp": "^2.0.8",
     "lunr": "^2.3.8",
     "lunr-languages": "^1.4.0",
-    "pdfmake": "^0.1.66",
+    "pdfmake": "^0.1.67",
     "shelljs": "^0.8.4",
     "wavesurfer.js": "^4.0.1",
     "yaml": "^1.10.0"
