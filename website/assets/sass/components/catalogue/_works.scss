@@ -103,18 +103,19 @@
       }
     }
 
-    &--description {
-      margin-left: 1rem;
-    }
-
     &--description,
     &--version {
       padding: .5rem 0;
     }
 
     &--description {
+      margin-left: 1.25rem;
       font-size: 1.15rem;
       line-height: 1.2;
+    }
+
+    &--version {
+      margin-left: .25rem;
     }
 
     &--note {

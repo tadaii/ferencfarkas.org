@@ -13,11 +13,12 @@
   }
 
   const SKIP_WORK_KEYS = [
-    'categories',
+    'category',
     'date',
     'default',
     'description',
     'facets',
+    'genre',
     'id',
     'isDefaultVersion',
     'title',
@@ -530,7 +531,7 @@
           results,
           activeFacets,
           getValue: item => [item.genre],
-          getLabel: facet => state.genres[facet]?.tag
+          getLabel: facet => state.genres[facet]?.title
         })
       },
       c: {
@@ -540,7 +541,7 @@
           results,
           activeFacets,
           getValue: item => [item.category],
-          getLabel: facet => state.categories[facet]?.tag
+          getLabel: facet => state.categories[facet]?.title
         })
       },
       p: {
@@ -637,7 +638,7 @@
     view: state => {
       window.state = state
       return container([
-        scopeView(state.scope),
+        // scopeView(state.scope),
         queryView(state),
         // fieldsView(state.fields),
         resultsView(state),
