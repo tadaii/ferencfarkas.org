@@ -15,13 +15,27 @@ const yaml2json = async file => {
   return yaml.parse(content.toString())
 }
 
-const getWorks = async dir => {
+const getWorks = async ({ dir, genres, categories }) => {
   const works = []
   const files = await readdir(dir)
 
   for (file of files.filter(f => f.endsWith('.yaml'))) {
-    const work = await yaml2json(join(dir, file))
-    works.push({ categories: [], ...work })
+    let work = await yaml2json(join(dir, file))
+    const defaultVersionIndex = work.versions && work.versions
+      .findIndex(v => v.default)
+
+    if (defaultVersionIndex > -1) {
+      work = {
+        ...work,
+        ...work.versions[defaultVersionIndex],
+        isDefaultVersion: true,
+        versions: work.versions.filter(v => !v.default)
+      }
+    }
+
+    work.genre = categories[work.category].genre
+
+    works.push(work)
   }
 
   return works
@@ -36,14 +50,16 @@ const buildCatalogue = async src => {
     return acc
   }, {})
 
+  const genres = a2o(await yaml2json(join(src, 'data', 'genres.yaml')))
   const categories = a2o(await yaml2json(join(src, 'data', 'categories.yaml')))
-  const owners = a2o(await yaml2json(join(src, 'data', 'owners.yaml')))
   const publishers = a2o(await yaml2json(join(src, 'data', 'publishers.yaml')))
   const samples = await yaml2json(join(src, 'data', 'samples.yaml'))
   const fields = await yaml2json(join(src, 'data', 'fields.yaml'))
-  const works = await getWorks(join(src, 'data', 'works'))
+  const works = await getWorks({
+    dir: join(src, 'data', 'works'), genres, categories
+  })
 
-  return { categories, owners, publishers, samples, fields, works }
+  return { categories, fields, genres, publishers, samples, works }
 }
 
 const buildSearchIndex = catalogue => {

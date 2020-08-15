@@ -63,6 +63,7 @@ a {
   padding-right: .125rem;
   color: inherit;
   text-decoration: none;
+  will-change: color;
   transition: color .2s ease;
 
   .container p &,
@@ -70,6 +71,7 @@ a {
   &.link {
     padding-bottom: .15rem;
     border-bottom: 1px dashed $c-gray-dark;
+    will-change: background-color;
     transition: background-color .2s ease;
 
     section.highlight & {

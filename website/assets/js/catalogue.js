@@ -13,13 +13,16 @@
   }
 
   const SKIP_WORK_KEYS = [
-    'id',
-    'date',
     'categories',
-    'title',
+    'date',
+    'default',
     'description',
+    'facets',
+    'id',
+    'isDefaultVersion',
+    'title',
     'versions',
-    'works'
+    'works',
   ]
 
   const app = hyperapp.app
@@ -117,7 +120,8 @@
       ...state,
       results,
       activeFacets,
-      facets: buildFacets({ ...state, results, activeFacets })
+      facets: buildFacets({ ...state, results, activeFacets }),
+      currentPage: 0
     }
   }
 
@@ -170,18 +174,16 @@
     'div', { class: 'search--fields-wrapper' }, fields.map(fieldView)
   )
 
-  const categoryTags = (state, work) => work.categories
-    .map(category => h('a', {
-      class: 'tag',
-      href: '#',
-      onclick: (state, event) => {
-        event.preventDefault()
-        const active = state.facets.c.facets[category].active
-        state.facets.c.facets[category].active = !active
-        return filterResults(state)
-      }
-    },
-    state.categories[category].tag))
+  const categoryTag = (state, category) => h('a', {
+    class: 'tag',
+    href: '#',
+    onclick: (state, event) => {
+      event.preventDefault()
+      const active = state.facets.c.facets[category].active
+      state.facets.c.facets[category].active = !active
+      return filterResults(state)
+    }
+  }, state.categories[category].tag)
 
   const workFieldCast = value => h('ul', {}, [
     value.map(person =>  h('li', {}, [
@@ -196,11 +198,11 @@
     ]))
   ])
 
-  const workFieldOwners = ({ value, owners }) => h('ul', {}, [
+  const workFieldPublishers = ({ value, publishers }) => h('ul', {}, [
     value.map(item =>  h('li', {}, [
       h('span', {}, [ `${item.type}:` ]),
       h('a', { href: '#', class: 'link' }, [
-        `${owners[item.owner_id].name}`
+        `${publishers[item.publisher_id].name}`
       ])
     ]))
   ])
@@ -227,7 +229,7 @@
       : [dateLocation]
   }
 
-  const workFieldValue = ({ key, value, owners, publishers }) => {
+  const workFieldValue = ({ key, value, publishers }) => {
     switch (key) {
       case 'cast':
         return [workFieldCast(value)]
@@ -236,8 +238,7 @@
       case 'reworks':
         return [workFieldReworks(value)]
       case 'publications':
-      case 'sources':
-        return workFieldOwners({ value, owners: {...owners, ...publishers} })
+        return workFieldPublishers({ value, publishers })
       case 'libretto':
       case 'texts':
         return [h('ul', {}, value.map(v => h('li', {}, [v])))]
@@ -250,17 +251,16 @@
     }
   }
 
-  const workField = ({ label, key, value, owners, publishers }) => h(
+  const workField = ({ label, key, value, publishers }) => h(
     'div',
     { class: 'work--field' }, [
-      h('dt', {}, [ label ]),
-      h('dd', {}, workFieldValue({ key, value, owners, publishers }))
+      h('dt', { class: key }, [ label ]),
+      h('dd', {}, workFieldValue({ key, value, publishers }))
     ])
 
   const workFields = (state, work) => {
-    const fields = state.fields
+    const fields = state.workFields
     const i18n = state.i18n
-    const owners = state.owners
     const publishers = state.publishers
 
     const workFields = Object
@@ -279,21 +279,20 @@
         label: i18n.fields[key],
         key,
         value,
-        owners,
         publishers
       }))
     )
   }
 
   const onWorkClick = (state, event) => {
-    if (!event.target.classList.contains('tag')) {
-      let container = event.target
-      while (container && !container.classList.contains('work')) {
-        container = container.parentNode
-      }
-      container.classList.toggle('open')
+    if (event.target.classList.contains('tag')) {
+      return state
     }
-
+    let container = event.target
+    while (container && !container.classList.contains('work')) {
+      container = container.parentNode
+    }
+    container.classList.toggle('open')
     event.preventDefault()
     return state
   }
@@ -312,26 +311,29 @@
       : ''
   ])
 
+  const workDescriptionView = (state, work) => h('div', {
+    class: 'work--description',
+    onclick: onWorkClick
+  }, [
+    work.description,
+    work.note && h('div', { class: 'work--note' }, [ work.note ])
+  ])
+
   const workView = (work, state, type) => {
     return h('li', {
-      class: `work work--item-${type || 'container'}`,
+      class: `work work--${type || 'container'}`,
       id: work.id
     }, [
-      work.categories && categoryTags(state, work),
+      work.category && categoryTag(state, work.category),
       work.title && workTitleView(state, work),
-      work.version && h('div', {
+      work.description && workDescriptionView(state, work),
+      work.version && !work.isDefaultVersion && h('div', {
         class: 'work--version',
         onclick: onWorkClick
       }, [ work.version ]),
-      work.description && h('div', {
-        class: 'work--description',
-        onclick: onWorkClick
-      }, [ work.description ]),
       workFields(state, work),
-      work.works && h('ul', { class: 'works--list' }, work.works
-        .map(subWork => workView(subWork, state, 'work'))),
       work.versions && h('ul', { class: 'works--list' }, work.versions
-        .map(version => workView(version, state, 'version')))
+        .map(version => workView(version, state, 'sub')))
     ])
   }
 
@@ -392,7 +394,7 @@
       h('span', { class: 'works--count-amount' }, [
         state.results
           .filter(result => !result.filtered)
-          .reduce((total, r) => total + r.works.length, 0)
+          .reduce((total, r) => total + 1, 0)
       ]),
       ' works'
     ]),
@@ -506,24 +508,6 @@
         }
       }
 
-      if (item.works || item.versions) {
-        const subFacets = buildFacet({
-          group,
-          results: item.works ? item.works : item.versions,
-          activeFacets,
-          getValue,
-          getLabel
-        })
-
-        Object.values(subFacets).forEach(({ count, value }) => {
-          const arr = []
-          for(var i = 0; i < count; i++) {
-            arr.push(value)
-          }
-          add(arr)
-        })
-      }
-
       const values = getValue(item)
 
       if (!values) return facets
@@ -539,13 +523,26 @@
     const results = [...state.results.filter(result => !result.filtered)]
     const activeFacets = [...state.activeFacets]
     return {
+      g: {
+        label: 'Genres',
+        facets: buildFacet({
+          group: 'g',
+          results,
+          activeFacets,
+          getValue: item => [item.genre],
+          getLabel: facet => {
+            console.log(facet, state.genres)
+            return state.genres[facet]?.tag
+          }
+        })
+      },
       c: {
         label: 'Categories',
         facets: buildFacet({
           group: 'c',
           results,
           activeFacets,
-          getValue: item => item.categories,
+          getValue: item => [item.category],
           getLabel: facet => state.categories[facet]?.tag
         })
       },
@@ -557,7 +554,7 @@
           activeFacets,
           getValue: item => {
             // TODO only count 1 for same publisher but different types (e.g. ldz on Paradies der Schwiegersöhne)
-            return item.publications?.map(p => p.owner_id)
+            return item.publications?.map(p => p.publisher_id)
           },
           getLabel: facet =>
             state.publishers[facet]?.shortName ||
@@ -567,38 +564,46 @@
     }
   }
 
-  const loadCatalogue = (state, catalogue) => ({
-    ...state,
-    categories: catalogue.categories,
-    works: catalogue.works,
-    owners: catalogue.owners,
-    publishers: catalogue.publishers,
-    fields: catalogue.fields
-  })
+  const loadCatalogue = (state, { catalogue, index, i18n }) => {
+    const categories = catalogue.categories
+    const genres = catalogue.genres
+    const publishers = catalogue.publishers
+    const workFields = catalogue.fields
+    const works = catalogue.works
 
-  const loadIndex = (state, index) => {
     const idx = lunr.Index.load(index)
-    const results = searchIdx(state.works, idx, state.query)
+    const results = searchIdx(works, idx, state.query)
+    const facets = buildFacets({ ...state, categories, genres, publishers, results })
+
     return {
       ...state,
+      categories,
+      facets,
+      genres,
+      i18n,
       idx,
+      publishers,
       results,
-      facets: buildFacets({ ...state, results })
+      workFields,
+      works
     }
   }
 
-  const loadI18n = (state, i18n) => ({ ...state, i18n })
-
-  const fetchJSON = (dispatch, options) =>
-    fetch(options.url)
+  const fetchJSONs = (dispatch, options) => {
+    const responses = {}
+    Promise.all(Object.entries(options.urls).map(([ key, url ]) => fetch(url)
       .then(response => response.json())
-      .then(data => dispatch(options.onresponse, data))
-      .catch(() => dispatch(options.onresponse, {}))
+      .then(data => { responses[key] = data })
+    ))
+    .then(() => dispatch(options.onresponse, responses))
+    .catch(() => dispatch(options.onresponse, {}))
+  }
 
   const init = [{
-    focused: false,
-    query: '',
-    scope: 'full',
+    activeFacets: [],
+    categories: {},
+    currentPage: 0,
+    facets: {},
     fields: [
       { name: 'title', title: 'Title', checked: true },
       { name: 'description', title: 'Description', checked: true },
@@ -606,35 +611,26 @@
       { name: 'composition-date', title: 'Composition date' },
       { name: 'composition-location', title: 'Composition location' }
     ],
-    resultsPerPage: 10,
-    currentPage: 0,
+    focused: false,
+    genres: {},
     i18n: { fields: {} },
-    categories: {},
-    owners: {},
+    idx: {},
     publishers: {},
-    fields: [],
-    works: [],
+    query: '',
     results: [],
-    facets: {},
-    activeFacets: [],
-    idx: {}
+    resultsPerPage: 10,
+    scope: 'full',
+    workFields: [],
+    works: []
   }, [
-    fetchJSON,
+    fetchJSONs,
     {
-      url: '/_catalogue/c.json',
+      urls: {
+        catalogue: '/_catalogue/c.json',
+        index: '/_catalogue/i.json',
+        i18n: '/_catalogue/i18n/en.json'
+      },
       onresponse: loadCatalogue
-    }
-  ], [
-    fetchJSON,
-    {
-      url: '/_catalogue/i.json',
-      onresponse: loadIndex
-    }
-  ], [
-    fetchJSON,
-    {
-      url: '/_catalogue/i18n/en.json',
-      onresponse: loadI18n
     }
   ]]
 

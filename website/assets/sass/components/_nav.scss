@@ -66,6 +66,7 @@ nav {
     padding: 5rem 1rem;
     background-color: rgba(0,0,0, .95);
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 3rem), 0 100%);
+    will-change: top;
     transition: .1s top ease-out;
 
     @media screen and (min-width: 768px) {
@@ -89,6 +90,7 @@ nav {
     height: calc(10vh + 3rem + 1px);
     background-color: rgba(0,0,0, .95);
     clip-path: polygon(0 3rem, 100% 0, 100% 100%, 0 100%);
+    will-change: bottom;
     transition: .1s bottom ease-out;
   }
 
@@ -119,6 +121,7 @@ nav {
       text-align: right;
       color: rgba(255,255,255, .8);
       border-bottom: 1px solid rgba(180,180,180, .3);
+      will-change: color, border-bottom-color;
       transition: .2s color linear, .3s border-bottom-color linear;
 
       @media screen and (min-width: 768px) {

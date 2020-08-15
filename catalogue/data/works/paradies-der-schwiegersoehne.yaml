@@ -1,0 +1,25 @@
+---
+category: musical
+composition_date: 1959
+date: 2019-04-08T21:36:00.000Z
+description: Operetta in 2 acts
+duration: 9600
+id: paradies-der-schwiegersoehne
+libretto:
+  - In german translated by A.-E. Möhwald and M. Janowski
+note: German version of the operetta "Vők iskolája (Anyósgeneralis)"
+publications:
+  - publisher_id: ldz
+    type: piano reduction
+  - publisher_id: ldz
+    type: performance material
+rework_of: voek-iskolaja-anyosgeneralis
+setting: '2 (picc.), 1, 2, 1 – 3, 2, 3, 0 – timp., batt. – arpa – archi'
+synopsis: The revolt of the husbands against their wives.
+title:
+  main: de
+  original: de
+  sort:
+    - de
+  translations:
+    de: Paradies der Schwiegersöhne

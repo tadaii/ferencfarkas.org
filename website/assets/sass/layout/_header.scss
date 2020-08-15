@@ -29,6 +29,7 @@ header {
       width: 10rem;
       margin-left: -1px;
       fill: $c-primary;
+      will-change: fill;
       transition: .2s fill linear;
 
       @media screen and (min-width: 480px) {

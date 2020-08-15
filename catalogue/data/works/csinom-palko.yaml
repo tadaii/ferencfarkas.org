@@ -1,6 +1,47 @@
 ---
+cast:
+  - role: Balogh Adám
+    voice: baritone
+  - role: Csínom Palkó
+    voice: tenor
+  - role: Csínom Jankó
+    voice: baritone
+  - role: 'Rosta Márton, baron Piperec'
+    voice: baritone
+  - role: Éduska
+    voice: soprano
+  - role: Zsuzsika
+    voice: mezzo-soprano
+  - role: Tyukodi pajtás
+    voice: bass
+  - role: Förgeteg
+    voice: bass-baritone
+  - role: Daru
+    voice: bass
+  - role: Örzse
+    voice: mezzo-soprano
+  - role: Kati
+    voice: soprano
+  - role: Koháry
+    voice: baritone
+  - role: Koháryné
+    voice: soprano
+  - role: 7 small roles
+category: opera
 date: 2019-04-08T21:35:59.000Z
+description: Popular romantic opera
 id: csinom-palko
+libretto:
+  - In hungarian by András Dékány
+reworks:
+  - 'Csínom Palkó for orchestra, suite from the opera “Csínom Palkó”'
+  - 'Csínom Palkó for wind orchestra, suite from the opera “Csínom Palkó”'
+  - 'Mischievous tune “Csínom Palkó” for wind orchestra, suite from the opera “Csínom Palkó”'
+  - Csínom Palkó - Film version of the opera “Csínom Palkó”
+  - Három kuruc dal / Three songs for voice (tenor) and piano Kurucdal for 4-part male choir and piano ad lib.
+setting: '2, 1, 2 (II=tárogató ad lib.), 1 – 4, 2, 3, 0 – timp., batt. - arpa, cel. ad lib. – archi'
+synopsis: |
+  Hungary — 1705, during the uprising of Ferenc Rákóczi, Prince of Transylvania against the Habsbourg’s domination.
 title:
   main: hu
   original: hu
@@ -8,90 +49,47 @@ title:
     - hu
   translations:
     hu: Csínom Palkó
-works:
-  - cast:
-      - role: Balogh Adám
-        voice: baritone
-      - role: Csínom Palkó
-        voice: tenor
-      - role: Csínom Jankó
-        voice: baritone
-      - role: 'Rosta Márton, baron Piperec'
-        voice: baritone
-      - role: Éduska
-        voice: soprano
-      - role: Zsuzsika
-        voice: mezzo-soprano
-      - role: Tyukodi pajtás
-        voice: bass
-      - role: Förgeteg
-        voice: bass-baritone
-      - role: Daru
-        voice: bass
-      - role: Örzse
-        voice: mezzo-soprano
-      - role: Kati
-        voice: soprano
-      - role: Koháry
-        voice: baritone
-      - role: Koháryné
-        voice: soprano
-      - role: 7 small roles
-    categories:
-      - opera
-    description: Popular romantic opera
-    id: csinom-palko-1
-    libretto:
-      - In hungarian by András Dékány
-    reworks:
-      - 'Csínom Palkó for orchestra, suite from the opera “Csínom Palkó”'
-      - 'Csínom Palkó for wind orchestra, suite from the opera “Csínom Palkó”'
-      - 'Mischievous tune “Csínom Palkó” for wind orchestra, suite from the opera “Csínom Palkó”'
-      - Csínom Palkó - Film version of the opera “Csínom Palkó”
-      - Három kuruc dal / Three songs for voice (tenor) and piano Kurucdal for 4-part male choir and piano ad lib.
-    setting: '2, 1, 2 (II=tárogató ad lib.), 1 – 4, 2, 3, 0 – timp., batt. - arpa, cel. ad lib. – archi'
-    synopsis: |
-      Hungary — 1705, during the uprising of Ferenc Rákóczi, Prince of Transylvania against the Habsbourg’s domination.
-    versions:
-      - composition_date: 1949
-        id: csinom-palko-1-1
-        nb: Ferenc Farkas received the “Kossuth Prize” for this version in 1950
-        sources:
-          - owner_id: afp
-            type: score
-        version: Original version for the radio
-        world_premiere:
-          date: 1950-01-22T00:00:00.000Z
-      - composition_date: 1950
-        id: csinom-palko-1-2
-        sources:
-          - owner_id: afp
-            type: score
-          - owner_id: afp
-            type: piano reduction
-          - owner_id: afp
-            type: performance material
-        version: First version for the theatre in 3 acts
-        world_premiere:
-          date: 1952
-          location: 'Erkel Theater, Budapest'
-      - composition_date: 1960
-        duration: 6300
-        id: csinom-palko-1-3
-        nb: 'This version has also been adopted for the film “Csínom Palkó” by Márton Keleti, 1973'
-        sources:
-          - owner_id: afp
-            type: printed score
-          - owner_id: afp
-            type: piano reduction
-          - owner_id: afp
-            type: performance material
-        version: Second and definitive version for the theatre in 3 acts
-        world_premiere:
-          credits:
-            - Conducted by Ferenc Farkas
-            - 'Stage director: András Mikó'
-            - 'Stage design: Mátyás Varga'
-            - 'Costumes: Tivadar Márk'
-          date: 1960
-          location: Open Air Festival of Szeged
+versions:
+  - composition_date: 1949
+    id: csinom-palko-original
+    nb: Ferenc Farkas received the “Kossuth Prize” for this version in 1950
+    publications:
+      - publisher_id: afp
+        type: score
+    version: Original version for the radio
+    world_premiere:
+      date: 1950-01-22T00:00:00.000Z
+  - composition_date: 1950
+    id: csinom-palko-first-theatre
+    publications:
+      - publisher_id: afp
+        type: score
+      - publisher_id: afp
+        type: piano reduction
+      - publisher_id: afp
+        type: performance material
+    version: First version for the theatre in 3 acts
+    world_premiere:
+      date: 1952
+      location: 'Erkel Theater, Budapest'
+  - composition_date: 1960
+    default: true
+    duration: 6300
+    id: csinom-palko-definitive-theatre
+    nb: 'This version has also been adopted for the film “Csínom Palkó” by Márton Keleti, 1973'
+    publications:
+      - publisher_id: afp
+        type: printed score
+      - publisher_id: afp
+        type: piano reduction
+      - publisher_id: afp
+        type: performance material
+    version: Second and definitive version for the theatre in 3 acts
+    world_premiere:
+      credits:
+        - Conducted by Ferenc Farkas
+        - 'Stage director: András Mikó'
+        - 'Stage design: Mátyás Varga'
+        - 'Costumes: Tivadar Márk'
+      date: 1960
+      location: Open Air Festival of Szeged

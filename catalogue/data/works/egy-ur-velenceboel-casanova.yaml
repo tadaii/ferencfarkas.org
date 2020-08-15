@@ -1,8 +1,53 @@
 ---
-categories:
-  - opera
+cast:
+  - role: Casanova
+    voice: baritone
+  - role: Comte of Parma
+    voice: bass
+  - role: 'Francisca, his wife'
+    voice: soprano
+  - role: Balbi
+    voice: tenor buffo
+  - role: A woman from Toscana
+    voice: mezzo-soprano
+  - role: The captain
+    voice: baritone
+  - role: The inn keeper
+    voice: baritone
+  - role: Figaro
+    voice: tenor
+  - role: Pierrot
+    voice: tenor
+  - role: Pierrette
+    voice: soprano
+  - role: First masked woman
+    voice: soprano
+  - role: Teresa
+    voice: soprano
+  - role: Second masked woman
+    voice: mezzo-soprano
+  - role: Third masked woman
+    voice: alto
+  - role: Mensch
+    voice: tenor
+category: opera
+composition_date: 1979-1980
 date: 2019-04-08T21:36:00.000Z
+description: Opera in 2 acts
+duration: 7200
 id: egy-ur-velenceboel-casanova
+libretto:
+  - In hungarian by Sándor Márai
+publications:
+  - publisher_id: afp
+    type: score
+  - publisher_id: afp
+    type: piano reduction
+  - publisher_id: state-opera-house
+    type: performance material
+setting: '1, 1, 1, 1 – 2, 1, 1, 0 – timp., batt. – arpa, pf. (cel.) – 1 vl. I, 1 vl. II, 1 viola, 1 vlc., 1 cb.'
+synopsis: |
+  Bolzano, 1756. Casanova, escaping from the lead chambers of Venice meets the Comte of Parma and his former love, Francesca.
 title:
   main: hu
   original: hu
@@ -16,59 +61,11 @@ title:
     en: 'A gentleman from Venice, Casanova'
     fr: 'Un seigneur de Venise, Casanova'
     hu: 'Egy ur Velencéből, Casanova'
-works:
-  - cast:
-      - role: Casanova
-        voice: baritone
-      - role: Comte of Parma
-        voice: bass
-      - role: 'Francisca, his wife'
-        voice: soprano
-      - role: Balbi
-        voice: tenor buffo
-      - role: A woman from Toscana
-        voice: mezzo-soprano
-      - role: The captain
-        voice: baritone
-      - role: The inn keeper
-        voice: baritone
-      - role: Figaro
-        voice: tenor
-      - role: Pierrot
-        voice: tenor
-      - role: Pierrette
-        voice: soprano
-      - role: First masked woman
-        voice: soprano
-      - role: Teresa
-        voice: soprano
-      - role: Second masked woman
-        voice: mezzo-soprano
-      - role: Third masked woman
-        voice: alto
-      - role: Mensch
-        voice: tenor
-    composition_date: 1979-1980
-    description: Opera in 2 acts
-    duration: 7200
-    id: egy-ur-velenceboel-casanova-1
-    libretto:
-      - In hungarian by Sándor Márai
-    setting: '1, 1, 1, 1 – 2, 1, 1, 0 – timp., batt. – arpa, pf. (cel.) – 1 vl. I, 1 vl. II, 1 viola, 1 vlc., 1 cb.'
-    sources:
-      - owner_id: afp
-        type: score
-      - owner_id: afp
-        type: piano reduction
-      - owner_id: state-opera-house
-        type: performance material
-    synopsis: |
-      Bolzano, 1756. Casanova, escaping from the lead chambers of Venice meets the Comte of Parma and his former love, Francesca.
-    world_premiere:
-      credits:
-        - Conducted by János Kovács
-        - 'Stage director: László Vámos'
-        - 'Stage design: Attila Csikós'
-        - 'Costumes: Tivadar Márk'
-      date: 1991-06-04T00:00:00.000Z
-      location: Hungarian State Opera House of Budapest
+world_premiere:
+  credits:
+    - Conducted by János Kovács
+    - 'Stage director: László Vámos'
+    - 'Stage design: Attila Csikós'
+    - 'Costumes: Tivadar Márk'
+  date: 1991-06-04T00:00:00.000Z
+  location: Hungarian State Opera House of Budapest

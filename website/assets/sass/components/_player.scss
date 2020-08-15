@@ -26,6 +26,7 @@
       background-color: rgba(0,0,0, .9);
       opacity: 0;
       z-index: 1;
+      will-change: height, opacity;
       transition: .2s height linear, .3s opacity linear;
 
       .container {
