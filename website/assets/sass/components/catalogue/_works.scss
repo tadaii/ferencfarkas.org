@@ -84,7 +84,6 @@
     &--description,
     &--sub .work--version {
       position: relative;
-      margin-left: 1.25rem;
 
       &:before {
         content: '';
@@ -102,6 +101,10 @@
         transition: transform .1s ease-in;
         cursor: pointer;
       }
+    }
+
+    &--description {
+      margin-left: 1rem;
     }
 
     &--description,
