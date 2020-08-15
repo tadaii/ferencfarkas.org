@@ -530,10 +530,7 @@
           results,
           activeFacets,
           getValue: item => [item.genre],
-          getLabel: facet => {
-            console.log(facet, state.genres)
-            return state.genres[facet]?.tag
-          }
+          getLabel: facet => state.genres[facet]?.tag
         })
       },
       c: {
