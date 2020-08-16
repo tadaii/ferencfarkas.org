@@ -38,7 +38,14 @@ const getWorks = async ({ dir, genres, categories }) => {
     works.push(work)
   }
 
-  return works
+  return works.map(work => {
+    if (work.rework_of) {
+      console.log(work.id)
+      work.rework = work.rework_of
+      works.find(w => w.id === work.rework_of).rework = work.rework_of
+    }
+    return work
+  })
 }
 
 const buildCatalogue = async src => {
@@ -69,6 +76,7 @@ const buildSearchIndex = catalogue => {
     this.field('composition_date')
     this.field('description')
     this.field('nb')
+    this.field('rework')
     this.field('synopsis')
     this.field('title')
     this.field('version')

@@ -21,10 +21,43 @@
     'genre',
     'id',
     'isDefaultVersion',
+    'rework',
+    'rework_of',
     'title',
     'versions',
     'works',
   ]
+
+  const DURATION_RANGES = {
+    lt2: {
+      label: '< 2‘ ',
+      compute: duration => duration < 120
+    },
+    f2t5: {
+      label: '2‘ - 5‘',
+      compute: duration => duration >= 120 && duration < 300
+    },
+    f5t15: {
+      label: '5‘ - 15‘',
+      compute: duration => duration >= 300 && duration < 900
+    },
+    f15t30: {
+      label: '15‘ - 30‘',
+      compute: duration => duration >= 900 && duration < 1800
+    },
+    f30t1h: {
+      label: '30‘ - 1h',
+      compute: duration => duration >= 1800 && duration < 3600
+    },
+    f1ht2h: {
+      label: '1h - 2h',
+      compute: duration => duration >= 3600 && duration <= 7200
+    },
+    gt2h: {
+      label: '> 2h',
+      compute: duration => duration > 7200
+    }
+  }
 
   const app = hyperapp.app
   const h = hyperapp.h
@@ -56,12 +89,13 @@
   }
 
   window.addEventListener('scroll', () => {
+    const resultsPanel = document.querySelector('.catalogue .column.list')
     const refinePanel = document.querySelector('.refine')
     const refinePanelWrapper = document.querySelector('.refine--wrapper')
 
     if (!refinePanel) return
 
-    if (refinePanel.getBoundingClientRect().y <= 0) {
+    if (refinePanel.getBoundingClientRect().y <= 0 && resultsPanel.getBoundingClientRect().bottom > window.innerHeight) {
       refinePanelWrapper.classList.add('sticked')
     } else {
       refinePanelWrapper.classList.remove('sticked')
@@ -114,6 +148,7 @@
         }
       }
 
+      window.scrollTo(0,400)
       return { ...work, filtered }
     })
 
@@ -185,6 +220,18 @@
       return filterResults(state)
     }
   }, state.categories[category].tag)
+
+  const reworkTag = (state, work) => h('a', {
+    class: `tag rework ${state.query.includes('rework:' + work.rework) ? 'active' : ''}`,
+    href: '#',
+    onclick: (state, event) => {
+      event.preventDefault()
+      return search({
+        ...state,
+        query: state.query ? '' : `rework:${work.rework}`
+      })
+    }
+  }, 'Rework')
 
   const workFieldCast = value => h('ul', {}, [
     value.map(person =>  h('li', {}, [
@@ -326,6 +373,7 @@
       id: work.id
     }, [
       work.category && categoryTag(state, work.category),
+      work.rework && reworkTag(state, work),
       work.title && workTitleView(state, work),
       work.description && workDescriptionView(state, work),
       work.version && !work.isDefaultVersion && h('div', {
@@ -550,13 +598,65 @@
           group: 'p',
           results,
           activeFacets,
+          getValue: item => item.publications
+            ? item.publications
+              .reduce((grouped, publication) => {
+                const id = publication.publisher_id
+                if (!grouped.includes(id)) grouped.push(id)
+                return grouped
+              }, [])
+            : ['unpublished'],
+          getLabel: facet => facet === 'unpublished'
+            ? 'Unpublished'
+            : state.publishers[facet]?.shortName ||
+              state.publishers[facet]?.name
+        })
+      },
+      m: {
+        label: 'Multimedia',
+        facets: buildFacet({
+          group: 'm',
+          results,
+          activeFacets,
+          getValue: item => [],
+          getLabel: facet => facet
+        })
+      },
+      t: {
+        label: 'Duration',
+        facets: buildFacet({
+          group: 't',
+          results,
+          activeFacets,
+          getValue: item => Object.entries(DURATION_RANGES)
+            .filter(([id, { compute }]) => compute(item.duration))
+            .map(([id]) => id),
+          getLabel: facet => DURATION_RANGES[facet].label
+        })
+      },
+      d: {
+        label: 'Composition decenny',
+        facets: buildFacet({
+          group: 'd',
+          results,
+          activeFacets,
           getValue: item => {
-            // TODO only count 1 for same publisher but different types (e.g. ldz on Paradies der Schwiegersöhne)
-            return item.publications?.map(p => p.publisher_id)
+            const r = /(19|20)\d{2}/gmi
+            let m
+            const matches = []
+            while ((m = r.exec(item.composition_date)) !== null) {
+              if (m.index === r.lastIndex) r.lastIndex++
+              matches.push(m[0])
+            }
+            return matches.reduce((unique, year) => {
+              if (year.endsWith(0)) year -= 1
+              const d = Math.floor((parseInt(year) % 1900) / 10)
+              const decenny = d > 10 ? `20${d}0` : `19${d}0`
+              if (!unique.includes(decenny)) unique.push(decenny)
+              return unique
+            }, [])
           },
-          getLabel: facet =>
-            state.publishers[facet]?.shortName ||
-            state.publishers[facet]?.name
+          getLabel: facet => facet
         })
       }
     }
