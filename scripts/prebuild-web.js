@@ -40,7 +40,6 @@ const getWorks = async ({ dir, genres, categories }) => {
 
   return works.map(work => {
     if (work.rework_of) {
-      console.log(work.id)
       work.rework = work.rework_of
       works.find(w => w.id === work.rework_of).rework = work.rework_of
     }

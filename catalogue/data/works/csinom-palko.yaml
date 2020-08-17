@@ -51,7 +51,6 @@ title:
     hu: Csínom Palkó
 versions:
   - composition_date: 1949
-    id: csinom-palko-original
     nb: Ferenc Farkas received the “Kossuth Prize” for this version in 1950
     publications:
       - publisher_id: afp
@@ -60,7 +59,6 @@ versions:
     world_premiere:
       date: 1950-01-22T00:00:00.000Z
   - composition_date: 1950
-    id: csinom-palko-first-theatre
     publications:
       - publisher_id: afp
         type: score
@@ -75,7 +73,6 @@ versions:
   - composition_date: 1960
     default: true
     duration: 6300
-    id: csinom-palko-definitive-theatre
     nb: 'This version has also been adopted for the film “Csínom Palkó” by Márton Keleti, 1973'
     publications:
       - publisher_id: afp

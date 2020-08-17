@@ -1,0 +1,19 @@
+---
+adaptation_date: 1959
+category: wind
+date: 2019-04-08T21:36:00.000Z
+description: Suite from the opera “Csínom Palkó” adapted by János Eördögh
+duration: 330
+id: csinom-palko-for-wind-orchestra
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: csinom-palko
+setting: 'fl., cl. mi b, 3 cl. si b, 2 cor. mi b, 2 saxhorn si b, saxhorn (grave) si b, euphonium, 2 tr. si b, 2 tr. mi b, Tr.b. si b, 3 trb., 2 tuba, batt.'
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Csínom Palkó

@@ -43,7 +43,6 @@ title:
 versions:
   - composition_date: 1942
     default: true
-    id: the-magic-cupboard-original
     publications:
       - publisher_id: emb
         type: all
@@ -58,7 +57,6 @@ versions:
       date: 1942
       location: Hungarian State Opera of Budapest
   - composition_date: 1984
-    id: the-magic-cupboard-for-chamber-orchestra
     publications:
       - publisher_id: emb
         type: all

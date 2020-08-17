@@ -34,23 +34,23 @@
       compute: duration => duration < 120
     },
     f2t5: {
-      label: '2‘ - 5‘',
+      label: '2‘ – 5‘',
       compute: duration => duration >= 120 && duration < 300
     },
     f5t15: {
-      label: '5‘ - 15‘',
+      label: '5‘ – 15‘',
       compute: duration => duration >= 300 && duration < 900
     },
     f15t30: {
-      label: '15‘ - 30‘',
+      label: '15‘ – 30‘',
       compute: duration => duration >= 900 && duration < 1800
     },
     f30t1h: {
-      label: '30‘ - 1h',
+      label: '30‘ – 1h',
       compute: duration => duration >= 1800 && duration < 3600
     },
     f1ht2h: {
-      label: '1h - 2h',
+      label: '1h – 2h',
       compute: duration => duration >= 3600 && duration <= 7200
     },
     gt2h: {
@@ -65,6 +65,10 @@
   const parent = node && node.parentNode
 
   if (!node) return
+
+  const scrollToTop = () => {
+    window.scrollTo(0,400)
+  }
 
   const formatDate = date => {
     return (new Date(date)).toLocaleString('en-GB', {
@@ -89,13 +93,19 @@
   }
 
   window.addEventListener('scroll', () => {
-    const resultsPanel = document.querySelector('.catalogue .column.list')
     const refinePanel = document.querySelector('.refine')
     const refinePanelWrapper = document.querySelector('.refine--wrapper')
 
     if (!refinePanel) return
 
-    if (refinePanel.getBoundingClientRect().y <= 0 && resultsPanel.getBoundingClientRect().bottom > window.innerHeight) {
+    const coords = refinePanel.getBoundingClientRect()
+    const parent = refinePanel.parentElement
+    const inner = refinePanel.querySelector('.refine--inner')
+    const parentCoords = parent.getBoundingClientRect()
+    const heightOffset = coords.height - inner.scrollHeight
+    const unfixBottom = parentCoords.bottom > window.innerHeight + heightOffset
+
+    if (coords.y <= 0 && unfixBottom) {
       refinePanelWrapper.classList.add('sticked')
     } else {
       refinePanelWrapper.classList.remove('sticked')
@@ -148,7 +158,7 @@
         }
       }
 
-      window.scrollTo(0,400)
+      scrollToTop()
       return { ...work, filtered }
     })
 
@@ -402,7 +412,8 @@
       'div', { class: `facets ${key}` }, [
         h('h4', {}, [def.label]),
         h('ul', {}, Object.entries(def.facets)
-          .sort()
+          .sort((a, b) => b[1].count > a[1].count ? 1 : -1)
+          .slice(0,5)
           .map(([ fKey, facet ]) => h(
             'li', {}, [
               h('label', {}, [
@@ -420,7 +431,11 @@
               ])
             ])
           )
-        )
+        ),
+        Object.keys(def.facets).length > 5 && h('a', {
+          href: '#',
+          class: 'link facet--more'
+        }, [ `Show more ${def.label.toLowerCase()} (${Object.keys(def.facets).length - 5})` ])
       ]))
 
   const refineHandlerView = () => h('a', {
@@ -502,6 +517,7 @@
             class: page === current + 1 && 'active',
             onclick: (state, event) => {
               event.preventDefault()
+              scrollToTop()
               return { ...state, currentPage: page - 1 }
             }
           }, [ page ])
