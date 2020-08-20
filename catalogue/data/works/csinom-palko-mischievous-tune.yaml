@@ -1,0 +1,19 @@
+---
+category: wind
+date: 2019-04-08T21:36:00.000Z
+description: Suite from the opera “Csínom Palkó” adapted by Tony Kurmann in 2013
+duration: 290
+id: mischievous-tune-csinom-palko
+publications:
+  - publisher_id: alliance
+    type: score
+  - publisher_id: alliance
+    type: performance material
+setting: 'picc., 2 fl., 2 ob., c.i., 2 fg, cfg, clar.mib, 3 clar.sib, alt-clar.mib, bass-clar. sib, cb-clar.sib, 2 alt-sass.mib, tenor-sass.sib, bar-sass.mib, vcl., stringbass, 4 cor, 3 tr.sib, 3 trbne c, euphonium c, tuba c, timpani, bells, xylophone, 2 perc.'
+title:
+  main: en
+  original: en
+  sort:
+    - en
+  translations:
+    en: Mischievous tune “Csínom Palkó”

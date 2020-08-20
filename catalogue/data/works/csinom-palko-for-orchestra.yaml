@@ -15,7 +15,9 @@ movements:
   - title: Hüséges szivemmel
 publications:
   - publisher_id: afp
-    type: piano conductor & performance material
+    type: piano reduction
+  - publisher_id: afp
+    type: performance material
 rework_of: csinom-palko
 setting: '1, 1, 2, 0 – 0, 2, 1, 0 – batt. – pf., harmonium, accordion – archi'
 title:

@@ -47,6 +47,19 @@
       }
     }
 
+    &--id {
+      display: inline-block;
+      padding: .125rem .5rem;
+      margin-bottom: .5rem;
+      font-family: 'Segoe UI', Monaco, monospace;
+      font-size: .8rem;
+      font-weight: 100;
+      cursor: pointer;
+      border-radius: .5rem;
+      color: rgba(0,0,0, .8);
+      background-color: rgba(255,255,255, .4);
+    }
+
     &--container,
     &--sub {
       &.open {

@@ -342,6 +342,11 @@
     )
   }
 
+  const onIdClick = (state, event) => {
+    navigator.clipboard.writeText(event.target.textContent)
+    return state
+  }
+
   const onWorkClick = (state, event) => {
     if (event.target.classList.contains('tag')) {
       return state
@@ -382,6 +387,10 @@
       class: `work work--${type || 'container'}`,
       id: work.id
     }, [
+      state.showID && work.id && h('div', {
+        class: 'work--id',
+        onclick: onIdClick
+      }, [work.id]),
       work.category && categoryTag(state, work.category),
       work.rework && reworkTag(state, work),
       work.title && workTitleView(state, work),
@@ -667,7 +676,8 @@
             return matches.reduce((unique, year) => {
               if (year.endsWith(0)) year -= 1
               const d = Math.floor((parseInt(year) % 1900) / 10)
-              const decenny = d > 10 ? `20${d}0` : `19${d}0`
+              const decenny = d > 10 ? `20${d}1 - 20${d+1}0` : `19${d}1 - 19${d+1}0`
+              console.log(year, '=>', d, '=>', decenny)
               if (!unique.includes(decenny)) unique.push(decenny)
               return unique
             }, [])
@@ -734,6 +744,7 @@
     results: [],
     resultsPerPage: 10,
     scope: 'full',
+    showID: true,
     workFields: [],
     works: []
   }, [
