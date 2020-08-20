@@ -55,7 +55,6 @@ versions:
   - composition_date: 1963-1964
     default: true
     duration: 6720
-    id: vidroczki-first-theatre
     setting: '3 (picc.), 2, 2 (cl.b.), 2 – 4, 3, 3, 0 – timp. batt. (3 ess) – arpa, pf., cel., zimb. ungh. – archi'
     publications:
       - publisher_id: afp
@@ -73,7 +72,6 @@ versions:
       location: Open Air Festival of Szeged
   - composition_date: 1978
     duration: 6720
-    id: vidroczki-second-theatre
     setting: '3 (picc.), 2, 2 (cl.b.), 2 – 4, 3, 3, 0 – timp. batt. (3 ess) – arpa, pf., cel., zimb. ungh. – archi'
     publications:
       - publisher_id: afp
