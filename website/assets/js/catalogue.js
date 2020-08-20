@@ -677,7 +677,6 @@
               if (year.endsWith(0)) year -= 1
               const d = Math.floor((parseInt(year) % 1900) / 10)
               const decenny = d > 10 ? `20${d}1 - 20${d+1}0` : `19${d}1 - 19${d+1}0`
-              console.log(year, '=>', d, '=>', decenny)
               if (!unique.includes(decenny)) unique.push(decenny)
               return unique
             }, [])
