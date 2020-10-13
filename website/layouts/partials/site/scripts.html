@@ -1,5 +1,5 @@
-{{ $app := resources.Get "js/app.js" | minify }}
-{{ $catalogue := resources.Get "js/catalogue.js" | minify }}
+{{ $app := resources.Get "js/app.js" | js.Build (dict "target" "es2015" "minify" true) }}
+{{ $catalogue := resources.Get "js/catalogue.js" | js.Build (dict "target" "es2015" "minify" true)  }}
 <script defer src="{{ $app.Permalink }}"></script>
 <script defer src="/js/flickity.pkgd.min.js"></script>
 <script defer src="/js/wavesurfer.min.js"></script>

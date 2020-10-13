@@ -5,12 +5,15 @@
   "private": true,
   "scripts": {
     "prebuild": "node ./scripts/prebuild-web",
+    "start2": "echo yo",
     "start": "npm run web:server",
     "web:build": "npm run prebuild && cd ./website && hugo",
     "web:server": "npm run prebuild && cd ./website && hugo server",
     "catalogue:pdf": "node ./catalogue/pdf-generator/index.js"
   },
   "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
     "autoprefixer": "^9.8.5",
     "fs-extra": "^9.0.1",
     "hyperapp": "^2.0.8",

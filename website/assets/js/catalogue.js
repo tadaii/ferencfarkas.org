@@ -18,6 +18,7 @@
     'default',
     'description',
     'facets',
+    'filtered',
     'genre',
     'id',
     'isDefaultVersion',
@@ -58,6 +59,8 @@
       compute: duration => duration > 7200
     }
   }
+
+  const MAX_FACETS = 5
 
   const app = hyperapp.app
   const h = hyperapp.h
@@ -110,6 +113,10 @@
     } else {
       refinePanelWrapper.classList.remove('sticked')
     }
+  })
+
+  window.addEventListener('showCatalogueIDs', () => {
+
   })
 
   const searchIdx = (works, idx, query) => {
@@ -250,18 +257,28 @@
     ]))
   ])
 
-  const workFieldReworks = value => h('ul', {}, [
-    value.map(rework =>  h('li', {}, [
-      h('a', { href: '#', class: 'link' }, [ rework ])
+  const workFieldMovements = value => h('ul', { class: 'movements' }, [
+    value.map((movement, index) => h('li', { class: 'movement' }, [
+      h('span', { class: 'movement--pos' }, [`${index + 1})`]),
+      h('span', { class: 'movement--title' }, [movement.title]),
+      movement.duration && h('span', { class: 'movement--duration' }, [
+        `${formatDuration(movement.duration)}`
+      ])
     ]))
   ])
 
   const workFieldPublishers = ({ value, publishers }) => h('ul', {}, [
     value.map(item =>  h('li', {}, [
-      h('span', {}, [ `${item.type}:` ]),
+      item.type !== 'all' && h('span', {}, [ `${item.type}:` ]),
       h('a', { href: '#', class: 'link' }, [
         `${publishers[item.publisher_id].name}`
       ])
+    ]))
+  ])
+
+  const workFieldReworks = value => h('ul', {}, [
+    value.map(rework =>  h('li', {}, [
+      h('a', { href: '#', class: 'link' }, [ rework ])
     ]))
   ])
 
@@ -293,13 +310,15 @@
         return [workFieldCast(value)]
       case 'duration':
         return [formatDuration(value)]
-      case 'reworks':
-        return [workFieldReworks(value)]
-      case 'publications':
-        return workFieldPublishers({ value, publishers })
       case 'libretto':
       case 'texts':
         return [h('ul', {}, value.map(v => h('li', {}, [v])))]
+      case 'movements':
+        return workFieldMovements(value)
+      case 'publications':
+        return workFieldPublishers({ value, publishers })
+      case 'reworks':
+        return [workFieldReworks(value)]
       case 'world_premiere':
         return workFieldWorldPremiere(value)
       default:
@@ -366,7 +385,7 @@
   }, [
     work.title.translations[work.title.main],
     work.title.sort.length > 1
-      ? h('span', {}, [work.title.sort
+      ? h('div', { class: 'work--title-translations' }, [work.title.sort
           .filter(key => key !== work.title.main)
           .map(key => work.title.translations[key])
           .join(' / ')
@@ -381,6 +400,43 @@
     work.description,
     work.note && h('div', { class: 'work--note' }, [ work.note ])
   ])
+
+  const workFooterView = (state, work) => {
+    if (!work.text &&
+        !work.libretto &&
+        !work.audio &&
+        !work.story &&
+        !work.cd
+    ) {
+      return
+    }
+
+    return h('div', {
+      class: 'work--footer'
+    }, [
+      work.text || work.libretto && h('div', {
+        class: 'work--languages'
+      }, [
+        h('span', { class: 'work--footer-label' }, ['Languages:']),
+        h('ul', {}, [
+          h('li', {}, ['hu']),
+          h('li', {}, ['fr']),
+          h('li', {}, ['de'])
+        ])
+      ]),
+      h('div', {
+        class: 'work--multimedia'
+      }, [
+        h('span', { class: 'work--footer-label' }, ['Multimedia:']),
+        h('ul', {}, [
+          h('li', {}, [h('div', { class : 'work--sounds' }, [])]),
+          h('li', {}, [h('div', { class: 'work--story' }, [])]),
+          h('li', {}, [h('div', { class: 'work--cds' }, [])]),
+          h('li', {}, [h('div', { class: 'work--manuscripts' }, [])])
+        ])
+      ])
+    ])
+  }
 
   const workView = (work, state, type) => {
     return h('li', {
@@ -401,7 +457,8 @@
       }, [ work.version ]),
       workFields(state, work),
       work.versions && h('ul', { class: 'works--list' }, work.versions
-        .map(version => workView(version, state, 'sub')))
+        .map(version => workView(version, state, 'sub'))),
+      // workFooterView(state, work)
     ])
   }
 
@@ -422,7 +479,7 @@
         h('h4', {}, [def.label]),
         h('ul', {}, Object.entries(def.facets)
           .sort((a, b) => b[1].count > a[1].count ? 1 : -1)
-          .slice(0,5)
+          .slice(0, def.showMore ? def.facets.length : MAX_FACETS)
           .map(([ fKey, facet ]) => h(
             'li', {}, [
               h('label', {}, [
@@ -441,10 +498,19 @@
             ])
           )
         ),
-        Object.keys(def.facets).length > 5 && h('a', {
+        Object.keys(def.facets).length > MAX_FACETS && h('a', {
           href: '#',
-          class: 'link facet--more'
-        }, [ `Show more ${def.label.toLowerCase()} (${Object.keys(def.facets).length - 5})` ])
+          class: 'link facet--more',
+          onclick: (state, event) => {
+            event.preventDefault()
+            def.showMore = !def.showMore
+            return { ...state, facets: {...state.facets, [key]: def }}
+          }
+        }, [
+          def.showMore
+            ? `Show first ${MAX_FACETS} ${def.label.toLowerCase()}`
+            : `Show more ${def.label.toLowerCase()} (${Object.keys(def.facets).length - MAX_FACETS})`
+        ])
       ]))
 
   const refineHandlerView = () => h('a', {
@@ -599,6 +665,7 @@
     return {
       g: {
         label: 'Genres',
+        showMore: false,
         facets: buildFacet({
           group: 'g',
           results,
@@ -609,6 +676,7 @@
       },
       c: {
         label: 'Categories',
+        showMore: false,
         facets: buildFacet({
           group: 'c',
           results,
@@ -619,6 +687,7 @@
       },
       p: {
         label: 'Publishers',
+        showMore: false,
         facets: buildFacet({
           group: 'p',
           results,
@@ -639,6 +708,7 @@
       },
       m: {
         label: 'Multimedia',
+        showMore: false,
         facets: buildFacet({
           group: 'm',
           results,
@@ -648,7 +718,8 @@
         })
       },
       t: {
-        label: 'Duration',
+        label: 'Durations',
+        showMore: false,
         facets: buildFacet({
           group: 't',
           results,
@@ -660,7 +731,8 @@
         })
       },
       d: {
-        label: 'Composition decenny',
+        label: 'Composition decennies',
+        showMore: false,
         facets: buildFacet({
           group: 'd',
           results,
@@ -743,7 +815,7 @@
     results: [],
     resultsPerPage: 10,
     scope: 'full',
-    showID: true,
+    showID: false,
     workFields: [],
     works: []
   }, [

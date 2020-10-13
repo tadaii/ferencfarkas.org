@@ -44,7 +44,7 @@ contributed to a true renaissance of hungarian music.
 {{% section straight black %}}
 {{% row %}}
 {{% column %}}
-{{< play "/audio/fair-in-debrecen.m4a" "Fair in Debrecen" "The sly students - opera, 1949" >}}
+{{< play "/audio/fair-in-debrecen.m4a" "Fair in Debrecen" "The sly students - ballet, 1949" >}}
 
 Ferenc Farkas studied composition in Budapest with
 [Albert Siklós](https://wikipedia.org/wiki/Albert_Sikl%C3%B3s) and

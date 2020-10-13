@@ -25,7 +25,7 @@
 
   .work {
     position: relative;
-    padding: .25rem 1rem 0;
+    padding: .25rem 1.5rem 0;
 
     .black & {
       border-bottom-color: rgba(255,255,255, .2);
@@ -77,8 +77,8 @@
     }
 
     &--container {
-      padding-top: 1rem;
-      padding-bottom: 1rem;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
       border-bottom: 1px dashed rgba(0,0,0, .2);
       will-change: background-color;
       transition: background-color .2s linear;
@@ -97,13 +97,12 @@
     &--title {
       margin: 0;
       padding: 0 0 .5rem;
+    }
 
-      span {
-        display: block;
-        padding-top: .25rem;
-        font-size: 1rem;
-        opacity: .85;
-      }
+    &--title-translations {
+      padding-top: .25rem;
+      font-size: 1rem;
+      opacity: .85;
     }
 
     &--description,
@@ -155,7 +154,7 @@
 
     &--fields {
       display: none;
-      margin: 1rem 0;
+      margin: 1rem;
     }
 
     &--field {
@@ -211,6 +210,148 @@
         margin-right: .25rem;
         font-size: 1rem;
       }
+    }
+
+    &--footer {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin: .5rem -1rem -.5rem;
+      padding: .5rem 1rem;
+
+      @media screen and (min-width: 520px) {
+        flex-direction: row;
+        align-items: center;
+      }
+    }
+
+    &--languages,
+    &--multimedia {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      font-size: .9rem;
+      line-height: .9rem;
+      font-weight: 500;
+      color: rgba(0,0,0, .5);
+
+      ul {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        padding: 0;
+        margin: .5rem 0;
+      }
+
+      @media screen and (min-width: 520px) {
+        flex-direction: row;
+        align-items: center;
+
+        ul {
+          margin: 0 .5rem;
+        }
+      }
+    }
+
+    &--languages {
+      margin-bottom: 1rem;
+
+      @media screen and (min-width: 520px) {
+        margin-bottom: 0;
+      }
+
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 .5rem 0 0;
+        padding: .2rem .4rem .3rem;
+        font-family: $f-sans;
+        font-size: .75rem;
+        line-height: .75rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        border-radius: .4rem;
+        color: $c-primary;
+        background-color: rgba(0,0,0, .65);
+      }
+    }
+
+    &--multimedia {
+      .work--footer-label {
+        @media screen and (min-width: 520px) {
+          display: none;
+        }
+      }
+
+      li:not(:last-child) {
+        margin-right: .5rem;
+      }
+    }
+
+    &--story,
+    &--sounds,
+    &--cds,
+    &--manuscripts {
+      width: 1.65rem;
+      height: 1.5rem;
+
+      &:before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+    }
+
+    &--story:before {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='article' viewBox='0 0 25 24'%3E%3Cpath d='M13.3428 9H18.8428L13.3428 3.5V9ZM6.34283 2H14.3428L20.3428 8V20C20.3428 20.5304 20.1321 21.0391 19.757 21.4142C19.382 21.7893 18.8733 22 18.3428 22H6.34283C5.23283 22 4.34283 21.1 4.34283 20V4C4.34283 2.89 5.23283 2 6.34283 2ZM15.3428 18V16H6.34283V18H15.3428ZM18.3428 14V12H6.34283V14H18.3428Z' fill='rgba(0,0,0, .65)'/%3E%3C/svg%3E%0A");
+    }
+
+    &--sounds:before {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='music' viewBox='0 0 25 24'%3E%3Cpath d='M20.7316 1.84484L20.7326 1.84242L8.35496 5.24046V15.3434C5.76235 14.5637 3.90906 17.4122 3.90907 19.5573C3.90907 23.0339 8.85115 23.3496 9.79344 18.5034V8.70037L19.2941 6.10036V12.5031C16.7015 11.7235 14.8482 14.572 14.8482 16.717C14.8482 20.1937 19.7903 20.5094 20.7326 15.6631V1.84445L20.7316 1.84484Z' fill='rgba(0,0,0, .65)'/%3E%3C/svg%3E%0A");
+    }
+
+    &--cds:before {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='disc' viewBox='0 0 25 24'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7.01198 6.34315C8.51228 4.84285 10.5471 4 12.6688 4C14.7906 4 16.8254 4.84285 18.3257 6.34315C19.826 7.84344 20.6688 9.87827 20.6688 12C20.6688 14.1217 19.826 16.1566 18.3257 17.6569C16.8254 19.1571 14.7906 20 12.6688 20C10.5471 20 8.51228 19.1571 7.01198 17.6569C5.51169 16.1566 4.66884 14.1217 4.66884 12C4.66884 9.87827 5.51169 7.84344 7.01198 6.34315ZM10.6688 12C10.6688 13.1 11.5588 14 12.6688 14C13.1993 14 13.708 13.7893 14.0831 13.4142C14.4581 13.0391 14.6688 12.5304 14.6688 12C14.6688 10.89 13.7788 10 12.6688 10C11.5588 10 10.6688 10.89 10.6688 12Z' fill='rgba(0,0,0, .65)'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M22.6688 12C22.6688 17.5228 18.1917 22 12.6688 22C7.14599 22 2.66884 17.5228 2.66884 12C2.66884 6.47715 7.14599 2 12.6688 2C18.1917 2 22.6688 6.47715 22.6688 12ZM21.6688 12C21.6688 16.9706 17.6394 21 12.6688 21C7.69828 21 3.66884 16.9706 3.66884 12C3.66884 7.02944 7.69828 3 12.6688 3C17.6394 3 21.6688 7.02944 21.6688 12Z' fill='rgba(0,0,0, .65)'/%3E%3C/svg%3E%0A");
+    }
+
+    &--manuscripts:before {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='feather' viewBox='0 0 25 24'%3E%3Cpath d='M22.9948 2C22.9948 2 15.3548 1.63 9.33484 9.88C4.71484 16.21 2.99484 22 2.99484 22L4.93484 21C6.37484 18.5 7.12484 17.47 8.53484 16C11.0648 16.74 13.7048 16.65 15.9948 14C13.9948 13.44 12.3948 13.57 10.0348 13.81C12.6848 12 14.4948 11.6 16.9948 12L17.9948 10C16.1948 9.66 14.9948 9.63 13.2148 10.04C15.1848 8.65 16.5548 7.87 18.9948 8L20.2048 6.07C18.6448 5.96 17.7048 6.13 15.9148 6.57C17.5248 5.11 18.9948 4.45 21.1348 4.32C21.1348 4.32 22.1848 2.43 22.9948 2Z' fill='rgba(0,0,0, .65)'/%3E%3C/svg%3E%0A");
+    }
+  }
+
+  .movements {
+    display: table;
+  }
+
+  .movement {
+    display: table-row;
+
+    &--pos,
+    &--title,
+    &--duration {
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+    &--title,
+    &--duration {
+      &:before {
+        display: inline-flex;
+        padding-right: .5rem;
+        font-size: .8rem;
+        font-weight: 500;
+        color: $c-gray-darker;
+        color: rgba(0,0,0, .5);
+      }
+    }
+
+    &--title {
+      padding: .125rem 1rem;
     }
   }
 }

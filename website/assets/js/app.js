@@ -1,4 +1,4 @@
-(() => {
+(function () {
   'use strict'
 
   var wavesurfer
@@ -26,7 +26,7 @@
 
       if (!ls) return
       ls.getAttribute('class').trim().split(' ')
-        .forEach(c => {
+        .forEach(function (c) {
           if (['highlight', 'focus', 'invert', 'black'].includes(c)) {
             sc = c
           }
@@ -42,7 +42,7 @@
       var units = ['KB', 'MB', 'GB']
       var els = document.querySelectorAll('a.download .download--size')
 
-      els.forEach(el => {
+      els.forEach(function (el) {
         var thousands = -1
         var bytes = parseFloat(el.getAttribute('data-bytes'))
 
@@ -139,6 +139,8 @@
           play[i].classList.remove('playing')
         }
       })
+
+      console.log('player init done')
     }
   }
 
