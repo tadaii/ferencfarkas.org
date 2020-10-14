@@ -6,7 +6,7 @@ description: Musical comedy in 3 acts based on the novel by Kálmán Mikszáth
 duration: 7200
 id: a-noszty-fiu-esete-toth-marival
 libretto:
-  - 'In hungarian by András Benedek, Ferenc Karinthy, Dezsö Mészöly and Pál Zoltán'
+  hu: 'In hungarian by András Benedek, Ferenc Karinthy, Dezsö Mészöly and Pál Zoltán'
 setting: '2, 1, 2, 1 – 2, 2, 1, 0 – timp., batt. – arpa, pf., cel. – archi'
 publications:
   - publisher_id: afp

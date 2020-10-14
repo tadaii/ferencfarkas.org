@@ -6,7 +6,7 @@ description: Musical comedy in 2 acts and 7 scenes based on a subject by Hugo Ha
 duration: 7200
 id: piroschka
 libretto:
-  - In german by Karlheinz Gutheim
+  de: In german by Karlheinz Gutheim
 publications:
   - publisher_id: universal
     type: all

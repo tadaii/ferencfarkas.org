@@ -9,7 +9,10 @@
       {{- with .Title }}{{ . }} | {{ end }}{{ .Site.Title -}}
       {{ end }}</title>
     {{ range .AlternativeOutputFormats }}
-    <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+    <link
+      rel="{{ .Rel }}"
+      type="{{ .MediaType.Type }}"
+      href="{{ .Permalink | safeURL }}">
     {{ end }}
     {{ block "site/styles" . }}{{ partial "site/styles.html" . }}{{ end }}
     {{ block "site/scripts" . }}{{ partial "site/scripts.html" . }}{{ end }}

@@ -37,7 +37,7 @@ description: Opera in 2 acts
 duration: 7200
 id: egy-ur-velenceboel-casanova
 libretto:
-  - In hungarian by Sándor Márai
+  hu: In hungarian by Sándor Márai
 publications:
   - publisher_id: afp
     type: score

@@ -312,7 +312,7 @@
         return [formatDuration(value)]
       case 'libretto':
       case 'texts':
-        return [h('ul', {}, value.map(v => h('li', {}, [v])))]
+        return [h('ul', {}, Object.values(value).map(v => h('li', {}, [v])))]
       case 'movements':
         return workFieldMovements(value)
       case 'publications':
@@ -383,7 +383,8 @@
     class: 'work--title',
     onclick: onWorkClick
   }, [
-    work.title.translations[work.title.main],
+    h('span', {}, [work.title.translations[work.title.main]]),
+    (work.texts || work.libretto) && workLanguages(state, work),
     work.title.sort.length > 1
       ? h('div', { class: 'work--title-translations' }, [work.title.sort
           .filter(key => key !== work.title.main)
@@ -401,42 +402,12 @@
     work.note && h('div', { class: 'work--note' }, [ work.note ])
   ])
 
-  const workFooterView = (state, work) => {
-    if (!work.text &&
-        !work.libretto &&
-        !work.audio &&
-        !work.story &&
-        !work.cd
-    ) {
-      return
-    }
-
-    return h('div', {
-      class: 'work--footer'
-    }, [
-      work.text || work.libretto && h('div', {
-        class: 'work--languages'
-      }, [
-        h('span', { class: 'work--footer-label' }, ['Languages:']),
-        h('ul', {}, [
-          h('li', {}, ['hu']),
-          h('li', {}, ['fr']),
-          h('li', {}, ['de'])
-        ])
-      ]),
-      h('div', {
-        class: 'work--multimedia'
-      }, [
-        h('span', { class: 'work--footer-label' }, ['Multimedia:']),
-        h('ul', {}, [
-          h('li', {}, [h('div', { class : 'work--sounds' }, [])]),
-          h('li', {}, [h('div', { class: 'work--story' }, [])]),
-          h('li', {}, [h('div', { class: 'work--cds' }, [])]),
-          h('li', {}, [h('div', { class: 'work--manuscripts' }, [])])
-        ])
-      ])
-    ])
-  }
+  const workLanguages = (state, work) => h('ul', {
+      class: 'work--languages',
+      onclick: onWorkClick
+    }, Object.keys({ ...work.texts, ...work.libretto })
+      .map(lang => h('li', {}, [lang]))
+  )
 
   const workView = (work, state, type) => {
     return h('li', {
@@ -457,8 +428,7 @@
       }, [ work.version ]),
       workFields(state, work),
       work.versions && h('ul', { class: 'works--list' }, work.versions
-        .map(version => workView(version, state, 'sub'))),
-      // workFooterView(state, work)
+        .map(version => workView(version, state, 'sub')))
     ])
   }
 
@@ -683,6 +653,17 @@
           activeFacets,
           getValue: item => [item.category],
           getLabel: facet => state.categories[facet]?.title
+        })
+      },
+      l: {
+        label: 'Languages',
+        showMore: false,
+        facets: buildFacet({
+          group: 'l',
+          results,
+          activeFacets,
+          getValue: item => Object.keys({ ...item.texts, ...item.libretto }),
+          getLabel: facet => facet.toUpperCase()
         })
       },
       p: {

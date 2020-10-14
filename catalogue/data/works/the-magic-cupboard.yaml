@@ -21,8 +21,8 @@ description: Opera in 2 acts based on a story from "Thausand-and-one nights"
 duration: 5220
 id: the-magic-cupboard
 libretto:
-  - In hungarian by Gyula Kunszery
-  - German adaptation by Karlheinz Gutheim
+  hu: In hungarian by Gyula Kunszery
+  de: German adaptation by Karlheinz Gutheim
 reworks:
   - 'The magic cupboard for orchestra: concert-overture from the opera "The magic cupboard"'
   - Overture to a comedy for orchestra
