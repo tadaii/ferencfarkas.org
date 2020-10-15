@@ -92,18 +92,19 @@
       var trackInfo = document.querySelector('#player .player--meta')
 
       var play = function ({ target, audio, title, detail }) {
-        console.log(target)
         var play = document.querySelectorAll('.play--button')
         var url = audios[audio].url
+        var defaultTitle = audios[audio].title
+        var defaulltDetail = audios[audio].detail
 
         player.classList.add('open')
 
-        trackInfo.querySelector('h5').innerText = title
-        trackInfo.querySelector('p').innerText = detail
+        trackInfo.querySelector('h5').innerText = title || defaultTitle
+        trackInfo.querySelector('p').innerText = detail || defaulltDetail
 
         if (target.classList.contains('playing')) {
           wavesurfer.pause()
-        } else if (playing === url) {
+        } else if (playing === audio) {
           wavesurfer.play()
         } else {
           for (var i = 0; i < play.length; i++) {
@@ -111,7 +112,7 @@
           }
           wavesurfer.stop()
           wavesurfer.load(url)
-          playing = url
+          playing = audio
         }
 
         target.classList.toggle('playing')
@@ -123,9 +124,9 @@
           ? document.querySelector('.play--button[data-audio="' +playing+'"]')
           : event.detail.target
 
-        var audio = event.detail.audio
-        var title = event.detail.title || 'DEFAULT TITLE' + audio
-        var detail = event.detail.detail || 'DEFAULT DETAIL'
+        var audio = event.detail.audio || playing
+        var title = event.detail.title
+        var detail = event.detail.detail
 
         if (!audio) {
           return

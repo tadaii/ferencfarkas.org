@@ -102,9 +102,13 @@ const buildAudioMap = catalogue => {
       return map
     }
 
+    const title = work.title.translations[work.title.main]
+    const category = catalogue.categories[work.category].title
+
     work.audios.forEach(audio => {
       map[audio.id] = {
-        description: audio.description,
+        title: audio.description,
+        detail: `${title} - ${category}`,
         url: `/audio/${audio.id}.ogg`
       }
     })

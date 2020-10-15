@@ -409,28 +409,43 @@
       .map(lang => h('li', {}, [lang]))
   )
 
-  const workMultimedia = (state, work) => {
-    const audios = work.audios
-      ? work.audios.map(audio => h('div', { class: 'play small' }, [
-        h('button', {
-          class: 'play--button',
-          'data-url': audio.id,
-          'data-title': audio.description,
-          onclick: (state, event) => {
-            event.preventDefault()
-            window.dispatchEvent(new CustomEvent('play', {
-              detail: { target: event.target, audio: audio.id }
-            }))
-            return state
-          }
-        }, []),
-        h('div', { class: 'play--meta' }, [
-          h('h5', {}, [audio.description])
-        ])
-      ]))
-      : []
+  const workAudios = audios => audios
+    ? audios.map(audio => h('div', { class: 'play small' }, [
+      h('button', {
+        class: 'play--button',
+        'data-audio': audio.id,
+        'data-title': audio.description,
+        onclick: (state, event) => {
+          event.preventDefault()
+          window.dispatchEvent(new CustomEvent('play', {
+            detail: { target: event.target, audio: audio.id }
+          }))
+          return state
+        }
+      }, []),
+      h('div', { class: 'play--meta' }, [
+        h('h5', {}, [audio.description])
+      ])
+    ]))
+    : []
 
-    return audios
+  const workMultimedia = (state, work) => {
+    const cds = []
+    const manuscript = null
+
+    const story = work.story && h('a', {
+      class: 'work--story',
+      href: '#'
+    }, ['About the work'])
+
+    const audios = workAudios(work.audios)
+
+    return h('div', { class: 'work--multimedia' }, [
+      story && story,
+      cds && cds,
+      manuscript && manuscript,
+      ...audios
+    ])
   }
 
   const workView = (work, state, type) => {

@@ -105,6 +105,10 @@
   #waveform {
     flex: 1;
 
+    wave {
+      overflow: hidden !important;
+    }
+
     canvas {
       width: 100%;
     }
@@ -147,7 +151,7 @@
     .small & {
       width: 1.5rem;
       height: 1.5rem;
-      margin-right: .35rem;
+      margin-right: .5rem;
     }
 
     &:focus,
