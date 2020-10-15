@@ -1,4 +1,7 @@
 ---
+audios:
+  - id: the-sly-students-fair-in-debrecen
+    description: Fair in Debrecen
 cast:
   - role: 'Horváth, director of the college'
   - role: 'Terézia, his wife'

@@ -1,5 +1,5 @@
 <div class="play">
-  <button class="play--button" data-url="{{ .Get 0 }}" data-title="{{ .Get 1 }}" data-detail="{{ .Get 2 }}"></button>
+  <button class="play--button" onclick="window.dispatchEvent(new CustomEvent('play', { detail: { target: this, audio: '{{ .Get 0 }}', title: '{{ .Get 1 }}', detail: '{{ .Get 2 }}' } }))"></button>
   <div class="play--meta">
     <h5>{{ .Get 1 }}</h5>
     <p>{{ .Get 2 }}</p>

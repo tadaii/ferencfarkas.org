@@ -1,4 +1,7 @@
 ---
+audios:
+  - id: the-magic-cupboard-suleika
+    description: Suleika’s melody
 cast:
   - role: Suleika
     voice: soprano

@@ -116,6 +116,10 @@
   display: inline-flex;
   align-items: flex-start;
 
+  &.small {
+    padding: .5rem 0;
+  }
+
   &--button {
     flex-shrink: 0;
     position: relative;
@@ -140,6 +144,12 @@
       background-color: transparent;
     }
 
+    .small & {
+      width: 1.5rem;
+      height: 1.5rem;
+      margin-right: .35rem;
+    }
+
     &:focus,
     &:active {
       outline: none;
@@ -161,6 +171,13 @@
       #player & {
         border-left-color: rgba(255,255,255, .75);
       }
+
+      .small & {
+        margin-left: .125rem;
+        border-top-width: .4rem;
+        border-bottom-width: .4rem;
+        border-left-width: .55rem;
+      }
     }
 
     &.playing:before,
@@ -173,10 +190,19 @@
       #player & {
         background-color: rgba(255,255,255, .75);
       }
+
+      .small & {
+        width: .2rem;
+        height: .75rem;
+      }
     }
 
     &.playing:after {
       margin-left: .25rem;
+
+      .small & {
+        margin-left: .125rem;
+      }
     }
 
     &:hover {
@@ -198,12 +224,21 @@
     h5 {
       font-size: 1.4rem;
       margin: 0;
+
+      .small & {
+        margin: .1rem 1rem 0 0;
+        font-size: 1rem;
+      }
     }
 
     p {
       margin: .25rem 0 0 0;
       font-size: 1.125rem;
       line-height: 1.2;
+
+      .small & {
+        display: none;
+      }
     }
   }
 }

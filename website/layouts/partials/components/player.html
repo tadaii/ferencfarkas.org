@@ -8,7 +8,7 @@
       </div>
       <div class="player--controls">
         <div class="play">
-          <button class="play--button"></button>
+          <button class="play--button" onclick="window.dispatchEvent(new CustomEvent('play', { detail: { target: this } }))"></button>
         </div>
         <div id="waveform"></div>
         <div class="player--volume"></div>

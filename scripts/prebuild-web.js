@@ -4,9 +4,11 @@ const yaml = require('yaml')
 const lunr = require('lunr')
 
 const src = resolve(__dirname, '../catalogue')
+const dstAudioList = resolve(__dirname, '../website/static/_catalogue/a.json')
 const dstCatalogue = resolve(__dirname, '../website/static/_catalogue/c.json')
 const dstSearchIdx = resolve(__dirname, '../website/static/_catalogue/i.json')
-const dstI18n = resolve(__dirname, '../website/static/_catalogue/i18n')
+const dstI18nDir = resolve(__dirname, '../website/static/_catalogue/i18n')
+const dstAudioDir = resolve(__dirname, '../website/static/audio')
 
 const yaml2json = async file => {
   console.log(`> Processing ${file}`)
@@ -59,13 +61,12 @@ const buildCatalogue = async src => {
   const genres = a2o(await yaml2json(join(src, 'data', 'genres.yaml')))
   const categories = a2o(await yaml2json(join(src, 'data', 'categories.yaml')))
   const publishers = a2o(await yaml2json(join(src, 'data', 'publishers.yaml')))
-  const samples = await yaml2json(join(src, 'data', 'samples.yaml'))
   const fields = await yaml2json(join(src, 'data', 'fields.yaml'))
   const works = await getWorks({
     dir: join(src, 'data', 'works'), genres, categories
   })
 
-  return { categories, fields, genres, publishers, samples, works }
+  return { categories, fields, genres, publishers, works }
 }
 
 const buildSearchIndex = catalogue => {
@@ -95,23 +96,68 @@ const buildSearchIndex = catalogue => {
   return idx
 }
 
-const prebuild = async ({ src, dstCatalogue, dstSearchIdx, dstI18n }) => {
+const buildAudioMap = catalogue => {
+  const audioMap = catalogue.works.reduce((map, work) => {
+    if (!work.audios) {
+      return map
+    }
+
+    work.audios.forEach(audio => {
+      map[audio.id] = {
+        description: audio.description,
+        url: `/audio/${audio.id}.ogg`
+      }
+    })
+
+    return map
+  }, {})
+
+  console.log(`> Audio list written`)
+
+  return audioMap
+}
+
+const prebuild = async ({
+  src, dstAudioList, dstCatalogue, dstSearchIdx, dstI18nDir, dstAudioDir
+}) => {
   const catalogue = await buildCatalogue(src)
   const searchIdx = buildSearchIndex(catalogue)
+  const audioList = buildAudioMap(catalogue)
 
   // Write catalogue and search index files.
+  await writeFile(dstAudioList, JSON.stringify(audioList), 'utf8')
   await writeFile(dstCatalogue, JSON.stringify(catalogue), 'utf8')
   await writeFile(dstSearchIdx, JSON.stringify(searchIdx), 'utf8')
 
   // Copy i18n files.
-  await mkdirp(dstI18n)
+  await mkdirp(dstI18nDir)
   const srcI18n = join(src, 'i18n')
   const i18nFiles = await readdir(srcI18n)
 
   for (let file of i18nFiles) {
-    await copyFile(join(srcI18n, file), join(dstI18n, file))
+    if (!file.endsWith('.json')) {
+      continue
+    }
+
+    await copyFile(join(srcI18n, file), join(dstI18nDir, file))
+    console.log(`> ${file} copied`)
+  }
+
+  // Copy audio files.
+  await mkdirp(dstAudioDir)
+  const srcAudioDir = join(src, 'data', 'audio')
+  const audioFiles = await readdir(srcAudioDir)
+
+  for (let file of audioFiles) {
+    if (!file.endsWith('.ogg') && !file.endsWith('.mp3')) {
+      continue
+    }
+
+    await copyFile(join(srcAudioDir, file), join(dstAudioDir, file))
     console.log(`> ${file} copied`)
   }
 }
 
-prebuild({ src, dstCatalogue, dstSearchIdx, dstI18n })
+prebuild({
+  src, dstAudioList, dstCatalogue, dstSearchIdx, dstI18nDir, dstAudioDir
+})

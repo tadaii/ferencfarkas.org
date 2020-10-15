@@ -2,4 +2,5 @@
 /functions
 /resources
 /static/_catalogue/**
+/static/audio/**
 !.git**

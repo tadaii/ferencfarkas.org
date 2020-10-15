@@ -409,6 +409,30 @@
       .map(lang => h('li', {}, [lang]))
   )
 
+  const workMultimedia = (state, work) => {
+    const audios = work.audios
+      ? work.audios.map(audio => h('div', { class: 'play small' }, [
+        h('button', {
+          class: 'play--button',
+          'data-url': audio.id,
+          'data-title': audio.description,
+          onclick: (state, event) => {
+            event.preventDefault()
+            window.dispatchEvent(new CustomEvent('play', {
+              detail: { target: event.target, audio: audio.id }
+            }))
+            return state
+          }
+        }, []),
+        h('div', { class: 'play--meta' }, [
+          h('h5', {}, [audio.description])
+        ])
+      ]))
+      : []
+
+    return audios
+  }
+
   const workView = (work, state, type) => {
     return h('li', {
       class: `work work--${type || 'container'}`,
@@ -428,7 +452,8 @@
       }, [ work.version ]),
       workFields(state, work),
       work.versions && h('ul', { class: 'works--list' }, work.versions
-        .map(version => workView(version, state, 'sub')))
+        .map(version => workView(version, state, 'sub'))),
+      workMultimedia(state, work)
     ])
   }
 
@@ -796,7 +821,7 @@
     results: [],
     resultsPerPage: 10,
     scope: 'full',
-    showID: false,
+    showID: window.location.search.includes('showID'),
     workFields: [],
     works: []
   }, [

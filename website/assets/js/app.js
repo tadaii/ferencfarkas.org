@@ -3,6 +3,7 @@
 
   var wavesurfer
   var playing
+  var audios
 
   var header = {
     init () {
@@ -86,47 +87,61 @@
         }
       }, 500)
 
-      var play = document.querySelectorAll('.play--button')
+      var player = document.querySelector('#player')
+      var playerPlay = document.querySelector('#player .play--button')
+      var trackInfo = document.querySelector('#player .player--meta')
 
-      if (!play) return
+      var play = function ({ target, audio, title, detail }) {
+        console.log(target)
+        var play = document.querySelectorAll('.play--button')
+        var url = audios[audio].url
 
-      for (var i = 0; i < play.length; i++) {
-        play[i].addEventListener('click', function (event) {
-          var player = document.querySelector('#player')
-          var playerPlay = document.querySelector('#player .play--button')
-          var trackInfo = document.querySelector('#player .player--meta')
-          var el = event.target === playerPlay
-            ? document.querySelector('.play--button[data-url="'+playing+'"]')
-            : event.target
+        player.classList.add('open')
 
-          var url = el.getAttribute('data-url')
-          var title = el.getAttribute('data-title')
-          var detail = el.getAttribute('data-detail')
+        trackInfo.querySelector('h5').innerText = title
+        trackInfo.querySelector('p').innerText = detail
 
-          if (!url) return
-
-          player.classList.add('open')
-
-          trackInfo.querySelector('h5').innerText = title
-          trackInfo.querySelector('p').innerText = detail
-
-          if (el.classList.contains('playing')) {
-            wavesurfer.pause()
-          } else if (playing === url) {
-            wavesurfer.play()
-          } else {
-            for (var j = 0; j < play.length; j++) {
-              play[j].classList.remove('playing')
-            }
-            wavesurfer.stop()
-            wavesurfer.load(url)
-            playing = url
+        if (target.classList.contains('playing')) {
+          wavesurfer.pause()
+        } else if (playing === url) {
+          wavesurfer.play()
+        } else {
+          for (var i = 0; i < play.length; i++) {
+            play[i].classList.remove('playing')
           }
+          wavesurfer.stop()
+          wavesurfer.load(url)
+          playing = url
+        }
 
-          el.classList.toggle('playing')
-          playerPlay.classList.toggle('playing')
-        })
+        target.classList.toggle('playing')
+        playerPlay.classList.toggle('playing')
       }
+
+      window.addEventListener('play', function (event) {
+        var target = event.detail.target === playerPlay
+          ? document.querySelector('.play--button[data-audio="' +playing+'"]')
+          : event.detail.target
+
+        var audio = event.detail.audio
+        var title = event.detail.title || 'DEFAULT TITLE' + audio
+        var detail = event.detail.detail || 'DEFAULT DETAIL'
+
+        if (!audio) {
+          return
+        }
+
+        if (!audios) {
+          fetch('/_catalogue/a.json')
+            .then(function (response) { return response.json() })
+            .then(function (json) {
+              audios = json
+              play({ player, target, audio, title, detail })
+            })
+        } else {
+          play({ target, audio, title, detail })
+        }
+      })
 
       var close = document.querySelector('.player--close')
 
@@ -139,8 +154,6 @@
           play[i].classList.remove('playing')
         }
       })
-
-      console.log('player init done')
     }
   }
 
