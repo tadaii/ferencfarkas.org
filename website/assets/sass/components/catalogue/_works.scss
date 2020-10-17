@@ -25,7 +25,7 @@
 
   .work {
     position: relative;
-    padding: 0 1.25rem;
+    padding: 0 1rem;
 
     .black & {
       border-bottom-color: rgba(255,255,255, .2);
@@ -122,15 +122,16 @@
         align-items: center;
         justify-content: center;
         margin: 0 .5rem 0 0;
-        padding: .2rem .4rem .3rem;
+        padding: .2rem .4rem .25rem;
         font-family: $f-sans;
         font-size: .75rem;
         line-height: .75rem;
-        font-weight: 500;
+        font-weight: 600;
         text-transform: uppercase;
         border-radius: .4rem;
-        color: $c-primary;
-        background-color: rgba(0,0,0, .6);
+        // color: $c-primary;
+        // background-color: rgba(0,0,0, .6);
+        border: 1px solid rgba(0,0,0, .6);
       }
     }
 
@@ -268,6 +269,7 @@
       align-items: center;
       padding-right: .5rem;
       margin-right: .75rem;
+      font-family: $f-serif;
       font-size: 1rem;
       border: none;
 

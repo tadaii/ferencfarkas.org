@@ -74,12 +74,16 @@
             barHeight: 2
           })
 
+          wavesurfer.on('loading', function (percent) {
+            console.log('Loading', percent)
+          })
+
           wavesurfer.on('ready', function () {
             wavesurfer.play()
           })
 
           wavesurfer.on('finish', function () {
-            var play = document.querySelectorAll('.play--button')
+            var play = document.querySelectorAll('.play')
             for (var i = 0; i < play.length; i++) {
               play[i].classList.remove('playing')
             }
@@ -88,11 +92,11 @@
       }, 500)
 
       var player = document.querySelector('#player')
-      var playerPlay = document.querySelector('#player .play--button')
+      var playerPlay = document.querySelector('#player .play')
       var trackInfo = document.querySelector('#player .player--meta')
 
       var play = function ({ target, audio, title, detail }) {
-        var play = document.querySelectorAll('.play--button')
+        var play = document.querySelectorAll('.play')
         var url = audios[audio].url
         var defaultTitle = audios[audio].title
         var defaulltDetail = audios[audio].detail
@@ -121,7 +125,7 @@
 
       window.addEventListener('play', function (event) {
         var target = event.detail.target === playerPlay
-          ? document.querySelector('.play--button[data-audio="' +playing+'"]')
+          ? document.querySelector('.play[data-audio="' +playing+'"]')
           : event.detail.target
 
         var audio = event.detail.audio || playing

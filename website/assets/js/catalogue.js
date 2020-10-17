@@ -410,19 +410,19 @@
   )
 
   const workAudios = audios => audios
-    ? audios.map(audio => h('div', { class: 'play small' }, [
-      h('button', {
-        class: 'play--button',
-        'data-audio': audio.id,
-        'data-title': audio.description,
-        onclick: (state, event) => {
-          event.preventDefault()
-          window.dispatchEvent(new CustomEvent('play', {
-            detail: { target: event.target, audio: audio.id }
-          }))
-          return state
-        }
-      }, []),
+    ? audios.map(audio => h('button', {
+      class: 'play small',
+      'data-audio': audio.id,
+      'data-title': audio.description,
+      onclick: (state, event) => {
+        event.preventDefault()
+        window.dispatchEvent(new CustomEvent('play', {
+          detail: { target: event.target, audio: audio.id }
+        }))
+        return state
+      }
+    }, [
+      h('div', { class: 'play--button' }, []),
       h('div', { class: 'play--meta' }, [
         h('h5', {}, [audio.description])
       ])
@@ -435,7 +435,7 @@
 
     const story = work.story && h('a', {
       class: 'work--story',
-      href: '#'
+      href: work.story
     }, ['About the work'])
 
     const audios = workAudios(work.audios)

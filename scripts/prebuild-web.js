@@ -1,5 +1,5 @@
 const { join, resolve } = require('path')
-const { copyFile, mkdirp, readdir, readFile, writeFile } = require('fs-extra')
+const { copyFile, pathExists, mkdirp, readdir, readFile, writeFile } = require('fs-extra')
 const yaml = require('yaml')
 const lunr = require('lunr')
 
@@ -36,6 +36,11 @@ const getWorks = async ({ dir, genres, categories }) => {
     }
 
     work.genre = categories[work.category].genre
+    const hasStory = await pathExists(`./website/content/work/${work.id}.md`)
+
+    if (hasStory) {
+      work.story = `/work/${work.id}`
+    }
 
     works.push(work)
   }
@@ -43,6 +48,7 @@ const getWorks = async ({ dir, genres, categories }) => {
   return works.map(work => {
     if (work.rework_of) {
       work.rework = work.rework_of
+      work.story = works.find(w => w.id === work.rework_of).story
       works.find(w => w.id === work.rework_of).rework = work.rework_of
     }
     return work
