@@ -75,7 +75,16 @@
           })
 
           wavesurfer.on('loading', function (percent) {
-            console.log('Loading', percent)
+            var player = document.querySelector('#player')
+            var playerLoading = document.querySelector('#player .player--loading')
+
+            player.classList.add('loading')
+            playerLoading.innerText = `Loading ${percent}% `
+
+            if (percent === 100) {
+              playerLoading.innerText = ''
+              player.classList.remove('loading')
+            }
           })
 
           wavesurfer.on('ready', function () {

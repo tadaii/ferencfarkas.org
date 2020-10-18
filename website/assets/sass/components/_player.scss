@@ -11,6 +11,12 @@
     }
   }
 
+  &.loading {
+    .player--loading {
+      display: block;
+    }
+  }
+
   .player {
     &--wrapper {
       position: fixed;
@@ -62,6 +68,12 @@
       }
     }
 
+    &--loading {
+      display: none;
+      width: 100%;
+      opacity: .75;
+    }
+
     &--close {
       position: absolute;
       top: 1.5rem;
@@ -92,6 +104,8 @@
         transform: rotate(-45deg) translateX(1px);
       }
     }
+
+
   }
 
   .play {
