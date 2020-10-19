@@ -1,14 +1,4 @@
-<button
-  class="play"
-  data-audio="{{ .Get 0 }}"
-  onclick="window.dispatchEvent(new CustomEvent('play', {
-    detail: {
-      target: this,
-      audio: '{{ .Get 0 }}',
-      title: '{{ .Get 1 }}',
-      detail: '{{ .Get 2 }}'
-    }
-  }))">
+<button class="play" data-audio="{{ .Get 0 }}" onclick="window.dispatchEvent(new CustomEvent('play', {detail: { target: this, audio: '{{ .Get 0 }}', title: '{{ .Get 1 }}', detail: '{{ .Get 2 }}'}}))">
   <div class="play--button"></div>
   <div class="play--meta">
     <h5>{{ .Get 1 }}</h5>
