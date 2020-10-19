@@ -11,12 +11,6 @@
     }
   }
 
-  &.loading {
-    .player--loading {
-      display: block;
-    }
-  }
-
   .player {
     &--wrapper {
       position: fixed;
@@ -69,8 +63,8 @@
     }
 
     &--loading {
-      display: none;
-      width: 100%;
+      position: absolute;
+      left: 6rem;
       opacity: .75;
     }
 

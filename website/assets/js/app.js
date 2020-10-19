@@ -79,14 +79,15 @@
             var playerLoading = document.querySelector('#player .player--loading')
 
             player.classList.add('loading')
-            playerLoading.innerText = `Loading ${percent}% `
+            playerLoading.innerText = `Loading sound ${percent}% `
 
             if (percent === 100) {
-              playerLoading.innerText = 'Loading sound...'
+              playerLoading.innerText = 'Loading waveform...'
             }
           })
 
           wavesurfer.on('ready', function () {
+            console.log('ready')
             var player = document.querySelector('#player')
             var playerLoading = document.querySelector('#player .player--loading')
 
