@@ -82,12 +82,17 @@
             playerLoading.innerText = `Loading ${percent}% `
 
             if (percent === 100) {
-              playerLoading.innerText = ''
-              player.classList.remove('loading')
+              playerLoading.innerText = 'Loading sound...'
             }
           })
 
           wavesurfer.on('ready', function () {
+            var player = document.querySelector('#player')
+            var playerLoading = document.querySelector('#player .player--loading')
+
+            playerLoading.innerText = ''
+            player.classList.remove('loading')
+
             wavesurfer.play()
           })
 
