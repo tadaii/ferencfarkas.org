@@ -5,19 +5,36 @@ heroImage: /img/hero/hero1.jpg
 date: 2019-03-17T18:18:43Z
 ---
 
-{{% section black %}}
-## New version coming soon...
+{{% section %}}
+{{% row %}}
+{{% column size="1.5" %}}
+## Welcome!
 
-We have completely reworked the website for a better user experience.
+This is the official website of Hungarian composer **Ferenc Farkas** (1905 - 2000).
 
-You'll now be able to use it on mobile devices, have access to more multimedia
-content, included more music samples, more images of bigger size, more downloads
-and most importantly:
+It is maintained by his son, Andras Farkas and his family and aims to provide
+as much content as possible about the work and life of Ferenc Farkas.
 
-_A brand new searchable and interactive catalogue of works !_
+Content is still under development and will be regularly added.
 
-We are very excited to this new version and hope you'lle be too!
+We currently focus on fullfiling the [catalogue of works](/work) which contains
+more than 800 works. We've planned to add musical samples, images and contextual
+information for the most famous and played works.
 
-Please apologize for the technical issues we encountered these last months.
+{{% /column %}}
+{{% column %}}
+<br>
+
+### Last updates
+{{% updates %}}
+
+{{% /column %}}
+{{% /row %}}
+{{% /section %}}
+
+{{% section focus %}}
+## Selection of works
+
+{{< work the-magic-cupboard >}}
 
 {{% /section %}}

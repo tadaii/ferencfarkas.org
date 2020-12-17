@@ -1,11 +1,12 @@
 const { join, resolve } = require('path')
-const { copyFile, pathExists, mkdirp, readdir, readFile, writeFile } = require('fs-extra')
+const { copyFile, pathExists, mkdirp, readdir, readFile, writeFile, writeFileSync } = require('fs-extra')
 const yaml = require('yaml')
 const lunr = require('lunr')
 
 const src = resolve(__dirname, '../catalogue')
 const dstAudioList = resolve(__dirname, '../website/static/_catalogue/a.json')
 const dstCatalogue = resolve(__dirname, '../website/static/_catalogue/c.json')
+const dstWorks = resolve(__dirname, '../website/data/works.json')
 const dstSearchIdx = resolve(__dirname, '../website/static/_catalogue/i.json')
 const dstI18nDir = resolve(__dirname, '../website/static/_catalogue/i18n')
 const dstAudioDir = resolve(__dirname, '../website/static/audio')
@@ -128,7 +129,13 @@ const buildAudioMap = catalogue => {
 }
 
 const prebuild = async ({
-  src, dstAudioList, dstCatalogue, dstSearchIdx, dstI18nDir, dstAudioDir
+  src,
+  dstAudioList,
+  dstCatalogue,
+  dstWorks,
+  dstSearchIdx,
+  dstI18nDir,
+  dstAudioDir,
 }) => {
   const catalogue = await buildCatalogue(src)
   const searchIdx = buildSearchIndex(catalogue)
@@ -138,6 +145,14 @@ const prebuild = async ({
   await writeFile(dstAudioList, JSON.stringify(audioList), 'utf8')
   await writeFile(dstCatalogue, JSON.stringify(catalogue), 'utf8')
   await writeFile(dstSearchIdx, JSON.stringify(searchIdx), 'utf8')
+
+  // Write catalogue works in web data dir.
+  const works = catalogue.works.reduce((worksMap, work) => {
+    worksMap[work.id] = work
+    return worksMap
+  }, {})
+
+  await writeFile(dstWorks, JSON.stringify(works), 'utf8')
 
   // Copy i18n files.
   await mkdirp(dstI18nDir)
@@ -169,5 +184,11 @@ const prebuild = async ({
 }
 
 prebuild({
-  src, dstAudioList, dstCatalogue, dstSearchIdx, dstI18nDir, dstAudioDir
+  src,
+  dstAudioList,
+  dstCatalogue,
+  dstWorks,
+  dstSearchIdx,
+  dstI18nDir,
+  dstAudioDir
 })

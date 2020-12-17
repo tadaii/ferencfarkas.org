@@ -3,10 +3,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  @include heroHeight;
+  height: 22rem;
   background-color: $c-black;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 3rem), 0 100%);
   z-index: 1;
+
+  &.tall {
+    @include heroHeight;
+  }
 
   .container {
     height: 100%;
@@ -40,6 +44,10 @@
     @media screen and (min-width: 520px) {
       font-size: 1.75rem;
       font-size: 2rem;
+    }
+
+    @media screen and (min-width: 768px) {
+      max-width: 50vw;
     }
 
     @media screen and (min-width: 1024px) {

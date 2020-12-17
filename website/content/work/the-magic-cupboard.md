@@ -1,3 +1,17 @@
+---
+title: The magic cupboard
+subTitle: 'Opera in 2 acts based on a story from "Thausand-and-one nights"'
+# heroImage: /img/hero/hero4.jpg
+date: 2019-11-09
+menu:
+  main:
+    parent: 'work'
+    weight: 100
+---
+
+{{% section %}}
+## About the work
+
 The comic opera entitled “The Magic Cupboard” meant a turning-point in the career of Ferenc Farkas who was ranked among the most remarkable Hungarian composers of the time after the work's highly acclaimed premiere in 1942.
 
 Ever since his years of study at the Academy of Music (1923-27) Farkas had in mind to set to music one of the tales of “The Arabian Nights”: “What especially interested me as musican already at that time was an empty stage with a quartet in a cupboard…! So Farkas started his composition, but he soon abandoned his writing because the libretto was unsuitable for him. Only the overture was performed- with the title “Introductory Music to a Comedy” - at a concert in the Redoute of Pest in the spring of 1928.
@@ -14,4 +28,6 @@ Thank to easily singable natural melodies and ingenious musical and stage soluti
 
 Farkas says about his opera : “I wanted to create an easily accessible and fun work. I think that an opera should be understood easily and immediately. Where so many elements are concentrated, words, action, decoration, light effects etc. the music can not be too difficult. Mozart has not composed for the stage like for his symphonies and his string quartets. This is not a miracle that the operas of Verdi and Puccini - despite periods of adequacy and snobbery - are still the most popular works in the repertoire.  In my opera, there are no experiments, no big problems, and if the public enjoyed and did not regretted the one hour and a half, so my objective  is reached”.
 
-Laszlò Gombos
+**Laszlò Gombos**
+
+{{% /section %}}

@@ -1,8 +1,8 @@
 ---
 title: "Csinom Palko"
 subTitle: "Popular romantic opera in 3 acts"
-heroImage: /img/hero/hero4.jpg
-date: 2019-10-15
+# heroImage: /img/hero/hero4.jpg
+date: 2019-11-09
 menu:
   main:
     parent: 'work'
@@ -24,6 +24,8 @@ Csínom Palkó was broadcast for the first time on 22 January 1950. Though not a
 
 {{% /column %}}
 {{% /row %}}
+{{% /section %}}
+{{% section invert %}}
 {{% row %}}
 {{% column %}}
 
@@ -36,6 +38,8 @@ In the regions and abroad, on the contrary, Csínom Palkó met with great succes
 
 {{% /column %}}
 {{% /row %}}
+{{% /section %}}
+{{% section focus %}}
 {{% row %}}
 {{% column %}}
 
@@ -43,14 +47,16 @@ In 1953 in Sofia, I had an unpleasant surprise: I could hardly recognise my own 
 
 By contrast, in 1954 in Košice (today part of independent Slovakia), I reached the heights. Welcomed with all official honours by the city's authorities, I was able to discuss matters like the positioning on the stage with Karel Smažík, an excellent director from Prague. The opera, given in Slovak, was immediately an immense success; I have never experienced anything to compare with it. The enthusiasm of the public reached a peak when the Kuruc entered the scene brandishing the red and blue flag, Rákóczi’s colours. It should be said that Košice, which was part of Hungary until the end of the First World War, possessed a very strong Hungarian constituent (more than 65%). Seeing the enormous success of Csínom Palkó, the authorities feared it might provoke an incident and after twenty-five performances it was removed from the concert programme.
 
-Ferenc Farkas
-
-{{% /column %}}
-{{% /row %}}
+**Ferenc Farkas**
 
 Extract from the book of András Farkas "Ferenc Farkas in Music”
 
 Csínom Palkó was still played in Cluj (1958, 2009), at the Outdoor Festival of Szeged (1960, 1971), in Békéscsaba (2008) in Budapest (2015) and was the subject of a film (1973).
+
+{{% /column %}}
+{{% /row %}}
+{{% /section %}}
+{{% section %}}
 
 ## The plot
 

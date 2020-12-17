@@ -1,4 +1,4 @@
-<header>
+<header{{ if .Params.HeroImage }} class="tall"{{ end }}>
   <div class="container">
     <a href="{{ .Site.BaseURL }}" class="signature-logo{{ if .IsHome }} active{{ end }}">
       {{ partial "icons/signature.svg" }}

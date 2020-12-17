@@ -3,9 +3,13 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  @include heroHeight;
+  height: 22rem;
   z-index: 2;
   pointer-events: none;
+
+  &.tall {
+    @include heroHeight;
+  }
 
   .container {
     height: 100%;

@@ -9,13 +9,7 @@ html, body {
 }
 
 html {
-  font-size: 15px;
-
-  @media screen and (min-width: 1024px) {
-    html {
-      font-size: 16px;
-    }
-  }
+  font-size: 16px;
 }
 
 body {
@@ -47,6 +41,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $f-serif;
   font-weight: 100;
   line-height: 1.2;
+}
+
+h2 {
+  margin-top: 3rem;
 }
 
 h2 + h3 {
@@ -109,6 +107,10 @@ a {
 em {
   font-style: normal;
   font-weight: bold;
+}
+
+strong {
+  font-weight: 500;
 }
 
 blockquote {

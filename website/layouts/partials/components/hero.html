@@ -1,4 +1,4 @@
-<div class="hero">
+<div class="hero{{ if .Params.HeroImage }} tall{{ end }}">
   <div class="container">
     {{- if .Params.HeroImage }}
     <div class="hero--image" style="background-image: url('{{ .Params.HeroImage }}')">

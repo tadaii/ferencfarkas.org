@@ -10,7 +10,7 @@ menu:
     weight: 400
 ---
 
-{{% section %}}
+{{% section invert %}}
 ## Contact
 
 {{% row %}}
@@ -46,12 +46,13 @@ menu:
     </label>
   </p>
   <p>
-    <button type="submit">Send</button>
+    <button class="button" type="submit">Send</button>
   </p>
 </form>
 
 {{% /column %}}
 {{% column  size="2" %}}
+<br>
 
 ### Manuscripts, scores, private CD's and live recordings
 **Andràs Farkas**

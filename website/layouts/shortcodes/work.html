@@ -1,0 +1,6 @@
+{{- $id := or (.Get 0) "" -}}
+{{- $work := index .Site.Data.works $id -}}
+<div>
+  <h3>{{ index $work.title.translations $work.title.main }}</h3>
+
+</div>

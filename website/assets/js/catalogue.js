@@ -64,7 +64,7 @@
 
   const app = hyperapp.app
   const h = hyperapp.h
-  const node = document.getElementById("catalogue")
+  const node = document.getElementById("catalogue-app")
   const parent = node && node.parentNode
 
   if (!node) return
