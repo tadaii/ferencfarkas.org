@@ -5,7 +5,6 @@
   "private": true,
   "scripts": {
     "prebuild": "node ./scripts/prebuild-web",
-    "start2": "echo yo",
     "start": "npm run web:server",
     "web:build": "npm run prebuild && cd ./website && hugo",
     "web:server": "npm run prebuild && cd ./website && hugo server",
