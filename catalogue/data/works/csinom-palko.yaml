@@ -1,4 +1,15 @@
 ---
+audios:
+  - id: csinom-palko-1
+    description: Patyolat a kuruc
+  - id: csinom-palko-2
+    description: Förgeteg air
+  - id: csinom-palko-3
+    description: Palko and Janko duet
+  - id: csinom-palko-4
+    description: Jo ejszakat
+  - id: csinom-palko-5
+    description: Finale
 cast:
   - role: Balogh Adám
     voice: baritone

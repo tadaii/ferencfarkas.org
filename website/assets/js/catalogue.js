@@ -24,6 +24,7 @@
     'isDefaultVersion',
     'rework',
     'rework_of',
+    'story',
     'title',
     'versions',
     'works',

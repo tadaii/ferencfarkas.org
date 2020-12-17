@@ -4,6 +4,9 @@
 - id: instrumental
   tag: Instrumental
   title: Instrumental music
-- id: choir
-  tag: Choir
-  title: Choir music
+- id: vocal
+  tag: Vocal
+  title: Vocal music
+- id: incidental
+  tag: Incidental
+  title: Incidental music
