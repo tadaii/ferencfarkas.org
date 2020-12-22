@@ -1,0 +1,25 @@
+---
+audios:
+  - id: dances-from-kallo
+    description: Dances from Kálló
+category: orchestra
+date: 2020-12-22 
+duration: 270,6
+id: dances-from-kallo
+publications:
+  - publisher_id: afp
+    type: score
+  - publisher_id: afp
+    type: performance material
+reworks:
+  - 'Kállai táncok for folk orchestra'
+setting: '2, 2 (II = c.i.), 2, 2 - 2, 1, 1, 0 - pf. - archi'
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Dances from Kálló 
+    hu: Kállai táncok 

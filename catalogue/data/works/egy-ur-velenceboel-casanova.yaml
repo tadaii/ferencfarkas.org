@@ -1,4 +1,7 @@
 ---
+audios:
+  - id: egy-ur-velenceboel-casanova
+    description: Egy ur Velenceboel-Casanova
 cast:
   - role: Casanova
     voice: baritone
