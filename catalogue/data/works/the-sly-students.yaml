@@ -1,4 +1,11 @@
----
+------
+audios:
+  - id: the-sly-students-1 
+    description: Fair in Debrecen
+  - id: the-sly-students-2
+    description: Air de danse
+  - id: the-sly-students-3 
+    description: Humorous funeral  march
 audios:
   - id: the-sly-students-fair-in-debrecen
     description: Fair in Debrecen
