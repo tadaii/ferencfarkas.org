@@ -1,4 +1,4 @@
-------
+---
 audios:
   - id: the-sly-students-1 
     description: Fair in Debrecen
@@ -6,9 +6,6 @@ audios:
     description: Air de danse
   - id: the-sly-students-3 
     description: Humorous funeral  march
-audios:
-  - id: the-sly-students-fair-in-debrecen
-    description: Fair in Debrecen
 cast:
   - role: 'Horváth, director of the college'
   - role: 'Terézia, his wife'
