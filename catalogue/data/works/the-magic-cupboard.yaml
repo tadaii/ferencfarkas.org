@@ -8,6 +8,8 @@ audios:
     description: The carpenters and their master
   - id: the-magic-cupboard-4
     description: In the cupboard… 
+  - id: the-magic-cupboard-5 
+    description: Finale
 cast:
   - role: Suleika
     voice: soprano
