@@ -1,4 +1,15 @@
 ---
+audios:
+  - id: vidroczki-1
+    description: Introduction
+  - id: vidroczki-2
+    description: Vidroczki’s bandits melody
+  - id: vidroczki-3
+    description: Anna’s melody
+  - id: vidroczki-4
+    description: Vidrocki’s melody
+  - id: vidroczki-5
+    description: Vidroczki’s funeral
 cast:
   - role: Vidróczki
     voice: bass-baritone
@@ -37,7 +48,7 @@ date: 2019-04-08T21:36:00.000Z
 description: Popular romantic opera in 3 acts
 id: vidroczki
 libretto:
-  hu: In hungarian Ernő Innocent Vincze
+  hu: In hungarian Ernö Innocent Vincze
 synopsis: 'The adventures and the death of Vidróczki, bandit from the Mátra country in the 19th century.'
 title:
   main: hu
@@ -61,7 +72,7 @@ versions:
         type: score
       - publisher_id: afp
         type: piano reduction
-    version: First version for the theatre
+    version: Version for the theatre
     world_premiere:
       credits:
         - Conducted by Viktor Vaszy
@@ -78,10 +89,3 @@ versions:
         type: score
       - publisher_id: afp
         type: piano reduction
-    version: Second version for the theatre
-    world_premiere:
-      credits:
-        - Conducted by István Farkas
-        - 'Stage director: András Mikó'
-      date: 1978
-      location: Open Air Festival of Eger
