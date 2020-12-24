@@ -1,7 +1,15 @@
 ---
 audios:
-  - id: the-magic-cupboard-suleika
+  - id: the-magic-cupboard-1 
     description: Suleika’s melody
+  - id: the-magic-cupboard-2
+    description: Kadi’s melody
+  - id: the-magic-cupboard-3
+    description: The carpenters and their master
+  - id: the-magic-cupboard-4
+    description: In the cupboard… 
+  - id: the-magic-cupboard-5 
+    description: Finale
 cast:
   - role: Suleika
     voice: soprano
