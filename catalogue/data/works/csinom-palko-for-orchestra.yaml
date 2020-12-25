@@ -1,4 +1,7 @@
 ---
+audios:
+  - id: csinom-palko-for-orchestra 
+    description: Bevezetés /Introduction
 category: orchestra
 date: 2019-04-08T21:36:00.000Z
 description: Suite from the opera “Csínom Palkó” adapted by Sándor Somló
