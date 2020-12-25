@@ -1,0 +1,25 @@
+---
+audios:
+  - id: dances-from-the-matra-1
+    description: Young women’s dance
+  - id: dances-from-the-matra-2
+    description: Gipsy dance
+category: orchestra
+date: 2020-12-25 
+duration: 300
+id: dances-from-the-matra
+publications:
+  - publisher_id: afp
+    type: score
+  - publisher_id: afp
+    type: performance material
+setting: '3 (III=picc.), 2, 2, 2 – 4, 3, 3, 0 – timp., batt. (2 ess.) – arpa - archi'
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Dances from the Mátra  
+    hu: Mátrai táncok 
