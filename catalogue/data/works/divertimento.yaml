@@ -1,0 +1,32 @@
+---
+audios:
+  - id: divertimento-1
+    description: 1) Allegro leggiero
+  - id: divertimento-2
+    description: 5) Allegro
+category: orchestra
+composition_date: 1930
+date: 2020-12-26
+dedication: al Maestro Ottorino Respighi 
+duration: 1080
+id: divertimento
+movements:
+  - title: 1) Allegro leggiero 
+  - title: 2) Allegro giocoso 
+  - title: 3) Tempo di Minuetto 
+  - title: 4) Intermezzo 
+  - title: 5) Allegro
+publications:
+  - publisher_id: emb
+    type: score
+  - publisher_id: emb
+    type: performance material
+nb: this work received the “Franz Liszt Prize” in 1933
+setting: '2, 2, 2, 2 – 2, 2, 0, 0 – timp., batt. - archi'
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Divertimento  
