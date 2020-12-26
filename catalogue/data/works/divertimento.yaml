@@ -5,7 +5,7 @@ audios:
   - id: divertimento-2
     description: 5) Allegro
 category: orchestra
-date: 2020-12-25
+date: 2020-12-26
 dedication: al Maestro Ottorino Respighi 
 duration: 1080
 id: divertimento
@@ -24,7 +24,6 @@ title:
   main: it
   original: it
   sort:
-    - it
     - it
   translations:
     it: Divertimento  
