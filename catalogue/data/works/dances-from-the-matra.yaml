@@ -8,8 +8,12 @@ category: orchestra
 composition_date: 1968
 date: 2020-12-25
 dedication: az Egri Szimfónikus Zenekarnak ötéves jubileumára 
-duration: 300
+duration: 348
 id: dances-from-the-matra
+movements:
+  - title: 1) Legényes / Young men’s dance  
+  - title: 2) Leánytánc / Young women’s dance  
+  - title: 3) Cigánycsárdás / Gipsy dance 
 publications:
   - publisher_id: afp
     type: score
