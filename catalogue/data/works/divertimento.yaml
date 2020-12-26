@@ -1,9 +1,9 @@
 ---
 audios:
   - id: divertimento-1
-    description: 1) Allegro leggiero
+    description: Allegro leggiero
   - id: divertimento-2
-    description: 5) Allegro
+    description: Allegro
 category: orchestra
 composition_date: 1930
 date: 2020-12-26
