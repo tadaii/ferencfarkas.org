@@ -15,9 +15,9 @@ movements:
   - title: 4) Ungarisch   
   - title: 5) Im Wirtshaus
 publications:
-  - publisher_id: emb
+  - publisher_id: sikorski
     type: score
-  - publisher_id: emb
+  - publisher_id: sikorski
     type: performance material
 reworks:
   - 'Lavottiana for wind quintet'
