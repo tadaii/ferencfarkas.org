@@ -1,0 +1,37 @@
+---
+audios:
+  - id: divertimento-1
+    description: Allegro leggiero
+  - id: divertimento-2
+    description: Allegro
+category: orchestra
+composition_date: 1930
+date: 2020-12-27
+description: Suite for orchestra
+dedication: al Maestro Ottorino Respighi 
+duration: 1080
+id: divertimento
+movements:
+  - title: Allegro leggiero 
+  - title: Allegro giocoso 
+  - title: Tempo di Minuetto 
+  - title: Intermezzo 
+  - title: Allegro
+publications:
+  - publisher_id: emb
+    type: score
+  - publisher_id: emb
+    type: performance material
+nb: this work received the “Franz Liszt Prize” in 1933
+reworks:
+  - 'Kállai táncok for folk orchestra'
+setting: '2, 2, 2, 2 – 2, 2, 0, 0 – timp., batt. - archi'
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Dance from Transylvania 
+    hu: Erdélyi tánc 
