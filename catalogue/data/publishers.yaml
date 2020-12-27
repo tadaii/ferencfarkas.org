@@ -14,3 +14,6 @@
 - id: universal
   name: Universal Edition
   shortName: Universal
+- id: sidem
+  name: Editions Sidem 
+  shortName: Sidem
