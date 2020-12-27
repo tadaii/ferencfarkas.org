@@ -11,17 +11,19 @@ description: for chamber orchestra or string orchestra
 duration: 600
 id: hungarian-dances-from-the-17th-century
 movements:
-  - title: 1) Allegro moderato  
-  - title: 2) Andante moderato  
-  - title: 3) Allegro  
-  - title: 4) Moderato  
-  - title: 5) Quasi Minuetto
-  - title: 6) Allegro vivace
+  - title: Allegro moderato  
+  - title: Andante moderato  
+  - title: Allegro  
+  - title: Moderato  
+  - title: Quasi Minuetto
+  - title: Allegro vivace
 publications:
   - publisher_id: emb
     type: score
   - publisher_id: emb
     type: performance material
+reworks:
+  - 'Choreae hungaricae for chamber orchestra or string orchestra'
 setting: '1(ad lib.), 1(ad lib.), 0, 0 – cemb. or pf.(ad lib.), zimb. ungh. (ad lib.) - archi'
 title:
   main: en
