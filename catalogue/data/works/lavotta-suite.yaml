@@ -4,16 +4,16 @@ audios:
     description: Ungarisch
 category: orchestra
 composition_date: 1951
-date: 2020-12-26
+date: 2020-12-27
 description: for chamber orchestra  
 duration: 900
 id: lavotta-suite
 movements:
-  - title: 1) Ungarisch   
-  - title: 2) Menuet  
-  - title: 3) Marsch nach Pannonien   
-  - title: 4) Ungarisch   
-  - title: 5) Im Wirtshaus
+  - title: Ungarisch   
+  - title: Menuet  
+  - title: Marsch nach Pannonien   
+  - title: Ungarisch   
+  - title: Im Wirtshaus
 publications:
   - publisher_id: sikorski
     type: score
