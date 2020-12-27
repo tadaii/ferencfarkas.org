@@ -27,11 +27,11 @@ reworks:
   - 'Kállai táncok for folk orchestra'
 setting: '2, 2, 2, 2 – 2, 2, 0, 0 – timp., batt. - archi'
 title:
-  main: en
-  original: hu
+  main: fr
+  original: en
   sort:
-    - en
-    - hu
+    - fr
+    - en 
   translations:
-    en: Dance from Transylvania 
-    hu: Erdélyi tánc 
+    fr: Exemple 
+    en: Example 
