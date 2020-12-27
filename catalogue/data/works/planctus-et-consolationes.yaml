@@ -1,0 +1,37 @@
+---
+audios:
+  - id: planctus-et-consolationes-1
+    description: Introduzione
+  - id: planctus-et-consolationes-2
+    description: Marcia funebre I
+  - id: planctus-et-consolationes-3
+    description: Consolatio I
+category: orchestra
+composition_date: 1965
+date: 2020-12-27
+description: for orchestra
+dedication: in memoriam Pál Fejős
+duration: 960
+id: planctus-et-consolationes
+movements:
+  - title: Introduzione
+  - title: Marcia funebre I 
+  - title: Consolatio I 
+  - title: Marcia funebre II 
+  - title: Consolatio II
+  - title: Consolatio III
+  - title: Furioso
+  - title: Consolatio IV
+publications:
+  - publisher_id: emb
+    type: score
+  - publisher_id: emb
+    type: performance material
+setting: '2 (picc.), 2, 2, 2 – 4, 2, 3, 1 – timp., batt. (5 ess.) – arpa, pf. (cel.) – archi'
+title:
+  main: la 
+  original: la
+  sort:
+    - la
+  translations:
+    la: Planctus et consolationes   
