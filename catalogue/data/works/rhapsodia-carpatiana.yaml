@@ -6,7 +6,8 @@ category: orchestra
 composition_date: 1941
 date: 2020-12-27
 description: for orchestra  
-duration: 540 
+duration: 540
+id: rhapsodia-carpatiana
 publications:
   - publisher_id: afp
     type: score
