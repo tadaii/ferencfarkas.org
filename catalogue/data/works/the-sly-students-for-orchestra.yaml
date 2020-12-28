@@ -1,0 +1,42 @@
+---
+audios:
+  - id: the-sly-students-for-orchestra-1 
+    description: Students’dance
+  - id: the-sly-students-for-orchestra-2
+    description: Gipsy-music
+  - id: the-sly-students-for-orchestra-3 
+    description: Drunken-dance
+category: orchestra
+composition_date: 1949
+date: 2020.12.28 
+description: Suite for orchestra from the ballet “The sly students” 
+duration: 1200
+id: the-sly-students-for-orchestra
+movements:
+  - title: Vásár Debrecenben / Fair in Debrecen 
+  - title: Air de danse  
+  - title: Diákok tánca / Students’dance  
+  - title: Cigányzene / Gipsy-music  
+  - title: Pas de deux 
+  - title: Részeg tánc / Drunken-dance
+  - title: Tréfás gyászinduló / Humorous funeral  march 
+  - title: Csikósok tánca / Horseherds-dance
+publications:
+  - publisher_id: emb
+    type: score
+  - publisher_id: emb
+    type: performance material
+reworks:
+  - 'The sly students / Furfangos diákok, ballet'
+  - 'The sly students / Furfangos diákok, suite for wind orchestra'
+setting: '3 (picc.), 2, 2, 2 – 4, 3, 3, 1 – timp., batt. (3 ess.) – arpa – archi'
+synopsis: 'The director of the Debrecen College, Professor Horváth, intends his daughter, Rózsika, to marry Józsi, the son of Mr Streber, the town treasurer.'
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: The sly students
+    hu: Furfangos diákok

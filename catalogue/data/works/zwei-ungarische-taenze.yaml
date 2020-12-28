@@ -1,0 +1,34 @@
+---
+audios:
+  - id: zwei-ungarische-taenze-1 
+    description: Tanz aus Kecskemét
+  - id: zwei-ungarische-taenze-2 
+    description: Hirtentanz
+category: orchestra
+composition_date: 1940
+date: 2020.12.28 
+description: for orchestra
+duration: 202
+id: zwei-ungarische-taenze
+movements:
+  - title: Tanz aus Kecskemét  
+  - title: Hirtentanz  
+publications:
+  - publisher_id: sidem
+    type: score
+  - publisher_id: sidem
+    type: performance material
+reworks:
+  - 'Két magyar tánc / Two Hungarian dances for piano'
+  - 'Shepherd dance for harp'
+setting: '2, 1, 2, 1 – 2, 2, 1, 0 – batt. – arpa – archi'
+synopsis: 'The director of the Debrecen College, Professor Horváth, intends his daughter, Rózsika, to marry Józsi, the son of Mr Streber, the town treasurer.'
+title:
+  main: de
+  original: en
+  sort:
+    - de
+    - en
+  translations:
+    de: Zwei ungarische Tänze 
+    en: Two Hungarian dances
