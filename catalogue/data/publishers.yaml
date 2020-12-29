@@ -7,6 +7,8 @@
 - id: ldz
   name: VEB Lied der Zeit Musikverlag, Berlin
   shortName: Lied der Zeit
+- id: schott
+  name: Schott Music  
 - id: sikorski
   name: Sikorski Musikverlage
 - id: state-opera-house
