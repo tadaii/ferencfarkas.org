@@ -1,0 +1,28 @@
+---
+audios:
+  - id: musica-pentatonica 
+    description: Fuga 
+category: string
+composition_date: 1945
+date: 2020-12-30
+description: for string orchestra
+duration: 660
+id: musica-pentatonica   
+movements:
+  - title: Toccata  
+  - title: Aria 
+  - title: Fuga 
+publications:
+  - publisher_id: sidem
+    type: score
+  - publisher_id: sidem
+    type: performance material
+    reworks:
+  - 'Toccata for organ or piano'
+title:
+  main: it
+  original: it
+  sort:
+    -it
+  translations:
+    it: Musica pentatonica        

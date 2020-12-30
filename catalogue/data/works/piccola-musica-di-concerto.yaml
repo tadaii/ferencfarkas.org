@@ -1,0 +1,35 @@
+---
+audios:
+  - id: piccola-musica-di-concerto-1 
+    description: Allegro
+  - id: piccola-musica-di-concerto-2
+    description: Scherzo  
+category: string
+composition_date: 1961
+date: 2020-12-30
+description: for string orchestra 
+duration: 600
+id: piccola-musica-di-concerto   
+movements:
+  - title: Allegro   
+  - title: Andante  
+  - title: Scherzo 
+  - title: Allegro
+publications:
+  - publisher_id: emb
+    type: score
+  - publisher_id: emb
+    type: performance material
+  - publisher_id: schott
+    type: score
+  - publisher_id: schott
+    type: performance material
+    reworks:
+  - 'Piccola musica di concerto for guitar quartet'
+title:
+  main: it
+  original: it
+  sort:
+    -it
+  translations:
+    it: Piccola musica di concerto           

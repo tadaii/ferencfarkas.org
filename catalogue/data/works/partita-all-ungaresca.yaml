@@ -1,0 +1,38 @@
+---
+audios:
+  - id: partita-all-ungaresca-1 
+    description: Saltarello
+  - id: partita-all-ungaresca-2
+    description: Intermezzo  
+category: string
+composition_date: 1974
+date: 2020-12-30
+description: Hungarian dances and tunes from the 16th century for string orchestra 
+duration: 600
+id: partita-all-ungaresca   
+movements:
+  - title: Basse danse   
+  - title: Gagliarda  
+  - title: Passamezzo 
+  - title: Saltarello
+  - title: Intermezzo
+  - title: Heiduckentanz
+publications:
+  - publisher_id: emb
+    type: score
+  - publisher_id: emb
+    type: performance material
+  - publisher_id: schott
+    type: score
+  - publisher_id: schott
+    type: performance material
+    reworks:
+  - 'Contrafacta Hungarica for wind octet'
+  - 'Partita all’ungaresca for guitar quartet'
+title:
+  main: it
+  original: it
+  sort:
+    -it
+  translations:
+    it: Partita all'ungaresca          
