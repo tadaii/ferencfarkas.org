@@ -1,0 +1,32 @@
+---
+audios:
+  - id: jelky-andras-1 
+    description: Er macht sich auf den Weg 
+  - id: jelky-andras-2
+    description: Kwanga
+category: string
+composition_date: 1973
+date: 2020-12-30
+description: Suite for string orchestra and piano
+duration: 1020
+id: jelky-andras   
+movements:
+  - title: Er macht sich auf den Weg  
+  - title: Ali Hussein 
+  - title: Fu-Kong 
+  - title: Kwanga
+  - title: Rámáyun 
+  - title: Auf dem Heimweg
+publications:
+  - publisher_id: emb
+    type: score
+  - publisher_id: emb
+    type: performance material
+dedication: Az Alsódunavölgyi Vizügyi Igazgatóság Kamarazenekarának és Baja Város zenekedvelö 
+title:
+  main: hu
+  original: hu
+  sort:
+    -hu
+  translations:
+    hu: Jelky András   
