@@ -1,25 +1,21 @@
 ---
 audios:
-  - id: harom-kuruc-dal
-    description: Csínom Palkó
+  - id: kurucdal
 category: voice 
-composition_date: 1953
-date: 2019-12-31
-description: 3 traditional folk songs from the opera "Csínom Palkó" for voice and piano
-duration: 438
-id: harom-kuruc-dal
-movements:
-  - title: Balogh Adám nótája - 2'
-  - title: Te vagy a legény - 3’30'' 
-  - title: Csínom Palkó - 2’  
+composition_date: 1949
+date: 2021-01.01
+description: for 4-part male choir and piano ad lib. from the opera "Csínom Palkó"
+duration: 120
+id: kurucdal
 publications:
-  - publisher_id: emb
+  - publisher_id: afp
 reworks:
   - 'Csínom Palkó, opera'
+texts: in hungarian by András Dékány
 title:
   main: hu
   original: hu
   sort:
     - hu
   translations:
-    hu: Három kuruc dal 
+    hu: Kurucdal 
