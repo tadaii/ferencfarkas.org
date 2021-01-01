@@ -9,6 +9,7 @@ duration: 120
 id: kurucdal
 publications:
   - publisher_id: afp
+    type: score
 reworks:
   - 'Csínom Palkó, opera'
 texts: in hungarian by András Dékány
@@ -18,4 +19,4 @@ title:
   sort:
     - hu
   translations:
-    hu: Kurucdal 
+  hu: Kurucdal 
