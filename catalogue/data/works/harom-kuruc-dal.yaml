@@ -14,8 +14,8 @@ movements:
   - title: Csínom Palkó - 2’  
 publications:
   - publisher_id: emb
-reworks:
-  - 'Csínom Palkó, opera'
+    type: score
+rework_of: csinom-palko
 title:
   main: hu
   original: hu
