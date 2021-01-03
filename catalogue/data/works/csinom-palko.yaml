@@ -64,13 +64,6 @@ versions:
     world_premiere:
       date: 1950-01-22T00:00:00.000Z
   - composition_date: 1950
-    publications:
-      - publisher_id: afp
-        type: score
-      - publisher_id: afp
-        type: piano reduction
-      - publisher_id: afp
-        type: performance material
     version: First version for the theatre in 3 acts
     world_premiere:
       date: 1952
