@@ -4,14 +4,14 @@ audios:
 category: male  
 composition_date: 1949
 date: 2021-01.01
-description: for 4-part male choir and piano ad lib. from the opera "Csínom Palkó"
+description: for 4 part male choir and piano ad lib. from the opera "Csínom Palkó"
 duration: 120
 id: kurucdal
 publications:
   - publisher_id: afp
     type: score
 rework_of: csinom-palko
-texts: 
+texts:
   hu: in hungarian by András Dékány
 title:
   main: hu
