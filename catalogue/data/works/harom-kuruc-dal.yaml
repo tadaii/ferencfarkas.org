@@ -16,6 +16,8 @@ publications:
   - publisher_id: emb
     type: score
 rework_of: csinom-palko
+texts:
+  hu: in Hungarian (traditional)
 title:
   main: hu
   original: hu
