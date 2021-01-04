@@ -24,9 +24,11 @@ movements:
     title: Hűséges szivemmel
 publications:
   - publisher_id: emb
-    title: Where is that song? / Hol az a dal?
+    title: score in "Where is that song? / Hol az a dal?"
     type: all
 rework_of: csinom-palko
+texts:
+  hu: in hungarian by András Dékány
 title:
   main: hu
   original: hu
