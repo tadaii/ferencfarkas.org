@@ -43,11 +43,7 @@ libretto:
   hu: In hungarian by Sándor Márai
 publications:
   - publisher_id: afp
-    type: score
-  - publisher_id: afp
-    type: piano reduction
-  - publisher_id: state-opera-house
-    type: performance material
+    type: all
 setting: '1, 1, 1, 1 – 2, 1, 1, 0 – timp., batt. – arpa, pf. (cel.) – 1 vl. I, 1 vl. II, 1 viola, 1 vlc., 1 cb.'
 synopsis: |
   Bolzano, 1756. Casanova, escaping from the lead chambers of Venice meets the Comte of Parma and his former love, Francesca.

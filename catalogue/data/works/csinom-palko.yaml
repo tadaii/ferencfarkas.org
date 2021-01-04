@@ -74,11 +74,7 @@ versions:
     nb: 'This version has also been adopted for the film “Csínom Palkó” by Márton Keleti, 1973'
     publications:
       - publisher_id: afp
-        type: score
-      - publisher_id: afp
-        type: piano reduction
-      - publisher_id: afp
-        type: performance material
+        type: all
     version: Second and definitive version for the theatre in 3 acts
     world_premiere:
       credits:
