@@ -1,4 +1,7 @@
 ---
+audios:
+  - id: la-cour-du-roi-matthias
+    description: Danse des chevaliers
 category: chamber
 composition_date: 1977
 date: 2021-01-05
