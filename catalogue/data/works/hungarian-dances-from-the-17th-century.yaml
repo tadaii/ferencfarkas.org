@@ -22,8 +22,7 @@ publications:
     type: score
   - publisher_id: emb
     type: performance material
-reworks:
-  - 'Choreae hungaricae for string orchestra or chamber orchestra'
+rework_of: choreae-hungaricae
 setting: '1(ad lib.), 1(ad lib.), 0, 0 – cemb. or pf.(ad lib.), zimb. ungh. (ad lib.) - archi'
 title:
   main: en
