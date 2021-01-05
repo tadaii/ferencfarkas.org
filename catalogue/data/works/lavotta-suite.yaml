@@ -5,22 +5,20 @@ audios:
 category: orchestra
 composition_date: 1951
 date: 2020-12-27
-description: for chamber orchestra  
+description: Suite for chamber orchestra  after themes from János von Lavotta (1764-1820)  
 duration: 900
 id: lavotta-suite
 movements:
   - title: Ungarisch   
   - title: Menuet  
   - title: Marsch nach Pannonien   
-  - title: Ungarisch   
+  - title: Ungarisch
   - title: Im Wirtshaus
 publications:
   - publisher_id: sikorski
     type: score
   - publisher_id: sikorski
     type: performance material
-reworks:
-  - 'Lavottiana for wind quintet'
 setting: '2 (picc.), 1, 2, 1 – 2, 1, 0, 0 – archi'
 title:
   main: en
@@ -28,4 +26,4 @@ title:
   sort:
     - en
   translations:
-    en: Lavotta Suite     
+    en: Lavotta suite     
