@@ -21,10 +21,10 @@ publications:
 rework_of: panegyricus
 title:
   main: fr
-  original: hu 
+  original: hu
   sort:
     - fr
     - hu
   translations:
     fr: La cour du roi Matthias
-    hu: Mátyás király udvara 
+    hu: Mátyás király udvara
