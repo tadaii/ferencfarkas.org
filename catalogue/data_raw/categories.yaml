@@ -41,11 +41,11 @@
     uuid: 88a1b991-c3a5-4af7-803e-053586b5eee1
   title: Concerto
 - catalog-id:
-    id: 0008-chambermusic
+    id: 0008-chamber-music
     num-id: 8
-    name: chambermusic
+    name: chamber-music
     uuid: 3e8bd370-7675-41a1-a166-054352d107b4
-  title: Chambermusic
+  title: Chamber Music
 - catalog-id:
     id: 0009-instrumental-solo
     num-id: 9
@@ -71,11 +71,11 @@
     uuid: f6d9e319-cb6a-4546-aa61-b5d9c7f63edd
   title: Mixed Choir
 - catalog-id:
-    id: 0013-malechoir
+    id: 0013-male-choir
     num-id: 13
-    name: malechoir
+    name: male-choir
     uuid: 25e0311c-1474-47fe-8c6e-a2558f0f6d2c
-  title: Malechoir
+  title: Male choir
 - catalog-id:
     id: 0014-female-choir
     num-id: 14
@@ -101,17 +101,17 @@
     uuid: 2bbd7e21-2642-4119-ba22-753dcb4a6a4d
   title: Voice And Piano / Organ
 - catalog-id:
-    id: 0018-voiceand-other-instruments-or-orchestra
+    id: 0018-voice-and-other-instruments-or-orchestra
     num-id: 18
-    name: voiceand-other-instruments-or-orchestra
+    name: voice-and-other-instruments-or-orchestra
     uuid: b01b7f50-8e7c-44f4-8685-6363a3507d97
-  title: Voiceand Other Instrument(S) Or Orchestra
+  title: Voice-and Other Instrument(S) Or Orchestra
 - catalog-id:
-    id: 0019-hungarianfolk-song-folk-music
+    id: 0019-hungarian-folk-song-folk-music
     num-id: 19
-    name: hungarianfolk-song-folk-music
+    name: hungarian-folk-song-folk-music
     uuid: e925feda-2fad-4d28-b7b8-098b2d5a60e1
-  title: Hungarianfolk Song – Folk Music
+  title: Hungarian Folk Song / Folk Music
 - catalog-id:
     id: 0020-incidental-music-radio-plays
     num-id: 20
