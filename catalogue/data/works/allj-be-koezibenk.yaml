@@ -1,0 +1,22 @@
+---
+category: female
+composition_date: 1951
+date: 2021-05-01T21:36:00.000Z
+dedication: a Vasas Kórusnak
+description: for 3 equal voices with piano accompaniment from the operetta "Zeng az erdő"
+duration: 180
+id: allj-be-koezibenk
+rework_of:
+  - zeng-az-erdoe
+publications:
+  - publisher_id: afp
+    type: all
+texts:
+  hu: In hungarian by Lászó Dalos
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Állj be közibénk 
