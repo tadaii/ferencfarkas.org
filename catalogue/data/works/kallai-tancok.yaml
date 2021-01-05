@@ -1,13 +1,13 @@
 ---
 category: orchestra
 date: 2021-01-05
-description: For folk orchestra 
+description: for folk orchestra 
 duration: 270 
 id: kallai-tancok
 publications:
   - publisher_id: afp
     type: score
-rework-of: dances-from-kallo 
+rework_of: dances-from-kallo 
 setting: 'cl, 2 zimb. ungh., archi'
 title:
   main: hu
