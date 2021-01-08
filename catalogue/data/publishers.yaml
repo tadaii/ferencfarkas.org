@@ -1,21 +1,19 @@
-- id: alliance
-  name: Alliance Publications, Inc.
 - id: afp
   name: AFPublishing
+- id: alliance
+  name: Alliance Publications
+- id: darok
+  name: Darok Edition
 - id: emb
   name: Edition Musica Budapest
 - id: ldz
   name: VEB Lied der Zeit Musikverlag, Berlin
   shortName: Lied der Zeit
 - id: schott
-  name: Schott Music  
+  name: Schott Music
+- id: sidem
+  name: Sidem Editions
 - id: sikorski
   name: Sikorski Musikverlage
-- id: state-opera-house
-  name: Hungarian State Opera House of Budapest
 - id: universal
   name: Universal Edition
-  shortName: Universal
-- id: sidem
-  name: Editions Sidem 
-  shortName: Sidem
