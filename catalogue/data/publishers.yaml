@@ -11,6 +11,8 @@
 - id: ldz
   name: VEB Lied der Zeit Musikverlag, Berlin
   shortName: Lied der Zeit
+- id: metropolis
+  name: Metropolis music publishers
 - id: schott
   name: Schott Music
 - id: sidem
