@@ -1,0 +1,48 @@
+---
+audios:
+  - id: early-hungarian-dances-from the-17th-century-for-wind-orchestra 
+    description: Intrada
+category: wind
+date: 2021-01-10
+description: Suite of dances / Version for wind orchestra adapted by László Zempléni, 2015
+duration: 620
+id: early-hungarian-dances-from the-17th-century-for-wind-orchestra   
+movements:
+  - title: Intrada 
+  - title: Slow dance / Lassú
+  - title: Dance of Lázár Apor / Apor Lázár tánca
+  - title: Dance of the prince of Transylvania / Erdélyi fejedelem tánca
+  - title: Leaping dance / Ugrós
+publications:
+  - publisher_id: emb
+    type: all
+reworks:
+  - 'Early hungarian dances from the 17th century for piano or harpsichord'
+  - 'Early hungarian dances from the 17th century for violin or violoncello and piano'
+  - 'Early hungarian dances from the 17th century for violin, viola and harp'
+  - 'Early hungarian dances from the 17th century for wind quintet'
+  - 'Early hungarian dances from the 17th century for 2 flutes'
+  - 'Early hungarian dances from the 17th century for clarinet quartet'
+  - 'Early hungarian dances from the 17th century for brass quintet'
+  - 'Early hungarian dances from the 17th century for flute and piano'
+  - 'Early hungarian dances from the 17th century for 2 flutes and 4 guitars'
+  - 'Early hungarian dances from the 17th century for flute, clarinet, basset horn and bass clarinet'
+  - 'Early hungarian dances for wind orchestra'
+  - 'Early hungarian dances for guitar'
+  - 'Early hungarian dances for accordion'
+  - 'Early hungarian dances from the 17th century for harp'
+  - 'Old hungarian dances from the 17th century for saxophone quartet (SATB)'
+  - 'Old hungarian dances from the 17th century for flute and string orchestra'
+  - 'Old hungarian dances from the 17th century for oboe and string orchestra'
+setting: '2 fl., ob., fg., 3 cl. si b, cl.b. si b, sax.a. mi b, sax.t. si b, sax.bar. mi b, 3 tr. sib, 2 cor F, 2 trb., flic.t. si b/do, euf. do/si b, tb, 4 perc.'
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu 
+    - it
+  translations:
+    en: Early hungarian dances from the 17th century  
+    hu: Régi magyar táncok a 17. századból 
+    it: Antiche danze ungheresi del 17. secolo      
