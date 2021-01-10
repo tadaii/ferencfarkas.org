@@ -1,27 +1,32 @@
 ---
+audios:
+  - id: early-hungarian-dances-from-the-17th-century-for-wind-quintet 
+    description: Ugrós (Saltarello)
 category: chamber
-composition_date: 1958
-date: 2021-01-10
-description: Suite of dances / Version for violin or violoncello and piano
-duration: 180
-id: early-hungarian-dances-from-the-17th-century-for-violin-or-violoncello-and-piano   
+composition_date: 1959
+date: 2021-01-10 
+description: Suite of dances / Version for wind quintet
+duration: 600
+id: early-hungarian-dances-from-the-17th-century-for-wind-quintet   
 movements:
-  - title: Magyar tánc 
-  - title: Apor Lázár tánca
+  - title: Intrada 
+  - title: Lassù (lento)
+  - title: Lapockás tánc (Danza delle scapole)
+  - title: Chorea
+  - title: Ugrós (Saltarello)
 publications:
   - publisher_id: emb
     type: all
 reworks:
   - 'Early hungarian dances from the 17th century for piano or harpsichord'
+  - 'Early hungarian dances from the 17th century for violin or violoncello and piano'
   - 'Early hungarian dances from the 17th century for violin, viola and harp'
-  - 'Early hungarian dances from the 17th century for wind quintet'
   - 'Early hungarian dances from the 17th century for 2 flutes'
   - 'Early hungarian dances from the 17th century for clarinet quartet'
   - 'Early hungarian dances from the 17th century for brass quintet'
   - 'Early hungarian dances from the 17th century for flute and piano'
   - 'Early hungarian dances from the 17th century for 2 flutes and 4 guitars'
   - 'Early hungarian dances from the 17th century for flute, clarinet, basset horn and bass clarinet'
-  - 'Early hungarian dances from the 17th century for wind orchestra'
   - 'Early hungarian dances for guitar'
   - 'Early hungarian dances for accordion'
   - 'Early hungarian dances from the 17th century for harp'
