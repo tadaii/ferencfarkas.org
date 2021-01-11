@@ -4,7 +4,7 @@ audios:
     description: Intrada
 category: wind
 date: 2021-01-11
-description: Suite of dances / Version for wind orchestra adapted by László Zempléni, 2015
+description: Suite of dances / 'Version for wind orchestra' adapted by László Zempléni, 2015
 duration: 620
 id: early-hungarian-dances-from the-17th-century-for-wind-orchestra   
 movements:
@@ -17,23 +17,23 @@ publications:
   - publisher_id: emb
     type: all
 reworks:
-  - 'for accordion'
-  - 'for brass quintet'
-  - 'for clarinet quartet'
-  - 'for flute and piano'
-  - 'for flute, clarinet, basset horn and bass clarinet'
-  - 'for flute and string orchestra'
-  - 'for 2 flutes'
-  - 'for 2 flutes and 4 guitars'
-  - 'for guitar'
-  - 'for harp'
-  - 'for oboe and string orchestra'
-  - 'for piano or harpsichord'
-  - 'for saxophone quartet'
-  - 'for violin or violoncello and piano'
-  - 'for violin, viola and harp'
-  - 'for wind orchestra'
-  - 'for wind quintet'
+  - 'Version for accordion'
+  - 'Version for brass quintet'
+  - 'Version for clarinet quartet'
+  - 'Version for flute and piano'
+  - 'Version for flute, clarinet, basset horn and bass clarinet'
+  - 'Version for flute and string orchestra'
+  - 'Version for 2 flutes'
+  - 'Version for 2 flutes and 4 guitars'
+  - 'Version for guitar'
+  - 'Version for harp'
+  - 'Version for oboe and string orchestra'
+  - 'Original version for piano or harpsichord'
+  - 'Version for saxophone quartet'
+  - 'Version for violin or violoncello and piano'
+  - 'Version for violin, viola and harp'
+  - 'Version for wind orchestra'
+  - 'Version for wind quintet'
 setting: '2 fl., ob., fg., 3 cl. si b, cl.b. si b, sax.a. mi b, sax.t. si b, sax.bar. mi b, 3 tr. sib, 2 cor F, 2 trb., flic.t. si b/do, euf. do/si b, tb, 4 perc.'
 title:
   main: en
