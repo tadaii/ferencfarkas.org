@@ -1,19 +1,18 @@
 ---
 audios:
-  - id: early-hungarian-dances-from-the-17th-century-for-flute-and-piano 
-    description: Allegro moderato
+  - id: early-hungarian-dances-from-the-17th-century-for-clarinet-quartet 
+    description: Lapockás tánc
 category: chamber
-composition_date: 1987
-date: 2021-01-10
-dedication: to András Adorján 
-description: Suite of dances / Version for flute and piano
-duration: 480
-id: early-hungarian-dances-from-the-17th-century-for-flute-and-piano   
+composition_date: 1976
+date: 2021-01-11 
+description: Suite of dances / Version for clarinet quartet
+duration: 540
+id: early-hungarian-dances-from-the-17th-century-for-clarinet-quartet   
 movements:
-  - title: Allegro moderato 
-  - title: Andante moderato
-  - title: Allegro
-  - title: Allegro
+  - title: Intrada 
+  - title: Lassú
+  - title: Lapockás tánc
+  - title: Ugrós
 publications:
   - publisher_id: emb
     type: all
@@ -21,6 +20,7 @@ reworks:
   - 'Early hungarian dances for accordion'
   - 'early-hungarian-dances-from-the-17th-century-for-brass-quintet'
   - 'Early hungarian dances from the 17th century for clarinet quartet'
+  - 'Early hungarian dances from the 17th century for flute and piano'
   - 'Early hungarian dances from the 17th century for flute, clarinet, basset horn and bass clarinet'
   - 'Old hungarian dances from the 17th century for flute and string orchestra'
   - 'Early hungarian dances from the 17th century for 2 flutes'
