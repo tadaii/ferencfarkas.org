@@ -1,0 +1,43 @@
+---
+category: solo
+composition_date: 1976
+date: 2021-01-11 
+description: Suite of dances / Version for accordion adapted by Gábor Vas
+duration: 440
+id: early-hungarian-dances-for-accordion
+movements:
+  - title: Intrada 
+  - title: Chorea
+  - title: Erdélyi fejedelem tánca /The Prince of Transylvania’s dance
+  - title: Apor Lázár tánca – Lázár Apor’s dance
+publications:
+  - publisher_id: emb
+    type: all
+reworks:
+  - 'early-hungarian-dances-from-the-17th-century-for-brass-quintet'
+  - 'Early hungarian dances from the 17th century for clarinet quartet'
+  - 'Early hungarian dances from the 17th century for flute and piano'
+  - 'Early hungarian dances from the 17th century for flute, clarinet, basset horn and bass clarinet'
+  - 'Old hungarian dances from the 17th century for flute and string orchestra'
+  - 'Early hungarian dances from the 17th century for 2 flutes'
+  - 'Early hungarian dances from the 17th century for 2 flutes and 4 guitars'
+  - 'Early hungarian dances for guitar'
+  - 'Early hungarian dances from the 17th century for harp'
+  - 'Old hungarian dances from the 17th century for oboe and string orchestra'
+  - 'Early hungarian dances from the 17th century for piano or harpsichord'
+  - 'Old hungarian dances from the 17th century for saxophone quartet'
+  - 'Early hungarian dances from the 17th century for violin or violoncello and piano'
+  - 'Early hungarian dances from the 17th century for violin, viola and harp'
+  - 'Early hungarian dances from the 17th century for wind orchestra'
+  - 'Early hungarian dances from the 17th century for wind quintet'
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu 
+    - it
+  translations:
+    en: Early hungarian dances from the 17th century  
+    hu: Régi magyar táncok a 17. századból 
+    it: Antiche danze ungheresi del 17. secolo      
