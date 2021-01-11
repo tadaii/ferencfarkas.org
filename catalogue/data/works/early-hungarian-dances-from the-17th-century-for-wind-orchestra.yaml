@@ -3,7 +3,7 @@ audios:
   - id: early-hungarian-dances-from the-17th-century-for-wind-orchestra 
     description: Intrada
 category: wind
-date: 2021-01-10
+date: 2021-01-11
 description: Suite of dances / Version for wind orchestra adapted by László Zempléni, 2015
 duration: 620
 id: early-hungarian-dances-from the-17th-century-for-wind-orchestra   
@@ -18,22 +18,22 @@ publications:
     type: all
 reworks:
   - 'for accordion'
-  - 'Early hungarian dances from the 17th century for brass quintet'
-  - 'Early hungarian dances from the 17th century for clarinet quartet'
-  - 'Early hungarian dances from the 17th century for flute and piano'
-  - 'Early hungarian dances from the 17th century for flute, clarinet, basset horn and bass clarinet'
-  - 'Old hungarian dances from the 17th century for flute and string orchestra'
-  - 'Early hungarian dances from the 17th century for 2 flutes'
-  - 'Early hungarian dances from the 17th century for 2 flutes and 4 guitars'
-  - 'Early hungarian dances for guitar'
-  - 'Early hungarian dances from the 17th century for harp'
-  - 'Old hungarian dances from the 17th century for oboe and string orchestra'
-  - 'Early hungarian dances from the 17th century for piano or harpsichord'
-  - 'Old hungarian dances from the 17th century for saxophone quartet'
-  - 'Early hungarian dances from the 17th century for violin or violoncello and piano'
-  - 'Early hungarian dances from the 17th century for violin, viola and harp'
-  - 'Early hungarian dances from the 17th century for wind orchestra'
-  - 'Early hungarian dances from the 17th century for wind quintet'
+  - 'for brass quintet'
+  - 'for clarinet quartet'
+  - 'for flute and piano'
+  - 'for flute, clarinet, basset horn and bass clarinet'
+  - 'for flute and string orchestra'
+  - 'for 2 flutes'
+  - 'for 2 flutes and 4 guitars'
+  - 'for guitar'
+  - 'for harp'
+  - 'for oboe and string orchestra'
+  - 'for piano or harpsichord'
+  - 'for saxophone quartet'
+  - 'for violin or violoncello and piano'
+  - 'for violin, viola and harp'
+  - 'for wind orchestra'
+  - 'for wind quintet'
 setting: '2 fl., ob., fg., 3 cl. si b, cl.b. si b, sax.a. mi b, sax.t. si b, sax.bar. mi b, 3 tr. sib, 2 cor F, 2 trb., flic.t. si b/do, euf. do/si b, tb, 4 perc.'
 title:
   main: en
