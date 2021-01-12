@@ -1,0 +1,23 @@
+---
+category: chamber
+composition_date: 1995
+date: 2021-01-12
+description: Suite based on dances and melodies from the 16th century / Version of “Partita all’ungaresca for string orchestra” for guitar quartet
+duration: 330
+id: partita-all-ungaresca-for-guitar-quartet
+movements:
+  - title: Allegro
+  - title: Andante
+  - title: Allegro (Hajdútánc)
+publications:
+  - publisher_id: afp
+    reworks:
+  - 'Contrafacta Hungarica for wind octet'
+  - 'Partita all’ungaresca for string orchestra'
+title:
+  main: it
+  original: it
+  sort:
+    -it
+  translations:
+    it: Partita all'ungaresca
