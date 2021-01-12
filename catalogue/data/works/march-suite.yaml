@@ -6,7 +6,7 @@ audios:
     description: Elegia, quasi lento
 category: orchestra
 composition_date: 1947
-date: 2020-12-27
+date: 2021-01-12
 description: for chamber orchestra or sring orchestra 
 duration: 618
 id: march-suite
@@ -19,8 +19,6 @@ publications:
     type: score
   - publisher_id: emb
     type: performance material
-reworks:
-  - 'March suite for string orchestra'
 setting: '1, 0, 1, 0 – 2, 1, 0, 0 – archi'
 title:
   main: en
