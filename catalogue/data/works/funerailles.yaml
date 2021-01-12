@@ -1,11 +1,14 @@
 ---
 audios:
   - id: funerailles-1
+    description: Extract 1
   - id: funerailles-2
+    description: Extract 2
   - id: funerailles-3
+    description: Extract 3
 category: orchestra
 composition_date: 1974
-date: 2020-12-26
+date: 2021-01-12
 dedication: for my son András
 description: Adaptation for orchestra of the piano work by Franz Liszt 
 duration: 660
