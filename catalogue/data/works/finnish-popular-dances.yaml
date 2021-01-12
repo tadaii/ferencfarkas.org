@@ -6,9 +6,9 @@ audios:
     description: Lintunen
 category: string
 composition_date: 1935
-date: 2020-12-29
+date: 2021-01-12
 description: Suite for string orchestra
-duration: 480
+duration: 360
 id: finnish-popular-dances   
 movements:
   - title: Askulan neliö 
