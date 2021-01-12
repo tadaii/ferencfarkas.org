@@ -7,12 +7,12 @@ audios:
 category: string
 composition_date: 1961
 date: 2020-12-29
-description: 3 cycles of Hungarian baroque dances for string orchestra or chamber orchestra  
+description: 3 cycles of Hungarian baroque dances for string orchestra or chamber orchestra
 duration: 840
-id: choreae-hungaricae 
+id: choreae-hungaricae
 movements:
-  - title: 4 Dances from the Vietórisz-Kodex / Allegro moderato / Allegro / Lo stesso tempo / Allegro non troppo  
-  - title: 5 Dances from the Kájoni-Kodex / Moderato / Lo stesso tempo / Quasi minuetto / Allegro / Lo stesso tempo  
+  - title: 4 Dances from the Vietórisz-Kodex / Allegro moderato / Allegro / Lo stesso tempo / Allegro non troppo
+  - title: 5 Dances from the Kájoni-Kodex / Moderato / Lo stesso tempo / Quasi minuetto / Allegro / Lo stesso tempo
   - title: 6 Dances from the Tabulaturbuch by Löcse / Allegro moderato / Lo stesso tempo / Andante moderato / Lo stesso tempo / Allegro / Lo stesso tempo
 publications:
   - publisher_id: emb
@@ -30,4 +30,4 @@ title:
   sort:
     - la
   translations:
-    la: Choreae hungaricae     
+    la: Choreae hungaricae

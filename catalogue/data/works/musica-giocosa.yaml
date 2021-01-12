@@ -1,17 +1,17 @@
 ---
 audios:
-  - id: musica-giocosa 
-    description: Allegro II 
+  - id: musica-giocosa
+    description: Allegro II
 category: string
 composition_date: 1982
 date: 2020-12-30
 description: Suite for string orchestra
 duration: 480
-id: musica-giocosa   
+id: musica-giocosa
 movements:
-  - title: Allegro I  
+  - title: Allegro I
   - title: Arietta
-  - title: Gavotte con variazioni 
+  - title: Gavotte con variazioni
   - title: Allegro II
 dedication: a Györi Filharmonikus Zenekar felkérésére
 publications:
@@ -25,4 +25,4 @@ title:
   sort:
     -it
   translations:
-    it: Musica giocosa       
+    it: Musica giocosa

@@ -9,7 +9,7 @@ description: for string orchestra
 duration: 600
 id: musica-serena
 movements:
-  - title: Allegro  
+  - title: Allegro
   - title: Andante moderato
   - title: Allegro vivace
 publications:

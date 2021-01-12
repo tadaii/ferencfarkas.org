@@ -1,17 +1,17 @@
 ---
 audios:
-  - id: music-for-zanka 
-    description: Arietta 
+  - id: music-for-zanka
+    description: Arietta
 category: string
 composition_date: 1986
 date: 2020-12-30
 description: for string orchestra
 duration: 360
-id: music-for-zanka   
+id: music-for-zanka
 movements:
-  - title: Sonatina  
-  - title: Arietta 
-  - title: Rondo 
+  - title: Sonatina
+  - title: Arietta
+  - title: Rondo
 publications:
   - publisher_id: emb
     type: score
@@ -24,5 +24,5 @@ title:
     - en
     - hu
   translations:
-    en: Music for Zánka 
-    hu: Zánkai muzsika     
+    en: Music for Zánka
+    hu: Zánkai muzsika
