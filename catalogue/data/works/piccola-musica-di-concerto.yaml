@@ -1,19 +1,19 @@
 ---
 audios:
-  - id: piccola-musica-di-concerto-1 
+  - id: piccola-musica-di-concerto-1
     description: Allegro
   - id: piccola-musica-di-concerto-2
-    description: Scherzo  
+    description: Scherzo
 category: string
 composition_date: 1961
-date: 2020-12-30
-description: for string orchestra 
+date: 2021-01-12
+description: for string orchestra
 duration: 600
-id: piccola-musica-di-concerto   
+id: piccola-musica-di-concerto
 movements:
-  - title: Allegro   
-  - title: Andante  
-  - title: Scherzo 
+  - title: Allegro
+  - title: Andante
+  - title: Scherzo
   - title: Allegro
 publications:
   - publisher_id: emb
@@ -32,4 +32,4 @@ title:
   sort:
     -it
   translations:
-    it: Piccola musica di concerto           
+    it: Piccola musica di concerto

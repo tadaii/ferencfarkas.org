@@ -1,17 +1,17 @@
 ---
 audios:
-  - id: musica-serena 
-    description: Andante moderato  
+  - id: musica-serena
+    description: Andante moderato
 category: string
 composition_date: 1982
 date: 2020-12-30
 description: for string orchestra
 duration: 600
-id: musica-serena   
+id: musica-serena
 movements:
   - title: Allegro  
-  - title: Andante moderato  
-  - title: Allegro vivace 
+  - title: Andante moderato
+  - title: Allegro vivace
 publications:
   - publisher_id: emb
     type: score
@@ -25,4 +25,4 @@ title:
   sort:
     -it
   translations:
-    it: Musica serena         
+    it: Musica serena
