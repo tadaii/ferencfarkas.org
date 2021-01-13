@@ -54,7 +54,7 @@ menu:
 {{% column  size="2" %}}
 <br>
 
-### Manuscripts, scores, private CD's and live recordings
+### AFPublishing publications, private CD’s and live recordings
 **Andràs Farkas**
 <br>
 Chemin des Bouvreuils 12
