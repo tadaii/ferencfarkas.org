@@ -33,6 +33,6 @@ title:
   main: it
   original: it
   sort:
-    -it
+    - it
   translations:
     it: Partita all'ungaresca
