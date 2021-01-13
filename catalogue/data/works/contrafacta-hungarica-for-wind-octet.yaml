@@ -1,6 +1,6 @@
 ---
 audios:
-  - id: contrafacta-hungarica-for-wind-octet-1 
+  - id: contrafacta-hungarica-for-wind-octet-1
     description: Passamezzo
   - id: contrafacta-hungarica-for-wind-octet-2
     description: Heiduckentanz
@@ -21,12 +21,12 @@ movements:
 publications:
   - publisher_id: emb
     reworks:
-  - 'Partita all’ungaresca for guitar quartet'
-  - 'Partita all’ungaresca for string orchestra'
+      - 'Partita all’ungaresca for guitar quartet'
+      - 'Partita all’ungaresca for string orchestra'
 title:
   main: it
   original: it
   sort:
-    -it
+    - it
   translations:
     it: Contrafacta Hungarica
