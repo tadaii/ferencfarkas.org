@@ -1,0 +1,32 @@
+---
+audios:
+  - id: contrafacta-hungarica-for-wind-octet-1 
+    description: Passamezzo
+  - id: contrafacta-hungarica-for-wind-octet-2
+dedication: dem Berner Bläseroktett und seinem Leiter András Farkas gewidmet
+    description: Heiduckentanz
+category: chamber
+composition_date: 1976
+date: 2021-01-13
+description: Hungarian dances from the 16th century  / Version of “Partita all’ungaresca for string orchestra” for wind octet
+duration: 600
+id: contrafacta-hungarica-for-wind-octet
+movements:
+  - title: Basse danse
+  - title: Gagliarda
+  - title: Passamezzo
+  - title: Saltarello
+  - title: Andante espressivo
+  - title: Heiduckentanz
+publications:
+  - publisher_id: emb
+    reworks:
+  - 'Partita all’ungaresca for guitar quartet'
+  - 'Partita all’ungaresca for string orchestra'
+title:
+  main: it
+  original: it
+  sort:
+    -it
+  translations:
+    it: Contrafacta Hungarica
