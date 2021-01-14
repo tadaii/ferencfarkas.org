@@ -4,7 +4,7 @@ audios:
     description: Chorea
 category: solo
 composition_date: 1943
-date: 2021-01-11 
+date: 2021-01-14
 description: Suite of dances / Original version for piano or harpsichord
 duration: 540
 id: early-hungarian-dances-from-the-17th-century-for-piano-or-harpsichord  
@@ -17,23 +17,6 @@ movements:
 publications:
   - publisher_id: emb
     type: all
-reworks:
-  - 'Early hungarian dances for accordion'
-  - 'early-hungarian-dances-from-the-17th-century-for-brass-quintet'
-  - 'Early hungarian dances from the 17th century for clarinet quartet'
-  - 'Early hungarian dances from the 17th century for flute and piano'
-  - 'Early hungarian dances from the 17th century for flute, clarinet, basset horn and bass clarinet'
-  - 'Old hungarian dances from the 17th century for flute and string orchestra'
-  - 'Early hungarian dances from the 17th century for 2 flutes'
-  - 'Early hungarian dances from the 17th century for 2 flutes and 4 guitars'
-  - 'Early hungarian dances for guitar'
-  - 'Early hungarian dances from the 17th century for harp'
-  - 'Old hungarian dances from the 17th century for oboe and string orchestra'
-  - 'Old hungarian dances from the 17th century for saxophone quartet'
-  - 'Early hungarian dances from the 17th century for violin or violoncello and piano'
-  - 'Early hungarian dances from the 17th century for violin, viola and harp'
-  - 'Early hungarian dances from the 17th century for wind orchestra'
-  - 'Early hungarian dances from the 17th century for wind quintet'
 title:
   main: en
   original: hu
