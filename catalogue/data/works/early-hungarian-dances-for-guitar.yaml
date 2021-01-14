@@ -1,26 +1,29 @@
 ---
+audios: 
+  - id: early-hungarian-dances-for-guitar
+    description: Der Tanz des Lázár Apor
 category: solo
-date: 2021-01-11 
+date: 2021-01-14
 description: Suite of dances / Version for guitar
 duration: 420
-id: early-hungarian-dances-for-guitar   
+id: early-hungarian-dances-for-guitar
 movements:
-  - title: Tanz des Fürsten von Siebenbürgen / Erdélyi fejedelem tánca 
+  - title: Tanz des Fürsten von Siebenbürgen / Erdélyi fejedelem tánca
   - title: Ungarischer Tanz / Magyar tánc
   - title: Chorea
   - title: Der Tanz des Lázár Apor / Apor Lázár tánca
 publications:
   - publisher_id: emb
     type: all
-rework_of: early-hungarian-dances-for-guitar
+rework_of: early-hungarian-dances-from-the-17th-century-for-piano-or-harpsichord
 title:
   main: en
   original: hu
   sort:
     - en
-    - hu 
+    - hu
     - it
   translations:
-    en: Early hungarian dances from the 17th century  
-    hu: Régi magyar táncok a 17. századból 
-    it: Antiche danze ungheresi del 17. secolo      
+    en: Early hungarian dances from the 17th century
+    hu: Régi magyar táncok a 17. századból
+    it: Antiche danze ungheresi del 17. secolo    
