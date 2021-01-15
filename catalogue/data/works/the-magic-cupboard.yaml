@@ -1,14 +1,14 @@
 ---
 audios:
-  - id: the-magic-cupboard-1 
+  - id: the-magic-cupboard-1
     description: Suleika’s melody
   - id: the-magic-cupboard-2
     description: Kadi’s melody
   - id: the-magic-cupboard-3
     description: The carpenters and their master
   - id: the-magic-cupboard-4
-    description: In the cupboard… 
-  - id: the-magic-cupboard-5 
+    description: In the cupboard…
+  - id: the-magic-cupboard-5
     description: Finale
 cast:
   - role: Suleika
@@ -27,16 +27,13 @@ cast:
   - role: Suleikas neighbours
     voice: coro
 category: opera
-date: 2019-04-08T21:36:00.000Z
+date: 2021-01-15
 description: Opera in 2 acts based on a story from "Thausand-and-one nights"
 duration: 5220
 id: the-magic-cupboard
 libretto:
   hu: In hungarian by Gyula Kunszery
   de: German adaptation by Karlheinz Gutheim
-reworks:
-  - 'The magic wardrobe for orchestra: concert-overture from the opera "The magic cupboard"'
-  - Overture to a comedy for orchestra
 synopsis: Suleika will set her husband free from the prison
 title:
   main: en
@@ -58,7 +55,7 @@ versions:
       - publisher_id: emb
         type: all
     setting: '2 (picc.), 2 (c.i.), 2 (II=cl.b.), 2 – 4, 3, 3, 1 – timp., batt. – arpa, cel. – archi'
-    version: Symphonic and original version
+    version: Original version for symphonic orchestra
     world_premiere:
       credits:
         - Conducted by Otto Berg
@@ -72,7 +69,7 @@ versions:
       - publisher_id: emb
         type: all
     setting: '1, 1, 1, 1 – 2, 1, 1, 0 – 1 vl. I, 1 vl. II, 1 vla, 1 vlc., 1 cb.'
-    version: For chamber orchestra
+    version: Version for 13 instruments
     world_premiere:
       credits:
         - Conducted by Tamás Blum
