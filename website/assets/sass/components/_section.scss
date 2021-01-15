@@ -83,4 +83,8 @@ section {
       color: $c-secondary;
     }
   }
+
+  &.fullscreen-slider {
+    z-index: 1;
+  }
 }

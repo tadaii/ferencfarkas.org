@@ -87,7 +87,6 @@
           })
 
           wavesurfer.on('ready', function () {
-            console.log('ready')
             var player = document.querySelector('#player')
             var playerLoading = document.querySelector('#player .player--loading')
 
@@ -177,9 +176,32 @@
     }
   }
 
+  var slider = {
+    init() {
+      var sliders = document.querySelectorAll('.slider')
+      sliders.forEach(function(slider) {
+        var toggle = slider.querySelector('.slider--fullscreen-toggle')
+        var section = slider
+        var i = 0;
+
+        while (section.tagName.toLowerCase() !== 'section' && i < 20) {
+          section = section.parentNode
+          i++
+        }
+
+        toggle.addEventListener('click', function() {
+          slider.classList.toggle('fullscreen')
+          section.classList.toggle('fullscreen-slider')
+          document.body.classList.toggle('blocked')
+        })
+      })
+    }
+  }
+
   header.init()
   footer.init()
   download.init()
   audioPlayer.init()
+  slider.init()
 
 })(window)

@@ -116,10 +116,6 @@
     }
   })
 
-  window.addEventListener('showCatalogueIDs', () => {
-
-  })
-
   const searchIdx = (works, idx, query) => {
     const results = idx.search(query)
     const r = results.map(result => result.ref)
