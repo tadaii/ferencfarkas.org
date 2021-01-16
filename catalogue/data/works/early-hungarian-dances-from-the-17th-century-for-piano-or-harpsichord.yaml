@@ -4,8 +4,8 @@ audios:
     description: Chorea
 category: solo
 composition_date: 1943
-date: 2021-01-14
-description: Suite of dances / Original version for piano or harpsichord
+date: 2021-01-16
+description: Suite of dances for piano or harpsichord
 duration: 540
 id: early-hungarian-dances-from-the-17th-century-for-piano-or-harpsichord
 movements:
@@ -25,6 +25,7 @@ title:
     - hu 
     - it
   translations:
-    en: Early hungarian dances from the 17th century  
-    hu: Régi magyar táncok a 17. századból 
+    en: Early hungarian dances from the 17th century
+    hu: Régi magyar táncok a 17. századból
     it: Antiche danze ungheresi del 17. secolo
+version: Original version
