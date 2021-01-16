@@ -126,7 +126,7 @@
 .play {
   padding: 1rem;
   display: inline-flex;
-  align-items: center;
+  align-items: flex-start;
   color: inherit;
   background-color: transparent;
   border: none;
@@ -153,6 +153,7 @@
       font-family: $f-serif;
       font-size: 1.4rem;
       font-weight: 100;
+      text-align: left;
 
       .small & {
         font-size: 1rem;
@@ -173,8 +174,9 @@
 
   &--button {
     content: '';
+    flex-shrink: 0;
     display: flex;
-    margin: 0 1rem 0 -1rem;
+    margin: 0.125rem 1rem 0 -1rem;
     width: 3rem;
     height: 3rem;
     border-radius: .5rem;

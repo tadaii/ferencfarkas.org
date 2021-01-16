@@ -111,14 +111,20 @@
 
       var play = function ({ target, audio, title, detail }) {
         var play = document.querySelectorAll('.play')
-        var url = audios[audio].url
-        var defaultTitle = audios[audio].title
-        var defaulltDetail = audios[audio].detail
+        var metaData = audios[audio]
+
+        if (metaData) {
+          var url = metaData.url
+          var defaultTitle = audios[audio].title
+          var defaultDetail = audios[audio].detail
+        } else {
+          var url = '/audio/' + audio + '.ogg'
+        }
 
         player.classList.add('open')
 
         trackInfo.querySelector('h5').innerText = title || defaultTitle
-        trackInfo.querySelector('p').innerText = detail || defaulltDetail
+        trackInfo.querySelector('p').innerText = detail || defaultDetail
 
         if (target.classList.contains('playing')) {
           wavesurfer.pause()

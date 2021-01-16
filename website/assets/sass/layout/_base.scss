@@ -120,11 +120,15 @@ strong {
 blockquote {
   position: relative;
   margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   font-family: $f-serif;
   font-style: italic;
   font-size: 120%;
   font-weight: 100;
+
+  .blocked & {
+    z-index: -1;
+  }
 
   .column > &  {
     margin-top: 0;

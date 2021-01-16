@@ -34,6 +34,13 @@ section {
   }
 
   &.full-gallery {
+    padding: 0 0 1rem;
+    margin-top: -5rem;
+
+    &.straight {
+      padding-bottom: 3rem;
+    }
+
     .container {
       clip-path: 0 10% 0 10%;
     }

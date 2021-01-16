@@ -25,6 +25,10 @@ footer {
     }
   }
 
+  .blocked & {
+    z-index: 0;
+  }
+
   .container {
     z-index: 1;
   }
