@@ -87,7 +87,6 @@
           })
 
           wavesurfer.on('ready', function () {
-            console.log('ready')
             var player = document.querySelector('#player')
             var playerLoading = document.querySelector('#player .player--loading')
 
@@ -112,14 +111,20 @@
 
       var play = function ({ target, audio, title, detail }) {
         var play = document.querySelectorAll('.play')
-        var url = audios[audio].url
-        var defaultTitle = audios[audio].title
-        var defaulltDetail = audios[audio].detail
+        var metaData = audios[audio]
+
+        if (metaData) {
+          var url = metaData.url
+          var defaultTitle = audios[audio].title
+          var defaultDetail = audios[audio].detail
+        } else {
+          var url = '/audio/' + audio + '.ogg'
+        }
 
         player.classList.add('open')
 
         trackInfo.querySelector('h5').innerText = title || defaultTitle
-        trackInfo.querySelector('p').innerText = detail || defaulltDetail
+        trackInfo.querySelector('p').innerText = detail || defaultDetail
 
         if (target.classList.contains('playing')) {
           wavesurfer.pause()
@@ -177,9 +182,32 @@
     }
   }
 
+  var slider = {
+    init() {
+      var sliders = document.querySelectorAll('.slider')
+      sliders.forEach(function(slider) {
+        var toggle = slider.querySelector('.slider--fullscreen-toggle')
+        var section = slider
+        var i = 0;
+
+        while (section.tagName.toLowerCase() !== 'section' && i < 20) {
+          section = section.parentNode
+          i++
+        }
+
+        toggle.addEventListener('click', function() {
+          slider.classList.toggle('fullscreen')
+          section.classList.toggle('fullscreen-slider')
+          document.body.classList.toggle('blocked')
+        })
+      })
+    }
+  }
+
   header.init()
   footer.init()
   download.init()
   audioPlayer.init()
+  slider.init()
 
 })(window)

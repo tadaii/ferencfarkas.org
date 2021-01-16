@@ -38,10 +38,12 @@ header {
 
       @media screen and (min-width: 480px) {
         width: 11rem;
+        margin-left: -0.5rem;
       }
 
       @media screen and (min-width: 768px) {
         width: 12rem;
+        margin-left: -1rem;
       }
     }
 
