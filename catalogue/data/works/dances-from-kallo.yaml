@@ -4,9 +4,9 @@ audios:
     description: Dances from Kálló
 category: orchestra
 composition_date: 1931
-date: 2020-12-22
-description: for orchestra 
-duration: 270 
+date: 2021-01-16
+description: for orchestra
+duration: 270
 id: dances-from-kallo
 publications:
   - publisher_id: afp
@@ -21,5 +21,5 @@ title:
     - en
     - hu
   translations:
-    en: Dances from Kálló 
-    hu: Kállai táncok 
+    en: Dances from Kálló
+    hu: Kállai táncok

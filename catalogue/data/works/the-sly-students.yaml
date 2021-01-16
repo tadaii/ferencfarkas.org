@@ -1,10 +1,10 @@
 ---
 audios:
-  - id: the-sly-students-1 
+  - id: the-sly-students-1
     description: Fair in Debrecen
   - id: the-sly-students-2
     description: Air de danse
-  - id: the-sly-students-3 
+  - id: the-sly-students-3
     description: Humorous funeral  march
 cast:
   - role: 'Horváth, director of the college'
@@ -18,8 +18,8 @@ cast:
 category: ballet
 choreography: Gyula Harangozó
 composition_date: '1949, rev. 1956'
-date: 2019-04-08T21:36:00.000Z
-description: Ballet in one act and 6 scenes based on the novel by Mór Jókai based on a subject by Gusztáv Oláh
+date: 2021-01-15
+description: Ballet in one act and 6 scenes based on a novel by Mór Jókai adapted by Gusztáv Oláh
 duration: 2700
 id: the-sly-students
 publications:
@@ -29,9 +29,6 @@ publications:
     type: piano reduction
   - publisher_id: afp
     type: performance material
-reworks:
-  - 'The sly students / Furfangos diákok, suite for orchestra'
-  - 'The sly students / Furfangos diákok, suite for wind orchestra'
 setting: '3 (picc.), 2, 2, 2 – 4, 3, 3, 1 – timp., batt. (3 ess.) – arpa – archi'
 synopsis: 'The director of the Debrecen College, Professor Horváth, intends his daughter, Rózsika, to marry Józsi, the son of Mr Streber, the town treasurer.'
 title:
@@ -48,5 +45,5 @@ title:
 world_premiere:
   credits:
     - Conducted by Jenő Kenessey
-  dtae: 1949
+  date: 1949
   location: Hungarian State Opera of Budapest
