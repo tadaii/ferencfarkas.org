@@ -6,9 +6,9 @@ audios:
     description: Horseherds-dance
 category: wind
 date: 2021-01-16 
-description: Suite from the ballet “The sly students” adapted for wind orchestra by Tony Kurmann, 2014
+description: 'Suite from the ballet “The sly students” adapted for wind orchestra by Tony Kurmann, 2014'
 duration: 1200
-id: the-sly-students-for-win-orchestra
+id: the-sly-students-for-wind-orchestra
 movements:
   - title: Vásár Debrecenben / Fair in Debrecen
   - title: Air de danse
