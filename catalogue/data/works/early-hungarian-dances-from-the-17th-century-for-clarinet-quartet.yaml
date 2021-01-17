@@ -4,8 +4,8 @@ audios:
     description: Lapockás tánc
 category: chamber
 composition_date: 1976
-date: 2021-01-14
-description: Suite of dances / Version for clarinet quartet
+date: 2021-01-17
+description: Suite of dances for clarinet quartet
 duration: 540
 id: early-hungarian-dances-from-the-17th-century-for-clarinet-quartet
 movements:
@@ -28,3 +28,4 @@ title:
     en: Early hungarian dances from the 17th century
     hu: Régi magyar táncok a 17. századból
     it: Antiche danze ungheresi del 17. secolo
+version: Version of “Early hungarian dances from the 17th century for piano or harpsichord” adapted for clarinet quartet
