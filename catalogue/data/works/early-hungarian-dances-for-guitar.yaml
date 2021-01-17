@@ -3,8 +3,8 @@ audios:
   - id: early-hungarian-dances-for-guitar
     description: Der Tanz des Lázár Apor
 category: solo
-date: 2021-01-14
-description: Suite of dances / Version for guitar
+date: 2021-01-16
+description: Suite of dances for guitar
 duration: 420
 id: early-hungarian-dances-for-guitar
 movements:
@@ -21,9 +21,6 @@ title:
   original: hu
   sort:
     - en
-    - hu
-    - it
   translations:
-    en: Early hungarian dances from the 17th century
-    hu: Régi magyar táncok a 17. századból
-    it: Antiche danze ungheresi del 17. secolo
+    en: Early hungarian dances
+version: Version of “Early hungarian dances from the 17th century for piano or harpsichord” adapted for guitar
