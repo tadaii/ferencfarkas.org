@@ -4,10 +4,10 @@ audios:
     description: 5 dances - Moderato
   - id: choreae-hungaricae-2
     description: 5 dances - Lo stesso tempo
-category: string
+category: orchestra
 composition_date: 1961
-date: 2020-12-29
-description: 3 cycles of Hungarian baroque dances for string orchestra or chamber orchestra
+date: 2021-01-17
+description: 3 cycles of hungarian baroque dances for orchestra
 duration: 840
 id: choreae-hungaricae
 movements:
@@ -19,11 +19,7 @@ publications:
     type: score
   - publisher_id: emb
     type: performance material
-  - publisher_id: schott
-    type: score
-  - publisher_id: schott
-    type: performance material
-setting: '1(ad lib.), 1(ad lib.), 0, 0 – cemb. or pf.(ad lib.), zimb. ungh. (ad lib.) - archi'
+setting: '1, 1, 0, 0 – cemb. or pf. or zimb. ungh. ad lib. - archi'
 title:
   main: la
   original: la
