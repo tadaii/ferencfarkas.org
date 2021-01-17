@@ -1,12 +1,12 @@
 ---
 audios:
 category: solo
-date: 2021-01-14 
-description: Suite of dances / Version for harp
+date: 2021-01-17
+description: Suite of dances for harp
 duration: 600
 id: early-hungarian-dances-from-the-17th-century-for-harp
 movements:
-  - title: Erdélyi fejedelem tánca / Danse du Prince de Transylvanie 
+  - title: Erdélyi fejedelem tánca / Danse du Prince de Transylvanie
   - title: Magyar tánc / Danse hongroise
   - title: Chorea
   - title: Lapockás tánc / Danse "Lapockás"
@@ -21,9 +21,10 @@ title:
   original: hu
   sort:
     - en
-    - hu 
+    - hu
     - it
   translations:
-    en: Early hungarian dances from the 17th century  
-    hu: Régi magyar táncok a 17. századból 
-    it: Antiche danze ungheresi del 17. secolo      
+    en: Early hungarian dances from the 17th century
+    hu: Régi magyar táncok a 17. századból
+    it: Antiche danze ungheresi del 17. secolo
+version: Version of “Early hungarian dances from the 17th century for piano or harpsichord” adapted for harp
