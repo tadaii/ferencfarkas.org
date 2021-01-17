@@ -4,8 +4,8 @@ audios:
     description: Ugrós
 category: chamber
 composition_date: 1991
-date: 2021-01-13
-description: Suite of dances / Version for saxophone quartet
+date: 2021-01-17
+description: Suite of dances for saxophone quartet
 duration: 540
 id: old-hungarian-dances-from-the-17th-century-for-saxophone-quartet
 movements:
@@ -24,3 +24,4 @@ title:
     - en
   translations:
     en: Old hungarian dances from the 17th century
+version: Version of “Early hungarian dances from the 17th century for piano or harpsichord” adapted for saxophone quartet

@@ -4,11 +4,11 @@ audios:
     description: quasi menuetto
 category: concerto
 composition_date: 1990
-date: 2021-01-14
+date: 2021-01-17
 dedication: to István-Zsolt Nagy
-description: Suite of dances / Version for flute and string orchestra
+description: Suite of dances for flute and string orchestra
 duration: 840
-id: old-hungarian-dances-from-the-17th-century-for-flute-and-string-orchestra   
+id: old-hungarian-dances-from-the-17th-century-for-flute-and-string-orchestra
 movements:
   - title: Allegro moderato
   - title: Andante moderato
@@ -33,3 +33,4 @@ title:
     en: Old dhungarian dances from the 17th century
     hu: Régi magyar táncok
     de: Alte ungarische Tänze
+version: Version of “Early hungarian dances from the 17th century for piano or harpsichord” adapted for flute and string orchestra
