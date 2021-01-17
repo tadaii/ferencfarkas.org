@@ -4,8 +4,8 @@ audios:
     description: Dance of the Prince of Transylvania
 category: chamber
 composition_date: 1987
-date: 2021-01-14
-description: Suite of dances / Version for brass quintet
+date: 2021-01-17
+description: Suite of dances for brass quintet
 duration: 480
 id: early-hungarian-dances-from-the-17th-century-for-brass-quintet
 movements:
@@ -29,3 +29,4 @@ title:
     en: Early hungarian dances from the 17th century
     hu: Régi magyar táncok a 17. századból
     it: Antiche danze ungheresi del 17. secolo
+version: Version of “Early hungarian dances from the 17th century for piano or harpsichord” adapted for brass quintet
