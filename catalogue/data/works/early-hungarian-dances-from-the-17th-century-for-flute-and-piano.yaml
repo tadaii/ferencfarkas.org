@@ -4,9 +4,9 @@ audios:
     description: Allegro moderato
 category: chamber
 composition_date: 1987
-date: 2021-01-10
+date: 2021-01-17
 dedication: to András Adorján
-description: Suite of dances / Version for flute and piano
+description: Suite of dances for flute and piano
 duration: 480
 id: early-hungarian-dances-from-the-17th-century-for-flute-and-piano
 movements:
@@ -29,3 +29,4 @@ title:
     en: Early hungarian dances from the 17th century
     hu: Régi magyar táncok a 17. századból
     it: Antiche danze ungheresi del 17. secolo
+version: Version of “Early hungarian dances from the 17th century for piano or harpsichord” adapted for flute and piano
