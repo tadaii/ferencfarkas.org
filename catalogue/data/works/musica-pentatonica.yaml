@@ -4,7 +4,7 @@ audios:
     description: Fuga
 category: string
 composition_date: 1945
-date: 2021-01-12
+date: 2021-01-18
 description: for string orchestra
 duration: 660
 id: musica-pentatonica
@@ -17,8 +17,6 @@ publications:
     type: score
   - publisher_id: sidem
     type: performance material
-    reworks:
-  - 'Toccata for organ or piano'
 title:
   main: it
   original: it

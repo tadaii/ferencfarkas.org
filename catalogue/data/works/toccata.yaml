@@ -1,0 +1,18 @@
+---
+category: solo
+composition_date: 1945
+date: 2021-01-18
+description: for organ or piano
+duration: 180
+id: toccata
+publications:
+  - publisher_id: kontrapunkt
+    type: all
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Toccata
+version: Extract from “ Musica pentatonica ” for string orchestra
