@@ -6,7 +6,7 @@ audios:
     description: Intermezzo
 category: string
 composition_date: 1974
-date: 2021-01-12
+date: 2021-01-18
 description: Hungarian dances and tunes from the 16th century for string orchestra
 duration: 600
 id: partita-all-ungaresca
@@ -26,9 +26,6 @@ publications:
     type: score
   - publisher_id: schott
     type: performance material
-    reworks:
-  - 'Contrafacta Hungarica for wind octet'
-  - 'Partita all’ungaresca for guitar quartet'
 title:
   main: it
   original: it

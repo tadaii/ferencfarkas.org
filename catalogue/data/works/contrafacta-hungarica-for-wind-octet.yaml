@@ -6,9 +6,9 @@ audios:
     description: Heiduckentanz
 category: chamber
 composition_date: 1976
-date: 2021-01-13T00:00:00.000Z
+date: 2021-01-18
 dedication: dem Berner Bläseroktett und seinem Leiter András Farkas gewidmet
-description: Hungarian dances from the 16th century  / Version of “Partita all’ungaresca for string orchestra” for wind octet
+description: Hungarian dances from the 16th century for wind octet
 duration: 600
 id: contrafacta-hungarica-for-wind-octet
 movements:
@@ -20,9 +20,7 @@ movements:
   - title: Heiduckentanz
 publications:
   - publisher_id: emb
-    reworks:
-      - Partita all’ungaresca for guitar quartet
-      - Partita all’ungaresca for string orchestra
+    rework_of: partita-all-ungaresca
 title:
   main: it
   original: it
@@ -30,3 +28,4 @@ title:
     - it
   translations:
     it: Contrafacta Hungarica
+version: Version of “ Partita all’ungaresca for string orchestra ” for guitar quartet
