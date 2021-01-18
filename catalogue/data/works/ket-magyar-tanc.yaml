@@ -1,0 +1,23 @@
+---
+category: solo
+composition_date: 1975
+date: 2021-01-18
+description: for piano
+duration: 300
+id: ket-magyar-tanc
+movements:
+  - title: Kecskeméti verbunk
+  - title: Pásztortánc
+publications:
+  - publisher_id: afp
+    type: all
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+    - en
+  translations:
+    hu: Két magyar tánc
+    en: Two Hungarian dances
+version: Version of " Zwei ungarische Tänze " for piano
