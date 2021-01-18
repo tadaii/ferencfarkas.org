@@ -6,24 +6,21 @@ audios:
     description: Pantalone
 category: orchestra
 composition_date: 1983
-date: 2020-12-27
-description: Suite / Version of "Mascarade" for chamber orchestra composed after the paintings of Gino Severini illustrating figures of the « Commedia dell’arte » 
+date: 2021-01-18
+description: Suite for chamber orchestra composed after the paintings of Gino Severini illustrating figures of the « Commedia dell’arte » 
 duration: 480
 id: maschere
 movements:
-  - title: Il Capitano  
-  - title: Pantalone 
-  - title: Colombina 
-  - title: Povero Pulcinella 
+  - title: Il Capitano 
+  - title: Pantalone
+  - title: Colombina
+  - title: Povero Pulcinella
   - title: Arlecchino
 publications:
   - publisher_id: afp
     type: score
   - publisher_id: afp
     type: performance material
-reworks:
-  - 'Maschere for piano'
-  - 'Mascarade for wind trio'
 setting: '1, 1, 1, 1 – 0, 1, 0, 0 – archi'
 title:
   main: it
@@ -31,4 +28,4 @@ title:
   sort:
     - it
   translations:
-    it: Maschere 
+    it: Maschere
