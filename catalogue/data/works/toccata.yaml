@@ -8,6 +8,7 @@ id: toccata
 publications:
   - publisher_id: kontrapunkt
     type: all
+rework_of: musica-pentatonica
 title:
   main: it
   original: it
