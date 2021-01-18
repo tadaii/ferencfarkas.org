@@ -7,6 +7,7 @@ id: shepherd-dance
 publications:
   - publisher_id: afp
     type: all
+rework_of: zwei-ungarische-taenze
 title:
   main: en
   original: en
