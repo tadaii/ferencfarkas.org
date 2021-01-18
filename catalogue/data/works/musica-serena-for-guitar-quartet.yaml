@@ -1,0 +1,23 @@
+---
+category: chamber
+composition_date: 1982
+date: 2021-01-18
+description: for guitar quartet
+duration: 600
+id: musica-serena-for-guitar-quartet
+movements:
+  - title: Allegro
+  - title: Andante moderato
+  - title: Allegro vivace
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: musica-serena
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Musica serena
+version: Version of “ Musica serena for string orchestra “ adapted for guitar quartet by Philippe Rayer

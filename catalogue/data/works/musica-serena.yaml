@@ -4,7 +4,7 @@ audios:
     description: Andante moderato
 category: string
 composition_date: 1982
-date: 2020-12-30
+date: 2021-01-18
 description: for string orchestra
 duration: 600
 id: musica-serena
@@ -14,11 +14,7 @@ movements:
   - title: Allegro vivace
 publications:
   - publisher_id: emb
-    type: score
-  - publisher_id: emb
-    type: performance material
-    reworks:
-  - 'Musica serena for guitar quartet'
+    type: all
 title:
   main: it
   original: it
