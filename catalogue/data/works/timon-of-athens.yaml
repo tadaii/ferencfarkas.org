@@ -1,0 +1,20 @@
+---
+category: orchestra
+composition_date: 1935
+date: 2021-01-19
+description: 3 pieces from the incidental music to " Timon of Athens " by William Shakespeare
+duration: 660
+id: timon-of-athens
+publications:
+  - publisher_id: afp
+    type: score
+  - publisher_id: afp
+    type: performance material
+setting: '1, 1, 2, 1 - 2, 2, 1, 0 - timp., batt.(2 ess.) - arpa, pf. –  vlc., cb.'
+title:
+  main: en
+  original: en
+  sort:
+    - en
+  translations:
+    en: Timon of Athens
