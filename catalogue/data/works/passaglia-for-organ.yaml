@@ -1,14 +1,14 @@
 ---
 category: solo
 composition_date: 1968
-date: 2021-01-09
+date: 2021-01-19
 description: for organ 
 duration: 180 
 id: passaglia-for-organ
 publications:
   - publisher_id: emb
     type: all
-rework-of: passacaglia-for-clarinet-ensemble
+rework_of: passacaglia-for-clarinet-ensemble
 title:
   main: it
   original: it

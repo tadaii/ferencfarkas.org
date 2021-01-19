@@ -1,9 +1,9 @@
 ---
 category: chamber
 composition_date: 1931
-date: 2021-01-09
-description: for clarinet ensemble 
-duration: 180 
+date: 2021-01-19
+description: for clarinet ensemble
+duration: 180
 id: passacaglia-for-clarinet-ensemble
 publications:
   - publisher_id: metropolis
@@ -15,4 +15,4 @@ title:
   sort:
     - it
   translations:
-    it: Passacaglia 
+    it: Passacaglia
