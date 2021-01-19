@@ -8,13 +8,12 @@ id: passaglia-for-organ
 publications:
   - publisher_id: emb
     type: all
-reworks:
-  - 'Intrada, Passacaglia, Saltarello for wind orchestra'
-  - 'Passacaglia for clarinet ensemble'
+rework-of: passacaglia-for-clarinet-ensemble
 title:
   main: it
   original: it
   sort:
     - it
   translations:
-    it: Passacaglia 
+    it: Passacaglia
+version: Version of « Passacaglia for clarinet ensemble”  for organ 

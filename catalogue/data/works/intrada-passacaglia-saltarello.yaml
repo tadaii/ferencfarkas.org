@@ -12,9 +12,7 @@ id: intrada-passacaglia-saltarello
 publications:
   - publisher_id: kontrapunkt
     type: all
-reworks:
-  - 'Passacaglia for clarinet ensemble'
-  - 'Passacaglia for organ'
+rework_of: passacaglia-for-clarinet-ensemble
 setting: '2, 2, 2, 2 (cfg) – 2, 2, 2,1'
 title:
   main: it
@@ -22,4 +20,5 @@ title:
   sort:
     - it
   translations:
-    it: Intrada, Passacaglia, Saltarello 
+    it: Intrada, Passacaglia, Saltarello
+version: The second movement “Passacaglia” is a version for wind orchestra of “Passacaglia for clarinette ensemble”  
