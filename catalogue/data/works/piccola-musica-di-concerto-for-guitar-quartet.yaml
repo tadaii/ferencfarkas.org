@@ -1,0 +1,23 @@
+---
+category: chamber
+date: 2021-01-19
+description: for guitar quartet
+duration: 600
+id: piccola-musica-di-concerto-for-guitar-quartet
+movements:
+  - title: Allegro
+  - title: Andante
+  - title: Scherzo
+  - title: Allegro
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: piccola-musica-di-concerto
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Piccola musica di concerto
+version: Version of “ Piccola musica di concerto for string orchestra “ adapted for guitar quartet by Philippe Rayer, 1987
