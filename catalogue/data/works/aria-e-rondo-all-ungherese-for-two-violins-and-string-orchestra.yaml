@@ -1,0 +1,20 @@
+---
+category: concerto
+composition_date: 1994
+date: 2021-01-21
+dedication: Gerard Goossens in Freundschaft gewidmet
+description: Concertino for 2 violins and string orchestra
+duration: 480
+id: aria-e-rondo-all-ungherese-for-two-violins-and-string-orchestra
+publications:
+  - publisher_id: ascolta
+    type: all
+rework_of: aria-e-rondo-all-ungherese
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Aria e rondo all'ungherese
+version: Version of “ Aria e rondo all’ungherese for oboe, violin and string orchestra “ for 2 violins and string orchestra
