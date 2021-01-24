@@ -1,0 +1,25 @@
+---
+audios:
+  - id: all-antica
+    description: Giga
+category: chamber
+composition_date: 1962
+date: 2021-01-24
+dedication: to János Liebner
+description: for viola da gamba or violoncello and harpsichord or piano
+duration: 720
+id: all-antica
+movements:
+  - title: Pastorale
+  - title: Aria con variazioni
+  - title: Giga
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: All'antica
