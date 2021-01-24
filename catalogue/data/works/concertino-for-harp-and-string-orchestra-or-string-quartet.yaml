@@ -1,0 +1,25 @@
+---
+audios:
+  - id: concertino-for-harpsichord-and-string-orchestra-or-string-quintet
+    description: Allegro moderato
+category: concerto
+composition_date: 1994
+date: 2021-01-24
+duration: 1380
+id: concertino-for-harpsichord-and-string-orchestra-or-string-quintet
+movements:
+  - title: Allegro
+  - title: Andante
+  - title: Allegro moderato
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: concertino-for-harp-and-orchestra
+title:
+  main: en
+  original: en
+  sort:
+    - en
+  translations:
+    en: Concertino for harp and string orchestra or string quartet
+version: Version of “ Concertino for harp and orchestra “ for harp and string orchestra or string quartet
