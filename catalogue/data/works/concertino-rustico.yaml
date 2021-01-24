@@ -1,0 +1,25 @@
+---
+audios:
+  - id: concertino-rustico
+    description: Allegro vivace
+category: concerto
+composition_date: 1977
+date: 2021-01-24
+dedication: to József Molnár
+description: for Alphorn and string orchestra
+duration: 600
+id: concertino-rustico
+movements:
+  - title: Allegro
+  - title: Rubato, a piacere
+  - title: Allegro vivace
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Concertino rustico
