@@ -1,0 +1,23 @@
+---
+audios:
+  - id: concertino-for-harp-and-orchestra
+    description: Andante
+category: concerto
+composition_date: 1937
+date: 2021-01-24
+duration: 1380
+id: concertino-for-harp-and-orchestra
+movements:
+  - title: Allegro
+  - title: Andante
+  - title: Allegro moderato
+publications:
+  - publisher_id: universal
+    type: all
+title:
+  main: en
+  original: en
+  sort:
+    - en
+  translations:
+    en: Concertino for harp and orchestra
