@@ -1,0 +1,21 @@
+---
+category: chamber
+composition_date: 1950
+date: 2021-01-25
+description: for recorder or violin and cimbalom
+duration: 360
+id: rumanian-folk-dances-for-recorder-or-violin-and-cimbalom
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: rumanian-folk-dances
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Rumanian folk dances
+    hu: Bihari román táncok
+version: Version of “ Rumanian folk dances for violin or viola or flute or clarinet and piano “ for recorder or violin and cimbalom
