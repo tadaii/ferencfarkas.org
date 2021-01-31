@@ -3,22 +3,26 @@
     <div class="footer--wrapper">
       <div class="footer--menu">
         <ul>
-        {{ $currentPage := . }}
-        {{ range .Site.Menus.main }}
+        {{- $currentPage := . -}}
+        {{- range .Site.Menus.main -}}
           <li{{if $currentPage.HasMenuCurrent "main" .}} class="active"{{end}}>
-            <a href="{{ .URL }}">{{ .Name }}</a>
-            {{ if .HasChildren }}
+            <span>{{ .Name }}</span>
+            {{- if .HasChildren -}}
               <ul>
-              {{ range .Children }}
-                {{ $isActive := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+              {{- range first 6 .Children -}}
+                {{- $isActive := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) -}}
+                {{- if not .Page.Params.HideFromNav -}}
                 <li{{if $isActive}} class="is-selected"{{end}}>
-                  <a href="{{ .URL }}">{{ .Name }}</a>
+                  <a href="{{ .URL }}">
+                    {{ or .Page.Params.RefTitle .Name }}
+                  </a>
                 </li>
-              {{ end }}
+                {{- end -}}
+              {{- end -}}
               </ul>
-            {{ end }}
+            {{- end -}}
           </li>
-        {{ end }}
+        {{- end -}}
         </ul>
       </div>
       <div class="footer--credits">
@@ -30,10 +34,14 @@
         </p>
         <div class="footer--providers">
           <a href="https://jota.one" target="_blank">
-            {{ partial "icons/jota.svg" }}
+            {{- partial "icons/jota.svg" -}}
           </a>
           <a href="https://www.gohugo.io" target="_blank">
-            {{ partial "icons/hugo.svg" }}
+            {{- partial "icons/hugo.svg" -}}
+          </a>
+          <div class="spacer"></div>
+          <a href="https://github.com/jota-one/ferencfarkas.org" target="_blank">
+            {{- partial "icons/github.svg" -}}
           </a>
         </div>
       </div>

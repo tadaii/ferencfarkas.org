@@ -174,7 +174,7 @@
         wavesurfer.stop()
         player.classList.remove('open')
 
-        var play = document.querySelectorAll('.play--button')
+        var play = document.querySelectorAll('.play')
         for (var i = 0; i < play.length; i++) {
           play[i].classList.remove('playing')
         }

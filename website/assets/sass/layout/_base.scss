@@ -6,6 +6,7 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  min-width: 320px;
 }
 
 html {
@@ -190,6 +191,10 @@ blockquote {
   }
 }
 
+.spacer {
+  flex: 1;
+}
+
 article > .container {
   padding-top: 5rem;
 }
@@ -211,9 +216,12 @@ a.tag {
   text-transform: uppercase;
   white-space: nowrap;
   border-radius: .8rem;
-  border-width: 1px;
-  border-style: solid !important;
   background-color: $c-secondary;
+
+  &.border {
+    border-width: 1px;
+    border-style: solid !important;
+  }
 
   section.highlight & {
     border-color: $c-secondary;

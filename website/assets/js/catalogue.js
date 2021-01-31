@@ -236,7 +236,7 @@
   }, state.categories[category].tag)
 
   const reworkTag = (state, work) => h('a', {
-    class: `tag rework ${state.query.includes('rework:' + work.rework) ? 'active' : ''}`,
+    class: `tag border rework ${state.query.includes('rework:' + work.rework) ? 'active' : ''}`,
     href: '#',
     onclick: (state, event) => {
       event.preventDefault()

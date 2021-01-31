@@ -1,13 +1,29 @@
 a.more {
+  display: inline-block;
   padding-bottom: .5rem;
   font-weight: bolder;
 
+  .container p & {
+    border: none;
+
+    &:hover {
+      background: none;
+    }
+  }
+
+  &:hover {
+    svg {
+      margin-left: 0.75rem;
+    }
+  }
+
   svg {
-    margin-left: .5rem;
+    margin: 0.1rem 0 0 .5rem;
     vertical-align: middle;
     width: auto;
-    height: 1rem;
+    height: 0.85rem;
     margin-bottom: .2rem;
+    transition: margin-left 0.1s linear;
 
     path {
       fill: $c-gray-darker;

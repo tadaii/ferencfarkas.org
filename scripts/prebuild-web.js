@@ -148,7 +148,13 @@ const prebuild = async ({
 
   // Write catalogue works in web data dir.
   const works = catalogue.works.reduce((worksMap, work) => {
-    worksMap[work.id] = work
+    worksMap[work.id] = {
+      ...work,
+      category: {
+        id: work.category,
+        ...catalogue.categories[work.category]
+      }
+    }
     return worksMap
   }, {})
 

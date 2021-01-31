@@ -69,13 +69,19 @@ footer {
       }
 
       .jota {
-        height: 3rem;
-        fill: $c-primary;
+        height: 2.5rem;
+        fill: $c-secondary;
       }
 
       .hugo {
-        height: 1.85rem;
-        fill: $c-secondary;
+        height: 1.5rem;
+        fill: $c-gray-dark;
+      }
+
+      .github {
+        height: 2rem;
+        width: 2rem;
+        fill: $c-primary;
       }
     }
   }
@@ -127,14 +133,16 @@ footer {
           padding: 0 2rem 0 0;
         }
 
-        a {
+        span {
           @media screen and (min-width: 1024px) {
             margin-bottom: 1.25rem;
           }
         }
 
         li {
+          margin-bottom: 0.75rem;
           font-weight: lighter;
+          line-height: 1.2;
         }
       }
     }

@@ -182,6 +182,8 @@
 
     &--version {
       margin-left: .25rem;
+      font-size: .95rem;
+      font-weight: 500;
     }
 
     &--note {
@@ -189,14 +191,15 @@
       font-size: 1rem;
     }
 
-    &--version {
-      font-size: .95rem;
-      font-weight: 500;
-    }
-
     &--fields {
       display: none;
       margin: 1rem;
+    }
+
+    &--fields,
+    &--version,
+    &--multimedia {
+      clear: left;
     }
 
     &--field {

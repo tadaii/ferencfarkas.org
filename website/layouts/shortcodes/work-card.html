@@ -1,0 +1,57 @@
+{{- $id := or (.Get 0) "" -}}
+{{- $work := index .Site.Data.works $id -}}
+{{- $title := index $work.title.translations $work.title.main -}}
+{{- $category := index $work.title.translations $work.title.main -}}
+{{- $storyRef := (print (or $work.story "")) -}}
+<div class="card work-card">
+  <header>
+    <a class="work-card--composition-date" href="/work">
+      {{ $work.composition_date }}
+    </a>
+    <a class="work-card--category tag" href="/work/?c={{ $work.category.id }}">
+      {{ $work.category.tag }}
+    </a>
+  </header>
+
+  <h3>{{ $title }}</h3>
+
+  <h4>
+    {{- range $work.title.translations -}}
+      {{- if not (eq . $title) -}}
+        <span class="work-card--title">{{ . }}</span>
+      {{- end -}}
+    {{- end -}}
+  </h4>
+
+  <h5>{{ $work.description }}</h5>
+
+  {{- if $storyRef -}}
+    {{- with .Site.GetPage $storyRef -}}
+      {{- if .Params.HeroImage -}}
+        <img loading="lazy" src="{{ .Params.HeroImage }}" style="width:10rem">
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- if len .Inner | ne 0 -}}
+  <div class="work-card--content">
+    {{- .Inner -}}
+  </div>
+  {{- end -}}
+
+  <div class="spacer"></div>
+
+  {{- if $work.audios -}}
+  <div class="work-card--audios">
+    {{- range first 2 $work.audios -}}
+      {{- partial "shortcodes/play" (dict "id" .id "title" .description "small" true) -}}
+    {{- end -}}
+  </div>
+  {{- end -}}
+
+  {{- if $storyRef -}}
+    {{- partial "shortcodes/more" (dict "href" $storyRef "text" "About the work") -}}
+  {{- else -}}
+    {{- partial "shortcodes/more" (dict "href" (printf "%s%s" "/work?q=id:" $id) "text" "More details") -}}
+  {{- end -}}
+</div>

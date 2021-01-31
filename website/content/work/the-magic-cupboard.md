@@ -1,7 +1,7 @@
 ---
 title: The magic cupboard
 subTitle: 'Opera in 2 acts based on a story from "Thausand-and-one nights"'
-# heroImage: /img/hero/hero4.jpg
+#heroImage: /img/hero/hero4.jpg
 date: 2019-11-09
 menu:
   main:

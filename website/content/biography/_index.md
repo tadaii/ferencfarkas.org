@@ -1,6 +1,7 @@
 ---
 title: "A musical journey"
 subTitle: "through the 20th century"
+refTitle: "Ferenc Farkas, his life, his work"
 slug: "biography"
 heroImage: /img/hero/hero4.jpg
 date: 2019-08-29T00:13:59+02:00
@@ -173,10 +174,11 @@ brought him national celebrity and fame across borders.
 {{% /section %}}
 
 {{% section invert %}}
+
+### Summer 1944, the Soviets enter Hungary.
+
 {{% row %}}
 {{% column %}}
-
-Summer 1944, the Soviets enter Hungary.
 
 {{< play symphony-1 "Overture" "Symphony, 1952" >}}
 
@@ -221,6 +223,7 @@ the [Concertino for piano and orchestra](#).
 {{% section focus %}}
 
 {{< play fuga "Fuga" "Preludio e fuga for orchestra, 1944" >}}
+<br><br>
 
 {{% row %}}
 {{% column %}}
@@ -332,7 +335,7 @@ With the Kossuth Prize, Farkas’ financial health improved, and his works were 
 {{% /section %}}
 {{% section highlight %}}
 
-### 1956
+## 1956
 A [Nationwide revolution](https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956) against the regime and its policies was imposed by the Soviets. It lasted a month before
 the Communists regained power.
 
@@ -345,6 +348,7 @@ the Communists regained power.
 
 In 1959, he composed his most important cantate: [Cantus Pannonicus](#)
 
+<br>
 {{< play cantus-pannonicus-1 "1) Laus Pannoniae" "Cantus Pannonicus – Cantata, 1959" >}}
 
 {{% /column %}}
@@ -381,6 +385,7 @@ Under the communist regime, it was not recommended to approach sacred music.
 {{% /column %}}
 {{% column %}}
 
+<br>
 {{< play missa-im-honorem-sancti-andreae-2 "Agnus Dei" "Missa in honorem Sancti Andreae, 1962" >}}
 
 {{% /column %}}
@@ -403,6 +408,7 @@ Under the communist regime, it was not recommended to approach sacred music.
 {{% row %}}
 {{% column %}}
 
+<br>
 {{< play alkony "Alkony" "for mixed choir, undated" >}}
 
 {{% /column %}}
@@ -445,17 +451,23 @@ Ferenc Farkas died in Budapest on October 10th 2000.
 {{% /column %}}
 {{% /row %}}
 {{% /section %}}
-{{% section straight focus %}}
+{{% section black %}}
 {{% row %}}
 {{% column size="2" %}}
 
+{{% card %}}
 The texts in italics are excerpts from the book
-<br>[Mon père m’a raconté… La vie du compositeur hongrois Ferenc Farkas](http://www.editions-delatour.com/fr/biographies-entretiens/3727-mon-pere-m-a-raconte-la-vie-du-compositeur-hongrois-ferenc-farkas-9782752103079.html)
+<br>
+[Mon père m’a raconté…<br>La vie du compositeur hongrois Ferenc Farkas](http://www.editions-delatour.com/fr/biographies-entretiens/3727-mon-pere-m-a-raconte-la-vie-du-compositeur-hongrois-ferenc-farkas-9782752103079.html)
 
-Hungarian version: [Valomások a zenéről](https://www.antikvarium.hu/konyv/farkas-ferenc-vallomasok-a-zenerol-372027)
+Hungarian version:
+<br>
+[Valomások a zenéről](https://www.antikvarium.hu/konyv/farkas-ferenc-vallomasok-a-zenerol-372027)
+
+{{% /card %}}
 
 {{% /column %}}
-{{% column %}}
+{{% column size="3" %}}
 {{% /column %}}
 {{% /row %}}
 {{% /section %}}

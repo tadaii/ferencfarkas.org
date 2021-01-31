@@ -1,0 +1,106 @@
+.work-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+}
+
+.work-card {
+  flex-basis: 100%;
+  margin: 2rem 1rem 0.5rem;
+  padding: 5rem 2rem;
+
+  @media screen and (min-width: 768px) {
+    flex-basis: calc(50% - 2rem);
+  }
+
+  @media screen and (min-width: 1024px) {
+    flex-basis: calc(33.3334% - 2rem);
+  }
+
+  & > h3,
+  & > h4,
+  & > h5 {
+    section.black & {
+      color: $c-gray-light;
+    }
+  }
+
+  & > h4,
+  & > h5 {
+    opacity: 0.8;
+  }
+
+  & > h3 {
+    margin-top: 0;
+    font-size: 1.8rem;
+  }
+
+  & > h3 + h4 {
+    margin-top: -1.5rem;
+  }
+
+  & > h3 + h5 {
+    margin-top: -1rem;
+  }
+
+  & > h4 {
+    font-size: 0.9rem;
+  }
+
+  & > h5 {
+    margin-top: -0.5rem;
+    font-family: $f-sans;
+  }
+
+  &--audios {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  header {
+    position: absolute;
+    top: 1.75rem;
+    right: 0;
+    left: 0;
+    padding: 0 2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    z-index: 1;
+  }
+
+  &--composition-date {
+    margin-top: -0.25rem;
+    font-size: 1rem;
+    font-weight: 400;
+
+    &:before {
+      content: 'composition date';
+      display: block;
+      margin-bottom: -0.25rem;
+      font-weight: 200;
+      font-size: 0.8rem;
+      opacity: 0.8;
+    }
+  }
+
+  &--title {
+    &:not(:last-child):after {
+      content: ' / ';
+    }
+  }
+
+  &--content {
+    margin: -1.5rem 0 -1rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+
+  .more {
+    position: absolute;
+    bottom: 1rem;
+    right: 2.5rem;
+    font-size: 1.1rem;
+  }
+}
