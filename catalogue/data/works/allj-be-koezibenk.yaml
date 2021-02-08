@@ -2,7 +2,7 @@
 category: female
 composition_date: 1951
 date: 2021-05-01
-description: For 3 equal voices with piano accompaniment from the operetta "Zeng az erdő"
+description: For 3 equal voices with piano accompaniment
 dedication: A Vasas Kórusnak
 duration: 180
 id: allj-be-koezibenk
@@ -19,3 +19,4 @@ title:
     - hu
   translations:
     hu: Állj be közibénk
+version: Version of the operetta " Zeng az erdő " for 3 equal voices with piano accompaniment
