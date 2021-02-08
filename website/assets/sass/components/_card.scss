@@ -1,0 +1,100 @@
+.card {
+  min-width: 18rem;
+  position: relative;
+  padding: 1rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  overflow: hidden;
+  font-size: 1.2rem;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0.75rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: scale(1.1);
+    clip-path: polygon(
+      5% 1.5%,
+      5% 97.5%,
+      93.5% 100%,
+      95% 0
+    );
+    background-color: $c-section-invert-bg;
+    opacity: 0.15;
+    pointer-events: none;
+    z-index: 0;
+
+
+    section.black &,
+    section.focus &,
+    section.highlight & {
+      background-color: $c-white;
+    }
+
+    section.invert & {
+      background-color: $c-black;
+    }
+
+    section.black & {
+      opacity: 0.125;
+    }
+
+    section.focus & {
+      opacity: 0.15;
+    }
+
+    section.highlight & {
+      opacity: 0.25;
+    }
+
+    section.invert & {
+      opacity: 0.1;
+    }
+  }
+
+  & > * {
+    z-index: 1;
+  }
+
+  &.black:before,
+  &.focus:before,
+  &.highlight:before,
+  &.invert:before {
+    opacity: 0.75;
+  }
+
+  &.black {
+    color: $c-section-black-txt;
+
+    &:before {
+      background-color: $c-section-black-bg;
+    }
+  }
+
+  &.focus {
+    color: $c-section-focus-txt;
+
+    &:before {
+      background-color: $c-section-focus-bg;
+    }
+  }
+
+  &.highlight {
+    color: $c-section-highlight-txt;
+
+    &:before {
+      background-color: $c-section-highlight-bg;
+    }
+  }
+
+  &.invert {
+    color: $c-section-invert-txt;
+
+    &:before {
+      background-color: $c-section-invert-bg;
+    }
+  }
+}

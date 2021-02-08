@@ -1,6 +1,6 @@
 ---
 title: "Thank you"
-subTitle: ""
+hideFromNav: true
 slug: "thanks"
 heroImage: /img/hero/hero11.jpg
 date: 2019-08-29T00:22:03+02:00
@@ -17,6 +17,5 @@ Where do you want to go now ?
 - [Homepage]({{< ref "/" >}})
 - [Biography]({{< ref "biography" >}})
 - [Works]({{< ref "work" >}})
-- [Discover]({{< ref "discover" >}})
 
 {{% /section %}}

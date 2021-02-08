@@ -1,0 +1,7 @@
+<button class="play{{ if .small }} small{{ end }}" data-audio="{{ .id }}" onclick="window.dispatchEvent(new CustomEvent('play', {detail: { target: this, audio: '{{ .id }}', title: '{{ .title }}', detail: '{{ .description }}'}}))">
+  <div class="play--button"></div>
+  <div class="play--meta">
+    <h5>{{ .title }}</h5>
+    <p>{{ .description }}</p>
+  </div>
+</button>
