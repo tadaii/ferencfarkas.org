@@ -2,7 +2,7 @@
 category: orchestra
 composition_date: 1932-1933
 date: 2019-04-08T21:36:00.000Z
-description: Suite for orchestra from the ballet "A három csavargó / The three vagabonds"
+description: Suite for orchestra
 duration: 1620
 id: suite-a-harom-csavargo
 setting: '1, 1, 2, 1 - 2, 1, 0, 0 - timp., batt. - archi'
@@ -21,3 +21,4 @@ title:
   translations:
     en: Suite “The three vagabonds"
     hu: Suite "A három csavargó"
+version: Version of the ballet " A három csavargó / The three vagabonds " for orchestra
