@@ -119,7 +119,7 @@ Farkas continued to compose film music for other directors until 1973
 {{< figure src="/img/galleries/1932-portrait.jpg" caption="Portrait (1932)" >}}
 {{% /slide %}}
 {{% slide %}}
-{{< figure src="/img/galleries/1968-egri-csillagok-istvan-dobo.jpg" caption="István Dobó captain of the fortress of Eger in the film [Egri csillagok / Stars of Eger](#) (1968)" >}}
+{{< figure src="/img/galleries/1968-egri-csillagok-istvan-dobo.jpg" caption="István Dobó captain of the fortress of Eger in the film [Egri csillagok / Stars of Eger](/work/?q=id:) (1968)" >}}
 {{% /slide %}}
 {{% /slider %}}
 {{% /section %}}
@@ -128,7 +128,7 @@ Farkas continued to compose film music for other directors until 1973
 {{% column %}}
 
 Ferenc Farkas returned in Hungary for good in 1936. His first real public
-success happened in 1937 with his [Concertino for harp](#).
+success happened in 1937 with his [Concertino for harp](/work/?q=id:concertino-for-harp-and-string-orchestra-or-string-quintet).
 
 {{< play concertino-for-harp-and-orchestra-2 "3rd movement: Allegro moderato" "Concertino for harp and orchestra, 1937" >}}
 
@@ -155,7 +155,7 @@ The Second World War broke out in 1939.
 
 {{< play the-magic-cupboard-suleika "Suleika’s melody" "The magic cupboard - opera, 1942" >}}
 
-The first opera of Farkas, [The magic cupboard](#), which dates from that time,
+The first opera of Farkas, [The magic cupboard](/work/?q=id:the-magic-cupboard), which dates from that time,
 brought him national celebrity and fame across borders.
 
 {{% /column %}}
@@ -187,15 +187,15 @@ brought him national celebrity and fame across borders.
 >
 > I did not reach Budapest and my family until the beginning of October.
 
-Farkas composed a [Symphony](#) in memory of the liberation of
+Farkas composed a [Symphony](/work/?q=id:symphony) in memory of the liberation of
 Budapest by soviet troops in April 1945.
 
 > The first years of peace were very trying. We were on the verge of famine.
 
 Yet, for Farkas, they were years of intense activity. During this period,
-he composed several important works : the ballet [The sly Students](#),
-the [Cantata lirica](#), [Musica pentatonica for string orchestra](#),
-the [Concertino for piano and orchestra](#).
+he composed several important works : the ballet [The sly Students](/work/?q=id:the-sly-students),
+the [Cantata lirica](/work/?q=id:), [Musica pentatonica for string orchestra](/work/?q=id:musica-pentatonica),
+the [Concertino for piano and orchestra](/work/?q=id:concertino-for-piano-and-orchestra).
 
 {{% /column %}}
 {{% column %}}
@@ -206,7 +206,7 @@ the [Concertino for piano and orchestra](#).
 > which I pulled from Sándor Weöres cycle of poems “Fruit Basket”.
 >
 > Then with the other poems from the cycle I formed little by little a group
-> of twelve songs which I entitled, like the poet, [Fruit Basket](#).
+> of twelve songs which I entitled, like the poet, [Fruit Basket](/work/?q=id:).
 
 {{% slider %}}
 {{% slide %}}
@@ -241,7 +241,7 @@ the [Concertino for piano and orchestra](#).
 {{% column %}}
 
 Farkas was the first, in Hungary, to use dodecaphony in his
-[Preludio e fuga](#) for orchestra (1944-1947).
+[Preludio e fuga](/work/?q=id:preludio-e-fuga) for orchestra (1944-1947).
 
 Appointed professor of composition at the Budapest Music Academy in 1949,
 Farkas held this post until 1975. His leitmotif, in his pedagogy as in
@@ -274,7 +274,7 @@ In 1949, the Communists seized power in Hungary.
 > I composed many works on popular themes, and I set myself the objective of
 > reviving the old court music, which had been completely forgotten.
 >
-> My [Early Hungarian dances from the 17th century](#) have since
+> My [Early Hungarian dances from the 17th century](/work/?r=early-hungarian-dances-from-the-17th-century-for-piano-or-harpsichord) have since
 > been around the world.
 
 {{% /column %}}
@@ -285,7 +285,7 @@ In 1949, the Communists seized power in Hungary.
 {{% column size="2" %}}
 
 In 1950, a first [Kossuth Prize](https://en.wikipedia.org/wiki/Kossuth_Prize) was
-awarded to Farkas for his opera: [Csínom Palkó](#).
+awarded to Farkas for his opera: [Csínom Palkó](/work/?q=id:csinom-palko).
 
 {{% /column %}}
 {{% column %}}
@@ -346,7 +346,7 @@ the Communists regained power.
 > listening with anguish to the unfolding of events on the radio. I was so
 > tense that I was unable to compose a single note.
 
-In 1959, he composed his most important cantate: [Cantus Pannonicus](#)
+In 1959, he composed his most important cantate: [Cantus Pannonicus](/work/?q=id:)
 
 <br>
 {{< play cantus-pannonicus-1 "1) Laus Pannoniae" "Cantus Pannonicus – Cantata, 1959" >}}

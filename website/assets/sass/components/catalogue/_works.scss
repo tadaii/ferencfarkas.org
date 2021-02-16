@@ -2,9 +2,8 @@
   margin-top: 1.5rem;
 
   &--count {
-    padding: 0 1rem 1rem;
+    padding: 1rem;
     font-size: 1.1rem;
-    border-bottom: 1px solid rgba(0,0,0, .075);
   }
 
   &--count-amount {
@@ -25,7 +24,7 @@
 
   .work {
     position: relative;
-    padding: 0 1rem;
+    margin: 0 1rem 2rem 0.5rem;
 
     .black & {
       border-bottom-color: rgba(255,255,255, .2);
@@ -34,15 +33,41 @@
     .tag {
       float: right;
       margin: 0 0 .5rem .5rem;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+
+      &:disabled {
+        color: $c-black;
+        cursor: not-allowed;
+      }
+
+      &.rework,
+      &.reworked {
+        color: $c-almost-black;
+        background-color: transparent;
+      }
 
       &.rework {
-        color: $c-gray-darker;
-        border-color: $c-gray-darker;
-        background-color: transparent;
+        border-color: transparent;
 
+        &:hover,
         &.active {
+          border-color: $c-gray-darker;
+        }
+      }
+
+      &.reworked {
+        border-color: $c-gray-darker;
+
+        &:hover {
           color: $c-primary;
           background-color: $c-gray-darker;
+        }
+
+        &.active {
+          color: $c-black;
+          border-color: $c-primary;
+          background-color: $c-primary;
         }
       }
     }
@@ -55,6 +80,7 @@
       font-size: .8rem;
       font-weight: 100;
       cursor: pointer;
+      border: none;
       border-radius: .5rem;
       color: rgba(0,0,0, .8);
       background-color: rgba(255,255,255, .4);
@@ -77,14 +103,69 @@
     }
 
     &--container {
-      padding-top: 1.25rem;
-      padding-bottom: 1.25rem;
-      border-bottom: 1px dashed rgba(0,0,0, .2);
+      padding: 1.5rem;
+      border-bottom: none;
+      border-radius: 0.5rem;
+      background-color: rgba(255,255,255, 0.175);
       will-change: background-color;
       transition: background-color .2s linear;
 
       &:hover {
-        background-color: rgba(255,255,255, .1);
+        background-color: rgba(255,255,255, .25);
+      }
+
+      &.black {
+        color: $c-white;
+        background-color: black;
+
+        &:hover {
+          background-color: rgba(0,0,0, .9);
+        }
+      }
+
+      &.selected {
+        box-shadow: 0 0 0.75rem rgba(0,0,0, 0.3);
+      }
+    }
+
+    &--rework-info,
+    &--rework-label {
+      padding: 1rem;
+      font-size: 1rem;
+    }
+
+    &--rework-info {
+      display: flex;
+      flex-direction: column;
+      padding-top: 0;
+      margin-top: -1rem;
+      color: rgba(0,0,0, .75);
+
+      .back {
+        font-size: 1rem;
+      }
+    }
+
+    &--rework-label {
+      display: flex;
+      align-items: center;
+      margin: 1rem -1rem -1rem;
+      font-weight: 500;
+
+      &:before,
+      &:after {
+        flex: 1;
+        content: '';
+        border-bottom: 1px solid rgba(0,0,0, .2);
+        z-index: 0;
+      }
+
+      &:before {
+        margin: 0 1rem -2px 0;
+      }
+
+      &:after {
+        margin: 0 0 -2px 1rem;
       }
     }
 
@@ -98,6 +179,7 @@
     &--title {
       margin: 0;
       padding: 0 0 .5rem;
+      font-size: 1.7rem;
 
       span {
         float: left;
@@ -129,8 +211,6 @@
         font-weight: 600;
         text-transform: uppercase;
         border-radius: .4rem;
-        // color: $c-primary;
-        // background-color: rgba(0,0,0, .6);
         border: 1px solid rgba(0,0,0, .6);
       }
     }

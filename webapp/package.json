@@ -1,0 +1,10 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rollup -c && npm run build:copy",
+    "build:copy": "cp ./public/build/bundle.js ../website/assets/js/catalogue.js",
+    "dev": "rollup -c -w",
+    "start": "drosse serve"
+  }
+}

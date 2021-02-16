@@ -99,6 +99,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: inherit;
+    border: none;
+    padding: 0;
+    margin: 0;
     background-color: rgba(0,0,0, .7);
 
     @media screen and (min-width: 940px) {
@@ -131,7 +135,7 @@
   .refine--handler-label {
     position: absolute;
     top: 3.75rem;
-    right: calc(100% - .125rem);
+    right: calc(100% - .275rem);
     transform: rotate(270deg);
     transform-origin: top right;
     white-space: nowrap;

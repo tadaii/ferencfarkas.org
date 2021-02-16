@@ -184,7 +184,7 @@
     background-color: $c-primary;
     pointer-events: none;
 
-    section.highlight & {
+    .highlight & {
       background-color: $c-secondary;
     }
 

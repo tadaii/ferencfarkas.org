@@ -61,50 +61,53 @@ hr {
   border-bottom: 1px solid $c-gray-lighter;
 }
 
-a {
+a, .link {
   padding-left: .125rem;
   padding-right: .125rem;
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
   will-change: color;
   transition: color .2s ease;
+}
 
-  .container p &,
-  section .container li &,
-  &.link {
-    padding-bottom: .15rem;
-    border-bottom: 1px dashed $c-gray-dark;
-    will-change: background-color;
-    transition: background-color .2s ease;
+.container p a,
+section .container li a,
+.link {
+  border: none;
+  background: none;
+  padding-bottom: .15rem;
+  border-bottom: 1px dashed $c-gray-dark;
+  will-change: background-color;
+  transition: background-color .2s ease;
 
-    section.highlight & {
-      border-bottom-color: $c-section-highlight-txt;
+  .highlight & {
+    border-bottom-color: $c-section-highlight-txt;
+  }
+
+  .focus & {
+    border-bottom-color: $c-section-focus-txt;
+  }
+
+  .invert & {
+    border-bottom-color: $c-section-invert-txt;
+  }
+
+  .black & {
+    border-bottom-color: $c-section-black-txt;
+  }
+
+  &:hover {
+    border-color: rgba(0,0,0, .1);
+    background-color: rgba(0,0,0, .1);
+
+    .black & {
+      border-color: rgba(255,255,255, .2);
+      background-color: rgba(255,255,255, .2);
     }
 
-    section.focus & {
-      border-bottom-color: $c-section-focus-txt;
-    }
-
-    section.invert & {
-      border-bottom-color: $c-section-invert-txt;
-    }
-
-    section.black & {
-      border-bottom-color: $c-section-black-txt;
-    }
-
-    &:hover {
-      border-color: rgba(0,0,0, .1);
-      background-color: rgba(0,0,0, .1);
-
-      section.black & {
-        border-color: rgba(255,255,255, .2);
-        background-color: rgba(255,255,255, .2);
-      }
-
-      .container p & {
-        border-bottom-style: solid;
-      }
+    .container p & {
+      border-bottom-style: solid;
     }
   }
 }
@@ -207,37 +210,43 @@ article > .container {
   color: $c-secondary;
 }
 
-a.tag {
+.tag {
   padding: .3rem .7rem !important;
   font-family: $f-sans;
   font-size: .8rem;
-  line-height: 1rem;
+  line-height: 1.2;
   font-weight: 500;
   text-transform: uppercase;
   white-space: nowrap;
+  border: none;
   border-radius: .8rem;
   background-color: $c-secondary;
 
-  &.border {
-    border-width: 1px;
-    border-style: solid !important;
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0.25rem rgba(0,0,0, 0.25);
   }
 
-  section.highlight & {
+  &.border {
+    border-width: 1px;
+    border-style: solid;
+  }
+
+  .highlight & {
     border-color: $c-secondary;
   }
 
-  section.focus & {
+  .focus & {
     color: $c-white;
     border-color: $c-gray-dark;
     background-color: $c-gray-dark;
   }
 
-  section.invert & {
+  .invert & {
     color: $c-black;
   }
 
-  section.black & {
+  .black & {
     color: $c-black;
   }
 

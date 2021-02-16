@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "prebuild": "node ./scripts/prebuild-web",
+    "build:webapp": "cd webapp && npm run build && cd ..",
     "start": "npm run web:server",
-    "web:build": "npm run prebuild && cd ./website && hugo",
     "web:server": "npm run prebuild && cd ./website && hugo server --noHTTPCache --ignoreCache",
     "catalogue:pdf": "node ./catalogue/pdf-generator/index.js"
   },
@@ -15,16 +15,25 @@
     "@babel/core": "^7.11.1",
     "autoprefixer": "^9.8.5",
     "fs-extra": "^9.0.1",
-    "hyperapp": "^2.0.8",
     "lunr": "^2.3.8",
     "lunr-languages": "^1.4.0",
     "pdfmake": "^0.1.67",
     "shelljs": "^0.8.4",
+    "sirv-cli": "^1.0.0",
     "wavesurfer.js": "^4.0.1",
     "yaml": "^1.10.0"
   },
   "devDependencies": {
+    "@jota-one/drosse": "^1.10.0",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
     "postcss-cli": "^7.1.1",
-    "postcss-custom-media": "^7.0.8"
+    "postcss-custom-media": "^7.0.8",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0"
   }
 }

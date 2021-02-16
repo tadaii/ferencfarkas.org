@@ -1,0 +1,15 @@
+{
+  "DROSSE": {
+    "assets": "webapp/public"
+  },
+  "js": {
+    "DROSSE": {
+      "assets": "website/static/js"
+    }
+  },
+  "_catalogue": {
+    "DROSSE": {
+      "assets": "website/static/_catalogue"
+    }
+  }
+}

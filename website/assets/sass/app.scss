@@ -2,7 +2,8 @@
 @import 'variables';
 @import 'mixins';
 
-@import './layout/base';
+@import './base';
+
 @import './layout/header';
 @import './layout/article';
 @import './layout/form';

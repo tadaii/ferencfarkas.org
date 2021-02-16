@@ -145,7 +145,7 @@
 
       window.addEventListener('play', function (event) {
         var target = event.detail.target === playerPlay
-          ? document.querySelector('.play[data-audio="' +playing+'"]')
+          ? document.querySelector('.play[data-audio="' + playing +'"]')
           : event.detail.target
 
         var audio = event.detail.audio || playing
