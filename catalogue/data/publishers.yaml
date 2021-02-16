@@ -1,13 +1,16 @@
 - id: afp
   name: AFPublishing
+  url: /contact
 - id: alliance
   name: Alliance Publications
 - id: ascolta
   name: Ascolta Music Publishing Houten
+  url: https://ascolta.nl/
 - id: darok
   name: Darok Edition
 - id: emb
   name: Edition Musica Budapest
+  url: https://www.emb.hu/
 - id: kontrapunkt
   name: Kontrapunkt Music
 - id: ldz
@@ -23,3 +26,4 @@
   name: Sikorski Musikverlage
 - id: universal
   name: Universal Edition
+  url: https://www.universaledition.com/
