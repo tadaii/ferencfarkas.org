@@ -4,10 +4,12 @@
   "description": "The ferencfarkas.org project",
   "private": true,
   "scripts": {
+    "start": "npm run website:serve",
     "prebuild": "node ./scripts/prebuild-web",
-    "build:webapp": "cd webapp && npm run build && cd ..",
-    "start": "npm run web:server",
-    "web:server": "npm run prebuild && cd ./website && hugo server --noHTTPCache --ignoreCache",
+    "webapp:dev": "run-p website:serve webapp:serve",
+    "webapp:serve": "cd webapp && npm run dev",
+    "webapp:build": "cd webapp && npm run build && cd ..",
+    "website:serve": "npm run prebuild && cd ./website && hugo server --noHTTPCache --ignoreCache",
     "catalogue:pdf": "node ./catalogue/pdf-generator/index.js"
   },
   "dependencies": {
@@ -27,6 +29,7 @@
     "@jota-one/drosse": "^1.10.0",
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
+    "npm-run-all": "^4.1.5",
     "postcss-cli": "^7.1.1",
     "postcss-custom-media": "^7.0.8",
     "rollup": "^2.3.4",
