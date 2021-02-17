@@ -3,8 +3,8 @@ audios:
   - id: concertino-for-harp-and-orchestra
     description: Andante
 category: concerto
-composition_date: 1937
-date: 2021-01-24
+composition_date: 1937, rev. 1956
+date: 2021-02-17
 duration: 1380
 id: concertino-for-harp-and-orchestra
 movements:
