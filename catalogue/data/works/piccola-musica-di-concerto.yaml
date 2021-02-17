@@ -4,6 +4,8 @@ audios:
     description: Allegro
   - id: piccola-musica-di-concerto-2
     description: Scherzo
+  - id: piccola-musica-di-concerto-3
+    description: Allegro
 category: string
 composition_date: 1961
 date: 2021-01-12
