@@ -1,6 +1,7 @@
 .facets {
   overflow: auto;
-  max-height: calc(100% - 4.5rem);
+  max-height: calc(100% - 7rem - 2px);
+  border-top: 1px solid rgba(0,0,0, 0.1);
 
   h4 {
     margin: .25rem 0 .75rem;
@@ -34,6 +35,15 @@
 }
 
 .facet {
+  &.collapsed {
+    border-bottom: 1px solid rgba(0,0,0, 0.1);
+
+    ul,
+    .facet--more {
+      display: none;
+    }
+  }
+
   &--name {
     flex: 1;
   }

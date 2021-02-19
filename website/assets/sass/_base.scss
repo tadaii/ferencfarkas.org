@@ -176,6 +176,10 @@ blockquote {
   }
 }
 
+:disabled {
+  cursor: not-allowed !important;
+}
+
 .container {
   position: relative;
   width: 100%;
@@ -211,7 +215,7 @@ article > .container {
 }
 
 .tag {
-  padding: .3rem .7rem !important;
+  padding: .3rem .7rem;
   font-family: $f-sans;
   font-size: .8rem;
   line-height: 1.2;

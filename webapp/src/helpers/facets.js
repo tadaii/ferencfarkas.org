@@ -48,6 +48,7 @@ export function getFacets({
       list.push({
         group,
         def: {
+          collapsed: config[group].collapsed,
           label: config[group].label,
           facets: {}
         }

@@ -32,24 +32,28 @@ const DURATION_RANGES = {
 export default {
   g: {
     order: 1,
+    collapsed: false,
     label: 'Genres',
     getValues: work => [work.genre],
     getLabel: ({ value, genres = {} }) => genres[value]?.title
   },
   c: {
     order: 2,
+    collapsed: false,
     label: 'Categories',
     getValues: work => [work.category],
     getLabel: ({ value, categories = {} }) => categories[value]?.title
   },
   l: {
     order: 3,
+    collapsed: true,
     label: 'Languages',
     getValues: work => Object.keys({ ...work.texts, ...work.libretto }),
     getLabel: ({ value }) => value.toUpperCase()
   },
   p: {
     order: 4,
+    collapsed: true,
     label: 'Publishers',
     getValues: work => work.publications
       ? work.publications
@@ -65,12 +69,14 @@ export default {
   },
   m: {
     order: 5,
+    collapsed: true,
     label: 'Multimedia',
     getValues: work => [],
     getLabel: ({ value }) => value
   },
   t: {
     order: 6,
+    collapsed: true,
     label: 'Durations',
     getValues: work => Object.entries(DURATION_RANGES)
       .filter(([_, { compute }]) => compute(work.duration))
@@ -79,6 +85,7 @@ export default {
   },
   d: {
     order: 7,
+    collapsed: false,
     label: 'Composition decennies',
     getValues: work => {
       const r = /(19|20)\d{2}/gmi

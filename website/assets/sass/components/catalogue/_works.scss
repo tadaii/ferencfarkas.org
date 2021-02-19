@@ -2,13 +2,12 @@
   margin-top: 1.5rem;
 
   &--count {
-    padding: 1rem;
-    font-size: 1.1rem;
-  }
-
-  &--count-amount {
-    margin-right: .25rem;
-    font-weight: 400;
+    margin-left: 0.5rem;
+    padding: 0.125rem 0.5rem;
+    font-family: $f-sans;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: rgba(0,0,0, 0.1);
   }
 
   &--list {
@@ -38,7 +37,6 @@
 
       &:disabled {
         color: $c-black;
-        cursor: not-allowed;
       }
 
       &.rework,
@@ -70,6 +68,16 @@
           background-color: $c-primary;
         }
       }
+    }
+
+    &:before {
+      content: attr(data-index);
+      position: absolute;
+      right: calc(100% + 0.5rem);
+      top: 0.5rem;
+      font-size: 0.8rem;
+      font-weight: 500;
+      opacity: 0.4;
     }
 
     &--id {
@@ -354,7 +362,10 @@
       margin-right: .75rem;
       font-family: $f-serif;
       font-size: 1rem;
-      border: none;
+
+      &:not(:hover) {
+        border: none;
+      }
 
       &:before {
         flex-shrink: 0;

@@ -5,6 +5,7 @@
   export let categories = {}
   export let fields = []
   export let i18n = {}
+  export let index = -1
   export let isSub = false
   export let publishers = {}
   export let reworkActive = false
@@ -34,6 +35,7 @@
 <li
   class="work"
   id={work.id}
+  data-index={index + 1}
 >
   {#if reworked}
     <div class="work--rework-info">
@@ -153,7 +155,7 @@
     {#if work.story || work.audios}
       <div class="work--multimedia">
         {#if work.story}
-          <a class="work--story" href={work.story}>
+          <a class="link work--story" href={work.story}>
             About the work
           </a>
         {/if}

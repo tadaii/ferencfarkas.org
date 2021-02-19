@@ -2,12 +2,13 @@
 	import { onMount } from 'svelte'
 	import endpoints from './configs/endpoints'
 	import { setFacets, serialize } from './helpers/facets'
-	import { load as loadQS, sync as syncQS } from './services/qs'
-	import Query from './components/Query.svelte'
+	import { defaultState, load as loadQS, sync as syncQS } from './services/qs'
+	import { initScrollBehaviors } from './helpers/scroll'
 	import Work from './components/Work.svelte'
 	import Refine from './components/Refine.svelte'
 	import Pagination from './components/Pagination.svelte'
 
+	let app
 	let mounted = false // flag for query string (QS) sync
 	let index = {} // lunr search index object
 	let works = [] // full list of works (unfiltered)
@@ -17,12 +18,18 @@
 	$: results = filterWorks({ ...state, index, works })
 	$: renderedResults = results
 	$: {
-		if (mounted) {
+		if (mounted && index) {
 			syncQS(state)
 		} else {
 			state = loadQS()
 		}
 	}
+
+	onMount(() => {
+		customizeSection(document.getElementById('catalogue-app'))
+		initScrollBehaviors(app)
+		mounted = true
+	})
 
 	function customizeSection(container) {
     let section = container
@@ -49,10 +56,6 @@
 		return responses
 	}
 
-	function scrollToTop() {
-    window.scrollTo(0,400)
-  }
-
 	function filterWorks({ activeFacets, index, query, reworksOf, sort, works }) {
 		let results = works
 
@@ -65,7 +68,6 @@
 			results = handleFacets({ activeFacets, works: results })
 		}
 
-		scrollToTop()
 		return results
 	}
 
@@ -103,35 +105,25 @@
 			: [...state.activeFacets, facet]
 	}
 
-	onMount(() => {
-		customizeSection(document.getElementById('catalogue-app'))
-		mounted = true
-	})
+	function clear() {
+		state = {...defaultState}
+	}
 </script>
 
-<form class="catalogue search" on:submit|preventDefault>
+<form class="catalogue search" bind:this={app} on:submit|preventDefault>
 	<div class="works">
 		{#await loadData()}
 			<p>Loading catalogue data...</p>
 		{:then data}
 			<div class="row">
 				<div class="column list">
-					<Query
-						value={state.query}
-						on:updateQuery={e => state.query = e.detail}
-					/>
-					<div class="works--count">
-						<span class="works--count-amount">
-							{results.length}
-						</span>
-						works
-					</div>
 					<ul class="works--list">
-						{#each renderedResults as work (work.id)}
+						{#each renderedResults as work, index (work.id)}
 							<Work
 								categories={data.catalogue.categories}
 								fields={data.catalogue.fields}
 								i18n={data.i18n}
+								{index}
 								publishers={data.catalogue.publishers}
 								reworkActive={Boolean(state.reworksOf)}
 								showID={state.showID}
@@ -148,8 +140,11 @@
 						categories={data.catalogue.categories}
 						genres={data.catalogue.genres}
 						publishers={data.catalogue.publishers}
+						{state}
 						works={results}
+						on:updateQuery={e => state.query = e.detail}
 						on:refine={refine}
+						on:clear={clear}
 					/>
 				</div>
 			</div>
