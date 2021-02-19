@@ -14,16 +14,42 @@
   export let works = []
 
   const dispatch = createEventDispatcher()
+
+  let collapsed = []
   let wrapper
 
-  $: facetsList = getFacets(
+  $: facetsList = _getFacets(
     { activeFacets, categories, genres, publishers, works }
   )
 
   $: cropped = isCropped(works, wrapper)
 
+  function _getFacets() {
+    const list = getFacets(
+      { activeFacets, categories, genres, publishers, works }
+    )
+
+    list
+      .filter(item => item.def.collapsed)
+      .forEach(item => {
+        if (!collapsed.includes(item.collapsed)) {
+          collapsed.push(item.collapsed)
+        }
+      })
+
+    return list
+  }
+
   function toggleRefine(e) {
     document.querySelector('.refine').classList.toggle('open')
+  }
+
+  function toggleCollapse(group) {
+    if (collapsed.includes(group)) {
+      collapsed = collapsed.filter(g => g !== group)
+    } else {
+      collapsed = [...collapsed, group]
+    }
   }
 
   function isCropped(works, wrapper) {
@@ -50,6 +76,7 @@
       <span class="spacer"></span>
       <button
         aria-label="clear filters"
+        title="clear filters"
         disabled={JSON.stringify(state) === JSON.stringify(defaultState)}
         on:click={() => dispatch('clear')}
       >
@@ -64,8 +91,16 @@
     />
     <div class="facets">
       {#each facetsList as {group, def}}
-        <div class="facet {group}" class:collapsed={def.collapsed}>
-          <h4>{def.label}</h4>
+        <div class="facet {group}" class:collapsed={collapsed.includes(group)}>
+          <h4 on:click={toggleCollapse(group)}>
+            <button
+              class="collapse"
+              class:open={!collapsed.includes(group)}
+              aria-label="toggle facets group"
+              title="toggle facets group"
+            ></button>
+            {def.label}
+          </h4>
           <FacetGroup {group} label={def.label} facets={def.facets} on:refine />
         </div>
       {/each}

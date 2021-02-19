@@ -2,11 +2,16 @@
   overflow: auto;
   max-height: calc(100% - 7rem - 2px);
   border-top: 1px solid rgba(0,0,0, 0.1);
+}
 
+.facet {
   h4 {
     margin: .25rem 0 .75rem;
     padding: 1rem 0 .25rem;
+    display: flex;
+    align-items: center;
     font-size: 1.1rem;
+    cursor: pointer;
 
     .black & {
       border-top-color: rgba(255,255,255, .2);
@@ -32,9 +37,7 @@
       margin-right: .75rem;
     }
   }
-}
 
-.facet {
   &.collapsed {
     border-bottom: 1px solid rgba(0,0,0, 0.1);
 

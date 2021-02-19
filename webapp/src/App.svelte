@@ -20,6 +20,7 @@
 	$: {
 		if (mounted && index) {
 			syncQS(state)
+			initScrollBehaviors(app)
 		} else {
 			state = loadQS()
 		}
@@ -27,7 +28,6 @@
 
 	onMount(() => {
 		customizeSection(document.getElementById('catalogue-app'))
-		initScrollBehaviors(app)
 		mounted = true
 	})
 

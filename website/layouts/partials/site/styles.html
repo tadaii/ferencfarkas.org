@@ -1,3 +1,6 @@
 {{ $s := resources.Get "sass/app.scss" | toCSS | minify }}
+{{ if hugo.IsProduction }}
+{{ $s = $s | resources.Fingerprint "sha512" }}
+{{ end }}
 <link rel="stylesheet" href="{{ $s.Permalink }}" media="screen"/>
 <link rel="stylesheet" href="/css/flickity.css" media="screen">

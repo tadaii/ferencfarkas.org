@@ -35,7 +35,7 @@
 <li
   class="work"
   id={work.id}
-  data-index={index + 1}
+  data-index={reworked ? '' : reworkActive ? index : index + 1}
 >
   {#if reworked}
     <div class="work--rework-info">
