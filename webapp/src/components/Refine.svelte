@@ -1,6 +1,6 @@
 <script>
   import { createEventDispatcher } from 'svelte'
-  import { getFacets } from '../helpers/facets'
+  import { getFacets, deserialize } from '../helpers/facets'
   import { defaultState } from '../services/qs'
   import RefineTitle from './RefineTitle.svelte'
   import Query from './Query.svelte'
@@ -15,7 +15,7 @@
 
   const dispatch = createEventDispatcher()
 
-  let collapsed = []
+  let collapsed
   let wrapper
 
   $: facetsList = _getFacets(
@@ -29,11 +29,19 @@
       { activeFacets, categories, genres, publishers, works }
     )
 
-    list
-      .filter(item => item.def.collapsed)
-      .forEach(item => {
-        if (!collapsed.includes(item.collapsed)) {
-          collapsed.push(item.collapsed)
+    // Feed collapsed based on facets config
+    if (!collapsed) {
+      collapsed = list
+        .filter(item => item.def.collapsed)
+        .map(item => item.group)
+    }
+
+    // Force opening facet groups with active filters
+    state.activeFacets
+      .map(f => deserialize(f).group)
+      .forEach(group => {
+        if (collapsed.includes(group)) {
+          collapsed = collapsed.filter(g => g !== group)
         }
       })
 
@@ -50,6 +58,7 @@
     } else {
       collapsed = [...collapsed, group]
     }
+    console.log(collapsed)
   }
 
   function isCropped(works, wrapper) {

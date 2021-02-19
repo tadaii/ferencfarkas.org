@@ -24,6 +24,7 @@
   .work {
     position: relative;
     margin: 0 1rem;
+    cursor: pointer;
 
     .black & {
       border-bottom-color: rgba(255,255,255, .2);
@@ -160,13 +161,6 @@
       }
     }
 
-    &--title,
-    &--description,
-    &--languages,
-    &--sub .work--version {
-      cursor: pointer;
-    }
-
     &--title {
       margin: 0;
       padding: 0 0 .5rem;
@@ -229,7 +223,6 @@
     }
 
     &--description {
-      margin-left: 1.25rem;
       font-size: 1.15rem;
       line-height: 1.2;
     }

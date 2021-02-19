@@ -85,7 +85,7 @@ export default {
   },
   d: {
     order: 7,
-    collapsed: false,
+    collapsed: true,
     label: 'Composition decennies',
     getValues: work => {
       const r = /(19|20)\d{2}/gmi

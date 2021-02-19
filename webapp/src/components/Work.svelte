@@ -54,6 +54,7 @@
     class:open
     class:black={reworked}
     class:selected
+    on:click={toggleFields}
   >
 
     <!-- Work ID -->
@@ -91,7 +92,7 @@
 
     <!-- Title -->
     {#if work.title}
-      <h3 class="work--title" on:click={toggleFields}>
+      <h3 class="work--title">
         <span>
           {title}
         </span>
@@ -116,7 +117,7 @@
 
     <!-- Description -->
     {#if work.description}
-      <div class="work--description" on:click={toggleFields}>
+      <div class="work--description">
         {work.description}
         {#if work.note}
           <div class="work--note">{work.note}</div>
@@ -126,7 +127,7 @@
 
     <!-- Version -->
     {#if work.version && !work.isDefaultVersion}
-      <div class="work--version" on:click={toggleFields}>
+      <div class="work--version">
         {work.version}
       </div>
     {/if}
