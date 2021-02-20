@@ -59,7 +59,9 @@
 
     <!-- Work ID -->
     {#if showID && work.id}
-      <button class="work--id" on:click={e => navigator.clipboard.writeText(e.target.textContent)}>
+      <button class="work--id" on:click|stopPropagation={e =>
+        navigator.clipboard.writeText(e.target.textContent)
+      }>
         {work.id}
       </button>
     {/if}
@@ -69,7 +71,9 @@
       <button
         class="tag"
         disabled={reworkActive}
-        on:click|preventDefault={() => dispatch('selectCategory', work.category)}
+        on:click|stopPropagation|preventDefault={() =>
+          dispatch('selectCategory', work.category)
+        }
       >
         {categories[work.category].tag}
       </button>
@@ -80,7 +84,7 @@
       <button
         class="tag border rework{isRework ? '' : 'ed'}"
         class:active={reworkActive}
-        on:click|preventDefault={toggleRework}
+        on:click|stopPropagation|preventDefault={toggleRework}
       >
         {#if reworked}
           Reworked

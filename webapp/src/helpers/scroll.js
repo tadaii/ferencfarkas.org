@@ -34,3 +34,14 @@ function stickRefinePanel() {
     }
   }
 }
+
+export function scrollToTop(works) {
+  if (list) {
+    const interval = window.setInterval(() => {
+      if (list.children.length === works.length) {
+        window.clearInterval(interval)
+        list.scrollIntoView()
+      }
+    }, 10)
+  }
+}

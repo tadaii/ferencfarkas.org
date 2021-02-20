@@ -3,7 +3,7 @@
 	import endpoints from './configs/endpoints'
 	import { setFacets, serialize } from './helpers/facets'
 	import { defaultState, load as loadQS, sync as syncQS } from './services/qs'
-	import { initScrollBehaviors } from './helpers/scroll'
+	import { initScrollBehaviors, scrollToTop } from './helpers/scroll'
 	import Work from './components/Work.svelte'
 	import Refine from './components/Refine.svelte'
 	import Pagination from './components/Pagination.svelte'
@@ -17,6 +17,7 @@
 
 	$: results = filterWorks({ ...state, index, works })
 	$: renderedResults = results
+	$: scrollToTop(results)
 	$: {
 		if (mounted && index) {
 			syncQS(state)
