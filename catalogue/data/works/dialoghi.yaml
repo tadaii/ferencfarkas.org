@@ -1,0 +1,26 @@
+---
+audios:
+  - id: dialoghi-1
+    description: Moderato cantabile
+  - id: dialoghi-2
+    description: Scherzo
+category: chamber
+composition_date: 1987
+date: 2021-02-22
+description: for clarinet or flute and bassoon or violoncello 
+duration: 320
+id: dialoghi
+movements:
+  - title: Moderato cantabile 
+  - title: Scherzo 
+  - title: Allegro leggero
+publications:
+  - publisher_id: curci
+    type: all
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Dialoghi  
