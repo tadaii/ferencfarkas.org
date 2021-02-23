@@ -1,0 +1,25 @@
+audios:
+  - id: egloga-burattinata-1
+    description: Egloga
+  - id: egloga-burattinata-2
+    description: Burattinata
+category: chamber
+composition_date: 1976
+date: 2021-02-23
+dedication: Egloga is dedicated to Jean-Louis Matthey
+description: for flute or violin and guitar
+duration: 240
+id: egloga-burattinata
+movements:
+  - title: Egloga 
+  - title: Burattinata 
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Egloga - Burattinata 
