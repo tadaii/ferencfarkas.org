@@ -1,0 +1,20 @@
+---
+category: concerto
+composition_date: 1980
+date: 2021-03-01
+description: for flute and string orchestra
+duration: 360
+id: alla-danza-ungherese-for-flute-and-string-orchestra
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: alla-danza-ungherese
+title:
+  main: it
+  original: hu
+  sort:
+    - it
+    - hu
+  translations:
+    it: Alla danza ungherese
+    hu: Hétfalusi boricza-tánc
