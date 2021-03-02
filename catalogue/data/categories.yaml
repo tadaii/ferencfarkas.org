@@ -62,13 +62,9 @@
   tag: Misc choir
   title: Miscellaneous choir / Canon
   genre: vocal
-- id: voice_piano
-  tag: Voice & piano
-  title: Voice and piano / Organ
-  genre: vocal
-- id: voice
-  tag: Voice
-  title: Voice and other instrument(s) or orchestra
+- id: lieder
+  tag: Lieder
+  title: Lieder
   genre: vocal
 - id: incidental
   tag: Incidental / Radio
