@@ -1,0 +1,17 @@
+---
+category: chamber
+date: 2021-03-02
+description: Extract from the incidental music to “ As you like it ” by Shakespeare 
+duration: 120 
+id: petite-ouverture
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: as-you-like-it
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Petite ouverture for flute, horn and harp
