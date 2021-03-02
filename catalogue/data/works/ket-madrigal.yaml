@@ -12,7 +12,8 @@ publications:
   - publisher_id: afp
     type: all
 rework_of: as-you-like-it
-texts: in hungarian translated by Lőrinc Szabó
+texts:
+  hu: in hungarian translated by Lőrinc Szabó
 title:
   main: hu
   original: hu
