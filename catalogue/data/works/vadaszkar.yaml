@@ -1,0 +1,20 @@
+---
+category: male
+composition_date: 1937
+date: 2021-03-02
+description: for 4-part male choir from the incidental music " As you like it " by Shakespeare
+duration: 60 
+id: vadaszkar
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: as-you-like-it
+texts:
+  hu: in hungarian translated by Lőrinc Szabó
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Vadászkar
