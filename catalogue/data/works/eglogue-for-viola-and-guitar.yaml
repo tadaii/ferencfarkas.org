@@ -7,7 +7,7 @@ id: eglogue-for-viola-and-guitar
 publications:
   - publisher_id: afp
     type: all
-rework-of: egloga-butattinata
+rework_of: egloga-butattinata
 title:
   main: en
   original: en
