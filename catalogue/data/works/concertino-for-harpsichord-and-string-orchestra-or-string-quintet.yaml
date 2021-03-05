@@ -4,7 +4,7 @@ audios:
     description: Allegro
 category: concerto
 composition_date: 1949
-date: 2021-01-24
+date: 2021-03-05
 duration: 1020
 id: concertino-for-harpsichord-and-string-orchestra-or-string-quintet
 movements:
@@ -22,4 +22,3 @@ title:
     - en
   translations:
     en: Concertino for harpsichord and string orchestra or string quintet
-version: Version of “ Concertino for piano and orchestra “ for harpsichord and string orchestra or string quintet
