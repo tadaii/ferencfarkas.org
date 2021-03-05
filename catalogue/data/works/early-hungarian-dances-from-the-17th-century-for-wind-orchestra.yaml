@@ -3,8 +3,8 @@ audios:
   - id: early-hungarian-dances-from-the-17th-century-for-wind-orchestra
     description: Intrada
 category: wind
-date: 2021-01-16
-description: Suite of dances for wind orchestra
+date: 2021-03-05
+description: Suite of dances for wind orchestra adapted by László Zempléni, 2015
 duration: 620
 id: early-hungarian-dances-from-the-17th-century-for-wind-orchestra
 movements:
@@ -29,4 +29,3 @@ title:
     en: Early hungarian dances from the 17th century
     hu: Régi magyar táncok a 17. századból
     it: Antiche danze ungheresi del 17. secolo
-version: Version of "Early hungarian dances from the 17th century for piano or harpsichord" adapted for wind orchestra by László Zempléni, 2015
