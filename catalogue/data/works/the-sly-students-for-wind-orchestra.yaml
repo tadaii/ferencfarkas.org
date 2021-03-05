@@ -5,8 +5,8 @@ audios:
   - id: the-sly-students-for-wind-orchestra-2
     description: Horseherds-dance
 category: wind
-date: 2021-01-16 
-description: Suite of dances for wind orchestra
+date: 2021-03-05 
+description: Suite for wind orchestra from the ballet " The sly students " adapted by Tony Kurmann, 2014
 duration: 1200
 id: the-sly-students-for-wind-orchestra
 movements:
@@ -34,4 +34,3 @@ title:
   translations:
     en: The sly students
     hu: Furfangos diákok
-version: Version of “ The sly students for orchestra ” adapted for wind orchestra by Tony Kurmann, 2014
