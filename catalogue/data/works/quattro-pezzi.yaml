@@ -1,0 +1,25 @@
+---
+category: chamber
+composition_date: 1965
+date: 2021-03-05
+dedication: to my son András
+description: for double-bass and piano
+duration: 600
+id: quattro-pezzi
+movements:
+  - title: Intrada
+  - title: Scherzo
+  - title: Petit poème
+  - title:  Rondo
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: it
+  original: hu
+  sort:
+    - it
+    - hu
+  translations:
+    it: Quattro pezzi
+    hu: Négy darab
