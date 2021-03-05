@@ -1,6 +1,8 @@
 ---
 audios:
-  - id: quattro-pezzi-for-double-bass-solo-and-wind-quintet
+  - id: quattro-pezzi-for-double-bass-solo-and-wind-quintet-1
+    description: Intrada
+  - id: quattro-pezzi-for-double-bass-solo-and-wind-quintet-2
     description: Scherzo
 category: chamber
 composition_date: 1966
