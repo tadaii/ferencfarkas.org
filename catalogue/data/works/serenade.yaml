@@ -1,0 +1,25 @@
+---
+category: chamber
+composition_date: 1940
+date: 2021-03-09
+description: for recorder and 2 violins
+duration: 600
+id: serenade
+movements:
+  - title: Allegro moderato
+  - title: Marcietta
+  - title: Scherzino
+  - title: Intermezzo
+  - title: Rondino
+publications:
+  - publisher_id: afp
+    type: all
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Serenade
+    hu: Szerenád
