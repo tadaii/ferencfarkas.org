@@ -1,0 +1,31 @@
+---
+audios:
+  - id: serenade-for-flute-and-2-violins-1
+    description: Allegro moderato
+  - id: serenade-for-flute-and-2-violins-2
+    description: Scherzino
+category: chamber
+composition_date: 1965
+date: 2021-03-09
+description: for flute and 2 violins
+duration: 600
+id: serenade-for-flute-and-2-violins
+movements:
+  - title: Allegro moderato
+  - title: Marcietta
+  - title: Scherzino
+  - title: Intermezzo
+  - title: Rondino
+publications:
+  - publisher_id: emb
+    type: all
+rework_of: serenade
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Serenade
+    hu: Szerenád
