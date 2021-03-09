@@ -1,0 +1,20 @@
+---
+audios:
+  - id: aria-e-rondo-all-ungherese-for-flute-oboe-and-piano
+    description: Extract
+category: chamber
+date: 2021-03-09
+description: for flute, oboe and piano adapted by András Adorján
+duration: 480
+id: aria-e-rondo-all-ungherese-for-flute-oboe-and-piano
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: aria-e-rondo-all-ungherese
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Aria e rondo all'ungherese
