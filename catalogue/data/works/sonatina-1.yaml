@@ -1,0 +1,22 @@
+---
+category: chamber
+composition_date: 1930
+date: 2021-03-10
+dedication: to György Hannover
+description: for violin and piano
+duration: 450
+id: sonatina-1
+movements:
+  - title: Allegro con slancio
+  - title: Largo
+  - title: Presto
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Sonatina no.1

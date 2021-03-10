@@ -19,9 +19,9 @@ movements:
   - title: Bogyiszlai kertek alja végén
 publications:
   - publisher_id: afp
-    type: all
+    type: all 
 texts:
-  hu: in hungarian 
+  hu: in hungarian (traditional)
 title:
   main: en
   original: en
