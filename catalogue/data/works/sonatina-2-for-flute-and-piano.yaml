@@ -1,0 +1,24 @@
+---
+audios:
+  - id: sonatina-2-for-flute-and-piano
+    description: Scherzando
+category: chamber
+date: 2021-03-11
+description: for flute and piano adapted by András Adorján, 2019
+duration: 480
+id: sonatina-2-for-flute-and-piano
+movements:
+  - title: Allegro molto
+  - title: Andante
+  - title: Scherzando
+publications:
+  - publisher_id: afp
+    type: flute part
+rework_of: sonatina-2
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Sonatina no.2
