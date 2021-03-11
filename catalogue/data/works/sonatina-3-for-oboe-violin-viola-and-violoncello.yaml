@@ -1,0 +1,21 @@
+---
+category: chamber
+date: 2021-03-11
+description: for oboe, violin, viola and violoncello adapted by Lajos Lencsés, 2018
+duration: 540
+id: ssonatina-3-for-oboe-violin-viola-and-violoncello
+movements:
+  - title: Allegro
+  - title: Andante moderato
+  - title: Allegro
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: sonatina-3
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Sonatina no.3
