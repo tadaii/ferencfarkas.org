@@ -13,8 +13,7 @@ movements:
 publications:
   - publisher_id: emb
     type: score
-  - publisher_id: emb
-    type: Two sonatinas
+    credits: Two sonatinas
 title:
   main: it
   original: it
