@@ -12,9 +12,9 @@ movements:
   - title: Scherzando
 publications:
   - publisher_id: emb
-    type: all
-    credits:
-     - Two sonatinas
+    type: score
+  - publisher_id: emb
+    type: Two sonatinas
 title:
   main: it
   original: it
