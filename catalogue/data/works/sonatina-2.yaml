@@ -13,6 +13,8 @@ movements:
 publications:
   - publisher_id: emb
     type: all
+    credits:
+     - Two sonatinas
 title:
   main: it
   original: it
