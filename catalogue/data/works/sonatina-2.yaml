@@ -1,0 +1,22 @@
+---
+category: chamber
+composition_date: 1931
+date: 2021-03-11
+dedication: to Ede Zathureczky
+description: for violin and piano
+duration: 480
+id: sonatina-2
+movements:
+  - title: Allegro molto
+  - title: Andante
+  - title: Scherzando
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Sonatina no.2
