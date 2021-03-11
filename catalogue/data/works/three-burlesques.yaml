@@ -1,0 +1,26 @@
+---
+audios:
+  - id: three-burlesques
+    description: Allegro
+category: solo
+composition_date: 1941
+date: 2021-03-11
+description: for piano
+duration: 420
+id: three-burlesques
+movements:
+  - title: Allegro
+  - title: Moderato comodo 
+  - title: Allegro
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    it: Three burlesques
+    hu: Három burleszk
