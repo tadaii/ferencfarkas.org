@@ -1,10 +1,13 @@
 ---
+audios:
+  - id: missa-in-honorem-sancti-andreae-for-mixed-choir-and-organ
+    description: Credo
 category: mass 
-composition_date: 1968
+composition_date: 1962
 date: 2021-03-12
-description: Mass for 3 soli ad lib., mixed choir and orchestra
+description: Mass for mixed choir and organ
 duration: 1620
-id: missa-in-honorem-sancti-andreae
+id: missa-in-honorem-sancti-andreae-for-mixed-choir-and-organ
 movements:
   - title: Kyrie
   - title: Gloria
@@ -15,8 +18,6 @@ movements:
 publications:
   - publisher_id: ascolta
     type: all
-rework_of: missa-in-honorem-sancti-andreae-for-mixed-choir-and-organ
-setting: '1, 1, 2, 1 – 2, 2, 1, 0 – timp. – org. – archi'
 texts:
   la: in latin
 title:
