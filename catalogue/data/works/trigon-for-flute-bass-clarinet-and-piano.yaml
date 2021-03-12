@@ -1,0 +1,22 @@
+---
+category: chamber
+composition_date: 1995
+date: 2021-03-12
+description: for flute, bass-clarinet and piano
+duration: 420
+id: trigon-for-flute-bass-clarinet-and-piano
+movements:
+  - title: Moderato molto
+  - title: Andante moderato 
+  - title: Allegro
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: trigon
+title:
+  main: en
+  original: en
+  sort:
+    - en
+  translations:
+    en: Trigon
