@@ -1,0 +1,26 @@
+---
+audios:
+  - id: tre-bagattelle-1
+    description: Allegretto
+  - id: tre-bagattelle-2
+    description: Andante
+category: chamber
+composition_date: 1992
+date: 2021-03-12
+description: for flute, clarinet and bassoon
+duration: 220
+id: tre-bagattelle
+movements:
+  - title: Allegretto
+  - title: Andante 
+  - title: Allegro
+publications:
+  - publisher_id: bcurci
+    type: all
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Tre bagattelle
