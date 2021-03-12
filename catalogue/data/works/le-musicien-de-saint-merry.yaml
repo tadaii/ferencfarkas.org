@@ -1,0 +1,21 @@
+---
+category: cantata_oratorio 
+composition_date: 1984
+date: 2021-03-12
+dedication: aux Philharmonistes de Châteauroux et à leur chef János Kömives
+description: Cantata for female choir and wind ensemble
+duration: 900
+id: le-musicien-de-saint-merry
+publications:
+  - publisher_id: ascolta
+    type: all
+setting: '2 fl., 2 ob., 2 cl., 2 fg, 2 cor., 2 tr.'
+texts:
+  fr: in french by Guillaume Apollinaire
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Le musicien de Saint-Merry
