@@ -1,0 +1,19 @@
+---
+category: choir  
+date: 2021-03-12
+description: for 4-part mixed choir
+duration: 120
+id: crepuscule
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: alkony
+texts:
+  hu: in french translated by Françoise Farkas
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Crépuscule
