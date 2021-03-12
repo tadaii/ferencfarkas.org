@@ -1,0 +1,23 @@
+---
+audios:
+  - id: zalai-valtazatok
+    description: Variation I
+category: solo
+composition_date: 1980
+date: 2021-03-12
+description: Variations for cimbalom on a folk melody from the country of Zala
+duration: 300
+id: zalai-valtazatok
+movements:
+  - title: Thema - Variation I – VIII
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: variazioni-ungheresi
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Zalai változatok
