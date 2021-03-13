@@ -1,15 +1,14 @@
 ---
 audios:
   - id: fruit-basket-for-voice-clarinet-violin-violoncello-piano-1
-    description: CMarasztalás / Sonnenstrahlen / Supplication
-    audios:
+    description: Marasztalás / Sonnenstrahlen / Supplication
   - id: fruit-basket-for-voice-clarinet-violin-violoncello-piano-2
     description: Déli felhők / Mittagswolken / Dans les nuages
 category: voice_piano
 composition_date: 1946
 date: 2021-03-13
 dedication: “ Altatódal / Wiegenlied / Berceuse ” is dedicated to my son András for his first birthday
-description: Cycle of 12 songs for voice and piano
+description: Cycle of 12 songs for voice, clarinet, violin, violoncello and piano
 duration: 1020
 id: fruit-basket-for-voice-clarinet-violin-violoncello-piano
 movements:
