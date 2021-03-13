@@ -1,0 +1,25 @@
+---
+category: voice_piano
+date: 2021-03-13
+description: for voice and piano
+duration: 844
+id: die-lieder-des-wanderers
+movements:
+  - title: Utra kelni, messzi menni / Rastlos wandern
+  - title: Tavaszi dal, vándordal / Frühlingswind 
+  - title: A kalandor / Der Abenteurer
+publications:
+  - publisher_id: emb
+    type: all
+texts:
+  hu: in hungarian by Milán Füst
+  fr: German translated by Peter Felsenstein
+title:
+  main: de
+  original: hu
+  sort:
+    - de
+    - hu
+  translations:
+    de: Die Lieder des Wanderers
+    hu: A vándor dalai
