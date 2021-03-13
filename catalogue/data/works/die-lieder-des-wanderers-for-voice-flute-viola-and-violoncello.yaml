@@ -1,0 +1,30 @@
+---
+audios:
+  - id: die-lieder-des-wanderers-for-voice-flute-viola-and-violoncello
+    description: Utra kelni, messzi menni / Rastlos wandern
+category: voice_piano
+composition_date: 1956
+date: 2021-03-13
+description: for voice, flute, viola and violoncello
+duration: 660
+id: die-lieder-des-wanderers-for-voice-flute-viola-and-violoncello
+movements:
+  - title: Utra kelni, messzi menni / Rastlos wandern
+  - title: Tavaszi dal, vándordal / Frühlingswind 
+  - title: A kalandor / Der Abenteurer
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: die-lieder-des-wanderers
+texts:
+  hu: in hungarian by Milán Füst
+  fr: German translated by Peter Felsenstein
+title:
+  main: de
+  original: hu
+  sort:
+    - de
+    - hu
+  translations:
+    de: Die Lieder des Wanderers
+    hu: A vándor dalai
