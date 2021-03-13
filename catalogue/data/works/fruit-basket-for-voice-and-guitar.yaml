@@ -1,14 +1,10 @@
 ---
-audios:
-  - id: fruit-basket-for-voice-clarinet-viola-and-piano
-    description: Gáspár / Kaspar / Bastide
 category: voice_piano
-composition_date: 1972
 date: 2021-03-13
-dedication: to Sylvia Schwarzenbach
-description: Cycle of 12 songs for voice, clarinet, viola and piano
+dedication: “ Altatódal ” is dedicated to my son András for his first birthday
+description: Cycle of 12 songs for voice and guitar adaptated by Ferenc Fodor 
 duration: 1020
-id: fruit-basket-for-voice-clarinet-viola-and-piano
+id: fruit-basket-for-voice-and-guitar
 movements:
   - title: Gáspár / Kaspar / Bastide
   - title: Ládika / Das Zauberkästlein / Le pot de fer
@@ -23,14 +19,18 @@ movements:
   - title: Paprika Jancsi szerenádja / Hanswurst-Serenade / Sérénade de Pierrot
   - title: Déli felhők / Mittagswolken / Dans les nuages
 publications:
-  - publisher_id: emb
+  - publisher_id: afp
     type: all
 rework_of: fruit-basket
 title:
   main: en
-  original: en
+  original: hu
   sort:
     - en
+    - hu
+    - de
   translations:
     en: Fruit basket
-nb: Version in 12 parts without text. The original words by Sándor Weöres and their german and french translations are available in “ Fruit basket for voice and wind quintet “ and “ Fruit basket for voice and clarinet quartet
+    hu: Gyümölcskosár
+    de: Fruchtkorb
+nb: French translation of the words by Sándor Weöres is available in “ Fruit basket for voice and wind quintet “ and “ Fruit basket for voice and clarinet quartet “
