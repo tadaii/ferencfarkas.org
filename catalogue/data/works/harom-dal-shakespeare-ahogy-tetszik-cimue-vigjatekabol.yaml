@@ -1,0 +1,32 @@
+---
+audios:
+  - id: harom-dal-shakespeare-ahogy-tetszik-cimue-vigjatekabol-1
+    description: Amiens dala / Das Lied des Amiens
+  - id: harom-dal-shakespeare-ahogy-tetszik-cimue-vigjatekabol-2
+    description: Dal / Lied
+category: voice_piano
+composition_date: 1937
+date: 2021-03-14
+description: 3 songs for voice and piano
+duration: 330
+id: harom-dal-shakespeare-ahogy-tetszik-cimue-vigjatekabol
+movements:
+  - title: Amiens dala / Das Lied des Amiens
+  - title: Dal / Lied 
+  - title: Dal / Lied
+publications:
+  - publisher_id: emb
+    type: Selected songs
+rework_of: as-you-like-it
+texts:
+  hu: in hungarian, translated by Lőrinc Szabó
+  de: German translated by Imre Ormay
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+    - de
+  translations:
+    hu: Három dal Shakespeare "Ahogy tetszik" cimü vigjátékából
+    de: Drei Lieder aus dem Lustspiel "Wie es euch gefällt" von Shakespeare
