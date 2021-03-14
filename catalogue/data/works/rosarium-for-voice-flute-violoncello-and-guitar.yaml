@@ -1,22 +1,21 @@
 ---
 audios:
-  - id: rosarium
-    description: Assumpta est
+  - id: rosarium-for-voice-flute-violoncello-and-guitar
+    description: Ave Maria
 category: voice_piano
-composition_date: 1933 - 1976
+composition_date: 1982
 date: 2021-03-14
-description: Cycle of 5 songs for voice and piano or organ
-duration: 660
-id: rosarium
+description: Cycle of 3 songs for voice, flute, violoncello and guitar
+duration: 400
+id: rosarium-for-voice-flute-violoncello-and-guitar
 movements:
   - title: Salve Regina
   - title: Ave Maria 
   - title: Laudes Mariae Virginis
-  - titre: Stabat Mater
-  - titre: Assumpta est
 publications:
   - publisher_id: spirito
     type: all
+rework_of: rosarium
 texts:
   la: in latin
 title:
