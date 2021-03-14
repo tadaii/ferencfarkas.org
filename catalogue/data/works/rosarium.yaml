@@ -1,0 +1,28 @@
+---
+audios:
+  - id: rosarium
+    description: Assumpta est
+category: voice_piano
+composition_date: 193 - 1976
+date: 2021-03-14
+description: Cycle of 5 songs for voice and piano or organ
+duration: 660
+id: rosarium
+movements:
+  - title: Salve Regina
+  - title: Ave Maria 
+  - title: Laudes Mariae Virginis
+  - titre: Stabat Mater
+  - titre: Assumpta est
+publications:
+  - publisher_id: spirito
+    type: all
+texts:
+  la: in latin
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Rosarium
