@@ -1,0 +1,22 @@
+---
+audios:
+  - id: sonnet-VII-de-Louise-Labé
+    description: Extract
+category: voice_piano
+composition_date: 1944
+date: 2021-03-14
+description: for voice and piano
+duration: 182
+id: sonnet-VII-de-Louise-Labé
+publications:
+  - publisher_id: kontrapunkt
+    type: Songs to texts by French and English poets / Dalok francia és angol költők verseire
+texts:
+  fr: in French by Louise Labé 
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Sonnet VII de Louise Labé
