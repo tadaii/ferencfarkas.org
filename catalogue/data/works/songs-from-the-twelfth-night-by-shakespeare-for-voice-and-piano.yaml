@@ -1,0 +1,28 @@
+---
+category: voice_piano
+composition_date: 1954
+date: 2021-03-14
+description: Cycle of 4 songs for voice and piano from the incidental  music to “ Twelfth night ” by W. Shakespeare 
+duration: 330
+id: songs-from-the-twelfth-night-by-shakespeare-for-voice-and-piano
+movements:
+  - title: O mistress mine / Óh drága
+  - title: Hey, Robin / Hej, Robin 
+  - title: Come away / Gyere már
+  - titre: When that I was / Amikor én még
+publications:
+  - publisher_id: kontrapunkt
+    type: Songs to texts by French and English poets / Dalok francia és angol költők verseire
+rework_of: twelfth-night
+texts:
+  en: in english by William Shakespeare
+  hu: Hungarian translation by Lőrinc Szabo
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    la: Songs from the “ Twelfth night ” by Shakespeare
+    hu: Dalok “ A vizkeresztből ” by Shakespeare
