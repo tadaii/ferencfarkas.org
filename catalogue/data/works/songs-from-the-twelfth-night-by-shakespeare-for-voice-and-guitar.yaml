@@ -1,0 +1,22 @@
+---
+category: voice_piano
+date: 2021-03-14
+description: 2 songs for voice and guitar from the incidental  music to “ Twelfth night ” by Shakespeare adapted by  Benjamin Bunch
+duration: 120
+id: songs-from-the-twelfth-night-by-shakespeare-for-voice-and-guitar
+movements:
+  - title: O mistress mine
+  - title: Hey, Robin
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: twelfth-night
+texts:
+  en: in english by William Shakespeare
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+  translations:
+    en: Songs from the “ Twelfth night ” by Shakespeare
