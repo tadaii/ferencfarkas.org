@@ -1,21 +1,21 @@
 ---
 audios:
-  - id: epithalame-for-oboe-and-organ
+  - id: epithalamium-for-oboe-and-organ
     description: Extract
 category: chamber
 composition_date: 1978
 date: 2021-03-05
 description: for oboe and organ
 duration: 180
-id: epithalame-for-oboe-and-organ
+id: epithalamium-for-oboe-and-organ
 publications:
   - publisher_id: afp
     type: all
 rework_of: epithalamium
 title:
-  main: fr
-  original: fr
+  main: la
+  original: la
   sort:
-    - fr
+    - la
   translations:
-    fr: Epithalame
+    la: Epithalamium
