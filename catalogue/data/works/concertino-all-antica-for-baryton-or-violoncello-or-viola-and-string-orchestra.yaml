@@ -18,6 +18,8 @@ movements:
 publications:
   - publisher_id: emb
     type: all
+  - publisher_id: afp
+    type: viola part
 rework_of: all-antica
 title:
   main: it
