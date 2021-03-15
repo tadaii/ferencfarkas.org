@@ -3,7 +3,7 @@ audios:
   - id: alkony
     description : Extract
 category: choir  
-date: 2021-03-12
+date: 2021-03-15
 description: for 4-part mixed choir
 duration: 120
 id: alkony
@@ -16,8 +16,8 @@ title:
   main: en
   original: hu
   sort:
-    - en
     - hu
+    - en
   translations:
-    en: Dusk
     hu: Alkony
+    en: Dusk
