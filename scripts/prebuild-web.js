@@ -160,6 +160,7 @@ const getLastUpdates = async () => {
     .sort((a, b) => a < b ? 1 : a > b ? -1 : 0)
     .reverse()[0]
 
+  console.log('> tags', tags)
   console.log('> latest git tag', latestTag)
 
   const latestRef = await git.resolveRef({ fs, dir, ref: latestTag.tag })
