@@ -18,8 +18,13 @@
     color: $c-secondary;
   }
 
-  strong {
+  strong,
+  em {
     color: $c-white;
+  }
+
+  em {
+    font-weight: 200;
   }
 
   ul {
