@@ -29,7 +29,7 @@ information for the most famous and played works.
 <br>
 {{% card highlight %}}
 
-### Your participation is welcomed!
+### Your participation is welcome!
 
 This website is open sourced on [GitHub](https://github.com/jota-one/ferencfarkas.org).
 Any input regarding missing content, technical issues, feature requests or

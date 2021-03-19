@@ -1,19 +1,78 @@
 .last-updates {
-  max-width: 95%;
-  margin-top: 2rem;
-  padding: 2rem 3rem 4rem;
+  // display: inline-block;
+  margin: 2rem 0 0 -1rem;
+  padding: 1.5rem 3rem 6rem;
   margin-bottom: -8rem;
   font-size: 1.1rem;
   background-color: $c-black;
-  color: $c-white;
+  color: $c-gray-light;
   clip-path: polygon(
-    0 1rem,
+    0 0.5rem,
     calc(100% - 0.5rem) 0,
     100% 100%,
     0 100%,
   );
 
-  @media screen and (min-width: 940px) {
-    max-width: 75%;
+  h3 {
+    font-size: 1.5rem;
+    color: $c-secondary;
+  }
+
+  strong {
+    color: $c-white;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: -1rem 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  li {
+    display: flex;
+    margin: 2rem 2rem 0 0;
+  }
+
+  svg {
+    width: 1.75rem;
+    height: 1.75rem;
+    margin: 0.125rem 0.5rem 0.5rem 0.25rem;
+
+    path {
+      fill: $c-primary;
+    }
+  }
+
+  &--category,
+  &--stat {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+  }
+
+  &--category {
+    .label {
+      color: $c-primary;
+    }
+  }
+
+  &--stat {
+    .label {
+      color: $c-gray-light;
+    }
+  }
+
+  .count {
+    margin: 1rem 0 1.4rem;
+    font-size: 2rem;
+    line-height: 0;
+    color: $c-gray-light;
+  }
+
+  .label {
+    font-size: 0.9rem;
+    font-weight: 400;
   }
 }

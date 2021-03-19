@@ -9,21 +9,51 @@
 <div class="last-updates">
   <h3>Last updates</h3>
   <p>
-    The website was last updated on <strong>{{ $date }}</strong> and includes
-    {{- if gt $worksA 0 -}}
-    <strong> {{ $worksA }} new works </strong>
-    {{- end -}}
-    {{- if gt $audiosA 0 -}}
-    {{- if gt $worksA 0 -}}
-    {{- if gt $storiesA 0 -}},{{- else -}} and
-    {{- end -}}
-    {{- end -}}
-    <strong> {{ $audiosA }} new audios </strong>
-    {{- end -}}
-    {{- if gt $storiesA 0 -}}
-    {{- if and (gt $worksA 0) (gt $audiosA 0) -}} and {{- end -}}
-    <strng> {{ $storiesA }} new articles </strong>
-      {{- end -}}
-      since its previous release on <strong>{{ $since }}</strong>.
+    The website was last updated on <strong>{{ $date }} </strong>.
   </p>
+  <!--since its previous release on <strong>{{ $since }}</strong>.-->
+  <ul>
+    <li>
+      <div class="last-updates--category">
+        {{- partial "icons/feather.svg" -}}
+        <span class="label">Works</span>
+      </div>
+      <div class="last-updates--stat">
+        <span class="count">{{ $worksA }}</span>
+        <span class="label">added</span>
+      </div>
+      <div class="last-updates--stat">
+        <span class="count">{{ $worksU }}</span>
+        <span class="label">updated</span>
+      </div>
+    </li>
+    <li>
+      <div class="last-updates--category">
+        {{- partial "icons/music.svg" -}}
+        <span class="label">Audios</span>
+      </div>
+      <div class="last-updates--stat">
+        <span class="count">{{ $audiosA }}</span>
+        <span class="label">added</span>
+      </div>
+      <div class="last-updates--stat">
+        <span class="count">{{ $audiosU }}</span>
+        <span class="label">updated</span>
+      </div>
+    </li>
+    <li>
+      <div class="last-updates--category">
+        {{- partial "icons/article.svg" -}}
+        <span class="label">Stories</span>
+      </div>
+      <div class="last-updates--stat">
+        <span class="count">{{ $storiesA }}</span>
+        <span class="label">added</span>
+      </div>
+      <div class="last-updates--stat">
+        <span class="count">{{ $storiesU }}</span>
+        <span class="label">updated</span>
+      </div>
+    </li>
+  </ul>
 </div>

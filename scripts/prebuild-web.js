@@ -5,7 +5,7 @@ const yaml = require('yaml')
 const lunr = require('lunr')
 const git = require('isomorphic-git')
 const format = require('date-fns/format')
-const addWeeks = require('date-fns/addWeeks')
+const addDays = require('date-fns/addDays')
 
 const isDev = process.argv.slice(2)[0] === 'dev'
 const src = resolve(__dirname, '../catalogue')
@@ -151,13 +151,24 @@ const buildAudioMap = catalogue => {
 }
 
 const getLastUpdates = async () => {
-  const lastWeeks = isDev ? 1 : 6
-
-  console.log(`> Gathering updates for the last ${lastWeeks} week(s)...`)
-
   const dir = '.'
-  const since = addWeeks(new Date(), -lastWeeks)
-  const commits = await git.log({ fs, dir, since })
+  const tags = await git.listTags({ fs, dir })
+  const latestTag = tags.map(tag => ({
+    tag,
+    num: parseInt(tag.split('.').map(n => n.padStart(2, '0')).join(''))
+  }))
+    .sort((a, b) => a < b ? 1 : a > b ? -1 : 0)
+    .reverse()[0]
+
+  const latestRef = await git.resolveRef({ fs, dir, ref: latestTag.tag })
+  const since = isDev
+    ? addDays(new Date(), -12)
+    : new Date((await git.readCommit({ fs, dir, oid: latestRef }))
+      .commit.author.timestamp * 1000)
+
+  console.log(`> Gathering updates since ${format(since, 'yyyy-MM-dd')}...`)
+
+  const commits = (await git.log({ fs, dir, since }))
   const hashes = commits.map(c => c.oid)
 
   async function getFileStateChanges(dir, commitHash1, commitHash2) {
@@ -168,26 +179,26 @@ const getLastUpdates = async () => {
         git.TREE({ ref: commitHash1 }),
         git.TREE({ ref: commitHash2 })
       ],
-      map: async function (filepath, [head, workdir]) {
+      map: async function (filepath, [A, B]) {
         if (filepath === '.') return
-        if (await (head && head.type()) === 'tree') return
-        if (await (workdir && workdir.type()) === 'tree') return
+        if (await (A && A.type()) === 'tree') return
+        if (await (B && B.type()) === 'tree') return
 
         // generate ids
-        const headOid = await (head && head.oid())
-        const workdirOid = await (workdir && workdir.oid())
+        const Aoid = await (A && A.oid())
+        const Boid = await (B && B.oid())
 
-        if (!headOid && !workdirOid) {
+        if (!Aoid && !Boid) {
           console.log('Something weird happened:')
-          console.log({ head, workdir })
+          console.log({ A, B })
         }
 
         // determine modification type
-        const type = !headOid
+        const type = !Aoid
           ? 'D' // Deleted
-          : !workdirOid
+          : !Boid
             ? 'A' // Added
-            : headOid !== workdirOid
+            : Aoid !== Boid
               ? 'U' // Updated
               : '-' // Unchanged
 
@@ -202,7 +213,7 @@ const getLastUpdates = async () => {
 
   const lastUpdates = {
     date: format(new Date(), 'yyyy-MM-dd'),
-    since,
+    since: format(since, 'yyyy-MM-dd'),
     audios: { A: [], U: [], D: [] },
     works: { A: [], U: [], D: [] },
     stories: { A: [], U: [], D: [] },
