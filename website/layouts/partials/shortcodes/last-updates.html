@@ -1,3 +1,29 @@
+{{- $date := dateFormat "Monday, Jan 2, 2006" .lastUpdates.date -}}
+{{- $since := dateFormat "Monday, Jan 2, 2006" .lastUpdates.since -}}
+{{- $audiosA := len .lastUpdates.audios.A -}}
+{{- $audiosU := len .lastUpdates.audios.U -}}
+{{- $worksA := len .lastUpdates.works.A -}}
+{{- $worksU := len .lastUpdates.works.U -}}
+{{- $storiesA := len .lastUpdates.stories.A -}}
+{{- $storiesU := len .lastUpdates.stories.U -}}
 <div class="last-updates">
   <h3>Last updates</h3>
+  <p>
+    The website was last updated on <strong>{{ $date }}</strong> and includes
+    {{- if gt $worksA 0 -}}
+    <strong> {{ $worksA }} new works </strong>
+    {{- end -}}
+    {{- if gt $audiosA 0 -}}
+    {{- if gt $worksA 0 -}}
+    {{- if gt $storiesA 0 -}},{{- else -}} and
+    {{- end -}}
+    {{- end -}}
+    <strong> {{ $audiosA }} new audios </strong>
+    {{- end -}}
+    {{- if gt $storiesA 0 -}}
+    {{- if and (gt $worksA 0) (gt $audiosA 0) -}} and {{- end -}}
+    <strng> {{ $storiesA }} new articles </strong>
+      {{- end -}}
+      since its previous release on <strong>{{ $since }}</strong>.
+  </p>
 </div>

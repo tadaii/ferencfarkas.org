@@ -1,0 +1,19 @@
+.last-updates {
+  max-width: 95%;
+  margin-top: 2rem;
+  padding: 2rem 3rem 4rem;
+  margin-bottom: -8rem;
+  font-size: 1.1rem;
+  background-color: $c-black;
+  color: $c-white;
+  clip-path: polygon(
+    0 1rem,
+    calc(100% - 0.5rem) 0,
+    100% 100%,
+    0 100%,
+  );
+
+  @media screen and (min-width: 940px) {
+    max-width: 75%;
+  }
+}

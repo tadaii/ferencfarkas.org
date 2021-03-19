@@ -39,9 +39,11 @@ collaboration is very appreciated!
 {{< more "/contact" "Use our contact form" >}}
 
 {{% /card %}}
-
 {{% /column %}}
 {{% /row %}}
+
+{{% last-updates %}}
+
 {{% /section %}}
 
 {{% section focus %}}
