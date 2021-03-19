@@ -1,5 +1,5 @@
 [build]
-    command = "npm run prebuild -- dev && npm run webapp:build && cd ./website && hugo -b $URL"
+    command = "npm run prebuild && npm run webapp:build && cd ./website && hugo -b $URL"
     publish = "website/public"
     functions = "website/assets/lambda"
 
