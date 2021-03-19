@@ -38,7 +38,7 @@
   svg {
     width: 1.75rem;
     height: 1.75rem;
-    margin: 0.125rem 0.5rem 0.5rem 0.25rem;
+    margin: 0.125rem 0.5rem 0.5rem 0.5rem;
 
     path {
       fill: $c-primary;
@@ -53,6 +53,10 @@
   }
 
   &--category {
+    padding-right: 0.5rem;
+    margin-right: 0.75rem;
+    border-right: 1px solid $c-gray-darker;
+
     .label {
       color: $c-primary;
     }

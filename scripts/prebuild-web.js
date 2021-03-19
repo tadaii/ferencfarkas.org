@@ -233,26 +233,38 @@ const getLastUpdates = async () => {
     const changes = (await getFileStateChanges(dir, hash, prevHash))
 
     for (const change of changes) {
-      let list
+      let cat
 
       if (change.filepath.startsWith('catalogue/data/works/')) {
-        list = lastUpdates.works[change.type]
+        cat = 'works'
       } else if (change.filepath.startsWith('catalogue/data/audio/')) {
-        list = lastUpdates.audios[change.type]
+        cat = 'audios'
       } else if (change.filepath.startsWith('website/content/work/')) {
-        list = lastUpdates.stories[change.type]
+        cat = 'stories'
       } else if (change.filepath.startsWith('website/content/')) {
-        list = lastUpdates.pages[change.type]
+        cat = 'pages'
       }
 
-      if (!list) {
+      if (!cat) {
         continue
       }
+
+      list = lastUpdates[cat][change.type]
 
       if (!list.includes(change.filepath)) {
         list.push(change.filepath)
       }
     }
+  }
+
+  // cleanup: remove files from U array if present in A array
+  for (const cat of Object.keys(lastUpdates)) {
+    if (['date', 'since'].includes(cat)) {
+      continue
+    }
+
+    lastUpdates[cat].U = lastUpdates[cat].U
+      .filter(file => !lastUpdates[cat].A.includes(file))
   }
 
   console.log('> last updates', lastUpdates)
