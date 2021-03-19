@@ -1,6 +1,6 @@
 ---
 category: voice_piano
-date: 2021-03-13
+date: 2021-03-19
 dedication: “ Altatódal ” is dedicated to my son András for his first birthday
 description: Cycle of 12 songs for voice and guitar adaptated by Ferenc Fodor 
 duration: 1020
@@ -22,6 +22,10 @@ publications:
   - publisher_id: afp
     type: all
 rework_of: fruit-basket
+texts:
+  hu: in hungarian by Sándor Weöres
+  de: German translated by Johannes Kretzschmar and Heinz Kahlau
+  fr: French translated by Mario Bois and Roger Bornet
 title:
   main: en
   original: hu

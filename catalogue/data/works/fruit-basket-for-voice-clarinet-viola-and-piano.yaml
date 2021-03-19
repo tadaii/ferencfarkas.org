@@ -4,7 +4,7 @@ audios:
     description: Gáspár / Kaspar / Bastide
 category: voice_piano
 composition_date: 1972
-date: 2021-03-13
+date: 2021-03-19
 dedication: to Sylvia Schwarzenbach
 description: Cycle of 12 songs for voice, clarinet, viola and piano
 duration: 1020
@@ -26,6 +26,10 @@ publications:
   - publisher_id: emb
     type: all
 rework_of: fruit-basket
+texts:
+  hu: in hungarian by Sándor Weöres
+  de: German translated by Johannes Kretzschmar and Heinz Kahlau
+  fr: French translated by Mario Bois and Roger Bornet
 title:
   main: en
   original: en
