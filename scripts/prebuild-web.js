@@ -202,6 +202,7 @@ const getLastUpdates = async () => {
 
   const lastUpdates = {
     date: format(new Date(), 'yyyy-MM-dd'),
+    since,
     audios: { A: [], U: [], D: [] },
     works: { A: [], U: [], D: [] },
     stories: { A: [], U: [], D: [] },
