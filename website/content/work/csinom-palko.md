@@ -1,6 +1,6 @@
 ---
 title: "Csinom Palko"
-date: 2019-11-09
+date: 2020-03-20
 menu:
   main:
     parent: 'work'

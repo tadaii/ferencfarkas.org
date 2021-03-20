@@ -81,19 +81,19 @@ section .container li a,
   will-change: background-color;
   transition: background-color .2s ease;
 
-  .highlight & {
+  section.highlight & {
     border-bottom-color: $c-section-highlight-txt;
   }
 
-  .focus & {
+  section.focus & {
     border-bottom-color: $c-section-focus-txt;
   }
 
-  .invert & {
+  section.invert & {
     border-bottom-color: $c-section-invert-txt;
   }
 
-  .black & {
+  section.black & {
     border-bottom-color: $c-section-black-txt;
   }
 
@@ -101,7 +101,7 @@ section .container li a,
     border-color: rgba(0,0,0, .1);
     background-color: rgba(0,0,0, .1);
 
-    .black & {
+    section.black & {
       border-color: rgba(255,255,255, .2);
       background-color: rgba(255,255,255, .2);
     }
