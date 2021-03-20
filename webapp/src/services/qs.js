@@ -20,13 +20,13 @@ export function sync(state) {
   window.history.replaceState(state, '', `${window.location.pathname}${url}`)
 }
 
-export function load() {
+export function load(workId) {
   const params = parse(window.location.search)
   return {
     activeFacets: (params.f && [].concat(params.f)) || defaultState.activeFacets,
     page: params.p || defaultState.page,
-    query: params.q || defaultState.query,
-    reworksOf: params.r || defaultState.reworksOf,
+    query: workId ? `id:${workId}` : params.q || defaultState.query,
+    reworksOf: workId || params.r || defaultState.reworksOf,
     showID: params.showID || defaultState.showID,
     sort: params.s?.split('.').reduce((obj, part, i) => {
       if (i === 0) {
@@ -61,8 +61,8 @@ function parse(queryString) {
 
 function stringify(obj) {
   const qs = Object.entries(obj)
-    .filter(([ _, value ]) => value)
-    .reduce((stringified, [ key, value ]) => {
+    .filter(([_, value]) => value)
+    .reduce((stringified, [key, value]) => {
       if (Array.isArray(value) && value.length) {
         stringified.push(`${key}=${value.join(',')}`)
       } else if (typeof value === 'string' && value !== '') {
@@ -74,5 +74,5 @@ function stringify(obj) {
       return stringified
     }, []).join('&')
 
-    return qs && `?${qs}`
+  return qs && `?${qs}`
 }

@@ -1,8 +1,9 @@
 <script>
   import { createEventDispatcher, onMount } from 'svelte'
-  import WorkFields from "./WorkFields.svelte"
+  import WorkFields from './WorkFields.svelte'
 
   export let categories = {}
+  export let embedded = false
   export let fields = []
   export let i18n = {}
   export let index = -1
@@ -28,7 +29,7 @@
 
   function toggleRework() {
     clicked = !reworkActive
-    dispatch('showReworks', work.rework || work.id )
+    dispatch('showReworks', work.rework || work.id)
   }
 </script>
 
@@ -37,14 +38,16 @@
   id={work.id}
   data-index={reworked ? '' : reworkActive ? index : index + 1}
 >
-  {#if reworked}
+  {#if !embedded && reworked}
     <div class="work--rework-info">
       <p>
         You are seeing the list of works that have been reworked based on
         <strong>{title}</strong>.
-        <br>
-        You can go <button class="link back" on:click|preventDefault={toggleRework}>back to the previous list</button> by
-        clicking ony any of the "Rework" / "Reworked" buttons.
+        <br />
+        You can go
+        <button class="link back" on:click|preventDefault={toggleRework}
+          >back to the previous list</button
+        > by clicking ony any of the "Rework" / "Reworked" buttons.
       </p>
     </div>
   {/if}
@@ -56,12 +59,13 @@
     class:selected
     on:click={toggleFields}
   >
-
     <!-- Work ID -->
     {#if showID && work.id}
-      <button class="work--id" on:click|stopPropagation={e =>
-        navigator.clipboard.writeText(e.target.textContent)
-      }>
+      <button
+        class="work--id"
+        on:click|stopPropagation={e =>
+          navigator.clipboard.writeText(e.target.textContent)}
+      >
         {work.id}
       </button>
     {/if}
@@ -72,8 +76,7 @@
         class="tag"
         disabled={reworkActive}
         on:click|stopPropagation|preventDefault={() =>
-          dispatch('selectCategory', work.category)
-        }
+          dispatch('selectCategory', work.category)}
       >
         {categories[work.category].tag}
       </button>
@@ -82,7 +85,7 @@
     <!-- Rework -->
     {#if work.rework}
       <button
-        class="tag border rework{isRework ? '' : 'ed'}"
+        class="tag rework{isRework ? '' : 'ed border'}"
         class:active={reworkActive}
         on:click|stopPropagation|preventDefault={toggleRework}
       >
@@ -112,8 +115,7 @@
             {work.title.sort
               .filter(lang => lang !== work.title.main)
               .map(lang => work.title.translations[lang])
-              .join(' / ')
-            }
+              .join(' / ')}
           </div>
         {/if}
       </h3>
@@ -138,7 +140,7 @@
 
     <!-- Fields -->
     {#if fields.length}
-    <WorkFields {work} {fields} {i18n} {publishers} />
+      <WorkFields {work} {fields} {i18n} {publishers} />
     {/if}
 
     {#if work.versions}
@@ -160,9 +162,7 @@
     {#if work.story || work.audios}
       <div class="work--multimedia">
         {#if work.story}
-          <a class="link work--story" href={work.story}>
-            About the work
-          </a>
+          <a class="link work--story" href={work.story}> About the work </a>
         {/if}
         {#if work.audios}
           {#each work.audios as audio}
@@ -171,12 +171,14 @@
               data-audio={audio.id}
               data-title={audio.description}
               on:click|preventDefault={event => {
-                window.dispatchEvent(new window.CustomEvent('play', {
-                  detail: { target: event.target, audio: audio.id }
-                }))
+                window.dispatchEvent(
+                  new window.CustomEvent('play', {
+                    detail: { target: event.target, audio: audio.id },
+                  })
+                )
               }}
             >
-              <div class="play--button"></div>
+              <div class="play--button" />
               <div class="play--meta">
                 <h5>{audio.description}</h5>
               </div>
@@ -187,8 +189,6 @@
     {/if}
   </div>
   {#if reworked}
-  <div class="work--rework-label">
-    Reworks
-  </div>
+    <div class="work--rework-label">Reworks</div>
   {/if}
 </li>
