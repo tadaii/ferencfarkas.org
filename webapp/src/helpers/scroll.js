@@ -1,5 +1,3 @@
-import { invalid_attribute_name_character } from "svelte/internal"
-
 let refine, inner, list
 
 export function initScrollBehaviors(app) {
@@ -40,7 +38,7 @@ export function scrollToTop(works) {
     const interval = window.setInterval(() => {
       if (list.children.length === works.length) {
         window.clearInterval(interval)
-        list.scrollIntoView()
+        list.parentNode.scrollIntoView({ behavior: "smooth" })
       }
     }, 10)
   }

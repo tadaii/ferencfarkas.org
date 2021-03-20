@@ -161,7 +161,7 @@
     <!-- Multimedia -->
     {#if work.story || work.audios}
       <div class="work--multimedia">
-        {#if work.story}
+        {#if work.story && !embedded}
           <a class="link work--story" href={work.story}> About the work </a>
         {/if}
         {#if work.audios}

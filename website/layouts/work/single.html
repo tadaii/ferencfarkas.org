@@ -2,5 +2,8 @@
 <article class="work">
   {{ partial "components/hero.html" . }}
   {{ .Content }}
+  <div class="container footer">
+    {{- partial "shortcodes/more" (dict "href" "/work" "text" "Catalogue of works") -}}
+  </div>
 </article>
 {{ end }}

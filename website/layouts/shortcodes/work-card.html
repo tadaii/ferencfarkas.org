@@ -49,9 +49,12 @@
   </div>
   {{- end -}}
 
-  {{- if $storyRef -}}
-  {{- partial "shortcodes/more" (dict "href" $storyRef "text" "About the work") -}}
-  {{- else -}}
-  {{- partial "shortcodes/more" (dict "href" (printf "%s%s" "/work?q=id:" $id) "text" "More details") -}}
-  {{- end -}}
+  <div class="work-card--link">
+    <!-- <div class="spacer"></div> -->
+    {{- if $storyRef -}}
+    {{- partial "shortcodes/more" (dict "href" $storyRef "text" "About the work") -}}
+    {{- else -}}
+    {{- partial "shortcodes/more" (dict "href" (printf "%s%s" "/work?q=id:" $id) "text" "More details") -}}
+    {{- end -}}
+  </div>
 </div>

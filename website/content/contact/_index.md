@@ -55,14 +55,15 @@ menu:
 {{% column  size="2" %}}
 <br>
 
-### AFPublishing publications, private CD’s and live recordings
+### AFPublishing
+#### Publications, private CD’s and live recordings
 **Andràs Farkas**
 <br>
 Chemin des Bouvreuils 12
 <br>
 1009 Pully, Switzerland
 <br>
-P 0041 21 728 47 27
+{{< icon "phone" >}} +41 21 728 47 27
 
 {{% /column %}}
 {{% /section %}}

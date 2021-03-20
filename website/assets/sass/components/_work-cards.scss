@@ -97,10 +97,11 @@
     font-weight: 300;
   }
 
-  .more {
+  &--link {
+    display: flex;
     position: absolute;
     bottom: 1rem;
-    right: 2.5rem;
+    left: calc(100% - 11rem);
     font-size: 1.1rem;
   }
 }

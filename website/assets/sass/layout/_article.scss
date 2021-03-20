@@ -17,9 +17,27 @@ article {
   }
 
   &.work {
+    .hero {
+      margin-bottom: 4rem;
+
+      h1 span {
+        font-size: 1.5rem;
+      }
+    }
+
     h2 {
-      margin-top: 5rem;
       font-size: 2rem;
+    }
+
+    .footer {
+      position: relative;
+      padding-top: 2rem;
+      margin: -6rem auto 6rem;
+
+      .more {
+        position: absolute;
+        left: calc(100% - 16rem);
+      }
     }
   }
 }

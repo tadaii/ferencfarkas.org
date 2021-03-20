@@ -56,6 +56,10 @@ h2 + h3 {
   margin-top: -1.5rem;
 }
 
+h3 + h4 {
+  margin-top: -1rem;
+}
+
 hr {
   border: none;
   border-bottom: 1px solid $c-gray-lighter;
@@ -295,4 +299,9 @@ article > .container {
       transform: rotate(-90deg);
     }
   }
+}
+
+.icon {
+  margin: 0.25rem 0.5rem -0.35rem 0;
+  padding: 0.125rem;
 }

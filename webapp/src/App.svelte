@@ -22,7 +22,7 @@
   $: renderedResults = results
   $: scrollToTop(results)
   $: {
-    if (mounted && index) {
+    if (mounted && index && !embedded) {
       syncQS(state)
       initScrollBehaviors(app)
     } else {
@@ -51,18 +51,24 @@
 
   async function loadData() {
     const responses = {}
+
     await Promise.all(
-      Object.entries(endpoints).map(([key, url]) =>
-        fetch(url)
-          .then(res => res.json())
-          .then(data => {
-            responses[key] = data
-          })
-      )
+      Object.entries(endpoints)
+        .filter(([key]) => (embedded ? key !== 'index' : true))
+        .map(([key, url]) =>
+          fetch(url)
+            .then(res => res.json())
+            .then(data => {
+              responses[key] = data
+            })
+        )
     )
 
     works = setFacets(responses.catalogue.works)
-    index = lunr.Index.load(responses.index)
+
+    if (responses.index) {
+      index = lunr.Index.load(responses.index)
+    }
 
     return responses
   }
@@ -121,7 +127,12 @@
   }
 </script>
 
-<form class="catalogue search" bind:this={app} on:submit|preventDefault>
+<form
+  class="catalogue search"
+  class:embedded
+  bind:this={app}
+  on:submit|preventDefault
+>
   <div class="works">
     {#await loadData()}
       <p>Loading catalogue data...</p>
