@@ -1,8 +1,9 @@
 /data/works.json
 /data/lastUpdates.json
-/public
 /functions
+/public
 /resources
 /static/_catalogue/**
 /static/audio/**
+/static/js/catalogue.js*
 !.git**
