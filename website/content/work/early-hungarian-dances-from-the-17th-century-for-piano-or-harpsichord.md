@@ -39,18 +39,3 @@ This suite of dances and its 17 adaptations have since acquired worldwide fame.
 {{% /column %}}
 {{% /row %}}
 {{% /section %}}
-{{% section invert %}}
-## The plot
-
-{{% row %}}
-{{% column %}}
-
-
-{{% /column %}}
-{{% column %}}
-
-
-
-{{% /column %}}
-{{% /row %}}
-{{% /section %}}
