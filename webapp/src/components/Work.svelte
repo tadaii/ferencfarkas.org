@@ -36,7 +36,7 @@
 <li
   class="work"
   id={work.id}
-  data-index={reworked ? '' : reworkActive ? index : index + 1}
+  data-index={reworked || embedded ? '' : reworkActive ? index : index + 1}
 >
   {#if !embedded && reworked}
     <div class="work--rework-info">
@@ -45,7 +45,7 @@
         <strong>{title}</strong>.
         <br />
         You can go
-        <button class="link back" on:click|preventDefault={toggleRework}
+        <button class="link back" on:click|stopPropagation={toggleRework}
           >back to the previous list</button
         > by clicking ony any of the "Rework" / "Reworked" buttons.
       </p>
@@ -57,7 +57,7 @@
     class:open
     class:black={reworked}
     class:selected
-    on:click={toggleFields}
+    on:click|stopPropagation={toggleFields}
   >
     <!-- Work ID -->
     {#if showID && work.id}
@@ -75,7 +75,7 @@
       <button
         class="tag"
         disabled={reworkActive}
-        on:click|stopPropagation|preventDefault={() =>
+        on:click|stopPropagation={() =>
           dispatch('selectCategory', work.category)}
       >
         {categories[work.category].tag}
@@ -87,7 +87,7 @@
       <button
         class="tag rework{isRework ? '' : 'ed border'}"
         class:active={reworkActive}
-        on:click|stopPropagation|preventDefault={toggleRework}
+        on:click|stopPropagation={toggleRework}
       >
         {#if reworked}
           Reworked
@@ -170,7 +170,7 @@
               class="play small"
               data-audio={audio.id}
               data-title={audio.description}
-              on:click|preventDefault={event => {
+              on:click|stopPropagation={event => {
                 window.dispatchEvent(
                   new window.CustomEvent('play', {
                     detail: { target: event.target, audio: audio.id },

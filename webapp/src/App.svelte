@@ -78,7 +78,7 @@
 
     if (reworksOf) {
       results = works
-        .filter(work => work.rework === reworksOf)
+        .filter(work => work.id === reworksOf || work.rework === reworksOf)
         .sort((a, b) => (a.id === reworksOf ? -1 : 1))
     } else {
       results = handleQuery({ works, index, query })

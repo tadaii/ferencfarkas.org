@@ -2,6 +2,7 @@
 title: "Piroschka"
 subTitle: "Musical comedy in 2 acts and 7 scenes based on a subject by Hugo Hartung"
 date: 2019-12-17
+draft: true
 menu:
   main:
     parent: 'work'

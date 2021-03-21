@@ -6,7 +6,7 @@
   var audios
 
   var header = {
-    init () {
+    init() {
       var ham = document.querySelector('.nav--hamburger')
       var nav = document.querySelector('header nav')
 
@@ -21,7 +21,7 @@
   }
 
   var footer = {
-    init () {
+    init() {
       var ls = document.querySelector('section:last-of-type')
       var sc
 
@@ -58,7 +58,7 @@
   }
 
   var audioPlayer = {
-    init () {
+    init() {
       var libLoaded = window.setInterval(function () {
         if (window.WaveSurfer) {
           window.clearInterval(libLoaded)
@@ -71,7 +71,8 @@
             responsive: true,
             barWidth: 2,
             height: 40,
-            barHeight: 2
+            barHeight: 2,
+            normalize: true
           })
 
           wavesurfer.on('loading', function (percent) {
@@ -145,7 +146,7 @@
 
       window.addEventListener('play', function (event) {
         var target = event.detail.target === playerPlay
-          ? document.querySelector('.play[data-audio="' + playing +'"]')
+          ? document.querySelector('.play[data-audio="' + playing + '"]')
           : event.detail.target
 
         var audio = event.detail.audio || playing
@@ -185,7 +186,7 @@
   var slider = {
     init() {
       var sliders = document.querySelectorAll('.slider')
-      sliders.forEach(function(slider) {
+      sliders.forEach(function (slider) {
         var toggle = slider.querySelector('.slider--fullscreen-toggle')
         var section = slider
         var i = 0;
@@ -195,7 +196,7 @@
           i++
         }
 
-        toggle.addEventListener('click', function() {
+        toggle.addEventListener('click', function () {
           slider.classList.toggle('fullscreen')
           section.classList.toggle('fullscreen-slider')
           document.body.classList.toggle('blocked')

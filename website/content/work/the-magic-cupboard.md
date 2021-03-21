@@ -5,7 +5,7 @@ date: 2021-13-20
 menu:
   main:
     parent: 'work'
-    weight: 100
+    weight: 110
 ---
 
 {{% section highlight %}}

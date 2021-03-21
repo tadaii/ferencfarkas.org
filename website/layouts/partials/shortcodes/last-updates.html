@@ -20,11 +20,23 @@
         <span class="label">Works</span>
       </div>
       <div class="last-updates--stat">
-        <span class="count">{{ $worksA }}</span>
+        <span class="count">
+          {{- if eq $worksA 0 -}}
+          -
+          {{- else -}}
+          {{ $worksA }}
+          {{- end -}}
+        </span>
         <span class="label">added</span>
       </div>
       <div class="last-updates--stat">
-        <span class="count">{{ $worksU }}</span>
+        <span class="count">
+          {{- if eq $worksU 0 -}}
+          -
+          {{- else -}}
+          {{ $worksU }}
+          {{- end -}}
+        </span>
         <span class="label">updated</span>
       </div>
     </li>
@@ -34,11 +46,23 @@
         <span class="label">Audios</span>
       </div>
       <div class="last-updates--stat">
-        <span class="count">{{ $audiosA }}</span>
+        <span class="count">
+          {{- if eq $audiosA 0 -}}
+          -
+          {{- else -}}
+          {{ $audiosA }}
+          {{- end -}}
+        </span>
         <span class="label">added</span>
       </div>
       <div class="last-updates--stat">
-        <span class="count">{{ $audiosU }}</span>
+        <span class="count">
+          {{- if eq $audiosU 0 -}}
+          -
+          {{- else -}}
+          {{ $audiosU }}
+          {{- end -}}
+        </span>
         <span class="label">updated</span>
       </div>
     </li>
@@ -48,11 +72,23 @@
         <span class="label">Stories</span>
       </div>
       <div class="last-updates--stat">
-        <span class="count">{{ $storiesA }}</span>
+        <span class="count">
+          {{- if eq $storiesA 0 -}}
+          -
+          {{- else -}}
+          {{ $storiesA }}
+          {{- end -}}
+        </span>
         <span class="label">added</span>
       </div>
       <div class="last-updates--stat">
-        <span class="count">{{ $storiesU }}</span>
+        <span class="count">
+          {{- if eq $storiesU 0 -}}
+          -
+          {{- else -}}
+          {{ $storiesU }}
+          {{- end -}}
+        </span>
         <span class="label">updated</span>
       </div>
     </li>
