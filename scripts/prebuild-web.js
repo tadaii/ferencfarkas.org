@@ -6,6 +6,7 @@ const lunr = require('lunr')
 const git = require('isomorphic-git')
 const format = require('date-fns/format')
 const addDays = require('date-fns/addDays')
+const fm = require('front-matter')
 
 const isDev = process.argv.slice(2)[0] === 'dev'
 const src = resolve(__dirname, '../catalogue')
@@ -45,10 +46,17 @@ const getWorks = async ({ dir, genres, categories }) => {
     }
 
     work.genre = categories[work.category].genre
-    const hasStory = await fs.pathExists(`./website/content/work/${work.id}.md`)
+    const storyFile = `./website/content/work/${work.id}.md`
+    const hasStory = await fs.pathExists(storyFile)
 
     if (hasStory) {
-      work.story = `/work/${work.id}`
+      const data = await fs.readFile(storyFile, 'utf8')
+      const content = fm(data)
+      const isDraft = content.attributes.draft
+
+      if (!isDraft) {
+        work.story = `/work/${work.id}`
+      }
     }
 
     works.push(work)
