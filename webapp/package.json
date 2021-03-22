@@ -4,6 +4,6 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "drosse serve"
+    "_start": "sirv ../website/static/js"
   }
 }
