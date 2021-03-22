@@ -126,6 +126,13 @@
       }
     },
 
+    closePlayer() {
+      this.wavesurfer.stop()
+      this.player.classList.remove('open')
+      this.resetPlayButtons()
+      this.playing = null
+    },
+
     init() {
       var libLoaded = window.setInterval((function () {
         if (window.WaveSurfer) {
@@ -194,10 +201,18 @@
         }
       }).bind(this))
 
+      window.addEventListener('keydown', (function (event) {
+        if (!this.playing) {
+          return
+        }
+
+        if (event.key === 'Escape') {
+          this.closePlayer()
+        }
+      }).bind(this))
+
       this.close.addEventListener('click', (function (event) {
-        this.wavesurfer.stop()
-        this.player.classList.remove('open')
-        this.resetPlayButtons()
+        this.closePlayer()
       }).bind(this))
     }
   }
