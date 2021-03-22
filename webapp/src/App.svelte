@@ -196,7 +196,9 @@
     {:then data}
       <div class="row">
         <div class="column list">
-          <Sort {state} on:sort={e => (state.sort = e.detail)} />
+          {#if !embedded}
+            <Sort {state} on:sort={e => (state.sort = e.detail)} />
+          {/if}
           <ul class="works--list">
             {#each renderedResults as work, index (work.id)}
               <Work

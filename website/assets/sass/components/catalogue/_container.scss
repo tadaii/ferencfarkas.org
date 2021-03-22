@@ -7,6 +7,10 @@
     min-height: 15rem;
   }
 
+  &.embedded .list {
+    margin-top: 0;
+  }
+
   .refine,
   .refine--wrapper {
     will-change: background-color, right;
