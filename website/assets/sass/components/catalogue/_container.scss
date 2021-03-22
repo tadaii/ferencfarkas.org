@@ -7,8 +7,11 @@
     min-height: 15rem;
   }
 
-  &.embedded .list {
-    margin-top: 0;
+  &.embedded,
+  &.rework-mode {
+    .list {
+      margin-top: 0;
+    }
   }
 
   .refine,

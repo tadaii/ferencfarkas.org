@@ -27,7 +27,7 @@ menu:
 > But what I didn't know was that a first music, by Miklós Laurisin, had
 > already accompanied this ballet a few years before. So during the dress
 > rehearsal it was very uncomfortable for me to see him sitting next to me.
-> {{< author name="ferenc Farkas" >}}
+> {{< author name="Ferenc Farkas" >}}
 
 The ballet's première took place in the
 [Budapest Opera House](https://en.wikipedia.org/wiki/Hungarian_State_Opera_House)

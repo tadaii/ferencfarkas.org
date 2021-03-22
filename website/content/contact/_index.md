@@ -4,7 +4,7 @@ subTitle: "let's keep in touch!"
 refTitle: "Get in touch"
 slug: "contact"
 heroImage: /img/hero/hero11.jpg
-date: 2019-08-29T00:22:03+02:00
+date: 2021-03-21
 menu:
   main:
     parent: 'contact'
@@ -12,11 +12,10 @@ menu:
 ---
 
 {{% section invert %}}
-## Contact
 
 {{% row %}}
-{{% column size="3" %}}
-
+{{% column %}}
+## Contact
 <form name="contact" method="POST" action="/contact/thanks" data-netlify="true">
   <p>
     <label>
@@ -36,6 +35,7 @@ menu:
         <option value="material">I need material to play a work</option>
         <option value="manuscript">I need more information on Ferenc Farkas</option>
         <option value="website">I have a problem with the website</option>
+        <option value="publisher">I have infos about a publisher</option>
         <option value="other">None of the above</option>
       </select>
     </label>
@@ -52,18 +52,25 @@ menu:
 </form>
 
 {{% /column %}}
-{{% column  size="2" %}}
-<br>
+{{% column %}}
 
-### AFPublishing
-#### Publications, private CD’s and live recordings
+## AF Publishing
+<br>
+Represents the private collection of András Farkas, the son of the composer.
+It includes all the works of Ferenc Farkas that have not yet been edited.
+These works can be sent to you by e-mail in PDF format.
+
+It also contains privately-made compilation CD's of Ferenc Farkas' music,
+mostly grouped by genre or category, as well as live recordings.
+<br><br>
+### Contact
 **Andràs Farkas**
 <br>
 Chemin des Bouvreuils 12
 <br>
 1009 Pully, Switzerland
 <br>
-{{< icon "phone" >}} +41 21 728 47 27
+{{< icon "phone" >}} <a href="tel:+41217284728">+41 21 728 47 27</a>
 
 {{% /column %}}
 {{% /section %}}

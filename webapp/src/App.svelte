@@ -78,12 +78,16 @@
     let results = works
 
     if (reworksOf) {
-      results = works
-        .filter(work => work.id === reworksOf || work.rework === reworksOf)
-        .sort(a => (a.id === reworksOf ? -1 : 1))
+      results = works.filter(
+        work => work.id === reworksOf || work.rework === reworksOf
+      )
     } else {
       results = handleQuery({ works, index, query })
       results = handleFacets({ activeFacets, works: results })
+    }
+
+    if (embedded || reworksOf) {
+      return results.sort(a => (a.id === reworksOf ? -1 : 1))
     }
 
     results.sort((a, b) => {
@@ -104,7 +108,6 @@
             : state.sort.dir === 'asc'
             ? -1
             : 1
-          break
         case 'c':
           const yearA = getYear(a)
           const yearB = getYear(b)
@@ -187,6 +190,7 @@
 <form
   class="catalogue search"
   class:embedded
+  class:rework-mode={state.reworksOf}
   bind:this={app}
   on:submit|preventDefault
 >
@@ -196,7 +200,7 @@
     {:then data}
       <div class="row">
         <div class="column list">
-          {#if !embedded}
+          {#if !embedded && !state.reworksOf}
             <Sort {state} on:sort={e => (state.sort = e.detail)} />
           {/if}
           <ul class="works--list">

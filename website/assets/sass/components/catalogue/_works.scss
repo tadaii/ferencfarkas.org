@@ -368,7 +368,8 @@
   .list > .works--list > .work {
     margin: 0 1rem 2rem 0.5rem;
 
-    .embedded & {
+    .embedded &,
+    .rework-mode & {
       margin: 0 0 2rem 0;
     }
 
@@ -411,6 +412,31 @@
 
     &--title {
       padding: .125rem 1rem;
+    }
+  }
+
+  .button {
+    padding: 0.25rem 0.5rem 0.35rem;
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    text-transform: none;
+    background-color: $c-gray-darker;
+    border-radius: 0.25rem;
+    border: none;
+
+    &:hover {
+      background-color: $c-black;
+    }
+  }
+
+  .work-input {
+    padding-top: 0.25rem;
+    font-size: 0.9rem;
+    line-height: 1.1;
+
+    .button {
+      margin-top: 0.5rem;
+      display: inline-block;
     }
   }
 }

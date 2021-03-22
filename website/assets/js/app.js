@@ -208,7 +208,7 @@
       sliders.forEach(function (slider) {
         var toggle = slider.querySelector('.slider--fullscreen-toggle')
         var section = slider
-        var i = 0;
+        var i = 0
 
         while (section.tagName.toLowerCase() !== 'section' && i < 20) {
           section = section.parentNode
@@ -224,10 +224,65 @@
     }
   }
 
+  var contactForm = {
+    init() {
+      var form = document.querySelector('form[name="contact"]')
+
+      if (!form) {
+        return
+      }
+
+      var enquiry = form.querySelector('select[name="enquiry"]')
+
+      if (!enquiry) {
+        return
+      }
+
+      // Duplicated from webapp/src/services/qs.js
+      // TODO move app.js code in webapp ES6-based project
+      var qs = window.location.search
+        .split(/[\?&]/)
+        .filter(value => value)
+        .reduce(function (params, param) {
+          var kv = param.split('=')
+          var key = kv[0]
+          var value = kv[1]
+          var values = (value && value.split(',')) || true
+
+          if (values === true) {
+            params[key] = true
+          } else if (values.length === 1) {
+            params[key] = decodeURIComponent(value)
+          } else {
+            params[key] = values.map(function (value) {
+              return decodeURIComponent(value)
+            })
+          }
+
+          return params
+        }, {})
+
+      if (qs && qs.publisher && typeof qs.publisher === 'string') {
+        enquiry.querySelectorAll('option').forEach(function (option) {
+          if (option.value === 'publisher') {
+            option.selected = true
+          }
+        })
+
+        var publisherInfo = document.createElement('div')
+        publisherInfo.style.marginTop = '0.5rem';
+        publisherInfo.innerHTML = 'Publisher ID: <strong>' + qs.publisher + '</strong>'
+
+        enquiry.parentNode.appendChild(publisherInfo)
+      }
+    }
+  }
+
   header.init()
   footer.init()
   download.init()
   audioPlayer.init()
   slider.init()
+  contactForm.init()
 
 })(window)

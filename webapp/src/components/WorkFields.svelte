@@ -24,18 +24,18 @@
   ]
 
   const workFields = Object.entries(work)
-    .filter(([ key ]) => !SKIP_WORK_KEYS.includes(key))
-    .sort((a,b) => {
-        const posA = fields.indexOf(a[0])
-        const posB = fields.indexOf(b[0])
-        return posA > posB ? 1 : posA < posB ? -1 : 0
-      })
-      .map(([ key, value ]) => ({ key, value }))
+    .filter(([key]) => !SKIP_WORK_KEYS.includes(key))
+    .sort((a, b) => {
+      const posA = fields.indexOf(a[0])
+      const posB = fields.indexOf(b[0])
+      return posA > posB ? 1 : posA < posB ? -1 : 0
+    })
+    .map(([key, value]) => ({ key, value }))
 
   function formatDuration(seconds) {
     const h = Math.floor(seconds / 3600)
-    const m = Math.floor((seconds - (h * 3600)) / 60)
-    const s = Math.floor(seconds - (h * 3600) - (m * 60))
+    const m = Math.floor((seconds - h * 3600) / 60)
+    const s = Math.floor(seconds - h * 3600 - m * 60)
 
     let str = ''
 
@@ -47,14 +47,14 @@
   }
 
   function formatDate(date) {
-    return (new Date(date)).toLocaleString('en-GB', {
+    return new Date(date).toLocaleString('en-GB', {
       year: 'numeric',
       month: 'short',
-      day: 'numeric'
+      day: 'numeric',
     })
   }
 
-  function getWorldPremiere({date, location}) {
+  function getWorldPremiere({ date, location }) {
     let dateLocation = []
 
     if (date) {
@@ -79,7 +79,7 @@
       <dd>
         {#if key === 'cast'}
           <ul>
-            {#each value as {  role, voice }}
+            {#each value as { role, voice }}
               <li>
                 {role} - <span>{voice}</span>
               </li>
@@ -100,9 +100,9 @@
                 <span class="movement--pos">{index + 1})</span>
                 <span class="movement--title">{movement.title}</span>
                 {#if movement.duration}
-                <span class="movement--duration">
-                  {formatDuration(movement.duration)}
-                </span>
+                  <span class="movement--duration">
+                    {formatDuration(movement.duration)}
+                  </span>
                 {/if}
               </li>
             {/each}
@@ -114,9 +114,31 @@
                 {#if publisher.type !== 'all'}
                   <span>{publisher.type}:</span>
                 {/if}
-                <a href="#" class="link">
+                {#if publishers[publisher.publisher_id].url}
+                  <a
+                    href={publishers[publisher.publisher_id].url}
+                    class="link"
+                    target="_blank"
+                  >
+                    {publishers[publisher.publisher_id].name}
+                  </a>
+                {:else}
                   {publishers[publisher.publisher_id].name}
-                </a>
+                  <div class="work-input">
+                    <div class="work-input--info">
+                      Do you have info about this publisher?
+                      <br />
+                      <a
+                        href="/contact?publisher={publisher.publisher_id}"
+                        target="_blank"
+                        class="button"
+                        on:click={e => e.stopPropagation()}
+                      >
+                        Please let us know!
+                      </a>
+                    </div>
+                  </div>
+                {/if}
               </li>
             {/each}
           </ul>
