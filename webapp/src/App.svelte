@@ -4,6 +4,7 @@
   import { setFacets, serialize } from './helpers/facets'
   import { defaultState, load as loadQS, sync as syncQS } from './services/qs'
   import { initScrollBehaviors, scrollToTop } from './helpers/scroll'
+  import Sort from './components/Sort.svelte'
   import Work from './components/Work.svelte'
   import Refine from './components/Refine.svelte'
   import Pagination from './components/Pagination.svelte'
@@ -79,11 +80,67 @@
     if (reworksOf) {
       results = works
         .filter(work => work.id === reworksOf || work.rework === reworksOf)
-        .sort((a, b) => (a.id === reworksOf ? -1 : 1))
+        .sort(a => (a.id === reworksOf ? -1 : 1))
     } else {
       results = handleQuery({ works, index, query })
       results = handleFacets({ activeFacets, works: results })
     }
+
+    results.sort((a, b) => {
+      const getDuration = work => parseInt(`${work.duration || 0}`)
+      const getYear = work =>
+        parseInt(`${work.composition_date || 1905}`.substr(0, 4))
+
+      switch (sort.field) {
+        case 'u':
+          const dateA = new Date(a.date)
+          const dateB = new Date(b.date)
+          return dateA > dateB
+            ? state.sort.dir === 'asc'
+              ? 1
+              : -1
+            : dateA === dateB
+            ? 0
+            : state.sort.dir === 'asc'
+            ? -1
+            : 1
+          break
+        case 'c':
+          const yearA = getYear(a)
+          const yearB = getYear(b)
+          return yearA > yearB
+            ? state.sort.dir === 'asc'
+              ? 1
+              : -1
+            : yearA === yearB
+            ? 0
+            : state.sort.dir === 'asc'
+            ? -1
+            : 1
+        case 't':
+          return a.title > b.title
+            ? state.sort.dir === 'asc'
+              ? -1
+              : 1
+            : a.title === b.title
+            ? 0
+            : state.sort.dir === 'asc'
+            ? 1
+            : -1
+        case 'd':
+          const durationA = getDuration(a)
+          const durationB = getDuration(b)
+          return durationA > durationB
+            ? state.sort.dir === 'asc'
+              ? 1
+              : -1
+            : durationA === durationB
+            ? 0
+            : state.sort.dir === 'asc'
+            ? -1
+            : 1
+      }
+    })
 
     return results
   }
@@ -139,8 +196,9 @@
     {:then data}
       <div class="row">
         <div class="column list">
+          <Sort {state} on:sort={e => (state.sort = e.detail)} />
           <ul class="works--list">
-            {#each renderedResults as work, index}
+            {#each renderedResults as work, index (work.id)}
               <Work
                 categories={data.catalogue.categories}
                 {embedded}

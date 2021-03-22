@@ -4,7 +4,7 @@ export const defaultState = {
   query: '', // lunr search query
   reworksOf: '', // reworks for given work id
   showID: false, // shows work ID
-  sort: { field: 'title', dir: 'asc' } // results' sort order
+  sort: { field: 't', dir: 'asc' } // results' sort order
 }
 
 export function sync(state) {
@@ -13,7 +13,7 @@ export function sync(state) {
     f: state.activeFacets,
     r: state.reworksOf,
     showID: state.showID,
-    // s: `${state.sort.field}.${state.sort.dir}`,
+    s: `${state.sort.field}.${state.sort.dir}`,
     // p: state.page
   })
 

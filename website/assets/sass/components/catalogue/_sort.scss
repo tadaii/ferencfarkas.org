@@ -1,0 +1,66 @@
+.works-sort {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  padding: 3.5rem 0 1rem;
+  margin: 0 0.25rem 1rem;
+  list-style-type: none;
+  border-bottom: 1px dashed rgba(0,0,0, 0.15);
+
+  &:before {
+    content: 'Sort by:';
+    margin: 0.05rem 0.25rem 0 0;
+    font-size: 1rem;
+    opacity: 0.75;
+  }
+
+  li {
+    display: block;
+    padding: 0.25rem 0;
+
+    &.active {
+      button:before {
+        opacity: 0.8;
+      }
+    }
+
+    &.desc {
+      button:before {
+        border-top: 0.7rem solid rgb(0,0,0);
+        border-bottom: none;
+      }
+    }
+  }
+
+  button {
+    height: 1.25rem;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0.75rem 0.5rem 0.25rem;
+    font-family: inherit;
+    font-size: 0.9rem;
+    line-height: 1;
+    text-align: left;
+    color: $c-gray-darker;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+
+    &:before {
+      content: '';
+      width: 0; 
+      height: 0;
+      margin-right: 0.35rem;
+      border-left: 0.4rem solid transparent;
+      border-right: 0.4rem solid transparent;
+      border-top: none;
+      border-bottom: 0.7rem solid rgb(0,0,0);
+      opacity: 0.3;
+    }
+  }
+}

@@ -326,9 +326,10 @@
       margin-right: .75rem;
       font-family: $f-serif;
       font-size: 1rem;
+      border: none;
 
-      &:not(:hover) {
-        border: none;
+      &:hover {
+        background-color: transparent;
       }
 
       &:before {
@@ -337,10 +338,14 @@
         display: block;
         width: 1.5rem;
         height: 1.5rem;
-        margin: .25rem .125rem .125rem;
+        margin: .25rem .5rem .125rem 0;
         background-repeat: no-repeat;
         background-size: 100%;
       }
+    }
+
+    &--story {
+      flex-basis: 100%;
     }
 
     &--story:before {

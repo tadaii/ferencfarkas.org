@@ -9,14 +9,15 @@ const addDays = require('date-fns/addDays')
 const fm = require('front-matter')
 
 const isDev = process.argv.slice(2)[0] === 'dev'
-const src = resolve(__dirname, '../catalogue')
-const dstAudioList = resolve(__dirname, '../website/static/_catalogue/a.json')
-const dstCatalogue = resolve(__dirname, '../website/static/_catalogue/c.json')
-const dstWorks = resolve(__dirname, '../website/data/works.json')
-const dstLastUpdates = resolve(__dirname, '../website/data/lastUpdates.json')
-const dstSearchIdx = resolve(__dirname, '../website/static/_catalogue/i.json')
-const dstI18nDir = resolve(__dirname, '../website/static/_catalogue/i18n')
-const dstAudioDir = resolve(__dirname, '../website/static/audio')
+const root = resolve(__dirname, '..')
+const src = resolve(root, 'catalogue')
+const dstAudioList = resolve(root, 'website/static/_catalogue/a.json')
+const dstCatalogue = resolve(root, 'website/static/_catalogue/c.json')
+const dstWorks = resolve(root, 'website/data/works.json')
+const dstLastUpdates = resolve(root, 'website/data/lastUpdates.json')
+const dstSearchIdx = resolve(root, 'website/static/_catalogue/i.json')
+const dstI18nDir = resolve(root, 'website/static/_catalogue/i18n')
+const dstAudioDir = resolve(root, 'website/static/audio')
 
 const yaml2json = async file => {
   console.log(`> Processing ${file}`)
