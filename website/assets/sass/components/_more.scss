@@ -40,7 +40,8 @@ a.more {
         fill: $c-section-invert-txt;
       }
 
-      section.black & {
+      section.black &,
+      footer & {
         fill: $c-section-black-txt;
       }
     }

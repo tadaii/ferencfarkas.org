@@ -3,35 +3,40 @@
     <div class="footer--wrapper">
       <div class="footer--menu">
         <ul>
-        {{- $currentPage := . -}}
-        {{- range .Site.Menus.main -}}
-          <li{{if $currentPage.HasMenuCurrent "main" .}} class="active"{{end}}>
+          {{- $currentPage := . -}}
+          {{- range .Site.Menus.main -}}
+          <li{{if $currentPage.HasMenuCurrent "main" .}} class="active" {{end}}>
             <span>{{ .Name }}</span>
             {{- if .HasChildren -}}
-              <ul>
+            <ul>
               {{- range first 6 .Children -}}
-                {{- $isActive := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) -}}
-                {{- if not .Page.Params.HideFromNav -}}
-                <li{{if $isActive}} class="is-selected"{{end}}>
-                  <a href="{{ .URL }}">
-                    {{ or .Page.Params.RefTitle .Name }}
-                  </a>
+              {{- $isActive := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) -}}
+              {{- if not .Page.Params.HideFromNav -}}
+              <li{{if $isActive}} class="is-selected" {{end}}>
+                <a href="{{ .URL }}">
+                  {{ or .Page.Params.RefTitle .Name }}
+                </a>
                 </li>
                 {{- end -}}
-              {{- end -}}
-              </ul>
+                {{- end -}}
+            </ul>
             {{- end -}}
-          </li>
-        {{- end -}}
+            </li>
+            {{- end -}}
         </ul>
       </div>
       <div class="footer--credits">
-        <span class="footer--copy">&copy;</span> {{ now.Format "2006" }} <em>ferencfarkas.org</em> / <span class="highlight">AFPublishing</span>
-        <p>
-          This website is maintained by
-          <br>
-          Andras Farkas and his family.
-        </p>
+        <div>
+          <span class="footer--copy">&copy;</span> {{ now.Format "2006" }} <em>ferencfarkas.org</em> / <a
+            href="/contact" class="highlight">AFPublishing</a>
+          <p>
+            This website is maintained by
+            <br>
+            Andras Farkas and his family.
+          </p>
+        </div>
+        <div class="spacer"></div>
+        {{- partial "shortcodes/more" (dict "href" "/privacy" "text" "Privacy & credits") -}}
         <div class="footer--providers">
           <a href="https://jota.one" target="_blank">
             {{- partial "icons/jota.svg" -}}

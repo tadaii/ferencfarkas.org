@@ -2,7 +2,7 @@
 title: "Ferenc Farkas"
 subTitle: "A european composer"
 heroImage: /img/hero/hero1.jpg
-date: 2019-03-17T18:18:43Z
+date: 2021-03-21
 ---
 
 {{% section %}}

@@ -180,6 +180,11 @@ blockquote {
   }
 }
 
+button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
 :disabled {
   cursor: not-allowed !important;
 }
