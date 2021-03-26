@@ -51,7 +51,7 @@
 
     &.open {
       .refine--wrapper {
-        right: 0;
+        transform: translateX(-19.5rem);
 
         &:not(.scrolled) {
           height: 100%;
@@ -92,6 +92,7 @@
     flex-direction: column;
     justify-content: flex-start;
     z-index: 2;
+    transition: transform 0.2s linear;
 
     @media screen and (min-width: 940px) {
       position: relative;

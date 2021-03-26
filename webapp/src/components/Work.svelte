@@ -1,5 +1,5 @@
 <script>
-  import { createEventDispatcher, onMount } from 'svelte'
+  import { createEventDispatcher } from 'svelte'
   import WorkFields from './WorkFields.svelte'
 
   export let categories = {}
@@ -25,6 +25,8 @@
 
   function toggleFields() {
     open = !open
+    console.log('dispatching toggle')
+    dispatch('toggle')
   }
 
   function toggleRework() {

@@ -5,22 +5,18 @@
   import { defaultState, load as loadQS, sync as syncQS } from './services/qs'
   import { initScrollBehaviors, scrollToTop } from './helpers/scroll'
   import Sort from './components/Sort.svelte'
-  import Work from './components/Work.svelte'
   import Refine from './components/Refine.svelte'
-  import Pagination from './components/Pagination.svelte'
+  import Worklist from './components/WorkList.svelte'
 
   export let workId
 
-  let app
+  let app, state
   let mounted = false // flag for query string (QS) sync
   let index = {} // lunr search index object
   let works = [] // full list of works (unfiltered)
 
-  let state
-
   $: embedded = Boolean(workId)
   $: results = filterWorks({ ...state, index, works })
-  $: renderedResults = results
   $: scrollToTop(results)
   $: {
     if (mounted && index && !embedded) {
@@ -203,25 +199,16 @@
           {#if !embedded && !state.reworksOf}
             <Sort {state} on:sort={e => (state.sort = e.detail)} />
           {/if}
-          <ul class="works--list">
-            {#each renderedResults as work, index (work.id)}
-              <Work
-                categories={data.catalogue.categories}
-                {embedded}
-                fields={data.catalogue.fields}
-                i18n={data.i18n}
-                {index}
-                publishers={data.catalogue.publishers}
-                reworkActive={Boolean(state.reworksOf)}
-                showID={state.showID}
-                {work}
-                on:selectCategory={selectCategory}
-                on:showReworks={e =>
-                  (state.reworksOf =
-                    state.reworksOf === e.detail ? '' : e.detail)}
-              />
-            {/each}
-          </ul>
+          <Worklist
+            catalogue={data.catalogue}
+            {embedded}
+            i18n={data.i18n}
+            {state}
+            works={results}
+            on:selectCategory={selectCategory}
+            on:showReworks={e =>
+              (state.reworksOf = state.reworksOf === e.detail ? '' : e.detail)}
+          />
         </div>
         {#if !embedded}
           <div class="column refine">
@@ -239,10 +226,43 @@
           </div>
         {/if}
       </div>
-      <Pagination />
     {:catch error}
       <p>Failed to initialize catalogue: <strong>{error.message}</strong>.</p>
       {console.error(error) && ''}
     {/await}
   </div>
 </form>
+
+<style>
+  .item {
+    width: 250px;
+    opacity: 1;
+  }
+  .item .thumbnail {
+    max-height: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  .item .thumbnail img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  .item .info {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #777;
+  }
+  .item.animate {
+    transition: opacity ease 1s;
+    transition-delay: 0.2s;
+    opacity: 1;
+  }
+  .loading {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+  }
+</style>

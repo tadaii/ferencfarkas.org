@@ -25,6 +25,7 @@
     position: relative;
     margin: 0 1rem;
     cursor: pointer;
+    width: calc(100% - 1.5rem);
 
     .black & {
       border-bottom-color: rgba(255,255,255, .2);
