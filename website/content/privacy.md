@@ -38,8 +38,7 @@ users' behaviour and optimize the way we build our pages.
 The data we collect are publilc and can be seen on our
 [Plausible dashboard](https://plausible.io/ferencfarkas.org).
 
-Please refer to [Plausible data privacy document](https://plausible.io/data-policy)
-for further information.
+Please refer to [Plausible data privacy document](https://plausible.io/data-policy) for further information.
 
 ## Hosting
 
@@ -49,9 +48,9 @@ This website's source code is publicly hosted on
 [Jota](https://jota.one).
 
 ### Participation
-Your participation to the content or the programming code of this website is
+Your participation to the content or the suorce code of this website is
 welcome. This is doable in the following ways:
-- Submit Pull request on GitHub for code or content update
+- Submit a pull request on GitHub for code or content update
 - Create [an issue on GitHub](https://github.com/jota-one/ferencfarkas.org/issues)
 - Contact us via [the contact form]({{< ref "contact/_index.md" >}})
 
