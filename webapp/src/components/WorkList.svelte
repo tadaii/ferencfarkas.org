@@ -14,6 +14,7 @@
   let container
 
   $: updateWorks(fullList, filteredList)
+  $: reworkTitle = getReworkTitle(state.reworksOf)
 
   function updateWorks(fullList, filteredList) {
     const list = works.length ? works : [...fullList]
@@ -102,17 +103,26 @@
     if (caller.classList.contains('work--detail-toogle')) {
     }
   }
+
+  function getReworkTitle(reworksOf) {
+    if (!reworksOf) {
+      return
+    }
+
+    const work = works.find(work => work.id === reworksOf)
+    return work.title?.translations[work.title?.main]
+  }
 </script>
 
 <div class="works--rework-info" class:visible={state.reworksOf}>
   <p>
     You are seeing the list of works that have been reworked based on
-    <strong>TITLE</strong>.
+    <strong>{reworkTitle}</strong>.
     <br />
     You can go
     <button
       class="link back"
-      on:click|stopPropagation={dispatch('toggleReworks')}
+      on:click|stopPropagation={dispatch('toggleReworks', state.reworksOf)}
       >back to the previous list</button
     > by clicking ony any of the "Rework" / "Reworked" buttons.
   </p>

@@ -199,8 +199,6 @@
           {/if}
           <WorkList
             catalogue={data.catalogue}
-            {embedded}
-            i18n={data.i18n}
             fullList={works}
             filteredList={results}
             {state}
