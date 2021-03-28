@@ -2,21 +2,16 @@ a.more {
   display: inline-block;
   padding-bottom: .5rem;
   font-weight: bolder;
-
-  .container p & {
-    border: none;
-
-    &:hover {
-      background: none;
-    }
-  }
+  border: none;
 
   &:hover {
+    background: none;
+
     svg {
       margin-left: 0.75rem;
     }
   }
-
+  
   svg {
     margin: 0.1rem 0 0 .5rem;
     vertical-align: middle;

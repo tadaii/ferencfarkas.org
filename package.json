@@ -9,7 +9,7 @@
     "prebuild": "node ./scripts/prebuild-web",
     "webapp:serve": "cd webapp && npm run dev",
     "webapp:build": "cd webapp && npm run build && cd ..",
-    "website:serve": "npm run prebuild -- dev && cd ./website && hugo server --noHTTPCache --ignoreCache",
+    "website:serve": "npm run prebuild -- dev && cd ./website && hugo server",
     "catalogue:pdf": "node ./catalogue/pdf-generator/index.js"
   },
   "dependencies": {

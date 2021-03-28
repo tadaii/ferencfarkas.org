@@ -34,12 +34,11 @@ function stickRefinePanel() {
 }
 
 export function scrollToTop(works) {
-  if (list) {
-    const interval = window.setInterval(() => {
-      if (list.children.length === works.length) {
-        window.clearInterval(interval)
-        list.parentNode.scrollIntoView({ behavior: "smooth" })
-      }
-    }, 10)
+  if (!list) {
+    return
   }
+
+  window.setTimeout(() => {
+    list.parentNode.scrollIntoView({ behavior: "smooth" })
+  }, 100)
 }

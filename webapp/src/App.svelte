@@ -5,7 +5,7 @@
   import { defaultState, load as loadQS, sync as syncQS } from './services/qs'
   import { initScrollBehaviors, scrollToTop } from './helpers/scroll'
   import Sort from './components/Sort.svelte'
-  import Work from './components/Work.svelte'
+  import WorkList from './components/WorkList.svelte'
   import Refine from './components/Refine.svelte'
   import Pagination from './components/Pagination.svelte'
 
@@ -15,12 +15,10 @@
   let mounted = false // flag for query string (QS) sync
   let index = {} // lunr search index object
   let works = [] // full list of works (unfiltered)
-
   let state
 
   $: embedded = Boolean(workId)
   $: results = filterWorks({ ...state, index, works })
-  $: renderedResults = results
   $: scrollToTop(results)
   $: {
     if (mounted && index && !embedded) {
@@ -170,10 +168,6 @@
       : works
   }
 
-  function selectCategory(event) {
-    refine({ detail: serialize('c', event.detail) })
-  }
-
   function refine(event) {
     const facet = event.detail
 
@@ -203,25 +197,17 @@
           {#if !embedded && !state.reworksOf}
             <Sort {state} on:sort={e => (state.sort = e.detail)} />
           {/if}
-          <ul class="works--list">
-            {#each renderedResults as work, index (work.id)}
-              <Work
-                categories={data.catalogue.categories}
-                {embedded}
-                fields={data.catalogue.fields}
-                i18n={data.i18n}
-                {index}
-                publishers={data.catalogue.publishers}
-                reworkActive={Boolean(state.reworksOf)}
-                showID={state.showID}
-                {work}
-                on:selectCategory={selectCategory}
-                on:showReworks={e =>
-                  (state.reworksOf =
-                    state.reworksOf === e.detail ? '' : e.detail)}
-              />
-            {/each}
-          </ul>
+          <WorkList
+            catalogue={data.catalogue}
+            {embedded}
+            i18n={data.i18n}
+            fullList={works}
+            filteredList={results}
+            {state}
+            on:refine={refine}
+            on:toggleReworks={e =>
+              (state.reworksOf = state.reworksOf === e.detail ? '' : e.detail)}
+          />
         </div>
         {#if !embedded}
           <div class="column refine">

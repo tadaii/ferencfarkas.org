@@ -75,8 +75,6 @@ a, .link {
   transition: color .2s ease;
 }
 
-.container p a,
-section .container li a,
 .link {
   border: none;
   background: none;
@@ -183,6 +181,7 @@ blockquote {
 button {
   font-family: inherit;
   font-size: inherit;
+  color: inherit;
 }
 
 :disabled {

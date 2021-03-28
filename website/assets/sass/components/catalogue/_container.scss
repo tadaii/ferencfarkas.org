@@ -38,7 +38,7 @@
 
   .refine {
     position: absolute;
-    right: -.75rem;
+    right: 0;
     height: 100%;
     min-height: 20rem;
     padding: 0;
@@ -102,7 +102,7 @@
     &.sticked {
       position: fixed;
       top: 0;
-      right: auto;
+      // right: auto;
       height: 100%;
     }
 

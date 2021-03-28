@@ -1,4 +1,5 @@
 <script>
+  import { formatDate, formatDuration } from '../helpers/format'
   export let fields = []
   export let i18n = {}
   export let publishers = {}
@@ -31,28 +32,6 @@
       return posA > posB ? 1 : posA < posB ? -1 : 0
     })
     .map(([key, value]) => ({ key, value }))
-
-  function formatDuration(seconds) {
-    const h = Math.floor(seconds / 3600)
-    const m = Math.floor((seconds - h * 3600) / 60)
-    const s = Math.floor(seconds - h * 3600 - m * 60)
-
-    let str = ''
-
-    if (h > 0) str += `${h}h `
-    if (m > 0) str += `${m}‘ `
-    if (s > 0) str += `${s}”`
-
-    return str
-  }
-
-  function formatDate(date) {
-    return new Date(date).toLocaleString('en-GB', {
-      year: 'numeric',
-      month: 'short',
-      day: 'numeric',
-    })
-  }
 
   function getWorldPremiere({ date, location }) {
     let dateLocation = []
