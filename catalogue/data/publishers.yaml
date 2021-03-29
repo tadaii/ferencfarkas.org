@@ -1,8 +1,38 @@
+- id: afp
+  name: AFPublishing
+  url: /contact
+- id: alliance
+  name: Alliance Publications
+  url: https://www.apimusic.org/
+- id: ascolta
+  name: Ascolta Music Publishing Houten
+  url: https://ascolta.nl/
+- id: darok
+  name: Darok Edition
+  url: https://www.editiondarok.de/
 - id: emb
   name: Edition Musica Budapest
-- id: ldz
-  name: VEB Lied der Zeit Musikverlag, Berlin
-  shortName: Lied der Zeit
+  url: https://www.emb.hu/
+- id: kontrapunkt
+  name: Kontrapunkt Music
+  url: http://kontrapunktmusic.com/
+- id: curci
+  name: Edizioni Curci
+  url: https://www.edizionicurci.it/printed-music/default.asp
+- id: metropolis
+  name: Metropolis music publishers
+- id: schott
+  name: Schott Music
+  url: https://en.schott-music.com/
+- id: sidem
+  name: Sidem Editions
+  url: mailto:sidomusic@sidomusic.com
+- id: sikorski
+  name: Sikorski Musikverlage
+  url: https://www.sikorski.de/
 - id: universal
   name: Universal Edition
-  shortName: Universal
+  url: https://www.universaledition.com/
+- id: spirito
+  name: Musica con spirito Edition
+  url: http://www.musica-con-spirito-edition.de/Solostimmen-Orgel-Bestellung.html

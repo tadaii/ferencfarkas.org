@@ -1,0 +1,22 @@
+---
+category: chamber
+composition_date: 1962
+date: 2021-01-24
+description: for viola and piano or harpsichord
+duration: 720
+id: all-antica-for-viola-and-piano-or-harpsichord
+movements:
+  - title: Pastorale
+  - title: Aria con variazioni
+  - title: Giga
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: all-antica
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: All'antica

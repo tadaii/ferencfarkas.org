@@ -1,0 +1,22 @@
+---
+category: choir
+composition_date: 1997  
+date: 2021-03-12
+description: for 4-part mixed choir, flute, 2 violins and violoncello
+duration: 120
+id: dos-canciones-de-gongora
+movements: 
+  - title: Bailé Mahamù 
+  - title: Las flores del romero 
+publications:
+  - publisher_id: kontrapunkt
+    type: all
+texts:
+  es: in spanish by Luis de Gongora
+title:
+  main: es
+  original: es
+  sort:
+    - es
+  translations:
+    es: Dos canciones de Gongora

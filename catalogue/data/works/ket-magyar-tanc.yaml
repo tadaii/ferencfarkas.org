@@ -1,0 +1,24 @@
+---
+category: solo
+composition_date: 1975
+date: 2021-03-05
+dedication: à Françoise avec beaucoup d'affection pour son anniversaire
+description: for piano
+duration: 300
+id: ket-magyar-tanc
+movements:
+  - title: Kecskeméti verbunk
+  - title: Pásztortánc
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: zwei-ungarische-taenze
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+    - en
+  translations:
+    hu: Két magyar tánc
+    en: Two Hungarian dances

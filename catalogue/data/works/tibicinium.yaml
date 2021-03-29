@@ -1,0 +1,23 @@
+---
+audios:
+  - id: tibicinium
+    description: Nyári ünnep / Sommerfest
+category: voice_piano
+composition_date: 1960
+date: 2021-03-14
+description: for voice and flute
+duration: 340
+id: tibicinium
+publications:
+  - publisher_id: emb
+    type: all
+texts:
+  hu: in hungarian by Artur Keleti
+  de: German translated by Karl Schulhofer
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Tibicinium

@@ -1,1 +1,2 @@
-<div id="catalogue"></div>
+{{- $work_id := (.Get "work-id" ) -}}
+<div id="catalogue-app" {{ if $work_id }}data-work-id="{{ $work_id }}" {{ end }}></div>

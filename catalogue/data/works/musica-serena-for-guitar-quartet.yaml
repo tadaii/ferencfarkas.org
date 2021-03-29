@@ -1,0 +1,21 @@
+---
+category: chamber
+date: 2021-03-05
+description: for guitar quartet adapted by Philippe Rayer
+duration: 600
+id: musica-serena-for-guitar-quartet
+movements:
+  - title: Allegro
+  - title: Andante moderato
+  - title: Allegro vivace
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: musica-serena
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Musica serena

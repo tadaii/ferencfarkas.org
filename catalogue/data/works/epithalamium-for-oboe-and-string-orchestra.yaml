@@ -1,0 +1,20 @@
+---
+audios:
+  - id: epithalamium-for-oboe-and-string-orchestra
+    description: Extract
+category: concerto
+date: 2021-03-05
+description: for oboe and string orchestra adapted by Lajos Lencsés, 2017
+duration: 180
+id: epithalamium-for-oboe-and-string-orchestra
+publications:
+  - publisher_id: kontrapunkt
+    type: all
+rework_of: epithalamium
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Epithalamium

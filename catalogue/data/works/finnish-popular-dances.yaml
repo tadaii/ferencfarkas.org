@@ -1,0 +1,36 @@
+---
+audios:
+  - id: finnish-popular-dances-1
+    description: Palpankilli
+  - id: finnish-popular-dances-2
+    description: Lintunen
+category: string
+composition_date: 1935
+date: 2021-01-12
+description: Suite for string orchestra
+duration: 360
+id: finnish-popular-dances
+movements:
+  - title: Askulan neliö
+  - title: Palpankilli
+  - title: Melkutus
+  - title: Lintunen
+  - title: Vanna piika
+  - title: Haili
+  - title: Kumerus
+publications:
+  - publisher_id: sidem
+    type: score
+  - publisher_id: sidem
+    type: performance material
+title:
+  main: en
+  original: en
+  sort:
+    - en
+    - de
+    - fr
+  translations:
+    en: Finnish popular dances
+    de: Finnische Volkstänze
+    fr: Danses populaires finlandaises

@@ -1,0 +1,25 @@
+---
+audios:
+  - id: dance-from-transylvania
+    description: Dance from Transylvania
+category: orchestra
+composition_date: 1954
+date: 2020-12-27
+description: for orchestra 
+duration: 140
+id: dance-from-transylvania
+publications:
+  - publisher_id: afp
+    type: score
+  - publisher_id: afp
+    type: performance material
+setting: '2, 1, 2, 1 – 2, 2, 0, 0 – archi'
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Dance from Transylvania 
+    hu: Erdélyi tánc 

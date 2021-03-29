@@ -1,0 +1,29 @@
+---
+audios:
+  - id: choreae-hungaricae-1
+    description: 5 dances - Moderato
+  - id: choreae-hungaricae-2
+    description: 5 dances - Lo stesso tempo
+category: orchestra
+composition_date: 1961
+date: 2021-02-08
+description: 3 cycles of hungarian baroque dances for orchestra
+duration: 840
+id: choreae-hungaricae
+movements:
+  - title: 4 Dances from the Vietórisz-Kodex / Allegro moderato / Allegro / Lo stesso tempo / Allegro non troppo
+  - title: 5 Dances from the Kájoni-Kodex / Moderato / Lo stesso tempo / Quasi minuetto / Allegro / Lo stesso tempo
+  - title: 6 Dances from the Tabulaturbuch by Löcse / Allegro moderato / Lo stesso tempo / Andante moderato / Lo stesso tempo / Allegro / Lo stesso tempo
+publications:
+  - publisher_id: emb
+    type: score
+  - publisher_id: emb
+    type: performance material
+setting: '1, 1, 0, 0 – cemb. or pf. or zimb. ungh. ad lib. - archi'
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Choreae hungaricae

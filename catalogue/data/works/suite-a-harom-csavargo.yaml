@@ -1,0 +1,23 @@
+---
+category: orchestra
+composition_date: 1932-1933
+date: 2021-03-05
+description: Suite for orchestra
+duration: 1620
+id: suite-a-harom-csavargo
+setting: '1, 1, 2, 1 - 2, 1, 0, 0 - timp., batt. - archi'
+publications:
+  - publisher_id: afp
+    type: score
+  - publisher_id: afp
+    type: performance material
+rework_of: a-harom-csavargo
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+    - en
+  translations:
+    en: Suite “The three vagabonds"
+    hu: Suite "A három csavargó"

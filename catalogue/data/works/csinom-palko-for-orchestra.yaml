@@ -1,0 +1,32 @@
+---
+audios:
+  - id: csinom-palko-for-orchestra 
+    description: Bevezetés /Introduction
+category: orchestra
+date: 2019-04-08T21:36:00.000Z
+description: Suite from the opera “Csínom Palkó” for orchestra adapted by Sándor Somló
+duration: 1020
+id: csinom-palko-for-orchestra
+movements:
+  - title: Bevezetés
+  - title: Jöttünk Edelényből
+  - title: Zsuzsi dala
+  - title: Balogh Adám dala
+  - title: Jó estét
+  - title: Kis Dunaág
+  - title: Jójzakát
+  - title: Hüséges szivemmel
+publications:
+  - publisher_id: afp
+    type: piano reduction
+  - publisher_id: afp
+    type: performance material
+rework_of: csinom-palko
+setting: '1, 1, 2, 0 – 0, 2, 1, 0 – batt. – pf., harmonium, accordion – archi'
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Csínom Palkó

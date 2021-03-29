@@ -1,0 +1,20 @@
+---
+audios:
+  - id: meditazione
+    description: Extract
+category: chamber
+composition_date: 1990
+date: 2021-03-02
+description: for flute and piano
+duration: 262
+id: meditazione
+publications:
+  - publisher_id: ascolta
+    type: all
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Meditazione

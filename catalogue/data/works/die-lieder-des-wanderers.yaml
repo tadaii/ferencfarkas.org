@@ -1,0 +1,26 @@
+---
+category: voice_piano
+composition_date: 1956
+date: 2021-03-13
+description: for voice and piano
+duration: 660
+id: die-lieder-des-wanderers
+movements:
+  - title: Utra kelni, messzi menni / Rastlos wandern
+  - title: Tavaszi dal, vándordal / Frühlingswind 
+  - title: A kalandor / Der Abenteurer
+publications:
+  - publisher_id: emb
+    type: all
+texts:
+  hu: in hungarian by Milán Füst
+  de: German translated by Peter Felsenstein
+title:
+  main: de
+  original: hu
+  sort:
+    - de
+    - hu
+  translations:
+    de: Die Lieder des Wanderers
+    hu: A vándor dalai

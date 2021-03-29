@@ -1,0 +1,23 @@
+---
+audios:
+  - id: variazioni-ungheresi-for-flute-and-guitar
+    description: Thema
+category: chamber
+composition_date: 1963
+date: 2021-03-12
+description: Variations for flute and guitar on a folk melody from the county of Zala adapted by András Adorján
+duration: 300
+id: variazioni-ungheresi-for-flute-and-guitar
+movements:
+  - title: Thema - Variation I – IX
+publications:
+  - publisher_id: curci
+    type: all
+rework_of: variazioni-ungheresi
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Variazioni ungheresi

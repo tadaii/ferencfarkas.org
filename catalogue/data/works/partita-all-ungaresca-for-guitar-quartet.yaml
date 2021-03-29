@@ -1,0 +1,22 @@
+---
+category: chamber
+composition_date: 1995
+date: 2021-01-18
+description: Hungarian dances from the 16th century for guitar quartet
+duration: 330
+id: partita-all-ungaresca-for-guitar-quartet
+movements:
+  - title: Allegro
+  - title: Andante
+  - title: Allegro (Hajdútánc)
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: partita-all-ungaresca
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Partita all'ungaresca

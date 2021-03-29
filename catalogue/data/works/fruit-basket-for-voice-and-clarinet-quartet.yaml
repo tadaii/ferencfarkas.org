@@ -1,0 +1,40 @@
+---
+category: voice_piano
+date: 2021-03-13
+dedication: to the Swiss Clarinet Players
+description: Cycle of 11 songs for voice and clarinet quartet
+duration: 930
+id: fruit-basket-for-voice-and-clarinet-quartet
+movements:
+  - title: Gáspár / Kaspar / Bastide
+  - title: Ládika / Das Zauberkästlein / Le pot de fer
+  - title: Falusi reggel / Dorfmorgen / Le coq et l'âne
+  - title: Mondóka / Veilchen / Violette
+  - title: A kőbéka / Der Steinfrosch / Le crapaud
+  - title: Altatódal / Wiegenlied / Berceuse
+  - title: Száncsengő /Schlittenschellen / La cloche du traineau
+  - title: Békakirály / Froschkönig / Le roi des grenouilles
+  - title: A tündér / Das Elflein / La fée Bobita
+  - title: Paprika Jancsi szerenádja / Hanswurst-Serenade / Sérénade de Pierrot
+  - title: Déli felhők / Mittagswolken / Dans les nuages
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: fruit-basket
+texts:
+  hu: in hungarian by Sándor Weöres
+  de: German translated by Johannes Kretzschmar and Heinz Kahlau
+  fr: French translated by Mario Bois and Roger Bornet
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+    - de
+    - fr
+  translations:
+    en: Fruit basket
+    hu: Gyümölcskosár
+    de: Fruchtkorb
+    fr: Panier de fruits

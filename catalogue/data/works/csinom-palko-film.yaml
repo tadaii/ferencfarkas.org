@@ -1,0 +1,21 @@
+---
+category: film
+composition_date: 1973
+date: 2020-12-17
+description: Film version of the opera “Csínom Palkó”
+duration: 5580
+id: csinom-palko-film
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Csínom Palkó
+film_directors:
+  - Márton Keleti 
+  - Gyula Mészáros
+film_producers:
+  - Hunnia Játék Filmstúdió Vállalat 
+  - Magyar Televizió
+rework_of: csinom-palko

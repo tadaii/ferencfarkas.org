@@ -1,0 +1,37 @@
+---
+category: voice_piano
+composition_date: 1949
+date: 2019-04-08T21:36:04.000Z
+description: 8 melodies from the opera “ Csínom Palkó ” for voice and piano
+duration: 1980
+id: csinom-palko-8-melodies
+movements:
+  - duration: 300
+    title: Jójszakát
+  - duration: 180
+    title: Ahol te jársz
+  - duration: 300
+    title: Jó estét
+  - duration: 300
+    title: Jöttünk Edelényből
+  - duration: 180
+    title: Kis Dunaág
+  - duration: 300
+    title: Zsuzsi dala
+  - duration: 240
+    title: Förgeteg dala
+  - duration: 180
+    title: Hűséges szivemmel
+publications:
+  - publisher_id: emb
+    type: Where is that song ? Operetta Hits 
+rework_of: csinom-palko
+texts:
+  hu: in hungarian by András Dékány
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Csínom Palkó

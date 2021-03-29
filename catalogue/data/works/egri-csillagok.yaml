@@ -1,0 +1,27 @@
+---
+audios:
+  - id: egri-csillagok-1
+    description: Tinodi Lantos Sebestyén melody
+  - id: egri-csillagok-2
+    description: Wedding dance
+  - id: egri-csillagok-3
+    description: The attack of the Ottoman armies
+category: film
+composition_date: 1968
+date: 2021-03-14
+description: Historical film
+duration: 9500
+id: egri-csillagok
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+    - en
+  translations:
+    hu: Egri csillagok
+    en: Stars of Eger
+film_directors:
+  - Zoltán Várkonyi
+film_producers:
+  - MAFILM 4. JátékFilmstúdió

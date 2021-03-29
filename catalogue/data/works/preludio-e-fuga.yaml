@@ -1,0 +1,28 @@
+---
+audios:
+  - id: 
+    description: 
+  - id: 
+    description: 
+category: orchestra
+composition_date: 1944-1947
+date: 2020-12-27
+description: for orchestra
+duration: 540
+id: preludio-e-fuga
+movements:
+  - title: Preludio
+  - title: Fuga
+publications:
+  - publisher_id: emb
+    type: score
+  - publisher_id: emb
+    type: performance material
+setting: '3 (III=picc.), 3 (c.i.), 3 (cl. b.), 3 (III=cfg) – 4, 2, 3, 0 – timp., batt.(1 es.) – archi'
+title:
+  main: it
+  original: it
+  sort:
+    - it 
+  translations:
+    it: Preludio e fuga 

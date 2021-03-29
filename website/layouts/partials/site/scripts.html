@@ -1,8 +1,7 @@
-{{ $app := resources.Get "js/app.js" | minify }}
-{{ $catalogue := resources.Get "js/catalogue.js" | minify }}
+{{ $app := resources.Get "js/app.js" | js.Build (dict "target" "es2015" "minify" true) | resources.Fingerprint "sha512" }}
 <script defer src="{{ $app.Permalink }}"></script>
 <script defer src="/js/flickity.pkgd.min.js"></script>
 <script defer src="/js/wavesurfer.min.js"></script>
 <script defer src="/js/lunr.min.js"></script>
-<script defer src="/js/hyperapp.min.js"></script>
-<script defer src="{{ $catalogue.Permalink }}"></script>
+<script defer src="/js/catalogue.js"></script>
+<script async defer data-domain="ferencfarkas.org" src="https://plausible.io/js/plausible.js"></script>

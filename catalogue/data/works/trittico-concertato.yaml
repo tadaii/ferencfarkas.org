@@ -1,0 +1,25 @@
+---
+audios:
+  - id: trittico-concertato
+    description: Allegro vivace
+category: concerto
+composition_date: 1964
+date: 2021-01-25
+dedication: to Gaspar Cassado
+description: Concerto for violoncello and string orchestra
+duration: 900
+id: trittico-concertato
+movements:
+  - title: Allegro moderato
+  - title: Passacaglia con dedica
+  - title: Allegro vivace
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Trittico concertato

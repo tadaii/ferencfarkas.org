@@ -1,0 +1,12 @@
+- id: stage
+  tag: Stage
+  title: Stage music
+- id: instrumental
+  tag: Instrumental
+  title: Instrumental music
+- id: vocal
+  tag: Vocal
+  title: Vocal music
+- id: incidental
+  tag: Incidental
+  title: Incidental music

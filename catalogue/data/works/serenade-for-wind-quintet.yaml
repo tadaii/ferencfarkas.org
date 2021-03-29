@@ -1,0 +1,28 @@
+---
+audios:
+  - id: serenade-for-wind-quintet-1
+    description: Allegro
+  - id: serenade-for-wind-quintet-2
+    description: Andante espressivo
+category: chamber
+composition_date: 1951
+date: 2021-03-09
+dedication: to the Budapest Wind Quintet
+duration: 540
+id: serenade-for-wind-quintet
+movements:
+  - title: Allegro
+  - title: Andante espressivo
+  - title: Saltarello
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Serenade for wind quintet
+    hu: Fűvósötös-szerenád

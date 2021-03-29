@@ -1,0 +1,24 @@
+---
+audios:
+  - id: rumanian-folk-dances-for-flute-cimbalom-and-string-orchestra
+    description: Extract
+category: concerto
+composition_date: 1988
+date: 2021-01-25
+dedication: to András Adorjan
+description: Concertino for flute, cimbalom (ad lib.)  and string orchestra
+duration: 360
+id: rumanian-folk-dances-for-flute-cimbalom-and-string-orchestra
+publications:
+  - publisher_id: emb
+    type: all
+rework_of: rumanian-folk-dances
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Rumanian folk dances
+    hu: Bihari román táncok

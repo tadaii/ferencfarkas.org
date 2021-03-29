@@ -1,0 +1,8 @@
+<small class="author">
+  — {{ .Get "name" }}
+  {{- if (.Get "ref") -}}
+  <span class="ref">
+    {{ .Get "ref" | markdownify }}
+  </span>
+  {{- end -}}
+</small>

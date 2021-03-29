@@ -1,0 +1,33 @@
+---
+category: voice_piano
+composition_date: 1951
+date: 2021-03-05
+description: Songs for voice and piano from the operetta “Zeng az erdő”
+duration: 915
+id: zeng-az-erdoe-for-voice-and-piano
+movements:
+  - duration: 90
+    title: Be szép az erdő
+  - duration: 190
+    title: Fütty-dal
+  - duration: 240
+    title: Emlékszel tavasz idején
+  - duration: 150
+    title: Mozdony-dal
+  - duration: 150
+    title: Holdas éjjel
+  - duration: 80
+    title: Mókus-dal
+rework_of: zeng-az-erdoe
+publications:
+  - publisher_id: afp
+    type: all
+texts:
+  hu: In hungarian by András Dékány
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Zeng az erdő

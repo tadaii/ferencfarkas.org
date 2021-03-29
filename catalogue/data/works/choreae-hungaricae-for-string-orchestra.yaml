@@ -1,0 +1,26 @@
+---
+audios:
+  - id: choreae-hungaricae-for-string-orchestra
+    description: 5 dances - Quasi minuetto
+category: string
+composition_date: 1961
+date: 2021-02-08
+description: 3 cycles of hungarian baroque dances for string orchestra
+duration: 840
+id: choreae-hungaricae-for-string-orchestra
+movements: 
+ - title: 4 Dances from the Vietórisz-Kodex / Allegro moderato / Allegro / Lo stesso tempo / Allegro non troppo
+ - title: 5 Dances from the Kájoni-Kodex / Moderato / Lo stesso tempo / Quasi minuetto / Allegro / Lo stesso tempo
+ - title: 6 Dances from the Tabulaturbuch by Löcse / Allegro moderato / Lo stesso tempo / Andante moderato / Lo stesso tempo / Allegro / Lo stesso tempo
+publications:
+  - publisher_id: schott
+    type: score
+  - publisher_id: schott
+    type: performance material
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Choreae hungaricae

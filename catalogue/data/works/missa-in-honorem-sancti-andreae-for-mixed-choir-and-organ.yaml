@@ -1,0 +1,29 @@
+---
+audios:
+  - id: missa-in-honorem-sancti-andreae-for-mixed-choir-and-organ
+    description: Credo
+category: mass 
+composition_date: 1962
+date: 2021-03-12
+description: Mass for mixed choir and organ
+duration: 1620
+id: missa-in-honorem-sancti-andreae-for-mixed-choir-and-organ
+movements:
+  - title: Kyrie
+  - title: Gloria
+  - title: Credo
+  - title: Sanctus
+  - title: Benedictus
+  - title: Agnus Dei
+publications:
+  - publisher_id: ascolta
+    type: all
+texts:
+  la: in latin
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Missa in honorem Sancti Andreae 

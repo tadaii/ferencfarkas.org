@@ -1,0 +1,21 @@
+---
+audios:
+  - id: rondo-capriccio-for-violin-and-wind-quintet
+    description: Extract
+category: chamber
+composition_date: 1959
+date: 2021-01-24
+description: for violin and wind quintet
+duration: 540
+id: rondo-capriccio-for-violin-and-wind-quintet
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: rondo-capriccio
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Rondo capriccio

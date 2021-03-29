@@ -1,0 +1,30 @@
+---
+audios:
+  - id: songs-from-the-twelfth-night-by-shakespeare-for-voice-and-harp-1
+    description: O mistress mine
+  - id: songs-from-the-twelfth-night-by-shakespeare-for-voice-and-harp-2
+    description: Hey, Robin
+category: voice_piano
+composition_date: 1954
+date: 2021-03-14
+description: Cycle of 4 songs for voice and harp from the incidental  music to “ Twelfth night ” by W. Shakespeare 
+duration: 330
+id: songs-from-the-twelfth-night-by-shakespeare-for-voice-and-harp
+movements:
+  - title: O mistress mine
+  - title: Hey, Robin 
+  - title: Come away
+  - title: When that I was 
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: twelfth-night
+texts:
+  en: in english by William Shakespeare
+title:
+  main: en
+  original: en
+  sort:
+    - en
+  translations:
+    en: Songs from the “ Twelfth night ” by Shakespeare

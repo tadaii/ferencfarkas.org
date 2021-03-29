@@ -1,0 +1,28 @@
+---
+audios:
+  - id: funerailles-1
+    description: Extract 1
+  - id: funerailles-2
+    description: Extract 2
+  - id: funerailles-3
+    description: Extract 3
+category: orchestra
+composition_date: 1974
+date: 2021-01-17
+dedication: to my son András
+description: Adaptation for orchestra of the piano work by Franz Liszt 
+duration: 660
+id: funerailles
+publications:
+  - publisher_id: emb
+    type: score
+  - publisher_id: emb
+    type: performance material
+setting: '3 (picc.), 2 (c.i.), 2, 3(cfg) - 4, 3, 3, 1 – timp., batt. – arpa – archi'
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Funérailles  

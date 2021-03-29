@@ -2,24 +2,29 @@
   &--query-wrapper {
     position: relative;
     display: flex;
-    height: 2.5rem;
+    align-items: center;
+    margin: 1rem 0.25rem;
+    height: 2.25rem;
     font-family: $f-sans;
     font-size: 1rem;
     line-height: 1rem;
     overflow: hidden;
     border-radius: 1.5rem;
-    box-shadow: 0 0 1rem rgba(0,0,0, .125);
-    background-color: rgba(255,255,255, .7);
+    box-shadow: 0 0 0.5rem rgba(0,0,0, .125);
+    background-color: rgba(255,255,255, 0.6);
+    will-change: background-color;
     transition: background-color .2s ease;
 
     &:before {
       content: '';
       position: absolute;
-      top: .45rem;
-      left: .5rem;
-      width: 1.65rem;
-      height: 1.65rem;
+      top: 0.4rem;
+      left: 0.5rem;
+      width: 1.25rem;
+      height: 1.25rem;
       background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 183 183' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M116.734 123.134C107.184 131.23 94.8237 136.113 81.3234 136.113C51.0639 136.113 26.5338 111.583 26.5338 81.3234C26.5338 51.0638 51.0639 26.5337 81.3234 26.5337C111.583 26.5337 136.113 51.0638 136.113 81.3234C136.113 94.8237 131.23 107.184 123.134 116.733L156.466 150.065L150.066 156.466L116.734 123.134ZM126.434 81.3233C126.434 106.237 106.237 126.434 81.3235 126.434C56.4098 126.434 36.2133 106.237 36.2133 81.3233C36.2133 56.4097 56.4098 36.2131 81.3235 36.2131C106.237 36.2131 126.434 56.4097 126.434 81.3233Z' fill='black'/%3E%3C/svg%3E");
+      background-size: 1.5rem;
+      background-repeat: no-repeat;
       opacity: .2;
       z-index: 1;
     }
@@ -31,31 +36,16 @@
         background-color: $c-black;
       }
     }
-
-    @media screen and (min-width: 600px) {
-      height: 3rem;
-      font-size: 1.25rem;
-      line-height: 1.25rem;
-
-      &:before {
-        top: .55rem;
-        left: .75rem;
-        width: 1.9rem;
-        height: 1.9rem;
-      }
-    }
   }
 
-  input[name="query"] {
+  input[name="q"] {
     flex: 1;
-    appearance: none;
-    -webkit-appearance: none;
     height: inherit;
-    min-width: 5rem;
-    margin-right: -2rem;
-    padding: .5rem 2.5rem .55rem 3rem;
+    margin-top: 1px;
+    margin: 0 1rem 0 2.2rem;
+    padding: 0;
     font-size: inherit;
-    line-height: inherit;
+    line-height: 0;
     color: rgba(0,0,0, .75);
     border: none;
     outline: none;
@@ -70,6 +60,7 @@
   }
 
   button[type="submit"] {
+    display: none;
     flex-shrink: 0;
     margin: 0;
     padding: .45rem 1.5rem .55rem;
@@ -82,6 +73,7 @@
     border-bottom-left-radius: 1.5rem;
     border: none;
     box-shadow: 0 0 1rem rgba(0,0,0, .25);
+    will-change: background-color;
     transition: background-color .2s ease;
   }
 

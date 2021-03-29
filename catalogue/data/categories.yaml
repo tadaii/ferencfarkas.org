@@ -1,63 +1,80 @@
 - id: opera
   tag: Opera
   title: Opera
+  genre: stage
 - id: musical
   tag: Musical
   title: Operetta, Musical comedy
+  genre: stage
 - id: ballet
   tag: Ballet / Scenic
   title: Ballet, Scenic play
+  genre: stage
 - id: orchestra
   tag: Orchestra
   title: Orchestra
+  genre: instrumental
 - id: string
   tag: String orchestra
   title: String orchestra
+  genre: instrumental
 - id: wind
   tag: Wind orchestra
   title: Wind orchestra
+  genre: instrumental
 - id: concerto
   tag: Concerto
   title: Concerto
+  genre: instrumental
 - id: chamber
   tag: Chamber
   title: Chamber music
+  genre: instrumental
 - id: solo
   tag: Instr. Solo
   title: Instrumental solo
+  genre: instrumental
 - id: cantata_oratorio
   tag: Oratorio
   title: Cantata, Oratorio
+  genre: vocal
 - id: mass
   tag: Mass
   title: Mass
+  genre: vocal
 - id: choir
   tag: Choir
   title: Mixed choir
+  genre: vocal
 - id: male
   tag: Male choir
   title: Male choir
+  genre: vocal
 - id: female
   tag: Female choir
   title: Female choir
+  genre: vocal
 - id: children
   tag: Children choir
   title: Children choir
+  genre: vocal
 - id: misc_choir
   tag: Misc choir
   title: Miscellaneous choir / Canon
+  genre: vocal
 - id: voice_piano
   tag: Voice & piano
   title: Voice and piano / Organ
+  genre: vocal
 - id: voice
   tag: Voice
   title: Voice and other instrument(s) or orchestra
-- id: folk
-  tag: Folk
-  title: Hungarian folk song – Folk music
+  genre: vocal
 - id: incidental
   tag: Incidental / Radio
   title: Incidental music, Radio plays
+  genre: incidental
 - id: film
   tag: Film
   title: Film music
+  genre: incidental

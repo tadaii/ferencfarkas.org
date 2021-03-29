@@ -1,0 +1,30 @@
+---
+audios:
+  - id: concertino-all-antica-for-baryton-or-violoncello-or-viola-and-string-orchestra-1
+    description: Pastorale
+  - id: concertino-all-antica-for-baryton-or-violoncello-or-viola-and-string-orchestra-2
+    description: Aria con variazioni
+category: concerto
+composition_date: 1964
+date: 2021-01-24
+dedication: to János Liebner
+description: for baryton (viola di bordone) or violoncello or viola and string orchestra
+duration: 720
+id: concertino-all-antica-for-baryton-or-violoncello-or-viola-and-string-orchestra
+movements:
+  - title: Pastorale
+  - title: Aria con variazioni
+  - title: Giga
+publications:
+  - publisher_id: emb
+    type: all
+  - publisher_id: afp
+    type: viola part
+rework_of: all-antica
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Concertino all'antica

@@ -1,0 +1,20 @@
+---
+audios:
+  - id: arioso
+    description: Extract
+category: chamber
+composition_date: 1926
+date: 2021-02-22
+description: for violoncello or viola and piano
+duration: 180
+id: arioso
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Arioso

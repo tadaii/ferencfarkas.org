@@ -1,0 +1,19 @@
+---
+category: concerto
+composition_date: 1979
+date: 2021-03-05
+dedication: Kocsis Albertnek
+description: Concertino for violin and string orchestra
+duration: 540
+id: rondo-capriccio-for-violin-and-string-orchestra
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: rondo-capriccio
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Rondo capriccio

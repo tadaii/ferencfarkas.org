@@ -1,0 +1,30 @@
+---
+audios:
+  - id: la-cour-du-roi-matthias
+    description: Danse des chevaliers
+category: chamber
+composition_date: 1977
+date: 2021-01-05
+dedication: to the Berner Solisten
+description: Dance suite for clarinet, bassoon, horn and string quintet  
+duration: 982
+id: la-cour-du-roi-matthias
+movements:
+  - title: Lovagok tánca / Danse des chevaliers 
+  - title: Udvaroncok tánca / Danse des courtisans 
+  - title: Udvarhölgyek tánca / Danse des dames d'honneur 
+  - title: Az udvari bolond tánca / Danse du bouffon de cour
+  - title: A vár népének tánca / Danse du peuple du château 
+publications:
+  - publisher_id: emb
+    type: all
+rework_of: panegyricus
+title:
+  main: fr
+  original: hu
+  sort:
+    - fr
+    - hu
+  translations:
+    fr: La cour du roi Matthias
+    hu: Mátyás király udvara

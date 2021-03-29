@@ -1,11 +1,15 @@
-header {
+body > header {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  @include heroHeight;
+  height: 22rem;
   z-index: 2;
   pointer-events: none;
+
+  &.tall {
+    @include heroHeight;
+  }
 
   .container {
     height: 100%;
@@ -29,14 +33,17 @@ header {
       width: 10rem;
       margin-left: -1px;
       fill: $c-primary;
+      will-change: fill;
       transition: .2s fill linear;
 
       @media screen and (min-width: 480px) {
         width: 11rem;
+        margin-left: -0.5rem;
       }
 
       @media screen and (min-width: 768px) {
         width: 12rem;
+        margin-left: -1rem;
       }
     }
 

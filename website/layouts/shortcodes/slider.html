@@ -1,3 +1,8 @@
-<div class="slider" data-flickity='{ "setGallerySize": false, "wrapAround": true }'>
-  {{- .Inner -}}
+<div class="slider">
+  <div class="slider--wrapper" data-flickity='{ "setGallerySize": false, "wrapAround": true, "lazyLoad": true }'>
+    {{- .Inner -}}
+  </div>
+  <div class="controls">
+    <button class="slider--fullscreen-toggle"/>
+  </div>
 </div>

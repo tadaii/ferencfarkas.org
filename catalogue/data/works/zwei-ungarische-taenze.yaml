@@ -1,0 +1,30 @@
+---
+audios:
+  - id: zwei-ungarische-taenze-1
+    description: Tanz aus Kecskemét
+  - id: zwei-ungarische-taenze-2
+    description: Hirtentanz
+category: orchestra
+composition_date: 1940
+date: 2021-01-18
+description: for orchestra
+duration: 202
+id: zwei-ungarische-taenze
+movements:
+  - title: Tanz aus Kecskemét
+  - title: Hirtentanz
+publications:
+  - publisher_id: sidem
+    type: score
+  - publisher_id: sidem
+    type: performance material
+setting: '2, 1, 2, 1 – 2, 2, 1, 0 – batt. – arpa – archi'
+title:
+  main: de
+  original: en
+  sort:
+    - de
+    - en
+  translations:
+    de: Zwei ungarische Tänze
+    en: Two Hungarian dances

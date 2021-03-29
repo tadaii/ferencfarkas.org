@@ -2,22 +2,68 @@
 title: "Ferenc Farkas"
 subTitle: "A european composer"
 heroImage: /img/hero/hero1.jpg
-date: 2019-03-17T18:18:43Z
+date: 2021-03-21
 ---
 
-{{% section black %}}
-## New version coming soon...
+{{% section %}}
+{{% row %}}
+{{% column size="1.5" %}}
+## Welcome!
 
-We have completely reworked the website for a better user experience.
+This is the official website of Hungarian composer **Ferenc Farkas** (1905 - 2000).
 
-You'll now be able to use it on mobile devices, have access to more multimedia
-content, included more music samples, more images of bigger size, more downloads
-and most importantly:
+It is maintained by his son, **Andras Farkas** and his family and aims to provide
+as much content as possible about the work and life of Ferenc Farkas.
 
-_A brand new searchable and interactive catalogue of works !_
+**Content is under active development and will be regularly added.**
 
-We are very excited to this new version and hope you'lle be too!
+<!--
+We currently focus on fullfiling the [catalogue of works](/work) which contains
+more than 800 works. We've planned to add musical samples, images and contextual
+information for the most famous and played works.
+-->
 
-Please apologize for the technical issues we encountered these last months.
+{{% /column %}}
+{{% column %}}
 
+<br>
+{{% card highlight %}}
+
+### Your participation is welcome!
+
+This website is open sourced on [GitHub](https://github.com/jota-one/ferencfarkas.org).
+Any input regarding missing content, technical issues, feature requests or
+collaboration is very appreciated!
+
+{{< more "https://github.com/jota-one/ferencfarkas.org/issues" "Open a GitHub ticket" >}}
+<br/>
+{{< more "/contact" "Use our contact form" >}}
+
+{{% /card %}}
+{{% /column %}}
+{{% /row %}}
+
+{{% last-updates %}}
+
+{{% /section %}}
+
+{{% section focus %}}
+## Selection of works
+
+{{% row %}}
+{{% column %}}
+
+{{% work-cards %}}
+{{% work-card early-hungarian-dances-from-the-17th-century-for-piano-or-harpsichord %}}{{% /work-card %}}
+{{% work-card the-magic-cupboard %}}{{% /work-card %}}
+{{% work-card csinom-palko %}}{{% /work-card %}}
+{{% work-card the-sly-students %}}{{% /work-card %}}
+{{% work-card funerailles %}}{{% /work-card %}}
+{{% work-card concertino-for-harp-and-orchestra %}}{{% /work-card %}}
+{{% work-card symphony %}}{{% /work-card %}}
+{{% work-card piccola-musica-di-concerto %}}{{% /work-card %}}
+{{% /work-cards %}}
+
+{{% /column %}}
+{{% /row %}}
 {{% /section %}}

@@ -1,0 +1,35 @@
+---
+audios:
+  - id: old-hungarian-dances-from-the-17th-century-for-flute-and-string-orchestra
+    description: quasi menuetto
+category: concerto
+composition_date: 1990
+date: 2021-01-17
+dedication: to István-Zsolt Nagy
+description: Concertino for flute and string orchestra
+duration: 840
+id: old-hungarian-dances-from-the-17th-century-for-flute-and-string-orchestra
+movements:
+  - title: Allegro moderato
+  - title: Andante moderato
+  - title: Maestoso
+  - title: Allegro
+  - title: Allegro
+  - title: Moderato
+  - title: Quasi minuetto
+  - title: Allegro vivace
+publications:
+  - publisher_id: kontrapunkt
+    type: all
+rework_of: early-hungarian-dances-from-the-17th-century-for-piano-or-harpsichord
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+    - de
+  translations:
+    en: Old hungarian dances from the 17th century
+    hu: Régi magyar táncok
+    de: Alte ungarische Tänze

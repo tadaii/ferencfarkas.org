@@ -1,0 +1,34 @@
+---
+audios:
+  - id: hungarian-dances-from-the-17th-century-1
+    description: Allegro moderato
+  - id: hungarian-dances-from-the-17th-century-2
+    description: Allegro
+category: orchestra
+composition_date: 1961
+date: 2021-03-05
+description: for orchestra
+duration: 600
+id: hungarian-dances-from-the-17th-century
+movements:
+  - title: Allegro moderato 
+  - title: Andante moderato
+  - title: Allegro
+  - title: Moderato
+  - title: Quasi Minuetto
+  - title: Allegro vivace
+publications:
+  - publisher_id: emb
+    type: score
+  - publisher_id: emb
+    type: performance material
+rework_of: choreae-hungaricae
+setting: '1, 1, 0, 0 – cemb. or pf.(ad lib.), zimb. ungh. (ad lib.) - archi'
+title:
+  main: en
+  original: en
+  sort:
+    - en
+  translations:
+    en: Hungarian dances from the 17th century
+nb: Reduced version of “ Choreae hungaricae for orchestra ”

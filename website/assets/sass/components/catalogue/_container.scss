@@ -1,8 +1,17 @@
 .catalogue {
   .list {
+    margin-top: -1.8rem;
     padding-top: 0;
+    padding-bottom: 0;
     min-width: calc(100% - 19.25rem);
     min-height: 15rem;
+  }
+
+  &.embedded,
+  &.rework-mode {
+    .list {
+      margin-top: 0;
+    }
   }
 
   .refine,
@@ -29,8 +38,8 @@
 
   .refine {
     position: absolute;
-    right: -.75rem;
-    height: 100vh;
+    right: 0;
+    height: 100%;
     min-height: 20rem;
     padding: 0;
 
@@ -44,8 +53,13 @@
       .refine--wrapper {
         right: 0;
 
+        &:not(.scrolled) {
+          height: 100%;
+        }
+
         @media screen and (min-width: 940px) {
           right: auto;
+          height: auto;
         }
       }
 
@@ -56,10 +70,14 @@
     }
 
     h3 {
-      margin-top: -.25rem;
+      margin-top: 0;
       margin-bottom: 0;
-      padding-bottom: 1.25rem;
+      padding-bottom: 1rem;
       border-bottom: 1px dashed rgba(0,0,0, .2);
+
+      .works--count {
+        margin-bottom: -0.3rem;
+      }
     }
   }
 
@@ -69,25 +87,67 @@
     right: -19.25rem;
     width: 19.25rem;
     min-width: 19.25rem;
-    height: 100%;
-    padding: 1.25rem 2rem 1.25rem 1rem;
+    padding: 1.25rem 0 1.25rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 2;
 
     @media screen and (min-width: 940px) {
       position: relative;
       right: auto;
-      padding: 1.25rem;
+      padding-left: 0.5rem;
     }
 
     &.sticked {
       position: fixed;
       top: 0;
-      right: auto;
+      // right: auto;
+      height: 100%;
+    }
+
+    &.scrolled {
+      position: absolute;
+      top: auto;
+      bottom: 0;
+      height: auto;
+    }
+
+    &:not(.scrolled).cropped {
+      height: 100%;
     }
   }
 
   .refine--inner {
-    height: 100%;
-    overflow: auto;
+    max-height: 100%;
+    margin-right: 1rem;
+    padding-right: 1rem;
+    overflow: hidden;
+
+    @media screen and (min-width: 940px) {
+      margin-right: 0.5rem;
+    }
+
+    h3 {
+      display: flex;
+      align-items: center;
+
+      button {
+        margin-left: 0.5rem;
+        background: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+      }
+    }
+
+    .spacer {
+      display: none;
+
+      @media screen and (min-width: 768px) {
+        display: block;
+      }
+    }
   }
 
   .refine--handler {
@@ -95,11 +155,17 @@
     top: 0;
     left: calc(2px - 2rem);
     bottom: 0;
-    width: calc(2rem - 2px);
+    width: calc(2rem);
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: inherit;
+    border: none;
+    padding: 0;
+    margin: 0;
     background-color: rgba(0,0,0, .7);
+    outline: none;
+    cursor: pointer;
 
     @media screen and (min-width: 940px) {
       display: none;
@@ -131,12 +197,12 @@
   .refine--handler-label {
     position: absolute;
     top: 3.75rem;
-    right: calc(100% - .125rem);
+    right: calc(100% - 0.5rem);
     transform: rotate(270deg);
     transform-origin: top right;
     white-space: nowrap;
     text-transform: uppercase;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-weight: 300;
     will-change: color;
     transition: color .3s linear;
@@ -155,6 +221,11 @@
 
     .black & {
       color: $c-section-black-bg;
+    }
+
+    .works--count {
+      font-size: 0.8rem;
+      background-color: rgba(0,0,0, 0.3);
     }
   }
 }

@@ -1,0 +1,21 @@
+--- 
+category: orchestra
+composition_date: 1928
+date: 2021-01-04
+description: Concert overture for orchestra from the opera “The magic cupboard”
+duration: 252
+id: overture-to-a-comedy
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: the-magic-cupboard
+setting: '2, 2, 2, 2 - 3, 2, 3, 0 – timp., batt. – arpa – archi'
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Overture to a comedy
+    hu: Bevezetö zene egy vigjátékhoz

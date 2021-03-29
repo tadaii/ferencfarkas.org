@@ -1,0 +1,31 @@
+---
+audios:
+  - id: six-hungarian-folk-songs-1
+    description: Zendülj fel Szent János
+  - id: six-hungarian-folk-songs-2
+    description: Kerek utca
+category: chamber
+composition_date: 1947
+date: 2021-03-09
+description: for voice ad lib., recorder, violin and violoncello
+duration: 320
+id: six-hungarian-folk-songs
+movements:
+  - title: Zendülj fel Szent János
+  - title: Arokparti kökény
+  - title: Kerek utca
+  - title: Jánoshidi vásártéren
+  - title: Fekete föld
+  - title: Bogyiszlai kertek alja végén
+publications:
+  - publisher_id: afp
+    type: all 
+texts:
+  hu: in hungarian (traditional)
+title:
+  main: en
+  original: en
+  sort:
+    - en
+  translations:
+    en: Six hungarian folk songs

@@ -1,0 +1,24 @@
+---
+audios:
+  - id: sonatina-1-for-flute-and-piano
+    description: Allegro con slancio
+category: chamber
+date: 2021-03-11
+description: for flute and piano adapted by András Adorján, 2019
+duration: 450
+id: sonatina-1-for-flute-and-piano
+movements:
+  - title: Allegro con slancio
+  - title: Largo
+  - title: Presto
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: sonatina-1
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Sonatina no.1

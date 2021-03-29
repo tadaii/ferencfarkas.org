@@ -1,10 +1,10 @@
 [build]
-    command = "npm run prebuild && cd ./website && hugo -b $URL"
+    command = "npm run prebuild && npm run webapp:build && cd ./website && hugo -b $URL"
     publish = "website/public"
     functions = "website/assets/lambda"
 
 [build.environment]
-    HUGO_VERSION = "0.62.0"
+    HUGO_VERSION = "0.74.3"
     NODE_VERSION = "12.14.0"
 
 [context.production.environment]
@@ -12,7 +12,7 @@
     NODE_ENV = "production"
 
 [context.deploy-preview]
-    command = "npm run prebuild && cd ./website && hugo -b $DEPLOY_PRIME_URL"
+    command = "npm run prebuild -- dev && npm run webapp:build && cd ./website && hugo -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-    command = "npm run prebuild && cd ./website && hugo -b $DEPLOY_PRIME_URL"
+    command = "npm run prebuild -- dev && npm run webapp:build && cd ./website && hugo -b $DEPLOY_PRIME_URL"

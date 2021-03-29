@@ -2,23 +2,31 @@
 @import 'variables';
 @import 'mixins';
 
-@import './layout/base';
+@import './base';
+
 @import './layout/header';
 @import './layout/article';
 @import './layout/form';
 @import './layout/footer';
+@import './layout/news';
 
 @import './components/nav';
 @import './components/hero';
 @import './components/section';
 @import './components/row-col';
+@import './components/author';
 @import './components/more';
 @import './components/download';
 @import './components/slider';
 @import './components/player';
+@import './components/card';
+@import './components/work-cards';
+@import './components/last-updates';
 @import './components/catalogue/container';
 @import './components/catalogue/scope';
+@import './components/catalogue/sort';
 @import './components/catalogue/search';
-@import './components/catalogue/works';
 @import './components/catalogue/facets';
+@import './components/catalogue/works';
+@import './components/catalogue/work-fields';
 @import './components/catalogue/pagination';

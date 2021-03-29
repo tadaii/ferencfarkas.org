@@ -1,0 +1,23 @@
+---
+audios:
+  - id: alkony
+    description : Extract
+category: choir  
+date: 2021-03-15
+description: for 4-part mixed choir
+duration: 120
+id: alkony
+publications:
+  - publisher_id: emb
+    type: score
+texts:
+  hu: in hungarian by Sándor Petőfi
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+    - en
+  translations:
+    hu: Alkony
+    en: Dusk

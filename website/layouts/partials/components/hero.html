@@ -1,4 +1,4 @@
-<div class="hero">
+<div class="hero{{ if .Params.HeroImage }} tall{{ end }}">
   <div class="container">
     {{- if .Params.HeroImage }}
     <div class="hero--image" style="background-image: url('{{ .Params.HeroImage }}')">
@@ -8,7 +8,9 @@
     <div class="hero--text">
       <h1>
         {{ .Title }}
-        {{ if .Params.SubTitle }}<span class="hero--subtitle">{{ .Params.SubTitle }}</span>{{ end }}
+        {{- if .Params.SubTitle -}}
+        <span class="hero--subtitle">{{ .Params.SubTitle }}</span>
+        {{- end -}}
       </h1>
     </div>
   </div>

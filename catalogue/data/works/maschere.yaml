@@ -1,0 +1,31 @@
+---
+audios:
+  - id: maschere-1
+    description: Il Capitano
+  - id: maschere-2
+    description: Pantalone
+category: orchestra
+composition_date: 1983
+date: 2021-01-18
+description: Suite for chamber orchestra composed after the paintings of Gino Severini illustrating figures of the « Commedia dell’arte » 
+duration: 480
+id: maschere
+movements:
+  - title: Il Capitano 
+  - title: Pantalone
+  - title: Colombina
+  - title: Povero Pulcinella
+  - title: Arlecchino
+publications:
+  - publisher_id: afp
+    type: score
+  - publisher_id: afp
+    type: performance material
+setting: '1, 1, 1, 1 – 0, 1, 0, 0 – archi'
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Maschere

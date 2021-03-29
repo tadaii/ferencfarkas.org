@@ -1,0 +1,24 @@
+---
+category: chamber
+composition_date: 1939, rev 1978
+date: 2021-02-22
+dedication: Borsos Miklósnak szeretettel 
+description: Suite in old style based on the incidental music for the play “ As you like it ” by Shakespeare
+duration: 540
+id: as-you-like-it-for-two-violins-and-harp
+movements:
+  - title: Petite ouverture
+  - title: Chanson
+  - title: Intermezzo
+  - title: Madrigal
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: as-you-like-it
+title:
+  main: en
+  original: en
+  sort:
+    - en
+  translations:
+    en: As you like it for 2 violins and harp

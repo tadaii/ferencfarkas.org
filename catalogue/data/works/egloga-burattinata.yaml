@@ -1,0 +1,25 @@
+---
+audios:
+  - id: egloga-burattinata-1
+    description: Egloga
+  - id: egloga-burattinata-2
+    description: Burattinata
+category: chamber
+composition_date: 1976
+date: 2021-02-23
+description: for flute or violin and guitar
+duration: 240
+id: egloga-burattinata
+movements:
+  - title: Egloga dedicated to Jean-Louis Matthey
+  - title: Burattinata dedicated to Gottfried Hechtl and Leo Witoszynsky
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Egloga - Burattinata

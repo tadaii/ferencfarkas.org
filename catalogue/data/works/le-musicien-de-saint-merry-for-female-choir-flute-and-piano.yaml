@@ -1,0 +1,23 @@
+---
+audios:
+  - id: le-musicien-de-saint-merry-for-female-choir-flute-and-piano
+    description: Extract
+category: cantata_oratorio 
+composition_date: 1984
+date: 2021-03-12
+description: Cantata for female choir, flute and piano
+duration: 900
+id: le-musicien-de-saint-merry-for-female-choir-flute-and-piano
+publications:
+  - publisher_id: ascolta
+    type: all
+rework_of: le-musicien-de-saint-merry
+texts:
+  fr: in french by Guillaume Apollinaire
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Le musicien de Saint-Merry

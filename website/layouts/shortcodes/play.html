@@ -1,7 +1,4 @@
-<div class="play">
-  <button class="play--button" data-url="{{ .Get 0 }}" data-title="{{ .Get 1 }}" data-detail="{{ .Get 2 }}"></button>
-  <div class="play--meta">
-    <h5>{{ .Get 1 }}</h5>
-    <p>{{ .Get 2 }}</p>
-  </div>
-</div>
+{{- $id := or (.Get 0) "" -}}
+{{- $title := or (.Get 1) "" -}}
+{{- $description := or (.Get 2) "" -}}
+{{ partial "shortcodes/play" (dict "id" $id "title" $title "description" $description ) }}
