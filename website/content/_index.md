@@ -36,6 +36,7 @@ Any input regarding missing content, technical issues, feature requests or
 collaboration is very appreciated!
 
 {{< more "https://github.com/jota-one/ferencfarkas.org/issues" "Open a GitHub ticket" >}}
+<br/>
 {{< more "/contact" "Use our contact form" >}}
 
 {{% /card %}}
