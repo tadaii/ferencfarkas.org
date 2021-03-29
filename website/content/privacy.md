@@ -44,8 +44,7 @@ Please refer to [Plausible data privacy document](https://plausible.io/data-poli
 
 ### GitHub
 This website's source code is publicly hosted on
-[GitHub](https://github.com/jota-one/ferencfarkas.org/) and maintained by
-[Jota](https://jota.one).
+[GitHub](https://github.com/jota-one/ferencfarkas.org/).
 
 ### Participation
 Your participation to the content or the suorce code of this website is
