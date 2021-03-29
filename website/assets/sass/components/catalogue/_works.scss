@@ -49,12 +49,21 @@
     }
 
     &.show-reworks {
-      li[style*="order: 0"] {
+      & > li[style*="order: 0"] {
         color: $c-gray-lighter;
         background-color: $c-black;
 
         h3 {
           color: $c-almost-white;
+        }
+
+        .link {
+          border-bottom-color: rgba(255,255,255, 0.5);
+
+          &:hover {
+            border-color: rgba(255,255,255, .2);
+            background-color: rgba(255,255,255, .2);
+          }
         }
 
         .work--composition-date:before {
@@ -87,7 +96,7 @@
         }
       }
 
-      li.reworks-sep {
+      & > li.reworks-sep {
         order: 1;        
         display: flex;
         align-items: center;
@@ -115,10 +124,10 @@
       }
     }
 
-    li {
+    & > li {
       position: relative;
       margin-bottom: 1.5rem;
-      padding: 1rem 1.5rem 0;
+      padding: 1.5rem 1.5rem 0;
       border-radius: 0.5rem;
       background-color: rgba(255,255,255, 0.175);
       overflow: hidden;
@@ -147,12 +156,15 @@
         display: none;
       }
 
+      &.show-fields .work--detail-toogle:after {
+        transform: rotate(180deg);
+      }
+
       header {
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
         padding-bottom: 0.75rem;
-        margin-top: 0.25rem;
       }
 
       .work--meta {

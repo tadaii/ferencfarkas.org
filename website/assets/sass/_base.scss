@@ -19,6 +19,7 @@ body {
   font-weight: 400;
   color: $c-gray-darker;
   background-color: transparent;
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 
   &.highlight {

@@ -8,19 +8,23 @@
   const SKIP_WORK_KEYS = [
     'audios',
     'category',
-    'date',
+    'composition_date',
     'default',
     'description',
+    'duration',
     'facets',
     'filtered',
     'genre',
     'id',
     'isDefaultVersion',
+    'lastUpdate',
+    'order',
     'rework',
     'rework_of',
     'story',
     'title',
     'versions',
+    'visible',
     'works',
   ]
 
@@ -51,91 +55,92 @@
   }
 </script>
 
-<dl class="work--fields">
+<dl>
   {#each workFields as { key, value }}
-    <div class="work--field">
-      <dt class={key}>{i18n.fields[key]}</dt>
-      <dd>
-        {#if key === 'cast'}
-          <ul>
-            {#each value as { role, voice }}
-              <li>
-                {role} - <span>{voice}</span>
-              </li>
-            {/each}
-          </ul>
-        {:else if key === 'duration'}
-          {formatDuration(value)}
-        {:else if key === 'libretto' || key === 'texts'}
-          <ul>
-            {#each Object.values(value) as item}
-              <li>{item}</li>
-            {/each}
-          </ul>
-        {:else if key === 'movements'}
-          <ul class="movements">
-            {#each value as movement, index}
-              <li class="movement">
-                <span class="movement--pos">{index + 1})</span>
-                <span class="movement--title">{movement.title}</span>
-                {#if movement.duration}
-                  <span class="movement--duration">
-                    {formatDuration(movement.duration)}
-                  </span>
-                {/if}
-              </li>
-            {/each}
-          </ul>
-        {:else if key === 'publications'}
-          <ul>
-            {#each value as publisher}
-              <li>
-                {#if publisher.type !== 'all'}
-                  <span>{publisher.type}:</span>
-                {/if}
-                {#if publishers[publisher.publisher_id].url}
-                  <a
-                    href={publishers[publisher.publisher_id].url}
-                    class="link"
-                    target="_blank"
-                  >
-                    {publishers[publisher.publisher_id].name}
-                  </a>
-                {:else}
+    <dt>{i18n.fields[key] || key}</dt>
+    <dd>
+      {#if key === 'cast'}
+        <ul>
+          {#each value as { role, voice }}
+            <li>
+              {role}
+              {#if voice}
+                - <em>{voice}</em>
+              {/if}
+            </li>
+          {/each}
+        </ul>
+      {:else if key === 'duration'}
+        {formatDuration(value)}
+      {:else if key === 'libretto' || key === 'texts'}
+        <ul>
+          {#each Object.values(value) as item}
+            <li>{item}</li>
+          {/each}
+        </ul>
+      {:else if key === 'movements'}
+        <ul class="movements">
+          {#each value as movement, index}
+            <li class="movement">
+              <span class="movement--pos">{index + 1})</span>
+              <span class="movement--title">{movement.title}</span>
+              {#if movement.duration}
+                <span class="movement--duration">
+                  {formatDuration(movement.duration)}
+                </span>
+              {/if}
+            </li>
+          {/each}
+        </ul>
+      {:else if key === 'publications'}
+        <ul>
+          {#each value as publisher}
+            <li>
+              {#if publisher.type !== 'all'}
+                <em>{publisher.type}:</em>
+              {/if}
+              {#if publishers[publisher.publisher_id].url}
+                <a
+                  href={publishers[publisher.publisher_id].url}
+                  class="link"
+                  target="_blank"
+                >
                   {publishers[publisher.publisher_id].name}
-                  <div class="work-input">
-                    <div class="work-input--info">
-                      Do you have info about this publisher?
-                      <br />
-                      <a
-                        href="/contact?publisher={publisher.publisher_id}"
-                        target="_blank"
-                        class="button"
-                        on:click={e => e.stopPropagation()}
-                      >
-                        Please let us know!
-                      </a>
-                    </div>
-                  </div>
-                {/if}
-              </li>
+                </a>
+              {:else}
+                {publishers[publisher.publisher_id].name}
+                <div class="work-input">
+                  Do you have info about this publisher?
+                  <br />
+                  <a
+                    href="/contact?publisher={publisher.publisher_id}"
+                    target="_blank"
+                    class="button"
+                    on:click={e => e.stopPropagation()}
+                  >
+                    Please let us know!
+                  </a>
+                </div>
+              {/if}
+            </li>
+          {/each}
+        </ul>
+      {:else if key === 'world_premiere'}
+        {#if value.credits}
+          <ul>
+            <li>{getWorldPremiere(value)}</li>
+            {#each value.credits as credit}
+              <li>{credit}</li>
             {/each}
           </ul>
-        {:else if key === 'world_premiere'}
-          {#if value.credits}
-            <ul>
-              <li>{getWorldPremiere(value)}</li>
-              {#each value.credits as credit}
-                <li>{credit}</li>
-              {/each}
-            </ul>
-          {:else}
-            {getWorldPremiere(value)}
-          {/if}
         {:else}
-          {value}
+          {getWorldPremiere(value)}
         {/if}
-      </dd>
-    </div>
+      {:else if key === 'date'}
+        {formatDate(value)}
+      {:else}
+        {value || '-'}
+      {/if}
+    </dd>
   {/each}
 </dl>

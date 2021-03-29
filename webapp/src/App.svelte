@@ -199,8 +199,11 @@
           {/if}
           <WorkList
             catalogue={data.catalogue}
+            i18n={data.i18n}
+            fields={data.catalogue.fields}
             fullList={works}
             filteredList={results}
+            publishers={data.catalogue.publishers}
             {state}
             on:refine={refine}
             on:toggleReworks={e =>

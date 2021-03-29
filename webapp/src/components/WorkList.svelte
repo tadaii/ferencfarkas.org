@@ -2,10 +2,14 @@
   import { createEventDispatcher } from 'svelte'
   import { deserialize, serialize } from '../helpers/facets'
   import Work from './Work.svelte'
+  import WorkFields from './WorkFields.svelte'
 
   export let catalogue = {}
+  export let i18n = {}
+  export let fields = []
   export let filteredList = []
   export let fullList = []
+  export let publishers = {}
   export let state = {}
 
   const dispatch = createEventDispatcher()
@@ -101,6 +105,20 @@
     }
 
     if (caller.classList.contains('work--detail-toogle')) {
+      const fieldsEl = workEl.querySelector('dl')
+
+      if (fieldsEl) {
+        fieldsEl.remove()
+        workEl.classList.remove('show-fields')
+      } else {
+        workEl.classList.add('show-fields')
+        new WorkFields({
+          target: workEl,
+          anchor: caller,
+          intro: true,
+          props: { fields, i18n, publishers, work },
+        })
+      }
     }
   }
 
