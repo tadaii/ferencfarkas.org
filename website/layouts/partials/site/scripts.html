@@ -1,5 +1,4 @@
-{{ $app := resources.Get "js/app.js" | js.Build (dict "target" "es2015" "minify" true) | resources.Fingerprint "sha512"
-}}
+{{ $app := resources.Get "js/app.js" | js.Build (dict "target" "es2015" "minify" true) | resources.Fingerprint "sha512" }}
 <script defer src="{{ $app.Permalink }}"></script>
 <script defer src="/js/flickity.pkgd.min.js"></script>
 <script defer src="/js/wavesurfer.min.js"></script>
