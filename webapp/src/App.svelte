@@ -199,10 +199,11 @@
           {/if}
           <WorkList
             catalogue={data.catalogue}
-            i18n={data.i18n}
+            {embedded}
             fields={data.catalogue.fields}
             fullList={works}
             filteredList={results}
+            i18n={data.i18n}
             publishers={data.catalogue.publishers}
             {state}
             on:refine={refine}

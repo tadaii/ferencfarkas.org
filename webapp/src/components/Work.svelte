@@ -2,6 +2,7 @@
   import { formatDuration } from '../helpers/format'
 
   export let categories = {}
+  export let embedded = false
   export let index = -1
   export let reworkActive = false
   export let work = {}
@@ -82,12 +83,13 @@
     </h5>
   {/if}
 
-  <!-- {#if work.story && !embedded}
+  <!-- Story -->
+  {#if work.story && !embedded}
     <a class="more" href={work.story}> About the work </a>
-  {/if} -->
+  {/if}
 
   <!-- Multimedia -->
-  {#if work.story || work.audios}
+  {#if work.audios}
     <div class="work--multimedia">
       {#if work.audios}
         {#each work.audios as audio}

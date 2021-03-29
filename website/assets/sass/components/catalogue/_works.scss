@@ -24,6 +24,10 @@
     &.visible {
       display: flex;
     }
+
+    .embedded & {
+      padding-top: 0;
+    }
   }
 
   &--list {
@@ -282,7 +286,7 @@
 
       .work--multimedia {
         margin-top: 1rem;
-        margin-bottom: -0.75rem;
+        margin-bottom: 0.75rem;
         padding-top: 0.75rem;
         border-top: 1px dashed rgba(0,0,0, 0.15);
       }
@@ -302,7 +306,7 @@
       .work--detail-toogle {
         position: relative;
         display: flex;
-        margin: 1.5rem -1.5rem 0;
+        margin: 1rem -1.5rem 0;
         height: 2rem;
         width: calc(100% + 3rem);
         background-color: rgba(255,255,255, 0.125);

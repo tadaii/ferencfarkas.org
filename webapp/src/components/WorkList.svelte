@@ -5,6 +5,7 @@
   import WorkFields from './WorkFields.svelte'
 
   export let catalogue = {}
+  export let embedded = false
   export let i18n = {}
   export let fields = []
   export let filteredList = []
@@ -18,6 +19,7 @@
   let container
 
   $: updateWorks(fullList, filteredList)
+  $: reworkActive = state.reworksOf && filteredList.length > 1
   $: reworkTitle = getReworkTitle(state.reworksOf)
 
   function updateWorks(fullList, filteredList) {
@@ -132,7 +134,7 @@
   }
 </script>
 
-<div class="works--rework-info" class:visible={state.reworksOf}>
+<div class="works--rework-info" class:visible={reworkActive}>
   <p>
     You are seeing the list of works that have been reworked based on
     <strong>{reworkTitle}</strong>.
@@ -145,19 +147,25 @@
     > by clicking ony any of the "Rework" / "Reworked" buttons.
   </p>
 </div>
+
+{#if embedded && !reworkActive}
+  <br />
+{/if}
+
 <ul
   class="works--list"
   bind:this={container}
   on:click={onClick}
   class:show-id={state.showID}
-  class:show-reworks={state.reworksOf}
+  class:show-reworks={reworkActive}
 >
   <li class="reworks-sep">Reworks</li>
   {#each works as work (work.id)}
     <Work
       categories={catalogue.categories}
+      {embedded}
       index={work.index}
-      reworkActive={Boolean(state.reworksOf)}
+      {reworkActive}
       {work}
     />
   {/each}
