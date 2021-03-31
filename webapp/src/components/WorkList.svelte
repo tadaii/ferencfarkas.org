@@ -134,19 +134,21 @@
   }
 </script>
 
-<div class="works--rework-info" class:visible={reworkActive}>
-  <p>
-    You are seeing the list of works that have been reworked based on
-    <strong>{reworkTitle}</strong>.
-    <br />
-    You can go
-    <button
-      class="link back"
-      on:click|stopPropagation={dispatch('toggleReworks', state.reworksOf)}
-      >back to the previous list</button
-    > by clicking ony any of the "Rework" / "Reworked" buttons.
-  </p>
-</div>
+{#if !embedded && reworkActive}
+  <div class="works--rework-info" class:visible={reworkActive}>
+    <p>
+      You are seeing the list of works that have been reworked based on
+      <strong>{reworkTitle}</strong>.
+      <br />
+      You can go
+      <button
+        class="link back"
+        on:click|stopPropagation={dispatch('toggleReworks', state.reworksOf)}
+        >back to the previous list</button
+      > by clicking ony any of the "Rework" / "Reworked" buttons.
+    </p>
+  </div>
+{/if}
 
 {#if embedded && !reworkActive}
   <br />

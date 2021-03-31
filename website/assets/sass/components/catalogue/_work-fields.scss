@@ -1,15 +1,9 @@
 .works--list {
   dl {
     margin-top: 1rem;
-    padding: 1rem 0 1.5rem;
+    padding: 1rem 1rem 1.5rem;
     border-top: 1px dashed rgba(0,0,0, 0.15);
-    font-size: 1rem;
-    
-    @media screen and (min-width: 560px) {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
+    font-size: 1.1rem;
   }
 
   &.show-reworks > li[style*="order: 0"] {
@@ -34,15 +28,6 @@
     color: inherit;
     opacity: 0.5;
 
-    @media screen and (min-width: 560px) {
-      flex: 0 0 20%;
-      padding-top: 1.2rem;
-      padding-right: 0.75rem;
-      text-overflow: ellipsis;
-      overflow: hidden;
-      text-align: right;
-    }
-
     &:after {
       content: ':';
     }
@@ -50,13 +35,6 @@
 
   dd {
     margin: 0;
-
-    @media screen and (min-width: 560px) {
-      flex:0 0 80%;
-      padding-top: 1rem;
-      margin-left: auto;
-      text-align: left;
-    }
   }
 
   ul {
