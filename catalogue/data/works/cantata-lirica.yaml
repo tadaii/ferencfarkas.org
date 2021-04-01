@@ -1,0 +1,35 @@
+---
+audios:
+  - id: cantata-lirica-1
+    description: Emléke visszacsillog / Still fällt ein sanftes Leuchten
+  - id: cantata-lirica-2
+    description: Elszállt szerelem illatától / Ich fühl versunkner Liebe Sehnen
+category: cantata_oratorio 
+composition_date: 1945
+date: 2021-04-01
+description: Cantata for mixed choir and orchestra
+duration: 1380
+id: cantata-lirica
+movements:
+  - title: Andante
+  - title: Emléke visszacsillog / Still fällt ein sanftes Leuchten 
+  - title: Elünk szép Violámmal / Komm Liebste
+  - title: Elszállt szerelem illatától / Ich fühl versunkner Liebe Sehnen
+  - title: Szép a világ / Schön ist die Welt
+  - title: Emléke visszacsillog / Still fällt ein sanftes Leuchten 
+publications:
+  - publisher_id: emb
+    type: all
+setting: '2 (picc.), 2, 2, 2 – 3, 2, 1, o – arpa, cel. – archi'
+texts:
+  la: in hungarian by Jenő Dsida
+  de: German translated by Anneliese Eulau-Felsenstein
+title:
+  main: la
+  original: hu
+  sort:
+    - la
+    - hu
+  translations:
+    la: Cantata lirica
+    hu: Szent János kútja 
