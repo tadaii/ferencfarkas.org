@@ -4,6 +4,7 @@ import resolve from '@rollup/plugin-node-resolve';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import css from 'rollup-plugin-css-only';
+import babel from 'rollup-plugin-babel';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -17,7 +18,7 @@ function serve() {
 	return {
 		writeBundle() {
 			if (server) return;
-			server = require('child_process').spawn('npm', ['run', 'start', '--', '--dev'], {
+			server = require('child_process').spawn('npm', ['run', '_start', '--', 'dev'], {
 				stdio: ['ignore', 'inherit', 'inherit'],
 				shell: true
 			});
@@ -34,7 +35,7 @@ export default {
 		sourcemap: true,
 		format: 'iife',
 		name: 'app',
-		file: 'public/build/bundle.js'
+		file: '../website/static/js/catalogue.js'
 	},
 	plugins: [
 		svelte({
@@ -45,7 +46,7 @@ export default {
 		}),
 		// we'll extract any component CSS out into
 		// a separate file - better for performance
-		css({ output: 'bundle.css' }),
+		css({ output: 'catalogue.css' }),
 
 		// If you have external dependencies installed from
 		// npm, you'll most likely need these plugins. In
@@ -64,7 +65,30 @@ export default {
 
 		// Watch the `public` directory and refresh the
 		// browser on changes when not in production
-		!production && livereload('public'),
+		!production && livereload('../website/static/js'),
+
+		babel({
+			extensions: ['.js', '.mjs', '.html', '.svelte'],
+			runtimeHelpers: true,
+			exclude: ['node_modules/@babel/**'],
+			presets: [
+				[
+					'@babel/preset-env',
+					{
+						targets: '> 0.25%, not dead'
+					}
+				]
+			],
+			plugins: [
+				'@babel/plugin-syntax-dynamic-import',
+				[
+					'@babel/plugin-transform-runtime',
+					{
+						useESModules: true
+					}
+				]
+			]
+		}),
 
 		// If we're building for production (npm run build
 		// instead of npm run dev), minify

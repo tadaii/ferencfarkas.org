@@ -1,7 +1,7 @@
 ---
 title: Vidróczki
 subTitle: Popular romantic opera in 3 acts
-# heroImage: /img/hero/hero4.jpg
+draft: true
 date: 2019-11-09
 menu:
   main:

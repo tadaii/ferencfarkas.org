@@ -39,6 +39,10 @@
     &--controls {
       display: flex;
       align-items: center;
+
+      .play[disabled] {
+        opacity: 0.5;
+      }
     }
 
     &--meta {
@@ -59,6 +63,11 @@
 
       p {
         font-weight: 100;
+        line-height: 1;
+        margin-top: 0.5rem;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
       }
     }
 
@@ -233,7 +242,7 @@
         content: '';
         display: block;
         margin-top: .75rem;
-        width: .4rem;
+        width: 6px;
         height: 1.5rem;
         background-color: rgba(0,0,0, .5);
 
@@ -256,7 +265,7 @@
         &:before,
         &:after {
           margin-top: .375rem;
-          width: .2rem;
+          width: 3px;
           height: .75rem;
         }
 

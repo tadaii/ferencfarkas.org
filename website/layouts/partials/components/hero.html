@@ -8,7 +8,9 @@
     <div class="hero--text">
       <h1>
         {{ .Title }}
-        {{ if .Params.SubTitle }}<span class="hero--subtitle">{{ .Params.SubTitle }}</span>{{ end }}
+        {{- if .Params.SubTitle -}}
+        <span class="hero--subtitle">{{ .Params.SubTitle }}</span>
+        {{- end -}}
       </h1>
     </div>
   </div>

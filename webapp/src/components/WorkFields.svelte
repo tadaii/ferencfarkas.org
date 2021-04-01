@@ -1,4 +1,5 @@
 <script>
+  import { formatDate, formatDuration } from '../helpers/format'
   export let fields = []
   export let i18n = {}
   export let publishers = {}
@@ -7,54 +8,36 @@
   const SKIP_WORK_KEYS = [
     'audios',
     'category',
-    'date',
+    'composition_date',
     'default',
     'description',
+    'duration',
     'facets',
     'filtered',
     'genre',
     'id',
     'isDefaultVersion',
+    'lastUpdate',
+    'order',
     'rework',
     'rework_of',
     'story',
     'title',
     'versions',
+    'visible',
     'works',
   ]
 
   const workFields = Object.entries(work)
-    .filter(([ key ]) => !SKIP_WORK_KEYS.includes(key))
-    .sort((a,b) => {
-        const posA = fields.indexOf(a[0])
-        const posB = fields.indexOf(b[0])
-        return posA > posB ? 1 : posA < posB ? -1 : 0
-      })
-      .map(([ key, value ]) => ({ key, value }))
-
-  function formatDuration(seconds) {
-    const h = Math.floor(seconds / 3600)
-    const m = Math.floor((seconds - (h * 3600)) / 60)
-    const s = Math.floor(seconds - (h * 3600) - (m * 60))
-
-    let str = ''
-
-    if (h > 0) str += `${h}h `
-    if (m > 0) str += `${m}‘ `
-    if (s > 0) str += `${s}”`
-
-    return str
-  }
-
-  function formatDate(date) {
-    return (new Date(date)).toLocaleString('en-GB', {
-      year: 'numeric',
-      month: 'short',
-      day: 'numeric'
+    .filter(([key]) => !SKIP_WORK_KEYS.includes(key))
+    .sort((a, b) => {
+      const posA = fields.indexOf(a[0])
+      const posB = fields.indexOf(b[0])
+      return posA > posB ? 1 : posA < posB ? -1 : 0
     })
-  }
+    .map(([key, value]) => ({ key, value }))
 
-  function getWorldPremiere({date, location}) {
+  function getWorldPremiere({ date, location }) {
     let dateLocation = []
 
     if (date) {
@@ -72,69 +55,92 @@
   }
 </script>
 
-<dl class="work--fields">
+<dl>
   {#each workFields as { key, value }}
-    <div class="work--field">
-      <dt class={key}>{i18n.fields[key]}</dt>
-      <dd>
-        {#if key === 'cast'}
-          <ul>
-            {#each value as {  role, voice }}
-              <li>
-                {role} - <span>{voice}</span>
-              </li>
-            {/each}
-          </ul>
-        {:else if key === 'duration'}
-          {formatDuration(value)}
-        {:else if key === 'libretto' || key === 'texts'}
-          <ul>
-            {#each Object.values(value) as item}
-              <li>{item}</li>
-            {/each}
-          </ul>
-        {:else if key === 'movements'}
-          <ul class="movements">
-            {#each value as movement, index}
-              <li class="movement">
-                <span class="movement--pos">{index + 1})</span>
-                <span class="movement--title">{movement.title}</span>
-                {#if movement.duration}
+    <dt>{i18n.fields[key] || key}</dt>
+    <dd>
+      {#if key === 'cast'}
+        <ul>
+          {#each value as { role, voice }}
+            <li>
+              {role}
+              {#if voice}
+                - <em>{voice}</em>
+              {/if}
+            </li>
+          {/each}
+        </ul>
+      {:else if key === 'duration'}
+        {formatDuration(value)}
+      {:else if key === 'libretto' || key === 'texts'}
+        <ul>
+          {#each Object.values(value) as item}
+            <li>{item}</li>
+          {/each}
+        </ul>
+      {:else if key === 'movements'}
+        <ul class="movements">
+          {#each value as movement, index}
+            <li class="movement">
+              <span class="movement--pos">{index + 1})</span>
+              <span class="movement--title">{movement.title}</span>
+              {#if movement.duration}
                 <span class="movement--duration">
                   {formatDuration(movement.duration)}
                 </span>
-                {/if}
-              </li>
-            {/each}
-          </ul>
-        {:else if key === 'publications'}
-          <ul>
-            {#each value as publisher}
-              <li>
-                {#if publisher.type !== 'all'}
-                  <span>{publisher.type}:</span>
-                {/if}
-                <a href="#" class="link">
+              {/if}
+            </li>
+          {/each}
+        </ul>
+      {:else if key === 'publications'}
+        <ul>
+          {#each value as publisher}
+            <li>
+              {#if publisher.type !== 'all'}
+                <em>{publisher.type}:</em>
+              {/if}
+              {#if publishers[publisher.publisher_id].url}
+                <a
+                  href={publishers[publisher.publisher_id].url}
+                  class="link"
+                  target="_blank"
+                >
                   {publishers[publisher.publisher_id].name}
                 </a>
-              </li>
+              {:else}
+                {publishers[publisher.publisher_id].name}
+                <div class="work-input">
+                  Do you have info about this publisher?
+                  <br />
+                  <a
+                    href="/contact?publisher={publisher.publisher_id}"
+                    target="_blank"
+                    class="button"
+                    on:click={e => e.stopPropagation()}
+                  >
+                    Please let us know!
+                  </a>
+                </div>
+              {/if}
+            </li>
+          {/each}
+        </ul>
+      {:else if key === 'world_premiere'}
+        {#if value.credits}
+          <ul>
+            <li>{getWorldPremiere(value)}</li>
+            {#each value.credits as credit}
+              <li>{credit}</li>
             {/each}
           </ul>
-        {:else if key === 'world_premiere'}
-          {#if value.credits}
-            <ul>
-              <li>{getWorldPremiere(value)}</li>
-              {#each value.credits as credit}
-                <li>{credit}</li>
-              {/each}
-            </ul>
-          {:else}
-            {getWorldPremiere(value)}
-          {/if}
         {:else}
-          {value}
+          {getWorldPremiere(value)}
         {/if}
-      </dd>
-    </div>
+      {:else if key === 'date'}
+        {formatDate(value)}
+      {:else}
+        {value || '-'}
+      {/if}
+    </dd>
   {/each}
 </dl>

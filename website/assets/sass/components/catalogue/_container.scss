@@ -1,9 +1,17 @@
 .catalogue {
   .list {
+    margin-top: -1.8rem;
     padding-top: 0;
     padding-bottom: 0;
     min-width: calc(100% - 19.25rem);
     min-height: 15rem;
+  }
+
+  &.embedded,
+  &.rework-mode {
+    .list {
+      margin-top: 0;
+    }
   }
 
   .refine,
@@ -30,7 +38,7 @@
 
   .refine {
     position: absolute;
-    right: -.75rem;
+    right: 0;
     height: 100%;
     min-height: 20rem;
     padding: 0;
@@ -94,7 +102,7 @@
     &.sticked {
       position: fixed;
       top: 0;
-      right: auto;
+      // right: auto;
       height: 100%;
     }
 
@@ -125,11 +133,19 @@
       align-items: center;
 
       button {
-        margin-left: 1rem;
+        margin-left: 0.5rem;
         background: none;
         border: none;
         outline: none;
         cursor: pointer;
+      }
+    }
+
+    .spacer {
+      display: none;
+
+      @media screen and (min-width: 768px) {
+        display: block;
       }
     }
   }

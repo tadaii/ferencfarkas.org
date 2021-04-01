@@ -12,7 +12,7 @@
     NODE_ENV = "production"
 
 [context.deploy-preview]
-    command = "npm run prebuild && cd ./website && hugo -b $DEPLOY_PRIME_URL"
+    command = "npm run prebuild -- dev && npm run webapp:build && cd ./website && hugo -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-    command = "npm run prebuild && cd ./website && hugo -b $DEPLOY_PRIME_URL"
+    command = "npm run prebuild -- dev && npm run webapp:build && cd ./website && hugo -b $DEPLOY_PRIME_URL"

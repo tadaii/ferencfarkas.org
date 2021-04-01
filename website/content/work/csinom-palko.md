@@ -1,20 +1,73 @@
 ---
-title: "Csinom Palko"
-subTitle: "Popular romantic opera in 3 acts"
-date: 2019-11-09
+title: Csinom Palko
+subTitle: Popular romantic opera in 3 acts
+date: 2020-03-20
 menu:
   main:
     parent: 'work'
     weight: 100
 ---
 
-About the work
-In 1949 I was asked to write a Singspiel for the radio: Csínom Palkó. The task didn’t exactly please me and the libretto of András Dékány rested on my piano for a long time before I decided to read it. Lying on my bed, I noted down in the margin where the most important melodies would come, those which later became the most popular : Friend, come here (Pajtás gyere hát), Good Night (Jó éjszakát) and With my faithful heart (Hűséges szívemmel).
-Csínom Palkó was broadcast for the first time on 22 January 1950. Though not a word about the work appeared in the press, but the success of the Singspiel on the radio was so resounding that it was suggested that I adapt it for the stage. But this posed an important question: should I recreate it in the form of an opera or an operetta? In whichever form, the character of the work would undergo a profound change and the interpreters wouldn’t be the same: with singer-actors or actor-singers. Finally, it was an opera version which prevailed, contrary to my initial conception. The profile of the leading characters occasioned interminable discussions which appear ludicrous today but in that period their message had to serve the Communist doctrine : for example, the role of Ádám Balogh, the Captain of the Kuruc, had to be rethought, not as a Captain, but as a Party Secretary. I was also asked to increase the cast in composing new numbers, new trios and a finale for the choir in order to utilise the greatest number of singers. The première took place at the Budapest Opera on 1951 but, with a poor cast and inept direction, its success couldn’t be repeated and it had only twenty-five performances.
-On the other hand in the regions and abroad – Leningrad, Vilnius, Plauen, Erfurt, Magdeburg, Vienna - Csínom Palkó met with great success. In Moscow, going against their promises, the Soviets revised the text and gave it a new title: The Eagle’s Feathers. In 1953 in Sofia, I had an unpleasant surprise: I could hardly recognise my own work. Only by dosing myself with tranquillizers was I able to stop a nervous attack listening to the appalling noise. The ambassador of Hungary, Ferenc Münnich, persuaded me to stay for the première and not to make a scene, as that would inevitably have provoked a scandal. By contrast, in 1954 in Košice, I reached the heights. The opera, given in Slovak, was immediately an immense success; I have never experienced anything to compare with it. The enthusiasm of the public reached a peak when the Kurucs entered the scene brandishing the red and blue flag, Rákóczi’s colours. It should be said that Košice, which was part of Hungary until the end of the First World War, possessed a very strong Hungarian constituent (more than 65%). Seeing the enormous success of Csínom Palkó, the authorities feared it might provoke an incident and after twenty-five performances it was removed from the concert programme.
-Ferenc Farkas
-Extract from the book of András Farkas “Mon père m’a raconté”.
-Csínom Palkó was the subject of a film (1973).
-The plot
-The story takes place in 1705 during the insurrection of Ferenc Rákóczi, Prince of Transylvania, against Habsburg domination: two brothers, Palkó and Jankó, have heard that Ádám Balogh, loyal to Prince Rákóczi, and his army of Kurucs want to liberate the fortress of Ersekújvár, held by the Labanc, the Hungarian soldiers in the pay of the Habsburgs. In an inn, they meet Márton Rosta, a spy disguised as a wandering gingerbread seller and his daughter Éduska. Palkó falls deeply in love with her. The four heroes join the Kurucs, who encircle Ersekújvár. Palkó and Jankó have a mission to enter the fortress and steal the plans. Éduska, who accompanies them disguised as a servant, overhears a conversation: two Imperial armies are approaching Ersekújvár. She informs Ádám Balogh, who decides to attack the citadel immediately. The castle is taken and the two brothers are congratulated on their courage in battle. The marriage of Palkó and Éduska is celebrated before the victorious army of Kurucs proceed on towards Bratislava and Vienna.
+{{% section highlight %}}
 
+{{% row %}}
+{{% column %}}
+
+> In 1949 I was asked to write a Singspiel for the radio: *Csínom Palkó*.
+> 
+> The task didn’t exactly please me and the libretto of
+> [András Dékány](https://www.imdb.com/name/nm1583631/) rested
+> on my piano for a long time before I decided to read it and note down
+> in the margin where the most important melodies would come, those which
+> later became the most popular ones: 
+> Pajtás gyere hát (Friend, come here),
+> Jó éjszakát (Good Night) and
+> Hűséges szívemmel (With my faithful heart).
+
+{{% /column %}}
+{{% column %}}
+
+> Csínom Palkó was broadcasted for the first time on January 22nd, 1950.
+> Its success was so resounding that I was suggested to adapt it in the
+> form of an opera. The première took place at the Budapest Opera on 1951.
+> {{< author name="Ferenc Farkas" ref="Extract from the book by András Farkas [Mon père m’a raconté…](http://www.editions-delatour.com/fr/biographies-entretiens/3727-mon-pere-m-a-raconte-la-vie-du-compositeur-hongrois-ferenc-farkas-9782752103079.html)" >}}
+
+{{% /column %}}
+{{% /row %}}
+{{% /section %}}
+{{% section invert %}}
+## The plot
+
+{{% row %}}
+{{% column %}}
+
+The story takes place in 1705 during the insurrection of
+**[Ferenc Rákóczi](https://en.wikipedia.org/wiki/Francis_II_R%C3%A1k%C3%B3czi)**,
+prince of Transylvania, against Habsburgs domination.
+
+Two brothers, **Palkó** and **Jankó**, have heard that
+[**Ádám Balogh**](https://en.wikipedia.org/wiki/%C3%81d%C3%A1m_Balogh) and
+his army of Kurucs are trying to liberate the fortress of
+[Ersekújvár](https://en.wikipedia.org/wiki/Nov%C3%A9_Z%C3%A1mky).
+
+In an inn, they meet **Márton Rosta** and his daughter **Éduska**.
+**Palkó** falls madly in love with her. The four heroes, joining the Kuruc,
+inform them that two Imperial armies are approaching Ersekújvár.
+**Ádám Balogh** decides to attack the citadel.
+
+The castle is taken and the two brothers are congratulated for their
+courage in battle. The story ends with the marriage of **Palkó** and **Éduska**.
+
+The music of the opera was reworked in the form of suites,
+for orchestra or wind orchestra, lieder and choir.
+
+**Csínom Palkó** has been the subject of a film (1973).
+
+{{% /column %}}
+{{% column %}}
+
+{{< catalogue work-id="csinom-palko" >}}
+
+{{% /column %}}
+{{% /row %}}
+{{% /section %}}

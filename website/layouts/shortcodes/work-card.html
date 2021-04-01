@@ -17,20 +17,20 @@
 
   <h4>
     {{- range $work.title.translations -}}
-      {{- if not (eq . $title) -}}
-        <span class="work-card--title">{{ . }}</span>
-      {{- end -}}
+    {{- if not (eq . $title) -}}
+    <span class="work-card--title">{{ . }}</span>
+    {{- end -}}
     {{- end -}}
   </h4>
 
   <h5>{{ $work.description }}</h5>
 
   {{- if $storyRef -}}
-    {{- with .Site.GetPage $storyRef -}}
-      {{- if .Params.HeroImage -}}
-        <img loading="lazy" src="{{ .Params.HeroImage }}" style="width:10rem">
-      {{- end -}}
-    {{- end -}}
+  {{- with .Site.GetPage $storyRef -}}
+  {{- if .Params.HeroImage -}}
+  <img loading="lazy" src="{{ .Params.HeroImage }}" style="width:10rem">
+  {{- end -}}
+  {{- end -}}
   {{- end -}}
 
   {{- if len .Inner | ne 0 -}}
@@ -44,14 +44,17 @@
   {{- if $work.audios -}}
   <div class="work-card--audios">
     {{- range first 2 $work.audios -}}
-      {{- partial "shortcodes/play" (dict "id" .id "title" .description "small" true) -}}
+    {{- partial "shortcodes/play" (dict "id" .id "title" .description "small" true) -}}
     {{- end -}}
   </div>
   {{- end -}}
 
-  {{- if $storyRef -}}
+  <div class="work-card--link">
+    <!-- <div class="spacer"></div> -->
+    {{- if $storyRef -}}
     {{- partial "shortcodes/more" (dict "href" $storyRef "text" "About the work") -}}
-  {{- else -}}
+    {{- else -}}
     {{- partial "shortcodes/more" (dict "href" (printf "%s%s" "/work?q=id:" $id) "text" "More details") -}}
-  {{- end -}}
+    {{- end -}}
+  </div>
 </div>

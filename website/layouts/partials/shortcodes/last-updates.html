@@ -1,3 +1,96 @@
+{{- $date := dateFormat "Monday, Jan 2, 2006" .lastUpdates.date -}}
+{{- $since := dateFormat "Monday, Jan 2, 2006" .lastUpdates.since -}}
+{{- $audiosA := len .lastUpdates.audios.A -}}
+{{- $audiosU := len .lastUpdates.audios.U -}}
+{{- $worksA := len .lastUpdates.works.A -}}
+{{- $worksU := len .lastUpdates.works.U -}}
+{{- $storiesA := len .lastUpdates.stories.A -}}
+{{- $storiesU := len .lastUpdates.stories.U -}}
 <div class="last-updates">
   <h3>Last updates</h3>
+  <p>
+    The website was last updated on <strong>{{ $date }} </strong>.
+    <br />
+    Here's what changed since the previous release on <em>{{ $since }}</em>:
+  </p>
+  <ul>
+    <li>
+      <div class="last-updates--category">
+        {{- partial "icons/feather.svg" -}}
+        <span class="label">Works</span>
+      </div>
+      <div class="last-updates--stat">
+        <span class="count">
+          {{- if eq $worksA 0 -}}
+          -
+          {{- else -}}
+          {{ $worksA }}
+          {{- end -}}
+        </span>
+        <span class="label">added</span>
+      </div>
+      <div class="last-updates--stat">
+        <span class="count">
+          {{- if eq $worksU 0 -}}
+          -
+          {{- else -}}
+          {{ $worksU }}
+          {{- end -}}
+        </span>
+        <span class="label">updated</span>
+      </div>
+    </li>
+    <li>
+      <div class="last-updates--category">
+        {{- partial "icons/music.svg" -}}
+        <span class="label">Audios</span>
+      </div>
+      <div class="last-updates--stat">
+        <span class="count">
+          {{- if eq $audiosA 0 -}}
+          -
+          {{- else -}}
+          {{ $audiosA }}
+          {{- end -}}
+        </span>
+        <span class="label">added</span>
+      </div>
+      <div class="last-updates--stat">
+        <span class="count">
+          {{- if eq $audiosU 0 -}}
+          -
+          {{- else -}}
+          {{ $audiosU }}
+          {{- end -}}
+        </span>
+        <span class="label">updated</span>
+      </div>
+    </li>
+    <li>
+      <div class="last-updates--category">
+        {{- partial "icons/article.svg" -}}
+        <span class="label">Stories</span>
+      </div>
+      <div class="last-updates--stat">
+        <span class="count">
+          {{- if eq $storiesA 0 -}}
+          -
+          {{- else -}}
+          {{ $storiesA }}
+          {{- end -}}
+        </span>
+        <span class="label">added</span>
+      </div>
+      <div class="last-updates--stat">
+        <span class="count">
+          {{- if eq $storiesU 0 -}}
+          -
+          {{- else -}}
+          {{ $storiesU }}
+          {{- end -}}
+        </span>
+        <span class="label">updated</span>
+      </div>
+    </li>
+  </ul>
 </div>

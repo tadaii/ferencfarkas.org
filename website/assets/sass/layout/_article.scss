@@ -15,4 +15,29 @@ article {
   h2 {
     font-size: 2.5rem;
   }
+
+  &.work {
+    .hero {
+      margin-bottom: 4rem;
+
+      h1 span {
+        font-size: 1.5rem;
+      }
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    .footer {
+      position: relative;
+      padding-top: 2rem;
+      margin: -8rem auto 8rem;
+
+      .more {
+        position: absolute;
+        left: calc(100% - 16rem);
+      }
+    }
+  }
 }
