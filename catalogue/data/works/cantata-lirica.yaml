@@ -4,6 +4,8 @@ audios:
     description: Emléke visszacsillog / Still fällt ein sanftes Leuchten
   - id: cantata-lirica-2
     description: Elszállt szerelem illatától / Ich fühl versunkner Liebe Sehnen
+  - id: cantata-lirica-3
+    description: Szép a világ / Schön ist die Welt
 category: cantata_oratorio 
 composition_date: 1945
 date: 2021-04-01
