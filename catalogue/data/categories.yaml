@@ -71,8 +71,8 @@
   title: Voice and other instrument(s) or orchestra
   genre: vocal
 - id: incidental
-  tag: Incidental / Radio
-  title: Incidental music, Radio plays
+  tag: Incidental music
+  title: Incidental music
   genre: incidental
 - id: film
   tag: Film
