@@ -1,12 +1,12 @@
 ---
 audios:
-  - id: 
-    description: 
-  - id: 
-    description: 
+  - id: preludio-e-fuga-1
+    description: Preludio
+  - id: preludio-e-fuga-2
+    description: Fuga
 category: orchestra
 composition_date: 1944-1947
-date: 2020-12-27
+date: 2021-04-12
 description: for orchestra
 duration: 540
 id: preludio-e-fuga
