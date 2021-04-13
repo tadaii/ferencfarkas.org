@@ -1,4 +1,7 @@
 ---
+audios:
+  - id: sonnet-VII-de-louise-labe
+    description: Extract version for voice and piano
 category: voice_piano
 composition_date: 1944
 date: 2021-04-13
