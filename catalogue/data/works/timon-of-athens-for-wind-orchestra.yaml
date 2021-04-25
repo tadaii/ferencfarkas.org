@@ -7,7 +7,7 @@ audios:
 category: wind
 composition_date: 1967
 date: 2021-01-19 
-description: Suite for wind orchestra
+description: 3 pieces for wind orchestra from the incidental music to "Timon of Athens" by William Shakespeare
 duration: 660
 id: timon-of-athens-for-wind-orchestra
 movements:
@@ -29,4 +29,3 @@ title:
   translations:
     en: Timon of Athens
     hu: Furfangos diákok
-version: 3 pieces for wind orchestra from the incidental music to "Timon of Athens" by William Shakespeare
