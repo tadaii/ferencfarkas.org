@@ -1,0 +1,20 @@
+---
+audios:
+  - id: ballade
+    description: Extract
+category: chamber
+composition_date: 1963
+date: 2021-04-25
+description: for violoncello and piano
+duration: 480
+id: ballade
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Ballade
