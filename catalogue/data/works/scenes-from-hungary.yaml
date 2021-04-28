@@ -1,0 +1,36 @@
+---
+audios:
+  - id: scenes-from-hungary-1
+    description: Trinkspruch / Toast / Pohárköszöntő
+  - id: scenes-from-hungary-2
+    description: Der Hirt / The Shepherd / A pásztor
+category: chamber
+composition_date: 1980
+date: 2021-04-28
+dedication: to the Swiss Clarinet Players
+description: Suite for 4 clarinets
+duration: 540
+id: scenes-from-hungary
+movements:
+  - title: Trinkspruch / Toast / Pohárköszöntő
+  - title: Spiel / Play / Játék
+  - title: Lied des Flüchtlings / The Fugitive's song / A bujdosó dala
+  - title: Der Hirt / The Shepherd / A pásztor
+  - title: Trauerglocken / Funeral Bells / Gyászharangok
+  - title: Hochzeitslied / Wedding song / Lakodalmas
+  - title: Kummer und Trost / Sorrow and consolation / Borúra derű
+  - title: Reigen / Round / Körtánc
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - de
+    - hu 
+  translations:
+    en: Scenes from Hungary
+    de: Szenen aus Ungarn
+    hu: Magyar jelenetek
