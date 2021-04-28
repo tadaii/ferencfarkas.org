@@ -1,0 +1,22 @@
+---
+category: chamber
+composition_date: 1987
+date: 2021-04-28
+description: 4 melodies for 3 guitars from the 18th century 
+duration: 600
+id: musique-de-Ugrocz
+movements:
+  - title: Preambulum 
+  - title: Ad mensam 
+  - title: Compliment-Tanz
+  - title: Serta saltationum hungarorum
+publications:
+  - publisher_id: curci
+    type: all
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Musique de Ugrócz  

@@ -1,0 +1,23 @@
+---
+audios:
+  - id: notturno
+    description: Andante
+category: chamber
+composition_date: 1929
+date: 2021-04-28
+description: for violin, viola and violoncello 
+duration: 672
+id: notturno
+movements:
+  - title: Andante 
+  - title: Allegretto
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Notturno  
