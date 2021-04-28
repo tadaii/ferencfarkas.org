@@ -1,0 +1,21 @@
+---
+audios:
+  - id: ricordanze-for-english-horn-violin-viola-and-violoncello
+    description: Extract
+category: chamber
+composition_date: 1984
+date: 2021-04-28
+description: for English horn, violin, viola and violoncello
+duration: 600
+id: ricordanze-for-english-horn-violin-viola-and-violoncello
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: ricordanze
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Ricordanze  
