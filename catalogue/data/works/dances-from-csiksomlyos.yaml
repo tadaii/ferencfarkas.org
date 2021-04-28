@@ -1,0 +1,23 @@
+---
+audios:
+  - id: dances-from-csiksomlyos
+    description: Extract
+category: chamber
+composition_date: 1988
+date: 2021-04-28
+dedication: to Csaba Nagy
+description: for tárogató and cimbalom
+duration: 220
+id: dances-from-csiksomlyos
+publications:
+  - publisher_id: afp
+    type: all
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Dances from Csiksomlyós
+    hu: Csiksomlyósi táncok
