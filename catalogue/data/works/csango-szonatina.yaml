@@ -1,0 +1,25 @@
+---
+audios:
+  - id: csango-szonatina
+    description: Rondo
+category: chamber
+composition_date: 1977
+date: 2021-04-28 
+description: for 3 guitars
+duration: 300
+id: csango-szonatina
+movements:
+  - title: Sonatina
+  - title: Canzone
+  - title: Rondo
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: five-easy-piano-pieces
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Csángó szonatina 

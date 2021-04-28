@@ -1,0 +1,24 @@
+---
+audios:
+  - id: sonatina-for-harp
+    description: Allegro moderato
+category: solo
+date: 2021-04-28 
+description: for harp
+duration: 300
+id: sonatina-for-harp
+movements:
+  - title: Allegro moderato
+  - title: Andante
+  - title: Allegretto
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: five-easy-piano-pieces
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Sonatina
