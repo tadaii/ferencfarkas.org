@@ -1,0 +1,24 @@
+---
+audios:
+  - id: sonata-a-due
+    description: Allegro non troppo
+category: chamber
+composition_date: 1961
+date: 2021-04-29
+description: for viola and violoncello
+duration: 960
+id: sonata-a-due
+movements:
+  - title: Maestoso
+  - title: Andante moderato
+  - title: Allegro non troppo
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Sonata a due
