@@ -1,0 +1,24 @@
+---
+category: chamber
+date: 2021-04-29
+dedication: to Lajos Montág
+description: for double-bass or bassoon or violoncello and piano
+duration: 420
+id: sonatina-based-on-hungarian-folk-songs-for-double-bass-and-cimbalom
+movements:
+  - title: Allegro moderato
+  - title: Andante espressivo
+  - title: Allegro vivace
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: sonatina-based-on-hungarian-folk-songs
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Sonatina based on Hungarian folk songs
+    hu: Népdalszonatina
