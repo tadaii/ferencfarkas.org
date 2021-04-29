@@ -3,11 +3,11 @@ audios:
   - id: sonate-romantique-1
     description: Scherzo
   - id: sonate-romantique-2
-dedication: Hommage á Brahms
     description: Andante moderato
 category: chamber
 composition_date: 1982
 date: 2021-04-29
+dedication: Hommage á Brahms
 description: for bassoon and piano
 duration: 600
 id: sonate-romantique
