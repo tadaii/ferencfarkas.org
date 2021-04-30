@@ -1,0 +1,29 @@
+---
+category: chamber
+composition_date: 1982
+date: 2021-04.30
+dedication: Készült Vác Város Tanácsának felkérésére
+description: for 2 violins
+duration: 784
+id: ten-studies
+movements:
+  - title: Preludium
+  - title: Choral
+  - title: Sonatina
+  - title: Träumerei I
+  - title: Pizzicato
+  - title: Träumerei II
+  - title: Játék / Spiel
+  - title: Induló / Marsch
+  - title: Nocturne
+  - title: Vision fugitive
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: en
+  original: en
+  sort:
+    - en
+  translations:
+    en: Ten studies
