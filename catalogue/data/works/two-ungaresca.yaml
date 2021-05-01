@@ -1,0 +1,23 @@
+---
+audios:
+  - id: two-ungaresca
+    description: Ein ungarischer Tanz
+category: chamber
+composition_date: 1989
+date: 2021-05-01
+description: for tárogató and cimbalom or harpsichord
+duration: 126
+id: two-ungaresca
+movements:
+  - title: Ein ungarischer Tanz
+  - title: Ungaresca
+publications:
+  - publisher_id: afp
+    type: all
+title:
+  main: en
+  original: en
+  sort:
+    - en
+  translations:
+    en: Two ungaresca
