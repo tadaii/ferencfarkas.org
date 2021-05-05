@@ -1,0 +1,32 @@
+---
+audios:
+  - id: correspondances-1
+    description: Quasi lento
+  - id: correspondances-2
+    description: Allegro agitato
+category: solo
+composition_date: 1957
+date: 2021-05-05
+dedication: Ticharich Zdenka emlékének
+description: Suite for piano
+duration: 780
+id: correspondances
+movements:
+  - title: Andante
+  - title: Allegro
+  - title: Quasi lento 
+  - title: Allegretto
+  - title: Andante con moto
+  - title: Allegretto
+  - title: Lento, espressivo
+  - title: Allegro agitato
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Correspondances
