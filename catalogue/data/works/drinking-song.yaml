@@ -1,0 +1,19 @@
+---
+category: solo
+composition_date: 1937
+date: 2021-05-05
+description: for piano
+duration: 40
+id: drinking-song
+publications:
+  - publisher_id: emb
+    type: Piano music for beginners 2
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Drinking song
+    hu: Bordal
