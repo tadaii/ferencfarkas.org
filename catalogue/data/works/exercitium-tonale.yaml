@@ -1,0 +1,48 @@
+---
+audios:
+  - id: exercitium-tonale-1
+    description: Andante sostenuto
+  - id: exercitium-tonale-2
+    description: Una melodia semplice
+category: solo
+composition_date: 1982
+date: 2021-05-05
+dedication: to Angelo Gilardino
+description: 24 preludes for guitar
+duration: 1860
+id: exercitium-tonale
+movements:
+  - title: Intrada
+  - title: Andante
+  - title: Allegro 
+  - title: Allegro
+  - title: Allegro
+  - title: Andante sostenuto
+  - title: Una melodia semplice
+  - title: Andante moderato
+  - title: Gigue
+  - title: Andante meditativo
+  - title: Allegro
+  - title: Cavatina (Omaggio a Donizetti)
+  - title: Allegro
+  - title: Allegro leggero
+  - title: Tempo di Minuetto
+  - title: Moto perpetuo
+  - title: Canone
+  - title: In modo romantico (Omaggio a Schumann)
+  - title: Meditazione
+  - title: Andante moderato
+  - title: Allegro
+  - title: Andante
+  - title: Allegro
+  - title: Tempo di Gavotta
+publications:
+  - publisher_id: curci
+    type: all
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Exercitium tonale
