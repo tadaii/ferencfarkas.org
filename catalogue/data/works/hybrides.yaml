@@ -1,0 +1,33 @@
+---
+audios:
+  - id: hybrides-1
+    description: Tarantella
+  - id: hybrides-2
+    description: Notturno
+category: solo
+composition_date: 1957
+date: 2021-05-05
+description: Suite of 10 pieces for piano
+duration: 675
+id: hybrides
+movements:
+  - title: Soggetto
+  - title: Marcietta
+  - title: Melodia 
+  - title: Minuetto
+  - title: Tarantella
+  - title: Notturno
+  - title: Valsette
+  - title: Cadenza
+  - title: Fughetta
+  - title: Moto perpetuo
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Hybrides
