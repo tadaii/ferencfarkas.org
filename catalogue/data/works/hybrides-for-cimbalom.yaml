@@ -1,0 +1,31 @@
+---
+audios:
+  - id: hybrides-for-cimbalom
+    description: Marcietta
+category: solo
+composition_date: 1980
+date: 2021-05-06
+dedication: to Viktória Herencsár
+description: Suite of 8 pieces for cimbalom
+duration: 540
+id: hybrides-for-cimbalom
+movements:
+  - title: Soggetto
+  - title: Marcietta
+  - title: Minuetto 
+  - title: Tarantella
+  - title: Notturno
+  - title: Valsette
+  - title: Cadenza
+  - title: Moto perpetuo
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: hybrides
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Hybrides
