@@ -1,0 +1,30 @@
+---
+audios:
+  - id: six-pieces-breves-1
+    description: Danse guerrière
+  - id: six-pieces-breves-2
+    description: Tirnovo
+category: solo
+composition_date: 1970
+date: 2021-05-06
+dedication: to Angelo Gilardino
+description: Suite for guitar
+duration: 600
+id: six-pieces-breves
+movements:
+  - title: Preambolo
+  - title: Scène de ballet
+  - title: Danse guerrière 
+  - title: Grinzing
+  - title: Intermezzo
+  - title: Tirnovo
+publications:
+  - publisher_id: curci
+    type: all
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Six pièces brèves
