@@ -1,0 +1,20 @@
+---
+audios:
+  - id: tiento
+    description: Extract
+category: solo
+composition_date: 1993
+date: 2021-05-06
+description: for guitar
+duration: 180
+id: tiento
+publications:
+  - publisher_id: ascolta
+    type: all
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Tiento
