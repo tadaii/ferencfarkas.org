@@ -147,7 +147,7 @@ const buildAudioMap = catalogue => {
       map[audio.id] = {
         title: audio.description,
         detail: `${title} - ${category}`,
-        url: `/audio/${audio.id}.ogg`
+        url: `/audio/${audio.id}.mp3`
       }
     })
 
@@ -246,7 +246,8 @@ const getLastUpdates = async () => {
 
       if (change.filepath.startsWith('catalogue/data/works/')) {
         cat = 'works'
-      } else if (change.filepath.startsWith('catalogue/data/audio/')) {
+      } else if (change.filepath.startsWith('catalogue/data/audio/') ||
+        change.filepath.startsWith('catalogue/assets/audios/')) {
         cat = 'audios'
       } else if (change.filepath.startsWith('website/content/work/')) {
         cat = 'stories'
@@ -320,7 +321,7 @@ const getLastUpdates = async () => {
 
     // Copy audio files.
     await fs.mkdirp(dstAudioDir)
-    const srcAudioDir = join(src, 'data', 'audio')
+    const srcAudioDir = join(src, 'assets', 'audios')
     const audioFiles = await fs.readdir(srcAudioDir)
 
     for (let file of audioFiles) {
