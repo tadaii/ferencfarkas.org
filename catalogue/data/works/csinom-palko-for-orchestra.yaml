@@ -1,7 +1,3 @@
----
-audios:
-  - id: csinom-palko-for-orchestra 
-    description: Bevezetés /Introduction
 category: orchestra
 date: 2019-04-08T21:36:00.000Z
 description: Suite from the opera “Csínom Palkó” for orchestra adapted by Sándor Somló
@@ -22,7 +18,7 @@ publications:
   - publisher_id: afp
     type: performance material
 rework_of: csinom-palko
-setting: '1, 1, 2, 0 – 0, 2, 1, 0 – batt. – pf., harmonium, accordion – archi'
+setting: 1, 1, 2, 0 – 0, 2, 1, 0 – batt. – pf., harmonium, accordion – archi
 title:
   main: hu
   original: hu

@@ -1,7 +1,3 @@
----
-audios:
-  - id: dances-from-kallo
-    description: Dances from Kálló
 category: orchestra
 composition_date: 1931
 date: 2021-01-16
@@ -13,7 +9,7 @@ publications:
     type: score
   - publisher_id: afp
     type: performance material
-setting: '2, 2 (II = c.i.), 2, 2 - 2, 1, 1, 0 - pf. - archi'
+setting: 2, 2 (II = c.i.), 2, 2 - 2, 1, 1, 0 - pf. - archi
 title:
   main: en
   original: hu

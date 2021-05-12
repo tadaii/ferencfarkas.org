@@ -1,11 +1,7 @@
----
-audios:
-  - id: rhapsodia-carpatiana
-    description: Rhapsodia carpatiana 
 category: orchestra
 composition_date: 1941
 date: 2020-12-27
-description: for orchestra  
+description: for orchestra
 duration: 540
 id: rhapsodia-carpatiana
 publications:
@@ -13,11 +9,11 @@ publications:
     type: score
   - publisher_id: sidem
     type: piano conductor and performance material
-setting: '1, 1(c.i.), 2, 1 – 2, 2, 1, 0 – timp. – arpa ad lib. – archi'
+setting: 1, 1(c.i.), 2, 1 – 2, 2, 1, 0 – timp. – arpa ad lib. – archi
 title:
   main: la
   original: la
   sort:
     - la
   translations:
-    la: Rhapsodia carpatiana 
+    la: Rhapsodia carpatiana

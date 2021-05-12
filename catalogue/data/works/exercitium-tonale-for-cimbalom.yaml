@@ -1,9 +1,3 @@
----
-audios:
-  - id: exercitium-tonale-for-cimbalom-1
-    description: Intrada
-  - id: exercitium-tonale-for-cimbalom-2
-    description: Siciliana
 category: solo
 composition_date: 1982
 date: 2021-05-05
@@ -14,7 +8,7 @@ id: exercitium-tonale-for-cimbalom
 movements:
   - title: Intrada
   - title: Siciliana
-  - title: Cavatina (Omaggio a Donizetti) 
+  - title: Cavatina (Omaggio a Donizetti)
   - title: Etude
   - title: Sarabande
   - title: Moto perpetuo

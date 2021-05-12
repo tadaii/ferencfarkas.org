@@ -1,9 +1,3 @@
----
-audios:
-  - id: harom-dal-shakespeare-ahogy-tetszik-cimue-vigjatekabol-1
-    description: Amiens dala / Das Lied des Amiens
-  - id: harom-dal-shakespeare-ahogy-tetszik-cimue-vigjatekabol-2
-    description: Dal / Lied
 category: voice_piano
 composition_date: 1937
 date: 2021-03-14
@@ -12,7 +6,7 @@ duration: 330
 id: harom-dal-shakespeare-ahogy-tetszik-cimue-vigjatekabol
 movements:
   - title: Amiens dala / Das Lied des Amiens
-  - title: Dal / Lied 
+  - title: Dal / Lied
   - title: Dal / Lied
 publications:
   - publisher_id: emb

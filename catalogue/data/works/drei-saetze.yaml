@@ -1,9 +1,3 @@
----
-audios:
-  - id: drei-saetze-1
-    description: Feuille d'album
-  - id: drei-saetze-2
-    description: Rondo
 category: chamber
 composition_date: 1983
 date: 2021-02-24
@@ -11,8 +5,8 @@ description: for flute, violoncello and harpsichord
 duration: 420
 id: drei-saetze
 movements:
-  - title: Preludio 
-  - title: Feuille d'album 
+  - title: Preludio
+  - title: Feuille d'album
   - title: Rondo
 publications:
   - publisher_id: ascolta
@@ -23,4 +17,4 @@ title:
   sort:
     - de
   translations:
-    de: Drei Sätze  
+    de: Drei Sätze

@@ -1,12 +1,8 @@
----
-audios:
-  - id: concertino-for-harp-and-string-orchestra-or-string-quartet
-    description: Allegro moderato
 category: concerto
 composition_date: 1994
 date: 2021-03-05
 duration: 1380
-id: concertino-for-harp-and-string-orchestra-or-string-quintet
+id: concertino-for-harp-and-string-orchestra-or-string-quartet
 movements:
   - title: Allegro
   - title: Andante

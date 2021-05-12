@@ -1,7 +1,3 @@
----
-audios:
-  - id: die-lieder-des-wanderers-for-voice-flute-viola-and-violoncello
-    description: Utra kelni, messzi menni / Rastlos wandern
 category: voice_piano
 composition_date: 1956
 date: 2021-03-13
@@ -10,7 +6,7 @@ duration: 660
 id: die-lieder-des-wanderers-for-voice-flute-viola-and-violoncello
 movements:
   - title: Utra kelni, messzi menni / Rastlos wandern
-  - title: Tavaszi dal, vándordal / Frühlingswind 
+  - title: Tavaszi dal, vándordal / Frühlingswind
   - title: A kalandor / Der Abenteurer
 publications:
   - publisher_id: afp

@@ -1,7 +1,3 @@
----
-audios:
-  - id: concertino-for-harp-and-orchestra
-    description: Andante
 category: concerto
 composition_date: 1937, rev. 1956
 date: 2021-02-17
@@ -14,7 +10,7 @@ movements:
 publications:
   - publisher_id: universal
     type: all
-setting: '1( picc. ), 1, 2, 1 – 2, 1, 0, 0 – timp. – archi'
+setting: 1( picc. ), 1, 2, 1 – 2, 1, 0, 0 – timp. – archi
 title:
   main: en
   original: en

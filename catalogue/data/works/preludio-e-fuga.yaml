@@ -1,9 +1,3 @@
----
-audios:
-  - id: preludio-e-fuga-1
-    description: Preludio
-  - id: preludio-e-fuga-2
-    description: Fuga
 category: orchestra
 composition_date: 1944-1947
 date: 2021-04-12
@@ -18,11 +12,12 @@ publications:
     type: score
   - publisher_id: emb
     type: performance material
-setting: '3 (III=picc.), 3 (c.i.), 3 (cl. b.), 3 (III=cfg) – 4, 2, 3, 0 – timp., batt.(1 es.) – archi'
+setting: 3 (III=picc.), 3 (c.i.), 3 (cl. b.), 3 (III=cfg) – 4, 2, 3, 0 – timp.,
+  batt.(1 es.) – archi
 title:
   main: it
   original: it
   sort:
-    - it 
+    - it
   translations:
-    it: Preludio e fuga 
+    it: Preludio e fuga

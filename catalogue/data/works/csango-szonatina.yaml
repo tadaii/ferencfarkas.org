@@ -1,10 +1,6 @@
----
-audios:
-  - id: csango-szonatina
-    description: Rondo
 category: chamber
 composition_date: 1977
-date: 2021-04-28 
+date: 2021-04-28
 description: for 3 guitars
 duration: 300
 id: csango-szonatina
@@ -22,4 +18,4 @@ title:
   sort:
     - hu
   translations:
-    hu: Csángó szonatina 
+    hu: Csángó szonatina

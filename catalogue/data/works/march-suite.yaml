@@ -1,31 +1,25 @@
----
-audios:
-  - id: march-suite-1
-    description: Allegro moderato
-  - id: march-suite-2
-    description: Elegia, quasi lento
 category: orchestra
 composition_date: 1947
 date: 2021-01-12
-description: for chamber orchestra or sring orchestra 
+description: for chamber orchestra or sring orchestra
 duration: 618
 id: march-suite
 movements:
-  - title: Allegro moderato  
-  - title: Elegia, quasi lento  
-  - title: Allegro vivace 
+  - title: Allegro moderato
+  - title: Elegia, quasi lento
+  - title: Allegro vivace
 publications:
   - publisher_id: emb
     type: score
   - publisher_id: emb
     type: performance material
-setting: '1, 0, 1, 0 – 2, 1, 0, 0 – archi'
+setting: 1, 0, 1, 0 – 2, 1, 0, 0 – archi
 title:
   main: en
   original: hu
   sort:
     - en
-    - hu 
+    - hu
   translations:
-    en: March suite  
-    hu: Márciusi szvit   
+    en: March suite
+    hu: Márciusi szvit

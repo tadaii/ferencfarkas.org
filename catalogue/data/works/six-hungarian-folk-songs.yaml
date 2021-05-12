@@ -1,9 +1,3 @@
----
-audios:
-  - id: six-hungarian-folk-songs-1
-    description: Zendülj fel Szent János
-  - id: six-hungarian-folk-songs-2
-    description: Kerek utca
 category: chamber
 composition_date: 1947
 date: 2021-03-09
@@ -19,7 +13,7 @@ movements:
   - title: Bogyiszlai kertek alja végén
 publications:
   - publisher_id: afp
-    type: all 
+    type: all
 texts:
   hu: in hungarian (traditional)
 title:

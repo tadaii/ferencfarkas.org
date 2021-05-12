@@ -1,7 +1,3 @@
----
-audios:
-  - id: hybrides-for-cimbalom
-    description: Marcietta
 category: solo
 composition_date: 1980
 date: 2021-05-06
@@ -12,7 +8,7 @@ id: hybrides-for-cimbalom
 movements:
   - title: Soggetto
   - title: Marcietta
-  - title: Minuetto 
+  - title: Minuetto
   - title: Tarantella
   - title: Notturno
   - title: Valsette

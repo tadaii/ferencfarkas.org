@@ -1,9 +1,3 @@
----
-audios:
-  - id: old-hungarian-melodies-1
-    description: Moderato, poco rubato
-  - id: old-hungarian-melodies-2
-    description: Allegro, piacevole
 category: solo
 date: 2021-05-06
 description: Suite for harp

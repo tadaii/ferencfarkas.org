@@ -1,12 +1,4 @@
----
-audios:
-  - id: missa-im-honorem-sancti-andreae-1
-    description: Kyrie
-  - id: missa-im-honorem-sancti-andreae-3
-    description: Hosanna
-  - id: missa-im-honorem-sancti-andreae-4
-    description: Agnus Dei
-category: mass 
+category: mass
 composition_date: 1968
 date: 2021-03-14
 description: Mass for 3 soli ad lib., mixed choir and orchestra
@@ -23,7 +15,7 @@ publications:
   - publisher_id: ascolta
     type: all
 rework_of: missa-in-honorem-sancti-andreae-for-mixed-choir-and-organ
-setting: '1, 1, 2, 1 – 2, 2, 1, 0 – timp. – org. – archi'
+setting: 1, 1, 2, 1 – 2, 2, 1, 0 – timp. – org. – archi
 texts:
   la: in latin
 title:
@@ -32,4 +24,4 @@ title:
   sort:
     - la
   translations:
-    la: Missa in honorem Sancti Andreae 
+    la: Missa in honorem Sancti Andreae

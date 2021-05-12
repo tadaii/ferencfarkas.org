@@ -1,9 +1,3 @@
----
-audios:
-  - id: correspondances-1
-    description: Quasi lento
-  - id: correspondances-2
-    description: Allegro agitato
 category: solo
 composition_date: 1957
 date: 2021-05-05
@@ -14,7 +8,7 @@ id: correspondances
 movements:
   - title: Andante
   - title: Allegro
-  - title: Quasi lento 
+  - title: Quasi lento
   - title: Allegretto
   - title: Andante con moto
   - title: Allegretto

@@ -107,7 +107,7 @@
         var defaultTitle = this.audios[audio].title
         var defaultDetail = this.audios[audio].detail
       } else {
-        var url = '/audio/' + audio + '.ogg'
+        var url = '/audio/' + audio + '.mp3'
       }
 
       this.setMeta(title || defaultTitle, detail || defaultDetail)

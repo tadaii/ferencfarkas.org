@@ -1,9 +1,3 @@
----
-audios:
-  - id: quattro-pezzi-for-double-bass-solo-and-wind-quintet-1
-    description: Intrada
-  - id: quattro-pezzi-for-double-bass-solo-and-wind-quintet-2
-    description: Scherzo
 category: chamber
 composition_date: 1966
 date: 2021-03-05
@@ -14,7 +8,7 @@ movements:
   - title: Intrada
   - title: Scherzo
   - title: Petit poème
-  - title:  Rondo
+  - title: Rondo
 publications:
   - publisher_id: afp
     type: all

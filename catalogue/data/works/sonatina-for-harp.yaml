@@ -1,9 +1,5 @@
----
-audios:
-  - id: sonatina-for-harp
-    description: Allegro moderato
 category: solo
-date: 2021-04-28 
+date: 2021-04-28
 description: for harp
 duration: 300
 id: sonatina-for-harp

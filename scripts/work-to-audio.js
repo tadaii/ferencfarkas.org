@@ -32,5 +32,12 @@ const root = './catalogue/data'
         path.resolve(root, 'audios', file),
         yaml.stringify(data)
       )
+
+      delete work.audios
+
+      await fs.writeFile(
+        path.resolve(root, 'works', file),
+        yaml.stringify(work)
+      )
     }
   })()

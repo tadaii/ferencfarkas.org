@@ -1,18 +1,14 @@
----
-audios:
-  - id: kuruc-songs-and-dances-from-the-country-of-ugrocz
-    description: Extract
 category: chamber
 composition_date: 1989
 date: 2021-04-28
-description: Suite for 3 tárogató and harpsichord 
+description: Suite for 3 tárogató and harpsichord
 duration: 270
 id: kuruc-songs-and-dances-from-the-country-of-ugrocz
 movements:
-  - title: Kuruc nóta 
-  - title: Saltus I 
-  - title: Bujdosó nóta  
-  - title: Kuruc nóta 
+  - title: Kuruc nóta
+  - title: Saltus I
+  - title: Bujdosó nóta
+  - title: Kuruc nóta
   - title: Saltus II
   - title: Saltus III
 publications:
@@ -26,4 +22,4 @@ title:
     - hu
   translations:
     en: Kuruc songs and dances from the country of Ugrocz
-    hu: Kuruc dalok és táncok az Ugróczi-kéziratból  
+    hu: Kuruc dalok és táncok az Ugróczi-kéziratból

@@ -1,7 +1,3 @@
----
-audios:
-  - id: trio
-    description: Allegro leggero
 category: chamber
 composition_date: 1979
 date: 2021-05-01
@@ -10,7 +6,7 @@ duration: 720
 id: trio
 movements:
   - title: Allegro agitato
-  - title: Andante moderato 
+  - title: Andante moderato
   - title: Allegro leggero
 publications:
   - publisher_id: emb

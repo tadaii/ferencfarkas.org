@@ -1,19 +1,15 @@
----
-audios:
-  - id: intrada-passacaglia-saltarello
-    description: Saltarello
 category: wind
 composition_date: 1982
 date: 2021-03-05
 dedication: Aux Philharmonistes de Châteauroux et à leur chef János Kömives
-description: for wind orchestra 
-duration: 540 
+description: for wind orchestra
+duration: 540
 id: intrada-passacaglia-saltarello
 publications:
   - publisher_id: kontrapunkt
     type: all
 rework_of: passacaglia-for-clarinet-ensemble
-setting: '2, 2, 2, 2 (cfg) – 2, 2, 2,1'
+setting: 2, 2, 2, 2 (cfg) – 2, 2, 2,1
 title:
   main: it
   original: it
@@ -21,4 +17,5 @@ title:
     - it
   translations:
     it: Intrada, Passacaglia, Saltarello
-nb: The second movement “ Passacaglia ” is a version for wind orchestra of “ Passacaglia for clarinet ensemble ”  
+nb: The second movement “ Passacaglia ” is a version for wind orchestra of “
+  Passacaglia for clarinet ensemble ”

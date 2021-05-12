@@ -1,12 +1,4 @@
----
-audios:
-  - id: cantus-pannonicus-1
-    description: Laus Pannoniae
-  - id: cantus-pannonicus-2
-    description: De Agnete
-  - id: cantus-pannonicus-3
-    description: De amygdalo in Pannonia nata
-category: cantata_oratorio 
+category: cantata_oratorio
 composition_date: 1959
 date: 2021-03-12
 description: Cantata for soprano solo, mixed choir and orchestra
@@ -14,14 +6,15 @@ duration: 1320
 id: cantus-pannonicus
 movements:
   - title: Laus Pannoniae
-  - title: De Agnete 
+  - title: De Agnete
   - title: Abiens valere iubet sanctos reges Varadini
   - title: De amygdalo in Pannonia nata
-  - title: Ad Martem, precatio pro pace 
+  - title: Ad Martem, precatio pro pace
 publications:
   - publisher_id: emb
     type: all
-setting: '2 (picc.), 2 (c.i.), 2, 2 – 4, 4, 3, 1 – timp., perc. (5 ess.) – arpa, cemb., cel., pf., chit., mand. – vlc. (6), cb. (6)'
+setting: 2 (picc.), 2 (c.i.), 2, 2 – 4, 4, 3, 1 – timp., perc. (5 ess.) – arpa,
+  cemb., cel., pf., chit., mand. – vlc. (6), cb. (6)
 texts:
   la: in latin by Janus Pannonius
 title:
@@ -30,4 +23,4 @@ title:
   sort:
     - la
   translations:
-    la: Cantus Pannonicus 
+    la: Cantus Pannonicus

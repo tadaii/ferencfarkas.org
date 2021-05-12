@@ -50,6 +50,14 @@ const getWorks = async ({ dir, genres, categories }) => {
     const storyFile = `./website/content/work/${work.id}.md`
     const hasStory = await fs.pathExists(storyFile)
 
+    const audioFile = `./catalogue/data/audios/${work.id}.yaml`
+    const hasAudio = await fs.pathExists(audioFile)
+
+    if (hasAudio) {
+      const audios = await yaml2json(audioFile)
+      work.audios = audios
+    }
+
     if (hasStory) {
       const data = await fs.readFile(storyFile, 'utf8')
       const content = fm(data)
@@ -134,29 +142,35 @@ const buildSearchIndex = catalogue => {
   return idx
 }
 
-const buildAudioMap = catalogue => {
-  const audioMap = catalogue.works.reduce((map, work) => {
-    if (!work.audios) {
-      return map
+const buildAudioMap = async catalogue => {
+  const dir = join(src, 'data', 'audios')
+  const files = await fs.readdir(dir)
+  const map = {}
+
+  for (file of files.filter(f => f.endsWith('.yaml'))) {
+    const filePath = join(dir, file)
+    const workId = file.replace('.yaml', '')
+    const audios = await yaml2json(filePath)
+    const work = catalogue.works
+      .find(work => work.id === workId)
+
+    if (!work) {
+      throw new Error(`Work with ID ${workId} not found`)
     }
 
     const title = work.title.translations[work.title.main]
     const category = catalogue.categories[work.category].title
 
-    work.audios.forEach(audio => {
+    audios.forEach(audio => {
       map[audio.id] = {
         title: audio.description,
         detail: `${title} - ${category}`,
         url: `/audio/${audio.id}.mp3`
       }
     })
+  }
 
-    return map
-  }, {})
-
-  console.log(`> Audio list written`)
-
-  return audioMap
+  return map
 }
 
 const getLastUpdates = async () => {
@@ -284,11 +298,14 @@ const getLastUpdates = async () => {
   ; (async () => {
     const catalogue = await buildCatalogue(src)
     const searchIdx = buildSearchIndex(catalogue)
-    const audioList = buildAudioMap(catalogue)
+    const audioList = await buildAudioMap(catalogue)
 
     // Write catalogue and search index files.
     await fs.writeFile(dstAudioList, JSON.stringify(audioList), 'utf8')
+    console.log(`> Audio list written`)
+
     await fs.writeFile(dstCatalogue, JSON.stringify(catalogue), 'utf8')
+
     await fs.writeFile(dstSearchIdx, JSON.stringify(searchIdx), 'utf8')
 
     // Write catalogue works in web data dir.

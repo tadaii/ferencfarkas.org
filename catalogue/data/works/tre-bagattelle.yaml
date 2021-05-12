@@ -1,9 +1,3 @@
----
-audios:
-  - id: tre-bagattelle-1
-    description: Allegretto
-  - id: tre-bagattelle-2
-    description: Andante
 category: chamber
 composition_date: 1992
 date: 2021-03-12
@@ -12,7 +6,7 @@ duration: 220
 id: tre-bagattelle
 movements:
   - title: Allegretto
-  - title: Andante 
+  - title: Andante
   - title: Allegro
 publications:
   - publisher_id: curci

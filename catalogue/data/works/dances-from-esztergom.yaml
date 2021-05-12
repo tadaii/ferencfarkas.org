@@ -1,19 +1,15 @@
----
-audios:
-  - id: dances-from-esztergom
-    description: Extract
 category: chamber
 composition_date: 1988
 date: 2021-04-28
 description: Suite of dances for tárogató and cimbalom
-dedication: to Csaba Nagy 
+dedication: to Csaba Nagy
 duration: 230
 id: dances-from-esztergom
 movements:
-  - title: Allegro moderato 
-  - title: Lo stesso tempo 
-  - title: Lassù 
-  - title: Allegro vivace 
+  - title: Allegro moderato
+  - title: Lo stesso tempo
+  - title: Lassù
+  - title: Allegro vivace
   - title: Quasi lo stesso tempo
 publications:
   - publisher_id: afp
@@ -26,4 +22,4 @@ title:
     - hu
   translations:
     en: Dances from Esztergom
-    hu: Esztergomi táncok  
+    hu: Esztergomi táncok

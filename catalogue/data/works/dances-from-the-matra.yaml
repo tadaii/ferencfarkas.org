@@ -1,26 +1,20 @@
----
-audios:
-  - id: dances-from-the-matra-1
-    description: Young women’s dance
-  - id: dances-from-the-matra-2
-    description: Gipsy dance
 category: orchestra
 composition_date: 1968
 date: 2021-01-05
 description: Suite for orchestra
-dedication: Az Egri Szimfónikus Zenekarnak ötéves jubileumára 
+dedication: Az Egri Szimfónikus Zenekarnak ötéves jubileumára
 duration: 348
 id: dances-from-the-matra
 movements:
-  - title: Legényes / Young men’s dance  
-  - title: Leánytánc / Young women’s dance  
-  - title: Cigánycsárdás / Gipsy dance 
+  - title: Legényes / Young men’s dance
+  - title: Leánytánc / Young women’s dance
+  - title: Cigánycsárdás / Gipsy dance
 publications:
   - publisher_id: afp
     type: score
   - publisher_id: afp
     type: performance material
-setting: '3 (III=picc.), 2, 2, 2 – 4, 3, 3, 0 – timp., batt. (2 ess.) – arpa - archi'
+setting: 3 (III=picc.), 2, 2, 2 – 4, 3, 3, 0 – timp., batt. (2 ess.) – arpa - archi
 title:
   main: en
   original: hu
@@ -28,5 +22,5 @@ title:
     - en
     - hu
   translations:
-    en: Dances from the Mátra  
-    hu: Mátrai táncok 
+    en: Dances from the Mátra
+    hu: Mátrai táncok

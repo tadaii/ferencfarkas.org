@@ -1,7 +1,3 @@
----
-audios:
-  - id: prelude-et-chaconne-egaree
-    description: Prélude
 category: chamber
 composition_date: 1990
 date: 2021-04-28
@@ -18,6 +14,6 @@ title:
   main: fr
   original: fr
   sort:
-    - fr 
+    - fr
   translations:
     fr: Prélude et chaconne égarée

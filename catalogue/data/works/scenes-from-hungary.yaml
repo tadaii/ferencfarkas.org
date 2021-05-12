@@ -1,9 +1,3 @@
----
-audios:
-  - id: scenes-from-hungary-1
-    description: Trinkspruch / Toast / Pohárköszöntő
-  - id: scenes-from-hungary-2
-    description: Der Hirt / The Shepherd / A pásztor
 category: chamber
 composition_date: 1980
 date: 2021-04-28
@@ -29,7 +23,7 @@ title:
   sort:
     - en
     - de
-    - hu 
+    - hu
   translations:
     en: Scenes from Hungary
     de: Szenen aus Ungarn

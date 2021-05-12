@@ -1,8 +1,4 @@
----
-audios:
-  - id: le-musicien-de-saint-merry-for-female-choir-flute-and-piano
-    description: Extract
-category: cantata_oratorio 
+category: cantata_oratorio
 composition_date: 1984
 date: 2021-03-12
 description: Cantata for female choir, flute and piano

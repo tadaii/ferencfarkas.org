@@ -1,16 +1,12 @@
----
-audios:
-  - id: musica-per-ottoni
-    description: Allegro
 category: chamber
 composition_date: 1982
 date: 2021-04-28
-description: Suite for brass sextet (3 trompets, 2 trombones, tuba) 
+description: Suite for brass sextet (3 trompets, 2 trombones, tuba)
 duration: 390
 id: musica-per-ottoni
 movements:
-  - title: Allegro 
-  - title: Adagio 
+  - title: Allegro
+  - title: Adagio
   - title: Allegro
 publications:
   - publisher_id: emb
@@ -23,4 +19,4 @@ title:
     - hu
   translations:
     it: Musica per ottoni
-    hu: Rézfúvószene  
+    hu: Rézfúvószene

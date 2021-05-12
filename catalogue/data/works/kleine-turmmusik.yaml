@@ -1,7 +1,3 @@
----
-audios:
-  - id: kleine-turmmusik
-    description: Extract
 category: chamber
 composition_date: 1967
 date: 2021-04-28
@@ -19,4 +15,4 @@ title:
     - hu
   translations:
     de: Kleine Turmmusik
-    hu: Nyírbátori toronyzene 
+    hu: Nyírbátori toronyzene

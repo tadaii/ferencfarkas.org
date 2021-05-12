@@ -1,9 +1,3 @@
----
-audios:
-  - id: hybrides-1
-    description: Tarantella
-  - id: hybrides-2
-    description: Notturno
 category: solo
 composition_date: 1957
 date: 2021-05-05
@@ -13,7 +7,7 @@ id: hybrides
 movements:
   - title: Soggetto
   - title: Marcietta
-  - title: Melodia 
+  - title: Melodia
   - title: Minuetto
   - title: Tarantella
   - title: Notturno
