@@ -1,0 +1,20 @@
+category: chamber
+composition_date: 1979
+date: 2021-05-01
+description: for violin, violoncello and piano
+duration: 720
+id: trio
+movements:
+  - title: Allegro agitato
+  - title: Andante moderato
+  - title: Allegro leggero
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Trio

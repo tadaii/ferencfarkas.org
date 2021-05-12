@@ -1,7 +1,3 @@
----
-audios:
-  - id: early-hungarian-dances-from-the-17th-century-for-piano-or-harpsichord
-    description: Chorea
 category: solo
 composition_date: 1943
 date: 2021-01-16
@@ -9,7 +5,7 @@ description: Suite of dances for piano or harpsichord
 duration: 540
 id: early-hungarian-dances-from-the-17th-century-for-piano-or-harpsichord
 movements:
-  - title: Intrada 
+  - title: Intrada
   - title: Chorea
   - title: Magyar tánc / Danse hongroise
   - title: Erdélyi Fejedelem tánca / Danse du Prince de Transylvanie
@@ -22,7 +18,7 @@ title:
   original: hu
   sort:
     - en
-    - hu 
+    - hu
     - it
   translations:
     en: Early hungarian dances from the 17th century

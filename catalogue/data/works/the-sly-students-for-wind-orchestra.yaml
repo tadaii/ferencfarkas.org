@@ -1,12 +1,7 @@
----
-audios:
-  - id: the-sly-students-for-wind-orchestra-1
-    description: Pas de deux
-  - id: the-sly-students-for-wind-orchestra-2
-    description: Horseherds-dance
 category: wind
-date: 2021-03-05 
-description: Suite for wind orchestra from the ballet " The sly students " adapted by Tony Kurmann, 2014
+date: 2021-03-05
+description: Suite for wind orchestra from the ballet " The sly students "
+  adapted by Tony Kurmann, 2014
 duration: 1200
 id: the-sly-students-for-wind-orchestra
 movements:
@@ -23,8 +18,11 @@ publications:
     type: score
   - publisher_id: alliance
     type: performance material
-rework_of : the-sly-students
-setting: 'picc., 2 fl., 2 ob., c.i., 2 fg, cfg, clar.mib, 3 clar.sib, bassethorn, bass-clar. sib, cb-clar.sib, 2 alt-sass.mib, tenor-sass.sib, bar-sass.mib, vcl., stringbass, 4 cor, 3 tr.sib, 3 trbne, euphonium, tuba, timpani, bells, xylophone, 2 perc. harp.'
+rework_of: the-sly-students
+setting: picc., 2 fl., 2 ob., c.i., 2 fg, cfg, clar.mib, 3 clar.sib, bassethorn,
+  bass-clar. sib, cb-clar.sib, 2 alt-sass.mib, tenor-sass.sib, bar-sass.mib,
+  vcl., stringbass, 4 cor, 3 tr.sib, 3 trbne, euphonium, tuba, timpani, bells,
+  xylophone, 2 perc. harp.
 title:
   main: en
   original: hu

@@ -1,0 +1,19 @@
+category: solo
+composition_date: 1932
+date: 2021-05-06
+duration: 600
+id: sonata-for-violoncello
+movements:
+  - title: Allegro
+  - title: Andante
+  - title: Allegro molto
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: en
+  original: en
+  sort:
+    - en
+  translations:
+    en: Sonata for violoncello

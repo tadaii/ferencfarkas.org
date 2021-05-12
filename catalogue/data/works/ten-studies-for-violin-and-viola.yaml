@@ -1,0 +1,30 @@
+---
+category: chamber
+composition_date: 1997
+date: 2021-04.30
+dedication: to Gyula and Yukari Stuller
+description: for violin and viola
+duration: 840
+id: ten-studies-for-violin-and-viola
+movements:
+  - title: Preludium
+  - title: Choral
+  - title: Sonatina
+  - title: Träumerei I
+  - title: Pizzicato
+  - title: Träumerei II
+  - title: Játék / Spiel
+  - title: Induló / Marsch
+  - title: Nocturne
+  - title: Vision fugitive
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: ten-studies
+title:
+  main: en
+  original: en
+  sort:
+    - en
+  translations:
+    en: Ten studies

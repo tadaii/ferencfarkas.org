@@ -1,0 +1,20 @@
+category: solo
+composition_date: 1987
+date: 2021-05-06
+dedication: to Eszter Perényi
+duration: 600
+id: sonata-for-violin
+movements:
+  - title: Allegro
+  - title: Chaconne
+  - title: Gigue
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: en
+  original: en
+  sort:
+    - en
+  translations:
+    en: Sonata for violin

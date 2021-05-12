@@ -1,9 +1,3 @@
----
-audios:
-  - id: finnish-popular-dances-1
-    description: Palpankilli
-  - id: finnish-popular-dances-2
-    description: Lintunen
 category: string
 composition_date: 1935
 date: 2021-01-12

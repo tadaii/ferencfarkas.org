@@ -1,7 +1,3 @@
----
-audios:
-  - id: musica-serena
-    description: Andante moderato
 category: string
 composition_date: 1982
 date: 2021-01-18

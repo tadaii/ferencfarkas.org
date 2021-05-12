@@ -1,0 +1,19 @@
+category: solo
+composition_date: 1979
+date: 2021-05-06
+duration: 720
+id: sonata-for-guitar
+movements:
+  - title: Allegro
+  - title: Dialogo
+  - title: Rondo
+publications:
+  - publisher_id: afp
+    type: all
+title:
+  main: en
+  original: en
+  sort:
+    - en
+  translations:
+    en: Sonata for guitar

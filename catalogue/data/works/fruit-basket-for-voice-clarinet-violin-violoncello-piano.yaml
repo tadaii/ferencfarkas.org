@@ -1,13 +1,8 @@
----
-audios:
-  - id: fruit-basket-for-voice-clarinet-violin-violoncello-piano-1
-    description: Marasztalás / Sonnenstrahlen / Supplication
-  - id: fruit-basket-for-voice-clarinet-violin-violoncello-piano-2
-    description: Déli felhők / Mittagswolken / Dans les nuages
 category: voice_piano
 composition_date: 1946
 date: 2021-03-13
-dedication: “ Altatódal / Wiegenlied / Berceuse ” is dedicated to my son András for his first birthday
+dedication: “ Altatódal / Wiegenlied / Berceuse ” is dedicated to my son András
+  for his first birthday
 description: Cycle of 12 songs for voice, clarinet, violin, violoncello and piano
 duration: 1020
 id: fruit-basket-for-voice-clarinet-violin-violoncello-piano
@@ -39,4 +34,5 @@ title:
   translations:
     en: Fruit basket
     hu: Gyümölcskosár
-nb: French and german translation of the words by Sándor Weöres is available in “ Fruit basket for voice and wind quintet “ and “ Fruit basket for voice and clarinet quartet “
+nb: French and german translation of the words by Sándor Weöres is available in
+  “ Fruit basket for voice and clarinet quartet “

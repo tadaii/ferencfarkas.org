@@ -1,9 +1,3 @@
----
-audios:
-  - id: jelky-andras-1
-    description: Er macht sich auf den Weg
-  - id: jelky-andras-2
-    description: Kwanga
 category: string
 composition_date: 1973
 date: 2020-12-30
@@ -22,11 +16,12 @@ publications:
     type: score
   - publisher_id: emb
     type: performance material
-dedication: Az Alsódunavölgyi Vizügyi Igazgatóság Kamarazenekarának és Baja Város zenekedvelö
+dedication: Az Alsódunavölgyi Vizügyi Igazgatóság Kamarazenekarának és Baja
+  Város zenekedvelö
 title:
   main: hu
   original: hu
   sort:
     - hu
   translations:
-    hu: Jelky András 
+    hu: Jelky András

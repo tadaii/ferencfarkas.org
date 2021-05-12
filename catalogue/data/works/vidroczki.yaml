@@ -1,15 +1,3 @@
----
-audios:
-  - id: vidroczki-1
-    description: Introduction
-  - id: vidroczki-2
-    description: Vidroczki’s bandits melody
-  - id: vidroczki-3
-    description: Anna’s melody
-  - id: vidroczki-4
-    description: Vidrocki’s melody
-  - id: vidroczki-5
-    description: Vidroczki’s funeral
 cast:
   - role: Vidróczki
     voice: bass-baritone
@@ -49,7 +37,8 @@ description: Popular romantic opera in 3 acts
 id: vidroczki
 libretto:
   hu: In hungarian Ernö Innocent Vincze
-synopsis: 'The adventures and the death of Vidróczki, bandit from the Mátra country in the 19th century.'
+synopsis: The adventures and the death of Vidróczki, bandit from the Mátra
+  country in the 19th century.
 title:
   main: hu
   original: hu
@@ -62,11 +51,12 @@ versions:
     publications:
       - publisher_id: afp
         type: piano reduction
-    version: 'Original version: musical ballad in 2 parts for the radio'
+    version: "Original version: musical ballad in 2 parts for the radio"
   - composition_date: 1963-1964
     default: true
     duration: 6720
-    setting: '3 (picc.), 2, 2 (cl.b.), 2 – 4, 3, 3, 0 – timp. batt. (3 ess) – arpa, pf., cel., zimb. ungh. – archi'
+    setting: 3 (picc.), 2, 2 (cl.b.), 2 – 4, 3, 3, 0 – timp. batt. (3 ess) – arpa,
+      pf., cel., zimb. ungh. – archi
     publications:
       - publisher_id: afp
         type: score
@@ -76,14 +66,15 @@ versions:
     world_premiere:
       credits:
         - Conducted by Viktor Vaszy
-        - 'Stage director: András Mikó'
-        - 'Stage design: Mátyás Varga'
-        - 'Costumes: Tivadar Márk'
+        - "Stage director: András Mikó"
+        - "Stage design: Mátyás Varga"
+        - "Costumes: Tivadar Márk"
       date: 1964
       location: Open Air Festival of Szeged
   - composition_date: 1978
     duration: 6720
-    setting: '3 (picc.), 2, 2 (cl.b.), 2 – 4, 3, 3, 0 – timp. batt. (3 ess) – arpa, pf., cel., zimb. ungh. – archi'
+    setting: 3 (picc.), 2, 2 (cl.b.), 2 – 4, 3, 3, 0 – timp. batt. (3 ess) – arpa,
+      pf., cel., zimb. ungh. – archi
     publications:
       - publisher_id: afp
         type: score

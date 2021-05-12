@@ -1,13 +1,3 @@
----
-audios:
-  - id: egri-csillagok-1
-    description: Tinodi Lantos Sebestyén melody
-  - id: egri-csillagok-2
-    description: Wedding dance
-  - id: egri-csillagok-3
-    description: The attack of the Ottoman armies
-  - id: egri-csillagok-4
-    description: Return from Istanbul
 category: film
 composition_date: 1968
 date: 2021-03-14

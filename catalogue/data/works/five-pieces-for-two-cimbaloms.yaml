@@ -1,0 +1,25 @@
+---
+category: chamber
+date: 2021-04-28 
+description: Suite for 2 cimbaloms based on hungarian folk songs from Moldavia
+duration: 360
+id: five-pieces-for-two-cimbaloms
+movements:
+  - title: Szonatina
+  - title: Dal
+  - title: Táncnóta
+  - title: Kánon
+  - title: Rondo
+publications:
+  - publisher_id: emb
+    type: Cimbalom-muzsika 1
+rework_of: five-easy-piano-pieces
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Five pieces for 2 cimbaloms
+    hu: Öt darab két cimbalomra 

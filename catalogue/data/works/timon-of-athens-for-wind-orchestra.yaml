@@ -1,13 +1,8 @@
----
-audios:
-  - id: timon-of-athens-for-wind-orchestra-1
-    description: Asztali zene / Dinner music 
-  - id: timon-of-athens-for-wind-orchestra-2
-    description: Tánc / Dance
 category: wind
 composition_date: 1967
-date: 2021-01-19 
-description: Suite for wind orchestra
+date: 2021-01-19
+description: 3 pieces for wind orchestra from the incidental music to "Timon of
+  Athens" by William Shakespeare
 duration: 660
 id: timon-of-athens-for-wind-orchestra
 movements:
@@ -20,7 +15,8 @@ publications:
   - publisher_id: alliance
     type: performance material
 rework_of: timon-of-athens
-setting: '4(IV=picc.), 3 (III=c.i.), 4(IV=cl.b.), 4(IV=cfg.) – 4, 4, 3, 1 – timp., batt. – pf.'
+setting: 4(IV=picc.), 3 (III=c.i.), 4(IV=cl.b.), 4(IV=cfg.) – 4, 4, 3, 1 –
+  timp., batt. – pf.
 title:
   main: en
   original: en
@@ -29,4 +25,3 @@ title:
   translations:
     en: Timon of Athens
     hu: Furfangos diákok
-version: 3 pieces for wind orchestra from the incidental music to "Timon of Athens" by William Shakespeare

@@ -1,8 +1,4 @@
----
-audios:
-  - id: alkony
-    description : Extract
-category: choir  
+category: choir
 date: 2021-03-15
 description: for 4-part mixed choir
 duration: 120

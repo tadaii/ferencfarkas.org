@@ -1,17 +1,12 @@
----
-audios:
-  - id: cantiones-optimae-1
-    description: Bátoritás a halál ellen / Encouragement devant la mort
-  - id: cantiones-optimae-2
-    description: O Jézus / Oh Jésus
 category: voice_piano
 date: 2021-03-13
-description: Songs for soprano and piano or string orchestra based on old Hungarian sacred melodies
+description: Songs for soprano and piano or string orchestra based on old
+  Hungarian sacred melodies
 duration: 480
 id: cantiones-optimae
 movements:
   - title: Bátoritás a halál ellen / Encouragement devant la mort
-  - title: Könyörgés / Imploration 
+  - title: Könyörgés / Imploration
   - title: Máriá ének / Chant à Marie
   - title: O Jézus / Oh Jésus
 publications:

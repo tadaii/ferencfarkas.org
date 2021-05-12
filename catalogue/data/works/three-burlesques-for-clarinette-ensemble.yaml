@@ -1,7 +1,3 @@
----
-audios:
-  - id: three-burlesques-for-clarinette-ensemble
-    description: Allegro
 category: chamber
 composition_date: 1992
 date: 2021-03-11
@@ -10,7 +6,7 @@ duration: 420
 id: three-burlesques-for-clarinette-ensemble
 movements:
   - title: Allegro
-  - title: Moderato comodo 
+  - title: Moderato comodo
   - title: Allegro
 publications:
   - publisher_id: metropolis

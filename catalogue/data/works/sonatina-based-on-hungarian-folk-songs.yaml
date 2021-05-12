@@ -1,0 +1,23 @@
+category: chamber
+composition_date: 1955
+date: 2021-04-29
+dedication: to Lajos Montág
+description: for double-bass or bassoon or violoncello and piano
+duration: 420
+id: sonatina-based-on-hungarian-folk-songs
+movements:
+  - title: Allegro moderato
+  - title: Andante espressivo
+  - title: Allegro
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Sonatina based on Hungarian folk songs
+    hu: Népdalszonatina

@@ -1,0 +1,34 @@
+category: solo
+composition_date: 1982
+date: 2021-05-05
+dedication: to Viktória Herencsár
+description: 15 preludes for cimbalom
+duration: 1145
+id: exercitium-tonale-for-cimbalom
+movements:
+  - title: Intrada
+  - title: Siciliana
+  - title: Cavatina (Omaggio a Donizetti)
+  - title: Etude
+  - title: Sarabande
+  - title: Moto perpetuo
+  - title: Una melodia semplice
+  - title: Mélodie
+  - title: In modo romantico (Omaggio a Schumann)
+  - title: Gigue
+  - title: Meditazione
+  - title: Etude
+  - title: Hétnyolcad / Seven-eight
+  - title: Etude
+  - title: Tempo di minuetto
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: exercitium-tonale
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Exercitium tonale

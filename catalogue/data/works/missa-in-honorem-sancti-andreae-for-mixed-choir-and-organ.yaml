@@ -1,8 +1,4 @@
----
-audios:
-  - id: missa-in-honorem-sancti-andreae-for-mixed-choir-and-organ
-    description: Credo
-category: mass 
+category: mass
 composition_date: 1962
 date: 2021-03-12
 description: Mass for mixed choir and organ
@@ -26,4 +22,4 @@ title:
   sort:
     - la
   translations:
-    la: Missa in honorem Sancti Andreae 
+    la: Missa in honorem Sancti Andreae

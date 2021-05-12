@@ -1,0 +1,21 @@
+category: chamber
+composition_date: 1970-72
+date: 2021-04-29
+duration: 900
+id: string-quartet
+movements:
+  - title: Allegro maestoso
+  - title: Moderato
+  - title: Moderato
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: String quartet
+    hu: Vónos négyes

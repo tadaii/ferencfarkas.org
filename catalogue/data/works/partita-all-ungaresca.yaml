@@ -1,9 +1,3 @@
----
-audios:
-  - id: partita-all-ungaresca-1
-    description: Saltarello
-  - id: partita-all-ungaresca-2
-    description: Intermezzo
 category: string
 composition_date: 1974
 date: 2021-01-18

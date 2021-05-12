@@ -1,18 +1,12 @@
----
-audios:
-  - id: harom-dal-kis-ferenc-verseire
-    description: Gyogyuloban, version choeur d’hommes
-  - id: gyogyuloban
-    description: Gyogyuloban, version flute and piano
 category: voice_piano
 composition_date: 1982
 date: 2021-03-13
 description: 3 songs for voice and piano
 duration: 300
-id: hharom-dal-kis-ferenc-verseire
+id: harom-dal-kis-ferenc-verseire
 movements:
   - title: Téli szinek
-  - title: Gyógyulóban 
+  - title: Gyógyulóban
   - title: Dal
 publications:
   - publisher_id: emb

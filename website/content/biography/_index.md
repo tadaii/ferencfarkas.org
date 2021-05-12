@@ -128,9 +128,9 @@ Farkas continued to compose film music for other directors until 1973
 {{% column %}}
 
 Ferenc Farkas returned in Hungary for good in 1936. His first real public
-success happened in 1937 with his [Concertino for harp](/work/?q=id:concertino-for-harp-and-string-orchestra-or-string-quintet).
+success happened in 1937 with his [Concertino for harp](/work/?q=id:concertino-for-harp-and-string-orchestra-or-string-quartet).
 
-{{< play concertino-for-harp-and-orchestra-2 "3rd movement: Allegro moderato" "Concertino for harp and orchestra, 1937" >}}
+{{< play concertino-for-harp-and-orchestra "3rd movement: Allegro moderato" "Concertino for harp and orchestra, 1937" >}}
 
 It was also the time when he started his long collaboration with theater
 and radio. He composed incidental music for some 40 plays by hungarian and
@@ -153,7 +153,7 @@ The Second World War broke out in 1939.
 > in my financial income. I was more than 45 years old and I finally obtained
 > a full time job
 
-{{< play the-magic-cupboard-suleika "Suleika’s melody" "The magic cupboard - opera, 1942" >}}
+{{< play the-magic-cupboard-1 "Suleika’s melody" "The magic cupboard - opera, 1942" >}}
 
 The first opera of Farkas, [The magic cupboard](/work/?q=id:the-magic-cupboard), which dates from that time,
 brought him national celebrity and fame across borders.
@@ -222,7 +222,7 @@ the [Concertino for piano and orchestra](/work/?q=id:concertino-for-piano-and-or
 {{% /section %}}
 {{% section focus %}}
 
-{{< play fuga "Fuga" "Preludio e fuga for orchestra, 1944" >}}
+{{< play preludio-e-fuga-2 "Fuga" "Preludio e fuga for orchestra, 1944" >}}
 <br><br>
 
 {{% row %}}

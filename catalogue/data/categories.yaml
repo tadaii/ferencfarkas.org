@@ -35,7 +35,7 @@
   title: Instrumental solo
   genre: instrumental
 - id: cantata_oratorio
-  tag: Oratorio
+  tag: Cantata
   title: Cantata, Oratorio
   genre: vocal
 - id: mass
@@ -43,7 +43,7 @@
   title: Mass
   genre: vocal
 - id: choir
-  tag: Choir
+  tag: Mixed choir
   title: Mixed choir
   genre: vocal
 - id: male
@@ -59,20 +59,20 @@
   title: Children choir
   genre: vocal
 - id: misc_choir
-  tag: Misc choir
-  title: Miscellaneous choir / Canon
+  tag: Canon
+  title: Canon
   genre: vocal
 - id: voice_piano
-  tag: Voice & piano
-  title: Voice and piano / Organ
+  tag: Lieder
+  title: Lieder
   genre: vocal
 - id: voice
   tag: Voice
   title: Voice and other instrument(s) or orchestra
   genre: vocal
 - id: incidental
-  tag: Incidental / Radio
-  title: Incidental music, Radio plays
+  tag: Incidental music
+  title: Incidental music
   genre: incidental
 - id: film
   tag: Film

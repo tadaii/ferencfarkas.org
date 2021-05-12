@@ -1,10 +1,4 @@
----
-audios:
-  - id: vita-poetae-1
-    description: Madrigal
-  - id: vita-poetae-2
-    description: Danza
-category: cantata_oratorio 
+category: cantata_oratorio
 composition_date: 1976
 date: 2021-01-05
 description: Cantata for mezzo-soprano solo, 3 male voices, mixed choir and 16 instruments
@@ -12,18 +6,19 @@ duration: 1800
 id: vita-poetae
 movements:
   - title: Studia
-  - title: Madrigale 
+  - title: Madrigale
   - title: Canzone
   - title: Danza
-  - title: Amicitiá 
+  - title: Amicitiá
   - title: Mors matris
   - title: Vita aulica
-  - title: Mors poëtae  
+  - title: Mors poëtae
 publications:
   - publisher_id: emb
     type: all
 rework_of: panegyricus
-setting: '1 (picc.), 1 (c.i.), 1, 1 – 2, 1, 1, 0 – batt. (2 ess.) – arpa, pf. – vl.solo, vla solo, vlc. solo, cb. solo'
+setting: 1 (picc.), 1 (c.i.), 1, 1 – 2, 1, 1, 0 – batt. (2 ess.) – arpa, pf. –
+  vl.solo, vla solo, vlc. solo, cb. solo
 texts:
   la: in latin by Janus Pannonius
   it: in italian by Lorenzo Medici
@@ -33,4 +28,4 @@ title:
   sort:
     - la
   translations:
-    la: Vita poetae 
+    la: Vita poetae

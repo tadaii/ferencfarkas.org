@@ -1,12 +1,6 @@
----
-audios:
-  - id: capriccio-all-ungherese-1
-    description: Pastorale
-  - id: capriccio-all-ungherese-2
-    description: Ha folyóviz volnék...
 category: orchestra
 composition_date: 1939
-date: 2020-12-17 
+date: 2020-12-17
 description: Suite for orchestra
 duration: 660
 id: capriccio-all-ungherese
@@ -21,11 +15,11 @@ publications:
     type: score
   - publisher_id: afp
     type: performance material
-setting: '2, 1, 2, 1 – 2, 2, 1, 0 – timp. – arpa – archi'
+setting: 2, 1, 2, 1 – 2, 2, 1, 0 – timp. – arpa – archi
 title:
   main: it
   original: it
   sort:
     - it
   translations:
-    it: Capriccio all'ungherese 
+    it: Capriccio all'ungherese

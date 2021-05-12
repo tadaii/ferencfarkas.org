@@ -1,0 +1,26 @@
+---
+category: solo
+composition_date: 1956
+date: 2021-04-28
+dedication: to my son András 
+description: Suite for piano based on hungarian folk songs from Moldavia
+duration: 360
+id: five-easy-piano-pieces
+movements:
+  - title: Sonatina
+  - title: Song
+  - title: Dance song
+  - title: Canon
+  - title: Rondo
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Five easy piano pieces
+    hu: Öt könnyü zongoradarab 

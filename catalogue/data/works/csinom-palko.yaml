@@ -1,15 +1,3 @@
----
-audios:
-  - id: csinom-palko-1
-    description: Patyolat a kuruc
-  - id: csinom-palko-2
-    description: Förgeteg air
-  - id: csinom-palko-3
-    description: Palkó and Jankó duet
-  - id: csinom-palko-4
-    description: Jó éjszakát
-  - id: csinom-palko-5
-    description: Finale
 cast:
   - role: Balogh Adám
     voice: baritone
@@ -17,7 +5,7 @@ cast:
     voice: tenor
   - role: Csínom Jankó
     voice: baritone
-  - role: 'Rosta Márton, baron Piperec'
+  - role: Rosta Márton, baron Piperec
     voice: baritone
   - role: Éduska
     voice: soprano
@@ -44,9 +32,11 @@ description: Popular romantic opera
 id: csinom-palko
 libretto:
   hu: In hungarian by András Dékány
-setting: '2, 1, 2 (II=tárogató ad lib.), 1 – 4, 2, 3, 0 – timp., batt. - arpa, cel. ad lib. – archi'
-synopsis: |
-  Hungary — 1705, during the uprising of Ferenc Rákóczi, Prince of Transylvania against the Habsbourg’s domination.
+setting: 2, 1, 2 (II=tárogató ad lib.), 1 – 4, 2, 3, 0 – timp., batt. - arpa,
+  cel. ad lib. – archi
+synopsis: >
+  Hungary — 1705, during the uprising of Ferenc Rákóczi, Prince of Transylvania
+  against the Habsbourg’s domination.
 title:
   main: hu
   original: hu
@@ -67,11 +57,12 @@ versions:
     version: First version for the theatre in 3 acts
     world_premiere:
       date: 1952
-      location: 'Erkel Theater, Budapest'
+      location: Erkel Theater, Budapest
   - composition_date: 1960
     default: true
     duration: 6300
-    nb: 'This version has also been adopted for the film “Csínom Palkó” by Márton Keleti, 1973'
+    nb: This version has also been adopted for the film “Csínom Palkó” by Márton
+      Keleti, 1973
     publications:
       - publisher_id: afp
         type: all
@@ -79,8 +70,8 @@ versions:
     world_premiere:
       credits:
         - Conducted by Ferenc Farkas
-        - 'Stage director: András Mikó'
-        - 'Stage design: Mátyás Varga'
-        - 'Costumes: Tivadar Márk'
+        - "Stage director: András Mikó"
+        - "Stage design: Mátyás Varga"
+        - "Costumes: Tivadar Márk"
       date: 1960
       location: Open Air Festival of Szeged

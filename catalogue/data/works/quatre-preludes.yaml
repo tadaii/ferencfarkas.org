@@ -1,0 +1,21 @@
+category: solo
+date: 2021-05-05
+description: for harp
+duration: 360
+id: quatre-preludes
+movements:
+  - title: Andante sostenuto (Sarabande)
+  - title: Allegro
+  - title: Andante
+  - title: Allegro
+publications:
+  - publisher_id: curci
+    type: all
+rework_of: exercitium-tonale
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Quatre préludes

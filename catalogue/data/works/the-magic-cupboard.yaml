@@ -1,15 +1,3 @@
----
-audios:
-  - id: the-magic-cupboard-1
-    description: Suleika’s melody
-  - id: the-magic-cupboard-2
-    description: Kadi’s melody
-  - id: the-magic-cupboard-3
-    description: The carpenters and their master
-  - id: the-magic-cupboard-4
-    description: In the cupboard…
-  - id: the-magic-cupboard-5
-    description: Finale
 cast:
   - role: Suleika
     voice: soprano
@@ -22,7 +10,7 @@ cast:
   - role: The Carpenter master
     voice: tenor
   - role: 3 Odalisques
-    voice: 'soprano, mezzo-soprano, alto'
+    voice: soprano, mezzo-soprano, alto
   - role: The carpenters
   - role: Suleikas neighbours
     voice: coro
@@ -54,24 +42,25 @@ versions:
     publications:
       - publisher_id: emb
         type: all
-    setting: '2 (picc.), 2 (c.i.), 2 (II=cl.b.), 2 – 4, 3, 3, 1 – timp., batt. – arpa, cel. – archi'
+    setting: 2 (picc.), 2 (c.i.), 2 (II=cl.b.), 2 – 4, 3, 3, 1 – timp., batt. –
+      arpa, cel. – archi
     version: Original version for symphonic orchestra
     world_premiere:
       credits:
         - Conducted by Otto Berg
-        - 'Stage director: Kálmán Nádasdy'
-        - 'Stage design: Gusztáv Oláh'
-        - 'Costumes: Tivadar Márk'
+        - "Stage director: Kálmán Nádasdy"
+        - "Stage design: Gusztáv Oláh"
+        - "Costumes: Tivadar Márk"
       date: 1942
       location: Hungarian State Opera of Budapest
   - composition_date: 1984
     publications:
       - publisher_id: emb
         type: all
-    setting: '1, 1, 1, 1 – 2, 1, 1, 0 – 1 vl. I, 1 vl. II, 1 vla, 1 vlc., 1 cb.'
+    setting: 1, 1, 1, 1 – 2, 1, 1, 0 – 1 vl. I, 1 vl. II, 1 vla, 1 vlc., 1 cb.
     version: Version for 13 instruments
     world_premiere:
       credits:
         - Conducted by Tamás Blum
       date: 1984
-      location: 'Opera Studio, Zürich'
+      location: Opera Studio, Zürich

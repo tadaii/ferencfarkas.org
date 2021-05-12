@@ -50,6 +50,14 @@ const getWorks = async ({ dir, genres, categories }) => {
     const storyFile = `./website/content/work/${work.id}.md`
     const hasStory = await fs.pathExists(storyFile)
 
+    const audioFile = `./catalogue/data/audios/${work.id}.yaml`
+    const hasAudio = await fs.pathExists(audioFile)
+
+    if (hasAudio) {
+      const audios = await yaml2json(audioFile)
+      work.audios = audios
+    }
+
     if (hasStory) {
       const data = await fs.readFile(storyFile, 'utf8')
       const content = fm(data)
@@ -134,29 +142,35 @@ const buildSearchIndex = catalogue => {
   return idx
 }
 
-const buildAudioMap = catalogue => {
-  const audioMap = catalogue.works.reduce((map, work) => {
-    if (!work.audios) {
-      return map
+const buildAudioMap = async catalogue => {
+  const dir = join(src, 'data', 'audios')
+  const files = await fs.readdir(dir)
+  const map = {}
+
+  for (file of files.filter(f => f.endsWith('.yaml'))) {
+    const filePath = join(dir, file)
+    const workId = file.replace('.yaml', '')
+    const audios = await yaml2json(filePath)
+    const work = catalogue.works
+      .find(work => work.id === workId)
+
+    if (!work) {
+      throw new Error(`Work with ID ${workId} not found`)
     }
 
     const title = work.title.translations[work.title.main]
     const category = catalogue.categories[work.category].title
 
-    work.audios.forEach(audio => {
+    audios.forEach(audio => {
       map[audio.id] = {
         title: audio.description,
         detail: `${title} - ${category}`,
-        url: `/audio/${audio.id}.ogg`
+        url: `/audio/${audio.id}.mp3`
       }
     })
+  }
 
-    return map
-  }, {})
-
-  console.log(`> Audio list written`)
-
-  return audioMap
+  return map
 }
 
 const getLastUpdates = async () => {
@@ -246,7 +260,8 @@ const getLastUpdates = async () => {
 
       if (change.filepath.startsWith('catalogue/data/works/')) {
         cat = 'works'
-      } else if (change.filepath.startsWith('catalogue/data/audio/')) {
+      } else if (change.filepath.startsWith('catalogue/data/audio/') ||
+        change.filepath.startsWith('catalogue/assets/audios/')) {
         cat = 'audios'
       } else if (change.filepath.startsWith('website/content/work/')) {
         cat = 'stories'
@@ -283,11 +298,14 @@ const getLastUpdates = async () => {
   ; (async () => {
     const catalogue = await buildCatalogue(src)
     const searchIdx = buildSearchIndex(catalogue)
-    const audioList = buildAudioMap(catalogue)
+    const audioList = await buildAudioMap(catalogue)
 
     // Write catalogue and search index files.
     await fs.writeFile(dstAudioList, JSON.stringify(audioList), 'utf8')
+    console.log(`> Audio list written`)
+
     await fs.writeFile(dstCatalogue, JSON.stringify(catalogue), 'utf8')
+
     await fs.writeFile(dstSearchIdx, JSON.stringify(searchIdx), 'utf8')
 
     // Write catalogue works in web data dir.
@@ -320,11 +338,11 @@ const getLastUpdates = async () => {
 
     // Copy audio files.
     await fs.mkdirp(dstAudioDir)
-    const srcAudioDir = join(src, 'data', 'audio')
+    const srcAudioDir = join(src, 'assets', 'audios')
     const audioFiles = await fs.readdir(srcAudioDir)
 
     for (let file of audioFiles) {
-      if (!file.endsWith('.ogg') && !file.endsWith('.mp3')) {
+      if (!file.endsWith('.mp3')) {
         continue
       }
 

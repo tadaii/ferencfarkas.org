@@ -1,12 +1,9 @@
----
-audios:
-  - id: mascarade
-    description: Arlecchino
 category: chamber
 composition_date: 1983
 date: 2021-01-18
 dedication: Omaggio a Gino Severini all'occasione del centenario di sua nascita
-description: 5 pieces for oboe, clarinet and bassoon composed after the paintings of Gino Severini illustrating figures of the « Commedia dell’arte »
+description: 5 pieces for oboe, clarinet and bassoon composed after the
+  paintings of Gino Severini illustrating figures of the « Commedia dell’arte »
 duration: 480
 id: mascarade
 movements:

@@ -1,13 +1,9 @@
----
-audios:
-  - id: egy-ur-velenceboel-casanova
-    description: Egy ur Velenceboel-Casanova
 cast:
   - role: Casanova
     voice: baritone
   - role: Comte of Parma
     voice: bass
-  - role: 'Francisca, his wife'
+  - role: Francisca, his wife
     voice: soprano
   - role: Balbi
     voice: tenor buffo
@@ -44,9 +40,11 @@ libretto:
 publications:
   - publisher_id: afp
     type: all
-setting: '1, 1, 1, 1 – 2, 1, 1, 0 – timp., batt. – arpa, pf. (cel.) – 1 vl. I, 1 vl. II, 1 viola, 1 vlc., 1 cb.'
-synopsis: |
-  Bolzano, 1756. Casanova, escaping from the lead chambers of Venice meets the Comte of Parma and his former love, Francesca.
+setting: 1, 1, 1, 1 – 2, 1, 1, 0 – timp., batt. – arpa, pf. (cel.) – 1 vl. I, 1
+  vl. II, 1 viola, 1 vlc., 1 cb.
+synopsis: >
+  Bolzano, 1756. Casanova, escaping from the lead chambers of Venice meets the
+  Comte of Parma and his former love, Francesca.
 title:
   main: hu
   original: hu
@@ -56,15 +54,15 @@ title:
     - fr
     - de
   translations:
-    de: 'Ein Herr aus Venedig, Casanova'
-    en: 'A gentleman from Venice, Casanova'
-    fr: 'Un seigneur de Venise, Casanova'
-    hu: 'Egy ur Velencéből, Casanova'
+    de: Ein Herr aus Venedig, Casanova
+    en: A gentleman from Venice, Casanova
+    fr: Un seigneur de Venise, Casanova
+    hu: Egy ur Velencéből, Casanova
 world_premiere:
   credits:
     - Conducted by János Kovács
-    - 'Stage director: László Vámos'
-    - 'Stage design: Attila Csikós'
-    - 'Costumes: Tivadar Márk'
+    - "Stage director: László Vámos"
+    - "Stage design: Attila Csikós"
+    - "Costumes: Tivadar Márk"
   date: 1991-06-04T00:00:00.000Z
   location: Hungarian State Opera House of Budapest

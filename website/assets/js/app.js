@@ -107,7 +107,7 @@
         var defaultTitle = this.audios[audio].title
         var defaultDetail = this.audios[audio].detail
       } else {
-        var url = '/audio/' + audio + '.ogg'
+        var url = '/audio/' + audio + '.mp3'
       }
 
       this.setMeta(title || defaultTitle, detail || defaultDetail)
@@ -134,6 +134,8 @@
     },
 
     init() {
+      var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent)
+
       var libLoaded = window.setInterval((function () {
         if (window.WaveSurfer) {
           window.clearInterval(libLoaded)
@@ -160,8 +162,11 @@
 
           this.wavesurfer.on('ready', (function () {
             this.clearLoading()
-            this.togglePlay()
-            this.wavesurfer.play()
+
+            if (!isSafari) {
+              this.togglePlay()
+              this.wavesurfer.play()
+            }
           }).bind(this))
 
           this.wavesurfer.on('finish', (function () {

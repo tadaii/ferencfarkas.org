@@ -1,0 +1,19 @@
+category: voice_piano
+composition_date: 1944
+date: 2021-04-13
+description: for soprano, flute and harp
+duration: 180
+id: sonnet-VII-de-louise-labe-for-voice-flute-and-harp
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: sonnet-VII-de-louise-labe
+texts:
+  fr: in French by Louise Labé
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Sonnet VII de Louise Labé

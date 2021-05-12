@@ -1,0 +1,21 @@
+---
+category: chamber
+composition_date: 1973
+date: 2021-04-28 
+description: Suite for guitar trio on hungarian motifs from Esztergom (18th century)
+duration: 480
+id: citharoedia-strigoniensis
+movements:
+  - title: Intrada
+  - title: Minuetto
+  - title: Finale
+publications:
+  - publisher_id: curci
+    type: all
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Citharoedia strigoniensis 

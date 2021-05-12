@@ -1,0 +1,22 @@
+---
+category: solo
+composition_date: 1996
+date: 2021-05-05
+description: for piano
+duration: 251
+id: deux-esquisses-pour-la-main-gauche
+movements:
+  - title: Moderato
+  - title: Andante
+publications:
+  - publisher_id: afp
+    type: all
+title:
+  main: fr
+  original: hu
+  sort:
+    - fr
+    - hu
+  translations:
+    fr: Deux esquisses pour la main gauche
+    hu: Kis szvit ballkézre
