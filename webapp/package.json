@@ -1,9 +1,0 @@
-{
-  "name": "svelte-app",
-  "version": "1.0.0",
-  "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w",
-    "_start": "sirv ../website/static/js"
-  }
-}
