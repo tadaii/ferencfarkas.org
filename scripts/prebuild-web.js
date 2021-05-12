@@ -325,7 +325,7 @@ const getLastUpdates = async () => {
     const audioFiles = await fs.readdir(srcAudioDir)
 
     for (let file of audioFiles) {
-      if (!file.endsWith('.ogg') && !file.endsWith('.mp3')) {
+      if (!file.endsWith('.mp3')) {
         continue
       }
 
