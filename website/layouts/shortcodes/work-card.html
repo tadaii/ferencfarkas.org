@@ -5,10 +5,13 @@
 {{- $storyRef := (print (or $work.story "")) -}}
 <div class="card work-card">
   <header>
-    <a class="work-card--composition-date" href="/work">
+    <span class="work-card--composition-date">
       {{ $work.composition_date }}
-    </a>
-    <a class="work-card--category tag" href="/work/?c={{ $work.category.id }}">
+    </span>
+    <a
+      class="work-card--category tag"
+      href="/work/?f=c.{{ $work.category.id }}"
+    >
       {{ $work.category.tag }}
     </a>
   </header>
