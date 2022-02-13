@@ -1,0 +1,31 @@
+category: cantata_oratorio
+composition_date: 1974
+date: 2022.02.11
+description: Cantata for tenor and baritone solo and orchestra in memory of Prince Rákóczi II
+duration: 1800
+id: aspirationes-principis
+movements:
+  - title: Recrudescunt...
+  - title: Sententia
+  - title: Ad sonitum classici
+  - title: Ad aspectum cadaverum
+  - title: Ad obtenta victoria
+  - title: De silentio
+  - title: Mikes levele
+  - title: Epitaphium
+publications:
+  - publisher_id: emb
+    type: all
+setting: 3 (picc.), 3 (III=c.i.), 3 (cl. b.), 3 (cfg.) – 4, 3, 3, 0 – timp., batt. – 2 arpe, pf., cel. – archi
+texts:
+  hu: in hungarian by Kelemen Mikes and Paul Ráday
+  la: in Latin by Ferenc Rákoczi
+title:
+  main: la
+  original: la
+  sort:
+    - la
+    - en
+  translations:
+    la: Aspirationes principis
+    hu: Rákóczi cantata
