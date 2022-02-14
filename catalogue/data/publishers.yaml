@@ -12,27 +12,28 @@
   url: https://www.editiondarok.de/
 - id: emb
   name: Edition Musica Budapest
-  url: https://www.emb.hu/
+  url: https://www.umpemb.com/en-US/Composers/F/Farkas-Ferenc.aspx
 - id: kontrapunkt
   name: Kontrapunkt Music
-  url: http://kontrapunktmusic.com/
+  url: http://kontrapunktmusic.com/farkas_ferenc
 - id: curci
   name: Edizioni Curci
-  url: https://www.edizionicurci.it/printed-music/default.asp
+  url: https://www.edizionicurci.it/printed-music/minisito_autore.asp?id=2758
 - id: metropolis
   name: Metropolis music publishers
+  url: https://www.partitions-musicales.net/index.php?cl=search&he_dynamicfacet=verlag_c&he_dynamicvalue=Metropolis%2BMusic%2BPublishers&he_dynamiccode=692030&he_dynamicurl=Metropolis-Music-Publishers&searchparam=Ferenc+Farkas
 - id: schott
   name: Schott Music
-  url: https://en.schott-music.com/
+  url: https://en.schott-music.com/shop/autoren/ferenc-farkas
 - id: sidem
   name: Sidem Editions
   url: mailto:sidomusic@sidomusic.com
 - id: sikorski
   name: Sikorski Musikverlage
-  url: https://www.sikorski.de/
+  url: https://www.sikorski.de/463/de/0/a/0/9000143/farkas_ferenc/werke.html
 - id: universal
   name: Universal Edition
-  url: https://www.universaledition.com/
+  url: https://www.universaledition.com/ferenc-farkas-216
 - id: spirito
   name: Musica con spirito Edition
-  url: http://www.musica-con-spirito-edition.de/Solostimmen-Orgel-Bestellung.html
+  url: mailto:info@musica-con-spirito-edition.de
