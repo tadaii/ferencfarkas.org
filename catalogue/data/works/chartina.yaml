@@ -1,0 +1,27 @@
+category: voice_piano
+composition_date: 1987
+date: 2022-02-16
+description: Cycle of 5 songs for voice and clarinet in sib
+duration: 360
+id: chartina
+movements:
+  - title: Ώ ανήμπορο  / Milyen hasztalan 
+  - title: Κυριακή / Ünnepest
+  - title: Ο γελωτοποιός / Felvette a bohóc 
+  - title: Τό κάτ ιάκόμι / Egy távoli cél 
+  - title: Νυχτερινή / Éjjeli gyors
+publications:
+  - publisher_id: afp
+    type: all
+texts:
+  gr: in Greek by Yánnis Rítsos
+  hu: Hungarian translated by Ernő Hárs
+title:
+  main: gr
+  original: gr
+  sort:
+    - gr
+    - hu
+  translations:
+    gr: Chartina / Χαρτινα
+    hu: Papírszeletek
