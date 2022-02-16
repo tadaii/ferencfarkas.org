@@ -1,0 +1,23 @@
+category: voice_piano
+date: 2022-02-16
+description: Cycle of 5 songs for voice and guitar
+duration: 330
+id: cinque-canzoni-dei-trovatori
+movements:
+  - title: Volez vos que je vos chant 
+  - title: Belle Doette
+  - title: Quand li rossignols s’écrie 
+  - title: A pris ai qu'en chantant plour 
+  - title: Fort m'enoia
+publications:
+  - publisher_id: curci
+    type: all
+texts:
+  fr: in old French
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Cinque canzoni dei trovatori
