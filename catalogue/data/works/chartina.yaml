@@ -5,11 +5,11 @@ description: Cycle of 5 songs for voice and clarinet in sib
 duration: 360
 id: chartina
 movements:
-  - title: Ώ ανήμπορο  / Milyen hasztalan 
-  - title: Κυριακή / Ünnepest
-  - title: Ο γελωτοποιός / Felvette a bohóc 
-  - title: Τό κάτ ιάκόμι / Egy távoli cél 
-  - title: Νυχτερινή / Éjjeli gyors
+  - title: Ó anímporo  / Milyen hasztalan 
+  - title: Kyriakí / Ünnepest
+  - title: O gelotopoiós / Felvette a bohóc 
+  - title: Tó kát iákómi / Egy távoli cél 
+  - title: Nychteriní / Éjjeli gyors
 publications:
   - publisher_id: afp
     type: all
@@ -23,5 +23,5 @@ title:
     - gr
     - hu
   translations:
-    gr: Chartina / Χαρτινα
+    gr: Chartina
     hu: Papírszeletek
