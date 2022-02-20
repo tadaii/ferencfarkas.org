@@ -21,8 +21,10 @@ publications:
   - publisher_id: carus
     type: all
 setting: 
-    instrumental ensemble : fl., fg., tr., vl., vla, vlc. 
-    orchestra : 2 (picc.), 2, 2, 2 – 2, 1, 0, 0 – arpa ad lib. – archi
+    version 1: instrumental ensemble
+     - fl., fg., tr., vl., vla, vlc. 
+    version 2: orchestra
+      - 2 (picc.), 2, 2, 2 – 2, 1, 0, 0 – arpa ad lib. – archi
 texts:
   la: by Janus Pannonius
   hu: in hungarian (traditional)
