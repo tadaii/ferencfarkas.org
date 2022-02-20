@@ -7,6 +7,9 @@
 - id: ascolta
   name: Ascolta Music Publishing Houten
   url: https://ascolta.nl/
+- id: carus
+  name: Carus verlag
+  url: https://www.carus-verlag.com/index.php?stoken=A03C6400&lang=2&cl=search&searchparam=ferenc+farkas
 - id: darok
   name: Darok Edition
   url: https://www.editiondarok.de/
