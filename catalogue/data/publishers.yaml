@@ -4,6 +4,9 @@
 - id: alliance
   name: Alliance Publications
   url: https://www.apimusic.org/?subcats=Y&status=A&pshort=Y&pfull=Y&pname=Y&pkeywords=Y&search_performed=Y&q=ferenc+farkas&dispatch=products.search
+- id: ars
+  name: Ars Nova Editio
+  url: http://arsnovaeditio.hu/eng/an042.html
 - id: ascolta
   name: Ascolta Music Publishing Houten
   url: https://ascolta.nl/
