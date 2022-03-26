@@ -1,9 +1,9 @@
 category: cantata_oratorio
 composition_date: 1970
 date: 2022-2-25
-description: Christmas cantata for narrator, mixed (or children’s) choir, organ and instrumental ensemble
+description: Christmas cantata for narrator, mixed (or children’s) choir, organ and orchestra
 duration: 1260
-id: ein-krippenspiel-aus-koeroeshegy
+id: ein-krippenspiel-aus-koeroeshegy-for-orchestra
 movements:
   - title: Präludium
   - title: Chor a cappella
@@ -22,7 +22,7 @@ movements:
 publications:
   - publisher_id: carus
     type: all
-setting:  fl., fg., tr., vl., vla, vlc.
+setting:  2 (picc.), 2, 2, 2 – 2, 1, 0, 0 – arpa ad lib. – archi
 texts:
   hu: in Hungarian
   de: German translated by Ferenc Farkas
