@@ -1,0 +1,33 @@
+category: mass
+composition_date: 1992
+date: 2022-3-27
+description: for mixed choir and orchestra
+dedication: pro memoria M. (Margit Farkas)
+duration: 1680
+id: requiem
+movements:
+  - title: Requiem
+  - title: Kyrie
+  - title: Die Irae
+  - title: Recordare
+  - title: Confutatis
+  - title: Lacrimosa
+  - title: Offertorium
+  - title: Hostias
+  - title: Sanctus
+  - title: Benedictus
+  - title: Agnus Dei
+  - title: Libera
+  - title: In Paradisum
+publications:
+  - publisher_id: ascolta
+    type: all
+texts:
+  la: in Latin
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Requiem pro memoria M.
