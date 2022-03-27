@@ -1,0 +1,19 @@
+category: misc_choir
+composition_date: 1970
+date: 2022-2-27
+description: Christmas song from the Christmas cantata “Ein Krippenspiel aus Kőröshegy” for 4-part mixed choir
+duration: 150
+id: ez-karacsony
+publications:
+  - publisher_id: carus
+    type: all
+rework_of: ein-krippenspiel-aus-koeroeshegy
+texts:
+  hu: in Hungarian
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Ez karácsony
