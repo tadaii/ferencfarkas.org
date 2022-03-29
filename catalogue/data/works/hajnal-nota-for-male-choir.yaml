@@ -1,0 +1,18 @@
+category: male
+date: 2022-03-29
+description: French troubadour song from the 13th century for 3-part male choir
+duration: 100
+id: hajnal-nota-for-male-choir
+publications:
+  - publisher_id: emb
+    type: all
+rework_of: aubade
+texts:
+  hu: in Hungarian translated by Sándor Weöres
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Hajnal nóta

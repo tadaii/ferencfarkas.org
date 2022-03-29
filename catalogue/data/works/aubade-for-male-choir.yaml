@@ -1,0 +1,18 @@
+category: male
+date: 2022-03-29
+description: French troubadour song from the 13th century for 3-part male choir
+duration: 100
+id: aubade-for-male-choir
+publications:
+  - publisher_id: labatiaz
+    type: all
+rework_of: aubade
+texts:
+  fr: in French
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Aubade
