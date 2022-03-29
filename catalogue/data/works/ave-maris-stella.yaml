@@ -1,0 +1,18 @@
+category: choir
+composition_date: 1999
+date: 2022-03-29
+description: for 4-part mixed choir
+duration: 120
+id: ave-maris-stella
+publications:
+  - publisher_id: kontrapunkt
+    type: all
+texts:
+  la: in Latin
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Ave Maris Stella
