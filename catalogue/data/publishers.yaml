@@ -13,6 +13,9 @@
 - id: carus
   name: Carus verlag
   url: https://www.carus-verlag.com/index.php?stoken=A03C6400&lang=2&cl=search&searchparam=ferenc+farkas
+- id: curci
+  name: Edizioni Curci
+  url: https://www.edizionicurci.it/printed-music/minisito_autore.asp?id=2758
 - id: darok
   name: Darok Edition
   url: https://www.editiondarok.de/
@@ -22,9 +25,9 @@
 - id: kontrapunkt
   name: Kontrapunkt Music
   url: http://kontrapunktmusic.com/farkas_ferenc
-- id: curci
-  name: Edizioni Curci
-  url: https://www.edizionicurci.it/printed-music/minisito_autore.asp?id=2758
+- id: labatiaz
+  name: Editions Labatiaz
+  url: http://www.editions-labatiaz.com/
 - id: metropolis
   name: Metropolis music publishers
   url: https://www.partitions-musicales.net/index.php?cl=search&he_dynamicfacet=verlag_c&he_dynamicvalue=Metropolis%2BMusic%2BPublishers&he_dynamiccode=692030&he_dynamicurl=Metropolis-Music-Publishers&searchparam=Ferenc+Farkas
@@ -37,9 +40,9 @@
 - id: sikorski
   name: Sikorski Musikverlage
   url: https://www.sikorski.de/463/de/0/a/0/9000143/farkas_ferenc/werke.html
+- id: sympaphonie
+  name: Sympaphonie
+  url: https://sympaphonie.ch/sympadoc/recherche_partitions.asp?iPage=1&recherche=Ferenc+Farkas&vx=%25&orderby=titre&OptionSearch=AND&RechercheDans=all&PageSize=10&theme=&spe=&edition
 - id: universal
   name: Universal Edition
   url: https://www.universaledition.com/ferenc-farkas-216
-- id: labatiaz
-  name: Editions Labatiaz
-  url: http://www.editions-labatiaz.com/

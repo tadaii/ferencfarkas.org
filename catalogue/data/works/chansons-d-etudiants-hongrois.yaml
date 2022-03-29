@@ -1,0 +1,25 @@
+category: choir
+date: 2022-03-29
+dedication: a Budapesti Madrigálkórusnak és karnagyának, Szekeres Ferencnek
+description: 5 songs for 4-part mixed choir
+duration: 420
+id: chansons-d-etudiants-hongrois
+movements:
+  - title: Bel oiseau - French translated by Edmond Pidoux
+  - title: Le vain devoir - French translated by Emile Gardaz
+  - title: Chanson á boire - French translated by Edmond Pidoux
+  - title: L’endeuillé - French translated by Edmond Pidoux
+  - title: La silencieuse - French translated by Edmond Pidoux
+publications:
+  - publisher_id: sympaphonie 
+    type: under the parts’titles
+rework_of: pataki-diakdalok
+texts:
+  fr: in French
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Chansons d’étudiants hongrois du 18ème siècle  
