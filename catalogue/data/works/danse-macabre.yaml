@@ -1,0 +1,20 @@
+category: choir
+composition_date: 1994
+date: 2022-03-31
+description: for 4-part mixed choir
+duration: 210
+id: danse-macabre
+publications:
+  - publisher_id: kodaly 
+    type: all
+texts:
+  hu: in Hungarian by Sándor Weöres
+title:
+  main: fr
+  original: hu
+  sort:
+    - fr
+    - hu
+  translations:
+    fr: Danse macabre
+    hu: Haláltánc  

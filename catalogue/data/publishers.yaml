@@ -25,6 +25,9 @@
 - id: kontrapunkt
   name: Kontrapunkt Music
   url: http://kontrapunktmusic.com/farkas_ferenc
+- id: kodaly
+  name: Kodály intézet
+  url: https://zeneakademia.hu/kodaly_konyvesbolt/kottak-107358 
 - id: labatiaz
   name: Editions Labatiaz
   url: http://www.editions-labatiaz.com/
