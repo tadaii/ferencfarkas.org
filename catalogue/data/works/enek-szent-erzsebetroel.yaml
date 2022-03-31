@@ -1,0 +1,18 @@
+category: choir
+composition_date: 1981
+date: 2022-03-31
+description: for 4-part mixed choir
+duration: 155
+id: enek-szent-erzsebetroel
+publications:
+  - publisher_id: kontrapunkt
+    type: all
+texts:
+  hu: in Hungarian (Kájoni Cantionale)
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Ének Szent Erzsébetről

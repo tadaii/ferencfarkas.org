@@ -1,0 +1,18 @@
+category: choir
+composition_date: 1960
+date: 2022-03-31
+description: for 4-part mixed choir
+duration: 120
+id: epigramma-de-suo-libro
+publications:
+  - publisher_id: emb
+    type: all
+texts:
+  la: in Latin by Janus Pannonius
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Epigramma de suo libro
