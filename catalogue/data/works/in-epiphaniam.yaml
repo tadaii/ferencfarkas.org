@@ -1,0 +1,19 @@
+category: choir
+composition_date: 1970
+date: 2022-04-01
+description: 4-part mixed choir from the Christmas cantata "Ein Krippenspiel aus Kőröshegy"
+duration: 120
+id: in-epiphaniam
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: ein-krippenspiel-aus-koeroeshegy
+texts:
+  la: in Latin by Janus Pannonius
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: In Epiphaniam
