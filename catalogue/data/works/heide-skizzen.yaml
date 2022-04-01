@@ -1,0 +1,25 @@
+category: choir
+composition_date: 1980
+date: 2022-04-01
+dedication: Herrn Dr. Alfred Toepfer in Dankbarkeit herzlichst gewidmet
+description: for 4-part mixed choir
+duration: 400
+id: heide-skizzen
+movements:
+  - title: Ein Traum - text by J.G. Herder
+  - title: Die Heide - text by Hermann Löns
+  - title: Ergo bibamus - text by J.W. Goethe
+  - title: Schau dich um - text by L. Tieck
+  - title: September - Morgen - text by E. Mörike
+publications:
+  - publisher_id: afp
+    type: all
+texts:
+  de: in German
+title:
+  main: de
+  original: de
+  sort:
+    - de
+  translations:
+    de: Heide-Skizzen

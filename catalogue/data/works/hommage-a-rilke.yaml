@@ -1,0 +1,24 @@
+category: choir
+composition_date: 1984
+date: 2022-04-01
+description: for 4-part mixed choir
+duration: 408
+id: heide-skizzen
+movements:
+  - title: An allen Dingen / Minden dolgon
+  - title: Herbst / Ősz
+  - title: O sage Dichter / A tiszted költö
+  - title: Wir sind die Treibenden /Törtetünk szüntelen
+publications:
+  - publisher_id: emb
+    type: all
+texts:
+  de: in German by R.M. Rilke
+  hu: Hungarian translated by Ernö Hárs
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Hommage à Rilke

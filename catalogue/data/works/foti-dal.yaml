@@ -1,0 +1,18 @@
+category: choir
+composition_date: 1993
+date: 2022-04-01
+description: for 4-part mixed choir
+duration: 230
+id: foti-dal
+publications:
+  - publisher_id: emb
+    type: all
+texts:
+  hu: in Hungarian by Mihály Vörösmarty
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Fóti dal
