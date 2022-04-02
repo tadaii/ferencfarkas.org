@@ -1,0 +1,18 @@
+category: choir
+date: 2022-04-02
+description: French Christmas song for 4-part mixed choir
+duration: 120
+id: je-suis-l-archange-de-dieu
+publications:
+  - publisher_id: ascolta
+    type: all
+texts:
+  fr: in French
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Je suis l’archange de Dieu
+
