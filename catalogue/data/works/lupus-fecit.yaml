@@ -1,0 +1,24 @@
+category: choir
+composition_date: 1979
+date: 2022-04-02
+dedication: au Choeur des XVI de Fribourg et á son chef André Ducret
+description: for 4-part mixed choir
+duration: 500
+id: lupus-fecit
+movements:
+  - title: Epitaphium - Epitaph from Aquincum
+  - title: Cantus nocturnus - text by Virgilius
+  - title: Optatio - text by Catullus
+  - title: Canticum - text by Catullus
+publications:
+  - publisher_id: emb
+    type: all
+texts:
+  la: in Latin
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Lupus fecit

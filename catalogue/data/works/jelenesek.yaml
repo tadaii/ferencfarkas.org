@@ -1,0 +1,25 @@
+category: choir
+composition_date: 1983
+date: 2022-04-02
+dedication: A mü Debrecen város felkérésére készült
+description: for 4-part mixed choir
+duration: 640
+id: jelenesek
+movements:
+  - title: Homokóra-Játék
+  - title: Elmúlnak
+  - title: Vesztőhely a világ végén
+  - title: A sirhalom
+  - title: Hopp, Sári, hopp
+publications:
+  - publisher_id: emb
+    type: all
+texts:
+  hu: in Hungarian by Zoltán Jékely
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Jelenések

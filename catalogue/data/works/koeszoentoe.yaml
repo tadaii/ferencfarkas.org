@@ -1,0 +1,18 @@
+category: choir
+composition_date: 1990
+date: 2022-04-02
+description: for 4-part mixed choir
+duration: 60
+id: koeszoentoe
+publications:
+  - publisher_id: afp
+    type: all
+texts:
+  hu: in Hungarian by Sándor Csoóri
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Köszöntő
