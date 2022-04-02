@@ -1,0 +1,17 @@
+category: choir
+date: 2022-04-02
+description: English Christmas song for 4-part mixed choir
+duration: 120
+id: sainte-nuit-for-mixed-choir
+publications:
+  - publisher_id: labatiaz
+    type: all
+texts:
+  fr: in French translated by Roger Bornet
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Sainte nuit
