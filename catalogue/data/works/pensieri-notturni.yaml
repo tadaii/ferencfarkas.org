@@ -1,0 +1,21 @@
+category: choir
+date: 2022-04-03
+description: for 4-part mixed choir
+duration: 440
+id: pensieri-notturni
+movements:
+  - title: La notte
+  - title: Di morte certo
+  - title: Madrigale alla notte
+publications:
+  - publisher_id: afp
+    type: all
+texts:
+  it: in Italian by Michelangelo Buonarroti
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Pensieri notturni
