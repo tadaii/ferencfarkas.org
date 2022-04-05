@@ -74,7 +74,11 @@ const getWorks = async ({ dir, genres, categories }) => {
   return works.map(work => {
     if (work.rework_of) {
       work.rework = work.rework_of
-      work.story = works.find(w => w.id === work.rework_of).story
+      try {
+        work.story = works.find(w => w.id === work.rework_of).story
+      } catch (e) {
+        console.error(`Error finding story for work ${work.rework} in ${work.id}:`, e)
+      }
       works.find(w => w.id === work.rework_of).rework = work.rework_of
     }
     return work
@@ -117,7 +121,12 @@ const buildSearchIndex = catalogue => {
     catalogue.works.forEach(work => {
       const doc = { ...work }
 
-      doc.title = Object.values(doc.title.translations).join(', ')
+      try {
+        doc.title = Object.values(doc.title.translations).join(', ')
+      } catch(e) {
+        console.error(`Cannot get title from values for work ${work.id}:`, e)
+        console.log('Debug doc.title.translations:', doc.title.translations)
+      }
 
       if (doc.audios) {
         doc.audios = doc.audios.map(audio => audio.description).join(', ')
