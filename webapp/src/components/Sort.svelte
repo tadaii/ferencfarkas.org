@@ -22,7 +22,7 @@
     {
       key: 'c',
       dir: 'asc',
-      label: 'Composition',
+      label: 'Composition date',
     },
     {
       key: 't',
