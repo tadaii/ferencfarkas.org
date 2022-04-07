@@ -1,0 +1,19 @@
+category: choir
+composition_date: 1992
+date: 2022-04-07
+dedication: Pro memoria M.
+description: for 4-part mixed choir
+duration: 232
+id: sonetto-cccxxxiii-di-petrarca
+publications:
+  - publisher_id: emb
+    type: all
+texts:
+  it: in Italian by Petrarca 
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Sonetto CCCXXXIII di Petrarca
