@@ -1,0 +1,18 @@
+category: choir
+date: 2022-04-07
+description: Song of the country of Liège for 4 part mixed choir
+duration: 120
+id: vallon-szerenad
+publications:
+  - publisher_id: emb
+    type: all
+rework_of: serenade-wallone
+texts:
+  hu: in Hungarian translated by László Dalos 
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Vallon szerenád
