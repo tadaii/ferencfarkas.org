@@ -1,0 +1,24 @@
+category: choir
+composition_date: 1962
+date: 2022-04-7
+description: for 4-part mixed choir
+duration: 526
+id: tavasz-nyar-oesz-tel
+movements:
+  - title: Bevezető
+  - title: Március végén - text by József Berda
+  - title: Kánikula - text by Sándor Weöres
+  - title: Vénasszonyok nyara - text by Gyula Takáts
+  - title: Befagyott parton - text by Gyula Takáts
+publications:
+  - publisher_id: emb
+    type: all
+texts:
+  hu: in Hungarian
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Tavasz, nyár, ősz, tél
