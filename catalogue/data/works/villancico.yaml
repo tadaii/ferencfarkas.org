@@ -1,0 +1,19 @@
+category: choir
+composition_date: 1998
+date: 2022-04-11
+dedication: to Françoise Farkas
+description: Christmas song from South America for 4-part mixed choir
+duration: 120
+id: villancico
+publications:
+  - publisher_id: afp
+    type: all
+texts:
+  es: in Spanish
+title:
+  main: es
+  original: es
+  sort:
+    - es
+  translations:
+    es: Villancico
