@@ -1,0 +1,29 @@
+category: female
+composition_date: 1986
+date: 2022-04-23
+dedication: a Budatoki Kamarakórusnak és karnagyának Biller Istvánnak
+description: 5 Basque songs for 3-part female choir
+duration: 617
+id: baszk-dalok
+movements:
+  - title: Süss rám / Argizagi ederra
+  - title: Kárbaveszett szerenád / Errefusa
+  - title: Mint a szép fényes csillag / Izar ederra
+  - title: Kicsi gyermekem itt az éj / Lo lo
+  - title: Oly csodaszépen / Chorietan buruzagi
+publications:
+  - publisher_id: emb
+    type: all
+texts:
+  baq: in Basque
+  hu: Hungarian transalted by Ernö Hárs
+title:
+  main: hu
+  original: baq
+  sort:
+    - hu
+    - baq
+  translations:
+    hu: Baszk dalok
+    baq: Euskal abestiak
+     
