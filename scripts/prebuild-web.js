@@ -1,4 +1,3 @@
-
 const { join, resolve } = require('path')
 const fs = require('fs-extra')
 const yaml = require('yaml')
@@ -20,8 +19,6 @@ const dstI18nDir = resolve(root, 'website/static/_catalogue/i18n')
 const dstAudioDir = resolve(root, 'website/static/audio')
 
 const yaml2json = async file => {
-  console.log(`> Processing ${file}`)
-
   const content = await fs.readFile(file)
   return yaml.parse(content.toString())
 }
@@ -30,11 +27,11 @@ const getWorks = async ({ dir, genres, categories }) => {
   const works = []
   const files = await fs.readdir(dir)
 
-  for (file of files.filter(f => f.endsWith('.yaml'))) {
+  for (const file of files.filter(f => f.endsWith('.yaml'))) {
     const filePath = join(dir, file)
     let work = await yaml2json(filePath)
-    const defaultVersionIndex = work.versions && work.versions
-      .findIndex(v => v.default)
+    const defaultVersionIndex =
+      work.versions && work.versions.findIndex(v => v.default)
 
     if (defaultVersionIndex > -1) {
       work = {
@@ -42,7 +39,7 @@ const getWorks = async ({ dir, genres, categories }) => {
         ...work.versions[defaultVersionIndex],
         isDefaultVersion: true,
         versions: work.versions.filter(v => !v.default),
-        lastUpdate: ''
+        lastUpdate: '',
       }
     }
 
@@ -77,7 +74,10 @@ const getWorks = async ({ dir, genres, categories }) => {
       try {
         work.story = works.find(w => w.id === work.rework_of).story
       } catch (e) {
-        console.error(`Error finding story for work ${work.rework} in ${work.id}:`, e)
+        console.error(
+          `Error finding story for work ${work.rework} in ${work.id}:`,
+          e
+        )
       }
       works.find(w => w.id === work.rework_of).rework = work.rework_of
     }
@@ -86,21 +86,26 @@ const getWorks = async ({ dir, genres, categories }) => {
 }
 
 const buildCatalogue = async src => {
-  const a2o = arr => arr.reduce((acc, obj) => {
-    if (!obj) return acc
-    const id = obj.id
-    delete obj.id
-    acc[id] = obj
-    return acc
-  }, {})
+  const a2o = arr =>
+    arr.reduce((acc, obj) => {
+      if (!obj) return acc
+      const id = obj.id
+      delete obj.id
+      acc[id] = obj
+      return acc
+    }, {})
 
   const genres = a2o(await yaml2json(join(src, 'data', 'genres.yaml')))
   const categories = a2o(await yaml2json(join(src, 'data', 'categories.yaml')))
   const publishers = a2o(await yaml2json(join(src, 'data', 'publishers.yaml')))
   const fields = await yaml2json(join(src, 'data', 'fields.yaml'))
   const works = await getWorks({
-    dir: join(src, 'data', 'works'), genres, categories
+    dir: join(src, 'data', 'works'),
+    genres,
+    categories,
   })
+
+  console.log('> Catalogue built')
 
   return { categories, fields, genres, publishers, works }
 }
@@ -123,7 +128,7 @@ const buildSearchIndex = catalogue => {
 
       try {
         doc.title = Object.values(doc.title.translations).join(', ')
-      } catch(e) {
+      } catch (e) {
         console.error(`Cannot get title from values for work ${work.id}:`, e)
         console.log('Debug doc.title.translations:', doc.title.translations)
       }
@@ -146,7 +151,7 @@ const buildSearchIndex = catalogue => {
     }, this)
   })
 
-  console.log(`> Search index written`)
+  console.log('> Search index written')
 
   return idx
 }
@@ -156,12 +161,11 @@ const buildAudioMap = async catalogue => {
   const files = await fs.readdir(dir)
   const map = {}
 
-  for (file of files.filter(f => f.endsWith('.yaml'))) {
+  for (const file of files.filter(f => f.endsWith('.yaml'))) {
     const filePath = join(dir, file)
     const workId = file.replace('.yaml', '')
     const audios = await yaml2json(filePath)
-    const work = catalogue.works
-      .find(work => work.id === workId)
+    const work = catalogue.works.find(work => work.id === workId)
 
     if (!work) {
       throw new Error(`Work with ID ${workId} not found`)
@@ -174,7 +178,7 @@ const buildAudioMap = async catalogue => {
       map[audio.id] = {
         title: audio.description,
         detail: `${title} - ${category}`,
-        url: `/audio/${audio.id}.mp3`
+        url: `/audio/${audio.id}.mp3`,
       }
     })
   }
@@ -185,39 +189,42 @@ const buildAudioMap = async catalogue => {
 const getLastUpdates = async () => {
   const dir = '.'
   const tags = await git.listTags({ fs, dir })
-  const latestTag = tags.map(tag => ({
-    tag,
-    num: parseInt(tag.split('.').map(n => n.padStart(2, '0')).join(''))
-  }))
-    .sort((a, b) => a < b ? 1 : a > b ? -1 : 0)
+  const latestTag = tags
+    .map(tag => ({
+      tag,
+      num: parseInt(
+        tag
+          .split('.')
+          .map(n => n.padStart(2, '0'))
+          .join('')
+      ),
+    }))
+    .sort((a, b) => (a < b ? 1 : a > b ? -1 : 0))
     .reverse()[0]
 
   console.log('> tags', tags)
   console.log('> latest git tag', latestTag)
 
   const latestRef = await git.resolveRef({ fs, dir, ref: latestTag.tag })
-  const since = isDev
-    ? addDays(new Date(), -3)
-    : new Date((await git.readCommit({ fs, dir, oid: latestRef }))
-      .commit.author.timestamp * 1000)
+  console.log('latestRef', latestRef)
+  const latestCommit = await git.readCommit({ fs, dir, oid: latestRef })
+  console.log('latestCommit', latestCommit)
+  const since = new Date(latestCommit.commit.author.timestamp * 1000)
 
   console.log(`> Gathering updates since ${format(since, 'yyyy-MM-dd')}...`)
 
-  const commits = (await git.log({ fs, dir, since }))
+  const commits = await git.log({ fs, dir, since })
   const hashes = commits.map(c => c.oid)
 
   async function getFileStateChanges(dir, commitHash1, commitHash2) {
     return git.walk({
       fs,
       dir,
-      trees: [
-        git.TREE({ ref: commitHash1 }),
-        git.TREE({ ref: commitHash2 })
-      ],
+      trees: [git.TREE({ ref: commitHash1 }), git.TREE({ ref: commitHash2 })],
       map: async function (filepath, [A, B]) {
         if (filepath === '.') return
-        if (await (A && A.type()) === 'tree') return
-        if (await (B && B.type()) === 'tree') return
+        if ((await (A && A.type())) === 'tree') return
+        if ((await (B && B.type())) === 'tree') return
 
         // generate ids
         const Aoid = await (A && A.oid())
@@ -232,17 +239,17 @@ const getLastUpdates = async () => {
         const type = !Aoid
           ? 'D' // Deleted
           : !Boid
-            ? 'A' // Added
-            : Aoid !== Boid
-              ? 'U' // Updated
-              : '-' // Unchanged
+          ? 'A' // Added
+          : Aoid !== Boid
+          ? 'U' // Updated
+          : '-' // Unchanged
 
         if (type === '-') {
           return
         }
 
         return { filepath, type }
-      }
+      },
     })
   }
 
@@ -252,7 +259,7 @@ const getLastUpdates = async () => {
     audios: { A: [], U: [], D: [] },
     works: { A: [], U: [], D: [] },
     stories: { A: [], U: [], D: [] },
-    pages: { A: [], U: [], D: [] }
+    pages: { A: [], U: [], D: [] },
   }
 
   for (let i = 0; i < hashes.length; i++) {
@@ -262,15 +269,17 @@ const getLastUpdates = async () => {
 
     const hash = hashes[i]
     const prevHash = hashes[i + 1]
-    const changes = (await getFileStateChanges(dir, hash, prevHash))
+    const changes = await getFileStateChanges(dir, hash, prevHash)
 
     for (const change of changes) {
       let cat
 
       if (change.filepath.startsWith('catalogue/data/works/')) {
         cat = 'works'
-      } else if (change.filepath.startsWith('catalogue/data/audio/') ||
-        change.filepath.startsWith('catalogue/assets/audios/')) {
+      } else if (
+        change.filepath.startsWith('catalogue/data/audio/') ||
+        change.filepath.startsWith('catalogue/assets/audios/')
+      ) {
         cat = 'audios'
       } else if (change.filepath.startsWith('website/content/work/')) {
         cat = 'stories'
@@ -282,7 +291,7 @@ const getLastUpdates = async () => {
         continue
       }
 
-      list = lastUpdates[cat][change.type]
+      const list = lastUpdates[cat][change.type]
 
       if (!list.includes(change.filepath)) {
         list.push(change.filepath)
@@ -296,70 +305,68 @@ const getLastUpdates = async () => {
       continue
     }
 
-    lastUpdates[cat].U = lastUpdates[cat].U
-      .filter(file => !lastUpdates[cat].A.includes(file))
+    lastUpdates[cat].U = lastUpdates[cat].U.filter(
+      file => !lastUpdates[cat].A.includes(file)
+    )
   }
 
   console.log('> last updates', lastUpdates)
   return lastUpdates
 }
 
-  ; (async () => {
-    const catalogue = await buildCatalogue(src)
-    const searchIdx = buildSearchIndex(catalogue)
-    const audioList = await buildAudioMap(catalogue)
+;(async () => {
+  const catalogue = await buildCatalogue(src)
+  const searchIdx = buildSearchIndex(catalogue)
+  const audioList = await buildAudioMap(catalogue)
 
-    // Write catalogue and search index files.
-    await fs.writeFile(dstAudioList, JSON.stringify(audioList), 'utf8')
-    console.log(`> Audio list written`)
+  // Write catalogue and search index files.
+  await fs.writeFile(dstAudioList, JSON.stringify(audioList), 'utf8')
+  console.log('> Audio list written')
 
-    await fs.writeFile(dstCatalogue, JSON.stringify(catalogue), 'utf8')
+  await fs.writeFile(dstCatalogue, JSON.stringify(catalogue), 'utf8')
+  await fs.writeFile(dstSearchIdx, JSON.stringify(searchIdx), 'utf8')
 
-    await fs.writeFile(dstSearchIdx, JSON.stringify(searchIdx), 'utf8')
+  // Write catalogue works in web data dir.
+  const works = catalogue.works.reduce((worksMap, work) => {
+    worksMap[work.id] = {
+      ...work,
+      category: {
+        id: work.category,
+        ...catalogue.categories[work.category],
+      },
+    }
+    return worksMap
+  }, {})
 
-    // Write catalogue works in web data dir.
-    const works = catalogue.works.reduce((worksMap, work) => {
-      worksMap[work.id] = {
-        ...work,
-        category: {
-          id: work.category,
-          ...catalogue.categories[work.category]
-        }
-      }
-      return worksMap
-    }, {})
+  await fs.writeFile(dstWorks, JSON.stringify(works), 'utf8')
 
-    await fs.writeFile(dstWorks, JSON.stringify(works), 'utf8')
+  // Copy i18n files.
+  await fs.mkdirp(dstI18nDir)
+  const srcI18n = join(src, 'i18n')
+  const i18nFiles = await fs.readdir(srcI18n)
 
-    // Copy i18n files.
-    await fs.mkdirp(dstI18nDir)
-    const srcI18n = join(src, 'i18n')
-    const i18nFiles = await fs.readdir(srcI18n)
-
-    for (let file of i18nFiles) {
-      if (!file.endsWith('.json')) {
-        continue
-      }
-
-      await fs.copyFile(join(srcI18n, file), join(dstI18nDir, file))
-      console.log(`> ${file} copied`)
+  for (const file of i18nFiles) {
+    if (!file.endsWith('.json')) {
+      continue
     }
 
-    // Copy audio files.
-    await fs.mkdirp(dstAudioDir)
-    const srcAudioDir = join(src, 'assets', 'audios')
-    const audioFiles = await fs.readdir(srcAudioDir)
+    await fs.copyFile(join(srcI18n, file), join(dstI18nDir, file))
+  }
 
-    for (let file of audioFiles) {
-      if (!file.endsWith('.mp3')) {
-        continue
-      }
+  // Copy audio files.
+  await fs.mkdirp(dstAudioDir)
+  const srcAudioDir = join(src, 'assets', 'audios')
+  const audioFiles = await fs.readdir(srcAudioDir)
 
-      await fs.copyFile(join(srcAudioDir, file), join(dstAudioDir, file))
-      console.log(`> ${file} copied`)
+  for (const file of audioFiles) {
+    if (!file.endsWith('.mp3')) {
+      continue
     }
 
-    // Get and write last updates data
-    const lastUpdates = await getLastUpdates()
-    await fs.writeFile(dstLastUpdates, JSON.stringify(lastUpdates), 'utf8')
-  })()
+    await fs.copyFile(join(srcAudioDir, file), join(dstAudioDir, file))
+  }
+
+  // Get and write last updates data
+  const lastUpdates = await getLastUpdates()
+  await fs.writeFile(dstLastUpdates, JSON.stringify(lastUpdates), 'utf8')
+})()
