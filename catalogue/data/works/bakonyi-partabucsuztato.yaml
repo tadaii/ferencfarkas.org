@@ -1,0 +1,18 @@
+category: female
+date: 2022-04-23
+dedication: a SZMT Kisfaludy Müvelödési Ház Liszt Ferenc Kórusának és karnagyának Kollár Kálmánnak
+description: for 3-part female choir
+duration: 220
+id: bakonyi-partabucsuztato
+publications:
+  - publisher_id: emb
+    type: all
+texts:
+  hu: in Hungarian
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Bakonyi pártabúcsúztató
