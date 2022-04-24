@@ -236,6 +236,6 @@ const buildAudioMap = async catalogue => {
   }
 
   // Get and write last updates data
-  const lastUpdates = await getLastUpdates()
+  const { lastUpdates } = await getLastUpdates()
   await fs.writeFile(dstLastUpdates, JSON.stringify(lastUpdates), 'utf8')
 })()

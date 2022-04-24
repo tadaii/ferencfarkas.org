@@ -1,6 +1,7 @@
 const format = require('date-fns/format')
 const fs = require('fs-extra')
 const git = require('isomorphic-git')
+const { exec } = require('shelljs')
 
 const getLatestTagCommit = async (dir = '.') => {
   const tags = await git.listTags({ fs, dir })
@@ -23,8 +24,9 @@ const getLatestTagCommit = async (dir = '.') => {
   return { tags, latestTag, latestRef, latestCommit }
 }
 
-const bumpVersion = async (version, level = 'minor') =>
-  version
+const bumpVersion = async (version, level = 'minor') => {
+  exec(`npm version ${level} --tag-version-prefix=''`)
+  return version
     .split('.')
     .map((n, i) => {
       const v = parseInt(n)
@@ -40,6 +42,7 @@ const bumpVersion = async (version, level = 'minor') =>
       return v
     })
     .join('.')
+}
 
 const getLastUpdates = async function () {
   const dir = '.'
@@ -80,10 +83,10 @@ const getLastUpdates = async function () {
         const type = !Aoid
           ? 'D' // Deleted
           : !Boid
-              ? 'A' // Added
-              : Aoid !== Boid
-                ? 'U' // Updated
-                : '-' // Unchanged
+          ? 'A' // Added
+          : Aoid !== Boid
+          ? 'U' // Updated
+          : '-' // Unchanged
 
         if (type === '-') {
           return
@@ -169,7 +172,7 @@ const getLastUpdates = async function () {
   )
 
   console.log('> last updates', lastUpdatesSummary)
-  return lastUpdates
+  return { lastUpdates, lastUpdatesSummary }
 }
 
 module.exports = { bumpVersion, getLatestTagCommit, getLastUpdates }

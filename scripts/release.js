@@ -1,9 +1,8 @@
 const fs = require('fs-extra')
 const git = require('isomorphic-git')
 const http = require('isomorphic-git/http/node')
-const p = require('../package.json')
-const pLock = require('../package-lock.json')
-const { getLatestTagCommit, bumpVersion } = require('./common')
+
+const { bumpVersion, getLatestTagCommit, getLastUpdates } = require('./common')
 
 ;(async () => {
   const dir = '.'
@@ -16,13 +15,13 @@ const { getLatestTagCommit, bumpVersion } = require('./common')
   )
   const isClean = changes.length === 0
 
-  if (!isClean) {
-    console.error(
-      '> Branch is not clean. Please commit or stash your changes before running this script:'
-    )
-    console.error(changes)
-    return
-  }
+  // if (!isClean) {
+  //   console.error(
+  //     '> Branch is not clean. Please commit or stash your changes before running this script:'
+  //   )
+  //   console.error(changes)
+  //   return
+  // }
 
   let userName = process.argv[3]
   let userEmail = process.argv[4]
@@ -50,6 +49,7 @@ const { getLatestTagCommit, bumpVersion } = require('./common')
     console.error(
       `> You're not in the ${previewBranch} branch. Please switch to this branch before running this script.`
     )
+    return
   }
 
   // Pull current branch (preview)
@@ -71,42 +71,58 @@ const { getLatestTagCommit, bumpVersion } = require('./common')
   // Checkout and pull master branch
   ref = masterBranch
   await git.checkout({ fs, dir, ref })
-  await git.pull({ fs, http, dir, ref, singleBranch: true })
+  await git.pull({
+    fs,
+    http,
+    dir,
+    ref,
+    singleBranch: true,
+    author: {
+      name: userName,
+      email: userEmail,
+      timestamp: Math.floor(Date.now() / 1000),
+      timezoneOffset: new Date().getTimezoneOffset(),
+    },
+  })
+
+  // Back to preview branch
+  ref = previewBranch
+  await git.checkout({ fs, dir, ref })
 
   // Check changes since last release
+  const { lastUpdatesSummary } = await getLastUpdates()
+  const countChanges = Object.entries(lastUpdatesSummary).reduce(
+    (countChanges, [key, value]) => {
+      if (typeof value !== 'object') {
+        return countChanges
+      }
+
+      countChanges += value.added + value.updated + value.deleted
+      return countChanges
+    },
+    0
+  )
+
+  if (countChanges === 0) {
+    console.error('> No changes since last release. Exiting')
+    return
+  }
 
   // Get release (x.x.x) from latest tag
   const { latestTag } = await getLatestTagCommit(dir)
 
-  // Bump release (minor) in package.json and package-lock.json
+  // Bump release (minor by default) and push to origin
   const release = await bumpVersion(latestTag.tag)
-  // TODO Commit and push release bump
+  await git.push({ fs, http, dir, remote: 'origin', ref })
 
-  console.log('p.version', p.version)
-  console.log('pLock.version', pLock.version)
-  console.log('release', release)
+  // Switch to master branch
+  ref = masterBranch
+  await git.checkout({ fs, dir, ref })
 
-  return
-
+  // Merge preview in master and push to origin
   await git.merge({ fs, dir, ours: ref, theirs: previewBranch })
+  await git.push({ fs, http, dir, remote: 'origin', ref })
 
-  const sha = await git.resolveRef({ fs, dir, ref: 'HEAD' })
-  const oid = await git.writeTag({
-    fs,
-    dir,
-    tag: {
-      object: sha,
-      type: 'commit',
-      tag: release,
-      tagger: {
-        name: userName,
-        email: userEmail,
-        timestamp: Math.floor(Date.now() / 1000),
-        timezoneOffset: new Date().getTimezoneOffset(),
-      },
-      message: `Tag release ${release}`,
-    },
-  })
-
-  // TODO Commit and push branch merge + tag on master
+  // Push tag to origin
+  await git.push({ fs, http, dir, remote: 'origin', ref: release })
 })()
