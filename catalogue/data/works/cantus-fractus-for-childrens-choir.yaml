@@ -1,0 +1,23 @@
+category: children
+composition_date: 1982
+date: 2022-04-24
+description: 3 Hungarian Gregorian melodies for unison female or children's choir, baritone solo and 3 guitars
+duration: 360
+id: cantus-fractus-for-childrens-choir 
+movements:
+  - title: Sequentia
+  - title: Alleluja
+  - title: Hymnus
+publications:
+  - publisher_id: ascolta
+    type: all
+rework_of: cantus-fractus
+texts:
+  la: in Latin
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Cantus fractus
