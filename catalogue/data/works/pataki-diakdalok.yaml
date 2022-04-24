@@ -1,0 +1,26 @@
+category: choir
+date: 2022-03-29
+dedication: a Budapesti Madrigálkórusnak és karnagyának, Szekeres Ferencnek
+description: 5 songs for 4-part mixed choir
+duration: 600
+id: pataki-diakdalok
+movements:
+  - title: Erdőkön, mezőkön
+  - title: Semper ferventer / Vinnéd csak mindég - Hungarian translated by Melinda Kistétényi
+  - title: Vinus, vina / Mázas kancsó - Hungarian translated by Melinda Kistétényi
+  - title: Nem nyughatom
+  - title: Egyik utcán végigmentem
+  - title: Ne járj hozzám
+  - title: Trombitaszó
+publications:
+  - publisher_id: emb
+    type: all
+texts:
+  hu: in Hungarian and in Latin
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Pataki diákdalok a l8.századból  

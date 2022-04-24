@@ -1,0 +1,18 @@
+category: choir
+composition_date: 1948
+date: 2022-03-28
+description: French Christmas song for 4-part mixed choir
+duration: 120
+id: quittez-pasteurs
+publications:
+  - publisher_id: ascolta
+    type: all
+texts:
+  fr: in French
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Quittez pasteurs

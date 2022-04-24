@@ -1,0 +1,29 @@
+category: cantata_oratorio
+composition_date: 1985
+date: 2022-02-28
+description: Cantata for tenor solo, mixed choir and orchestra
+duration: 1020
+id: omaggio-a-pessoa
+movements:
+  - title: As ilhas afortunadas / A boldogok földje
+  - title: Ja sobre a fronte / Már ősz a hajdan
+  - title: Abdicaçao / Lemondás
+  - title: Viajar ! / Visz az út !
+  - title: Nao é ainda / Nincs végleg itt
+  - title: Tao cedo passa / Oly hamar múlik
+  - title: E talvez / Ki tudja
+  - title: Cada um cumpre / Azt az életet
+publications:
+  - publisher_id: emb
+    type: all
+setting: 3 (III=picc.), 3 (III=c.i.), 3 (III=cl.b.), 2 (cfg.) – 4, 3, 3, 1 – timp., batt. – arpa – archi
+texts:
+  pt: in Portuguese by Fernando Pessoa
+  hu: Hungarian translated by Ernö Hárs
+title:
+  main: it
+  original: it 
+  sort:
+    - it
+  translations:
+    it: Omaggio a Pessoa

@@ -1,0 +1,18 @@
+category: choir
+composition_date: 1993
+date: 2022-04-03
+description: for 4-part mixed choir
+duration: 158
+id: pater-noster
+publications:
+  - publisher_id: ascolta
+    type: all
+texts:
+  la: in Latin
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Pater Noster

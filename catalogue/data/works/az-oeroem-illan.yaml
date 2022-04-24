@@ -1,0 +1,23 @@
+category: choir
+composition_date: 1962
+date: 2022-03-29
+description: for 4-part mixed choir
+dedication: a Debreceni Kodály kórusnak és karmesterének Gulyás Györgynek
+duration: 540
+id: az-oeroem-illan
+movements:
+  - title: Az öröm illan
+  - title: Ez a nap is
+  - title: Tavaszi Holdtölte
+publications:
+  - publisher_id: emb
+    type: all
+texts:
+  hu: in Hungarian by Árpád Tóth
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Az öröm illan 

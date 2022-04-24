@@ -1,0 +1,18 @@
+category: male
+date: 2022-04-07
+description: Song of the country of Liège for 3 part male choir
+duration: 120
+id: serenade-wallonne-for-male-choir
+publications:
+  - publisher_id: labatiaz
+    type: all
+rework_of: serenade-wallonne
+texts:
+  fr: in French 
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Sérénade wallonne

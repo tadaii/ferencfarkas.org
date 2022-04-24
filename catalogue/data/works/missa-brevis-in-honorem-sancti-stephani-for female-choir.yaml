@@ -1,0 +1,25 @@
+category: mass
+composition_date: 1995
+date: 2022-3-24
+description: Mass for female choir and organ or string orchestra
+duration: 900
+id: missa-brevis-in-honorem-sancti-stephani-for female-choir
+movements:
+  - title: Kyrie
+  - title: Gloria
+  - title: Sanctus
+  - title: Benedictus
+  - title: Agnus Dei
+publications:
+  - publisher_id: ascolta
+    type: all
+rework_of: missa-brevis-in-honorem-sancti-stephani
+texts:
+  la: in latin
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Missa brevis in honorem Sancti Stephani / Missa quarta

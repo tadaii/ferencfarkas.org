@@ -1,0 +1,17 @@
+category: choir
+date: 2022-04-06
+description: Song of the country of Liège for 4-part mixed choir
+duration: 120
+id: serenade-wallonne
+publications:
+  - publisher_id: labatiaz
+    type: all
+texts:
+  fr: in French 
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Sérénade wallonne

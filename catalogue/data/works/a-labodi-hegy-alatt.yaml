@@ -1,0 +1,23 @@
+category: male
+composition_date: 1936
+date: 2022-04-12
+description: 4 melodies from the district of Somogy for 3-part male choir
+duration: 180
+id: a-labodi-hegy-alatt
+movements:
+  - title: A lábodi hegy alatt
+  - title: Sej haj fehér a virág
+  - title: Ha felülök a lábodi halomra
+  - title: Csipkebokrot vágattam
+publications:
+  - publisher_id: afp
+    type: all
+texts:
+  hu: in Hungarian
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: A lábodi hegy alatt  

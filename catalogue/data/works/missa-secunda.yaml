@@ -1,0 +1,25 @@
+category: mass
+composition_date: 1964-68
+date: 2022-03-27
+dedication: à ma femme Margit Farkas à l'occasion de nos 25 ans de mariage
+description: Mass for mixed choir and organ or string orchestra
+duration: 840
+id: missa-secunda
+movements:
+  - title: Kyrie
+  - title: Gloria
+  - title: Sanctus
+  - title: Benedictus
+  - title: Agnus Dei
+publications:
+  - publisher_id: carus
+    type: all
+texts:
+  la: in latin
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Missa secunda in honorem Sanctae Margaritae

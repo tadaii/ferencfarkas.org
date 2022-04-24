@@ -1,0 +1,19 @@
+category: male
+composition_date: 1939
+date: 2022-04-12
+description: for 4-part male choir
+duration: 143
+id: fleur-de-colza
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: sarga-recepice
+texts:
+  fr: in French tranlated by Ferenc Farkas
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Fleur de colza  

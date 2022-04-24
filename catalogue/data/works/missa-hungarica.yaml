@@ -1,0 +1,24 @@
+category: mass
+composition_date: 1992
+date: 2022-3-25
+description: Mass for mixed choir and organ
+dedication: a Hozsanna kórusnak
+duration: 498
+id: missa-hungarica
+movements:
+  - title: Kyrie
+  - title: Gloria
+  - title: Sanctus
+  - title: Agnus Dei
+publications:
+  - publisher_id: ars
+    type: all
+texts:
+  hu: in Hungarian
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Missa Hungarica

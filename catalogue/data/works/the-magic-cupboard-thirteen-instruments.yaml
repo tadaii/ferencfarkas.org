@@ -15,19 +15,19 @@ cast:
   - role: Suleikas neighbours
     voice: coro
 category: opera
-composition_date: 1942
-date: 2022-03-27
+composition_date: 1984
+date: 2022-03-27 
 description: Opera in 2 acts based on a story from the "Thausand and one nights"
 duration: 5220
-id: the-magic-cupboard
+id: the-magic-cupboard-thirteen-instruments
 libretto:
   hu: In hungarian by Gyula Kunszery
   de: German adaptation by Karlheinz Gutheim
 publications:
   - publisher_id: emb
     type: all
-setting: 2 (picc.), 2 (c.i.), 2 (II=cl.b.), 2 – 4, 3, 3, 1 – timp., batt. –
-      arpa, cel. – archi
+rework_of: the-magic-cupboard
+setting: 1, 1, 1, 1 – 2, 1, 1, 0 – 1 vl. I, 1 vl. II, 1 vla, 1 vlc., 1 cb.
 synopsis: Suleika will set her husband free from the prison
 title:
   main: en
@@ -42,12 +42,9 @@ title:
     en: The magic cupboard
     fr: L’armoire magique
     hu: A bűvös szekrény
-version: Original version for symphonic orchestra
+version: Second version for 13 instruments
 world_premiere:
   credits:
-    - Conducted by Otto Berg
-    - "Stage director: Kálmán Nádasdy"
-    - "Stage design: Gusztáv Oláh"
-    - "Costumes: Tivadar Márk"
-  date: 1942
-  location: Hungarian State Opera of Budapest
+    - Conducted by Tamás Blum
+  date: 1984
+  location: Opera Studio, Zürich

@@ -1,0 +1,28 @@
+---
+category: voice_piano
+composition_date: 1958  
+date: 2022-02-17
+description: Cycle of 3 songs for voice and piano 
+duration: 246
+id: drei-lieder
+movements: 
+  - title: In den leuchtenden Abend / Fénylö estében 
+  - title: Lege deine Welt in meine Hände / Add a szived
+  - title: Aus den Rissen meines Herzens / Gyönge nedvet 
+publications:
+  - publisher_id: emb
+    type: all
+texts:
+  de: in German by Anneliese Eulau-Felsenstein
+  hu: Hungarian translated by László Dalos
+title:
+  main: de
+  original: de
+  sort:
+    - de
+    - hu
+    - en
+  translations:
+    de: Drei Lieder
+    hu: Három dal
+    en: Three Eulau songs

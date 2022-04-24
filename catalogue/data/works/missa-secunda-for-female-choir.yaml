@@ -1,0 +1,25 @@
+category: mass
+composition_date: 1992
+date: 2022-03-27
+description: Mass for female choir and organ or string orchestra
+duration: 840
+id: missa-secunda-for-female-choir
+movements:
+  - title: Kyrie
+  - title: Gloria
+  - title: Sanctus
+  - title: Benedictus
+  - title: Agnus Dei
+publications:
+  - publisher_id: carus
+    type: all
+rework_of: missa-secunda
+texts:
+  la: in latin
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Missa secunda in honorem Sanctae Margaritae

@@ -1,0 +1,18 @@
+category: female
+date: 2022-04-07
+description: Song of the country of Liège for 3 part female choir
+duration: 120
+id: vallon-szerenad-for-female-choir
+publications:
+  - publisher_id: emb
+    type: all
+rework_of: serenade-wallonne
+texts:
+  hu: in Hungarian translated by László Dalos 
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Vallon szerenád

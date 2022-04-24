@@ -1,0 +1,19 @@
+category: choir
+composition_date: 1981
+date: 2022-03-28
+description: for 5-part mixed choir
+dedication: a Budapesti Madrigálkórusnak és karnagyának Szekeres Ferencnek a kórus fennállásának 25. Evfordulójára
+duration: 156
+id: ad-musicam
+publications:
+  - publisher_id: emb
+    type: all
+texts:
+  la: in Latin by Janus Pannonius
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Ad Musicam

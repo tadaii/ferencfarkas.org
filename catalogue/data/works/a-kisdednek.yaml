@@ -1,0 +1,19 @@
+category: choir
+composition_date: 1948
+date: 2022-03-28
+description: Christmas song for 4-part mixed choir
+duration: 120
+id: a-kisdednek
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: quittez-pasteurs
+texts:
+  hu: in hungarian translated by Károly Vargha
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: A kisdednek

@@ -1,0 +1,20 @@
+category: choir
+date: 2022-04-03
+dedication: Maklári Lajos emlékének
+description: for 4-part mixed choir
+duration: 187
+id: psalm-cxxxi
+publications:
+  - publisher_id: emb
+    type: all
+texts:
+  hu: in Hungarian translated by Zsigmond Móricz
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Psalm CXXXI
+    hu: CXXXI szoltár

@@ -1,0 +1,17 @@
+category: choir
+date: 2022-04-02
+description: Hungarian Christmas song for 4-part mixed choir
+duration: 110
+id: mennyboel-az-angyal
+publications:
+  - publisher_id: afp
+    type: all
+texts:
+  hu: in Hungarian
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Mennyből az angyal

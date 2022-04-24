@@ -1,0 +1,18 @@
+category: choir
+composition_date: 1962
+date: 2022-04-02
+description: for 4-part mixed choir
+duration: 112
+id: mere-szall
+publications:
+  - publisher_id: emb
+    type: all
+texts:
+  hu: in Hungarian by Jenő Dsida
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Merre száll ?

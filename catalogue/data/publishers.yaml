@@ -3,36 +3,52 @@
   url: /contact
 - id: alliance
   name: Alliance Publications
-  url: https://www.apimusic.org/
+  url: https://www.apimusic.org/?subcats=Y&status=A&pshort=Y&pfull=Y&pname=Y&pkeywords=Y&search_performed=Y&q=ferenc+farkas&dispatch=products.search
+- id: ars
+  name: Ars Nova Editio
+  url: http://arsnovaeditio.hu/eng/an042.html
 - id: ascolta
   name: Ascolta Music Publishing Houten
   url: https://ascolta.nl/
+- id: carus
+  name: Carus verlag
+  url: https://www.carus-verlag.com/index.php?stoken=A03C6400&lang=2&cl=search&searchparam=ferenc+farkas
+- id: curci
+  name: Edizioni Curci
+  url: https://www.edizionicurci.it/printed-music/minisito_autore.asp?id=2758
 - id: darok
   name: Darok Edition
   url: https://www.editiondarok.de/
 - id: emb
   name: Edition Musica Budapest
-  url: https://www.emb.hu/
+  url: https://www.umpemb.com/en-US/Composers/F/Farkas-Ferenc.aspx
+- id: ferrimontana
+  name: Edition ferrimontana
+  url: https://www.musikalspezial.de/edition-ferrimontana.html
 - id: kontrapunkt
   name: Kontrapunkt Music
-  url: http://kontrapunktmusic.com/
-- id: curci
-  name: Edizioni Curci
-  url: https://www.edizionicurci.it/printed-music/default.asp
+  url: http://kontrapunktmusic.com/farkas_ferenc
+- id: kodaly
+  name: Kodály intézet
+  url: https://zeneakademia.hu/kodaly_konyvesbolt/kottak-107358 
+- id: labatiaz
+  name: Editions Labatiaz
+  url: http://www.editions-labatiaz.com/
 - id: metropolis
   name: Metropolis music publishers
+  url: https://www.partitions-musicales.net/index.php?cl=search&he_dynamicfacet=verlag_c&he_dynamicvalue=Metropolis%2BMusic%2BPublishers&he_dynamiccode=692030&he_dynamicurl=Metropolis-Music-Publishers&searchparam=Ferenc+Farkas
 - id: schott
   name: Schott Music
-  url: https://en.schott-music.com/
+  url: https://en.schott-music.com/shop/autoren/ferenc-farkas
 - id: sidem
   name: Sidem Editions
   url: mailto:sidomusic@sidomusic.com
 - id: sikorski
   name: Sikorski Musikverlage
-  url: https://www.sikorski.de/
+  url: https://www.sikorski.de/463/de/0/a/0/9000143/farkas_ferenc/werke.html
+- id: sympaphonie
+  name: Sympaphonie
+  url: https://sympaphonie.ch/sympadoc/recherche_partitions.asp?iPage=1&recherche=Ferenc+Farkas&vx=%25&orderby=titre&OptionSearch=AND&RechercheDans=all&PageSize=10&theme=&spe=&edition
 - id: universal
   name: Universal Edition
-  url: https://www.universaledition.com/
-- id: spirito
-  name: Musica con spirito Edition
-  url: http://www.musica-con-spirito-edition.de/Solostimmen-Orgel-Bestellung.html
+  url: https://www.universaledition.com/ferenc-farkas-216

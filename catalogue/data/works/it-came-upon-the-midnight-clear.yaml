@@ -1,0 +1,20 @@
+category: choir
+date: 2022-04-02
+description: English Christmas song for 4-part mixed choir
+duration: 120
+id: it-came-upon-the-midnight-clear
+publications:
+  - publisher_id: emb
+    type: all
+texts:
+  en: in English
+  hu: Hungarian translated by Károly Vargha
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: It came upon the midnight clear
+    hu: Aldott éj

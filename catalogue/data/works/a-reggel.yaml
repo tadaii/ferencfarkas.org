@@ -1,0 +1,18 @@
+category: choir
+composition_date: 1974
+date: 2022-03-28
+description: for 4-part mixed choir
+duration: 195
+id: a-reggel
+publications:
+  - publisher_id: afp
+    type: all
+texts:
+  hu: in Hungarian by István Gyöngyösi
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: A reggel
