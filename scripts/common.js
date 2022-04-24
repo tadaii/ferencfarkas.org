@@ -3,7 +3,7 @@ const fs = require('fs-extra')
 const git = require('isomorphic-git')
 const { exec } = require('shelljs')
 
-const getLatestTagCommit = async (dir = '.') => {
+const getLatestTagCommit = async (dir = '.', tagHistoryIndex = 1) => {
   const tags = await git.listTags({ fs, dir })
   const latestTag = tags
     .map(tag => ({
@@ -16,7 +16,7 @@ const getLatestTagCommit = async (dir = '.') => {
       ),
     }))
     .sort((a, b) => (a.num > b.num ? 1 : a.num < b ? -1 : 0))
-    .reverse()[0]
+    .reverse()[tagHistoryIndex]
 
   const latestRef = await git.resolveRef({ fs, dir, ref: latestTag.tag })
   const latestCommit = await git.readCommit({ fs, dir, oid: latestRef })
