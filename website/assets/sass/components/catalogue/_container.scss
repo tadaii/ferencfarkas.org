@@ -1,4 +1,17 @@
 .catalogue {
+  &--loader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+
+    p {
+      padding-top: 0.25rem;
+      font-size: 1.2rem;
+      opacity: 0.7;
+    }
+  }
+
   .list {
     margin-top: -1.8rem;
     padding-top: 0;
@@ -73,7 +86,7 @@
       margin-top: 0;
       margin-bottom: 0;
       padding-bottom: 1rem;
-      border-bottom: 1px dashed rgba(0,0,0, .2);
+      border-bottom: 1px dashed rgba(0, 0, 0, .2);
 
       .works--count {
         margin-bottom: -0.3rem;
@@ -156,6 +169,7 @@
     left: calc(2px - 2rem);
     bottom: 0;
     width: calc(2rem);
+    min-height: 15rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,7 +177,7 @@
     border: none;
     padding: 0;
     margin: 0;
-    background-color: rgba(0,0,0, .7);
+    background-color: rgba(0, 0, 0, .7);
     outline: none;
     cursor: pointer;
 
@@ -225,7 +239,7 @@
 
     .works--count {
       font-size: 0.8rem;
-      background-color: rgba(0,0,0, 0.3);
+      background-color: rgba(0, 0, 0, 0.3);
     }
   }
 }

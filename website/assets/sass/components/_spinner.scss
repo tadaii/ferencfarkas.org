@@ -1,25 +1,25 @@
 .spinner {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  position: relative;
 
-  &.animate {
-    z-index: 2;
-    animation: rotate 2s linear infinite;
+  &--circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    &.animate {
+      z-index: 2;
+      animation: rotate 2s linear infinite;
+
+      .path {
+        stroke: hsla(0, 0, 0, 0.4);
+        animation: dash 1.5s ease-in-out infinite;
+      }
+    }
 
     .path {
-      stroke: hsla(0, 0, 0, 0.4);
-      animation: dash 1.5s ease-in-out infinite;
+      stroke: hsla(0, 0, 0, 0.2);
+      stroke-linecap: round;
     }
-  }
-
-  .path {
-    stroke: hsla(0, 0, 0, 0.2);
-    stroke-linecap: round;
-  }
-
-  &--wrapper {
-    position: relative;
   }
 }
 

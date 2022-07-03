@@ -30,6 +30,11 @@
     &.failed input[name="q"] {
       cursor: not-allowed;
     }
+
+    .spinner {
+      margin-left: 10px;
+      margin-right: -10px;
+    }
   }
 
   &--query-icon {
@@ -92,9 +97,5 @@
       margin-left: .75rem;
       font-size: 1rem;
     }
-  }
-
-  .spinner--wrapper {
-    margin-left: 10px;
   }
 }

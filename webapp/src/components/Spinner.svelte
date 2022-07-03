@@ -4,9 +4,9 @@
   export let stroke = 5
 </script>
 
-<div class="spinner--wrapper" style="margin-right:-{size / 2}px">
+<div class="spinner">
   <svg
-    class="spinner animate"
+    class="spinner--circle animate"
     viewBox="0 0 {size} {size}"
     style="margin:-{size / 2}px 0 0 0;width:{size}px;height:{size}px;"
   >
@@ -20,7 +20,7 @@
     />
   </svg>
   <svg
-    class="spinner"
+    class="spinner--circle"
     viewBox="0 0 {size} {size}"
     style="margin:-{size / 2}px 0 0 0;width:{size}px;height:{size}px;"
   >
