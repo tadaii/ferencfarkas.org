@@ -1,0 +1,47 @@
+.spinner {
+  position: relative;
+
+  &--circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    &.animate {
+      z-index: 2;
+      animation: rotate 2s linear infinite;
+
+      .path {
+        stroke: hsla(0, 0, 0, 0.4);
+        animation: dash 1.5s ease-in-out infinite;
+      }
+    }
+
+    .path {
+      stroke: hsla(0, 0, 0, 0.2);
+      stroke-linecap: round;
+    }
+  }
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 150;
+    stroke-dashoffset: 0;
+  }
+
+  50% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -35;
+  }
+
+  100% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -124;
+  }
+}

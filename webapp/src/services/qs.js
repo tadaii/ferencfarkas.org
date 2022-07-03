@@ -4,7 +4,7 @@ export const defaultState = {
   query: '', // lunr search query
   reworksOf: '', // reworks for given work id
   showID: false, // shows work ID
-  sort: { field: 'u', dir: 'desc' } // results' sort order
+  sort: { field: 'u', dir: 'desc' }, // results' sort order
 }
 
 export function sync(state) {
@@ -23,19 +23,21 @@ export function sync(state) {
 export function load(workId) {
   const params = parse(window.location.search)
   return {
-    activeFacets: (params.f && [].concat(params.f)) || defaultState.activeFacets,
+    activeFacets:
+      (params.f && [].concat(params.f)) || defaultState.activeFacets,
     page: params.p || defaultState.page,
     query: workId ? `id:${workId}` : params.q || defaultState.query,
     reworksOf: workId || params.r || defaultState.reworksOf,
     showID: params.showID || defaultState.showID,
-    sort: params.s?.split('.').reduce((obj, part, i) => {
-      if (i === 0) {
-        obj.field = part
-      } else {
-        obj.dir = part
-      }
-      return obj
-    }, {}) || defaultState.sort
+    sort:
+      params.s?.split('.').reduce((obj, part, i) => {
+        if (i === 0) {
+          obj.field = part
+        } else {
+          obj.dir = part
+        }
+        return obj
+      }, {}) || defaultState.sort,
   }
 }
 
@@ -45,7 +47,7 @@ function parse(queryString) {
     .filter(value => value)
     .reduce((params, param) => {
       const [key, value] = param.split('=')
-      let values = value?.split(',') || true
+      const values = value?.split(',') || true
 
       if (values === true) {
         params[key] = true
@@ -72,7 +74,8 @@ function stringify(obj) {
       }
 
       return stringified
-    }, []).join('&')
+    }, [])
+    .join('&')
 
   return qs && `?${qs}`
 }

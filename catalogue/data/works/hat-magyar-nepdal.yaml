@@ -1,0 +1,24 @@
+category: children
+date: 2022-04-29
+description: 6 songs for 3-part children's choir
+duration: 277
+id: hat-magyar-nepdal
+movements:
+  - title: Párositó
+  - title: Sánta beke
+  - title: Két szál pünkösd rózsa
+  - title: Megdöglött a biró lova
+  - title: A ej, tirájrom
+  - title: Kalamajkó
+publications:
+  - publisher_id: emb
+    type: all
+texts:
+  hu: in Hungarian (traditional)
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Hat magyar népdal

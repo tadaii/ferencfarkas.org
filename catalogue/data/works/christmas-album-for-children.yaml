@@ -1,9 +1,9 @@
-category: voice_piano
+category: children
+date: 2022-04-26
 composition_date: 1970
-date: 2022-04-01
 description: 15 traditional Christmas songs from Hungary, Austria, Germany, South America, France, England, negro spiritual, for unisono children’s choir or solo voice and piano or organ
 duration: 1470
-id: christmas-album
+id: christmas-album-for-children
 movements:
   - title: Mennyből az angyal
   - title: O, gyönyörű szép - text by Ilona Lovich
@@ -23,6 +23,7 @@ movements:
 publications:
   - publisher_id: emb
     type: all
+rework_of: christmas-album
 texts:
   hu: in Hungarian (The original texts are published at the end of the score)
 title:

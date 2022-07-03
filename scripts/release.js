@@ -1,3 +1,4 @@
+const { exec } = require('shelljs')
 const fs = require('fs-extra')
 const git = require('isomorphic-git')
 const http = require('isomorphic-git/http/node')
@@ -15,13 +16,13 @@ const { bumpVersion, getLatestTagCommit, getLastUpdates } = require('./common')
   )
   const isClean = changes.length === 0
 
-  // if (!isClean) {
-  //   console.error(
-  //     '> Branch is not clean. Please commit or stash your changes before running this script:'
-  //   )
-  //   console.error(changes)
-  //   return
-  // }
+  if (!isClean) {
+    console.error(
+      '> Branch is not clean. Please commit or stash your changes before running this script:'
+    )
+    console.error(changes)
+    return
+  }
 
   let userName = process.argv[3]
   let userEmail = process.argv[4]
@@ -89,9 +90,9 @@ const { bumpVersion, getLatestTagCommit, getLastUpdates } = require('./common')
   ref = previewBranch
   await git.checkout({ fs, dir, ref })
 
-  // Check changes since last release
+  // Check content changes since last release
   const { lastUpdatesSummary } = await getLastUpdates()
-  const countChanges = Object.entries(lastUpdatesSummary).reduce(
+  const countContentChanges = Object.entries(lastUpdatesSummary).reduce(
     (countChanges, [key, value]) => {
       if (typeof value !== 'object') {
         return countChanges
@@ -103,17 +104,19 @@ const { bumpVersion, getLatestTagCommit, getLastUpdates } = require('./common')
     0
   )
 
-  if (countChanges === 0) {
-    console.error('> No changes since last release. Exiting')
+  if (countContentChanges === 0) {
+    console.error('> No content changes since last release. Exiting')
     return
   }
 
   // Get release (x.x.x) from latest tag
   const { latestTag } = await getLatestTagCommit(dir)
 
-  // Bump release (minor by default) and push to origin
+  // Bump release (minor by default)
   const release = await bumpVersion(latestTag.tag)
-  await git.push({ fs, http, dir, remote: 'origin', ref })
+
+  // Push to origin with os client to use system credentials
+  exec('git push')
 
   // Switch to master branch
   ref = masterBranch
@@ -121,8 +124,11 @@ const { bumpVersion, getLatestTagCommit, getLastUpdates } = require('./common')
 
   // Merge preview in master and push to origin
   await git.merge({ fs, dir, ours: ref, theirs: previewBranch })
-  await git.push({ fs, http, dir, remote: 'origin', ref })
+
+  // Push to origin with os client to use system credentials
+  exec('git push')
 
   // Push tag to origin
-  await git.push({ fs, http, dir, remote: 'origin', ref: release })
+  // Push to origin with os client to use system credentials
+  exec(`git push origin ${release}`)
 })()

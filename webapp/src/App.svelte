@@ -8,6 +8,7 @@
   import WorkList from './components/WorkList.svelte'
   import Refine from './components/Refine.svelte'
   import Pagination from './components/Pagination.svelte'
+  import Spinner from './components/Spinner.svelte'
 
   export let workId
 
@@ -15,6 +16,7 @@
   let mounted = false // flag for query string (QS) sync
   let index = {} // lunr search index object
   let works = [] // full list of works (unfiltered)
+  let data = {}
   let state
 
   $: embedded = Boolean(workId)
@@ -48,12 +50,12 @@
     }
   }
 
-  async function loadData() {
+  async function loadCatalogue() {
     const responses = {}
 
     await Promise.all(
       Object.entries(endpoints)
-        .filter(([key]) => (embedded ? key !== 'index' : true))
+        .filter(([key]) => key !== 'index')
         .map(([key, url]) =>
           fetch(url)
             .then(res => res.json())
@@ -69,7 +71,7 @@
       index = lunr.Index.load(responses.index)
     }
 
-    return responses
+    data = responses
   }
 
   function filterWorks({ activeFacets, index, query, reworksOf, sort, works }) {
@@ -189,14 +191,17 @@
   on:submit|preventDefault
 >
   <div class="works">
-    {#await loadData()}
-      <p>Loading catalogue data...</p>
-    {:then data}
-      <div class="row">
-        <div class="column list">
-          {#if !embedded && !state.reworksOf}
-            <Sort {state} on:sort={e => (state.sort = e.detail)} />
-          {/if}
+    <div class="row">
+      <div class="column list">
+        {#if !embedded && !state.reworksOf}
+          <Sort {state} on:sort={e => (state.sort = e.detail)} />
+        {/if}
+        {#await loadCatalogue()}
+          <div class="catalogue--loader">
+            <Spinner size="20" radius="8" stroke="2.5" />
+            <p>Loading catalogue data</p>
+          </div>
+        {:then}
           <WorkList
             catalogue={data.catalogue}
             {embedded}
@@ -210,27 +215,30 @@
             on:toggleReworks={e =>
               (state.reworksOf = state.reworksOf === e.detail ? '' : e.detail)}
           />
-        </div>
-        {#if !embedded}
-          <div class="column refine">
-            <Refine
-              activeFacets={state.activeFacets}
-              categories={data.catalogue.categories}
-              genres={data.catalogue.genres}
-              publishers={data.catalogue.publishers}
-              {state}
-              works={results}
-              on:updateQuery={e => (state.query = e.detail)}
-              on:refine={refine}
-              on:clear={clear}
-            />
-          </div>
-        {/if}
+        {:catch error}
+          <p>
+            Failed to initialize catalogue: <strong>{error.message}</strong>.
+          </p>
+          {console.error(error) && ''}
+        {/await}
       </div>
-      <Pagination />
-    {:catch error}
-      <p>Failed to initialize catalogue: <strong>{error.message}</strong>.</p>
-      {console.error(error) && ''}
-    {/await}
+      {#if !embedded}
+        <div class="column refine">
+          <Refine
+            activeFacets={state.activeFacets}
+            categories={data.catalogue?.categories}
+            genres={data.catalogue?.genres}
+            publishers={data.catalogue?.publishers}
+            searchIndexEndpoint={endpoints.index}
+            {state}
+            works={results}
+            on:updateQuery={e => (state.query = e.detail)}
+            on:refine={refine}
+            on:clear={clear}
+          />
+        </div>
+      {/if}
+    </div>
+    <Pagination />
   </div>
 </form>

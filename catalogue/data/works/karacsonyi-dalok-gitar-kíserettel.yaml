@@ -1,0 +1,30 @@
+category: children
+date: 2022-04-26
+composition_date: 1970
+description: 10 Christmas songs for unisono children’s choir and 2 or 3 or 4 guitars adapted by Ferenc Fodor
+duration: 865
+id: karacsonyi-dalok-gitar-kíserettel
+movements:
+  - title: Karácsonyi bölcsődal for 3 guitars
+  - title: Csendes éj for 4 guitars
+  - title: O, gyönyörű szép for 4 guitars
+  - title: Kiskarácsony for 3 guitars
+  - title: Itt az Urnak angyala for 4 guitars
+  - title: O szép fenyö for 4 guitars
+  - title: Kicsi gyermek for 4 guitars
+  - title: Mennyből az angyal for 4 guitars
+  - title: Pásztorok, pásztorok for 3 guitars
+  - title: Szent József ìgy szólt for 2 guitars
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: christmas-album
+texts:
+  hu: in Hungarian
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Karácsonyi dalok gitár kísérettel
