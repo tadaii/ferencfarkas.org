@@ -48,12 +48,12 @@
     }
   }
 
-  async function loadData() {
+  async function loadCatalogue() {
     const responses = {}
 
     await Promise.all(
       Object.entries(endpoints)
-        .filter(([key]) => (embedded ? key !== 'index' : true))
+        .filter(([key]) => key !== 'index')
         .map(([key, url]) =>
           fetch(url)
             .then(res => res.json())
@@ -189,7 +189,7 @@
   on:submit|preventDefault
 >
   <div class="works">
-    {#await loadData()}
+    {#await loadCatalogue()}
       <p>Loading catalogue data...</p>
     {:then data}
       <div class="row">
@@ -218,6 +218,7 @@
               categories={data.catalogue.categories}
               genres={data.catalogue.genres}
               publishers={data.catalogue.publishers}
+              searchIndexEndpoint={endpoints.index}
               {state}
               works={results}
               on:updateQuery={e => (state.query = e.detail)}

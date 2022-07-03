@@ -10,7 +10,7 @@
     "release": "node ./scripts/release",
     "webapp:serve": "cd webapp && npm run dev",
     "webapp:build": "cd webapp && npm run build && cd ..",
-    "website:serve": "npm run prebuild -- dev && cd ./website && hugo server",
+    "website:serve": "npm run prebuild -- dev && cd ./website && hugo server --disableFastRender",
     "catalogue:pdf": "node ./catalogue/pdf-generator/index.js"
   },
   "dependencies": {
