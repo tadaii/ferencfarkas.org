@@ -39,6 +39,6 @@ export function scrollToTop(works) {
   }
 
   window.setTimeout(() => {
-    list.parentNode.scrollIntoView({ behavior: "smooth" })
+    list.parentNode.scrollIntoView({ behavior: 'smooth' })
   }, 100)
 }

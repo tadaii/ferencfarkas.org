@@ -15,7 +15,7 @@ export function deserialize(serializedValue) {
 export function setFacets(works = []) {
   return works.map(work => ({
     ...work,
-    facets: Object.entries(config).reduce((list, [ group, def ]) => {
+    facets: Object.entries(config).reduce((list, [group, def]) => {
       const values = def.getValues(work)
 
       if (values.length) {
@@ -23,12 +23,16 @@ export function setFacets(works = []) {
       }
 
       return list
-    }, [])
+    }, []),
   }))
 }
 
 export function getFacets({
-  activeFacets = [], categories = {}, genres = {}, publishers = {}, works = []
+  activeFacets = [],
+  categories = {},
+  genres = {},
+  publishers = {},
+  works = [],
 }) {
   const map = works.reduce((map, work) => {
     for (const facet of work.facets) {
@@ -40,7 +44,7 @@ export function getFacets({
     return map
   }, {})
 
-  return Object.entries(map).reduce((list, [ serialized, count ]) => {
+  return Object.entries(map).reduce((list, [serialized, count]) => {
     const { group, value } = deserialize(serialized)
     let index = list.findIndex(item => item.group === group)
 
@@ -50,8 +54,8 @@ export function getFacets({
         def: {
           collapsed: config[group].collapsed,
           label: config[group].label,
-          facets: {}
-        }
+          facets: {},
+        },
       })
 
       index = list.length - 1
@@ -61,7 +65,7 @@ export function getFacets({
       count,
       value,
       active: activeFacets.includes(serialized),
-      label: config[group].getLabel({ value, categories, genres, publishers })
+      label: config[group].getLabel({ value, categories, genres, publishers }),
     }
 
     return list.sort((a, b) => {
