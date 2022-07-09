@@ -67,7 +67,6 @@
     } else {
       collapsed = [...collapsed, group]
     }
-    console.log(collapsed)
   }
 
   function isCropped(works, wrapper) {

@@ -74,7 +74,6 @@
   }
 
   async function loadSearchIndex() {
-    console.log('loadSearchIndex')
     const res = await fetch(endpoints.index)
     const data = await res.json()
 
@@ -163,7 +162,6 @@
     if (query.startsWith('id:')) {
       return works.filter(work => work.id === query.split(':')[1])
     } else {
-      console.log('index.search', index.search)
       if (!index.search) {
         return works
       }
