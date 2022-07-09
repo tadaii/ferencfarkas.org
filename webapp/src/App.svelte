@@ -74,12 +74,15 @@
   }
 
   async function loadSearchIndex() {
-    console.log('loadSearchIndex')
-    const res = await fetch(endpoints.index)
-    const data = await res.json()
+    try {
+      const res = await fetch(endpoints.index)
+      const data = await res.json()
 
-    if (res) {
-      index = lunr.Index.load(data)
+      if (res) {
+        index = lunr.Index.load(data)
+      }
+    } catch (e) {
+      console.error(e)
     }
   }
 
@@ -163,7 +166,6 @@
     if (query.startsWith('id:')) {
       return works.filter(work => work.id === query.split(':')[1])
     } else {
-      console.log('index.search', index.search)
       if (!index.search) {
         return works
       }

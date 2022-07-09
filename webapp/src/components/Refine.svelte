@@ -67,7 +67,6 @@
     } else {
       collapsed = [...collapsed, group]
     }
-    console.log(collapsed)
   }
 
   function isCropped(works, wrapper) {
@@ -110,7 +109,7 @@
       <Query loading />
     {:then}
       <Query value={state.query} on:updateQuery />
-    {:catch error}
+    {:catch}
       <Query failed />
     {/await}
     <div class="facets">
