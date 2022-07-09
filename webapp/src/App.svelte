@@ -121,11 +121,11 @@
             ? -1
             : 1
         case 't':
-          return a.title > b.title
+          return a.id > b.id
             ? state.sort.dir === 'asc'
               ? -1
               : 1
-            : a.title === b.title
+            : a.id === b.id
             ? 0
             : state.sort.dir === 'asc'
             ? 1
