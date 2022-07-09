@@ -10,7 +10,7 @@
   export let categories = {}
   export let genres = {}
   export let publishers = {}
-  export let searchIndexEndpoint = null
+  export let loadSearchIndex = () => {}
   export let state = {}
   export let works = []
 
@@ -28,11 +28,6 @@
   })
 
   $: cropped = isCropped(works, wrapper)
-
-  async function loadSearchIndex() {
-    const res = await fetch(searchIndexEndpoint)
-    return res.json()
-  }
 
   function _getFacets() {
     const list = getFacets({
