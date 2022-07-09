@@ -38,6 +38,10 @@
     mounted = true
   })
 
+  function normalizeString(str) {
+    return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+  }
+
   function customizeSection(container) {
     let section = container
 
@@ -66,12 +70,17 @@
     )
 
     works = setFacets(responses.catalogue.works)
-
-    if (responses.index) {
-      index = lunr.Index.load(responses.index)
-    }
-
     data = responses
+  }
+
+  async function loadSearchIndex() {
+    console.log('loadSearchIndex')
+    const res = await fetch(endpoints.index)
+    const data = await res.json()
+
+    if (res) {
+      index = lunr.Index.load(data)
+    }
   }
 
   function filterWorks({ activeFacets, index, query, reworksOf, sort, works }) {
@@ -121,11 +130,13 @@
             ? -1
             : 1
         case 't':
-          return a.id > b.id
+          const titleA = normalizeString(a.title.translations[a.title.main])
+          const titleB = normalizeString(b.title.translations[b.title.main])
+          return titleA > titleB
             ? state.sort.dir === 'asc'
               ? -1
               : 1
-            : a.id === b.id
+            : titleA === titleB
             ? 0
             : state.sort.dir === 'asc'
             ? 1
@@ -152,6 +163,7 @@
     if (query.startsWith('id:')) {
       return works.filter(work => work.id === query.split(':')[1])
     } else {
+      console.log('index.search', index.search)
       if (!index.search) {
         return works
       }
@@ -229,7 +241,7 @@
             categories={data.catalogue?.categories}
             genres={data.catalogue?.genres}
             publishers={data.catalogue?.publishers}
-            searchIndexEndpoint={endpoints.index}
+            {loadSearchIndex}
             {state}
             works={results}
             on:updateQuery={e => (state.query = e.detail)}
