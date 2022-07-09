@@ -74,11 +74,15 @@
   }
 
   async function loadSearchIndex() {
-    const res = await fetch(endpoints.index)
-    const data = await res.json()
+    try {
+      const res = await fetch(endpoints.index)
+      const data = await res.json()
 
-    if (res) {
-      index = lunr.Index.load(data)
+      if (res) {
+        index = lunr.Index.load(data)
+      }
+    } catch (e) {
+      console.error(e)
     }
   }
 

@@ -109,7 +109,7 @@
       <Query loading />
     {:then}
       <Query value={state.query} on:updateQuery />
-    {:catch error}
+    {:catch}
       <Query failed />
     {/await}
     <div class="facets">
