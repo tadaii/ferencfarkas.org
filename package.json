@@ -46,7 +46,7 @@
     "shelljs": "^0.8.5",
     "sirv-cli": "^1.0.12",
     "standard": "^16.0.3",
-    "svelte": "^3.38.2",
+    "svelte": "^3.49.0",
     "wavesurfer.js": "^5.0.1",
     "yaml": "^1.10.2"
   },
