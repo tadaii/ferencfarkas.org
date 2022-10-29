@@ -15,24 +15,24 @@
 
   let items = [
     {
-      key: 'u',
-      dir: 'asc',
-      label: 'Update',
-    },
-    {
-      key: 'c',
-      dir: 'asc',
-      label: 'Composition date',
-    },
-    {
       key: 't',
       dir: 'asc',
       label: 'Title',
     },
     {
+      key: 'u',
+      dir: 'asc',
+      label: 'Update',
+    },
+    {
       key: 'd',
       dir: 'asc',
       label: 'Duration',
+    },
+    {
+      key: 'c',
+      dir: 'asc',
+      label: 'Composition date',
     },
   ]
 

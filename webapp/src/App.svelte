@@ -136,7 +136,7 @@
           const titleA = normalizeString(a.title.translations[a.title.main])
           const titleB = normalizeString(b.title.translations[b.title.main])
           return titleA > titleB
-            ? state.sort.dir === 'asc'
+            ? state.sort.dir === 'desc'
               ? -1
               : 1
             : titleA === titleB
