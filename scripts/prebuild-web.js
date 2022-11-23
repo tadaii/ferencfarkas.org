@@ -2,6 +2,13 @@ const { join, resolve } = require('path')
 const fs = require('fs-extra')
 const yaml = require('yaml')
 const lunr = require('lunr')
+require('lunr-languages/lunr.stemmer.support')(lunr)
+require('lunr-languages/lunr.multi')(lunr)
+require('lunr-languages/lunr.hu')(lunr)
+require('lunr-languages/lunr.de')(lunr)
+require('lunr-languages/lunr.fr')(lunr)
+require('lunr-languages/lunr.es')(lunr)
+require('lunr-languages/lunr.it')(lunr)
 const fm = require('front-matter')
 const { getLastUpdates } = require('./common')
 
@@ -109,7 +116,9 @@ const buildCatalogue = async src => {
 
 const buildSearchIndex = catalogue => {
   const idx = lunr(function () {
+    this.use(lunr.multiLanguage('en', 'de', 'fr', 'it', 'hu', 'es'))
     this.ref('id')
+    this.field('id')
     this.field('audios')
     this.field('cast')
     this.field('composition_date')
@@ -121,6 +130,7 @@ const buildSearchIndex = catalogue => {
     this.field('world_premiere')
 
     catalogue.works.forEach(work => {
+      // TODO normalize work and remove accents manually
       const doc = { ...work }
 
       try {
@@ -183,7 +193,7 @@ const buildAudioMap = async catalogue => {
   return map
 }
 
-;(async () => {
+async function run() {
   const catalogue = await buildCatalogue(src)
   const searchIdx = buildSearchIndex(catalogue)
   const audioList = await buildAudioMap(catalogue)
@@ -238,4 +248,6 @@ const buildAudioMap = async catalogue => {
   // Get and write last updates data
   const { lastUpdates } = await getLastUpdates()
   await fs.writeFile(dstLastUpdates, JSON.stringify(lastUpdates), 'utf8')
-})()
+}
+
+run()

@@ -38,6 +38,10 @@
     mounted = true
   })
 
+  function normalizeString(str) {
+    return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+  }
+
   function customizeSection(container) {
     let section = container
 
@@ -66,12 +70,20 @@
     )
 
     works = setFacets(responses.catalogue.works)
-
-    if (responses.index) {
-      index = lunr.Index.load(responses.index)
-    }
-
     data = responses
+  }
+
+  async function loadSearchIndex() {
+    try {
+      const res = await fetch(endpoints.index)
+      const data = await res.json()
+
+      if (res) {
+        index = lunr.Index.load(data)
+      }
+    } catch (e) {
+      console.error(e)
+    }
   }
 
   function filterWorks({ activeFacets, index, query, reworksOf, sort, works }) {
@@ -121,11 +133,13 @@
             ? -1
             : 1
         case 't':
-          return a.title > b.title
-            ? state.sort.dir === 'asc'
+          const titleA = normalizeString(a.title.translations[a.title.main])
+          const titleB = normalizeString(b.title.translations[b.title.main])
+          return titleA > titleB
+            ? state.sort.dir === 'desc'
               ? -1
               : 1
-            : a.title === b.title
+            : titleA === titleB
             ? 0
             : state.sort.dir === 'asc'
             ? 1
@@ -229,7 +243,7 @@
             categories={data.catalogue?.categories}
             genres={data.catalogue?.genres}
             publishers={data.catalogue?.publishers}
-            searchIndexEndpoint={endpoints.index}
+            {loadSearchIndex}
             {state}
             works={results}
             on:updateQuery={e => (state.query = e.detail)}
