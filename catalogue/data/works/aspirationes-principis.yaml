@@ -22,10 +22,10 @@ texts:
   la: in Latin by Ferenc Rákoczi
 title:
   main: la
-  original: la
+  original: en
   sort:
     - la
     - en
   translations:
     la: Aspirationes principis
-    hu: Rákóczi cantata
+    en: Rákóczi cantata

@@ -1,0 +1,28 @@
+category: orchestra
+composition_date: 1955
+date: 2022-11-23
+description: Suite for orchestra
+duration: 1320
+id: bukki-vazlatok
+movements:
+  - title: Tájkép
+  - title: Kis vasúton
+  - title: Sivel a rengetegben
+  - title: Idill
+  - title: Csipkéskúti ménes
+  - title: Csendes havazás és hóvihar
+publications:
+  - publisher_id: afp
+    type: score
+  - publisher_id: afp
+    type: performance material
+setting: 2 (picc.),  2 (c.i.),  2, 2 - 4, 2, 3, 0 – timp., batt. (3 ess.) – arpa, cel., pf. – archi
+title:
+  main: hu
+  original: en
+  sort:
+    - hu
+    - en
+  translations:
+    hu: Bükki vázlatok
+    en: Sketches from Bükk
