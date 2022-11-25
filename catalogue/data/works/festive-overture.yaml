@@ -1,0 +1,22 @@
+category: orchestra
+composition_date: 1968
+date: 2022-11-25
+dedication: in occasionem diei anniversarii XXV liberationis Agriae
+description: for orchestra
+duration: 630
+id: festive-overture
+publications:
+  - publisher_id: emb
+    type: score
+  - publisher_id: emb
+    type: performance material
+setting: 3 (III=picc.), 2, 2, 2 – 4, 3, 3, 0 – timp., batt. – archi
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Festive overture
+    hu: Ünnepi nyitany
