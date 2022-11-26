@@ -1,0 +1,26 @@
+category: orchestra
+composition_date: 1938
+date: 2022-11-26
+description: Suite in old style for chamber orchestra
+duration: 900
+id: sirius
+movements:
+  - title: Overture
+  - title: Gavotte-Musette
+  - title: Barcarola Napolitana
+  - title: Minuetto
+  - title: Postakocsi-Rondo
+  - title: Postcar-Rondo
+publications:
+  - publisher_id: afp
+    type: score
+  - publisher_id: afp
+    type: performance material
+setting: 1, 0, 1, 0 – 1, 0, 0, 0 – timp. – archi
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Sirius
