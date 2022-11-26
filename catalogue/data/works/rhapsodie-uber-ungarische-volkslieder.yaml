@@ -1,0 +1,25 @@
+category: orchestra
+composition_date: 1949
+date: 2022-11-26
+description: for orchestra
+duration: 540
+id: rhapsodie-uber-ungarische-volkslieder
+movements:
+  - title: Allegro
+  - title: Allegro moderato
+  - title: Tempo di marcia
+  - title: Allegro moderato
+  - title: Ad Martem, precatio pro pace
+publications:
+  - publisher_id: sikorski
+    type: all
+setting: 2, 2, 2, 2 – 4, 3, 3, 0 – timp., batt. – arpa – archi
+texts:
+  la: in latin by Janus Pannonius
+title:
+  main: de
+  original: de
+  sort:
+    - de
+  translations:
+    de: Rhapsodie über ungarische Volkslieder
