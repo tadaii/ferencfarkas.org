@@ -1,0 +1,22 @@
+category: orchestra
+composition_date: 1977
+date: 2022-11-26
+dedication: a Budapesti Filharmóniai Társaság megalakulásának l25. évfordulójára
+description: for orchestra
+duration: 840
+id: philharmonic-overture
+publications:
+  - publisher_id: emb
+    type: score
+  - publisher_id: emb
+    type: performance material
+setting: 3 (III = picc.), 3 (III = c.i.), 3, 3 (III = cfg.) – 4, 3, 3, 1 – timp., xyl., batt. – archi
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Philharmonic overture
+    hu: Filharmónikus nyitány
