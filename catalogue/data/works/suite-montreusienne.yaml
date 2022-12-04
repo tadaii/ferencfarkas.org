@@ -1,0 +1,22 @@
+---
+category: orchestra
+composition_date: 1988
+date: 2022-12-04
+description: for orchestra
+duration: 540
+id: suite-montreusienne
+movements:
+  - title: En route
+  - title: Promenade d'automne
+  - title: Danse en costumes anciens
+  - title: Souvenirs de jeunesse
+publications:
+  - publisher_id: ascolta
+    type: all
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Suite montreusienne
