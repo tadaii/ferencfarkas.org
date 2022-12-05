@@ -1,0 +1,27 @@
+category: orchestra
+composition_date: 1938
+date: 2022-12-05
+description: for orchestra
+duration: 540
+id: tafelmusik
+movements:
+  - title: Andante moderato
+  - title: Palotás-tempo
+  - title: Allegretto
+  - title: Andante
+  - title: Allegro moderato
+publications:
+  - publisher_id: afp
+    type: score
+  - publisher_id: sidem
+    type: performance material
+setting: 1, 1, 2, 1 – 2, 1, 1, 0 – archi
+title:
+  main: de
+  original: fr
+  sort:
+    - de
+    - fr
+  translations: 
+    de: Tafelmusik
+    fr: Musique de table 
