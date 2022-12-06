@@ -1,0 +1,30 @@
+category: orchestra
+composition_date: 1940
+date: 2022-12-06
+description: for orchestra
+duration: 1200
+id: the-marionettes-dance-suite
+movements:
+  - title: Nyitány / Ouvertüre
+  - title: Intermezzo
+  - title: Bojtárok és angyalok tánca / Dance of the shepherd boys and the angels
+  - title: Kis Miklós tánca / Dance of Kis Miklós
+  - title: Heródes tánca / Dance of Herodes
+  - title: Az ördög tánca / Dance of the devil
+  - title: A halál tánca / Dance of death
+  - title: Rondino
+publications:
+  - publisher_id: emb
+    type: score
+  - publisher_id: emb
+    type: performance material
+setting: 2 (picc.), 1, 2, 1 - 2, 2, 1, 0 – timp., batt. – arpa – archi
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: The marionette’s dance suite
+    hu: Bábtáncoltató-szvit
