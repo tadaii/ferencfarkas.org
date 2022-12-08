@@ -5,6 +5,10 @@ date: 2021-01-19
 description: 3 pieces for orchestra from the incidental music to " Timon of Athens " by William Shakespeare
 duration: 660
 id: timon-of-athens
+movements:
+  - title: Marcia d’Alcibiade
+  - title: Intermezzo - Asztali zene
+  - title: Tánc
 publications:
   - publisher_id: afp
     type: score
