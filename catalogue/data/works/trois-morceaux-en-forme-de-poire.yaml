@@ -1,0 +1,29 @@
+---
+category: orchestra
+composition_date: 1991
+date: 2022-12-8
+description: Adaptation for orchestra from the piano work by Erik Satie
+dedication: Au Nouvel Orchestre de Montreux et à son chef András Farkas
+duration: 900
+id: trois-morceaux-en-forme-de-poire
+movements:
+  - title: Manière de commencement
+  - title: Prolongement du même
+  - title: I Lentement
+  - title: II Enlevé
+  - title: III Brutal
+  - title: En plus
+  - title: Redite
+publications:
+  - publisher_id: afp
+    type: score
+  - publisher_id: afp
+    type: performance material
+setting: 2, 2, 2, 2 – 2, 2, 0, 0 – timp.+ batt. (1 es.) – archi
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Trois morceaux en forme de poire
