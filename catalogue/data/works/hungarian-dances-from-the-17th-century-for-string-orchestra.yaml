@@ -1,6 +1,6 @@
 category: string
 composition_date: 1961
-date: 2021-03-05
+date: 2022-12-08
 description: for string orchestra
 duration: 600
 id: hungarian-dances-from-the-17th-century-for-string-orchestra
@@ -16,7 +16,7 @@ publications:
     type: score
   - publisher_id: emb
     type: performance material
-rework_of: choreae-hungaricae-for-string-orchestra
+rework_of: choreae-hungaricae
 title:
   main: en
   original: en
