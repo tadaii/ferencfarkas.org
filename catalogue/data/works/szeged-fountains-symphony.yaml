@@ -1,0 +1,19 @@
+category: orchestra
+composition_date: 1979
+date: 2022-12-09
+description: for orchestra
+duration: 540
+id: szeged-fountains-symphony
+publications:
+  - publisher_id: afp
+    type: score
+setting: 3 (picc.), 3, 3, 2 – 4, 3, 3, 1 – timp., batt. – arpa, cel. – archi
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Szeged fountain's symphony
+    hu: Szegedi szökökút szimfónia
