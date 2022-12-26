@@ -1,8 +1,7 @@
 category: wind
-composition_date: 1967
 date: 2021-01-19
 description: 3 pieces for wind orchestra from the incidental music to "Timon of
-  Athens" by William Shakespeare
+  Athens" by William Shakespeare adapted by Tony Kurmann in 2014
 duration: 660
 id: timon-of-athens-for-wind-orchestra
 movements:
@@ -15,8 +14,7 @@ publications:
   - publisher_id: alliance
     type: performance material
 rework_of: timon-of-athens
-setting: 4(IV=picc.), 3 (III=c.i.), 4(IV=cl.b.), 4(IV=cfg.) – 4, 4, 3, 1 –
-  timp., batt. – pf.
+setting: picc., 2 fl., 2 ob., c.i., 2 fg, cfg, clar.mib, 3 clar.sib, bassethorn, bass-clar. sib, cb-clar.sib, 2 alt-sass.mib, tenor-sass.sib, bar-sass.mib, vcl., stringbass, 4 cor, 3 tr.sib, 3 trbne, euphonium, tuba, timpani, bells, xylophone, 2 perc. piano
 title:
   main: en
   original: en
@@ -24,4 +22,3 @@ title:
     - en
   translations:
     en: Timon of Athens
-    hu: Furfangos diákok
