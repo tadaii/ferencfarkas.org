@@ -1,0 +1,22 @@
+category: orchestra
+composition_date: 1928
+date: 2023-01.10
+description: for orchestra
+duration: 260
+id: overture-to-a-comedy
+publications:
+  - publisher_id: afp
+    type: score
+  - publisher_id: afp
+    type: performance material
+rework_of: the-magic-cupboard
+setting: 2, 2, 2, 2 - 3, 2, 3, 0 – timp., batt. – arpa – archi
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Overture to a comedy
+    hu: Bevezetö zene egy vigjátékhoz
