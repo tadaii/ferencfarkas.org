@@ -1,0 +1,21 @@
+category: concerto
+composition_date: 1931
+date: 2023-01-12
+description: for violin and chamber orchestra
+duration: 600
+id: ricordo-di-roma
+movements:
+  - title: Allegro
+  - title: Largo
+  - title: Presto
+publications:
+  - publisher_id: afp
+    type: all
+setting: 2 (picc.), 1, 2, 1 – 2, 1, 0, 0 – archi
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Ricordo di Roma
