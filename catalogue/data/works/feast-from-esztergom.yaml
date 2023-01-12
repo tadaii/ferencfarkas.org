@@ -1,0 +1,18 @@
+category: concerto
+composition_date: 1994
+date: 2023-01-12
+description: for cimbalom and string orchestra
+duration: 240
+id: feast-from-esztergom
+publications:
+  - publisher_id: afp
+    type: all
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Feast from Esztergom
+    hu: Esztergomi vigasságok
