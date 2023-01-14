@@ -1,0 +1,22 @@
+category: wind
+composition_date: 1987
+date: 2023-01-14
+description: for wind orchestra
+duration: 540
+id: cassazione
+movements:
+  - title: Preambulum
+  - title: Induló / March
+  - title: Asztali zene / Dinner music
+  - title: Táncrondo / Dance-rondo
+publications:
+  - publisher_id: afp
+    type: score
+setting: picc, 2 fl., 2 hb., cl. mi b, 3 cl. si b, cl. b, 2 fg., 2 sass. a., 2 sass. t., sass. bar., 4 cor., 2 saxhorn si b, saxhorn t. si b, saxhorn b., 4 tr., 3 trb., 2 tuba, batt.
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Cassazione
