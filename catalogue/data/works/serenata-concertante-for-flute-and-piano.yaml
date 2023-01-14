@@ -12,7 +12,7 @@ movements:
 publications:
   - publisher_id: emb
     type: all
-rework-of: serenata-concertante
+rework_of: serenata-concertante
 title:
   main: it
   original: it
