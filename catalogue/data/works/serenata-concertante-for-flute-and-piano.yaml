@@ -1,0 +1,22 @@
+category: chamber
+composition_date: 1967
+date: 2023-01-14
+dedication: to Alain Marion
+description: for flute and piano
+duration: 900
+id: serenata-concertante-for-flute-and-piano
+movements:
+  - title: Allegro moderato
+  - title: Andante espressivo
+  - title: Allegro vivace
+publications:
+  - publisher_id: emb
+    type: all
+rework-of: serenata-concertante
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Serenata concertante
