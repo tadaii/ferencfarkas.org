@@ -1,0 +1,24 @@
+category: concerto
+date: 2023-01-17
+description: Concertino for clarinet and string orchestra adapted by Heike Zechner
+duration: 540
+id: old-hungarian-dances-from-the-17th-century-for-clarinet-and-string-orchestra
+movements:
+  - title: Intrada
+  - title: Lassú
+  - title: Lapockás tánc
+  - title: Chorea
+  - title: Ugrós
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: early-hungarian-dances-from-the-17th-century-for-piano-or-harpsichord
+title:
+  main: en
+  original: it
+  sort:
+    - en
+    - it
+  translations:
+    en: Old Hungarian dances from the 17th century
+    it: Antiche danze ungheresi del 17. secolo
