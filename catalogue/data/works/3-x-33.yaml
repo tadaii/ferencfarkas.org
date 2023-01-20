@@ -1,0 +1,26 @@
+---
+category: chamber
+composition_date: 1991
+date: 2023-01-20
+description: for violin, viola and violoncello
+duration: 600
+id: 3-x-33
+movements:
+  - title: Intrada
+  - title: Meditazione
+  - title: Allegro impetuoso
+  - title: Giocoso
+  - title: Ninna-nanna
+  - title: Scherzo
+  - title: Alla marcia
+  - title: La Notte
+  - title: Riasunto
+publications:
+  - publisher_id: curci
+    type: all
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations: 3 X 33
