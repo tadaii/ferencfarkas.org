@@ -9,8 +9,10 @@ publications:
     type: all
 title:
   main: hu
-  original: hu
+  original: en
   sort:
     - hu
+    - en
   translations:
     hu: Négy magyar tánc
+    en: Five Hungarian dances
