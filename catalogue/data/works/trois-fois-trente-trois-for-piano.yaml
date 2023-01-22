@@ -1,0 +1,22 @@
+---
+category: solo
+composition_date: 1991
+date: 2023-01-22
+description: for piano
+duration: 180
+id: trois-fois-trente-trois-for-piano
+movements:
+  - title: Allegro ostinamente
+  - title: Allegro valorosamente
+  - title: Dodolante
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: trois-fois-trente-trois
+title:
+  main: en
+  original: en
+  sort:
+    - en
+  translations:
+    en: 3 x 33
