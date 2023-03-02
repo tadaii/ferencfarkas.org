@@ -11,6 +11,7 @@ movements:
 publications:
   - publisher_id: afp
     type: all
+rework_of: concertino-rustico
 title:
   main: it
   original: it
