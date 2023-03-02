@@ -1,0 +1,20 @@
+category: chamber
+composition_date: 1977
+date: 2023-03-02
+description: for Alphorn and organ
+duration: 600
+id: concertino-rustico-for-alphorn-and-organ
+movements:
+  - title: Allegro
+  - title: Andante
+  - title: Allegro vivace
+publications:
+  - publisher_id: afp
+    type: all
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Concertino rustico
