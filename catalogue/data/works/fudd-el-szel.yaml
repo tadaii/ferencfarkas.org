@@ -1,0 +1,28 @@
+category: cantata_oratorio
+composition_date: 1953
+date: 2023-03-07
+description: Cantata for tenor and baritone solo, male choir and orchestra based on Hungarian Kouroutz  melodies (17th and 18th century)
+duration: 960
+id: fudd-el-szel
+movements:
+  - title: Rákóczi László balladája
+  - title: Buga Jakab éneke
+  - title: Rákóczi kesergöje
+  - title: Fordulj kedves lovam
+  - title: Rákóczi nóta
+  - title: Hej, fúdd el szél
+  - title: Ercsényi-Bercsényi
+  - title: Janószy András bujdosó éneke
+publications:
+  - publisher_id: afp
+    type: all
+setting: 2 (picc.), 1, 2, 1 – 2, 2, 0, 0 – arpa – archi
+texts:
+  hu: in hungarian
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Fúdd el szél
