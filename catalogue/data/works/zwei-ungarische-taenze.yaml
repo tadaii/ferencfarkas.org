@@ -15,10 +15,8 @@ publications:
 setting: 2, 1, 2, 1 – 2, 2, 1, 0 – batt. – arpa – archi
 title:
   main: de
-  original: en
+  original: de
   sort:
     - de
-    - en
   translations:
     de: Zwei ungarische Tänze
-    en: Two Hungarian dances

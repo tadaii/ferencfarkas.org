@@ -5,7 +5,7 @@ date: 2021-03-05
 dedication: à Françoise avec beaucoup d'affection pour son anniversaire
 description: for piano
 duration: 300
-id: ket-magyar-tanc
+id: two-hungarian-dances
 movements:
   - title: Kecskeméti verbunk
   - title: Pásztortánc
@@ -14,11 +14,11 @@ publications:
     type: all
 rework_of: zwei-ungarische-taenze
 title:
-  main: hu
+  main: en
   original: hu
   sort:
-    - hu
     - en
+    - hu
   translations:
-    hu: Két magyar tánc
     en: Two Hungarian dances
+    hu: Két magyar tánc
