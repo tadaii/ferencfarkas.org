@@ -1,0 +1,26 @@
+---
+category: solo
+composition_date: 1931
+date: 2023-03-29
+description: for piano 
+duration: 720 
+id: quaderno-romano
+movements:
+  - title: Preludio
+  - title: Cavatina
+  - title: Dialogo
+  - title: Caccia
+  - title: Passeggiata
+  - title: Epilogo
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: it
+  original: hu
+  sort:
+    - it
+    - hu
+  translations:
+    it: Quaderno Romano
+    hu: Római hangjegyfüzet
