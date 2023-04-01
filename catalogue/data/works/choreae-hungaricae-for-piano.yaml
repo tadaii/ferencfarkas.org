@@ -1,0 +1,25 @@
+category: solo
+composition_date: 1997
+date: 2023-04-01
+dedication: to Sándor Ruitner
+description: 6 easy pieces for piano
+duration: 360
+id: choreae-hungaricae-for-piano
+movements:
+  - title: Allegro moderato
+  - title: Allegro
+  - title: Lo stesso tempo
+  - title: Allegro non troppo
+  - title: Meno mosso
+  - title: Quasi minuetto
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: choreae-hungaricae
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Choreae hungaricae
