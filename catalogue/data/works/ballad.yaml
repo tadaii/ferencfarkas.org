@@ -1,0 +1,18 @@
+category: solo
+composition_date: 1955
+date: 2023-04.01
+description: for piano
+duration: 510
+id: ballad
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: en
+  original: fr
+  sort:
+    - en
+    - fr
+  translations:
+    en: Ballad
+    fr: Ballade
