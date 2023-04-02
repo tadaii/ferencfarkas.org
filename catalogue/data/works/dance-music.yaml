@@ -1,6 +1,6 @@
 category: solo
 composition_date: 1922
-date: 2023.04.02
+date: 2023-04-02
 description: for piano
 duration: 180
 id: dance-music
@@ -14,5 +14,5 @@ title:
     - en
     - hu
   translations:
-    en: Dance dance-music
+    en: Dance music
     hu: Táncmuszika
