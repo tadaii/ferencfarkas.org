@@ -1,0 +1,19 @@
+category: solo
+composition_date: 1990
+date: 2023-04-03
+description: for organ
+duration: 420
+id: exitus
+movements:
+  - title: Allegro moderato (preludium)
+  - title: Allegro (fuga)
+publications:
+  - publisher_id: kontrapunkt
+    type: all
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Exitus
