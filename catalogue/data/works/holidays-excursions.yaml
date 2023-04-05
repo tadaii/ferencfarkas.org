@@ -1,0 +1,26 @@
+---
+category: solo
+composition_date: 1975
+date: 2023-04-05 
+description: for piano - 6 pieces for the youth
+duration: 490
+id: holidays-excursions
+movements:
+  - title: By train / Vonaton
+  - title: On foot / Gyalogszerrel
+  - title: By bicycle / Kerékpáron
+  - title: Sailing / Vitorlással
+  - title: Camp-fire / Tábortűz mellett
+  - title: By bus / Autóbuszon
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Holidays excursions
+    hu: Nyári kirándulások 
