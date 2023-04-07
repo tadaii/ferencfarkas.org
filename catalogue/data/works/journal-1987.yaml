@@ -1,0 +1,29 @@
+category: solo
+composition_date: 1987
+date: 2023-04-07
+description: for piano
+duration: 900
+id: journal-1987
+movements:
+  - title: Projets du matin / Reggeli tervek
+  - title: Jeu / Játék
+  - title: Berceuse / Altatódal
+  - title: Plaisanterie / Tréfa
+  - title: Ombres / Arnyak
+  - title: Moments de sérénité / A derű pillanatai
+  - title: Passetemps / Időtöltés
+  - title: Attente / Várakozás
+  - title: Promenade / Séta
+  - title: Colère / Mérgelödés
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: fr
+  original: hu
+  sort:
+    - fr
+    - hu
+  translations:
+    fr: Journal 1987
+    hu: Naplójegyzetek 1987
