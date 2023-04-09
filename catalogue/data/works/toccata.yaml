@@ -2,12 +2,12 @@
 category: solo
 composition_date: 1945
 date: 2021-03-05
-description: for organ or piano
+description: for organ
 duration: 180
 id: toccata
 publications:
   - publisher_id: kontrapunkt
-    type: all
+    type: Organ works
 rework_of: musica-pentatonica
 title:
   main: it
