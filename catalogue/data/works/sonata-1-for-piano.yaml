@@ -1,0 +1,20 @@
+category: solo
+composition_date: 1930
+date: 2023-04-09
+description: for piano
+duration: 1080
+id: sonata-1-for-piano
+movements:
+  - title: Allegro
+  - title: Adagio
+  - title: Allegro
+publications:
+  - publisher_id: afp
+    type: all
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Sonata no. 1
