@@ -1,0 +1,16 @@
+category: solo
+composition_date: 1989
+date: 2023-04-11
+description: for tárogató
+duration: 180
+id: subulo
+publications:
+  - publisher_id: afp
+    type: all
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Subulo
