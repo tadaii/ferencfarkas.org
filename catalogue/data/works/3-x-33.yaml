@@ -1,10 +1,10 @@
 ---
 category: chamber
 composition_date: 1991
-date: 2023-01-22
+date: 2023-04-12
 description: Suite for violin, viola and violoncello
 duration: 600
-id: trois-fois-trente-trois
+id: 3-x-33
 movements:
   - title: Intrada
   - title: Meditazione
@@ -24,4 +24,4 @@ title:
   sort:
     - en
   translations:
-    en: 3x33
+    en: 3 x 33
