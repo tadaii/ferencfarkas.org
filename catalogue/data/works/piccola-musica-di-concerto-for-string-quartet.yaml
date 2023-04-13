@@ -1,0 +1,23 @@
+---
+category: chamber
+date: 2023-04-13
+composition_date: 1961
+description: for string quartet
+duration: 600
+id: piccola-musica-di-concerto-for-string-quartet
+movements:
+  - title: Allegro
+  - title: Andante
+  - title: Scherzo
+  - title: Allegro
+publications:
+  - publisher_id: emb
+    type: all
+rework_of: piccola-musica-di-concerto
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Piccola musica di concerto
