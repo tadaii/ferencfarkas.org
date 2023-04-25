@@ -1,0 +1,20 @@
+category: solo
+date: 2023-04-09
+description: for piano - 2 little pieces on motifs from the 18th century
+duration: 300
+id: regi-nota-regi-tanc
+movements:
+  - title: Nem nyughatom.../ Ich habe keine Ruhe...
+  - title: Kis Verbunk / Kleiner Werbungstanz
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: hu
+  original: ge
+  sort:
+    - hu
+    - ge
+  translations:
+    hu: Régi nóta, régi tánc
+    ge: Alte Weise, alter Tanz

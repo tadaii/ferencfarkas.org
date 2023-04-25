@@ -1,0 +1,24 @@
+category: solo
+composition_date: 1976
+date: 2023-04-09
+dedication: to József Molnár
+description: for Alphorn
+duration: 600
+id: petite-suite-alpestre
+movements:
+  - title: Prélude
+  - title: Etude
+  - title: Scherzo
+  - title: Tempo di valse 
+  - title: Intermède
+  - title: Fanfare
+publications:
+  - publisher_id: afp
+    type: all
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Petite suite alpestre

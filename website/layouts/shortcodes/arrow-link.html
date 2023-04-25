@@ -1,0 +1,4 @@
+{{- $href := or (.Get 0) "" -}}
+{{- $text := or (.Get 1) "" -}}
+{{- $target := or (.Get 3) "_blank" -}}
+{{ partial "shortcodes/arrow-link" (dict "href" $href "text" $text "target" $target) }}

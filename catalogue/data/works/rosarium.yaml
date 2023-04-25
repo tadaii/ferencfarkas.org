@@ -11,7 +11,7 @@ movements:
   - titre: Stabat Mater
   - titre: Assumpta est
 publications:
-  - publisher_id: spirito
+  - publisher_id: afp
     type: all
 texts:
   la: in latin

@@ -1,0 +1,23 @@
+category: solo
+composition_date: 1931
+date: 2023-04-01
+description: for organ
+duration: 720
+id: canephorae-for-organ
+movements:
+  - title: Maestoso
+  - title: Andante
+  - title: Leggierissimo
+  - title: Lento
+  - title: Allegro moderato
+publications:
+  - publisher_id: emb
+    type: all
+rework_of: canephorae
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Canephorae

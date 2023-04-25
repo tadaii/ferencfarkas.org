@@ -1,0 +1,31 @@
+a.arrow-link {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem 0.75rem 1.2rem;
+  display: inline-flex;
+  align-items: center;
+  font-weight: 500;
+  color: $c-white;
+  background: $c-black;
+  border-radius: 0.75rem;
+
+  &:after {
+    content: '';
+    margin-left: 0.75rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='feather' viewBox='0 0 37 25'%3E%3Cpath d='M36.7466 12.2815L24.7473 0.282209L23.7474 1.28215L34.7474 12.2822L23.7474 23.2823L24.7473 24.2822L36.7466 12.283L36.7458 12.2822L36.7466 12.2815Z M0.654816 11.5751H35.148V12.9893H0.654816V11.5751Z' fill='#{$c-white}'/%3E%3C/svg%3E%0A");
+  }
+
+  &:hover {
+    color: $c-primary;
+    box-shadow: 0 0 1rem rgba(0,0,0, 0.3);
+
+    &:after {
+      transform: translateX(7px);
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='feather' viewBox='0 0 37 25'%3E%3Cpath d='M36.7466 12.2815L24.7473 0.282209L23.7474 1.28215L34.7474 12.2822L23.7474 23.2823L24.7473 24.2822L36.7466 12.283L36.7458 12.2822L36.7466 12.2815Z M0.654816 11.5751H35.148V12.9893H0.654816V11.5751Z' fill='#{$c-primary}' stroke-width='1px' stroke='#{$c-primary}'/%3E%3C/svg%3E%0A");
+    }
+  }
+}

@@ -1,0 +1,22 @@
+category: chamber
+date: 2024-04-16
+description: for 4 clarinets (sib) or 3 clarinets and bass clarinet
+duration: 210
+id: student-songs-from-the-18th-century
+movements:
+  - title: Moderato poco rubato
+  - title: Quasi minuetto, grazioso
+  - title: Allegro vivace
+publications:
+  - publisher_id: emb
+    type: Quartets for Clarinets or Other Instruments 2
+rework_of: pataki-diakdalok
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Student songs from the 18th century
+    hu: Diákdalok a XVIII. Századból

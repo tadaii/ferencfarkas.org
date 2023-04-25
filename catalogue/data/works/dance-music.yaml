@@ -1,0 +1,18 @@
+category: solo
+composition_date: 1922
+date: 2023-04-02
+description: for piano
+duration: 180
+id: dance-music
+publications:
+  - publisher_id: afp
+    type: all
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Dance music
+    hu: Táncmuszika

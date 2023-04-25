@@ -1,0 +1,23 @@
+category: solo
+composition_date: 1962, rev. 1972
+date: 2023-04-12
+description: for piano
+duration: 240
+id: three-monograms 
+movements:
+  - title: M.R. (Maros Rudolf)
+  - title: Sz.I. (Szönyi István)
+  - title: L.Gy. (Ligeti György)
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Three Monograms
+    hu: Három monogramm
+    

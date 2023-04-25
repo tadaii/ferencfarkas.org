@@ -1,0 +1,26 @@
+category: solo
+composition_date: 1935
+date: 2023-04-08
+dedication: für Marianne und Annelise Schütze zum Andenken, Vergnügen und üben gewidmet, Kopenhagen, 1935
+description: for piano
+duration: 540
+id: little-piano-pieces-after-hungarian-folk-songs
+movements:
+  - title: Előjáték / Vorspiel
+  - title: Kétszólamù invenció / Zweistimmige Invention
+  - title: Meghalt a béres / Der Knecht ist tot
+  - title: Csárdás
+  - title: Pásztornóta / Hirtenlied
+  - title: Bordal /Trinklied
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Little piano pieces after Hungarian folk songs
+    hu: Kis zongoradarabok magyar népdalok niyomán

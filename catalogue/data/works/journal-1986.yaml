@@ -1,0 +1,33 @@
+category: solo
+composition_date: 1986
+date: 2023-04-07
+description: for piano
+duration: 960
+id: journal-1986
+movements:
+  - title: Carte de visite / Névjegy
+  - title: Elan / Lendület
+  - title: Sur les ailes des rêves / Almok édes képzeménye
+  - title: Mes petits enfants jouent / Játszanak az unokák
+  - title: Un jour parmi d'autres /  "Ez a nap is mint a többi"
+  - title: Nuit blanche / Almatlan éj
+  - title: Les feuilles tombent / A lombok hullnak
+  - title: Le temps s'enfuit vite sur ses ailes / A szárnyas idő hirtelen elröpül
+  - title: Nulla dies sine linea
+  - title: Ce n'est qu'un jeu / Csak játék
+  - title: Contemplation / Tünődés
+  - title: Gymnastique du matin / Reggeli  torna
+  - title: Entre doute et espoir / Kétség s remény közt
+  - title: Et malgré tout / Es mégis
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: fr
+  original: hu
+  sort:
+    - fr
+    - hu
+  translations:
+    fr: Journal 1986
+    hu: Naplójegyzetek 1986

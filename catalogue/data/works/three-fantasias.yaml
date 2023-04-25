@@ -1,0 +1,22 @@
+category: solo
+composition_date: 1943, rev. 1973
+date: 2023-04-11
+description: for piano - on 3 pieces for lute by Bálint Bakfark (l507-l576)
+duration: 360
+id: three-fantasias
+movements:
+  - title: Moderato, non troppo lento
+  - title: Andante
+  - title: Allegro
+publications:
+  - publisher_id: emb
+    type: all
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Three fantasias
+    hu: Három fantázia

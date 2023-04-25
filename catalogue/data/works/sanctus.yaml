@@ -1,0 +1,15 @@
+category: solo
+date: 2023-04-09
+description: for organ
+duration: 60
+id: sanctus
+publications:
+  - publisher_id: kontrapunkt
+    type: Organ works
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Sanctus

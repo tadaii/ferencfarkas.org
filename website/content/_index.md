@@ -5,6 +5,27 @@ heroImage: /img/hero/hero1.jpg
 date: 2021-03-21
 ---
 
+{{% section highlight %}}
+{{% row %}}
+{{% column %}}
+## New CD release!
+### Chamber music, volume six<br>on *Toccata classics*
+
+[Toccata classics recordings](https://toccataclassics.com/) just released a new volume in its Ferenc Farkas series which focuses on chamber music with violin.
+
+Featuring **Gyula Stuller** (violin), **Yukari Shimanuki** (viola), **Dénes Várjon** (piano) and the **Stuller Quartet**.
+
+{{< arrow-link "https://toccataclassics.com/product/ferenc-farkas-chamber-music-volume-six/" "Listen & buy" true >}}
+
+{{% /column %}}
+{{% column %}}
+
+{{< figure src="/img/news/TOCC_0682.jpg" >}}
+
+{{% /column %}}
+{{% /row %}}
+{{% /section %}}
+
 {{% section %}}
 {{% row %}}
 {{% column size="1.5" %}}

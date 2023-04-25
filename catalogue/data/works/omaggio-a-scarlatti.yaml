@@ -1,0 +1,23 @@
+category: solo
+composition_date: 1984
+date: 2023-04-09
+description: for harpsichord
+duration: 780
+id: omaggio-a-scarlatti
+movements:
+  - title: Allegro moderato
+  - title: Intermezzo 1, Andante
+  - title: Fuga, Allegro
+  - title: Intermezzo 2, Andante
+  - title: Rondo, Allegro
+  - title: Andante
+  - title: Allegro
+  - publisher_id: emb
+    type: all
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Omaggio a Scarlatti

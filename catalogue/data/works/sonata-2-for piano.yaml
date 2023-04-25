@@ -1,0 +1,20 @@
+category: solo
+composition_date: 1987
+date: 2023-04-11
+description: for piano
+duration: 300
+id: sonata-2-for-piano
+movements:
+  - title: Allegro impetuoso
+  - title: Passacaglia - Omaggio a Bach
+  - title: Toccata
+publications:
+  - publisher_id: afp
+    type: all
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Sonata no.2
