@@ -11,7 +11,7 @@ date: 2021-03-21
 ## New CD release!
 ### Chamber music, volume six<br>on *Toccata classics*
 
-Toccata classics recordings just released a new volume in its Ferenc Farkas series which focuses on chamber music with violin.
+[Toccata classics recordings](https://toccataclassics.com/) just released a new volume in its Ferenc Farkas series which focuses on chamber music with violin.
 
 Featuring **Gyula Stuller** (violin), **Yukari Shimanuki** (viola), **Dénes Várjon** (piano) and the **Stuller Quartet**.
 
