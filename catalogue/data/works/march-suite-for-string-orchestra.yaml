@@ -13,6 +13,7 @@ publications:
     type: score
   - publisher_id: emb
     type: performance material
+rework_of: march-suite
 title:
   main: en
   original: hu
