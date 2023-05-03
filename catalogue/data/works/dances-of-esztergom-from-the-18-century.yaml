@@ -1,0 +1,19 @@
+category: orchestra
+composition_date: 1960
+date: 2023-05-03
+description: for orchestra
+duration: 420
+id: dances-of-esztergom-from-the-18-century
+publications:
+  - publisher_id: afp
+    type: score
+setting: flauto dolce,  2 cl. - 2 zimb. ungh. - archi
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Dances of Esztergom from the 18th century
+    hu: Esztergomi táncok a l8. századból
