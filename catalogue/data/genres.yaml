@@ -10,3 +10,6 @@
 - id: incidental
   tag: Incidental
   title: Incidental music
+- id: film
+  tag: Film
+  title: Film music
