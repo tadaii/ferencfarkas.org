@@ -48,7 +48,7 @@ versions:
   - composition_date: 1949
     nb: Ferenc Farkas received the “Kossuth Prize” for this version in 1950
     publications:
-      - publisher_id: afp
+      - publisher_id: emb
         type: score
     version: Original version for the radio
     world_premiere:
