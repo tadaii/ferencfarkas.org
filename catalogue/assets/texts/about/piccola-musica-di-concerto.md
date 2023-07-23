@@ -1,6 +1,5 @@
 ---
 title: Piccola musica di concerto
-subTitle: for string orchestra
 date: 2020-03-21
 menu:
   main:
