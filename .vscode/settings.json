@@ -1,0 +1,6 @@
+{
+  "yaml.schemas": {
+    "./catalogue/schemas/score.json": "data/scores/*.yaml",
+    "./catalogue/schemas/audio.json": "data/audios/*.yaml"
+  }
+}

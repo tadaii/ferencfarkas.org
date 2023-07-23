@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Ferenc Farkas - Score metadata",
+  "description": "Describes a set of scores",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+      },
+      "score_type": {
+        "type": "string",
+        "oneOf": [
+          {
+            "const": "score",
+            "description": "Score"
+          },
+          {
+            "const": "material",
+            "description": "Material (for orchestra)"
+          },
+          {
+            "const": "piano-reduction",
+            "description": "Piano reduction"
+          }
+        ]
+      },
+      "ref": {
+        "type": "string"
+      }
+    },
+    "required": ["id", "score_type"]
+  }
+}
