@@ -21,6 +21,7 @@ const dstLastUpdates = resolve(root, 'website/data/lastUpdates.json')
 const dstSearchIdx = resolve(root, 'website/static/_catalogue/i.json')
 const dstI18nDir = resolve(root, 'website/static/_catalogue/i18n')
 const dstAudioDir = resolve(root, 'website/static/audio')
+const dstAboutTheWorkDir = resolve(root, 'website/content/work')
 
 const yaml2json = async file => {
   const content = await fs.readFile(file)
@@ -243,6 +244,22 @@ async function run() {
     }
 
     await fs.copyFile(join(srcAudioDir, file), join(dstAudioDir, file))
+  }
+
+  // Copy "about the work" (md) files
+  await fs.mkdirp(dstAboutTheWorkDir)
+  const srcAboutTheWork = join(src, 'assets', 'texts', 'about')
+  const aboutTheWorkFiles = await fs.readdir(srcAboutTheWork)
+
+  for (const file of aboutTheWorkFiles) {
+    if (!file.endsWith('.md')) {
+      continue
+    }
+
+    await fs.copyFile(
+      join(srcAboutTheWork, file),
+      join(dstAboutTheWorkDir, file)
+    )
   }
 
   // Get and write last updates data
