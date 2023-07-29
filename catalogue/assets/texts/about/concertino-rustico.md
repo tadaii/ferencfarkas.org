@@ -25,7 +25,7 @@ menu:
 > The “Concertino rustico” is played in many countries, in various ways.
 >
 > {{< author name="Ferenc Farkas" >}}
-
+>
 
 {{% /column %}}
 {{% column %}}
