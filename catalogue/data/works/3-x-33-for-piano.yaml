@@ -11,6 +11,7 @@ movements:
 publications:
   - publisher_id: afp
     type: all
+rework_of: 3-x-33
 title:
   main: it
   original: it
