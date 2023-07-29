@@ -105,8 +105,6 @@ collaboration is very appreciated!
 {{% /column %}}
 {{% /row %}}
 
-<!--{{% last-updates %}}-->
-
 {{% /section %}}
 
 {{% section black %}}
