@@ -28,6 +28,12 @@
           }
         ]
       },
+      "manuscript": {
+        "type": "boolean"
+      },
+      "published": {
+        "type": "boolean"
+      },
       "ref": {
         "type": "string"
       }
