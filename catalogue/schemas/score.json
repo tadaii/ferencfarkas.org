@@ -38,6 +38,6 @@
         "type": "string"
       }
     },
-    "required": ["id", "score_type"]
+    "required": ["id", "score_type", "manuscript", "published"]
   }
 }
