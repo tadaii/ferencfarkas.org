@@ -234,6 +234,13 @@ article > .container {
   border: none;
   border-radius: .8rem;
   background-color: $c-secondary;
+  transform: scale(1);
+  transition: transform 0.1s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 0.2rem rgba(0,0,0, 0.2);
+  }
 
   &:focus {
     outline: none;
@@ -261,6 +268,7 @@ article > .container {
 
   .black & {
     color: $c-black;
+    background-color: $c-secondary;
   }
 
   &.active {

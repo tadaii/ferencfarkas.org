@@ -1,7 +1,7 @@
 category: string
 composition_date: 1947
 date: 2023.01.10
-description: for chamber orchestra or sring orchestra
+description: for sring orchestra
 duration: 618
 id: march-suite-for-string-orchestra
 movements:
@@ -13,7 +13,7 @@ publications:
     type: score
   - publisher_id: emb
     type: performance material
-setting: 1, 0, 1, 0 – 2, 1, 0, 0 – archi
+rework_of: march-suite
 title:
   main: en
   original: hu

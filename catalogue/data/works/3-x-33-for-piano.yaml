@@ -1,0 +1,21 @@
+category: solo
+composition_date: 1991
+date: 2023-07-29
+description: for piano
+duration: 180
+id: 3-x-33-for-piano
+movements:
+  - title: Allegro ostinamente
+  - title: Allegro valorosamente
+  - title: Dodolante
+publications:
+  - publisher_id: afp
+    type: all
+rework_of: 3-x-33
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: 3 x 33

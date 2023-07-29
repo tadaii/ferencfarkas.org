@@ -3,9 +3,11 @@ date: 2023-04-14
 description: for 2 harps - based on the work by Bálint Bakfart (1507-1576)
 duration: 180
 id: fantasia-for-two-harps
+nb: The Fantasia for 2 harps is an adaptation of the 3th movement of Three fantasias for piano
 publications:
   - publisher_id: afp
     type: all
+rework_of: three-fantasias
 title:
   main: it
   original: it

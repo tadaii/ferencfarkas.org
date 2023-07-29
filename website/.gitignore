@@ -1,3 +1,5 @@
+/content/work/*.md
+!/content/work/_index.md
 /data/works.json
 /data/lastUpdates.json
 /functions

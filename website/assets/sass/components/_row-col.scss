@@ -15,10 +15,18 @@
     flex: 1;
     padding: 1.25rem;
 
-    &.center {
+    &.center,
+    &.v-center {
       display: flex;
       flex-direction: column;
+    }
+
+    &.center {
       align-items: center;
+    }
+
+    &.v-center {
+      justify-content: center;
     }
   }
 }

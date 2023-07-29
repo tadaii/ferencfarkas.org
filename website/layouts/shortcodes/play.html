@@ -1,4 +1,5 @@
 {{- $id := or (.Get 0) "" -}}
 {{- $title := or (.Get 1) "" -}}
 {{- $description := or (.Get 2) "" -}}
-{{ partial "shortcodes/play" (dict "id" $id "title" $title "description" $description ) }}
+{{- $small := or (.Get 3) "" -}}
+{{ partial "shortcodes/play" (dict "id" $id "title" $title "description" $description "small" $small) }}
