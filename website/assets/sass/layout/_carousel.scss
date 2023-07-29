@@ -1,0 +1,48 @@
+.carousel {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow: hidden;
+
+  &--wrapper {
+    display: flex;
+    align-items: stretch;
+    gap: 2rem;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    & > * {
+      min-width: 100%;
+      scroll-snap-align: start;
+    }
+  }
+
+  &--dots {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  &--dot {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    border: none;
+    background: rgba(128,128,128, 0.4);
+    mix-blend-mode: difference;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &.active {
+      background: rgba(128,128,128, 1);
+    }
+  }
+}

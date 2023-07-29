@@ -263,8 +263,8 @@ async function run() {
   }
 
   // Get and write last updates data
-  const { lastUpdates } = await getLastUpdates()
-  await fs.writeFile(dstLastUpdates, JSON.stringify(lastUpdates), 'utf8')
+  // const { lastUpdates } = await getLastUpdates()
+  // await fs.writeFile(dstLastUpdates, JSON.stringify(lastUpdates), 'utf8')
 }
 
 run()
