@@ -68,21 +68,44 @@ collaboration is very appreciated!
 
 {{% /section %}}
 
-{{% section focus %}}
-## Selection of works
+{{% section black %}}
+## Most famous works
 
 {{% row %}}
 {{% column %}}
 
 {{% work-cards %}}
-{{% work-card early-hungarian-dances-from-the-17th-century-for-piano-or-harpsichord %}}{{% /work-card %}}
-{{% work-card the-magic-cupboard %}}{{% /work-card %}}
-{{% work-card csinom-palko %}}{{% /work-card %}}
-{{% work-card the-sly-students %}}{{% /work-card %}}
-{{% work-card funerailles %}}{{% /work-card %}}
-{{% work-card concertino-for-harp-and-orchestra %}}{{% /work-card %}}
-{{% work-card symphony %}}{{% /work-card %}}
+{{% work-card aria-e-rondo-all-ungherese-for-two-violins-and-string-orchestra %}}{{% /work-card %}}
+{{% work-card early-hungarian-dances-from-the-17th-century-for-wind-quintet %}}{{% /work-card %}}
+{{% work-card concertino-all-antica-for-baryton-or-violoncello-or-viola-and-string-orchestra %}}{{% /work-card %}}
+{{% work-card concertino-for-harp-and-string-orchestra-or-string-quartet %}}{{% /work-card %}}
+{{% work-card funerailles  %}}{{% /work-card %}}
+{{% work-card fruit-basket-for-voice-and-wind-quintet %}}{{% /work-card %}}
+{{% work-card lavottiana %}}{{% /work-card %}}
+{{% work-card maschere %}}{{% /work-card %}}
 {{% work-card piccola-musica-di-concerto %}}{{% /work-card %}}
+{{% work-card the-sly-students %}}{{% /work-card %}}
+{{% work-card three-burlesques %}}{{% /work-card %}}
+{{% /work-cards %}}
+
+{{% /column %}}
+{{% /row %}}
+{{% /section %}}
+
+{{% section focus %}}
+## Ferenc Farkas's favourite works
+
+{{% row %}}
+{{% column %}}
+
+{{% work-cards %}}
+{{% work-card cantus-pannonicus %}}{{% /work-card %}}
+{{% work-card csinom-palko %}}{{% /work-card %}}
+{{% work-card planctus-et-consolationes %}}{{% /work-card %}}
+{{% work-card preludio-e-fuga %}}{{% /work-card %}}
+{{% work-card string-quartet %}}{{% /work-card %}}
+{{% work-card symphony %}}{{% /work-card %}}
+{{% work-card the-magic-cupboard-thirteen-instruments %}}{{% /work-card %}}
 {{% /work-cards %}}
 
 {{% /column %}}
