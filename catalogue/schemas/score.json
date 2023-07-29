@@ -25,6 +25,10 @@
           {
             "const": "piano-reduction",
             "description": "Piano reduction"
+          },
+          {
+            "const": "solo-part",
+            "description": "Piano reduction"
           }
         ]
       },
