@@ -1,10 +1,10 @@
-(function () {
+;(function () {
   'use strict'
 
-  var header = {
+  const header = {
     init() {
-      var ham = document.querySelector('.nav--hamburger')
-      var nav = document.querySelector('header nav')
+      const ham = document.querySelector('.nav--hamburger')
+      const nav = document.querySelector('header nav')
 
       if (!ham) return
 
@@ -13,16 +13,18 @@
         nav.classList.toggle('open')
         nav.blur()
       })
-    }
+    },
   }
 
-  var footer = {
+  const footer = {
     init() {
-      var ls = document.querySelector('section:last-of-type')
-      var sc
+      const ls = document.querySelector('section:last-of-type')
+      let sc
 
       if (!ls) return
-      ls.getAttribute('class').trim().split(' ')
+      ls.getAttribute('class')
+        .trim()
+        .split(' ')
         .forEach(function (c) {
           if (['highlight', 'focus', 'invert', 'black'].includes(c)) {
             sc = c
@@ -31,17 +33,17 @@
 
       if (!sc) return
       document.body.classList.add(sc)
-    }
+    },
   }
 
-  var download = {
+  const download = {
     init() {
-      var units = ['KB', 'MB', 'GB']
-      var els = document.querySelectorAll('a.download .download--size')
+      const units = ['KB', 'MB', 'GB']
+      const els = document.querySelectorAll('a.download .download--size')
 
       els.forEach(function (el) {
-        var thousands = -1
-        var bytes = parseFloat(el.getAttribute('data-bytes'))
+        let thousands = -1
+        let bytes = parseFloat(el.getAttribute('data-bytes'))
 
         while (bytes > 1000) {
           bytes /= 1024
@@ -50,10 +52,10 @@
 
         el.innerHTML = bytes.toFixed(1) + ' ' + units[thousands]
       })
-    }
+    },
   }
 
-  var audioPlayer = {
+  const audioPlayer = {
     wavesurfer: null,
     target: null,
     playing: null,
@@ -68,9 +70,9 @@
     },
 
     resetPlayButtons() {
-      var play = this.getPlayButtons()
+      const play = this.getPlayButtons()
 
-      for (var i = 0; i < play.length; i++) {
+      for (let i = 0; i < play.length; i++) {
         play[i].classList.remove('playing')
       }
     },
@@ -100,14 +102,15 @@
     },
 
     play({ audio, title, detail }) {
-      var metaData = this.audios[audio]
+      const metaData = this.audios[audio]
+      let url, defaultTitle, defaultDetail
 
       if (metaData) {
-        var url = metaData.url
-        var defaultTitle = this.audios[audio].title
-        var defaultDetail = this.audios[audio].detail
+        url = metaData.url
+        defaultTitle = this.audios[audio].title
+        defaultDetail = this.audios[audio].detail
       } else {
-        var url = '/audio/' + audio + '.mp3'
+        url = '/audio/' + audio + '.mp3'
       }
 
       this.setMeta(title || defaultTitle, detail || defaultDetail)
@@ -134,101 +137,130 @@
     },
 
     init() {
-      var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent)
+      const isSafari = /^((?!chrome|android).)*safari/i.test(
+        navigator.userAgent
+      )
 
-      var libLoaded = window.setInterval((function () {
-        if (window.WaveSurfer) {
-          window.clearInterval(libLoaded)
+      const libLoaded = window.setInterval(
+        function () {
+          if (window.WaveSurfer) {
+            window.clearInterval(libLoaded)
 
-          this.wavesurfer = WaveSurfer.create({
-            container: '#waveform',
-            waveColor: 'rgba(255,255,255, .35)',
-            progressColor: '#83cacc',
-            cursorColor: '#FAB700',
-            responsive: true,
-            barWidth: 2,
-            height: 40,
-            barHeight: 2,
-            normalize: true
-          })
+            this.wavesurfer = window.WaveSurfer.create({
+              container: '#waveform',
+              waveColor: 'rgba(255,255,255, .35)',
+              progressColor: '#83cacc',
+              cursorColor: '#FAB700',
+              responsive: true,
+              barWidth: 2,
+              height: 40,
+              barHeight: 2,
+              normalize: true,
+            })
 
-          this.wavesurfer.on('loading', (function (percent) {
-            this.loading(`Loading sound ${percent}% `)
+            this.wavesurfer.on(
+              'loading',
+              function (percent) {
+                this.loading(`Loading sound ${percent}% `)
 
-            if (percent === 100) {
-              this.loading('Loading waveform...')
-            }
-          }).bind(this))
+                if (percent === 100) {
+                  this.loading('Loading waveform...')
+                }
+              }.bind(this)
+            )
 
-          this.wavesurfer.on('ready', (function () {
-            this.clearLoading()
+            this.wavesurfer.on(
+              'ready',
+              function () {
+                this.clearLoading()
 
-            if (!isSafari) {
-              this.togglePlay()
-              this.wavesurfer.play()
-            }
-          }).bind(this))
+                if (!isSafari) {
+                  this.togglePlay()
+                  this.wavesurfer.play()
+                }
+              }.bind(this)
+            )
 
-          this.wavesurfer.on('finish', (function () {
-            this.resetPlayButtons()
-          }).bind(this))
-        }
-      }).bind(this), 500)
+            this.wavesurfer.on(
+              'finish',
+              function () {
+                this.resetPlayButtons()
+              }.bind(this)
+            )
+          }
+        }.bind(this),
+        500
+      )
 
-      window.addEventListener('play', (function (event) {
-        this.target = event.detail.target === this.playerPlay
-          ? document.querySelector('.play[data-audio="' + this.playing + '"]')
-          : event.detail.target
+      window.addEventListener(
+        'play',
+        function (event) {
+          this.target =
+            event.detail.target === this.playerPlay
+              ? document.querySelector(`.play[data-audio="${this.playing}"]`)
+              : event.detail.target
 
-        var audio = event.detail.audio || this.playing
-        var title = event.detail.title
-        var detail = event.detail.detail
+          const audio = event.detail.audio || this.playing
+          const title = event.detail.title
+          const detail = event.detail.detail
 
-        this.player.classList.add('open')
-        this.setMeta(title, detail)
+          this.player.classList.add('open')
+          this.setMeta(title, detail)
 
-        if (!audio) {
-          this.loading(`Audio file missing: "${audio}"`)
-          return
-        }
+          if (!audio) {
+            this.loading(`Audio file missing: "${audio}"`)
+            return
+          }
 
-        if (!this.audios) {
-          this.loading('Loading audio list...')
+          if (!this.audios) {
+            this.loading('Loading audio list...')
 
-          fetch('/_catalogue/a.json')
-            .then(function (response) { return response.json() })
-            .then((function (json) {
-              this.audios = json
-              this.play({ player, audio, title, detail })
-            }).bind(this))
-        } else {
-          this.play({ audio, title, detail })
-        }
-      }).bind(this))
+            window
+              .fetch('/_catalogue/a.json')
+              .then(function (response) {
+                return response.json()
+              })
+              .then(
+                function (json) {
+                  this.audios = json
+                  this.play({ player: this.player, audio, title, detail })
+                }.bind(this)
+              )
+          } else {
+            this.play({ audio, title, detail })
+          }
+        }.bind(this)
+      )
 
-      window.addEventListener('keydown', (function (event) {
-        if (!this.playing) {
-          return
-        }
+      window.addEventListener(
+        'keydown',
+        function (event) {
+          if (!this.playing) {
+            return
+          }
 
-        if (event.key === 'Escape') {
+          if (event.key === 'Escape') {
+            this.closePlayer()
+          }
+        }.bind(this)
+      )
+
+      this.close.addEventListener(
+        'click',
+        function (event) {
           this.closePlayer()
-        }
-      }).bind(this))
-
-      this.close.addEventListener('click', (function (event) {
-        this.closePlayer()
-      }).bind(this))
-    }
+        }.bind(this)
+      )
+    },
   }
 
-  var slider = {
+  const slider = {
     init() {
-      var sliders = document.querySelectorAll('.slider')
+      const sliders = document.querySelectorAll('.slider')
       sliders.forEach(function (slider) {
-        var toggle = slider.querySelector('.slider--fullscreen-toggle')
-        var section = slider
-        var i = 0
+        const toggle = slider.querySelector('.slider--fullscreen-toggle')
+        let section = slider
+        let i = 0
 
         while (section.tagName.toLowerCase() !== 'section' && i < 20) {
           section = section.parentNode
@@ -241,18 +273,18 @@
           document.body.classList.toggle('blocked')
         })
       })
-    }
+    },
   }
 
-  var contactForm = {
+  const contactForm = {
     init() {
-      var form = document.querySelector('form[name="contact"]')
+      const form = document.querySelector('form[name="contact"]')
 
       if (!form) {
         return
       }
 
-      var enquiry = form.querySelector('select[name="enquiry"]')
+      const enquiry = form.querySelector('select[name="enquiry"]')
 
       if (!enquiry) {
         return
@@ -260,14 +292,14 @@
 
       // Duplicated from webapp/src/services/qs.js
       // TODO move app.js code in webapp ES6-based project
-      var qs = window.location.search
-        .split(/[\?&]/)
+      const qs = window.location.search
+        .split(/[?&]/)
         .filter(value => value)
         .reduce(function (params, param) {
-          var kv = param.split('=')
-          var key = kv[0]
-          var value = kv[1]
-          var values = (value && value.split(',')) || true
+          const kv = param.split('=')
+          const key = kv[0]
+          const value = kv[1]
+          const values = (value && value.split(',')) || true
 
           if (values === true) {
             params[key] = true
@@ -289,13 +321,56 @@
           }
         })
 
-        var publisherInfo = document.createElement('div')
-        publisherInfo.style.marginTop = '0.5rem';
-        publisherInfo.innerHTML = 'Publisher ID: <strong>' + qs.publisher + '</strong>'
+        const publisherInfo = document.createElement('div')
+        publisherInfo.style.marginTop = '0.5rem'
+        publisherInfo.innerHTML =
+          'Publisher ID: <strong>' + qs.publisher + '</strong>'
 
         enquiry.parentNode.appendChild(publisherInfo)
       }
-    }
+    },
+  }
+
+  const carousel = {
+    init() {
+      const carousels = document.querySelectorAll('.carousel')
+
+      for (const carousel of carousels) {
+        const wrapper = carousel.querySelector('.carousel--wrapper')
+        const dotsContainer = carousel.querySelector('.carousel--dots')
+        const items = Array.from(wrapper.children)
+        const dots = []
+
+        items.forEach(item => {
+          const dot = document.createElement('button')
+          dot.classList.add('carousel--dot')
+          dot.onclick = () => item.scrollIntoView()
+          dotsContainer.appendChild(dot)
+          dots.push(dot)
+        })
+
+        this.onScroll(wrapper, dots)
+
+        wrapper.addEventListener('scroll', () => {
+          this.onScroll(wrapper, dots)
+        })
+      }
+    },
+
+    onScroll(wrapper, dots) {
+      const div = wrapper.scrollLeft / wrapper.offsetWidth
+      const itemIndex = Math.floor(Math.round(div * 10) / 10 - 0.5) + 1
+
+      console.log(itemIndex)
+
+      dots.forEach((dot, index) => {
+        dot.classList.remove('active')
+
+        if (itemIndex === index) {
+          dot.classList.add('active')
+        }
+      })
+    },
   }
 
   header.init()
@@ -304,5 +379,5 @@
   audioPlayer.init()
   slider.init()
   contactForm.init()
-
+  carousel.init()
 })(window)

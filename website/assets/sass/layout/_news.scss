@@ -1,14 +1,32 @@
 .news {
-  position: relative;
-  width: 100%;
-  height: 4rem;
-  margin-top: -3rem;
-  clip-path: polygon(
-    0 3rem,
-    100% 0,
-    100% calc(100% - 3rem),
-    0 100%
-  );
-  background-color: $c-primary;
-  z-index: 1;
+  padding-top: 3rem;
+
+  .date {
+    display: inline-block;
+    margin-bottom: 1rem;
+    border-color: $c-gray-darker;
+    color: $c-gray-darker;
+    background: rgba(128,128,128, 0.1);
+
+    .highlight &,
+    .focus & {
+      border-color: $c-black;
+      color: $c-black;
+    }
+
+    .invert &,
+    .black & {
+      border-color: $c-white;
+      color: $c-white;
+      background: rgba(255,255,255, 0.1);
+    }
+  }
+
+  .row .column {
+    padding-top: 0;
+
+    & > *:first-child {
+      margin-top: 0;
+    }
+  }
 }
