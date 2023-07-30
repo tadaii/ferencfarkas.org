@@ -260,6 +260,12 @@ async function run() {
       join(srcAboutTheWork, file),
       join(dstAboutTheWorkDir, file)
     )
+    console.log(
+      `copied ${join(srcAboutTheWork, file)} to ${join(
+        dstAboutTheWorkDir,
+        file
+      )}`
+    )
   }
 
   // Get and write last updates data
