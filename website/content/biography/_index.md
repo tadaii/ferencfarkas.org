@@ -194,7 +194,7 @@ Budapest by soviet troops in April 1945.
 
 Yet, for Farkas, they were years of intense activity. During this period,
 he composed several important works : the ballet [The sly Students](/work/?q=id:the-sly-students),
-the [Cantata lirica](/work/?q=id:), [Musica pentatonica for string orchestra](/work/?q=id:musica-pentatonica),
+the [Cantata lirica](/work/?q=id:cantata-lirica), [Musica pentatonica for string orchestra](/work/?q=id:musica-pentatonica),
 the [Concertino for piano and orchestra](/work/?q=id:concertino-for-piano-and-orchestra).
 
 {{% /column %}}
@@ -206,7 +206,7 @@ the [Concertino for piano and orchestra](/work/?q=id:concertino-for-piano-and-or
 > which I pulled from Sándor Weöres cycle of poems “Fruit Basket”.
 >
 > Then with the other poems from the cycle I formed little by little a group
-> of twelve songs which I entitled, like the poet, [Fruit Basket](/work/?q=id:).
+> of twelve songs which I entitled, like the poet, [Fruit Basket](/work/?q=id:fruit-basket).
 
 {{% slider %}}
 {{% slide %}}
@@ -346,7 +346,7 @@ the Communists regained power.
 > listening with anguish to the unfolding of events on the radio. I was so
 > tense that I was unable to compose a single note.
 
-In 1959, he composed his most important cantate: [Cantus Pannonicus](/work/?q=id:)
+In 1959, he composed his most important cantate: [Cantus Pannonicus](/work/?q=id:cantus-pannonicus)
 
 <br>
 {{< play cantus-pannonicus-1 "1) Laus Pannoniae" "Cantus Pannonicus – Cantata, 1959" >}}

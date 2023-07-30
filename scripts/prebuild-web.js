@@ -49,7 +49,7 @@ const getWorks = async ({ dir, genres, categories }) => {
     }
 
     work.genre = categories[work.category].genre
-    const storyFile = `./website/content/work/${work.id}.md`
+    const storyFile = `./catalogue/assets/texts/about/${work.id}.md`
     const hasStory = await fs.pathExists(storyFile)
 
     const audioFile = `./catalogue/data/audios/${work.id}.yaml`
