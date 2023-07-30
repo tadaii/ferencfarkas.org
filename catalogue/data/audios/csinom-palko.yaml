@@ -1,10 +1,20 @@
 - id: csinom-palko-1
   description: Patyolat a kuruc
+  cd: a34
+  track: 10
 - id: csinom-palko-2
   description: Förgeteg air
+  cd: a34
+  track: 3
 - id: csinom-palko-3
   description: Palkó and Jankó duet
+  cd: a34
+  track: 4
 - id: csinom-palko-4
   description: Jó éjszakát
+  cd: a34
+  track: 9
 - id: csinom-palko-5
   description: Finale
+  cd: a34
+  track: 29
