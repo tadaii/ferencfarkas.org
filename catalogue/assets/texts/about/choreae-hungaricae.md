@@ -23,7 +23,7 @@ menu:
 > I gathered according to their sources: 4 dances from the Vietorisz codex, 5 dances from the Kajoni 
 > codex and 6 dances from the Löcse tablature book.
 >
-> {{< Ferenc Farkas" >}}
+> {{< author name="Ferenc Farkas" >}}
 >
 
 {{% /column %}}
