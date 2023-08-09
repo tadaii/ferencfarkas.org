@@ -30,7 +30,7 @@ menu:
 {{% column %}}
 
 
-{{< catalogue work-id="capriccio-all-ungherese" >}}
+{{< catalogue work-id="choreae-hungaricae" >}}
 
 {{% /column %}}
 {{% /row %}}
