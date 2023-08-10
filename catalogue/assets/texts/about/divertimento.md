@@ -20,14 +20,13 @@ menu:
 > Roman experience of its author. But with hindsight and comparing the "Divertimento" to the entire 
 > work of Ferenc Farkas, we can already find in it all the characteristics and originality specific to 
 > the artistic personality of the composer.
->
-> The first two movements of the piece have a Mediterranean resonance thanks to their cheerful 
-> lightness. The 3rd movement has many effects, as well as the "Intermezzo" preparing the final "Rondo".
->
+
 
 {{% /column %}}
 {{% column %}}
 
+> The first two movements of the piece have a Mediterranean resonance thanks to their cheerful 
+> lightness. The 3rd movement has many effects, as well as the "Intermezzo" preparing the final "Rondo".
 
 {{< catalogue work-id="divertimento" >}}
 
