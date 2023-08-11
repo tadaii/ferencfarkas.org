@@ -1,6 +1,12 @@
 - id: funerailles-1
   description: Extract 1
+  cd: p192
+  track: 6
 - id: funerailles-2
-  description: Extract 2
+  description: Extract 2  
+  cd: p192
+  track: 6
 - id: funerailles-3
   description: Extract 3
+  cd: p192
+  track: 6
