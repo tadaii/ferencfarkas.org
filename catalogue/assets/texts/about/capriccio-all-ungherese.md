@@ -21,15 +21,14 @@ menu:
 > following the classical forms of 
 > variation, rondo and sonata form 
 > without development. 
-> 
-> After several revisions the premiere took place in Budapest in 1939.
->
-> {{< author name="László Gombos" >}}
->
+
 
 {{% /column %}}
 {{% column %}}
 
+> After several revisions the premiere took place in Budapest in 1939.
+>
+> {{< author name="László Gombos" >}}
 
 {{< catalogue work-id="capriccio-all-ungherese" >}}
 

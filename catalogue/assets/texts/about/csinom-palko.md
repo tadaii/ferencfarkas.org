@@ -1,6 +1,5 @@
 ---
 title: Csinom Palko
-subTitle: Popular romantic opera in 3 acts
 date: 2020-03-20
 menu:
   main:
