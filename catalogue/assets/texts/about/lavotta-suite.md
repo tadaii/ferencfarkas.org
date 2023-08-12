@@ -27,7 +27,7 @@ menu:
 {{% /column %}}
 {{% column %}}
 
-> Lavotta Suite, in the form of a divertissement, was composed in 1951 for orchestra. In 1967, I 
+> "Lavotta Suite", in the form of a divertissement, was composed in 1951 for orchestra. In 1967, I 
 > adapted the work for wind quintet with the title “Lavottiana”. 
 >
 > {{< author name="Ferenc Farkas" >}}

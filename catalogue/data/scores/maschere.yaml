@@ -1,0 +1,10 @@
+- id: maschere
+  score_type: score
+  ref: P:\ARCHIVE FERENC FARKAS\WORKS\ORCHESTRA\Maschere\score-score.pdf
+  manuscript: true
+  published: false
+- id: maschere
+  score_type: material
+  ref: P:\ARCHIVE FERENC FARKAS\WORKS\ORCHESTRA\Maschere\score-material.pdf
+  manuscript: true
+  published: false
