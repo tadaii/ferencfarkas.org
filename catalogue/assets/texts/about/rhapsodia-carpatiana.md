@@ -28,8 +28,9 @@ menu:
 > lasting form. I used Rutenian folk themes from the Ukrainian Carpathians collected by Béla Bartok but 
 > not yet published.
 >
-The “Rhapsodia carpatiana” had its revival many years later under the direction of my son András, during radio recordings in Hungary, Bratislava and Lausanne”
-
+> The “Rhapsodia carpatiana” had its revival many years later under the direction of my son András, 
+> during radio recordings in Hungary, Bratislava and Lausanne”.
+> 
 > {{< author name="Ferenc Farkas" >}}
 
 {{< catalogue work-id="rhapsodia-carpatiana" >}}
