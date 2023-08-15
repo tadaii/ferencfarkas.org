@@ -1,6 +1,5 @@
 ---
 title: The sly students
-subTitle: Ballet in one act and 6 scenes based on a novel by Mór Jókai based adapted by Gusztáv Oláh
 date: 2020-03-21
 menu:
   main:
