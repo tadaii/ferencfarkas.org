@@ -17,7 +17,8 @@ menu:
 > the plane home I selected the music I wanted to arrange and even started composing it. 
 >
 > In my "Finnish folk dances" for string orchestra I used the wedding scene music from the film as well as other folk dances. I 
-> mixed together these short melodies which, according to tradition, are repeated many times, into Lied and Trios that I assembled in the manner of Western dances (minuet, gavotte…), the whole forming a Suite :
+> mixed together these short melodies which, according to tradition, are repeated many times, into Lied and Trios that I 
+> assembled in the manner of Western dances (minuet, gavotte…), the whole forming a Suite in 7 movements :
 
 
 {{% /column %}}
@@ -31,7 +32,7 @@ menu:
 > Haili : Herring from the Baltic Sea
 > Kumerus : Reverence
 >
-> The Finnish popular Dances were first performed in 1937 at the Saratoga Music Festival in New York State. 
+> The "Finnish popular dances" were first performed in 1937 at the Saratoga Music Festival in New York State. 
 >
 > {{< author name="Ferenc Farkas" >}}
 
