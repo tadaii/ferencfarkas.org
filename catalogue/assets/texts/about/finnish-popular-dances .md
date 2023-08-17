@@ -23,13 +23,13 @@ menu:
 {{% /column %}}
 {{% column %}}
 
-> 1. Askulan neliö : dance from Askola, practiced in the municipality of Askola, in the south-west of Finland. 
-> 2. Palpankilli : Song that tells the adventures of a young woman of little virtue who waits for the farm boys in Palpa 
-> 3. Melkutus : Name of a dance step
-> 4. Lintunen : Little bird
-> 5. Vanha piika : Old maid
-> 6. Haili : Herring from the Baltic Sea
-> 7. Kumerus : Reverence
+> Askulan neliö : dance from Askola, practiced in the municipality of Askola, in the south-west of Finland. 
+> Palpankilli : Song that tells the adventures of a young woman of little virtue who waits for the farm boys in Palpa 
+> Melkutus : Name of a dance step
+> Lintunen : Little bird
+> Vanha piika : Old maid
+> Haili : Herring from the Baltic Sea
+> Kumerus : Reverence
 >
 > The Finnish popular Dances were first performed in 1937 at the Saratoga Music Festival in New York State. 
 >
