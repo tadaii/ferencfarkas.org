@@ -1,4 +1,8 @@
 - id: partita-all-ungaresca-1
-  description: Saltarello
+  description: Passamezzo
+  cd: p173
+  track: 34
 - id: partita-all-ungaresca-2
-  description: Intermezzo
+  description: Saltarello
+  cd: p173
+  track: 35

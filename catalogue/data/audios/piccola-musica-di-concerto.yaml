@@ -1,6 +1,12 @@
 - id: piccola-musica-di-concerto-1
   description: Allegro
+  cd: p22
+  track: 12
 - id: piccola-musica-di-concerto-2
   description: Scherzo
+  cd: p22
+  track: 14
 - id: piccola-musica-di-concerto-3
   description: Allegro
+  cd: p22
+  track: 15
