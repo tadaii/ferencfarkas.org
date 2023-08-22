@@ -1,5 +1,5 @@
 ---
-title: Concertino for piano
+title: Concertino for piano or harpsichord
 date: 2023-08-22
 menu:
   main:
@@ -32,7 +32,7 @@ menu:
 {{% column %}}
 
 
-{{< catalogue work-id="Concertino for piano" >}}
+{{< catalogue work-id="concertino-for-piano-and-orchestra" >}}
 
 {{% /column %}}
 {{% /row %}}
