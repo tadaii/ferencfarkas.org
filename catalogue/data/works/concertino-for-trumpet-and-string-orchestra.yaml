@@ -3,7 +3,7 @@ composition_date: 1984
 date: 2021-01-24
 dedication: Szeged város felkérésére a IV. Szegedi Kamarazenekari Napok alkalmából
 duration: 900
-id: concertino-V-for-trumpet-and-string-orchestra
+id: concertino-for-trumpet-and-string-orchestra
 movements:
   - title: Allegro
   - title: Andante moderato
@@ -17,4 +17,4 @@ title:
   sort:
     - en
   translations:
-    en: Concertino V for trumpet and string orchestra
+    en: Concertino for trumpet and string orchestra
