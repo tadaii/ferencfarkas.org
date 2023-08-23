@@ -19,7 +19,11 @@ menu:
 > Allegro-Andante-Allegro - but also in spirit. It is called a concertino not just accidentally, but to 
 > suggest - with its miniature dimensions and the exceptional refinement of the parts – a marked 
 > diversion from the Romantic style.
-> 
+
+
+{{% /column %}}
+{{% column %}}
+
 > The first movement (Allegro) is built on the alternation of two musical features, the four 
 > recurrences of the fast beginning framing the slow parts. As against this asymmetrical rhythmic 
 > pattern, the second movement (Andante, Choral varié) suggests ordered regularity. The oboe plays a 
@@ -27,11 +31,6 @@ menu:
 > of the material of the beginning rounds off the composition.
 >
 > {{< author name="László Gombos" >}}
-> 
-
-{{% /column %}}
-{{% column %}}
-
 
 {{< catalogue work-id="concertino-for-oboe-and-string-orchestra" >}}
 
