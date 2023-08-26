@@ -9,11 +9,11 @@ publications:
     type: all
 rework_of: le-debat-du-cœur-et-du-corps
 texts:
-  hu: in Hungarian translated by Lőrinc Szabó
+  hu: in Hungarian
 title:
   main: hu
   original: hu
   sort:
     - hu
   translations:
-    hu: A sziv és a test vitája  
+    hu: A szív és a test vitája  
