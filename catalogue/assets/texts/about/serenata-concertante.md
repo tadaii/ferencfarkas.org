@@ -17,9 +17,7 @@ menu:
 >
 > Although using the dodecaphonic technique, the composer does not abandon in his work his melodic ideal nor his formal 
 > principles. 
->
 > {{< author name="Laszló Gombos" >}}
-> 
 
 {{% /column %}}
 {{% column %}}
