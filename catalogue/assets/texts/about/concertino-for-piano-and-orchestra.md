@@ -24,9 +24,7 @@ menu:
 > decided to transcribe my “Concertino for piano” for the harpsichord. The symphony orchestra that 
 > accompanied the original work was transformed into a string orchestra, more limpid and better suited 
 > to the solo instrument.
->
 > {{< author name="Ferenc Farkas" >}}
-> 
 
 {{% /column %}}
 {{% column %}}

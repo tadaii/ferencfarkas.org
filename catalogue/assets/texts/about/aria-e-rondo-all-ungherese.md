@@ -23,9 +23,7 @@ menu:
 > classical style to write this work. The second theme - quasi trio - has the same origin. I used "quasi-neutral" material for 
 > the different "couplets" of the Rondo, the most significant of which (meno mosso, bar 114) appears again at the end of the work 
 > as an "epilogue".
->
 > {{< author name="Ferenc Farkas" >}}
-> 
 
 {{% /column %}}
 {{% column %}}

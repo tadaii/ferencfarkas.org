@@ -23,9 +23,7 @@ menu:
 > In 1961, I orchestred these dances under the name "Choreae hungaricae" by adding other movements 
 > which I gathered according to their sources: 4 dances from the Vietorisz codex, 5 dances from the 
 >  Kajoni codex and 6 dances from the Löcse tablature book.
->
 > {{< author name="Ferenc Farkas" >}}
->
 
 {{% /column %}}
 {{% column %}}
