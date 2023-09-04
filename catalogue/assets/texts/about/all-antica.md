@@ -24,9 +24,7 @@ menu:
 > By trying to exploit the softness of the sound and the many technical possibilities of this ancient 
 > instrument, I realized  that my music had of itself adopted an antique style; thus, it was quite 
 > natural for me to give my new work the title “All’antica”.
->
 > {{< author name="Ferenc Farkas" >}}
-> 
 
 {{% /column %}}
 {{% column %}}
