@@ -20,16 +20,15 @@ menu:
 > 
 > In 1950, Zoltán Kodály wrote his famous “Kállai kettős” to the same melodies. Out of respect for the 
 > great master, I did not let this work play for decades.
-
+> 
+> On January 18, 1975, the “Dances from Kálló” were to be heard again when my son András conducted the 
+> work as well as "Zwei ungarische Tänze” and the "Dance from Transylvania" during a recording on the 
+> Hungarian Radio. 
+{{< author name="Ferenc Farkas" >}}
 
 {{% /column %}}
 {{% column %}}
 
-> On January 18, 1975, the “Dances from Kálló” were to be heard again when my son András conducted the 
-> work as well as "Zwei ungarische Tänze” and the "Dance from Transylvania" during a recording on the 
-> Hungarian Radio. 
-> 
-{{< author name="Ferenc Farkas" >}}
 
 {{< catalogue work-id="dances-from-kallo" >}}
 
