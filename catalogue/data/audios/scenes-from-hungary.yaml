@@ -1,4 +1,8 @@
 - id: scenes-from-hungary-1
   description: Trinkspruch / Toast / Pohárköszöntő
+  cd: p75
+  track: 1
 - id: scenes-from-hungary-2
   description: Der Hirt / The Shepherd / A pásztor
+  cd: p75
+  track: 4
