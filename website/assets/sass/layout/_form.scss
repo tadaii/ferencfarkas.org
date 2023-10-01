@@ -144,4 +144,9 @@ input[type="checkbox"] {
     color: $c-black;
     background-color: $c-primary;
   }
+
+  &.small {
+    padding: .5rem 1rem;
+    font-size: 0.9rem;
+  }
 }

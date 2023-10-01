@@ -5,7 +5,7 @@ section {
   justify-content: center;
   margin-top: -1px;
   padding: $s-section-v-padding 0 calc(#{$s-section-v-padding} + 2rem);
-  z-index: 0;
+  z-index: -1;
   will-change: color;
   transition: color .2s linear;
 
