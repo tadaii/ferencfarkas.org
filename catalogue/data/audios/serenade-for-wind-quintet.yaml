@@ -1,4 +1,8 @@
 - id: serenade-for-wind-quintet-1
   description: Allegro
+  cd: p130
+  track: 1
 - id: serenade-for-wind-quintet-2
   description: Andante espressivo
+  cd: p130
+  track: 2
