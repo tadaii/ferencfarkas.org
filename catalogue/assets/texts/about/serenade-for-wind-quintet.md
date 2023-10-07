@@ -20,6 +20,7 @@ menu:
 > by an “Andante espressivo”. Here a pleasant oboe melody soars above the clarinet accompaniment. 
 > In the third movement, the “Saltarello”, I have made use of a rhythm I am particularly fond of: 
 > 9/8 quasi “tarantella”. At a particular moment a very high and virtuoso horn solo can be heard. 
+> 
 > {{< author name="Ferenc Farkas" >}}
 
 {{% /column %}}
