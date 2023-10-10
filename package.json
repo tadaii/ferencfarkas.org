@@ -8,6 +8,7 @@
     "dev": "run-p webapp:serve website:serve",
     "prebuild": "node ./scripts/prebuild-web",
     "release": "node ./scripts/release",
+    "scores:diff": "node ./scripts/scores diff",
     "webapp:serve": "cd webapp && npm run dev",
     "webapp:build": "cd webapp && npm run build && cd ..",
     "website:serve": "npm run prebuild -- dev && cd ./website && hugo server --disableFastRender",
