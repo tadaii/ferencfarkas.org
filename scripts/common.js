@@ -1,4 +1,6 @@
 const format = require('date-fns/format')
+const { readFileSync } = require('fs')
+const { resolve } = require('path')
 const fs = require('fs-extra')
 const git = require('isomorphic-git')
 const { exec } = require('shelljs')
@@ -175,4 +177,12 @@ const getLastUpdates = async function () {
   return { lastUpdates, lastUpdatesSummary }
 }
 
-module.exports = { bumpVersion, getLatestTagCommit, getLastUpdates }
+const getEnv = () => readFileSync(resolve('.env'), 'utf8')
+  .split('\n')
+  .reduce((acc, line) => {
+    const [key, value] = line.split('=')
+    acc[key] = value
+    return acc
+  }, {})
+
+module.exports = { bumpVersion, getLatestTagCommit, getLastUpdates, getEnv }

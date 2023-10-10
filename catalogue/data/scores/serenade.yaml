@@ -1,11 +1,11 @@
 
 - id: serenade
   score_type: score
-  ref: P:\ARCHIVE FERENC FARKAS\WORKS\CHAMBER MUSIC\Serenade for recorder and 2 violins\score-score.pdf
+  ref: /CHAMBER MUSIC/Serenade for recorder and 2 violins/score/score.pdf
   manuscript: false
   published: false
 - id: serenade
   score_type: material
-  ref: P:\ARCHIVE FERENC FARKAS\WORKS\CHAMBER MUSIC\Serenade for recorder and 2 violins\score-material.pdf
+  ref: /CHAMBER MUSIC/Serenade for recorder and 2 violins/score/material.pdf
   manuscript: false
   published: false
