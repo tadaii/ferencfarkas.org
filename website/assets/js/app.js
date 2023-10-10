@@ -381,7 +381,7 @@
 
       const announcement = document.querySelector('.announcement')
 
-      if (stored.hideAnnouncement) {
+      if (!announcement || stored.hideAnnouncement) {
         return
       }
 
