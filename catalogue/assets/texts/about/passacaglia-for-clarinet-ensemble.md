@@ -22,8 +22,8 @@ menu:
 > falls gradually to a gently end. 
 >
 > My "Passacaglia" comes back again in "Intrada, Passacaglia, Saltarello" for wind ensemble, that I 
-> dedicated in 1982 to Philharmonistes de Châteauroux and to his conductor János Kömives.
->
+> dedicated in 1982 to Philharmonistes de Châteauroux and to his conductor János 
+> Kömives.
 > {{< author name="Ferenc Farkas" >}}
 > 
 
