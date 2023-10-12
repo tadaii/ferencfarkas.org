@@ -8,6 +8,8 @@
     "dev": "run-p webapp:serve website:serve",
     "prebuild": "node ./scripts/prebuild-web",
     "release": "node ./scripts/release",
+    "release:check": "node ./scripts/release check",
+    "scores": "node ./scripts/scores",
     "scores:diff": "node ./scripts/scores diff",
     "webapp:serve": "cd webapp && npm run dev",
     "webapp:build": "cd webapp && npm run build && cd ..",

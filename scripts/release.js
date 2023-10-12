@@ -5,7 +5,27 @@ const http = require('isomorphic-git/http/node')
 
 const { bumpVersion, getLatestTagCommit, getLastUpdates } = require('./common')
 
-;(async () => {
+const check = async () => {
+  const dir = '.'
+  const masterBranch = 'master'
+  const previewBranch = 'preview'
+
+  const statusMatrix = await git.statusMatrix({ fs, dir })
+  const changes = statusMatrix.filter(
+    f => !(f[1] === 1 && f[2] === 1 && f[3] === 1)
+  )
+  const isClean = changes.length === 0
+
+  if (!isClean) {
+    console.error(
+      '> Branch is not clean. Please commit or stash your changes before running this script:'
+    )
+    console.error(changes)
+    return
+  }
+}
+
+const release = async () => {
   const dir = '.'
   const masterBranch = 'master'
   const previewBranch = 'preview'
@@ -131,4 +151,10 @@ const { bumpVersion, getLatestTagCommit, getLastUpdates } = require('./common')
   // Push tag to origin
   // Push to origin with os client to use system credentials
   exec(`git push origin ${release}`)
-})()
+}
+
+if (process.argv[2] === 'check') {
+  check()
+} else {
+  release()
+}
