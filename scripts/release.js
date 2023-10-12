@@ -5,27 +5,7 @@ const http = require('isomorphic-git/http/node')
 
 const { bumpVersion, getLatestTagCommit, getLastUpdates } = require('./common')
 
-const check = async () => {
-  const dir = '.'
-  const masterBranch = 'master'
-  const previewBranch = 'preview'
-
-  const statusMatrix = await git.statusMatrix({ fs, dir })
-  const changes = statusMatrix.filter(
-    f => !(f[1] === 1 && f[2] === 1 && f[3] === 1)
-  )
-  const isClean = changes.length === 0
-
-  if (!isClean) {
-    console.error(
-      '> Branch is not clean. Please commit or stash your changes before running this script:'
-    )
-    console.error(changes)
-    return
-  }
-}
-
-const release = async () => {
+const init = async () => {
   const dir = '.'
   const masterBranch = 'master'
   const previewBranch = 'preview'
@@ -109,7 +89,15 @@ const release = async () => {
   // Back to preview branch
   ref = previewBranch
   await git.checkout({ fs, dir, ref })
+}
 
+const check = async () => {
+  await init()
+}
+
+const release = async () => {
+  await init()
+  
   // Check content changes since last release
   const { lastUpdatesSummary } = await getLastUpdates()
   const countContentChanges = Object.entries(lastUpdatesSummary).reduce(
