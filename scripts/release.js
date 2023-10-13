@@ -1,13 +1,7 @@
-const { exec } = require('shelljs')
-const { bumpVersion } = require('./common')
+const { bumpVersion, git } = require('./common')
 
 const masterBranch = 'master-test'
 const previewBranch = 'preview'
-
-const git = cmd => {
-  const output = exec(`git ${cmd}`, { silent: true })
-  return output.stdout.trim()
-}
 
 const init = async () => {
   const changes = git('diff --name-only').split('\n').filter(v => v)

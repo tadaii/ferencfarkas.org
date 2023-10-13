@@ -30,4 +30,9 @@ const getEnv = () => readFileSync(resolve('.env'), 'utf8')
     return acc
   }, {})
 
-module.exports = { bumpVersion, getEnv }
+const git = cmd => {
+  const output = exec(`git ${cmd}`, { silent: true })
+  return output.stdout.trim()
+}
+
+module.exports = { bumpVersion, getEnv, git }
