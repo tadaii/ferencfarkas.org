@@ -10,7 +10,7 @@ const git = cmd => {
 }
 
 const init = async () => {
-  const changes = git('diff --name-only').split('\n')
+  const changes = git('diff --name-only').split('\n').filter(v => v)
 
   if (changes.length) {
     console.error(
