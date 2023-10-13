@@ -28,7 +28,7 @@ const getEnv = () => readFileSync(resolve('.env'), 'utf8')
   .split('\n')
   .reduce((acc, line) => {
     const [key, value] = line.split('=')
-    acc[key] = value
+    acc[key] = value.trim()
     return acc
   }, {})
 
