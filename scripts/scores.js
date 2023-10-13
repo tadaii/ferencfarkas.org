@@ -127,9 +127,9 @@ const sync = async () => {
     const file = files[i]
     console.log(`syncing ${file}... (${i + 1}/${files.length})`)
     const src = join(env.SCORES_ROOT, file)
-    const dst = join(env.SCORES_REMOTE_DEST, file)
+    const dst = join(env.SCORES_REMOTE_DEST, file).replaceAll(sep, '/')
     const remote = `${env.REMOTE_USER}@${env.REMOTE_HOST}`
-    exec(`scp "${src}" ${remote}:"${dst}"`)
+    exec(`scp "${src}" ${remote}:"'${dst}'"`)
   }
 }
 
