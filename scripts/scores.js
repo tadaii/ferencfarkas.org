@@ -129,7 +129,12 @@ const sync = async () => {
     const src = join(env.SCORES_ROOT, file)
     const dst = join(env.SCORES_REMOTE_DEST, file).replaceAll(sep, '/')
     const remote = `${env.REMOTE_USER}@${env.REMOTE_HOST}`
-    exec(`scp "${src}" ${remote}:"'${dst}'"`)
+    
+    if (process.platform === 'win32') {
+      exec(`scp "${src}" ${remote}:"'${dst.replaceAll("'", )}'"`)
+    } else {
+      exec(`scp "${src}" ${remote}:"${dst}"`)
+    }
   }
 }
 
