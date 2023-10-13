@@ -59,7 +59,9 @@ const check = async () => {
     return
   }
 
-  const files = git(`diff --name-only ${masterBranch}..${previewBranch}`).split('\n')
+  const files = git(`diff --name-only ${masterBranch}..${previewBranch}`)
+    .split('\n')
+    .filter(v => v)
 
   const commits = git(`log ${masterBranch}..${previewBranch}`)
     .split('commit')
