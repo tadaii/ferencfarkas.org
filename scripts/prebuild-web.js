@@ -10,7 +10,6 @@ require('lunr-languages/lunr.fr')(lunr)
 require('lunr-languages/lunr.es')(lunr)
 require('lunr-languages/lunr.it')(lunr)
 const fm = require('front-matter')
-const { getLastUpdates } = require('./common')
 
 const root = resolve(__dirname, '..')
 const src = resolve(root, 'catalogue')
@@ -261,10 +260,6 @@ async function run() {
       join(dstAboutTheWorkDir, file)
     )
   }
-
-  // Get and write last updates data
-  // const { lastUpdates } = await getLastUpdates()
-  // await fs.writeFile(dstLastUpdates, JSON.stringify(lastUpdates), 'utf8')
 }
 
 run()
