@@ -1,6 +1,6 @@
 const { bumpVersion, git } = require('./common')
 
-const masterBranch = 'master-test'
+const masterBranch = 'master'
 const previewBranch = 'preview'
 
 const init = async () => {
