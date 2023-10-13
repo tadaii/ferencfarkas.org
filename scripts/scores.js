@@ -107,11 +107,17 @@ const getState = async () => {
   return refs
 }
 
+const sync = async () => {
+  console.log('syncing....')
+}
+
 const run = async (command) => {
   switch (command) {
     case 'diff':
       console.log(JSON.stringify(await getState()))
       break
+    default:
+      await sync()
   }
 }
 
