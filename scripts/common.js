@@ -3,7 +3,7 @@ const { resolve } = require('path')
 const { exec } = require('shelljs')
 
 const bumpVersion = async (version, level = 'patch') => {
-  exec(`npm version ${level} --tag-version-prefix=''`)
+  exec(`npm version ${level} --tag-version-prefix='' --silent`)
   return version
     .split('.')
     .map((n, i) => {
