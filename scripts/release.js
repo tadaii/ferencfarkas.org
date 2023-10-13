@@ -1,7 +1,7 @@
 const { exec } = require('shelljs')
 const { bumpVersion } = require('./common')
 
-const masterBranch = 'master'
+const masterBranch = 'master-test'
 const previewBranch = 'preview'
 
 const git = cmd => {
