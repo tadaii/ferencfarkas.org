@@ -112,6 +112,8 @@ const release = async () => {
 
   // Back to preview branch
   git(`checkout ${previewBranch}`)
+
+  console.log(`Version ${release} released!`)
 }
 
 if (process.argv[2] === 'check') {
