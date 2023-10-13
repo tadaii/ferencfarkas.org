@@ -1,2 +1,4 @@
 - id: philharmonic-overture
   description: Extract
+  cd: a111
+  track: 4

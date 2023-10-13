@@ -3,7 +3,7 @@ composition_date: 1983
 date: 2021-01-24
 dedication: to Jean-Paul Goy
 duration: 780
-id: concertino-IV-for-oboe-and-string-orchestra
+id: concertino-for-oboe-and-string-orchestra
 movements:
   - title: Allegro
   - title: Choral varié
@@ -17,4 +17,4 @@ title:
   sort:
     - en
   translations:
-    en: Concertino IV for oboe and string orchestra
+    en: Concertino for oboe and string orchestra

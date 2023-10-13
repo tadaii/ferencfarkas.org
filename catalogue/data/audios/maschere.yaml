@@ -1,4 +1,8 @@
 - id: maschere-1
   description: Il Capitano
+  cd: p172
+  track: 14
 - id: maschere-2
   description: Pantalone
+  cd: p172
+  track: 15

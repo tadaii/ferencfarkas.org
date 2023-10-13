@@ -1,0 +1,10 @@
+- id: feast-from-esztergom
+  score_type: score
+  ref: /CONCERTO/Feast from Esztergom/score/score.pdf
+  manuscript: true
+  published: false
+- id: feast-from-esztergom
+  score_type: material
+  ref: /CONCERTO/Feast from Esztergom/score/material.pdf
+  manuscript: true
+  published: false

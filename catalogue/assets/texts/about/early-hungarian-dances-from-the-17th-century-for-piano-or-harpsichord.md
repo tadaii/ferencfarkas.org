@@ -1,6 +1,5 @@
 ---
 title: Early Hungarian dances from the 17th century
-subTitle: Suite of dances for piano or harpsichord
 date: 2020-03-21
 menu:
   main:

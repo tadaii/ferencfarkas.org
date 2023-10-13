@@ -1,6 +1,5 @@
 ---
 title: The magic cupboard
-subTitle: Opera in 2 acts based on a story from "Thausand-and-one nights"
 date: 2021-13-20
 menu:
   main:

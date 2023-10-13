@@ -1,2 +1,4 @@
 - id: echo-des-carpates
   description: Extract
+  cd: p56
+  track: 8

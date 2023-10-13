@@ -1,6 +1,12 @@
 - id: planctus-et-consolationes-1
   description: Introduzione
+  cd: p192
+  track: 7
 - id: planctus-et-consolationes-2
   description: Marcia funebre I
+  cd: p192
+  track: 8
 - id: planctus-et-consolationes-3
   description: Consolatio I
+  cd: p192
+  track: 9

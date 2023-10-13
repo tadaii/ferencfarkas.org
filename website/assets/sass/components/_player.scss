@@ -1,6 +1,8 @@
 #player {
   height: 0;
   background-color: $c-black;
+  position: relative;
+  z-index: 2;
 
   &.open {
     height: 10rem;

@@ -12,7 +12,7 @@ menu:
 {{% row %}}
 {{% column %}}
 
-> My piece entitled Piccola musica di concerto aims to revive the practice of
+> My piece entitled "Piccola musica di concerto" aims to revive the practice of
 > playing music at home as it was customary in Haydn's time.
 >
 > It is a relatively easy work of lucid structure and simple shaping which,
@@ -26,8 +26,8 @@ menu:
 {{% /column %}}
 {{% column %}}
 
-> The first movement is a cheerful Allegro in sonata form. It is followed by
-> a short slow Andante and a graceful Scherzo with a pizzicato trio.
+> The first movement is a cheerful "Allegro" in sonata form. It is followed by
+> a short slow "Andante" and a graceful "Scherzo" with a pizzicato "trio".
 > The final movement is a fast rondo written in the so-called "Bulgarian rhythm". 
 > {{< author name="Ferenc Farkas" >}}
 

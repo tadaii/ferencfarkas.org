@@ -1,0 +1,10 @@
+- id: overture-to-a-comedy
+  score_type: score
+  ref: /ORCHESTRA/Overture to a comedy/score/score.pdf
+  manuscript: true
+  published: false
+- id: overture-to-a-comedy
+  score_type: material
+  ref: /ORCHESTRA/Overture to a comedy/score/material.pdf
+  manuscript: true
+  published: false

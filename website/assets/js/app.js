@@ -1,6 +1,8 @@
 ;(function () {
   'use strict'
 
+  const LOCALSTORAGE_KEY = 'ferencfarkas.org'
+
   const header = {
     init() {
       const ham = document.querySelector('.nav--hamburger')
@@ -361,8 +363,6 @@
       const div = wrapper.scrollLeft / wrapper.offsetWidth
       const itemIndex = Math.floor(Math.round(div * 10) / 10 - 0.5) + 1
 
-      console.log(itemIndex)
-
       dots.forEach((dot, index) => {
         dot.classList.remove('active')
 
@@ -373,6 +373,30 @@
     },
   }
 
+  const announcement = {
+    init() {
+      const stored = window.localStorage
+        ? JSON.parse(window.localStorage.getItem(LOCALSTORAGE_KEY)) || {}
+        : {}
+
+      const announcement = document.querySelector('.announcement')
+
+      if (!announcement || stored.hideAnnouncement) {
+        return
+      }
+
+      announcement.classList.add('show')
+
+      const button = announcement.querySelector('.announcement--close')
+      
+      button.addEventListener('click', event => {
+        announcement.classList.remove('show')
+        stored.hideAnnouncement = true
+        window.localStorage.setItem(LOCALSTORAGE_KEY, JSON.stringify(stored))
+      })
+    }
+  }
+
   header.init()
   footer.init()
   download.init()
@@ -380,4 +404,5 @@
   slider.init()
   contactForm.init()
   carousel.init()
+  announcement.init()
 })(window)

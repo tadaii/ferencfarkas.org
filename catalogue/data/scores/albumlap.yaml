@@ -1,0 +1,5 @@
+- id: albumlap
+  score_type: score
+  ref: /CHAMBER MUSIC/Albumlap/score/score.pdf
+  manuscript: true
+  published: false

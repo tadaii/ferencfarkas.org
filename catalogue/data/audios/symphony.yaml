@@ -1,8 +1,16 @@
 - id: symphony-1
   description: Overture
+  cd: p192
+  track: 1
 - id: symphony-2
   description: Elegia
+  cd: p192
+  track: 2
 - id: symphony-3
   description: Scherzo sinfonico
+  cd: p201
+  track: 3
 - id: symphony-4
   description: Finale
+  cd: p201
+  track: 4

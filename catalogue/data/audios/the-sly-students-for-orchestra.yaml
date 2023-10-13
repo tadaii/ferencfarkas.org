@@ -1,6 +1,12 @@
 - id: the-sly-students-for-orchestra-1
   description: Students’dance
+  cd: p22
+  track: 3
 - id: the-sly-students-for-orchestra-2
   description: Gipsy-music
+  cd: p22
+  track: 4
 - id: the-sly-students-for-orchestra-3
   description: Drunken-dance
+  cd: p22
+  track: 6

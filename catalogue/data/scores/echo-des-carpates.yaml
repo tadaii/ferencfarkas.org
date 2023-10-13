@@ -1,0 +1,5 @@
+- id: echo-des-carpates
+  score_type: score
+  ref: /CHAMBER MUSIC/Echo des Carpates/score/score.pdf
+  manuscript: true
+  published: false

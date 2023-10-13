@@ -1,4 +1,8 @@
 - id: divertimento-1
   description: Allegro leggiero
+  cd: p172
+  track: 1
 - id: divertimento-2
   description: Allegro
+  cd: p172
+  track: 5

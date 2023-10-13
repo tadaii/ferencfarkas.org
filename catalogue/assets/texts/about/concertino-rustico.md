@@ -13,7 +13,7 @@ menu:
 {{% column %}}
 
 > ...In 1976, at the request of my friend the hornist József Molnar, 
-> I wrote Petite suite alpestre for Alphorn solo. My Concertino rustico 
+> I wrote a "Petite suite alpestre" for Alphorn solo. My "Concertino rustico" 
 > for Alphorn and string orchestra followed in 1977.
 >
 > Using the limited possibilities of the instrument, the three movements 
@@ -23,9 +23,7 @@ menu:
 > the last one a rondo.
 >
 > The “Concertino rustico” is played in many countries, in various ways.
->
 > {{< author name="Ferenc Farkas" >}}
->
 
 {{% /column %}}
 {{% column %}}
