@@ -80,7 +80,7 @@ const release = async () => {
     return
   }
 
-  const changes = git('diff --name-only').split('\n').filter(v => v)
+  const changes = git(`diff --name-only ${masterBranch}..${previewBranch}`).split('\n')
   
   if (changes.length === 0) {
     console.error('No content changes since last release. Exiting')
