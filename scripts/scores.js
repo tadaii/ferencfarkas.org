@@ -1,8 +1,8 @@
 const { readFile, readdir, stat } = require('fs/promises')
-const { join } = require('path')
+const { dirname, join, sep } = require('path')
+const { exec } = require('shelljs')
 const yaml = require('yaml')
-const { Client } = require('ssh2')
-const { getEnv } = require('./common')
+const { getEnv, sshExec } = require('./common')
 
 const env = getEnv()
 const STATE = {
@@ -46,37 +46,19 @@ const getLocalRefs = async () => {
 const getRemoteRefs = async () => {
   return new Promise(async (resolve, reject) => {
     const refs = []
-    const conn = new Client()
-    const privateKey = await readFile(env.REMOTE_KEY)
-
-    conn.on('ready', () => {
-      const cmd = `find ${env.SCORES_REMOTE_DEST} -type f -printf '%p %s\n'`
-      conn.exec(cmd, (err, stream) => {
-        if (err) {
-          reject(err)
-        }
-
-        stream.on('close', (code, signal) => {
-          conn.end()
-          resolve(refs)
-        }).on('data', (data) => {
-          for (const line of data.toString().split('\n').filter(l => l)) {
-            const [path, size] = line.split(' ')
-            refs.push({
-              path: path.replace(env.SCORES_REMOTE_DEST, ''),
-              size: parseInt(size)
-            })
-          }
-        }).stderr.on('data', (data) => {
-          reject(err)
+    const cmd = `find ${env.SCORES_REMOTE_DEST} -type f -printf '%p\t%s\n'`
+    const onData = data => {
+      for (const line of data.toString().split('\n').filter(l => l)) {
+        const [path, size] = line.split('\t')
+        refs.push({
+          path: path.replace(env.SCORES_REMOTE_DEST, ''),
+          size: parseInt(size)
         })
-      })
-    }).connect({
-      host: env.REMOTE_HOST,
-      port: env.REMOTE_PORT,
-      username: env.REMOTE_USER,
-      privateKey
-    })
+      }
+    }
+    const onError = data => reject(data)
+    const onDone = () => resolve(refs)
+    await sshExec(cmd, onData, onError, onDone)
   })
 }
 
@@ -86,14 +68,13 @@ const getState = async () => {
   const refs = []
 
   for (const localRef of localRefs) {
-    let ref = localRef
-    const remoteRef = remoteRefs.find(ref => ref.path === localRefs.path)
+    const remoteRef = remoteRefs.find(ref => ref.path === localRef.path)
     
     if (remoteRef) {
-      ref.state = remoteRef.size === localRef.size ? STATE.SYNCED : STATE.MODIFIED
+      localRef.state = remoteRef.size === localRef.size ? STATE.SYNCED : STATE.MODIFIED
     }
 
-    refs.push(ref)
+    refs.push(localRef)
   }
 
   for (const remoteRef of remoteRefs) {
@@ -108,7 +89,47 @@ const getState = async () => {
 }
 
 const sync = async () => {
-  console.log('syncing....')
+  const dirs = []
+  const files = []
+  const removals = []
+
+  for (const file of await getState()) {
+    if ([STATE.LOCAL_ONLY, STATE.MODIFIED].includes(file.state)) {
+      files.push(file.path)
+      
+      const dir = dirname(file.path)
+      if (!dirs.includes(dir)) {
+        dirs.push(dir)
+      }
+    }
+
+    if (STATE.REMOTE_ONLY === file.state) {
+      removals.push(file.path)
+    }
+  }
+
+  const dirsList = dirs
+    .map(dir => `"${env.SCORES_REMOTE_DEST}${dir.replaceAll(sep, '/')}"`)
+    .join(' ')
+
+  const cmd = `mkdir -p ${dirsList}`
+  const onData = () => {}
+  const onError = data => { console.error(data) }
+  const onDone = () => { console.log('synced dirs!') }
+
+  try {
+    await sshExec(cmd, onData, onError, onDone)
+  } catch (err) {
+    console.error(err)
+  }
+
+  for (const file of files) {
+    console.log(`syncing ${file}...`)
+    const src = join(env.SCORES_ROOT, file)
+    const dst = join(env.SCORES_REMOTE_DEST, file)
+    const remote = `${env.REMOTE_USER}@${env.REMOTE_HOST}`
+    exec(`scp "${src}" ${remote}:"${dst}"`)
+  }
 }
 
 const run = async (command) => {

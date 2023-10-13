@@ -1,6 +1,8 @@
 const { readFileSync } = require('fs')
+const { readFile } = require('fs/promises')
 const { resolve } = require('path')
 const { exec } = require('shelljs')
+const { Client } = require('ssh2')
 
 const bumpVersion = async (version, level = 'patch') => {
   exec(`npm version ${level} --tag-version-prefix=''`, { silent: true })
@@ -35,4 +37,34 @@ const git = cmd => {
   return output.stdout.trim()
 }
 
-module.exports = { bumpVersion, getEnv, git }
+const sshExec = async (cmd, onData, onError, onDone) => {
+  return new Promise(async (resolve, reject) => {
+    const env = getEnv()
+    const conn = new Client()
+    const privateKey = await readFile(env.REMOTE_KEY)
+
+    conn.on('ready', () => {
+      conn.exec(cmd, (err, stream) => {
+        if (err) {
+          reject(err)
+        }
+
+        stream
+          .on('data', onData)
+          .stderr.on('data', onError)
+          .on('close', (code, signal) => {
+            conn.end()
+            onDone(code, signal)
+            resolve()
+          })
+      })
+    }).connect({
+      host: env.REMOTE_HOST,
+      port: env.REMOTE_PORT,
+      username: env.REMOTE_USER,
+      privateKey
+    })
+  })
+}
+
+module.exports = { bumpVersion, getEnv, git, sshExec }
