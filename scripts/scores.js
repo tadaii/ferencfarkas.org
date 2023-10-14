@@ -45,19 +45,18 @@ const getLocalRefs = async () => {
 
 const getRemoteRefs = async () => {
   return new Promise(async (resolve, reject) => {
+    let output = ''
     const refs = []
-    const cmd = `find ${env.SCORES_REMOTE_DEST} -type f -printf '%p\t%s\n'`
-    const onData = data => {
-      for (const line of data.toString().split('\n').filter(l => l)) {
-        const [path, size] = line.split('\t')
-        refs.push({
-          path: path.replace(env.SCORES_REMOTE_DEST, ''),
-          size: parseInt(size)
-        })
-      }
-    }
+    const cmd = `find ${env.SCORES_REMOTE_DEST} -type f -printf '/%P\t%s\n'`
+    const onData = data => output += data
     const onError = data => reject(data)
-    const onDone = () => resolve(refs)
+    const onDone = () => {
+      for (const line of output.toString().split('\n').filter(l => l)) {
+        const [path, size] = line.split('\t')
+        refs.push({ path, size: parseInt(size) })
+      }
+      resolve(refs)
+    }
     await sshExec(cmd, onData, onError, onDone)
   })
 }
@@ -127,9 +126,14 @@ const sync = async () => {
     const file = files[i]
     console.log(`syncing ${file}... (${i + 1}/${files.length})`)
     const src = join(env.SCORES_ROOT, file)
-    const dst = join(env.SCORES_REMOTE_DEST, file)
+    const dst = join(env.SCORES_REMOTE_DEST, file).replaceAll(sep, '/')
     const remote = `${env.REMOTE_USER}@${env.REMOTE_HOST}`
-    exec(`scp "${src}" ${remote}:"${dst}"`)
+    
+    if (process.platform === 'win32') {
+      exec(`scp "${src}" ${remote}:"'${dst.replaceAll("'", "\\'")}'"`)
+    } else {
+      exec(`scp "${src}" ${remote}:"${dst}"`)
+    }
   }
 }
 

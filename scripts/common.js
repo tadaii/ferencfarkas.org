@@ -28,12 +28,17 @@ const getEnv = () => readFileSync(resolve('.env'), 'utf8')
   .split('\n')
   .reduce((acc, line) => {
     const [key, value] = line.split('=')
-    acc[key] = value
+    acc[key] = value.trim()
     return acc
   }, {})
 
 const git = cmd => {
   const output = exec(`git ${cmd}`, { silent: true })
+  
+  if (output.code > 0) {
+    throw new Error(output.stderr.trim())
+  }
+
   return output.stdout.trim()
 }
 
