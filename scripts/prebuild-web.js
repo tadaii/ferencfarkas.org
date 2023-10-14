@@ -1,5 +1,5 @@
 const { join, resolve } = require('path')
-const fs = require('fs-extra')
+const fs = require('fs/promises')
 const yaml = require('yaml')
 const lunr = require('lunr')
 require('lunr-languages/lunr.stemmer.support')(lunr)
@@ -16,7 +16,6 @@ const src = resolve(root, 'catalogue')
 const dstAudioList = resolve(root, 'website/static/_catalogue/a.json')
 const dstCatalogue = resolve(root, 'website/static/_catalogue/c.json')
 const dstWorks = resolve(root, 'website/data/works.json')
-const dstLastUpdates = resolve(root, 'website/data/lastUpdates.json')
 const dstSearchIdx = resolve(root, 'website/static/_catalogue/i.json')
 const dstI18nDir = resolve(root, 'website/static/_catalogue/i18n')
 const dstAudioDir = resolve(root, 'website/static/audio')
@@ -49,10 +48,20 @@ const getWorks = async ({ dir, genres, categories }) => {
 
     work.genre = categories[work.category].genre
     const storyFile = `./catalogue/assets/texts/about/${work.id}.md`
-    const hasStory = await fs.pathExists(storyFile)
+    let hasStory = false
+    
+    try {
+      await fs.access(storyFile)
+      hasStory = true
+    } catch(_) {}
 
     const audioFile = `./catalogue/data/audios/${work.id}.yaml`
-    const hasAudio = await fs.pathExists(audioFile)
+    let hasAudio = false
+    
+    try {
+      await fs.access(audioFile)
+      hasAudio = true
+    } catch(_) {}
 
     if (hasAudio) {
       const audios = await yaml2json(audioFile)
@@ -220,7 +229,7 @@ async function run() {
   await fs.writeFile(dstWorks, JSON.stringify(works), 'utf8')
 
   // Copy i18n files.
-  await fs.mkdirp(dstI18nDir)
+  await fs.mkdir(dstI18nDir, { recursive: true })
   const srcI18n = join(src, 'i18n')
   const i18nFiles = await fs.readdir(srcI18n)
 
@@ -233,7 +242,7 @@ async function run() {
   }
 
   // Copy audio files.
-  await fs.mkdirp(dstAudioDir)
+  await fs.mkdir(dstAudioDir, { recursive: true })
   const srcAudioDir = join(src, 'assets', 'audios')
   const audioFiles = await fs.readdir(srcAudioDir)
 
@@ -246,7 +255,7 @@ async function run() {
   }
 
   // Copy "about the work" (md) files
-  await fs.mkdirp(dstAboutTheWorkDir)
+  await fs.mkdir(dstAboutTheWorkDir, { recursive: true })
   const srcAboutTheWork = join(src, 'assets', 'texts', 'about')
   const aboutTheWorkFiles = await fs.readdir(srcAboutTheWork)
 
