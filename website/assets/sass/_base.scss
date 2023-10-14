@@ -235,10 +235,10 @@ article > .container {
   border-radius: .8rem;
   background-color: $c-secondary;
   transform: scale(1);
-  transition: transform 0.1s ease-in-out;
+  transition: transform 0.05s ease-in-out;
 
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     box-shadow: 0 0 0.2rem rgba(0,0,0, 0.2);
   }
 

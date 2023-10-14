@@ -104,8 +104,11 @@
             </button>
           {/each}
         </div>
-        <button>Scores</button>
       {/if}
+      <span class="spacer"></span>
+      <button class="work--scores">
+        Manuscript
+      </button>
     </div>
   {/if}
 
