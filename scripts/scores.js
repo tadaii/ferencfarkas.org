@@ -130,7 +130,7 @@ const sync = async () => {
     const remote = `${env.REMOTE_USER}@${env.REMOTE_HOST}`
     
     if (process.platform === 'win32') {
-      exec(`scp "${src}" ${remote}:"'${dst.replaceAll("'", )}'"`)
+      exec(`scp "${src}" ${remote}:"'${dst.replaceAll("'", "\\'")}'"`)
     } else {
       exec(`scp "${src}" ${remote}:"${dst}"`)
     }
