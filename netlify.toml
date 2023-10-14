@@ -9,7 +9,7 @@
 
 [context.production.environment]
     HUGO_ENV = "production"
-    NODE_ENV = "production"
+    NODE_ENV = "development"
 
 [context.deploy-preview]
     command = "npm run prebuild -- dev && npm run webapp:build && cd ./website && hugo -b $DEPLOY_PRIME_URL"
