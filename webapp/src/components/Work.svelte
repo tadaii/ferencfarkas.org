@@ -89,19 +89,22 @@
   {/if}
 
   <!-- Multimedia -->
-  {#if work.audios}
+  {#if work.audios || true}
     <div class="work--multimedia">
       {#if work.audios}
-        {#each work.audios as audio}
-          <button
-            class="play small"
-            data-audio={audio.id}
-            data-title={audio.description}
-          >
-            <div class="play--button" />
-            <h5>{audio.description}</h5>
-          </button>
-        {/each}
+        <div class="work--audios">
+          {#each work.audios as audio}
+            <button
+              class="play small"
+              data-audio={audio.id}
+              data-title={audio.description}
+            >
+              <div class="play--button" />
+              <h5>{audio.description}</h5>
+            </button>
+          {/each}
+        </div>
+        <button>Scores</button>
       {/if}
     </div>
   {/if}
