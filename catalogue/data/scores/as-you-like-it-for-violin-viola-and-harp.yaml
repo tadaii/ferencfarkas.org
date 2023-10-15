@@ -1,9 +1,9 @@
-- id: as-you-like-it-for-violin-viola-and-harp
+- id: as-you-like-it-for-violin-viola-and-harp-score
   score_type: score
   ref: /CHAMBER MUSIC/As you like it for violin, viola and harp/score/score.pdf
   manuscript: true
   published: false
-- id: as-you-like-it-for-violin-viola-and-harp
+- id: as-you-like-it-for-violin-viola-and-harp-material
   score_type: material
   ref: /CHAMBER MUSIC/As you like it for violin, viola and harp/score/material.pdf
   manuscript: true

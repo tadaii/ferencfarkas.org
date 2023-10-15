@@ -1,10 +1,10 @@
 
-- id: serenade
+- id: serenade-score
   score_type: score
   ref: /CHAMBER MUSIC/Serenade for recorder and 2 violins/score/score.pdf
   manuscript: false
   published: false
-- id: serenade
+- id: serenade-material
   score_type: material
   ref: /CHAMBER MUSIC/Serenade for recorder and 2 violins/score/material.pdf
   manuscript: false
