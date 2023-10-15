@@ -17,11 +17,6 @@
     "catalogue:pdf": "node ./catalogue/pdf-generator/index.js"
   },
   "dependencies": {
-    "lunr": "^2.3.9",
-    "lunr-languages": "^1.13.0",
-    "wavesurfer.js": "^7.3.3"
-  },
-  "devDependencies": {
     "@babel/cli": "^7.23.0",
     "@babel/core": "^7.23.0",
     "@babel/plugin-transform-runtime": "^7.22.15",
@@ -39,6 +34,8 @@
     "eslint-plugin-standard": "^4.1.0",
     "front-matter": "^4.0.2",
     "isomorphic-git": "^1.24.5",
+    "lunr": "^2.3.9",
+    "lunr-languages": "^1.13.0",
     "npm-run-all": "^4.1.5",
     "pdfmake": "^0.2.7",
     "postcss-cli": "^10.1.0",
@@ -55,6 +52,7 @@
     "ssh2": "^1.14.0",
     "standard": "^17.1.0",
     "svelte": "^4.2.1",
+    "wavesurfer.js": "^7.3.3",
     "yaml": "^2.3.2"
   },
   "volta": {
