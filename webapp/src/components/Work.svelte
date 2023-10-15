@@ -89,7 +89,7 @@
   {/if}
 
   <!-- Multimedia -->
-  {#if work.audios || true}
+  {#if work.audios || work.scores}
     <div class="work--multimedia">
       {#if work.audios}
         <div class="work--audios">
@@ -105,10 +105,21 @@
           {/each}
         </div>
       {/if}
-      <span class="spacer"></span>
-      <button class="work--scores">
-        Manuscript
-      </button>
+      {#if work.scores}
+        <span class="spacer"></span>
+        <div class="work--scores">
+          <button on:click={e => {e.target.parentElement.classList.toggle('hover')}}>
+            Scores <span class="facet--count">{work.scores.length}</span>
+          </button>
+          <div class="work--scores-links">
+            {#each work.scores as score}
+              <a href="https://media.ferencfarkas.org/scores/{score.id}.pdf" target="_blank">
+                {score.type}
+              </a>
+            {/each}
+          </div>
+        </div>
+      {/if}
     </div>
   {/if}
 
