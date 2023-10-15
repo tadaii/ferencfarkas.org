@@ -2,6 +2,7 @@ const { join, resolve } = require('path')
 const fs = require('fs/promises')
 const yaml = require('yaml')
 const fm = require('front-matter')
+const bytesize = require('byte-size')
 const lunr = require('lunr')
 require('lunr-languages/lunr.stemmer.support')(lunr)
 require('lunr-languages/lunr.multi')(lunr)
@@ -11,7 +12,7 @@ require('lunr-languages/lunr.fr')(lunr)
 require('lunr-languages/lunr.es')(lunr)
 require('lunr-languages/lunr.it')(lunr)
 
-const { getScoresRefs, SCORE_STATE } = require('./common')
+const mediaBaseUrl = 'https://media.ferencfarkas.org'
 
 const root = resolve(__dirname, '..')
 const src = resolve(root, 'catalogue')
@@ -94,9 +95,20 @@ const getWorks = async ({ dir, genres, categories }) => {
 
     if (hasScores) {
       const scores = await yaml2json(scoresFile)
+      
+      for (const score of scores) {
+        const url = new URL(`${mediaBaseUrl}/scores${score.ref}`)
+        const res = await fetch(url, { method: 'head' })
+        score.size = res.headers.get('content-length')
+          ? bytesize(Number(res.headers.get('content-length')))
+          : { value: 'not found', unit: '' }
+      }
+
       work.scores = scores.map(score => ({
-        id: score.id,
-        type: score.score_type
+        path: score.ref,
+        type: score.score_type,
+        manuscript: score.manuscript,
+        size: `${score.size.value}${score.size.unit}`
       }))
     }
 

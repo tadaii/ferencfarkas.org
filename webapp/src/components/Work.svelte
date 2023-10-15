@@ -91,6 +91,7 @@
   <!-- Multimedia -->
   {#if work.audios || work.scores}
     <div class="work--multimedia">
+      <!-- Audios -->
       {#if work.audios}
         <div class="work--audios">
           {#each work.audios as audio}
@@ -105,16 +106,34 @@
           {/each}
         </div>
       {/if}
+      <!-- Scores -->
       {#if work.scores}
         <span class="spacer"></span>
         <div class="work--scores">
           <button on:click={e => {e.target.parentElement.classList.toggle('hover')}}>
-            Scores <span class="facet--count">{work.scores.length}</span>
+            Scores
+            <span class="facet--count">
+              {work.scores.length}
+            </span>
           </button>
           <div class="work--scores-links">
             {#each work.scores as score}
-              <a href="https://media.ferencfarkas.org/scores/{score.id}.pdf" target="_blank">
-                {score.type}
+              <a href="https://media.ferencfarkas.org/scores{score.path}" target="_blank">
+                {#if score.type === 'score'}
+                  Main score
+                {:else if score.type === 'material'}
+                  Orchestral material
+                {:else if score.type === 'piano-reduction'}
+                  Piano reduction
+                {:else if score.type === 'solo-part'}
+                  Solo part
+                {/if}
+                {#if score.manuscript}
+                  (manuscript)
+                {/if}
+                <span class="file-size">
+                  {score.size}
+                </span>
               </a>
             {/each}
           </div>
