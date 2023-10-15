@@ -34,6 +34,11 @@ const getEnv = () => readFileSync(resolve('.env'), 'utf8')
 
 const git = cmd => {
   const output = exec(`git ${cmd}`, { silent: true })
+  
+  if (output.code > 0) {
+    throw new Error(output.stderr.trim())
+  }
+
   return output.stdout.trim()
 }
 

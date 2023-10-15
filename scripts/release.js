@@ -72,42 +72,46 @@ const check = async () => {
 }
 
 const release = async () => {
-  if (!await init()) {
-    return
+  try {
+    if (!await init()) {
+      return
+    }
+
+    const changes = git(`diff --name-only ${masterBranch}..${previewBranch}`).split('\n')
+    
+    if (changes.length === 0) {
+      console.error('No content changes since last release. Exiting')
+      return
+    }
+
+    // Get release (x.x.x) from latest tag
+    const latestTag = git('describe --abbrev=0')
+
+    // Bump release (minor by default)
+    const release = await bumpVersion(latestTag)
+
+    // Push to origin
+    git('push')
+
+    // Switch to master branch
+    git(`checkout ${masterBranch}`)
+
+    // Merge preview in master and push to origin
+    git(`merge ${previewBranch}`)
+
+    // Push to origin
+    git('push')
+
+    // Push tag to origin
+    git(`push origin ${release}`)
+
+    // Back to preview branch
+    git(`checkout ${previewBranch}`)
+
+    console.log(`Version ${release} released!`)
+  } catch (err) {
+    console.error(err)
   }
-
-  const changes = git(`diff --name-only ${masterBranch}..${previewBranch}`).split('\n')
-  
-  if (changes.length === 0) {
-    console.error('No content changes since last release. Exiting')
-    return
-  }
-
-  // Get release (x.x.x) from latest tag
-  const latestTag = git('describe --abbrev=0')
-
-  // Bump release (minor by default)
-  const release = await bumpVersion(latestTag)
-
-  // Push to origin
-  git('push')
-
-  // Switch to master branch
-  git(`checkout ${masterBranch}`)
-
-  // Merge preview in master and push to origin
-  git(`merge ${previewBranch}`)
-
-  // Push to origin
-  git('push')
-
-  // Push tag to origin
-  git(`push origin ${release}`)
-
-  // Back to preview branch
-  git(`checkout ${previewBranch}`)
-
-  console.log(`Version ${release} released!`)
 }
 
 if (process.argv[2] === 'check') {
