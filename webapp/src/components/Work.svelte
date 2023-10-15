@@ -122,15 +122,15 @@
                 {#if score.type === 'score'}
                   Main score
                 {:else if score.type === 'material'}
-                  Orchestral material
+                  Performance material
                 {:else if score.type === 'piano-reduction'}
                   Piano reduction
                 {:else if score.type === 'solo-part'}
                   Solo part
                 {/if}
-                {#if score.manuscript}
+                <!-- {#if score.manuscript}
                   (manuscript)
-                {/if}
+                {/if} -->
                 <span class="file-size">
                   {score.size}
                 </span>

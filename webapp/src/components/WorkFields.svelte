@@ -21,6 +21,7 @@
     'order',
     'rework',
     'rework_of',
+    'scores',
     'story',
     'title',
     'versions',
