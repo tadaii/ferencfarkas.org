@@ -87,6 +87,9 @@ const release = async () => {
     // Bump npm version
     const version = (await bumpNpmVersion()).trim()
 
+    git('add package.json package-lock.json')
+    git(`commit -m ${version}`)
+
     // Push to origin
     git('push')
 
