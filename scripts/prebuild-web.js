@@ -110,6 +110,8 @@ const getWorks = async ({ dir, genres, categories }) => {
         manuscript: score.manuscript,
         size: `${score.size.value}${score.size.unit}`
       }))
+
+      work.publications = [{ type: 'all', download: true }]
     }
 
     works.push(work)
