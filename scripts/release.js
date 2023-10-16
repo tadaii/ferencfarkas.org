@@ -1,4 +1,4 @@
-const { bumpVersion, git } = require('./common')
+const { bumpNpmVersion, git } = require('./common')
 
 const masterBranch = 'master'
 const previewBranch = 'preview'
@@ -84,11 +84,8 @@ const release = async () => {
       return
     }
 
-    // Get release (x.x.x) from latest tag
-    const latestTag = git('describe --abbrev=0')
-
-    // Bump release (minor by default)
-    const release = await bumpVersion(latestTag)
+    // Bump npm version
+    const version = await bumpNpmVersion()
 
     // Push to origin
     git('push')
@@ -102,13 +99,16 @@ const release = async () => {
     // Push to origin
     git('push')
 
+    // Tag repo with npm version
+    git(`tag ${version}`)
+
     // Push tag to origin
-    git(`push origin ${release}`)
+    git(`push origin ${version}`)
 
     // Back to preview branch
     git(`checkout ${previewBranch}`)
 
-    console.log(`Version ${release} released!`)
+    console.log(`Version ${version} released!`)
   } catch (err) {
     console.error(err)
   }
