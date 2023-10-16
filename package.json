@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run website:serve",
     "dev": "run-p webapp:serve website:serve",
-    "prebuild": "node ./scripts/prebuild-web",
+    "prebuild": "node ./scripts/prebuild",
     "release": "node ./scripts/release",
     "release:check": "node ./scripts/release check",
     "scores": "node ./scripts/scores",
