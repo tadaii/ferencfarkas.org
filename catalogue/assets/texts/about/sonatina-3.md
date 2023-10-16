@@ -22,7 +22,7 @@ menu:
 {{% column %}}
 
 
-{{< catalogue work-id="all-antica" >}}
+{{< catalogue work-id="sonatina-3" >}}
 
 {{% /column %}}
 {{% /row %}}
