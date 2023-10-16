@@ -1,4 +1,4 @@
-- id: cassazione
+- id: cassazione-score
   score_type: score
   ref: /WIND ORCHESTRA/Cassazione/score/score.pdf
   manuscript: true

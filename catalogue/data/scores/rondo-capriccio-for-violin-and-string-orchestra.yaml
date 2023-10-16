@@ -1,9 +1,9 @@
-- id: rondo-capriccio-for-violin-and-string-orchestra
+- id: rondo-capriccio-for-violin-and-string-orchestra-score
   score_type: score
   ref: /CONCERTO/Rondo capriccio/score/score.pdf
   manuscript: true
   published: false
-- id: rondo-capriccio-for-violin-and-string-orchestra
+- id: rondo-capriccio-for-violin-and-string-orchestra-material
   score_type: material
   ref: /CONCERTO/Rondo capriccio/score/material.pdf
   manuscript: true

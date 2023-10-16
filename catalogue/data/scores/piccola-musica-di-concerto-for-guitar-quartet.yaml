@@ -1,9 +1,9 @@
-- id: piccola-musica-di-concerto-for-guitar-quartet
+- id: piccola-musica-di-concerto-for-guitar-quartet-score
   score_type: score
   ref: /CHAMBER MUSIC/Piccola musica di concerto for guitar quartet/score/score.pdf
   manuscript: false
   published: false
-- id: piccola-musica-di-concerto-for-guitar-quartet
+- id: piccola-musica-di-concerto-for-guitar-quartet-material
   score_type: material
   ref: /CHAMBER MUSIC/Piccola musica di concerto for guitar quartet/score/material.pdf
   manuscript: false

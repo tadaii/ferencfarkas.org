@@ -1,19 +1,19 @@
-- id: concertino-for-harp-and-string-orchestra-or-string-quartet
+- id: concertino-for-harp-and-string-orchestra-or-string-quartet-score
   score_type: score
   ref: /CONCERTO/Concertino for harp and strings/score/score.pdf
   manuscript: false
   published: false
-- id: concertino-for-harp-and-string-orchestra-or-string-quartet
+- id: concertino-for-harp-and-string-orchestra-or-string-quartet-piano-reduction
   score_type: piano-reduction
   ref: /CONCERTO/Concertino for harp and strings/score/piano reduction.pdf
   manuscript: false
   published: false
-- id: concertino-for-harp-and-string-orchestra-or-string-quartet
+- id: concertino-for-harp-and-string-orchestra-or-string-quartet-material
   score_type: material
   ref: /CONCERTO/Concertino for harp and strings/score/material.pdf
   manuscript: false
   published: false
-- id: concertino-for-harp-and-string-orchestra-or-string-quartet
+- id: concertino-for-harp-and-string-orchestra-or-string-quartet-solo-part
   score_type: solo-part
   ref: /CONCERTO/Concertino for harp and strings/score/harp part.pdf
   manuscript: false

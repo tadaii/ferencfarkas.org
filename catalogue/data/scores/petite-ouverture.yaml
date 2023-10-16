@@ -1,9 +1,9 @@
-- id: petite-ouverture
+- id: petite-ouverture-score
   score_type: score
   ref: /CHAMBER MUSIC/Petite ouverture/score/score.pdf
   manuscript: true
   published: false
-- id: petite-ouverture
+- id: petite-ouverture-material
   score_type: material
   ref: /CHAMBER MUSIC/Petite ouverture/score/material.pdf
   manuscript: true

@@ -1,9 +1,9 @@
-- id: ricordo-di-roma
+- id: ricordo-di-roma-score
   score_type: score
   ref: /CONCERTO/Ricordo di Roma/score/score.pdf
   manuscript: true
   published: false
-- id: ricordo-di-roma
+- id: ricordo-di-roma-material
   score_type: material
   ref: /CONCERTO/Ricordo di Roma/score/material.pdf
   manuscript: true
