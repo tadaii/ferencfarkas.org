@@ -90,7 +90,11 @@ export default {
     getValues: work => work.publications
       ? work.publications
         .reduce((grouped, publication) => {
-          const id = publication.download ? 'download' : publication.publisher_id
+          if (publication.download) {
+            return grouped
+          }
+
+          const id = publication.publisher_id
           
           if (!grouped.includes(id)) {
             grouped.push(id)
@@ -101,9 +105,7 @@ export default {
       : ['unpublished'],
     getLabel: ({ value, publishers = {} }) => value === 'unpublished'
       ? 'Unpublished'
-      : value === 'download'
-       ? 'Free download'
-       : publishers[value]?.shortName || publishers[value]?.name
+      : publishers[value]?.shortName || publishers[value]?.name
   },
   t: {
     order: 6,
