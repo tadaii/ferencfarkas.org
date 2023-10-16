@@ -118,7 +118,7 @@
           </button>
           <div class="work--scores-links">
             {#each work.scores as score}
-              <a href="https://media.ferencfarkas.org/scores{score.path}" target="_blank">
+              <a href="{score.url}" target="_blank">
                 {#if score.type === 'score'}
                   Main score
                 {:else if score.type === 'material'}
@@ -128,9 +128,6 @@
                 {:else if score.type === 'solo-part'}
                   Solo part
                 {/if}
-                <!-- {#if score.manuscript}
-                  (manuscript)
-                {/if} -->
                 <span class="file-size">
                   {score.size}
                 </span>

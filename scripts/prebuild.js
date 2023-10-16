@@ -94,10 +94,11 @@ const getWorks = async ({ dir, genres, categories }) => {
     } catch(_) {}
 
     if (hasScores) {
+      const buildScoreUrl = score => `${mediaBaseUrl}/scores/${score.id}.pdf`
       const scores = await yaml2json(scoresFile)
       
       for (const score of scores) {
-        const url = new URL(`${mediaBaseUrl}/scores${score.ref}`)
+        const url = new URL(buildScoreUrl(score))
         const res = await fetch(url, { method: 'head' })
         score.size = res.headers.get('content-length')
           ? bytesize(Number(res.headers.get('content-length')))
@@ -105,9 +106,8 @@ const getWorks = async ({ dir, genres, categories }) => {
       }
 
       work.scores = scores.map(score => ({
-        path: score.ref,
+        url: buildScoreUrl(score),
         type: score.score_type,
-        manuscript: score.manuscript,
         size: `${score.size.value}${score.size.unit}`
       }))
 

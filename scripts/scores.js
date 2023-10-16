@@ -5,6 +5,7 @@ const yaml = require('yaml')
 const { getEnv, sshExec } = require('./common')
 
 const env = getEnv()
+
 const STATE = {
   LOCAL_ONLY: 'LOCAL_ONLY',
   MODIFIED: 'MODIFIED',
@@ -12,6 +13,8 @@ const STATE = {
   REMOTE_ONLY: 'REMOTE_ONLY',
   SYNCED: 'SYNCED'
 }
+
+const buildRemotePath = scoreId => `/${scoreId}.pdf`
 
 const getLocalRefs = async () => {
   const dir = join('catalogue', 'data', 'scores')
@@ -36,7 +39,7 @@ const getLocalRefs = async () => {
         state = STATE.NOT_FOUND
       }
 
-      refs.push({ path: item.ref, size, state })
+      refs.push({ id: item.id, path: item.ref, size, state })
     }
   }
 
@@ -64,10 +67,11 @@ const getRemoteRefs = async () => {
 const getState = async () => {
   const localRefs = await getLocalRefs()
   const remoteRefs = await getRemoteRefs()
+  
   const refs = []
 
   for (const localRef of localRefs) {
-    const remoteRef = remoteRefs.find(ref => ref.path === localRef.path)
+    const remoteRef = remoteRefs.find(ref => ref.path === buildRemotePath(localRef.id))
     
     if (remoteRef) {
       localRef.state = remoteRef.size === localRef.size ? STATE.SYNCED : STATE.MODIFIED
@@ -77,7 +81,7 @@ const getState = async () => {
   }
 
   for (const remoteRef of remoteRefs) {
-    const ref = refs.find(r => r.path === remoteRef.path)
+    const ref = refs.find(r => buildRemotePath(r.id) === remoteRef.path)
 
     if (!ref) {
       refs.push({ ...remoteRef, state: STATE.REMOTE_ONLY })
@@ -94,16 +98,16 @@ const sync = async () => {
 
   for (const file of await getState()) {
     if ([STATE.LOCAL_ONLY, STATE.MODIFIED].includes(file.state)) {
-      files.push(file.path)
+      files.push(file)
       
-      const dir = dirname(file.path)
+      const dir = dirname(buildRemotePath(file.id))
       if (!dirs.includes(dir)) {
         dirs.push(dir)
       }
     }
 
     if (STATE.REMOTE_ONLY === file.state) {
-      removals.push(file.path)
+      removals.push(file)
     }
   }
 
@@ -124,9 +128,9 @@ const sync = async () => {
 
   for (let i = 0; i < files.length; i++) {
     const file = files[i]
-    console.log(`syncing ${file}... (${i + 1}/${files.length})`)
-    const src = join(env.SCORES_ROOT, file)
-    const dst = join(env.SCORES_REMOTE_DEST, file).replaceAll(sep, '/')
+    console.log(`syncing ${file.id}... (${i + 1}/${files.length})`)
+    const src = join(env.SCORES_ROOT, file.path)
+    const dst = join(env.SCORES_REMOTE_DEST, buildRemotePath(file.id)).replaceAll(sep, '/')
     const remote = `${env.REMOTE_USER}@${env.REMOTE_HOST}`
     
     if (process.platform === 'win32') {
