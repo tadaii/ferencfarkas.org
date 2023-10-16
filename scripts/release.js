@@ -85,30 +85,30 @@ const release = async () => {
     }
 
     // Bump npm version
-    const version = await bumpNpmVersion()
+    const version = (await bumpNpmVersion()).trim()
 
     // Push to origin
     git('push')
 
-    // Switch to master branch
-    git(`checkout ${masterBranch}`)
+    // // Switch to master branch
+    // git(`checkout ${masterBranch}`)
 
-    // Merge preview in master and push to origin
-    git(`merge ${previewBranch}`)
+    // // Merge preview in master and push to origin
+    // git(`merge ${previewBranch}`)
 
-    // Push to origin
-    git('push')
+    // // Push to origin
+    // git('push')
 
-    // Tag repo with npm version
-    git(`tag ${version}`)
+    // // Tag repo with npm version
+    // git(`tag ${version}`)
 
-    // Push tag to origin
-    git(`push origin ${version}`)
+    // // Push tag to origin
+    // git(`push origin ${version}`)
 
-    // Back to preview branch
-    git(`checkout ${previewBranch}`)
+    // // Back to preview branch
+    // git(`checkout ${previewBranch}`)
 
-    console.log(`Version ${version} released!`)
+    // console.log(`Version ${version} released!`)
   } catch (err) {
     console.error(err)
   }

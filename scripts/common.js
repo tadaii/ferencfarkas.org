@@ -22,7 +22,7 @@ const bumpVersion = async (version, level = 'patch') => version
   .join('.')
 
 const bumpNpmVersion = async (level = 'patch') => {
-  return exec(`npm version ${level} --no-git-tag-version`, { silent: true })
+  return exec(`npm version ${level} --tag-version-prefix='' --no-git-tag-version`, { silent: true })
 }
 
 const getEnv = () => readFileSync(resolve('.env'), 'utf8')
