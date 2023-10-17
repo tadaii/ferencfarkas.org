@@ -19,7 +19,7 @@ We are very pleased to announce that you'll now be able to
 **download** all the **scores** of the non-published works from
 Ferenc Farkas **directly from our website!**
 
-{{< arrow-link "/work" "Check the catalogue" >}}
+{{< arrow-link "/work" "Check the catalogue" "_self" >}}
 
 {{% /column %}}
 {{% column valign="center" %}}
@@ -52,7 +52,7 @@ Farkas's catalog:
 [Maschere](/work/?r=maschere),
 [Sonata no.1](/work/?r=sonata-1-for-piano)
 
-{{< arrow-link "https://www.stradivarius.it/scheda.php?ID=801157037261100" "Check it on Stradivarius" true >}}
+{{< arrow-link "https://www.stradivarius.it/scheda.php?ID=801157037261100" "Check it on Stradivarius" "_blank" >}}
 
 {{% /column %}}
 {{% column valign="center" %}}
@@ -74,7 +74,7 @@ volume in its Ferenc Farkas series which focuses on chamber music with violin.
 
 Featuring **Gyula Stuller** (violin), **Yukari Shimanuki** (viola), **Dénes Várjon** (piano) and the **Stuller Quartet**.
 
-{{< arrow-link "https://toccataclassics.com/product/ferenc-farkas-chamber-music-volume-six/" "Listen & buy" true >}}
+{{< arrow-link "https://toccataclassics.com/product/ferenc-farkas-chamber-music-volume-six/" "Listen & buy" "_blank" >}}
 
 {{% /column %}}
 {{% column valign="center" %}}
