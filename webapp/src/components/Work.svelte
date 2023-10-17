@@ -89,19 +89,52 @@
   {/if}
 
   <!-- Multimedia -->
-  {#if work.audios}
+  {#if work.audios || work.scores}
     <div class="work--multimedia">
+      <!-- Audios -->
       {#if work.audios}
-        {#each work.audios as audio}
-          <button
-            class="play small"
-            data-audio={audio.id}
-            data-title={audio.description}
-          >
-            <div class="play--button" />
-            <h5>{audio.description}</h5>
+        <div class="work--audios">
+          {#each work.audios as audio}
+            <button
+              class="play small"
+              data-audio={audio.id}
+              data-title={audio.description}
+            >
+              <div class="play--button" />
+              <h5>{audio.description}</h5>
+            </button>
+          {/each}
+        </div>
+      {/if}
+      <!-- Scores -->
+      {#if work.scores}
+        <span class="spacer"></span>
+        <div class="work--scores">
+          <button on:click={e => {e.target.parentElement.classList.toggle('hover')}}>
+            Scores
+            <span class="facet--count">
+              {work.scores.length}
+            </span>
           </button>
-        {/each}
+          <div class="work--scores-links">
+            {#each work.scores as score}
+              <a href="{score.url}" target="_blank">
+                {#if score.type === 'score'}
+                  Main score
+                {:else if score.type === 'material'}
+                  Performance material
+                {:else if score.type === 'piano-reduction'}
+                  Piano reduction
+                {:else if score.type === 'solo-part'}
+                  Solo part
+                {/if}
+                <span class="file-size">
+                  {score.size}
+                </span>
+              </a>
+            {/each}
+          </div>
+        </div>
       {/if}
     </div>
   {/if}

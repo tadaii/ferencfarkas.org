@@ -1,6 +1,8 @@
 const { join, resolve } = require('path')
 const fs = require('fs/promises')
 const yaml = require('yaml')
+const fm = require('front-matter')
+const bytesize = require('byte-size')
 const lunr = require('lunr')
 require('lunr-languages/lunr.stemmer.support')(lunr)
 require('lunr-languages/lunr.multi')(lunr)
@@ -9,7 +11,8 @@ require('lunr-languages/lunr.de')(lunr)
 require('lunr-languages/lunr.fr')(lunr)
 require('lunr-languages/lunr.es')(lunr)
 require('lunr-languages/lunr.it')(lunr)
-const fm = require('front-matter')
+
+const mediaBaseUrl = 'https://media.ferencfarkas.org'
 
 const root = resolve(__dirname, '..')
 const src = resolve(root, 'catalogue')
@@ -47,6 +50,8 @@ const getWorks = async ({ dir, genres, categories }) => {
     }
 
     work.genre = categories[work.category].genre
+
+    // Story
     const storyFile = `./catalogue/assets/texts/about/${work.id}.md`
     let hasStory = false
     
@@ -55,6 +60,17 @@ const getWorks = async ({ dir, genres, categories }) => {
       hasStory = true
     } catch(_) {}
 
+    if (hasStory) {
+      const data = await fs.readFile(storyFile, 'utf8')
+      const content = fm(data)
+      const isDraft = content.attributes.draft
+
+      if (!isDraft) {
+        work.story = `/work/${work.id}`
+      }
+    }
+
+    // Audios
     const audioFile = `./catalogue/data/audios/${work.id}.yaml`
     let hasAudio = false
     
@@ -68,14 +84,34 @@ const getWorks = async ({ dir, genres, categories }) => {
       work.audios = audios
     }
 
-    if (hasStory) {
-      const data = await fs.readFile(storyFile, 'utf8')
-      const content = fm(data)
-      const isDraft = content.attributes.draft
+    // Scores
+    const scoresFile = `./catalogue/data/scores/${work.id}.yaml`
+    let hasScores = false
 
-      if (!isDraft) {
-        work.story = `/work/${work.id}`
+    try {
+      await fs.access(scoresFile)
+      hasScores = true
+    } catch(_) {}
+
+    if (hasScores) {
+      const buildScoreUrl = score => `${mediaBaseUrl}/scores/${score.id}.pdf`
+      const scores = await yaml2json(scoresFile)
+      
+      for (const score of scores) {
+        const url = new URL(buildScoreUrl(score))
+        const res = await fetch(url, { method: 'head' })
+        score.size = res.headers.get('content-length')
+          ? bytesize(Number(res.headers.get('content-length')))
+          : { value: 'not found', unit: '' }
       }
+
+      work.scores = scores.map(score => ({
+        url: buildScoreUrl(score),
+        type: score.score_type,
+        size: `${score.size.value}${score.size.unit}`
+      }))
+
+      work.publications = [{ type: 'all', download: true }]
     }
 
     works.push(work)

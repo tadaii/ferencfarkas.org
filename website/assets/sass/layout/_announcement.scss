@@ -1,6 +1,10 @@
 .announcement {
+  position: sticky;
+  top: 5rem;
+  z-index: 3;
   margin-top: 2rem;
   margin-bottom: 3rem;
+  pointer-events: none;
 
   @media screen and (min-width: 600px) {
     margin-top: 1rem;
@@ -39,6 +43,7 @@
     box-shadow: 0 0 0.5rem rgba(0,0,0, 0.3);
     z-index: 1;
     transition: all 0.2s linear;
+    pointer-events: all;
 
     &:hover {
       background: $c-secondary-light;

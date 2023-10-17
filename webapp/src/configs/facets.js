@@ -30,49 +30,82 @@ const DURATION_RANGES = {
 }
 
 export default {
-  g: {
+  m: {
     order: 1,
+    collapsed: true,
+    label: 'Multimedia',
+    getValues: work => {
+      const res = []
+      
+      if (work.audios) {
+        res.push('audios')
+      }
+      
+      if (work.scores) {
+        res.push('scores')
+      }
+
+      if (work.story) {
+        res.push('stories')
+      }
+      
+      return res
+    },
+    getLabel: ({ value }) => {
+      switch (value) {
+        case 'audios':
+          return 'With audio'
+        case 'scores':
+          return 'With scores'
+        case 'stories':
+          return 'With story'
+      }
+    }
+  },
+  g: {
+    order: 2,
     collapsed: false,
     label: 'Genres',
     getValues: work => [work.genre],
     getLabel: ({ value, genres = {} }) => genres[value]?.title
   },
   c: {
-    order: 2,
+    order: 3,
     collapsed: false,
     label: 'Categories',
     getValues: work => [work.category],
     getLabel: ({ value, categories = {} }) => categories[value]?.title
   },
   l: {
-    order: 3,
+    order: 4,
     collapsed: true,
     label: 'Languages',
     getValues: work => Object.keys({ ...work.texts, ...work.libretto }),
     getLabel: ({ value }) => value.toUpperCase()
   },
   p: {
-    order: 4,
+    order: 5,
     collapsed: true,
     label: 'Publishers',
     getValues: work => work.publications
       ? work.publications
         .reduce((grouped, publication) => {
+          if (publication.download) {
+            return grouped
+          }
+
           const id = publication.publisher_id
-          if (!grouped.includes(id)) grouped.push(id)
+          
+          if (!grouped.includes(id)) {
+            grouped.push(id)
+          }
+          
           return grouped
         }, [])
       : ['unpublished'],
     getLabel: ({ value, publishers = {} }) => value === 'unpublished'
       ? 'Unpublished'
       : publishers[value]?.shortName || publishers[value]?.name
-  },
-  m: {
-    order: 5,
-    collapsed: true,
-    label: 'Multimedia',
-    getValues: work => [],
-    getLabel: ({ value }) => value
   },
   t: {
     order: 6,

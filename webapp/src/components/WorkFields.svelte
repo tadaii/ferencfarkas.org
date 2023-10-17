@@ -21,6 +21,7 @@
     'order',
     'rework',
     'rework_of',
+    'scores',
     'story',
     'title',
     'versions',
@@ -94,26 +95,28 @@
         </ul>
       {:else if key === 'publications'}
         <ul>
-          {#each value as publisher}
+          {#each value as publication}
             <li>
-              {#if publisher.type !== 'all'}
-                <em>{publisher.type}:</em>
+              {#if publication.type !== 'all'}
+                <em>{publication.type}:</em>
               {/if}
-              {#if publishers[publisher.publisher_id].url}
+              {#if publication.download}
+                Free download
+              {:else if publishers[publication.publisher_id].url}
                 <a
-                  href={publishers[publisher.publisher_id].url}
+                  href={publishers[publication.publisher_id].url}
                   class="link"
                   target="_blank"
                 >
-                  {publishers[publisher.publisher_id].name}
+                  {publishers[publication.publisher_id].name}
                 </a>
               {:else}
-                {publishers[publisher.publisher_id].name}
+                {publishers[publication.publisher_id].name}
                 <div class="work-input">
                   Do you have info about this publisher?
                   <br />
                   <a
-                    href="/contact?publisher={publisher.publisher_id}"
+                    href="/contact?publisher={publication.publisher_id}"
                     target="_blank"
                     class="button"
                     on:click={e => e.stopPropagation()}

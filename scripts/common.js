@@ -4,24 +4,25 @@ const { resolve } = require('path')
 const { exec } = require('shelljs')
 const { Client } = require('ssh2')
 
-const bumpVersion = async (version, level = 'patch') => {
-  exec(`npm version ${level} --tag-version-prefix=''`, { silent: true })
-  return version
-    .split('.')
-    .map((n, i) => {
-      const v = parseInt(n)
+const bumpVersion = async (version, level = 'patch') => version
+  .split('.')
+  .map((n, i) => {
+    const v = parseInt(n)
 
-      if (
-        (level === 'major' && i === 0) ||
-        (level === 'minor' && i === 1) ||
-        (level === 'patch' && i === 2)
-      ) {
-        return v + 1
-      }
+    if (
+      (level === 'major' && i === 0) ||
+      (level === 'minor' && i === 1) ||
+      (level === 'patch' && i === 2)
+    ) {
+      return v + 1
+    }
 
-      return v
-    })
-    .join('.')
+    return v
+  })
+  .join('.')
+
+const bumpNpmVersion = async (level = 'patch') => {
+  return exec(`npm version ${level} --tag-version-prefix='' --no-git-tag-version`, { silent: true })
 }
 
 const getEnv = () => readFileSync(resolve('.env'), 'utf8')
@@ -72,4 +73,4 @@ const sshExec = async (cmd, onData, onError, onDone) => {
   })
 }
 
-module.exports = { bumpVersion, getEnv, git, sshExec }
+module.exports = { bumpVersion, bumpNpmVersion, getEnv, git, sshExec }

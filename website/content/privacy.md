@@ -47,8 +47,8 @@ This website's source code is publicly hosted on
 [GitHub](https://github.com/jota-one/ferencfarkas.org/).
 
 ### Participation
-Your participation to the content or the suorce code of this website is
-welcome. This is doable in the following ways:
+Your participation to the content or the source code of this website is
+welcome. You can help/support/participate in the following ways:
 - Submit a pull request on GitHub for code or content update
 - Create [an issue on GitHub](https://github.com/jota-one/ferencfarkas.org/issues)
 - Contact us via [the contact form]({{< ref "contact/_index.md" >}})

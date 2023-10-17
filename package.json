@@ -1,12 +1,12 @@
 {
   "name": "ferencfarkas.org",
-  "version": "1.7.15",
+  "version": "1.7.18",
   "description": "The ferencfarkas.org project",
   "private": false,
   "scripts": {
     "start": "npm run website:serve",
     "dev": "run-p webapp:serve website:serve",
-    "prebuild": "node ./scripts/prebuild-web",
+    "prebuild": "node ./scripts/prebuild",
     "release": "node ./scripts/release",
     "release:check": "node ./scripts/release check",
     "scores": "node ./scripts/scores",
@@ -17,11 +17,6 @@
     "catalogue:pdf": "node ./catalogue/pdf-generator/index.js"
   },
   "dependencies": {
-    "lunr": "^2.3.9",
-    "lunr-languages": "^1.13.0",
-    "wavesurfer.js": "^7.3.3"
-  },
-  "devDependencies": {
     "@babel/cli": "^7.23.0",
     "@babel/core": "^7.23.0",
     "@babel/plugin-transform-runtime": "^7.22.15",
@@ -29,6 +24,7 @@
     "@rollup/plugin-commonjs": "^25.0.4",
     "@rollup/plugin-node-resolve": "^15.2.1",
     "autoprefixer": "^10.4.16",
+    "byte-size": "^8.1.1",
     "date-fns": "^2.30.0",
     "dotenv": "^16.3.1",
     "eslint": "^8.50.0",
@@ -39,6 +35,8 @@
     "eslint-plugin-standard": "^4.1.0",
     "front-matter": "^4.0.2",
     "isomorphic-git": "^1.24.5",
+    "lunr": "^2.3.9",
+    "lunr-languages": "^1.13.0",
     "npm-run-all": "^4.1.5",
     "pdfmake": "^0.2.7",
     "postcss-cli": "^10.1.0",
@@ -55,6 +53,7 @@
     "ssh2": "^1.14.0",
     "standard": "^17.1.0",
     "svelte": "^4.2.1",
+    "wavesurfer.js": "^7.3.3",
     "yaml": "^2.3.2"
   },
   "volta": {
