@@ -9,7 +9,7 @@ date: 2021-03-21
 
 {{% carousel %}}
 
-{{% news date="15.10.2023" %}}
+{{% news date="19.10.2023" %}}
 {{% row %}}
 {{% column %}}
 
