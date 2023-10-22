@@ -128,7 +128,7 @@ Farkas continued to compose film music for other directors until 1973
 {{% column %}}
 
 Ferenc Farkas returned in Hungary for good in 1936. His first real public
-success happened in 1937 with his [Concertino for harp](/work/?q=id:concertino-for-harp-and-string-orchestra-or-string-quartet).
+success happened in 1937 with his [Concertino for harp](/work/?q=id:concertino-for-harp-and-orchestra).
 
 {{< play concertino-for-harp-and-orchestra "3rd movement: Allegro moderato" "Concertino for harp and orchestra, 1937" >}}
 
