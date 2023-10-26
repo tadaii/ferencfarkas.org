@@ -1,0 +1,5 @@
+- id: dance-music-score
+  score_type: score
+  ref: /INSTRUMENTAL SOLO/Dance music/score/score.pdf
+  manuscript: true
+  published: false
