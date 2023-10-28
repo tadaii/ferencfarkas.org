@@ -1,0 +1,5 @@
+- id: greeting-for-name-day-score
+  score_type: score
+  ref: /INSTRUMENTAL SOLO/Greeting for Name Day for piano/score/score.pdf
+  manuscript: true
+  published: false
