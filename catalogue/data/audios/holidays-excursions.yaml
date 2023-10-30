@@ -1,4 +1,8 @@
 - id: holidays-excursions-1
   description: By train / Vonaton
+  cd: a14
+  track: 3
 - id: holidays-excursions-2
   description: Sailing / Vitorlással
+  cd: a14
+  track: 3
