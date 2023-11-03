@@ -1,4 +1,8 @@
 - id: sonata-1-for-piano-1
   description: Adagio
+  cd: p204
+  track: 33
 - id: sonata-1-for-piano-2
   description: Allegro
+  cd: p204
+  track: 34
