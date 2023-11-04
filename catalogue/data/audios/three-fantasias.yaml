@@ -1,6 +1,12 @@
 - id: three-fantasias-1
   description: Moderato, non troppo lento
+  cd: p204
+  track: 17
 - id: three-fantasias-2
   description: Andante
+  cd: p204
+  track: 18
 - id: three-fantasias-3
   description: Allegro
+  cd: p204
+  track: 19
