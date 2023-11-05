@@ -13,8 +13,11 @@ menu:
 {{% column %}}
 
 > In 1922 I had already used the popular melody of “Kömives Kelemen balladája” (The ballad of Kelemen 
-> Kömives) in the first movement of my “Two pieces on Hungarian folk songs”. In 1960 it was the whole 
-> ballad that I covered under the name of “Kömives Kelemen balladája”.
+> Kömives) in the first movement of my “Two pieces on Hungarian folk songs” for piano. In 1960, I took 
+> up this old song comprising 14 verses on the same motif in the form of Lied that I orchestrated under 
+> the name “Kömives Kelemen balladája”. In the accompaniment, I used only the notes of the melody, 
+> increasing, decreasing or reversing them and, sometimes, condensing this material to achieve dramatic 
+> climaxes.
 >
 > This ballad has a very dramatic subject dating of the 16. century:
 >
@@ -27,14 +30,11 @@ menu:
 > 
 > And the next morning Kelemen Kömives wife came, loving, with a good meal for her husband. And the 
 > masons seized her, and they built her into the walls. And the walls stood from then on”.
+> {{< author name="Ferenc Farkas" >}}
 
 {{% /column %}}
 {{% column %}}
 
-> The ballad melody repeats throughout the fourteen verses. In the accompaniment, I used only the notes 
-> of this melody, increasing, decreasing or reversing them and, sometimes, condensing this material to 
-> achieve dramatic climaxes.
-> {{< author name="Ferenc Farkas" >}}
 
 {{< catalogue work-id="two-pieces-on-hungarian-folk-songs" >}}
 
