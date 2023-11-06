@@ -78,5 +78,5 @@ versions:
     publications:
       - publisher_id: afp
         type: score
-      - publisher_id: afp
+      - publisher_id: EMB
         type: piano reduction
