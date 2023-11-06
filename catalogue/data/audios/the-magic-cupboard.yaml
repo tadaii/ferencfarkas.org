@@ -1,10 +1,20 @@
 - id: the-magic-cupboard-1
   description: Suleika’s melody
+  cd: p128
+  track: 2
 - id: the-magic-cupboard-2
   description: Kadi’s melody
+  cd: p128
+  track: 2
 - id: the-magic-cupboard-3
   description: The carpenters and their master
+  cd: p128
+  track: 8
 - id: the-magic-cupboard-4
+  cd: p128
+  track: 18
   description: In the cupboard…
 - id: the-magic-cupboard-5
   description: Finale
+  cd: p128
+  track: 21
