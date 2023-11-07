@@ -37,6 +37,7 @@ duration: 7200
 id: egy-ur-velenceboel-casanova
 libretto:
   hu: In hungarian by Sándor Márai
+  de: German translated
 publications:
   - publisher_id: afp
     type: all
@@ -50,14 +51,11 @@ title:
   original: hu
   sort:
     - hu
-    - en
-    - fr
     - de
   translations:
-    de: Ein Herr aus Venedig, Casanova
-    en: A gentleman from Venice, Casanova
-    fr: Un seigneur de Venise, Casanova
     hu: Egy ur Velencéből, Casanova
+    de: Ein Herr aus Venedig, Casanova
+    
 world_premiere:
   credits:
     - Conducted by János Kovács

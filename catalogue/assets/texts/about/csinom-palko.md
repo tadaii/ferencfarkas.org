@@ -1,5 +1,5 @@
 ---
-title: Csinom Palko
+title: Csínom Palkó
 date: 2020-03-20
 menu:
   main:

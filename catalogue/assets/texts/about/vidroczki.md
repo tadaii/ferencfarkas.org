@@ -1,8 +1,6 @@
 ---
 title: Vidróczki
-subTitle: Popular romantic opera in 3 acts
-draft: true
-date: 2019-11-09
+date: 2023-11-06
 menu:
   main:
     parent: 'work'
@@ -14,18 +12,18 @@ menu:
 {{% row %}}
 {{% column %}}
 
-> My « Vidróczki », composed in 1963, is what I would describe as a popular
-> romantic opera: after Ede Poldoni's « The Carnival Wedding » and Dohnányi's
-> « The Tenor » in the early twenties, there had been a gap in the history of
-> this once popular genre which I wanted to fill.
-> I wrote my work for the Szeged Open Air Festival, which attracts close to
-> eight thousand spectators each year. It is a different audience to one for a
-> chamber concert of Beethoven's C sharp minor  « String quartet ».
-> To please the average concert-goer, it is necessary to provide a piece with a
-> spectacle and easier listening. The opera relates the adventures and death of
-> Vidróczki, a big-hearted bandit who lived in the nineteenth century in the
-> Mátra Hills. I had particular pleasure setting to music a scene in which a
-> marriage and a burial proceed simultaneously.
+> “My “Vidróczki”, composed in 1963, is what I would call a popular romantic opera. I choose this 
+> musical genre because, since Ede Poldoni's "Farsangi lakodalma" and Dohnányi's "A Tenor" in the early 
+> 1920s, there was a void in Hungary that I wanted to fill.
+> 
+> This work was intended for the Szeged Open Air Festival, which attracts nearly eight thousand 
+> spectators each year. It is obvious that such an audience differs from one listening to Beethoven's 
+> “String Quartet in C sharp minor” in a small concert hall. To appeal to this huge audience, the show 
+> must be entertaining and the music pleasant.
+>
+> The opera relates the adventures and death of Vidróczki, a kind-hearted bandit who lived in the 19th 
+> century in the Mátra Mountains. I had particular pleasure in setting to music a scene where a wedding 
+> and a funeral take place simultaneously.
 > {{< author name="Ferenc Farkas" >}}
 
 {{% /column %}}
@@ -35,5 +33,5 @@ menu:
 {{< catalogue work-id="vidroczki" >}}
 
 {{% /column %}}
-
+{{% /row %}}
 {{% /section %}}
