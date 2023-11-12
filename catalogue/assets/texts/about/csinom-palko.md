@@ -29,7 +29,7 @@ menu:
 > Csínom Palkó was broadcasted for the first time on January 22nd, 1950.
 > Its success was so resounding that I was suggested to adapt it in the
 > form of an opera. The première took place at the Budapest Opera on 1951.
-> {{< author name="Ferenc Farkas" ref="Extract from the book by András Farkas [Mon père m’a raconté…](http://www.editions-delatour.com/fr/biographies-entretiens/3727-mon-pere-m-a-raconte-la-vie-du-compositeur-hongrois-ferenc-farkas-9782752103079.html)" >}}
+> {{< author name="Ferenc Farkas" >}}
 
 {{% /column %}}
 {{% /row %}}

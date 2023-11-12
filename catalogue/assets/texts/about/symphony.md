@@ -31,8 +31,8 @@ Ferenc Farkas composed his Symphony in 1952.
 > Symphony also came up for examination. With the exception of my friend
 > the composer Lajos Vass, every one of the participants made such
 > disheartening comments that I lost all enthusiasm and I put my Symphony
-> away in a drawer”. 
-> {{< author name="Ferenc Farkas" ref="Extract from the book by András Farkas [Mon père m’a raconté…](http://www.editions-delatour.com/fr/biographies-entretiens/3727-mon-pere-m-a-raconte-la-vie-du-compositeur-hongrois-ferenc-farkas-9782752103079.html)" >}}
+> away in a drawer”.
+> {{< author name="Ferenc Farkas" >}}
 
 Ferenc Farkas' unique Symphony was performed in concert and recorded on CD
 for the first time in its entirety in Budapest in 2021.
