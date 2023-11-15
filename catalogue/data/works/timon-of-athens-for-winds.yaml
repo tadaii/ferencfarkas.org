@@ -1,0 +1,22 @@
+category: wind
+composition_date: 1935, rev. 1967
+date: 2023-11-15
+description: for wind orchestra, percussion and piano - 3 pieces from the incidental music to "Timon of Athens" by William Shakespeare
+duration: 660
+id: timon-of-athens-for-winds
+movements:
+  - title: Alkibiadesz indulójá / Alcibiade’s march
+  - title: Asztali zene / Dinner music
+  - title: Tánc / Dance
+publications:
+  - publisher_id: afp
+    type: score
+rework_of: timon-of-athens
+setting: 4(IV=picc.), 3 (III=c.i.), 4(IV=cl.b.), 4(IV=cfg.) – 4, 4, 3, 1 – timp., batt. – pf.
+title:
+  main: en
+  original: en
+  sort:
+    - en
+  translations:
+    en: Timon of Athens
