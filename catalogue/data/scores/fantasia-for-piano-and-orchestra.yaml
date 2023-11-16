@@ -3,4 +3,8 @@
   ref: /CONCERTO/Fantasia/score/material.pdf
   manuscript: true
   published: false
-
+- id: fantasia-for-piano-and-orchestra-solo-part
+  score_type: solo-part
+  ref: /CONCERTO/Fantasia/score/piano part.pdf
+  manuscript: true
+  published: false
