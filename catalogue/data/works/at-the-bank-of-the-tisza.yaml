@@ -1,0 +1,21 @@
+category: cantata_oratorio
+composition_date: 1950
+date: 2023-11-22
+description: Folk song cantata for mixed choir (soli ad lib.) and orchestra
+duration: 600
+id: at-the-bank-of-the-tisza
+publications:
+  - publisher_id: emb
+    type: all
+setting: 2, 2, 2, 2 – 4, 2, 3, 0 – timp., batt. – arpa – archi
+texts:
+  hu: in Hungarian
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: At the bank of the Tisza
+    hu: Tisza partján
