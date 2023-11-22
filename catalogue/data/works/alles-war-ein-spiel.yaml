@@ -1,0 +1,27 @@
+category: cantata_oratorio
+composition_date: 1986
+date: 2023-11-22
+description: Concert-cantata for soprano solo, 5 solo instruments and string orchestra 
+duration: 1200
+id: alles-war-ein-spiel
+movements:
+  - title: Preludio
+  - title: Alles war ein Spiel, Ritornell-Kadenz
+  - title: Abendwolke, Ritornell-Kadenz
+  - title: Lass Scharren deiner Rosse Huf, Ritornell-Kadenz
+  - title: Pergoleses Ständchen, Ritornell-Kadenz
+  - title: Auf dem Canal Grande, Ritornell-Kadenz
+  - title: Morgenlied
+publications:
+  - publisher_id: afp
+    type: all
+setting: cl., fg., trb., vl. solo, pf., archi
+texts:
+  de: in German by Conrad Ferdinand Meyer
+title:
+  main: de
+  original: de
+  sort:
+    - de
+  translations:
+    de: Alles war ein Spiel 
