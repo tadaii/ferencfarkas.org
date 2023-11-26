@@ -1,0 +1,15 @@
+- id: alles-war-ein-spiel-score
+  score_type: score
+  ref: /CANTATA-ORATORIO/Alles war ein Spiel/score/score.pdf
+  manuscript: false
+  published: false
+- id: alles-war-ein-spiel-piano-reduction
+  score_type: piano-reduction
+  ref: /CANTATA-ORATORIO/Alles war ein Spiel/score/piano reduction.pdf
+  manuscript: false
+  published: false
+- id: alles-war-ein-spiel-material
+  score_type: material
+  ref: /CANTATA-ORATORIO/Alles war ein Spiel/score/material.pdf
+  manuscript: false
+  published: false
