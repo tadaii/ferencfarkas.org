@@ -1,8 +1,16 @@
 - id: ein-krippenspiel-aus-koeroeshegy-1
   description: Evangelium – Chor (shepherds)
+  cd: p184
+  track: 19
 - id: ein-krippenspiel-aus-koeroeshegy-2
   description: Chor a cappella
+  cd: p184
+  track: 20
 - id: ein-krippenspiel-aus-koeroeshegy-3
   description: Chor of the wise men
+  cd: p184
+  track: 21
 - id: ein-krippenspiel-aus-koeroeshegy-4
   description: Postludium
+  cd: p184
+  track: 26
