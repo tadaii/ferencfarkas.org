@@ -1,6 +1,12 @@
 - id: cantus-pannonicus-1
   description: Laus Pannoniae
+  cd: p36
+  track: 1
 - id: cantus-pannonicus-2
   description: De Agnete
+  cd: p36
+  track: 2
 - id: cantus-pannonicus-3
   description: De amygdalo in Pannonia nata
+  cd: p36
+  track: 4
