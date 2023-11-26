@@ -23,6 +23,8 @@ menu:
 > narrator brings these different movements while telling the Nativity story. After a pastoral for the 
 > organ, the choir intones “The Holy Night” to which 3 solists placed on the organ loft respond to create an 
 > echo effect until the end of the work.
+>
+> I orchestrated my cantata for my son Andràs who conducted it in this version at Lausanne Cathedral.
 > {{< author name="Ferenc Farkas" >}}
 
 {{% /column %}}
