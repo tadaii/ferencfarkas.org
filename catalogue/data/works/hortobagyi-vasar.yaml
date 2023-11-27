@@ -1,0 +1,17 @@
+category: cantata_oratorio
+composition_date: 1953
+date: 2023-11-27
+description: Cantata for mixed choir and orchestra
+id: hortobagyi-vasar
+publications:
+  - publisher_id: afp
+    type: all
+texts:
+  hu: in Hungarian
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Hortobágyi vásár
