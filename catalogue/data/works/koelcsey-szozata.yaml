@@ -1,0 +1,29 @@
+category: cantata_oratorio
+composition_date: 1992
+date: 2023-11-27
+description: Cantata for tenor solo, mixed choir and orchestra
+duration: 1500
+id: koelcsey-szozata
+movements:
+  - title: Preludio
+  - title: Küzdés
+  - title: Szép Erdély
+  - title: Quasi marcia funebre
+  - title: Rákos
+  - title: Zsarnok
+  - title: Profán Korál
+  - title: Fughetta (Emléklapra)
+  - title: Finale (A szabadsághoz)
+publications:
+  - publisher_id: afp
+    type: all
+setting: 2 (picc.), 2, 2, 2 – 4, 3, 3, 0 – timp., batt. – arpa – archi
+texts: 
+  hu: in Hungarian by Ferenc Kölcsey
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Kölcsey Szózata
