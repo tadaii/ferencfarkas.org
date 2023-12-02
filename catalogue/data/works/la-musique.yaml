@@ -1,0 +1,21 @@
+category: cantata_oratorio
+composition_date: 1990
+date: 2023.12.02
+dedication: écrit pour le Florilège vocal de Tours et dédié á Claude Panterne
+description: for mixed choir and wind ensemble
+duration: 300
+id: la-musique
+publications:
+  - publisher_id: ascolta
+    type: all
+setting: 2 fl., 2 ob., 2 cl., 2 fg., 2 cor., 2 tr.
+texts:
+  fr: in French by Victor Hugo
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+    - fr
+  translations:
+    fr: La musique
