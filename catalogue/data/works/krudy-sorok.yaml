@@ -1,0 +1,18 @@
+category: cantata_oratorio
+composition_date: 1988
+date: 2023-12-03
+description: Chamber cantata for female choir, oboe, 3 violins and violoncello 
+duration: 600
+id: krudy-sorok
+publications:
+  - publisher_id: kontrapunkt
+    type: all
+texts:
+  hu: in Hungarian by Gyula Krúdy
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Krúdy-sorok
