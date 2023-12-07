@@ -1,0 +1,23 @@
+category: cantata_oratorio
+composition_date: 1977
+date: 2023-12-07
+description: Cantata for tenor and baritone solo, male choir and organ
+duration: 900
+id: psaume-de-fete-tenor-baritone-male-choir-organ
+movements:
+  - title: Chantez avec allégresse
+  - title: O Eternel, notre Seigneur
+  - title: Que les peuples te louent
+publications:
+  - publisher_id: afp
+    type: all
+rewokk_of: psaumes-de-fete
+texts:
+  fr: in French, based on Psalms 81, 33, 68 and 47
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Psaumes de fête
