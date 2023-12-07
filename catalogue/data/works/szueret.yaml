@@ -1,0 +1,33 @@
+category: cantata_oratorio
+composition_date: 1951
+date: 2023-12-07
+description: Cantata for mixed choir and orchestra
+duration: 780
+id: szueret
+movements:
+  - title: Moderato
+  - title: Meno mosso 
+  - title: Megérett a szőlő
+  - title: Szőlőtaposó tánc
+  - title: Láttad-é az én ludaimat
+  - title: Kádár-tánc
+  - title: Megérett a kökény
+  - title: Bús az ember
+  - title: Nincsen hideg
+  - title: Túl a Tiszán
+publications:
+  - publisher_id: afp
+    type: all
+setting: fl. (picc.), 3 cl., 3 zimb. ungh., archi
+texts: 
+  hu: in Hungarian
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Szüret / Megérett a szőlő
+
+    
+
