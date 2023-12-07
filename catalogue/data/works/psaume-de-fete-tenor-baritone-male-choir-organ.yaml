@@ -11,7 +11,7 @@ movements:
 publications:
   - publisher_id: afp
     type: all
-rewokk_of: psaumes-de-fete
+rework_of: psaumes-de-fete
 texts:
   fr: in French, based on Psalms 81, 33, 68 and 47
 title:
