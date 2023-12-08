@@ -5,6 +5,10 @@ dedication: aux Choeurs de Chailly sur Clarens á l'occasion de leur centenaire 
 description: Cantata for baritone solo, mixed choir and orchestra  
 duration: 900
 id: virgilii-georgica
+movements:
+  - title: De varietate vinorum
+  - title: De vitibus colendis
+  - title: Conclusio
 publications:
   - publisher_id: afp
     type: all
