@@ -1,0 +1,10 @@
+- id: turris-hungariae-score
+  score_type: score
+  ref: /CANTATA-ORATORIO/Turris Hungariae/score/score.pdf
+  manuscript: true
+  published: false
+- id: turris-hungariae-piano-reduction
+  score_type: piano-reduction
+  ref: /CANTATA-ORATORIO/Turris Hungariae/score/piano reduction.pdf
+  manuscript: true
+  published: false
