@@ -1,0 +1,15 @@
+- id: vivit-dominus-score
+  score_type: score
+  ref: /CANTATA-ORATORIO/Vivit dominus/score/score.pdf
+  manuscript: true
+  published: false
+- id: vivit-dominus-piano-reduction
+  score_type: piano-reduction
+  ref: /CANTATA-ORATORIO/Vivit dominus/score/piano reduction.pdf
+  manuscript: true
+  published: false
+- id: vivit-dominus-material
+  score_type: material
+  ref: /CANTATA-ORATORIO/Vivit dominus/score/material.pdf
+  manuscript: true
+  published: false
