@@ -39,10 +39,9 @@ duration: 6720
 id: vidroczki
 libretto:
   hu: In hungarian Ernö Innocent Vincze
-publication:
+publications:
  - publisher_id: afp
    type: score
-publications:
  - publisher_id: emb
    type: piano reduction
 setting: 3 (picc.), 2, 2 (cl.b.), 2 – 4, 3, 3, 0 – timp. batt. (3 ess) – arpa, pf., cel., zimb. ungh. – archi
