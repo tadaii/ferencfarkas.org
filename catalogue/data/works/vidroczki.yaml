@@ -32,11 +32,20 @@ cast:
   - role: Hajdu
     voice: prose
 category: opera
-date: 2019-04-08T21:36:00.000Z
+composition_date: 1963-1964
+date: 2023-12-23
 description: Popular romantic opera in 3 acts
+duration: 6720
 id: vidroczki
 libretto:
   hu: In hungarian Ernö Innocent Vincze
+publication:
+ - publisher_id: afp
+   type: score
+publications:
+ - publisher_id: emb
+   type: piano reduction
+setting: 3 (picc.), 2, 2 (cl.b.), 2 – 4, 3, 3, 0 – timp. batt. (3 ess) – arpa, pf., cel., zimb. ungh. – archi
 synopsis: The adventures and the death of Vidróczki, bandit from the Mátra
   country in the 19th century.
 title:
@@ -46,37 +55,11 @@ title:
     - hu
   translations:
     hu: Vidróczki
-versions:
-  - composition_date: 1958-1959
-    publications:
-      - publisher_id: afp
-        type: piano reduction
-    version: "Original version: musical ballad in 2 parts for the radio"
-  - composition_date: 1963-1964
-    default: true
-    duration: 6720
-    setting: 3 (picc.), 2, 2 (cl.b.), 2 – 4, 3, 3, 0 – timp. batt. (3 ess) – arpa,
-      pf., cel., zimb. ungh. – archi
-    publications:
-      - publisher_id: afp
-        type: score
-      - publisher_id: afp
-        type: piano reduction
-    version: Version for the theatre
-    world_premiere:
-      credits:
-        - Conducted by Viktor Vaszy
-        - "Stage director: András Mikó"
-        - "Stage design: Mátyás Varga"
-        - "Costumes: Tivadar Márk"
-      date: 1964
-      location: Open Air Festival of Szeged
-  - composition_date: 1978
-    duration: 6720
-    setting: 3 (picc.), 2, 2 (cl.b.), 2 – 4, 3, 3, 0 – timp. batt. (3 ess) – arpa,
-      pf., cel., zimb. ungh. – archi
-    publications:
-      - publisher_id: afp
-        type: score
-      - publisher_id: EMB
-        type: piano reduction
+world_premiere:
+  credits:
+    - Conducted by Viktor Vaszy
+    - "Stage director: András Mikó"
+    - "Stage design: Mátyás Varga"
+    - "Costumes: Tivadar Márk"
+  date: 1978
+  location: Open Air Festival of Szeged
