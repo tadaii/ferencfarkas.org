@@ -13,3 +13,8 @@
   ref: /CANTATA-ORATORIO/Psaumes de fête/score/material.pdf
   manuscript: true
   published: false
+- id: psaumes-de-fete-choir-score
+  score_type: choir-score
+  ref: /CANTATA-ORATORIO/Psaumes de fête/score/choir score.pdf
+  manuscript: true
+  published: false
