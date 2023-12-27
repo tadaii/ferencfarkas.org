@@ -1,0 +1,5 @@
+- id: vidroczki-score
+  score_type: score
+  ref: /OPERA/Vidróczki/score/score.pdf
+  manuscript: true
+  published: false
