@@ -1,6 +1,12 @@
 - id: requiem-1
   description: Requiem
+  cd: a26
+  track: 10
 - id: requiem-2
   description: Kyrie
+  cd: a26
+  track: 11
 - id: requiem-3
   description: Dies Irae
+  cd: a26
+  track: 12

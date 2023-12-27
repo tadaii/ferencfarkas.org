@@ -29,6 +29,10 @@
           {
             "const": "solo-part",
             "description": "Piano reduction"
+          },
+          {
+            "const": "choir-score",
+            "description": "Choir score"
           }
         ]
       },

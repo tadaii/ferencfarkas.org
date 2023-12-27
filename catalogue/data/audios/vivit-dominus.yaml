@@ -1,6 +1,12 @@
 - id: vivit-dominus-1
   description: Extract
+  cd: p36
+  track: 14
 - id: vivit-dominus-2
   description: Extract
+  cd: p36
+  track: 16
 - id: vivit-dominus-3
   description: End
+  cd: p36
+  track: 18

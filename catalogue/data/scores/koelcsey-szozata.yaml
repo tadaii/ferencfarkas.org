@@ -1,0 +1,20 @@
+- id: koelcsey-szozata-score
+  score_type: score
+  ref: /CANTATA-ORATORIO/Kölcsey Szózata/score/score.pdf
+  manuscript: true
+  published: false
+- id: koelcsey-szozata-piano-reduction
+  score_type: piano-reduction
+  ref: /CANTATA-ORATORIO/Kölcsey Szózata/score/piano reduction.pdf
+  manuscript: true
+  published: false
+- id: koelcsey-szozata-material
+  score_type: material
+  ref: /CANTATA-ORATORIO/Kölcsey Szózata/score/material.pdf
+  manuscript: true
+  published: false
+- id: koelcsey-szozata-choir-score
+  score_type: choir-score
+  ref: /CANTATA-ORATORIO/Kölcsey Szózata/score/choir score.pdf
+  manuscript: true
+  published: false

@@ -40,7 +40,10 @@ libretto:
   de: German translated
 publications:
   - publisher_id: afp
-    type: all
+    type: score
+  - publisher_id: afp
+    type: piano reduction
+nb: performance material at the Hungarian State Opera House of Budapest 
 setting: 1, 1, 1, 1 – 2, 1, 1, 0 – timp., batt. – arpa, pf. (cel.) – 1 vl. I, 1
   vl. II, 1 viola, 1 vlc., 1 cb.
 synopsis: >

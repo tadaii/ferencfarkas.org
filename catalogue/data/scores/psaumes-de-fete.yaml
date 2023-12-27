@@ -1,0 +1,20 @@
+- id: psaumes-de-fete-score
+  score_type: score
+  ref: /CANTATA-ORATORIO/Psaumes de fête/score/score.pdf
+  manuscript: true
+  published: false
+- id: psaumes-de-fete-piano-reduction
+  score_type: piano-reduction
+  ref: /CANTATA-ORATORIO/Psaumes de fête/score/piano reduction.pdf
+  manuscript: true
+  published: false
+- id: psaumes-de-fete-material
+  score_type: material
+  ref: /CANTATA-ORATORIO/Psaumes de fête/score/material.pdf
+  manuscript: true
+  published: false
+- id: psaumes-de-fete-choir-score
+  score_type: choir-score
+  ref: /CANTATA-ORATORIO/Psaumes de fête/score/choir score.pdf
+  manuscript: true
+  published: false

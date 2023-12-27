@@ -1,6 +1,12 @@
 - id: missa-im-honorem-sancti-andreae-1
   description: Kyrie
+  cd: p82
+  track: 9
 - id: missa-im-honorem-sancti-andreae-3
   description: Hosanna
+  cd: p82
+  track: 13
 - id: missa-im-honorem-sancti-andreae-4
   description: Agnus Dei
+  cd: p82
+  track: 14

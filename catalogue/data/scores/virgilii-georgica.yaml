@@ -1,0 +1,15 @@
+- id: virgilii-georgica-score
+  score_type: score
+  ref: /CANTATA-ORATORIO/Virgilii Georgica/score/score.pdf
+  manuscript: true
+  published: false
+- id: virgilii-georgica-piano-reduction
+  score_type: piano-reduction
+  ref: /CANTATA-ORATORIO/Virgilii Georgica/score/piano reduction.pdf
+  manuscript: true
+  published: false
+- id: virgilii-georgica-material
+  score_type: material
+  ref: /CANTATA-ORATORIO/Virgilii Georgica/score/material.pdf
+  manuscript: true
+  published: false
