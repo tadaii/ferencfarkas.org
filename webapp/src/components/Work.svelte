@@ -127,6 +127,8 @@
                   Piano reduction
                 {:else if score.type === 'solo-part'}
                   Solo part
+                {:else if score.type === 'choir-score'}
+                  Choir score
                 {/if}
                 <span class="file-size">
                   {score.size}
