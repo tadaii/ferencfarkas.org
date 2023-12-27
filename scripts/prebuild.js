@@ -54,11 +54,11 @@ const getWorks = async ({ dir, genres, categories }) => {
     // Story
     const storyFile = `./catalogue/assets/texts/about/${work.id}.md`
     let hasStory = false
-    
+
     try {
       await fs.access(storyFile)
       hasStory = true
-    } catch(_) {}
+    } catch (_) {}
 
     if (hasStory) {
       const data = await fs.readFile(storyFile, 'utf8')
@@ -73,11 +73,11 @@ const getWorks = async ({ dir, genres, categories }) => {
     // Audios
     const audioFile = `./catalogue/data/audios/${work.id}.yaml`
     let hasAudio = false
-    
+
     try {
       await fs.access(audioFile)
       hasAudio = true
-    } catch(_) {}
+    } catch (_) {}
 
     if (hasAudio) {
       const audios = await yaml2json(audioFile)
@@ -91,12 +91,12 @@ const getWorks = async ({ dir, genres, categories }) => {
     try {
       await fs.access(scoresFile)
       hasScores = true
-    } catch(_) {}
+    } catch (_) {}
 
     if (hasScores) {
       const buildScoreUrl = score => `${mediaBaseUrl}/scores/${score.id}.pdf`
       const scores = await yaml2json(scoresFile)
-      
+
       for (const score of scores) {
         const url = new URL(buildScoreUrl(score))
         const res = await fetch(url, { method: 'head' })
@@ -108,7 +108,7 @@ const getWorks = async ({ dir, genres, categories }) => {
       work.scores = scores.map(score => ({
         url: buildScoreUrl(score),
         type: score.score_type,
-        size: `${score.size.value}${score.size.unit}`
+        size: `${score.size.value}${score.size.unit}`,
       }))
 
       work.publications = [{ type: 'all', download: true }]
@@ -125,7 +125,7 @@ const getWorks = async ({ dir, genres, categories }) => {
       } catch (e) {
         console.error(
           `Error finding story for work ${work.rework} in ${work.id}:`,
-          e
+          e,
         )
       }
       works.find(w => w.id === work.rework_of).rework = work.rework_of
@@ -302,7 +302,7 @@ async function run() {
 
     await fs.copyFile(
       join(srcAboutTheWork, file),
-      join(dstAboutTheWorkDir, file)
+      join(dstAboutTheWorkDir, file),
     )
   }
 }
