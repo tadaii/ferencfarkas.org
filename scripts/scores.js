@@ -47,7 +47,7 @@ const getLocalRefs = async () => {
 }
 
 const getRemoteRefs = async () => {
-  return new Promise(async (resolve, reject) => {
+  return new Promise((resolve, reject) => {
     let output = ''
     const refs = []
     const cmd = `find ${env.SCORES_REMOTE_DEST} -type f -printf '/%P\t%s\n'`
@@ -63,7 +63,7 @@ const getRemoteRefs = async () => {
       }
       resolve(refs)
     }
-    await sshExec(cmd, onData, onError, onDone)
+    return sshExec(cmd, onData, onError, onDone)
   })
 }
 

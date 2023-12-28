@@ -4,11 +4,13 @@ const masterBranch = 'master'
 const previewBranch = 'preview'
 
 const init = async () => {
-  const changes = git('diff --name-only').split('\n').filter(v => v)
+  const changes = git('diff --name-only')
+    .split('\n')
+    .filter(v => v)
 
   if (changes.length) {
     console.error(
-      'Branch is not clean. Please commit or stash your changes before running this script:'
+      'Branch is not clean. Please commit or stash your changes before running this script:',
     )
     console.error(changes)
     return
@@ -20,7 +22,7 @@ const init = async () => {
   if (!userName && !userEmail) {
     console.error('> Username and/or user email could not be found.')
     console.error(
-      "You can provide them either via the current repo's git config or via command args => `node scripts/release <username> <email>`"
+      "You can provide them either via the current repo's git config or via command args => `node scripts/release <username> <email>`",
     )
     return
   }
@@ -30,7 +32,7 @@ const init = async () => {
 
   if (currentBranch !== previewBranch) {
     console.error(
-      `You're not in the ${previewBranch} branch. Please switch to this branch before running this script.`
+      `You're not in the ${previewBranch} branch. Please switch to this branch before running this script.`,
     )
     return
   }
@@ -49,7 +51,7 @@ const init = async () => {
 }
 
 const check = async () => {
-  if (!await init()) {
+  if (!(await init())) {
     return
   }
 
@@ -62,23 +64,33 @@ const check = async () => {
     .filter(v => v)
     .map(commitBlock => {
       const hash = commitBlock.substring(0, commitBlock.indexOf('\n')).trim()
-      const author = commitBlock.match(/Author: ([^\n]+)/gmi)[0].replace('Author: ', '').trim()
-      const date = new Date(commitBlock.match(/Date: ([^\n]+)/gmi)[0].replace('Date: ', '').trim())
+      const author = commitBlock
+        .match(/Author: ([^\n]+)/gim)[0]
+        .replace('Author: ', '')
+        .trim()
+      const date = new Date(
+        commitBlock
+          .match(/Date: ([^\n]+)/gim)[0]
+          .replace('Date: ', '')
+          .trim(),
+      )
       const message = commitBlock.split('\n\n')[1].trim()
       return { hash, author, date, message }
     })
-  
+
   console.log(JSON.stringify({ commits, files }))
 }
 
 const release = async () => {
   try {
-    if (!await init()) {
+    if (!(await init())) {
       return
     }
 
-    const changes = git(`diff --name-only ${masterBranch}..${previewBranch}`).split('\n')
-    
+    const changes = git(
+      `diff --name-only ${masterBranch}..${previewBranch}`,
+    ).split('\n')
+
     if (changes.length === 0) {
       console.error('No content changes since last release. Exiting')
       return

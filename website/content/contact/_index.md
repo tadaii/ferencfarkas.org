@@ -58,11 +58,12 @@ menu:
 <br>
 Represents the private collection of András Farkas, the son of the composer.
 It includes all the works of Ferenc Farkas that have not yet been edited.
-These works can be sent to you by e-mail in PDF format.
 
-It also contains privately-made compilation CD's of Ferenc Farkas' music,
-mostly grouped by genre or category, as well as live recordings.
-<br><br>
+We are in the process of providing every manuscript in our possession on this
+website as free download. However, this might last quite some time and until
+we are finished witht his task, the works that are not yet online can be sent
+to you by e-mail in PDF format.
+
 ### Contact
 **Andràs Farkas**
 <br>
