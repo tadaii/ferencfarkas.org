@@ -27,7 +27,7 @@ const dstAboutTheWorkDir = resolve(root, 'website/content/work')
 
 const renderer = new marked.Renderer()
 
-renderer.link = href => {
+renderer.link = function (href) {
   const link = marked.Renderer.prototype.link.apply(this, arguments)
 
   if (/https:\/\/[^.]+\.ferencfarkas\.org/.test(href)) {
