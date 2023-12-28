@@ -342,11 +342,13 @@
         display: flex;
         justify-content: flex-end;
         padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
         border-top: 1px dashed rgba(0,0,0, 0.15);
 
         @media screen and (min-width: 768px) {
           align-self: flex-end;
           padding-top: 0;
+          padding-bottom: 0;
           border-top: none;
         }
         
