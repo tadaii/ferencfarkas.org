@@ -35,6 +35,10 @@
 
   dd {
     margin: 0;
+
+    > p:first-of-type {
+      margin-top: 0;
+    }
   }
 
   ul {
@@ -124,4 +128,6 @@
       display: inline-block;
     }
   }
+
+
 }

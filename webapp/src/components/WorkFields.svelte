@@ -141,6 +141,8 @@
         {/if}
       {:else if key === 'date'}
         {formatDate(value)}
+      {:else if key === 'nb'}
+        {@html value}
       {:else}
         {value || '-'}
       {/if}

@@ -4,6 +4,7 @@ const yaml = require('yaml')
 const fm = require('front-matter')
 const bytesize = require('byte-size')
 const lunr = require('lunr')
+const marked = require('marked')
 require('lunr-languages/lunr.stemmer.support')(lunr)
 require('lunr-languages/lunr.multi')(lunr)
 require('lunr-languages/lunr.hu')(lunr)
@@ -23,6 +24,22 @@ const dstSearchIdx = resolve(root, 'website/static/_catalogue/i.json')
 const dstI18nDir = resolve(root, 'website/static/_catalogue/i18n')
 const dstAudioDir = resolve(root, 'website/static/audio')
 const dstAboutTheWorkDir = resolve(root, 'website/content/work')
+
+const renderer = new marked.Renderer()
+
+renderer.link = href => {
+  const link = marked.Renderer.prototype.link.apply(this, arguments)
+
+  if (/https:\/\/[^.]+\.ferencfarkas\.org/.test(href)) {
+    return link.replace('<a', '<a class="link"')
+  }
+
+  return link.replace('<a', '<a class="link" target="_blank"')
+}
+
+marked.setOptions({
+  renderer,
+})
 
 const yaml2json = async file => {
   const content = await fs.readFile(file)
@@ -50,6 +67,11 @@ const getWorks = async ({ dir, genres, categories }) => {
     }
 
     work.genre = categories[work.category].genre
+
+    // Markdown fields
+    if (work.nb) {
+      work.nb = marked.parse(work.nb)
+    }
 
     // Story
     const storyFile = `./catalogue/assets/texts/about/${work.id}.md`
