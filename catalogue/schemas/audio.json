@@ -26,12 +26,12 @@
         "type": "integer"
       },
       "start": {
-        "description": "The audio sample start position in seconds.",
-        "type": "integer"
+        "description": "The audio sample start position in seconds.\nNote: You can use seconds with decimals for high prcision cutting in the audio sample.",
+        "type": "number"
       },
       "end": {
         "description": "The audio sample end position in seconds.\nThe sample should not be longer than 30s when taken from a published audio work.",
-        "type": "integer"
+        "type": "number"
       },
       "ref": {
         "description": "Not implemented yet (will be similar to the `ref` field of scores.",
