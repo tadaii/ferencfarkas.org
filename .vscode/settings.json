@@ -7,6 +7,6 @@
   "runOnSave.commands": [{
     "globMatch": "**/catalogue/data/works/*.yaml",
     "command": "npm run work:setdate ${file}",
-    "runIn": "terminal"
+    "runIn": "backend"
   }]
 }
