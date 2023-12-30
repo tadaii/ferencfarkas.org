@@ -1,0 +1,33 @@
+{
+  "type": "string",
+  "oneOf": [
+    {
+      "const": "score",
+      "description": "Score"
+    },
+    {
+      "const": "material",
+      "description": "Material (for orchestra)"
+    },
+    {
+      "const": "piano-reduction",
+      "description": "Piano reduction"
+    },
+    {
+      "const": "solo-part",
+      "description": "Piano reduction"
+    },
+    {
+      "const": "choir-score",
+      "description": "Choir score"
+    },
+    {
+      "const": "custom",
+      "description": "Custom score type"
+    },
+    {
+      "const": "all",
+      "description": "All publication (only use it in a work, not in a score)"
+    }
+  ]
+}

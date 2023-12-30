@@ -3,6 +3,7 @@ const { readFile } = require('fs/promises')
 const { resolve } = require('path')
 const { exec } = require('shelljs')
 const { Client } = require('ssh2')
+const yaml = require('yaml')
 
 const bumpVersion = async (version, level = 'patch') =>
   version
@@ -48,6 +49,10 @@ const git = cmd => {
   return output.stdout.trim()
 }
 
+const json2yaml = async jsonData => {
+  return yaml.stringify(jsonData)
+}
+
 const sshExec = async (cmd, onData, onError, onDone) => {
   const env = getEnv()
   const privateKey = await readFile(env.REMOTE_KEY)
@@ -81,4 +86,17 @@ const sshExec = async (cmd, onData, onError, onDone) => {
   })
 }
 
-module.exports = { bumpVersion, bumpNpmVersion, getEnv, git, sshExec }
+const yaml2json = async filePath => {
+  const content = await readFile(filePath)
+  return yaml.parse(content.toString())
+}
+
+module.exports = {
+  bumpVersion,
+  bumpNpmVersion,
+  getEnv,
+  git,
+  json2yaml,
+  sshExec,
+  yaml2json,
+}

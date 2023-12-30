@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "csstools.postcss",
+    "pucelle.run-on-save",
+    "redhat.vscode-yaml",
+    "svelte.svelte-vscode",
+    "tamasfe.even-better-toml"
+  ]
+}

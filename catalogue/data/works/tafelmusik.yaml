@@ -14,7 +14,7 @@ publications:
   - publisher_id: afp
     type: score
   - publisher_id: sidem
-    type: performance material
+    type: material
 setting: 1, 1, 2, 1 – 2, 1, 1, 0 – archi
 title:
   main: de

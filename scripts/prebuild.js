@@ -1,10 +1,10 @@
 const { join, resolve } = require('path')
 const fs = require('fs/promises')
-const yaml = require('yaml')
 const fm = require('front-matter')
 const bytesize = require('byte-size')
 const lunr = require('lunr')
 const marked = require('marked')
+const { yaml2json } = require('./common')
 require('lunr-languages/lunr.stemmer.support')(lunr)
 require('lunr-languages/lunr.multi')(lunr)
 require('lunr-languages/lunr.hu')(lunr)
@@ -40,11 +40,6 @@ renderer.link = function (href) {
 marked.setOptions({
   renderer,
 })
-
-const yaml2json = async file => {
-  const content = await fs.readFile(file)
-  return yaml.parse(content.toString())
-}
 
 const getWorks = async ({ dir, genres, categories }) => {
   const works = []

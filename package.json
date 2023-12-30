@@ -6,6 +6,7 @@
   "scripts": {
     "start": "npm run website:serve",
     "dev": "run-p webapp:serve website:serve",
+    "work:setdate": "node ./scripts/workdate",
     "prebuild": "node ./scripts/prebuild",
     "release": "node ./scripts/release",
     "release:check": "node ./scripts/release check",
