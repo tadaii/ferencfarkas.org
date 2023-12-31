@@ -25,5 +25,12 @@
     "version": "Version",
     "voice": "Voice",
     "world_premiere": "World premiere"
+  },
+  "score_type": {
+    "score": "Main score",
+    "material": "Performance material",
+    "piano-reduction": "Piano reduction",
+    "solo-part": "Solo part",
+    "choir-score": "Choir score"
   }
 }

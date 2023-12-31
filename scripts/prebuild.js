@@ -128,7 +128,20 @@ const getWorks = async ({ dir, genres, categories }) => {
         size: `${score.size.value}${score.size.unit}`,
       }))
 
-      work.publications = [{ type: 'all', download: true }]
+      const scoreTypes = (work.scores || []).map(score => score.type)
+
+      if (work.publications?.length) {
+        work.publications = work.publications.map(publication => ({
+          ...publication,
+          downloadable:
+            (!publication.type && work.scores.length > 0) ||
+            scoreTypes.includes(publication.type),
+        }))
+
+        if (work.publications.every(p => p.downloadable)) {
+          work.publications = [{ downloadable: true }]
+        }
+      }
     }
 
     works.push(work)

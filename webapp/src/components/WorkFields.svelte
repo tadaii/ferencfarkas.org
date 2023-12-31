@@ -97,10 +97,16 @@
         <ul>
           {#each value as publication}
             <li>
-              {#if publication.type !== 'all'}
-                <em>{publication.type}:</em>
+              {#if publication.type && work.publications.some(p => !p.downloadable)}
+                <em>
+                  {#if i18n.score_type[publication.type]}
+                    {i18n.score_type[publication.type]}:
+                  {:else}
+                    {publication.type}:
+                  {/if}
+                </em>
               {/if}
-              {#if publication.download}
+              {#if publication.downloadable}
                 Free download
               {:else if publishers[publication.publisher_id].url}
                 <a

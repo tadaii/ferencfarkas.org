@@ -169,6 +169,7 @@
       index={work.index}
       {reworkActive}
       {work}
+      {i18n}
     />
   {/each}
 </ul>
