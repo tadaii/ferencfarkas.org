@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1972
-date: 2021-03-11
+date: 2023-12-30T17:21:19.963Z
 description: for flute, viola and horn
 duration: 300
 id: three-dance-paraphrases
@@ -10,7 +10,6 @@ movements:
   - title: Allegro
 publications:
   - publisher_id: emb
-    type: all
 title:
   main: en
   original: hu

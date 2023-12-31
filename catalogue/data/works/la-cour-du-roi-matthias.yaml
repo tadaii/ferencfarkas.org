@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1977
-date: 2021-01-05
+date: 2023-12-30T17:21:33.567Z
 dedication: to the Berner Solisten
 description: Dance suite for clarinet, bassoon, horn and string quintet
 duration: 982
@@ -13,7 +13,6 @@ movements:
   - title: A vár népének tánca / Danse du peuple du château
 publications:
   - publisher_id: emb
-    type: all
 rework_of: panegyricus
 title:
   main: fr

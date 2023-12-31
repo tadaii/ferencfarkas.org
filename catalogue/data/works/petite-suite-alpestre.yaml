@@ -1,6 +1,6 @@
 category: solo
 composition_date: 1976
-date: 2023-04-09
+date: 2023-12-30T17:21:29.640Z
 dedication: to József Molnár
 description: for Alphorn
 duration: 600
@@ -9,12 +9,11 @@ movements:
   - title: Prélude
   - title: Etude
   - title: Scherzo
-  - title: Tempo di valse 
+  - title: Tempo di valse
   - title: Intermède
   - title: Fanfare
 publications:
   - publisher_id: afp
-    type: all
 title:
   main: fr
   original: fr

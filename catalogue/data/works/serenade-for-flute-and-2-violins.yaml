@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1965
-date: 2021-03-09
+date: 2023-12-30T17:21:28.387Z
 description: for flute and 2 violins
 duration: 600
 id: serenade-for-flute-and-2-violins
@@ -12,7 +12,6 @@ movements:
   - title: Rondino
 publications:
   - publisher_id: emb
-    type: all
 rework_of: serenade
 title:
   main: en

@@ -1,14 +1,12 @@
----
 category: solo
 composition_date: 1972
-date: 2023-04-05
-dedication: Mancikának szeretettel 
+date: 2023-12-30T17:21:28.084Z
+dedication: Mancikának szeretettel
 description: for piano
 duration: 50
 id: greeting-for-name-day
 publications:
   - publisher_id: afp
-    type: all
 title:
   main: en
   original: hu
@@ -17,4 +15,4 @@ title:
     - hu
   translations:
     en: Greeting for Name Day
-    hu: Névnapi köszöntő 
+    hu: Névnapi köszöntő

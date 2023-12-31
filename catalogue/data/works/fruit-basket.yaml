@@ -1,8 +1,8 @@
----
 category: voice_piano
 composition_date: 1946
-date: 2021-03-13
-dedication: “ Altatódal / Wiegenlied / Berceuse ” is dedicated to my son András for his first birthday
+date: 2023-12-30T17:21:33.243Z
+dedication: “ Altatódal / Wiegenlied / Berceuse ” is dedicated to my son András
+  for his first birthday
 description: Cycle of 12 songs for voice and piano
 duration: 1020
 id: fruit-basket
@@ -21,7 +21,6 @@ movements:
   - title: Déli felhők / Mittagswolken / Dans les nuages
 publications:
   - publisher_id: emb
-    type: all
 texts:
   hu: in hungarian by Sándor Weöres
   de: German translated by Johannes Kretzschmar
@@ -36,4 +35,5 @@ title:
     en: Fruit basket
     hu: Gyümölcskosár
     de: Fruchtkorb
-nb: French translation of the words by Sándor Weöres is available in “ Fruit basket for voice and clarinet quartet “
+nb: French translation of the words by Sándor Weöres is available in “ Fruit
+  basket for voice and clarinet quartet “

@@ -1,6 +1,5 @@
----
 category: chamber
-date: 2021-04-29
+date: 2023-12-30T17:21:33.734Z
 description: for double-bass and  cimbalom
 duration: 420
 id: sonatina-based-on-hungarian-folk-songs-for-double-bass-and-cimbalom
@@ -10,7 +9,6 @@ movements:
   - title: Allegro vivace
 publications:
   - publisher_id: afp
-    type: all
 rework_of: sonatina-based-on-hungarian-folk-songs
 title:
   main: en

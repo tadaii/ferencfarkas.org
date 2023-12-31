@@ -1,15 +1,13 @@
---- 
 category: orchestra
 composition_date: 1942
-date: 2021-01-04
+date: 2023-12-30T17:21:31.658Z
 description: Concert overture for orchestra from the opera “The magic cupboard”
 duration: 360
 id: the-magic-wardrobe
 publications:
   - publisher_id: emb
-    type: all
 rework_of: the-magic-cupboard
-setting: '2, 2, 2, 2 – 4, 3, 3, 1 – timp., batt. – arpa, cel., vibr.(ad lib.) – archi'
+setting: 2, 2, 2, 2 – 4, 3, 3, 1 – timp., batt. – arpa, cel., vibr.(ad lib.) – archi
 title:
   main: en
   original: en

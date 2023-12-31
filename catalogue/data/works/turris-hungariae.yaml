@@ -1,14 +1,13 @@
 category: cantata_oratorio
 composition_date: 1977-78
-date: 2023-12-08
+date: 2023-12-30T17:21:28.778Z
 description: Cantata for reciter, mixed choir and orchestra
 duration: 720
 id: turris-hungariae
 publications:
   - publisher_id: afp
-    type: all
 setting: 2, 2, 2, 2 – 3, 2, 3, 0 – timp., batt. - archi
-texts: 
+texts:
   hu: in Hungarian by Miklós Istvánffy, Miklós Zrinyi and anonymous authors
 title:
   main: hu
@@ -17,6 +16,3 @@ title:
     - hu
   translations:
     hu: Turris Hungariae. Enek Vitéz Thúry Györgyröl
-
-    
-

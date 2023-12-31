@@ -1,6 +1,6 @@
 category: solo
 composition_date: 1941
-date: 2021-03-11
+date: 2023-12-30T17:21:30.638Z
 description: for piano
 duration: 420
 id: three-burlesques
@@ -10,7 +10,6 @@ movements:
   - title: Allegro
 publications:
   - publisher_id: emb
-    type: all
 title:
   main: en
   original: hu

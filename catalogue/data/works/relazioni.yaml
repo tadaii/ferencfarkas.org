@@ -1,6 +1,6 @@
 category: concerto
 composition_date: 1997
-date: 2023-01-12
+date: 2023-12-30T17:21:31.497Z
 description: for violin and string orchestra
 duration: 360
 id: relazioni
@@ -10,7 +10,6 @@ movements:
   - title: Allegretto
 publications:
   - publisher_id: ascolta
-    type: all
 title:
   main: it
   original: it

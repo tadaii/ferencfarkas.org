@@ -1,6 +1,5 @@
----
 category: chamber
-date: 2021-03-11
+date: 2023-12-30T17:21:19.783Z
 description: for oboe, violin, viola and violoncello adapted by Lajos Lencsés, 2018
 duration: 540
 id: sonatina-3-for-oboe-violin-viola-and-violoncello
@@ -10,7 +9,6 @@ movements:
   - title: Allegro
 publications:
   - publisher_id: afp
-    type: all
 rework_of: sonatina-3
 title:
   main: it

@@ -1,6 +1,6 @@
 category: voice_piano
 composition_date: 1933 - 1976
-date: 2021-03-14
+date: 2023-12-30T17:21:32.729Z
 description: Cycle of 5 songs for voice and piano or organ
 duration: 660
 id: rosarium
@@ -12,7 +12,6 @@ movements:
   - titre: Assumpta est
 publications:
   - publisher_id: afp
-    type: all
 texts:
   la: in latin
 title:

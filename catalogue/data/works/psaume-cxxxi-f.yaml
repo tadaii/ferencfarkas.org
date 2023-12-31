@@ -1,11 +1,10 @@
 category: choir
-date: 2022-04-03
+date: 2023-12-30T17:21:02.568Z
 description: for 4-part mixed choir
 duration: 187
 id: psaume-cxxxi-f
 publications:
   - publisher_id: afp
-    type: all
 rework_of: psalm-cxxxi
 texts:
   fr: in French

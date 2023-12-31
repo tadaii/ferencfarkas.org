@@ -1,8 +1,7 @@
----
 category: chamber
 composition_date: 1977
-date: 2021-04-28
-description: 5 hungarian folk melodies for guitar trio 
+date: 2023-12-30T17:21:33.379Z
+description: 5 hungarian folk melodies for guitar trio
 duration: 300
 id: ricordo-di-somogy
 movements:
@@ -13,7 +12,6 @@ movements:
   - title: Allegro moderato
 publications:
   - publisher_id: afp
-    type: all
 title:
   main: it
   original: it

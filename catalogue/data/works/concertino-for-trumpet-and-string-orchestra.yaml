@@ -1,6 +1,6 @@
 category: concerto
 composition_date: 1984
-date: 2021-01-24
+date: 2023-12-30T17:21:32.879Z
 dedication: Szeged város felkérésére a IV. Szegedi Kamarazenekari Napok alkalmából
 duration: 900
 id: concertino-for-trumpet-and-string-orchestra
@@ -10,7 +10,6 @@ movements:
   - title: Allegro
 publications:
   - publisher_id: emb
-    type: all
 title:
   main: en
   original: en

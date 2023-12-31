@@ -1,6 +1,6 @@
 category: male
 composition_date: 1936
-date: 2022-04-12
+date: 2023-12-30T17:21:33.767Z
 description: 4 melodies from the district of Somogy for 3-part male choir
 duration: 180
 id: a-labodi-hegy-alatt
@@ -11,7 +11,6 @@ movements:
   - title: Csipkebokrot vágattam
 publications:
   - publisher_id: afp
-    type: all
 texts:
   hu: in Hungarian
 title:
@@ -20,4 +19,4 @@ title:
   sort:
     - hu
   translations:
-    hu: A lábodi hegy alatt  
+    hu: A lábodi hegy alatt

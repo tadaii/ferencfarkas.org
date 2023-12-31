@@ -1,7 +1,8 @@
 category: children
-date: 2022-04-26
+date: 2023-12-30T17:21:26.820Z
 composition_date: 1970
-description: 10 Christmas songs for unisono children’s choir and 2 or 3 or 4 guitars adapted by Ferenc Fodor
+description: 10 Christmas songs for unisono children’s choir and 2 or 3 or 4
+  guitars adapted by Ferenc Fodor
 duration: 865
 id: karacsonyi-dalok-gitar-kíserettel
 movements:
@@ -17,7 +18,6 @@ movements:
   - title: Szent József ìgy szólt for 2 guitars
 publications:
   - publisher_id: afp
-    type: all
 rework_of: christmas-album
 texts:
   hu: in Hungarian

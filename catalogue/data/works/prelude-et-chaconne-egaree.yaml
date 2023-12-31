@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1990
-date: 2021-04-28
+date: 2023-12-30T17:21:33.259Z
 description: for viola d'amore, 2 violins and violoncello
 duration: 324
 id: prelude-et-chaconne-egaree
@@ -9,7 +9,6 @@ movements:
   - title: Chaconne égarée
 publications:
   - publisher_id: afp
-    type: all
 title:
   main: fr
   original: fr

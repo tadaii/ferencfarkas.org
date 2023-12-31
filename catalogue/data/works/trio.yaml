@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1979
-date: 2021-05-01
+date: 2023-12-30T17:21:32.028Z
 description: for violin, violoncello and piano
 duration: 720
 id: trio
@@ -10,7 +10,6 @@ movements:
   - title: Allegro leggero
 publications:
   - publisher_id: emb
-    type: all
 title:
   main: it
   original: it

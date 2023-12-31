@@ -1,6 +1,6 @@
 category: cantata_oratorio
 composition_date: 1977
-date: 2023-12-07
+date: 2023-12-30T17:21:33.045Z
 description: Cantata for tenor and baritone solo, male choir and organ
 duration: 900
 id: psaume-de-fete-tenor-baritone-male-choir-organ
@@ -10,7 +10,6 @@ movements:
   - title: Que les peuples te louent
 publications:
   - publisher_id: afp
-    type: all
 rework_of: psaumes-de-fete
 texts:
   fr: in French, based on Psalms 81, 33, 68 and 47

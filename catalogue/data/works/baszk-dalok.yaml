@@ -1,6 +1,6 @@
 category: female
 composition_date: 1986
-date: 2022-04-23
+date: 2023-12-30T17:21:29.901Z
 dedication: a Budatoki Kamarakórusnak és karnagyának Biller Istvánnak
 description: 5 Basque songs for 3-part female choir
 duration: 617
@@ -13,7 +13,6 @@ movements:
   - title: Oly csodaszépen / Chorietan buruzagi
 publications:
   - publisher_id: emb
-    type: all
 texts:
   baq: in Basque
   hu: Hungarian transalted by Ernö Hárs
@@ -26,4 +25,3 @@ title:
   translations:
     hu: Baszk dalok
     baq: Euskal abestiak
-     

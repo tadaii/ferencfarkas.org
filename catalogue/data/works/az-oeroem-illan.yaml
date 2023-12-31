@@ -1,6 +1,6 @@
 category: choir
 composition_date: 1962
-date: 2022-03-29
+date: 2023-12-30T17:21:25.103Z
 description: for 4-part mixed choir
 dedication: a Debreceni Kodály kórusnak és karmesterének Gulyás Györgynek
 duration: 540
@@ -11,7 +11,6 @@ movements:
   - title: Tavaszi Holdtölte
 publications:
   - publisher_id: emb
-    type: all
 texts:
   hu: in Hungarian by Árpád Tóth
 title:
@@ -20,4 +19,4 @@ title:
   sort:
     - hu
   translations:
-    hu: Az öröm illan 
+    hu: Az öröm illan

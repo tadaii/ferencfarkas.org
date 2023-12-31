@@ -1,5 +1,5 @@
 category: voice_piano
-date: 2021-03-13
+date: 2023-12-30T17:21:18.784Z
 description: Songs for soprano and piano or string orchestra based on old
   Hungarian sacred melodies
 duration: 480
@@ -11,7 +11,6 @@ movements:
   - title: O Jézus / Oh Jésus
 publications:
   - publisher_id: kontrapunkt
-    type: all
 texts:
   hu: in hungarian
   fr: French translated by Françoise Farkas

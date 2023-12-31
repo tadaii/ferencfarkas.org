@@ -1,6 +1,6 @@
 category: cantata_oratorio
 composition_date: 1992
-date: 2023-11-27
+date: 2023-12-30T17:21:33.289Z
 description: Cantata for tenor solo, mixed choir and orchestra
 duration: 1500
 id: koelcsey-szozata
@@ -16,9 +16,8 @@ movements:
   - title: Finale (A szabadsághoz)
 publications:
   - publisher_id: afp
-    type: all
 setting: 2 (picc.), 2, 2, 2 – 4, 3, 3, 0 – timp., batt. – arpa – archi
-texts: 
+texts:
   hu: in Hungarian by Ferenc Kölcsey
 title:
   main: hu

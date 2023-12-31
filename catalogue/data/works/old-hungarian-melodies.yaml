@@ -1,5 +1,5 @@
 category: solo
-date: 2021-05-06
+date: 2023-12-30T17:21:31.586Z
 description: Suite for harp
 duration: 540
 id: old-hungarian-melodies
@@ -9,7 +9,6 @@ movements:
   - title: Allegro, piacevole
 publications:
   - publisher_id: ascolta
-    type: all
 title:
   main: en
   original: hu

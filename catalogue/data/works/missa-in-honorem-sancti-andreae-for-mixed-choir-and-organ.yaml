@@ -1,6 +1,6 @@
 category: mass
 composition_date: 1962
-date: 2021-03-12
+date: 2023-12-30T17:21:33.007Z
 description: Mass for mixed choir and organ
 duration: 1620
 id: missa-in-honorem-sancti-andreae-for-mixed-choir-and-organ
@@ -13,7 +13,6 @@ movements:
   - title: Agnus Dei
 publications:
   - publisher_id: ascolta
-    type: all
 texts:
   la: in latin
 title:

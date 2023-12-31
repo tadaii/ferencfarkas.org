@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1961
-date: 2021-04-29
+date: 2023-12-30T17:21:21.405Z
 description: for viola and violoncello
 duration: 960
 id: sonata-a-due
@@ -10,7 +10,6 @@ movements:
   - title: Allegro non troppo
 publications:
   - publisher_id: emb
-    type: all
 title:
   main: it
   original: it

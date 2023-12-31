@@ -1,18 +1,17 @@
 category: children
-date: 2022-05-01
+date: 2023-12-30T17:21:33.344Z
 description: 6 songs for 3-part children's choir
 duration: 277
 id: six-chansons-populaires-hongroises
 movements:
   - title: La choucroute
-  - title: Va-t-y, va-t-on ? 
+  - title: Va-t-y, va-t-on ?
   - title: Au bord de la route
   - title: Le cheval du juge
   - title: Le violon de l’oncle Antoine
   - title: Kalamaïko
 publications:
   - publisher_id: sympaphonie
-    type: all
 rework_of: hat-magyar-nepdal
 texts:
   fr: in French translated by Edmond Pidoux

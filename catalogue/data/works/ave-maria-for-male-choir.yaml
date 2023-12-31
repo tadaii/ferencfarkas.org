@@ -1,12 +1,11 @@
 category: male
 composition_date: 1994
-date: 2022-03-29
+date: 2023-12-30T17:21:32.364Z
 description: for 4-part male choir
 duration: 120
 id: ave-maria-for-male-choir
 publications:
   - publisher_id: ascolta
-    type: all
 rework_of: ave-maria
 texts:
   la: in Latin

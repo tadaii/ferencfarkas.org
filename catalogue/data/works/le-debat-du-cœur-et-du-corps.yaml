@@ -1,13 +1,12 @@
 category: male
 composition_date: 1980
-date: 2022-04-12
+date: 2023-12-30T17:21:30.280Z
 dedication: à la Chorale de l’Orient et á la Chorale du Brassus
-description: for double male choir, 2 trumpets, 2 trombones, piano and timpani 
+description: for double male choir, 2 trumpets, 2 trombones, piano and timpani
 duration: 272
 id: le-debat-du-cœur-et-du-corps
 publications:
   - publisher_id: ascolta
-    type: all
 texts:
   fr: in French by François Villon
 title:
@@ -16,4 +15,4 @@ title:
   sort:
     - fr
   translations:
-    fr: Le débat du coeur et du corps  
+    fr: Le débat du coeur et du corps

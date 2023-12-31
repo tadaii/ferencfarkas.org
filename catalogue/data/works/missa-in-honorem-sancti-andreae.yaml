@@ -1,6 +1,6 @@
 category: mass
 composition_date: 1968
-date: 2021-03-14
+date: 2023-12-30T17:21:32.748Z
 description: Mass for 3 soli ad lib., mixed choir and orchestra
 duration: 1620
 id: missa-in-honorem-sancti-andreae
@@ -13,7 +13,6 @@ movements:
   - title: Agnus Dei
 publications:
   - publisher_id: ascolta
-    type: all
 rework_of: missa-in-honorem-sancti-andreae-for-mixed-choir-and-organ
 setting: 1, 1, 2, 1 – 2, 2, 1, 0 – timp. – org. – archi
 texts:

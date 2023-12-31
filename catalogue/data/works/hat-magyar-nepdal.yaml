@@ -1,5 +1,5 @@
 category: children
-date: 2022-04-29
+date: 2023-12-30T17:21:33.578Z
 description: 6 songs for 3-part children's choir
 duration: 277
 id: hat-magyar-nepdal
@@ -12,7 +12,6 @@ movements:
   - title: Kalamajkó
 publications:
   - publisher_id: emb
-    type: all
 texts:
   hu: in Hungarian (traditional)
 title:

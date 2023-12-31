@@ -1,6 +1,6 @@
 category: choir
 composition_date: 1979
-date: 2022-04-02
+date: 2023-12-30T17:21:19.632Z
 dedication: au Choeur des XVI de Fribourg et á son chef André Ducret
 description: for 4-part mixed choir
 duration: 500
@@ -12,7 +12,6 @@ movements:
   - title: Canticum - text by Catullus
 publications:
   - publisher_id: emb
-    type: all
 texts:
   la: in Latin
 title:

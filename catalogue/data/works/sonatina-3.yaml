@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1959
-date: 2021-03-11
+date: 2023-12-30T17:21:21.244Z
 description: for violin and piano
 duration: 540
 id: sonatina-3
@@ -10,7 +10,6 @@ movements:
   - title: Allegro
 publications:
   - publisher_id: emb
-    type: all
 title:
   main: it
   original: it

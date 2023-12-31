@@ -1,17 +1,16 @@
----
 category: solo
 composition_date: 1983
-date: 2021-01-18
-description: 3 pieces for piano composed after the paintings of Gino Severini illustrating figures of the « Commedia dell’arte »
+date: 2023-12-30T17:21:32.869Z
+description: 3 pieces for piano composed after the paintings of Gino Severini
+  illustrating figures of the « Commedia dell’arte »
 duration: 300
 id: maschere-for-piano
-movements: 
+movements:
   - title: Colombina
   - title: Povero Pulcinella
   - title: Arlecchino
 publications:
   - publisher_id: afp
-    type: all
 rework_of: maschere
 title:
   main: it

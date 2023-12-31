@@ -1,6 +1,5 @@
----
 category: chamber
-date: 2021-03-05
+date: 2023-12-30T17:21:30.933Z
 description: for guitar quartet adapted by Philippe Rayer
 duration: 600
 id: musica-serena-for-guitar-quartet
@@ -10,7 +9,6 @@ movements:
   - title: Allegro vivace
 publications:
   - publisher_id: afp
-    type: all
 rework_of: musica-serena
 title:
   main: it

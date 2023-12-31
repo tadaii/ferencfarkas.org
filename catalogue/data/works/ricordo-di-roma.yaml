@@ -1,6 +1,6 @@
 category: concerto
 composition_date: 1931
-date: 2023-01-12
+date: 2023-12-30T17:21:33.249Z
 description: for violin and chamber orchestra
 duration: 600
 id: ricordo-di-roma
@@ -10,7 +10,6 @@ movements:
   - title: Presto
 publications:
   - publisher_id: afp
-    type: all
 setting: 2 (picc.), 1, 2, 1 – 2, 1, 0, 0 – archi
 title:
   main: it

@@ -1,13 +1,11 @@
----
 category: chamber
 composition_date: 1957
-date: 2021-03-01
-description: for violin and piano 
+date: 2023-12-30T17:21:23.563Z
+description: for violin and piano
 duration: 120
 id: burattinata-for-violin-and-piano
 publications:
   - publisher_id: emb
-    type: all
 rework_of: egloga-burattinata
 title:
   main: it
@@ -15,4 +13,4 @@ title:
   sort:
     - it
   translations:
-    it: Burattinata 
+    it: Burattinata

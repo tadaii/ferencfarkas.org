@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1987
-date: 2023.03.07
+date: 2023-12-30T17:21:27.334Z
 description: for tárogató and cimbalom or harpsichord adapted by Mihaly Varg, 1988
 duration: 210
 id: rakoczi-nota
@@ -10,7 +10,6 @@ movements:
   - title: Fordulj kedves lovam
 publications:
   - publisher_id: afp
-    type: all
 rework_of: fudd-el-szel
 title:
   main: hu

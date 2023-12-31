@@ -1,16 +1,15 @@
----
 category: male
 composition_date: 1937
-date: 2021-03-02
-description: 2 male choirs from the incidental music for the play “ As you like it ” by Shakespeare 
-duration: 120 
+date: 2023-12-30T17:21:27.331Z
+description: 2 male choirs from the incidental music for the play “ As you like
+  it ” by Shakespeare
+duration: 120
 id: ket-madrigal
 movements:
-  - title: Éld hát világod 
+  - title: Éld hát világod
   - title: Ha szeretsz
 publications:
   - publisher_id: afp
-    type: all
 rework_of: as-you-like-it
 texts:
   hu: in hungarian translated by Lőrinc Szabó

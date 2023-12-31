@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1966
-date: 2021-03-05
+date: 2023-12-30T17:21:33.103Z
 description: for double-bass solo and wind quintet
 duration: 600
 id: quattro-pezzi-for-double-bass-solo-and-wind-quintet
@@ -11,7 +11,6 @@ movements:
   - title: Rondo
 publications:
   - publisher_id: afp
-    type: all
 rework_of: quattro-pezzi
 title:
   main: it

@@ -1,8 +1,9 @@
 category: cantata_oratorio
 composition_date: 1988
-date: 2023-12-08
-dedication: aux Choeurs de Chailly sur Clarens á l'occasion de leur centenaire et á leur chef András Farkas, hommage aux viticulteurs vaudois
-description: Cantata for baritone solo, mixed choir and orchestra  
+date: 2023-12-30T17:21:33.543Z
+dedication: aux Choeurs de Chailly sur Clarens á l'occasion de leur centenaire
+  et á leur chef András Farkas, hommage aux viticulteurs vaudois
+description: Cantata for baritone solo, mixed choir and orchestra
 duration: 900
 id: virgilii-georgica
 movements:
@@ -11,9 +12,8 @@ movements:
   - title: Conclusio
 publications:
   - publisher_id: afp
-    type: all
 setting: 2, 2, 2, 2 – 2, 2, 0, 0 – archi
-texts: 
+texts:
   la: in Latin by Virgile
 title:
   main: la
@@ -22,6 +22,3 @@ title:
     - la
   translations:
     la: Virgilii Georgica
-
-    
-

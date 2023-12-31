@@ -1,11 +1,10 @@
 category: female
-date: 2022-03-29
+date: 2023-12-30T17:21:33.288Z
 description: French troubadour song from the 13th century for 3-part female choir
 duration: 100
 id: hajnal-nota-for-female-choir
 publications:
   - publisher_id: emb
-    type: all
 rework_of: aubade
 texts:
   hu: in Hungarian translated by Sándor Weöres

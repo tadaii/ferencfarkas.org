@@ -16,8 +16,9 @@ cast:
     voice: coro
 category: opera
 composition_date: 1984
-date: 2022-03-27 
-description: Opera in 2 acts based on a story from the "Thausand and one nights" - version for 13 instruments
+date: 2023-12-30T17:21:31.100Z
+description: Opera in 2 acts based on a story from the "Thausand and one nights"
+  - version for 13 instruments
 duration: 5220
 id: the-magic-cupboard-thirteen-instruments
 libretto:
@@ -25,7 +26,6 @@ libretto:
   de: German adaptation by Karlheinz Gutheim
 publications:
   - publisher_id: emb
-    type: all
 rework_of: the-magic-cupboard
 setting: 1, 1, 1, 1 – 2, 1, 1, 0 – 1 vl. I, 1 vl. II, 1 vla, 1 vlc., 1 cb.
 synopsis: Suleika will set her husband free from the prison

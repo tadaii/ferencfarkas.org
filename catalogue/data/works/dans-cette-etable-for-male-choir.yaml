@@ -1,12 +1,11 @@
 category: male
 composition_date: 1994
-date: 2022-03-31
+date: 2023-12-30T17:21:25.342Z
 description: French Christmas song for 4-part male choir
 duration: 102
 id: dans-cette-etable-for-male-choir
 publications:
-  - publisher_id: labatiaz 
-    type: all
+  - publisher_id: labatiaz
 rework_of: dans-cette-etable
 texts:
   fr: in French
@@ -16,4 +15,4 @@ title:
   sort:
     - fr
   translations:
-    fr: Dans cette étable  
+    fr: Dans cette étable

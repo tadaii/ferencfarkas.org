@@ -27,7 +27,7 @@ cast:
     voice: soprano
   - role: 7 small roles
 category: opera
-date: 2019-04-08T21:35:59.000Z
+date: 2023-12-30T17:21:24.989Z
 description: Popular romantic opera
 id: csinom-palko
 libretto:
@@ -65,7 +65,6 @@ versions:
       Keleti, 1973
     publications:
       - publisher_id: emb
-        type: all
     version: Second and definitive version for the theatre in 3 acts
     world_premiere:
       credits:

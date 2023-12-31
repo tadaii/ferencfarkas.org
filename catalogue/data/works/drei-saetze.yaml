@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1983
-date: 2021-02-24
+date: 2023-12-30T17:21:21.995Z
 description: for flute, violoncello and harpsichord
 duration: 420
 id: drei-saetze
@@ -10,7 +10,6 @@ movements:
   - title: Rondo
 publications:
   - publisher_id: ascolta
-    type: all
 title:
   main: de
   original: de

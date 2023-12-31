@@ -1,11 +1,10 @@
 category: choir
-date: 2022-03-31
+date: 2023-12-30T17:21:32.670Z
 description: French Christmas song for 4-part mixed choir
 duration: 102
 id: pasztorok-talpra
 publications:
-  - publisher_id: afp 
-    type: all
+  - publisher_id: afp
 rework_of: dans-cette-etable
 texts:
   hu: in Hungarian translated by Károly Vargha
@@ -15,4 +14,4 @@ title:
   sort:
     - hu
   translations:
-    hu: Pásztorok talpra  
+    hu: Pásztorok talpra

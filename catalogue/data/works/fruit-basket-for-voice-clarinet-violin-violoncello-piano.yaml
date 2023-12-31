@@ -1,6 +1,6 @@
 category: voice_piano
 composition_date: 1946
-date: 2021-03-13
+date: 2023-12-30T17:21:23.448Z
 dedication: “ Altatódal / Wiegenlied / Berceuse ” is dedicated to my son András
   for his first birthday
 description: Cycle of 12 songs for voice, clarinet, violin, violoncello and piano
@@ -21,7 +21,6 @@ movements:
   - title: Déli felhők / Mittagswolken / Dans les nuages
 publications:
   - publisher_id: emb
-    type: all
 rework_of: fruit-basket
 texts:
   hu: in hungarian by Sándor Weöres

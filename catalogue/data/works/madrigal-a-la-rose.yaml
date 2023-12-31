@@ -1,12 +1,11 @@
 category: choir
 composition_date: 1947
-date: 2022-04-02
+date: 2023-12-30T17:21:33.289Z
 description: for 4-part mixed choir
 duration: 120
 id: madrigal-a-la-rose
 publications:
   - publisher_id: afp
-    type: all
 rework_of: rose-madrigal
 texts:
   fr: in French translated by Edmond Pidoux

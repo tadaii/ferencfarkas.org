@@ -1,6 +1,6 @@
 category: concerto
 composition_date: 1990
-date: 2021-03-05
+date: 2023-12-30T17:21:33.330Z
 description: Concertino for oboe and string orchestra adapted by Lajos Lencsés
 duration: 960
 id: old-hungarian-dances-from-the-17th-century-for-oboe-and-string-orchestra
@@ -14,7 +14,6 @@ movements:
   - title: Leaping dance
 publications:
   - publisher_id: kontrapunkt
-    type: all
 rework_of: early-hungarian-dances-from-the-17th-century-for-piano-or-harpsichord
 title:
   main: en

@@ -1,12 +1,11 @@
 category: choir
 composition_date: 1985
-date: 2022-03-31
+date: 2023-12-30T17:21:20.767Z
 description: Cantata after St. Luke for 4-part mixed choir
 duration: 720
 id: emmaus-latin
 publications:
-  - publisher_id: afp 
-    type: all
+  - publisher_id: afp
 rework_of: emmaus
 texts:
   la: in Latin
@@ -16,4 +15,4 @@ title:
   sort:
     - la
   translations:
-    la: Emmaus  
+    la: Emmaus

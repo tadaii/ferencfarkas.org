@@ -1,12 +1,10 @@
----
 category: solo
-date: 2021-03-05
+date: 2023-12-30T17:21:28.290Z
 description: for harp
 duration: 120
 id: shepherd-dance
 publications:
   - publisher_id: afp
-    type: all
 rework_of: zwei-ungarische-taenze
 title:
   main: en

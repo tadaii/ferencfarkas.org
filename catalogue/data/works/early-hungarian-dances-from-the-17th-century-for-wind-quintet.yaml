@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1959
-date: 2021-01-17
+date: 2023-12-30T17:21:28.464Z
 description: Suite of dances for wind quintet
 duration: 600
 id: early-hungarian-dances-from-the-17th-century-for-wind-quintet
@@ -12,7 +12,6 @@ movements:
   - title: Ugrós (Saltarello)
 publications:
   - publisher_id: emb
-    type: all
 rework_of: early-hungarian-dances-from-the-17th-century-for-piano-or-harpsichord
 title:
   main: en

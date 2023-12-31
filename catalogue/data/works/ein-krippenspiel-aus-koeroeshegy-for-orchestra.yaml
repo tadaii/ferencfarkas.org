@@ -1,7 +1,8 @@
 category: cantata_oratorio
 composition_date: 1970
-date: 2022-2-25
-description: Christmas cantata for narrator, mixed (or children’s) choir, organ and orchestra
+date: 2023-12-30T17:21:33.399Z
+description: Christmas cantata for narrator, mixed (or children’s) choir, organ
+  and orchestra
 duration: 1260
 id: ein-krippenspiel-aus-koeroeshegy-for-orchestra
 movements:
@@ -14,16 +15,15 @@ movements:
   - title: Evangelium – Chor of the wise men
   - title: Evangelium – Chor of the angels
   - title: Evangelium – Chor of the wise men
-  - title: Evangelium – Ritornell - Chor a cappella 
+  - title: Evangelium – Ritornell - Chor a cappella
   - title: Evangelium - Chor of the shepherds
   - title: Pastorale - Chor
   - title: Chor a capella
   - title: Postludium
 publications:
   - publisher_id: carus
-    type: all
 rework_of: ein-krippenspiel-aus-koeroeshegy
-setting:  2 (picc.), 2, 2, 2 – 2, 1, 0, 0 – arpa ad lib. – archi
+setting: 2 (picc.), 2, 2, 2 – 2, 1, 0, 0 – arpa ad lib. – archi
 texts:
   hu: in Hungarian
   de: German translated by Ferenc Farkas

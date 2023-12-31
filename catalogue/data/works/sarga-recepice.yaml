@@ -1,12 +1,11 @@
 category: male
 composition_date: 1939
-date: 2022-04-12
+date: 2023-12-30T17:21:30.700Z
 description: for 4-part male choir
 duration: 143
 id: sarga-recepice
 publications:
   - publisher_id: afp
-    type: all
 texts:
   hu: in Hungarian
 title:
@@ -15,4 +14,4 @@ title:
   sort:
     - hu
   translations:
-    hu: Sárga recepice  
+    hu: Sárga recepice

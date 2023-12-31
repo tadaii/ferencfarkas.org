@@ -1,6 +1,6 @@
 category: concerto
 composition_date: 1990
-date: 2021-01-17
+date: 2023-12-30T17:21:32.795Z
 dedication: to István-Zsolt Nagy
 description: Concertino for flute and string orchestra
 duration: 840
@@ -16,7 +16,6 @@ movements:
   - title: Allegro vivace
 publications:
   - publisher_id: kontrapunkt
-    type: all
 rework_of: early-hungarian-dances-from-the-17th-century-for-piano-or-harpsichord
 title:
   main: en

@@ -1,6 +1,6 @@
 category: solo
 composition_date: 1987
-date: 2023-04-11
+date: 2023-12-30T17:21:33.256Z
 description: for piano
 duration: 300
 id: sonata-2-for-piano
@@ -10,7 +10,6 @@ movements:
   - title: Toccata
 publications:
   - publisher_id: afp
-    type: all
 title:
   main: it
   original: it

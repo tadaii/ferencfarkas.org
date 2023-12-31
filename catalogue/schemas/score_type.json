@@ -24,10 +24,6 @@
     {
       "const": "custom",
       "description": "Custom score type"
-    },
-    {
-      "const": "all",
-      "description": "All publication (only use it in a work, not in a score)"
     }
   ]
 }

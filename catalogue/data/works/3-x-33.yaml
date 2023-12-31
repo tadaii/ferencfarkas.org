@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1991
-date: 2023-07-29
+date: 2023-12-30T17:21:12.988Z
 description: Suite for violin, viola and violoncello
 duration: 600
 id: 3-x-33
@@ -16,7 +16,6 @@ movements:
   - title: Riasunto
 publications:
   - publisher_id: curci
-    type: all
 title:
   main: it
   original: it

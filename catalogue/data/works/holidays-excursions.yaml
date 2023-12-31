@@ -1,7 +1,6 @@
----
 category: solo
 composition_date: 1975
-date: 2023-04-05 
+date: 2023-12-30T17:21:29.268Z
 description: for piano - 6 pieces for the youth
 duration: 490
 id: holidays-excursions
@@ -14,7 +13,6 @@ movements:
   - title: By bus / Autóbuszon
 publications:
   - publisher_id: emb
-    type: all
 title:
   main: en
   original: hu
@@ -23,4 +21,4 @@ title:
     - hu
   translations:
     en: Holidays excursions
-    hu: Nyári kirándulások 
+    hu: Nyári kirándulások

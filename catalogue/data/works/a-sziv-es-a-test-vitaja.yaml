@@ -1,12 +1,11 @@
 category: male
 composition_date: 1980
-date: 2022-04-12
-description: for double male choir, 2 trumpets, 2 trombones, piano and timpani    
+date: 2023-12-30T17:21:30.362Z
+description: for double male choir, 2 trumpets, 2 trombones, piano and timpani
 duration: 272
 id: a-sziv-es-a-test-vitaja
 publications:
   - publisher_id: afp
-    type: all
 rework_of: le-debat-du-cœur-et-du-corps
 texts:
   hu: in Hungarian
@@ -16,4 +15,4 @@ title:
   sort:
     - hu
   translations:
-    hu: A szív és a test vitája  
+    hu: A szív és a test vitája

@@ -1,6 +1,6 @@
 category: orchestra
 composition_date: 1949
-date: 2022-11-26
+date: 2023-12-30T17:21:32.805Z
 description: for orchestra
 duration: 540
 id: rhapsodie-uber-ungarische-volkslieder
@@ -12,7 +12,6 @@ movements:
   - title: Ad Martem, precatio pro pace
 publications:
   - publisher_id: sikorski
-    type: all
 setting: 2, 2, 2, 2 – 4, 3, 3, 0 – timp., batt. – arpa – archi
 title:
   main: de
