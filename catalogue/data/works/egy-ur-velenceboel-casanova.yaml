@@ -31,7 +31,7 @@ cast:
     voice: tenor
 category: opera
 composition_date: 1979-1980
-date: 2019-04-08T21:36:00.000Z
+date: 2024-01-03T09:48:29.971Z
 description: Opera in 2 acts
 duration: 7200
 id: egy-ur-velenceboel-casanova
@@ -43,7 +43,8 @@ publications:
     type: score
   - publisher_id: afp
     type: piano-reduction
-nb: performance material at the Hungarian State Opera House of Budapest 
+nb: You can find the performance material at the [Hungarian State Opera House of
+  Budapest](http://digitar.opera.hu/)
 setting: 1, 1, 1, 1 – 2, 1, 1, 0 – timp., batt. – arpa, pf. (cel.) – 1 vl. I, 1
   vl. II, 1 viola, 1 vlc., 1 cb.
 synopsis: >
@@ -58,7 +59,6 @@ title:
   translations:
     hu: Egy ur Velencéből, Casanova
     de: Ein Herr aus Venedig, Casanova
-    
 world_premiere:
   credits:
     - Conducted by János Kovács

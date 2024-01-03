@@ -1,0 +1,10 @@
+- id: egy-ur-velenceboel-casanova-score
+  score_type: score
+  ref: /OPERA/Egy Ur Velencéböl/score/score.pdf
+  manuscript: true
+  published: false
+- id: egy-ur-velenceboel-casanova-material
+  score_type: score
+  ref: /OPERA/Egy Ur Velencéböl/score/material.pdf
+  manuscript: true
+  published: false
