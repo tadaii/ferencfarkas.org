@@ -1,16 +1,14 @@
----
 category: musical
 composition_date: 1958
-date: 2019-04-08T21:36:00.000Z
+date: 2024-01-03T16:02:45.413Z
 description: Operetta in 2 acts
 duration: 9600
 id: voek-iskolaja-anyosgeneralis
 libretto:
   hu: In hungarian by Rezsö Török and Ernö Innocent Vincze
-setting: '2 (picc.), 1, 2, 1 – 3, 2, 3, 0 – timp., batt. – arpa – archi'
-publications:
-  - publisher_id: afp
-    type: score
+setting: 2 (picc.), 1, 2, 1 – 3, 2, 3, 0 – timp., batt. – arpa – archi
+nb: You can find the manuscript at the [National Széchényi library
+  Budapest](https://oszk.hu/en)
 synopsis: The revolt of the husbands against their wives
 title:
   main: hu
@@ -23,7 +21,7 @@ title:
     hu: Vők iskolája (Anyósgeneralis)
 world_premiere:
   credits:
-    - 'Stage director: Istvan Egri'
-    - 'Stage design: Mátyás Varga'
+    - "Stage director: Istvan Egri"
+    - "Stage design: Mátyás Varga"
   date: 1958
   location: Budapest Operetta

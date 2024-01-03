@@ -1,17 +1,14 @@
----
 category: ballet
 composition_date: 1971-1972
-date: 2019-04-08T21:36:00.000Z
-description: 'Scenic play in 3 acts for soprano solo, 3 male voices, choir, actors, dancers and orchestra'
+date: 2024-01-03T16:12:49.436Z
+description: Scenic play in 3 acts for soprano solo, 3 male voices, choir,
+  actors, dancers and orchestra
 duration: 9600
 id: panegyricus
-nb: Commission of the town of Pécs for the 5th centenary of Janus Pannonius’death
-publications:
-  - publisher_id: afp
-    type: score
-  - publisher_id: afp
-    type: piano-reduction
-setting: '1 (picc.), 1 (c.i.), 1, 1 – 2, 1, 1, 0 – timp., batt. – arpa, pf. – archi: vl., vla., vlc., cb. (tutti, soli)'
+nb: You can find the manuscript at the [National Széchényi library
+  Budapest](https://oszk.hu/en)
+setting: "1 (picc.), 1 (c.i.), 1, 1 – 2, 1, 1, 0 – timp., batt. – arpa, pf. –
+  archi: vl., vla., vlc., cb. (tutti, soli)"
 synopsis: Episodes from the life of the poet Janus Pannonius (1434-1472)
 texts:
   la: In latin by Janus Pannonius

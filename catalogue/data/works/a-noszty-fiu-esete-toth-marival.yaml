@@ -1,18 +1,15 @@
----
 category: musical
 composition_date: 1971
-date: 2019-04-08T21:36:00.000Z
+date: 2024-01-03T16:02:47.700Z
 description: Musical comedy in 3 acts based on the novel by Kálmán Mikszáth
 duration: 7200
 id: a-noszty-fiu-esete-toth-marival
 libretto:
-  hu: 'In hungarian by András Benedek, Ferenc Karinthy, Dezsö Mészöly and Pál Zoltán'
-setting: '2, 1, 2, 1 – 2, 2, 1, 0 – timp., batt. – arpa, pf., cel. – archi'
-publications:
-  - publisher_id: afp
-    type: score
-  - publisher_id: afp
-    type: piano-reduction
+  hu: In hungarian by András Benedek, Ferenc Karinthy, Dezsö Mészöly and Pál
+    Zoltán
+setting: 2, 1, 2, 1 – 2, 2, 1, 0 – timp., batt. – arpa, pf., cel. – archi
+nb: You can find the manuscript at the [National Széchényi library
+  Budapest](https://oszk.hu/en)
 title:
   main: hu
   original: hu
@@ -25,9 +22,9 @@ title:
 world_premiere:
   credits:
     - Conducted by Tamás Bródy
-    - 'Stage director: László Vámos'
-    - 'Stage design: Mátyás Varga'
-    - 'Costumes: Tivadar Márk'
-    - 'Choreography : Ágnes Roboz'
+    - "Stage director: László Vámos"
+    - "Stage design: Mátyás Varga"
+    - "Costumes: Tivadar Márk"
+    - "Choreography : Ágnes Roboz"
   date: 1971
   location: Budapest Operetta

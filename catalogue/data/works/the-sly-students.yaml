@@ -10,7 +10,7 @@ cast:
 category: ballet
 choreography: Gyula Harangozó
 composition_date: 1949, rev. 1956
-date: 2021-01-15
+date: 2024-01-03T16:25:26.440Z
 description: Ballet in one act and 6 scenes based on a novel by Mór Jókai
   adapted by Gusztáv Oláh
 duration: 2700
@@ -20,8 +20,8 @@ publications:
     type: score
   - publisher_id: afp
     type: piano-reduction
-  - publisher_id: afp
-    type: material
+nb: You can find the performance material at the [Hungarian State Opera House of
+  Budapest](http://digitar.opera.hu/)
 setting: 3 (picc.), 2, 2, 2 – 4, 3, 3, 1 – timp., batt. (3 ess.) – arpa – archi
 synopsis: The director of the Debrecen College, Professor Horváth, intends his
   daughter, Rózsika, to marry Józsi, the son of Mr Streber, the town treasurer.
