@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1967
-date: 2020-03-05
+date: 2023-12-30T17:21:24.209Z
 description: Suite for wind quintet after themes from János von Lavotta (1764-1820)
 duration: 960
 id: lavottiana
@@ -12,7 +12,6 @@ movements:
   - title: Rondo “ Vigadózás a korcsmában ” / Rondo “ Im Wirtshaus ”
 publications:
   - publisher_id: emb
-    type: all
 rework_of: lavotta-suite
 title:
   main: it

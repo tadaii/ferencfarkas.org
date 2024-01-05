@@ -1,6 +1,6 @@
 category: concerto
 composition_date: 1949
-date: 2021-03-05
+date: 2023-12-30T17:21:32.258Z
 duration: 1020
 id: concertino-for-harpsichord-and-string-orchestra-or-string-quintet
 movements:
@@ -9,7 +9,6 @@ movements:
   - title: Allegro
 publications:
   - publisher_id: universal
-    type: all
 rework_of: concertino-for-piano-and-orchestra
 title:
   main: en

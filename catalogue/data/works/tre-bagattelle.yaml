@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1992
-date: 2021-03-12
+date: 2023-12-30T17:21:07.067Z
 description: for flute, clarinet and bassoon
 duration: 220
 id: tre-bagattelle
@@ -10,7 +10,6 @@ movements:
   - title: Allegro
 publications:
   - publisher_id: curci
-    type: all
 title:
   main: it
   original: it

@@ -1,11 +1,10 @@
 category: male
-date: 2022-04-02
+date: 2023-12-30T17:21:23.360Z
 description: English Christmas song for 4-part male choir
 duration: 120
 id: sainte-nuit-for-male-choir
 publications:
   - publisher_id: labatiaz
-    type: all
 rework_of: sainte-nuit-for-mixed-choir
 texts:
   fr: in French translated by Roger Bornet

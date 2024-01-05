@@ -15,11 +15,11 @@ publications:
   - publisher_id: emb
     type: score
   - publisher_id: emb
-    type: performance material
+    type: material
   - publisher_id: schott
     type: score
   - publisher_id: schott
-    type: performance material
+    type: material
 title:
   main: it
   original: it

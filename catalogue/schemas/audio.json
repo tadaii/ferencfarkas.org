@@ -8,20 +8,33 @@
     "additionalProperties": false,
     "properties": {
       "id": {
+        "description": "The unique id of the audio.\nIt should be the same as the work's id if there is only 1 audio in the list. If there are more than 1 audio in the list, their id should be the work's id followed by some unique number or description of the audio, separated by a '-' character.\nExamples: old-hungarian-dances-1, old-hungarian-dances-2, old-hungarian-dances-quasi-menuetto, ...",
         "type": "string",
         "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
       },
       "description": {
+        "description": "The description of the audio.\nThis is the label displayed on the website alongside the audio \"play\" icon.",
         "type": "string"
       },
       "cd": {
+        "description": "The CD the audio has been sampled from. There are 2 kinds of \"source\" CD's which are numbered:\n-Archive CD's: the reference must start with \"a\" followed by the number of the CD.\n-Published CD's: the reference must start with \"p\" followed by the number of the CD.",
         "type": "string",
         "pattern": "^(a|p)[0-9]+$"
       },
       "track": {
+        "description": "The CD track number the audio has been sampled from.",
+        "type": "integer"
+      },
+      "start": {
+        "description": "The audio sample start position in seconds.\nNote: You can use seconds with decimals for high prcision cutting in the audio sample.",
+        "type": "number"
+      },
+      "end": {
+        "description": "The audio sample end position in seconds.\nThe sample should not be longer than 30s when taken from a published audio work.",
         "type": "number"
       },
       "ref": {
+        "description": "Not implemented yet (will be similar to the `ref` field of scores.",
         "type": "string"
       }
     },

@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1988
-date: 2021-03-12
+date: 2023-12-30T17:21:17.057Z
 description: for flute or clarinet, bassoon and piano
 duration: 420
 id: trigon
@@ -10,7 +10,6 @@ movements:
   - title: Allegro
 publications:
   - publisher_id: emb
-    type: all
 title:
   main: en
   original: en

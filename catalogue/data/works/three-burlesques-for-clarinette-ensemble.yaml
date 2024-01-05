@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1992
-date: 2021-03-11
+date: 2023-12-30T17:21:33.598Z
 description: for clarinette ensemble
 duration: 420
 id: three-burlesques-for-clarinette-ensemble
@@ -10,7 +10,6 @@ movements:
   - title: Allegro
 publications:
   - publisher_id: metropolis
-    type: all
 rework_of: three-burlesques
 title:
   main: en

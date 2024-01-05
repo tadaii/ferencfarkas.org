@@ -1,21 +1,21 @@
 category: voice_piano
 composition_date: 1969
-date: 2022-02-15
+date: 2023-12-30T17:21:22.074Z
 description: Cycle of 6 songs for voice and piano
 duration: 680
 id: autumnalia
 movements:
-  - title: Milyen sötét / Ach, wie dunkel 
+  - title: Milyen sötét / Ach, wie dunkel
   - title: A távozó / Abschied
-  - title: A tél küszöbén / An des Winters Schwelle 
-  - title: Őszi vázlat / Herbstskizze 
+  - title: A tél küszöbén / An des Winters Schwelle
+  - title: Őszi vázlat / Herbstskizze
   - title: Novemberi ég alatt / Novemberhimmel
-  - title: Könnyű / Leichtes 
+  - title: Könnyű / Leichtes
 publications:
   - publisher_id: emb
-    type: all
 texts:
-  hu: in hungarian by D. Kosztolányi, G. Juhász, Z. Jékely, J. Pilinszky and G. Illyés
+  hu: in hungarian by D. Kosztolányi, G. Juhász, Z. Jékely, J. Pilinszky and G.
+    Illyés
   de: German translated by Anneliese Felsenstein
 title:
   main: la

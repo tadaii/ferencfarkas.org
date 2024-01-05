@@ -1,11 +1,10 @@
 category: choir
-date: 2022-04-02
+date: 2023-12-30T17:21:18.224Z
 description: French Christmas song for 4-part mixed choir
 duration: 120
 id: itt-az-urnak-angyala
 publications:
   - publisher_id: afp
-    type: all
 rework_of: je-suis-l-archange-de-dieu
 texts:
   hu: Hungarian translated by István Raics
@@ -16,4 +15,3 @@ title:
     - hu
   translations:
     hu: Itt az Úrnak angyala
-

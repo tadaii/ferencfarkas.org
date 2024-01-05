@@ -1,6 +1,6 @@
 category: mass
 composition_date: 1988
-date: 2023-12-18
+date: 2023-12-30T17:21:21.634Z
 description: for mixed choir and organ
 duration: 720
 id: proprium-tergestinum
@@ -12,7 +12,6 @@ movements:
   - title: Communio
 publications:
   - publisher_id: kontrapunkt
-    type: all
 texts:
   la: in latin
 title:

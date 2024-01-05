@@ -1,6 +1,6 @@
 category: concerto
 composition_date: 1983
-date: 2021-01-24
+date: 2023-12-30T17:21:33.540Z
 dedication: to Jean-Paul Goy
 duration: 780
 id: concertino-for-oboe-and-string-orchestra
@@ -10,7 +10,6 @@ movements:
   - title: Allegro
 publications:
   - publisher_id: emb
-    type: all
 title:
   main: en
   original: en

@@ -1,7 +1,8 @@
 category: cantata_oratorio
 composition_date: 1953
-date: 2023-03-07
-description: Cantata for tenor and baritone solo, male choir and orchestra based on Hungarian Kouroutz  melodies (17th and 18th century)
+date: 2023-12-30T17:21:20.404Z
+description: Cantata for tenor and baritone solo, male choir and orchestra based
+  on Hungarian Kouroutz  melodies (17th and 18th century)
 duration: 960
 id: fudd-el-szel
 movements:
@@ -15,7 +16,6 @@ movements:
   - title: Janószy András bujdosó éneke
 publications:
   - publisher_id: afp
-    type: all
 setting: 2 (picc.), 1, 2, 1 – 2, 2, 0, 0 – arpa – archi
 texts:
   hu: in hungarian

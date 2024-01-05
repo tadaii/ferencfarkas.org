@@ -1,6 +1,6 @@
 category: solo
 composition_date: 1931
-date: 2023-04-01
+date: 2023-12-30T17:21:01.382Z
 description: for organ
 duration: 720
 id: canephorae-for-organ
@@ -12,7 +12,6 @@ movements:
   - title: Allegro moderato
 publications:
   - publisher_id: emb
-    type: all
 rework_of: canephorae
 title:
   main: la

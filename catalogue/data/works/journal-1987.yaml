@@ -1,6 +1,6 @@
 category: solo
 composition_date: 1987
-date: 2023-04-07
+date: 2023-12-30T17:21:32.685Z
 description: for piano
 duration: 900
 id: journal-1987
@@ -17,7 +17,6 @@ movements:
   - title: Colère / Mérgelödés
 publications:
   - publisher_id: emb
-    type: all
 title:
   main: fr
   original: hu

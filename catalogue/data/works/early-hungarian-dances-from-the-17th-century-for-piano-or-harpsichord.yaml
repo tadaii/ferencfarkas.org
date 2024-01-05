@@ -1,6 +1,6 @@
 category: solo
 composition_date: 1943
-date: 2021-01-16
+date: 2023-12-30T17:21:33.208Z
 description: Suite of dances for piano or harpsichord
 duration: 540
 id: early-hungarian-dances-from-the-17th-century-for-piano-or-harpsichord
@@ -12,7 +12,6 @@ movements:
   - title: Apor Lázár tánca
 publications:
   - publisher_id: emb
-    type: all
 title:
   main: en
   original: hu

@@ -1,12 +1,11 @@
 category: choir
 composition_date: 1948
-date: 2022-03-31
+date: 2023-12-30T17:21:32.174Z
 description: French Christmas song for 4-part mixed choir
 duration: 102
 id: dans-cette-etable
 publications:
-  - publisher_id: labatiaz 
-    type: all
+  - publisher_id: labatiaz
 texts:
   fr: in French
 title:
@@ -15,4 +14,4 @@ title:
   sort:
     - fr
   translations:
-    fr: Dans cette étable  
+    fr: Dans cette étable

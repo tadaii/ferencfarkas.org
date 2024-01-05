@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1947
-date: 2023-03-07
+date: 2023-12-30T17:21:01.799Z
 dedication: Molnár Zoltánnak ajánlja a régi barátsággal és szeretettel
 description: Dances from the 17th century for string quartet
 duration: 360
@@ -11,7 +11,6 @@ movements:
   - title: Andantino
 publications:
   - publisher_id: afp
-    type: all
 rework_of: early-hungarian-dances-from-the-17th-century-for-piano-or-harpsichord
 title:
   main: hu

@@ -1,7 +1,6 @@
----
 category: chamber
 composition_date: 1940
-date: 2021-03-09
+date: 2023-12-30T17:21:33.675Z
 description: for recorder and 2 violins
 duration: 600
 id: serenade
@@ -13,7 +12,6 @@ movements:
   - title: Rondino
 publications:
   - publisher_id: afp
-    type: all
 title:
   main: en
   original: hu

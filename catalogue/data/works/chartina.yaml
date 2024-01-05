@@ -1,18 +1,17 @@
 category: voice_piano
 composition_date: 1987
-date: 2022-02-16
+date: 2023-12-30T17:21:32.955Z
 description: Cycle of 5 songs for voice and clarinet in sib
 duration: 360
 id: chartina
 movements:
-  - title: Ó anímporo  / Milyen hasztalan 
+  - title: Ó anímporo  / Milyen hasztalan
   - title: Kyriakí / Ünnepest
-  - title: O gelotopoiós / Felvette a bohóc 
-  - title: Tó kát iákómi / Egy távoli cél 
+  - title: O gelotopoiós / Felvette a bohóc
+  - title: Tó kát iákómi / Egy távoli cél
   - title: Nychteriní / Éjjeli gyors
 publications:
   - publisher_id: afp
-    type: all
 texts:
   gr: in Greek by Yánnis Rítsos
   hu: Hungarian translated by Ernő Hárs

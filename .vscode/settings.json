@@ -1,6 +1,12 @@
 {
   "yaml.schemas": {
+    "./catalogue/schemas/audio.json": "data/audios/*.yaml",
     "./catalogue/schemas/score.json": "data/scores/*.yaml",
-    "./catalogue/schemas/audio.json": "data/audios/*.yaml"
-  }
+    "./catalogue/schemas/work.json": "data/works/*.yaml"
+  },
+  "runOnSave.commands": [{
+    "globMatch": "**/catalogue/data/works/*.yaml",
+    "command": "npm run work:setdate ${file}",
+    "runIn": "backend"
+  }]
 }

@@ -15,7 +15,7 @@ publications:
   - publisher_id: emb
     type: score
   - publisher_id: emb
-    type: performance material
+    type: material
 rework_of: choreae-hungaricae
 title:
   main: en

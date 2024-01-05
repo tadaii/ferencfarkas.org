@@ -1,3 +1,8 @@
+- id: the-sly-students-score
+  score_type: score
+  ref: /BALLET/The sly students/score/score.pdf
+  manuscript: true
+  published: false
 - id: the-sly-students-piano-reduction
   score_type: piano-reduction
   ref: /BALLET/The sly students/score/piano reduction.pdf

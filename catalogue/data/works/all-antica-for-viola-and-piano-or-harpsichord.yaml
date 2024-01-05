@@ -1,7 +1,6 @@
----
 category: chamber
 composition_date: 1962
-date: 2021-01-24
+date: 2023-12-30T17:21:23.382Z
 description: for viola and piano or harpsichord
 duration: 720
 id: all-antica-for-viola-and-piano-or-harpsichord
@@ -11,7 +10,6 @@ movements:
   - title: Giga
 publications:
   - publisher_id: afp
-    type: all
 rework_of: all-antica
 title:
   main: it

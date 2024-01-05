@@ -8,41 +8,23 @@
     "additionalProperties": false,
     "properties": {
       "id": {
+        "description": "The unique id of the score.\nIt should be the same as the work's id, followed by the type of score (see \"score_type\") separated by a \"-\" character.",
         "type": "string",
         "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
       },
       "score_type": {
-        "type": "string",
-        "oneOf": [
-          {
-            "const": "score",
-            "description": "Score"
-          },
-          {
-            "const": "material",
-            "description": "Material (for orchestra)"
-          },
-          {
-            "const": "piano-reduction",
-            "description": "Piano reduction"
-          },
-          {
-            "const": "solo-part",
-            "description": "Piano reduction"
-          },
-          {
-            "const": "choir-score",
-            "description": "Choir score"
-          }
-        ]
+        "$ref": "./score_type.json"
       },
       "manuscript": {
+        "description": "Set to `true` if it's a manuscript, `false` otherwise.",
         "type": "boolean"
       },
       "published": {
+        "description": "Set to `true` if it's a published score, `false` otherwise.",
         "type": "boolean"
       },
       "ref": {
+        "description": "The path to the pdf file on disk.\nThe path must be a unix type of path with `/` as the folder separator (not `\\`). It must start with `/` and must be relative to the path defined in the environment variable `SCORES_ROOT` defined in the `.env` file, which targets the cloud filesystem mount on your local machine.\nFor example, if the cloud filesystem is mounted on \"P:\\My Cloud\\Ferenc Farkas\\Works\\Opera\\Vidroczki\\Material Score.pdf\", the ref must be \"/Opera/Vidroczki/Material Score.pdf\"",
         "type": "string"
       }
     },

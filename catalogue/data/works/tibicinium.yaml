@@ -1,12 +1,11 @@
 category: voice_piano
 composition_date: 1960
-date: 2021-03-14
+date: 2023-12-30T17:21:17.205Z
 description: for voice and flute
 duration: 340
 id: tibicinium
 publications:
   - publisher_id: emb
-    type: all
 texts:
   hu: in hungarian by Artur Keleti
   de: German translated by Karl Schulhofer

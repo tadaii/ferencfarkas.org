@@ -1,7 +1,7 @@
----
 category: voice_piano
-date: 2021-03-14
-description: 2 songs for voice and guitar from the incidental  music to “ Twelfth night ” by Shakespeare adapted by  Benjamin Bunch
+date: 2023-12-30T17:21:30.118Z
+description: 2 songs for voice and guitar from the incidental  music to “
+  Twelfth night ” by Shakespeare adapted by  Benjamin Bunch
 duration: 120
 id: songs-from-the-twelfth-night-by-shakespeare-for-voice-and-guitar
 movements:
@@ -9,7 +9,6 @@ movements:
   - title: Hey, Robin
 publications:
   - publisher_id: afp
-    type: all
 rework_of: twelfth-night
 texts:
   en: in english by William Shakespeare

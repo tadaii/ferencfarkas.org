@@ -1,5 +1,5 @@
 category: choir
-date: 2021-03-12
+date: 2023-12-30T17:21:32.414Z
 dedication: à Françoise Farkas
 description: 4-part mixed choir from the incidental music to “ Twelfth night ”
   by W. Shakespeare
@@ -7,7 +7,6 @@ duration: 150
 id: come-away-for-mixed-choir
 publications:
   - publisher_id: ascolta
-    type: all
 rework_of: twelfth-night
 texts:
   en: in english by Shakespeare

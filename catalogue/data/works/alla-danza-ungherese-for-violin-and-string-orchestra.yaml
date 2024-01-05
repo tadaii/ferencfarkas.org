@@ -1,13 +1,11 @@
----
 category: concerto
 composition_date: 1980
-date: 2021-03-06
+date: 2023-12-30T17:21:20.744Z
 description: for violin and string orchestra
 duration: 360
 id: alla-danza-ungherese-for-violin-and-string-orchestra
 publications:
   - publisher_id: afp
-    type: all
 rework_of: alla-danza-ungherese
 title:
   main: it

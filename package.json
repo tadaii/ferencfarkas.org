@@ -1,11 +1,12 @@
 {
   "name": "ferencfarkas.org",
-  "version": "1.7.48",
+  "version": "1.7.49",
   "description": "The ferencfarkas.org project",
   "private": false,
   "scripts": {
     "start": "npm run website:serve",
     "dev": "run-p webapp:serve website:serve",
+    "work:setdate": "node ./scripts/workdate",
     "prebuild": "node ./scripts/prebuild",
     "release": "node ./scripts/release",
     "release:check": "node ./scripts/release check",

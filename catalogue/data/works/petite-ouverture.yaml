@@ -1,12 +1,10 @@
----
 category: chamber
-date: 2021-03-02
-description: Extract from the incidental music to “ As you like it ” by Shakespeare 
-duration: 120 
+date: 2023-12-30T17:21:24.243Z
+description: Extract from the incidental music to “ As you like it ” by Shakespeare
+duration: 120
 id: petite-ouverture
 publications:
   - publisher_id: afp
-    type: all
 rework_of: as-you-like-it
 title:
   main: fr

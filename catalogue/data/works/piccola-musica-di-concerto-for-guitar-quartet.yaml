@@ -1,6 +1,5 @@
----
 category: chamber
-date: 2021-03-05
+date: 2023-12-30T17:21:32.869Z
 description: for guitar quartet adapted by Philippe Rayer, 1987
 duration: 600
 id: piccola-musica-di-concerto-for-guitar-quartet
@@ -11,7 +10,6 @@ movements:
   - title: Allegro
 publications:
   - publisher_id: afp
-    type: all
 rework_of: piccola-musica-di-concerto
 title:
   main: it

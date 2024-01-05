@@ -1,5 +1,5 @@
 category: solo
-date: 2021-04-28
+date: 2023-12-30T17:21:30.529Z
 description: for harp
 duration: 300
 id: sonatina-for-harp
@@ -9,7 +9,6 @@ movements:
   - title: Allegretto
 publications:
   - publisher_id: afp
-    type: all
 rework_of: five-easy-piano-pieces
 title:
   main: it

@@ -1,13 +1,12 @@
 category: choir
 composition_date: 1994
-date: 2022-03-29
+date: 2023-12-30T17:21:32.973Z
 dedication: Pro memoria M.
 description: for 4-part mixed choir
 duration: 180
 id: beati-mortui
 publications:
   - publisher_id: ascolta
-    type: all
 texts:
   la: in Latin
 title:
@@ -16,4 +15,4 @@ title:
   sort:
     - la
   translations:
-    la: Beati mortui  
+    la: Beati mortui

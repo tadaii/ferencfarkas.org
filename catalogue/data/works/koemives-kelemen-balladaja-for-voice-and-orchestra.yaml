@@ -1,13 +1,11 @@
----
-category: voice_piano 
+category: voice_piano
 composition_date: 1960
-date: 2023-11-05
+date: 2023-12-30T17:21:33.517Z
 description: for voice and orchestra
 duration: 509
 id: koemives-kelemen-balladaja-for-voice-and-orchestra
 publications:
   - publisher_id: afp
-    type: all
 rework_of: two-pieces-on-hungarian-folk-songs
 setting: 1, 0, 1, 0 - 0, 0, 0, 0 – pf. – archi
 texts:

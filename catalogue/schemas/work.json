@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Ferenc Farkas - Work metadata",
+  "description": "Describes a work",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "The id of the work.\nIt must be the name of the work in lowercase ASCII encoding (without any special character like accents).",
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+    },
+    "category": {
+      "description": "The category the work belongs to.\nIt must be a valid category id, hence referring to the `id` field of one of the items in the `categories.yaml` file.",
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9_]*[a-z0-9]$"
+    },
+    "composition_date": {
+      "description": "The composition date of the work.\nCan be either a year (.e.g `1967`) or a range of year (e.g. `1965-1967`) and can contain a revision year or year range (e.g. `1965, rev. 1967` or `1965-1966, rev. 1967` or `1965, rev. 1966-1967` or `1965-1966, rev. 1967-1968`).",
+      "type": ["integer", "string"],
+      "pattern": "^\\d{4}(-\\d{4})?(, rev. \\d{4})?$"
+    },
+    "date": {
+      "description": "The date of the last update to the file (should be automatically set when saving the file).",
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}:\\d{2}(.\\d{1,3})Z)?$"
+    },
+    "description": {
+      "description": "The description of the work.",
+      "type": "string"
+    },
+    "duration": {
+      "description": "The duration of the work in seconds.",
+      "type": "number"
+    },
+    "publications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "publisher_id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+          },
+          "type": {
+            "$ref": "./score_type.json"
+          }
+        }
+      }
+    }
+  },
+  "required": ["id","category","date","title"]
+}

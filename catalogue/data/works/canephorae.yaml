@@ -1,6 +1,6 @@
 category: solo
 composition_date: 1931
-date: 2023-04-01
+date: 2023-12-30T17:21:32.061Z
 description: for piano
 duration: 720
 id: canephorae
@@ -12,7 +12,6 @@ movements:
   - title: Fughetta (Allegro moderato)
 publications:
   - publisher_id: afp
-    type: all
 title:
   main: la
   original: la

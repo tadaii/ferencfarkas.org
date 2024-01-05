@@ -1,7 +1,8 @@
 category: cantata_oratorio
 composition_date: 1975-1977
-date: 2023-12-06
-dedication: á la Chorale de l'Orient á l'occasion de la célébration de son centenaire et á son chef András Farkas
+date: 2023-12-30T17:21:26.528Z
+dedication: á la Chorale de l'Orient á l'occasion de la célébration de son
+  centenaire et á son chef András Farkas
 description: Cantata for tenor and baritone solo, male choir and orchestra
 duration: 900
 id: psaumes-de-fete
@@ -11,7 +12,6 @@ movements:
   - title: Que les peuples te louent
 publications:
   - publisher_id: afp
-    type: all
 setting: 2, 2, 2, 2 – 2, 2, 0, 0 – timp. - arpa ad lib., mand. ad lib. – archi
 texts:
   fr: in French, based on Psalms 81, 33, 68 and 47

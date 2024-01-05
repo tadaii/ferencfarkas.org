@@ -1,7 +1,9 @@
 category: voice_piano
 composition_date: 1970
-date: 2022-04-01
-description: 15 traditional Christmas songs from Hungary, Austria, Germany, South America, France, England, negro spiritual, for unisono children’s choir or solo voice and piano or organ
+date: 2023-12-30T17:21:27.147Z
+description: 15 traditional Christmas songs from Hungary, Austria, Germany,
+  South America, France, England, negro spiritual, for unisono children’s choir
+  or solo voice and piano or organ
 duration: 1470
 id: christmas-album
 movements:
@@ -15,14 +17,16 @@ movements:
   - title: Csendes éj ( Stille Nacht) - Hungarian translated by Károly Vargha
   - title: O szép fenyö ( O Tannenbaum)  - Hungarian translated by Károly Vargha
   - title: Kicsi gyermek (Villancico) - Hungarian translated by István Raics
-  - title: Szent József ìgy szólt (San Jousé m'a dit) - Hungarian translated by István Raics
-  - title: Itt az Urnak angyala (Je suis l'archange de Dieu) - Hungarian translated by István Raics
+  - title: Szent József ìgy szólt (San Jousé m'a dit) - Hungarian translated by
+      István Raics
+  - title: Itt az Urnak angyala (Je suis l'archange de Dieu) - Hungarian translated
+      by István Raics
   - title: Aldott éj (It come upon) – Hungarian translated by Károly Vargha
-  - title: Herodes és a kakas (King Herod and the cock) - Hungarian translated by  István Raics
+  - title: Herodes és a kakas (King Herod and the cock) - Hungarian translated
+      by  István Raics
   - title: Búcsút mond az év (What month) - Hungarian translated by József Romhányi
 publications:
   - publisher_id: emb
-    type: all
 texts:
   hu: in Hungarian (The original texts are published at the end of the score)
 title:

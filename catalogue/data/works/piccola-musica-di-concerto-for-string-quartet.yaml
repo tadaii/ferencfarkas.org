@@ -1,6 +1,5 @@
----
 category: chamber
-date: 2023-04-13
+date: 2023-12-30T17:21:32.604Z
 composition_date: 1961
 description: for string quartet
 duration: 600
@@ -12,7 +11,6 @@ movements:
   - title: Allegro
 publications:
   - publisher_id: emb
-    type: all
 rework_of: piccola-musica-di-concerto
 title:
   main: it

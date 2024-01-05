@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1954
-date: 2021-01-17
+date: 2023-12-30T17:21:33.370Z
 description: Suite of dances for violin, viola and harp
 duration: 600
 id: early-hungarian-dances-from-the-17th-century-for-violin-viola-and-harp
@@ -12,7 +12,6 @@ movements:
   - title: Apor Lázár tánca
 publications:
   - publisher_id: afp
-    type: all
 rework_of: early-hungarian-dances-from-the-17th-century-for-piano-or-harpsichord
 title:
   main: en

@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1977
-date: 2021-04-28
+date: 2023-12-30T17:21:32.789Z
 description: for 3 guitars
 duration: 300
 id: csango-szonatina
@@ -10,7 +10,6 @@ movements:
   - title: Rondo
 publications:
   - publisher_id: afp
-    type: all
 rework_of: five-easy-piano-pieces
 title:
   main: hu

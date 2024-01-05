@@ -1,6 +1,6 @@
 category: choir
 composition_date: 1981
-date: 2022-03-29
+date: 2023-12-30T17:21:32.944Z
 dedication: aux Choeurs de Chailly-sur-Clarens et à leur chef, András Farkas
 description: for 4-part mixed choir
 duration: 348
@@ -10,9 +10,9 @@ movements:
   - title: Le crapaud noir
   - title: Je les ai vus
 publications:
-  - publisher_id: afp 
-    type: all
-nb: This work received one prize at the "Concours de composition chorale 1983" in Tours
+  - publisher_id: afp
+nb: This work received one prize at the "Concours de composition chorale 1983"
+  in Tours
 texts:
   fr: in French by Emile Verhaeren
 title:
@@ -21,4 +21,4 @@ title:
   sort:
     - fr
   translations:
-    fr: Chansons de fou  
+    fr: Chansons de fou

@@ -1,6 +1,6 @@
 category: concerto
 composition_date: 1964
-date: 2021-01-25
+date: 2023-12-30T17:21:25.737Z
 dedication: to Gaspar Cassado
 description: Concerto for violoncello and string orchestra
 duration: 900
@@ -11,7 +11,6 @@ movements:
   - title: Allegro vivace
 publications:
   - publisher_id: emb
-    type: all
 title:
   main: it
   original: it

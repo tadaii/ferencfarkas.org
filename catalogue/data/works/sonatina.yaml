@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1965
-date: 2021-03-11
+date: 2023-12-30T17:21:31.496Z
 description: for flute and piano
 duration: 540
 id: sonatina
@@ -10,7 +10,6 @@ movements:
   - title: Allegro
 publications:
   - publisher_id: emb
-    type: all
 rework_of: sonatina-3
 title:
   main: it

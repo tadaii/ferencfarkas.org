@@ -1,15 +1,14 @@
 category: choir
 composition_date: 1985
-date: 2022-04-06
+date: 2023-12-30T17:21:30.128Z
 dedication: az esztergomi Monteverdi Kórusnak és karnagyának Hunyadi Zoltánnak
 description: for 4-part mixed choir
 duration: 259
 id: rubaiyat
 publications:
   - publisher_id: emb
-    type: all
 texts:
-  en: Omar Khayyám, English translated by Edward FitzGerald 
+  en: Omar Khayyám, English translated by Edward FitzGerald
 title:
   main: fa
   original: fa

@@ -1,5 +1,5 @@
 category: solo
-date: 2021-01-16
+date: 2023-12-30T17:21:33.760Z
 description: Suite of dances for guitar
 duration: 420
 id: early-hungarian-dances-for-guitar
@@ -10,7 +10,6 @@ movements:
   - title: Der Tanz des Lázár Apor / Apor Lázár tánca
 publications:
   - publisher_id: emb
-    type: all
 rework_of: early-hungarian-dances-from-the-17th-century-for-piano-or-harpsichord
 title:
   main: en

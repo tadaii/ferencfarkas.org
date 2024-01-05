@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1982
-date: 2021-04-28
+date: 2023-12-30T17:21:25.012Z
 description: Suite for brass sextet (3 trompets, 2 trombones, tuba)
 duration: 390
 id: musica-per-ottoni
@@ -10,7 +10,6 @@ movements:
   - title: Allegro
 publications:
   - publisher_id: emb
-    type: all
 title:
   main: it
   original: hu

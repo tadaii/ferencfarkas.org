@@ -1,6 +1,6 @@
 category: solo
 composition_date: 1930
-date: 2023-04-09
+date: 2023-12-30T17:21:28.012Z
 description: for piano
 duration: 1080
 id: sonata-1-for-piano
@@ -10,7 +10,6 @@ movements:
   - title: Allegro
 publications:
   - publisher_id: afp
-    type: all
 title:
   main: it
   original: it

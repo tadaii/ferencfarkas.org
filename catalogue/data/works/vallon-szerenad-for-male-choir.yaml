@@ -1,14 +1,13 @@
 category: male
-date: 2022-04-07
+date: 2023-12-30T17:21:28.201Z
 description: Song of the country of Liège for 3 part male choir
 duration: 120
 id: vallon-szerenad-for-male-choir
 publications:
   - publisher_id: emb
-    type: all
 rework_of: serenade-wallonne
 texts:
-  hu: in Hungarian translated by László Dalos 
+  hu: in Hungarian translated by László Dalos
 title:
   main: hu
   original: hu

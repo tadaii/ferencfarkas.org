@@ -1,6 +1,6 @@
 category: choir
 composition_date: 1984
-date: 2022-04-01
+date: 2023-12-30T17:21:13.286Z
 description: for 4-part mixed choir
 duration: 408
 id: hommage-a-rilke
@@ -11,7 +11,6 @@ movements:
   - title: Wir sind die Treibenden /Törtetünk szüntelen
 publications:
   - publisher_id: emb
-    type: all
 texts:
   de: in German by R.M. Rilke
   hu: Hungarian translated by Ernö Hárs

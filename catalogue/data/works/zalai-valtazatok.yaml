@@ -1,6 +1,6 @@
 category: solo
 composition_date: 1980
-date: 2021-03-12
+date: 2023-12-30T17:21:33.016Z
 description: Variations for cimbalom on a folk melody from the county of Zala
 duration: 300
 id: zalai-valtazatok
@@ -8,7 +8,6 @@ movements:
   - title: Thema - Variation I – VIII
 publications:
   - publisher_id: afp
-    type: all
 rework_of: variazioni-ungheresi
 title:
   main: hu

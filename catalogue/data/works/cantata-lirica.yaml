@@ -1,6 +1,6 @@
 category: cantata_oratorio
 composition_date: 1945
-date: 2021-04-01
+date: 2023-12-30T17:21:31.734Z
 description: Cantata for mixed choir and orchestra
 duration: 1380
 id: cantata-lirica
@@ -13,7 +13,6 @@ movements:
   - title: Emléke visszacsillog / Still fällt ein sanftes Leuchten
 publications:
   - publisher_id: emb
-    type: all
 setting: 2 (picc.), 2, 2, 2 – 3, 2, 1, o – arpa, cel. – archi
 texts:
   hu: in Hungarian by Jenő Dsida

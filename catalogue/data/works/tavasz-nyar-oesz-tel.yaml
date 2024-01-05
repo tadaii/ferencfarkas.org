@@ -1,6 +1,6 @@
 category: choir
 composition_date: 1962
-date: 2022-04-7
+date: 2023-12-30T17:21:32.322Z
 description: for 4-part mixed choir
 duration: 466
 id: tavasz-nyar-oesz-tel
@@ -12,7 +12,6 @@ movements:
   - title: Befagyott parton - text by Gyula Takáts
 publications:
   - publisher_id: emb
-    type: all
 texts:
   hu: in Hungarian
 title:

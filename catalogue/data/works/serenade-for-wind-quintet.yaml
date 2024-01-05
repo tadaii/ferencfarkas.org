@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1951
-date: 2021-03-09
+date: 2023-12-30T17:21:28.685Z
 dedication: to the Budapest Wind Quintet
 duration: 540
 id: serenade-for-wind-quintet
@@ -10,7 +10,6 @@ movements:
   - title: Saltarello
 publications:
   - publisher_id: emb
-    type: all
 title:
   main: en
   original: hu

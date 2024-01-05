@@ -6,6 +6,7 @@
   export let index = -1
   export let reworkActive = false
   export let work = {}
+  export let i18n = {}
 
   $: isRework = work.rework !== work.id
   $: reworked = reworkActive && !isRework
@@ -119,16 +120,8 @@
           <div class="work--scores-links">
             {#each work.scores as score}
               <a href="{score.url}" target="_blank">
-                {#if score.type === 'score'}
-                  Main score
-                {:else if score.type === 'material'}
-                  Performance material
-                {:else if score.type === 'piano-reduction'}
-                  Piano reduction
-                {:else if score.type === 'solo-part'}
-                  Solo part
-                {:else if score.type === 'choir-score'}
-                  Choir score
+                {#if score.type}
+                  {i18n.score_type[score.type]}
                 {/if}
                 <span class="file-size">
                   {score.size}

@@ -1,14 +1,11 @@
 category: ballet
 composition_date: 1932-1933
-date: 2019-04-08T21:36:00.000Z
+date: 2024-01-03T16:10:20.711Z
 description: Ballet in one act
 duration: 1620
 id: a-harom-csavargo
-publications:
-  - publisher_id: afp
-    type: score
-  - publisher_id: afp
-    type: performance material
+nb: You can find the manuscript at the [National Széchényi library
+  Budapest](https://oszk.hu/en)
 setting: 1, 1, 2, 1 – 2, 1, 0, 0 – timp., batt. – archi
 title:
   main: hu

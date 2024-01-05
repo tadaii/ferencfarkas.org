@@ -1,16 +1,16 @@
 category: solo
 composition_date: 1922
-date: 2023-04-12
+date: 2023-12-30T17:21:22.733Z
 description: for piano
 duration: 240
 id: two-pieces-on-hungarian-folk-songs
 movements:
   - title: Kőmives Kelemen
   - title: A kertmegi kert alatt
-nb: Ferenc Farkas presented this work for his admission at the Music Academy of Budapest 
+nb: Ferenc Farkas presented this work for his admission at the Music Academy of
+  Budapest
 publications:
   - publisher_id: afp
-    type: all
 title:
   main: en
   original: hu
@@ -18,6 +18,5 @@ title:
     - en
     - hu
   translations:
-    en: Two pieces on Hungarian folk songs 
+    en: Two pieces on Hungarian folk songs
     hu: Két zongoradarab magyar népdalok felett
-    

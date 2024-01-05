@@ -1,7 +1,6 @@
----
 category: voice_piano
 composition_date: 1951
-date: 2021-03-05
+date: 2023-12-30T17:21:29.826Z
 description: Songs for voice and piano from the operetta “Zeng az erdő”
 duration: 915
 id: zeng-az-erdoe-for-voice-and-piano
@@ -21,7 +20,6 @@ movements:
 rework_of: zeng-az-erdoe
 publications:
   - publisher_id: afp
-    type: all
 texts:
   hu: In hungarian by András Dékány
 title:

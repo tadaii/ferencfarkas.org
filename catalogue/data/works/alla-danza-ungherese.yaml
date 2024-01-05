@@ -1,13 +1,11 @@
----
 category: chamber
 composition_date: 1934
-date: 2021-03-01
+date: 2023-12-30T17:21:00.003Z
 description: for violin and piano
 duration: 360
 id: alla-danza-ungherese
 publications:
   - publisher_id: emb
-    type: all
 title:
   main: it
   original: hu

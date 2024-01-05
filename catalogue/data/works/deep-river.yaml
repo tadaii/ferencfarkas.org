@@ -1,7 +1,8 @@
 category: cantata_oratorio
 composition_date: 1965
-date: 2023-11-26
-description: cantata for alto and baritone solo, mixed choir and chamber orchestra based on Negro Spirituals
+date: 2023-12-30T17:21:29.522Z
+description: cantata for alto and baritone solo, mixed choir and chamber
+  orchestra based on Negro Spirituals
 duration: 1260
 id: deep-river
 movements:
@@ -11,13 +12,12 @@ movements:
   - title: Hazafelé
   - title: Tovább
   - title: Zúgj hullám
-  - title: Két kerék 
+  - title: Két kerék
   - title: Reménysugár
   - title: Alomvonat
   - title: Véget ér
 publications:
   - publisher_id: afp
-    type: all
 setting: 1, 0, 2 (cl.b.), 1 – 0, 2, 1, 0 – chit. – 3 vl., 2 vla, 1 vlc., 1 cb.
 texts:
   hu: in Hungarian

@@ -1,7 +1,8 @@
 category: solo
 composition_date: 1935
-date: 2023-04-08
-dedication: für Marianne und Annelise Schütze zum Andenken, Vergnügen und üben gewidmet, Kopenhagen, 1935
+date: 2023-12-30T17:21:27.942Z
+dedication: für Marianne und Annelise Schütze zum Andenken, Vergnügen und üben
+  gewidmet, Kopenhagen, 1935
 description: for piano
 duration: 540
 id: little-piano-pieces-after-hungarian-folk-songs
@@ -14,7 +15,6 @@ movements:
   - title: Bordal /Trinklied
 publications:
   - publisher_id: emb
-    type: all
 title:
   main: en
   original: hu

@@ -1,8 +1,7 @@
----
 category: voice_piano
-date: 2021-03-19
+date: 2023-12-30T17:21:25.918Z
 dedication: “ Altatódal ” is dedicated to my son András for his first birthday
-description: Cycle of 12 songs for voice and guitar adaptated by Ferenc Fodor 
+description: Cycle of 12 songs for voice and guitar adaptated by Ferenc Fodor
 duration: 1020
 id: fruit-basket-for-voice-and-guitar
 movements:
@@ -20,7 +19,6 @@ movements:
   - title: Déli felhők / Mittagswolken / Dans les nuages
 publications:
   - publisher_id: afp
-    type: all
 rework_of: fruit-basket
 texts:
   hu: in hungarian by Sándor Weöres
@@ -37,4 +35,5 @@ title:
     en: Fruit basket
     hu: Gyümölcskosár
     de: Fruchtkorb
-nb: French translation of the words by Sándor Weöres is available in “ Fruit basket for voice and clarinet quartet “
+nb: French translation of the words by Sándor Weöres is available in “ Fruit
+  basket for voice and clarinet quartet “

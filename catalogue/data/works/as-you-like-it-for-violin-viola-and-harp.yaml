@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1939, rev 1969
-date: 2021-02-22
+date: 2023-12-30T17:21:32.035Z
 description: Suite in old style based on the incidental music for the play “ As
   you like it ” by Shakespeare
 duration: 540
@@ -13,7 +13,6 @@ movements:
   - title: Madrigal
 publications:
   - publisher_id: afp
-    type: all
 rework_of: as-you-like-it
 title:
   main: en

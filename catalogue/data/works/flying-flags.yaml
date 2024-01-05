@@ -1,6 +1,6 @@
 category: cantata_oratorio
 composition_date: 1972
-date: 2023-11-27
+date: 2023-12-30T17:21:32.597Z
 dedication: a Magyar Néphadsereg Müvészegyüttesének és karnagyának Görgei Györgynek
 description: Cantata for soprano and baritone solo, male choir and orchestra
 duration: 1080
@@ -14,9 +14,8 @@ movements:
   - title: Örségen állok
 publications:
   - publisher_id: emb
-    type: all
 setting: 2 (picc.), 2 (c.i.), 2 (cl.b.), 2 – 4, 3, 3, 1 – batt. (3 ess.) – arpa – archi
-texts: 
+texts:
   hu: in Hungarian by Lajos Kassák
 title:
   main: en

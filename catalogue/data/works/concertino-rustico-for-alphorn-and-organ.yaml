@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1977
-date: 2023-03-02
+date: 2023-12-30T17:21:33.553Z
 description: for Alphorn and organ
 duration: 600
 id: concertino-rustico-for-alphorn-and-organ
@@ -10,7 +10,6 @@ movements:
   - title: Allegro vivace
 publications:
   - publisher_id: afp
-    type: all
 rework_of: concertino-rustico
 title:
   main: it

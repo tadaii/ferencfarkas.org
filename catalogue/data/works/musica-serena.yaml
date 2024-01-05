@@ -1,6 +1,6 @@
 category: string
 composition_date: 1982
-date: 2021-01-18
+date: 2023-12-30T17:21:28.031Z
 description: for string orchestra
 duration: 600
 id: musica-serena
@@ -10,7 +10,6 @@ movements:
   - title: Allegro vivace
 publications:
   - publisher_id: emb
-    type: all
 title:
   main: it
   original: it
