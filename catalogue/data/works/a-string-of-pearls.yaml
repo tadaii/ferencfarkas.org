@@ -1,0 +1,27 @@
+category: children
+date: 2024-01-12T12:41:56.569Z
+description: 9 songs for 2-part children's choir or upper voices
+duration: 560
+id: a-string-of-pearls
+movements:
+  - title: Little hat dance
+  - title: Two lovely girls
+  - title: Boatman, please
+  - title: Susie said, “see me sew !”
+  - title: Pairing-off song
+  - title: Here in the woods
+  - title: Farmer, look around you
+  - title: Twelve red roses
+  - title: Song for the miller
+publications:
+  - publisher_id: afp
+rework_of: gyoengyoeri-gyoengy
+texts:
+  en: in English, translated by Robert Hess
+title:
+  main: en
+  original: en
+  sort:
+    - en
+  translations:
+    en: A string of pearls
