@@ -1,0 +1,29 @@
+category: children
+composition_date: 1987
+date: 2024-01-13T10:41:55.336Z
+dedication: à Isabelle et István, premiers auditeurs et inspirateurs de ces petites pièces
+description: 9 songs for 3-part childrens' choir
+duration: 530
+id: irka-firka
+movements:
+  - title: Kellemetlenek
+  - title: Bolha temetés
+  - title: Gyík úr
+  - title: A náthás mormoka
+  - title: A négy kiscica
+  - title: Fura dolgok
+  - title: Iskolakezdés
+  - title: A három kiscsibe
+  - title: Kis selyemmajom
+publications:
+  - publisher_id: afp
+rework_of: gribouillis
+texts:
+  hu: in Hungarian translated by László Lukin
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Irka-firka

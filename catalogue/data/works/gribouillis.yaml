@@ -1,0 +1,28 @@
+category: children
+composition_date: 1987
+date: 2024-01-12T15:41:46.318Z
+dedication: à Isabelle et István, premiers auditeurs et inspirateurs de ces petites pièces
+description: 9 songs for 3-part childrens' choir
+duration: 530
+id: gribouillis
+movements:
+  - title: Inconvénients
+  - title: La puce savante
+  - title: Monsieur le Lézard
+  - title: La marmotte enrhumée
+  - title: Les quatre chatons
+  - title: Faridoles
+  - title: Rentrée des classes
+  - title: Les trois poussins
+  - title: Le petit ouistiti
+publications:
+  - publisher_id: afp
+texts:
+  fr: in French by Paule Csillag
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Gribouillis

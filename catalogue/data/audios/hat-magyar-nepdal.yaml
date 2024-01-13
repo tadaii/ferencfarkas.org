@@ -1,4 +1,8 @@
 - id: hat-magyar-nepdal-1
   description: Párositó
+  cd: p185
+  track: 1
 - id: hat-magyar-nepdal-2
   description: Kalamajkó
+  cd: p185
+  track: 2

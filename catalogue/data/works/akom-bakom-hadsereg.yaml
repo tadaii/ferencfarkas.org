@@ -1,0 +1,25 @@
+category: children
+composition_date: 1977
+date: 2024-01-12T13:13:16.295Z
+description: 7 songs for 2-parts children's choir
+duration: 310
+id: akom-bakom-hadsereg
+movements:
+  - title: Tavaszi dal - text by Zoltán Zelk
+  - title: A napsugár - text by Károly Jobbágy
+  - title: Ákom bákom hadsereg - text by Erzsi Gazdag
+  - title: Tavaszi felhők - text by Ágnes Nemes-Nagy
+  - title: A cinke, a kis vércsék meg a sas - text by Gábor Devecseri
+  - title: Májusi dal - text by Mária Iványi
+  - title: Tréfás kitaláló - text by György Végh
+publications:
+  - publisher_id: emb
+texts:
+  hu: in Hungarian
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Ákom-bákom hadsereg

@@ -1,0 +1,25 @@
+category: children
+composition_date: 1976
+date: 2024-01-12T13:21:18.150Z
+dedication: Izabellának
+description: 6 songs for 2 and 3-part children's choir
+duration: 300
+id: allatok-vilaga
+movements:
+  - title: Medvebocs
+  - title: A majom
+  - title: Mókus altatódal
+  - title: Békakirály
+  - title: Nyuszika meg a tojás
+  - title: Csacsi maki
+publications:
+  - publisher_id: emb
+texts:
+  hu: in Hungarian by György Végh
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Állatok világa
