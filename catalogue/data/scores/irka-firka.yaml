@@ -1,0 +1,5 @@
+- id: irka-firka-score
+  score_type: score
+  ref: /CHILDREN'S CHOIR/Irka-firka/score/score.pdf
+  manuscript: true
+  published: false
