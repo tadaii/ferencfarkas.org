@@ -1,0 +1,21 @@
+category: children
+composition_date: 1969
+date: 2024-01-14T16:47:03.076Z
+description: 3 songs for 2-part female choir or children's choir
+duration: 230
+id: tillio-lio
+movements:
+  - title: Fecske elfut a szárnyán - text by Ernö Szép
+  - title: Öreg este - text by Imre Csanádi
+  - title: Tillió-Lió - text by Gyula Takáts
+publications:
+  - publisher_id: emb
+texts:
+  hu: in Hungarian
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Tillió-Lió

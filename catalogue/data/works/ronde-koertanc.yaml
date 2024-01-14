@@ -1,0 +1,21 @@
+category: children
+composition_date: 1975
+dedication: Andrásnak
+date: 2024-01-14T13:27:22.291Z
+description: for 3-part female or children’s choir
+duration: 120
+id: ronde-koertanc
+publications:
+  - publisher_id: emb
+texts:
+  fr: in French by C.F. Ramuz
+  hu: Hungarian translated by Ferenc Farkas
+title:
+  main: fr
+  original: hu
+  sort:
+    - fr
+    - hu
+  translations:
+    fr: Ronde
+    hu: Körtánc

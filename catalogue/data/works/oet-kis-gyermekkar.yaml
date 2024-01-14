@@ -1,0 +1,23 @@
+category: children
+composition_date: 1975
+date: 2024-01-14T11:19:41.847Z
+description: 5 songs for 2-part children's choir
+duration: 310
+id: oet-kis-gyermekkar
+movements:
+  - title: Sok kis Benedek
+  - title: Testvérkék
+  - title: Angyalföldiek
+  - title: Vadászó csiga
+  - title: Harangoznak
+publications:
+  - publisher_id: emb
+texts:
+  hu: in Hungarian by Lajos Kassák
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Öt kis gyermekkar

@@ -1,0 +1,30 @@
+category: children
+composition_date: 1979-1980
+dedication: Istvánkának
+date: 2024-01-14T13:25:33.301Z
+description: 8 songs for 2 and 3-part children's choir
+duration: 460
+id: pebbles-kavicsok
+movements:
+  - title: There was an old man /Egyszer egy ember - text by Edward Lear
+  - title: The beetle / A bogár - text by Edith King
+  - title: Double red Daisies /Százszorszép - text by Robert Graves
+  - title: Henry and Mary / Henrik és Mary - text by Robert Graves
+  - title: To the bat / Denevér, kisegér - text by Edith King
+  - title: Rock-a-bye / Csitt-csitt - text by Willoughby Weaving
+  - title: Trams (Villamosok) - text by Edith Sitwell
+  - title: Pebbles / Kavicsok - text by Edith King
+publications:
+  - publisher_id: emb
+texts:
+  en: in English
+  hu: Hungarian translated by József Romhányi
+title:
+  main: en
+  original: hu
+  sort:
+    - en
+    - hu
+  translations:
+    en: Pebbles
+    hu: Kavicsok
