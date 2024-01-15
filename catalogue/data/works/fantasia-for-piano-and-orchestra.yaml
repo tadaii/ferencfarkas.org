@@ -1,15 +1,15 @@
----
 category: concerto
 composition_date: 1929
-date: 2023-04-19
+date: 2024-01-15T16:20:42.073Z
 dedication: to my parents on the occasion of their silver wedding
 description: for piano and orchestra
 duration: 810
 id: fantasia-for-piano-and-orchestra
+nb: You can find the manuscript at the [National Széchényi library
+  Budapest](https://oszk.hu/en)
 publications:
   - publisher_id: afp
-    type: handwritten orchestral material
-rework_of: fantasia 
+rework_of: fantasia
 title:
   main: it
   original: it
