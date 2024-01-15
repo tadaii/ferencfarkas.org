@@ -1,6 +1,6 @@
 category: concerto
 composition_date: 1964
-date: 2024-01-15T11:20:05.433Z
+date: 2024-01-15T11:30:18.517Z
 dedication: to János Liebner
 description: for baryton (viola di bordone) or violoncello or viola and string orchestra
 duration: 720
@@ -11,6 +11,9 @@ movements:
   - title: Giga
 publications:
   - publisher_id: emb
+    type: score
+  - publisher_id: emb
+    type: material
   - publisher_id: afp
     type: solo-part
 rework_of: all-antica
