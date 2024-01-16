@@ -31,7 +31,7 @@ cast:
     voice: tenor
 category: opera
 composition_date: 1979-1980
-date: 2024-01-16T11:25:25.162Z
+date: 2024-01-16T11:29:26.154Z
 description: Opera in 2 acts
 duration: 7200
 id: egy-ur-velenceboel-casanova
@@ -39,7 +39,6 @@ libretto:
   hu: In hungarian by Sándor Márai
   de: German translated
 publications:
-  - publisher_id: afp
   - publisher_id: afp
 nb: You can find the performance material at the [Hungarian State Opera House of
   Budapest](http://digitar.opera.hu/)
