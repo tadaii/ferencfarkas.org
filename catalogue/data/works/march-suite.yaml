@@ -1,6 +1,6 @@
 category: orchestra
 composition_date: 1947
-date: 2021-01-12
+date: 2024-02-08T16:11:22.254Z
 description: for chamber orchestra
 duration: 618
 id: march-suite
@@ -10,9 +10,6 @@ movements:
   - title: Allegro vivace
 publications:
   - publisher_id: emb
-    type: score
-  - publisher_id: emb
-    type: material
 setting: 1, 0, 1, 0 – 2, 1, 0, 0 – archi
 title:
   main: en
