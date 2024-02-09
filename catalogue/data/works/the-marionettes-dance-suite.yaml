@@ -1,6 +1,6 @@
 category: orchestra
 composition_date: 1940
-date: 2022-12-06
+date: 2024-02-09T12:54:01.306Z
 description: for orchestra
 duration: 1200
 id: the-marionettes-dance-suite
@@ -15,9 +15,6 @@ movements:
   - title: Rondino
 publications:
   - publisher_id: emb
-    type: score
-  - publisher_id: emb
-    type: material
 setting: 2 (picc.), 1, 2, 1 - 2, 2, 1, 0 – timp., batt. – arpa – archi
 title:
   main: en
