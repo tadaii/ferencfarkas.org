@@ -1,5 +1,5 @@
 category: chamber
-date: 2024-02-12T17:04:36.237Z
+date: 2024-02-12T17:11:32.708Z
 description: for flute and piano adapted by András Adorján, 2019
 duration: 480
 id: sonatina-2-for-flute-and-piano
@@ -10,7 +10,6 @@ movements:
 publications:
   - publisher_id: afp
     type: solo-part
-  - publisher_id: emb
 rework_of: sonatina-2
 title:
   main: it
