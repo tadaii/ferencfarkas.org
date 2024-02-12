@@ -1,6 +1,6 @@
 category: string
 composition_date: 1973
-date: 2020-12-30
+date: 2024-02-12T12:23:29.278Z
 description: Suite for string orchestra and piano
 duration: 1020
 id: jelky-andras
@@ -13,9 +13,6 @@ movements:
   - title: Auf dem Heimweg
 publications:
   - publisher_id: emb
-    type: score
-  - publisher_id: emb
-    type: material
 dedication: Az Alsódunavölgyi Vizügyi Igazgatóság Kamarazenekarának és Baja
   Város zenekedvelö
 title:

@@ -1,6 +1,6 @@
 category: string
 composition_date: 1982
-date: 2020-12-30
+date: 2024-02-12T12:24:57.674Z
 description: Suite for string orchestra
 duration: 480
 id: musica-giocosa
@@ -12,9 +12,6 @@ movements:
 dedication: a Györi Filharmonikus Zenekar felkérésére
 publications:
   - publisher_id: emb
-    type: score
-  - publisher_id: emb
-    type: material
 title:
   main: it
   original: it

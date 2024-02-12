@@ -1,6 +1,6 @@
 category: string
 composition_date: 1974
-date: 2021-01-18
+date: 2024-02-12T12:26:49.853Z
 description: Hungarian dances and tunes from the 16th century for string orchestra
 duration: 600
 id: partita-all-ungaresca
@@ -13,13 +13,7 @@ movements:
   - title: Heiduckentanz
 publications:
   - publisher_id: emb
-    type: score
-  - publisher_id: emb
-    type: material
   - publisher_id: schott
-    type: score
-  - publisher_id: schott
-    type: material
 title:
   main: it
   original: it

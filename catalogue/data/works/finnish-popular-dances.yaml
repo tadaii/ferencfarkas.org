@@ -1,6 +1,6 @@
 category: string
 composition_date: 1935
-date: 2021-01-12
+date: 2024-02-12T12:21:10.644Z
 description: Suite for string orchestra
 duration: 360
 id: finnish-popular-dances
@@ -14,9 +14,6 @@ movements:
   - title: Kumerus
 publications:
   - publisher_id: sidem
-    type: score
-  - publisher_id: sidem
-    type: material
 title:
   main: en
   original: en

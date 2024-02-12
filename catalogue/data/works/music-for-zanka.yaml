@@ -1,6 +1,6 @@
 category: string
 composition_date: 1986
-date: 2020-12-30
+date: 2024-02-12T12:24:05.900Z
 description: for string orchestra
 duration: 360
 id: music-for-zanka
@@ -10,9 +10,6 @@ movements:
   - title: Rondo
 publications:
   - publisher_id: emb
-    type: score
-  - publisher_id: emb
-    type: material
 title:
   main: en
   original: hu

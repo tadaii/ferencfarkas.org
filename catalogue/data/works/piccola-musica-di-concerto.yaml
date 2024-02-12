@@ -1,6 +1,6 @@
 category: string
 composition_date: 1961
-date: 2023-01-14
+date: 2024-02-12T12:27:43.924Z
 description: for string orchestra
 duration: 600
 id: piccola-musica-di-concerto
@@ -11,9 +11,6 @@ movements:
   - title: Allegro
 publications:
   - publisher_id: emb
-    type: score
-  - publisher_id: emb
-    type: material
 title:
   main: it
   original: it
