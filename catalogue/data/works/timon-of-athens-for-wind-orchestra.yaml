@@ -1,5 +1,5 @@
 category: wind
-date: 2021-01-19
+date: 2024-02-12T13:54:10.411Z
 description: 3 pieces for wind orchestra from the incidental music to "Timon of
   Athens" by William Shakespeare adapted by Tony Kurmann in 2014
 duration: 660
@@ -10,11 +10,11 @@ movements:
   - title: Tánc / Dance
 publications:
   - publisher_id: alliance
-    type: score
-  - publisher_id: alliance
-    type: material
 rework_of: timon-of-athens
-setting: picc., 2 fl., 2 ob., c.i., 2 fg, cfg, clar.mib, 3 clar.sib, bassethorn, bass-clar. sib, cb-clar.sib, 2 alt-sass.mib, tenor-sass.sib, bar-sass.mib, vcl., stringbass, 4 cor, 3 tr.sib, 3 trbne, euphonium, tuba, timpani, bells, xylophone, 2 perc. piano
+setting: picc., 2 fl., 2 ob., c.i., 2 fg, cfg, clar.mib, 3 clar.sib, bassethorn,
+  bass-clar. sib, cb-clar.sib, 2 alt-sass.mib, tenor-sass.sib, bar-sass.mib,
+  vcl., stringbass, 4 cor, 3 tr.sib, 3 trbne, euphonium, tuba, timpani, bells,
+  xylophone, 2 perc. piano
 title:
   main: en
   original: en
