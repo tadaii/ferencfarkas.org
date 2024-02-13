@@ -1,5 +1,5 @@
 category: chamber
-date: 2023-12-30T17:21:32.372Z
+date: 2024-02-13T15:01:51.749Z
 description: for flute and piano adapted by András Adorján, 2019
 duration: 450
 id: sonatina-1-for-flute-and-piano
@@ -9,6 +9,7 @@ movements:
   - title: Presto
 publications:
   - publisher_id: afp
+nb: Adaptation for the flute of the Sonatina no.1 for violin and piano
 rework_of: sonatina-1
 title:
   main: it

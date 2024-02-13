@@ -1,5 +1,5 @@
 category: chamber
-date: 2023-04-16
+date: 2024-02-13T14:43:44.041Z
 description: for 4 clarinets (sib) or 3 clarinets and bass clarinet
 duration: 210
 id: student-songs-from-the-18th-century
@@ -9,7 +9,8 @@ movements:
   - title: Allegro vivace
 publications:
   - publisher_id: emb
-    type: Quartets for Clarinets or Other Instruments 2
+nb: This work is part of the album Quartets for Clarinets 2 transcribed and
+  edited by Fricsovszky
 rework_of: pataki-diakdalok
 title:
   main: en
