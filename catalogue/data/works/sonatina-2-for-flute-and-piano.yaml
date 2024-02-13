@@ -1,5 +1,5 @@
 category: chamber
-date: 2024-02-12T17:11:32.708Z
+date: 2024-02-13T08:06:47.588Z
 description: for flute and piano adapted by András Adorján, 2019
 duration: 480
 id: sonatina-2-for-flute-and-piano
@@ -9,7 +9,7 @@ movements:
   - title: Scherzando
 publications:
   - publisher_id: afp
-    type: solo-part
+nb: Adaptation for the flute of the Sonatina no.2 for violin and piano
 rework_of: sonatina-2
 title:
   main: it
