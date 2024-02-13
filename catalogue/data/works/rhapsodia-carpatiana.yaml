@@ -1,6 +1,6 @@
 category: orchestra
 composition_date: 1941
-date: 2020-12-27
+date: 2024-02-09T12:52:39.423Z
 description: for orchestra
 duration: 540
 id: rhapsodia-carpatiana
@@ -8,7 +8,7 @@ publications:
   - publisher_id: afp
     type: score
   - publisher_id: sidem
-    type: piano conductor and performance material
+    type: material
 setting: 1, 1(c.i.), 2, 1 – 2, 2, 1, 0 – timp. – arpa ad lib. – archi
 title:
   main: la

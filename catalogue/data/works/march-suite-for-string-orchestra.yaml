@@ -1,6 +1,6 @@
 category: string
 composition_date: 1947
-date: 2023.01.10
+date: 2024-02-12T12:23:17.111Z
 description: for sring orchestra
 duration: 618
 id: march-suite-for-string-orchestra
@@ -10,9 +10,6 @@ movements:
   - title: Allegro vivace
 publications:
   - publisher_id: emb
-    type: score
-  - publisher_id: emb
-    type: material
 rework_of: march-suite
 title:
   main: en

@@ -1,6 +1,6 @@
 category: string
 composition_date: 1961
-date: 2022-12-08
+date: 2024-02-12T12:20:33.906Z
 description: 3 cycles of hungarian baroque dances for string orchestra
 duration: 840
 id: choreae-hungaricae-for-string-orchestra
@@ -13,9 +13,6 @@ movements:
       tempo / Andante moderato / Lo stesso tempo / Allegro / Lo stesso tempo
 publications:
   - publisher_id: schott
-    type: score
-  - publisher_id: schott
-    type: material
 rework_of: choreae-hungaricae
 title:
   main: la

@@ -1,6 +1,6 @@
 category: orchestra
 composition_date: 1961
-date: 2021-03-05
+date: 2024-02-08T16:08:14.698Z
 description: for orchestra
 duration: 600
 id: hungarian-dances-from-the-17th-century
@@ -13,9 +13,6 @@ movements:
   - title: Allegro vivace
 publications:
   - publisher_id: emb
-    type: score
-  - publisher_id: emb
-    type: material
 rework_of: choreae-hungaricae
 setting: 1, 1, 0, 0 – cemb. or pf.(ad lib.), zimb. ungh. (ad lib.) - archi
 title:

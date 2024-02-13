@@ -1,6 +1,5 @@
----
 category: chamber
-date: 2021-04-28 
+date: 2024-02-13T13:35:39.798Z
 description: Suite for 2 cimbaloms based on hungarian folk songs from Moldavia
 duration: 360
 id: five-pieces-for-two-cimbaloms
@@ -12,7 +11,7 @@ movements:
   - title: Rondo
 publications:
   - publisher_id: emb
-    type: Cimbalom-muzsika 1
+nb: This work is part of the album Cimbalom-muzsika 1 edited by Szöllős Beatrix
 rework_of: five-easy-piano-pieces
 title:
   main: en
@@ -22,4 +21,4 @@ title:
     - hu
   translations:
     en: Five pieces for 2 cimbaloms
-    hu: Öt darab két cimbalomra 
+    hu: Öt darab két cimbalomra

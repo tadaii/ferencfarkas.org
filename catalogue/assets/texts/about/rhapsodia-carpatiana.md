@@ -33,6 +33,8 @@ menu:
 > 
 > {{< author name="Ferenc Farkas" >}}
 
+The “Rhapsodia carpatiana” contains many horn solos which, in 1990, inspired Feren Farkas to compose a reworked version for Alphorn and organ entitled “Echo des Carpathes”.
+
 {{< catalogue work-id="rhapsodia-carpatiana" >}}
 
 {{% /column %}}

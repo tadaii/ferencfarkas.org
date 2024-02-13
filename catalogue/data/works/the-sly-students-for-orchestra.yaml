@@ -1,6 +1,6 @@
 category: orchestra
 composition_date: 1949
-date: 2021-01-16
+date: 2024-02-09T12:54:56.109Z
 description: Suite for orchestra from the ballet “The sly students”
 duration: 1200
 id: the-sly-students-for-orchestra
@@ -15,9 +15,6 @@ movements:
   - title: Csikósok tánca / Horseherds-dance
 publications:
   - publisher_id: emb
-    type: score
-  - publisher_id: emb
-    type: material
 rework_of: the-sly-students
 setting: 3 (picc.), 2, 2, 2 – 4, 3, 3, 1 – timp., batt. (3 ess.) – arpa – archi
 title:

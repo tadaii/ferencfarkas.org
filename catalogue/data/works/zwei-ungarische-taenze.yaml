@@ -1,6 +1,6 @@
 category: orchestra
 composition_date: 1940
-date: 2021-01-18
+date: 2024-02-09T12:58:12.477Z
 description: for orchestra
 duration: 202
 id: zwei-ungarische-taenze
@@ -9,9 +9,6 @@ movements:
   - title: Hirtentanz
 publications:
   - publisher_id: sidem
-    type: score
-  - publisher_id: sidem
-    type: material
 setting: 2, 1, 2, 1 – 2, 2, 1, 0 – batt. – arpa – archi
 title:
   main: de

@@ -1,7 +1,6 @@
----
 category: chamber
 composition_date: 1971
-date: 2021-01-17
+date: 2024-02-13T08:21:11.933Z
 description: Suite of dances for 2 flutes
 duration: 480
 id: early-hungarian-dances-from-the-17th-century-for-two-flutes
@@ -12,7 +11,7 @@ movements:
   - title: Ugrós (Allegro)
 publications:
   - publisher_id: emb
-    type: Fuvoladuók / Flötenduos / Flute duos
+nb: This work is part of the album Flute duos 1 edited by Zoltán Jeney
 rework_of: early-hungarian-dances-from-the-17th-century-for-piano-or-harpsichord
 title:
   main: en

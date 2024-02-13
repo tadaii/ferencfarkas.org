@@ -1,6 +1,6 @@
 category: orchestra
 composition_date: 1930
-date: 2020-12-27
+date: 2024-02-08T16:04:22.359Z
 description: Suite for orchestra
 dedication: al Maestro Ottorino Respighi
 duration: 1080
@@ -13,9 +13,6 @@ movements:
   - title: Allegro
 publications:
   - publisher_id: emb
-    type: score
-  - publisher_id: emb
-    type: material
 nb: this work received the “Franz Liszt Prize” in 1933
 setting: 2, 2, 2, 2 – 2, 2, 0, 0 – timp., batt. - archi
 title:

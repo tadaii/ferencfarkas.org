@@ -1,6 +1,6 @@
 category: solo
 composition_date: 1990
-date: 2023-04-03
+date: 2024-02-13T15:51:23.579Z
 description: for organ
 duration: 420
 id: exitus
@@ -9,7 +9,7 @@ movements:
   - title: Allegro (fuga)
 publications:
   - publisher_id: kontrapunkt
-    type: Organ works
+nb: This work is part of the album Organ works
 title:
   main: la
   original: la
