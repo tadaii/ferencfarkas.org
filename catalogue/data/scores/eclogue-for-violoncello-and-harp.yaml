@@ -1,0 +1,10 @@
+- id: eclogue-for-violoncello-and-harp-score
+  score_type: score
+  ref: /CHAMBER MUSIC/Eclogue for violoncello and harp/score/score.pdf
+  manuscript: false
+  published: false
+- id: eclogue-for-violoncello-and-harp-solo-part
+  score_type: solo-part
+  ref: /CHAMBER MUSIC/Eclogue for violoncello and harp/score/violoncello part.pdf
+  manuscript: false
+  published: false
