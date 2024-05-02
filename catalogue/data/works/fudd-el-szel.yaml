@@ -1,6 +1,6 @@
 category: cantata_oratorio
 composition_date: 1953
-date: 2024-05-02T08:37:22.417Z
+date: 2024-05-02T13:12:58.327Z
 description: Cantata for tenor and baritone solo, male choir and orchestra based
   on Hungarian Kouroutz  melodies (17th and 18th century)
 duration: 960
@@ -14,6 +14,8 @@ movements:
   - title: Hej, fúdd el szél
   - title: Ercsényi-Bercsényi
   - title: Janószy András bujdosó éneke
+nb: You can find the manuscript at the [National Széchényi library
+  Budapest](https://oszk.hu/en)
 setting: 2 (picc.), 1, 2, 1 – 2, 2, 0, 0 – arpa – archi
 texts:
   hu: in hungarian
