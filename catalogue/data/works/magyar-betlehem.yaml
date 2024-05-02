@@ -1,0 +1,18 @@
+category: cantata_oratorio
+composition_date: 1938
+date: 2024-05-02T15:31:36.203Z
+description: Christmas cantata for mixed choir (dancers) and chamber orchestra
+duration: 1500
+id: magyar-betlehem
+nb: You can find the manuscript at the [National Széchényi library
+  Budapest](https://oszk.hu/en)
+setting: 1, 1, 1, 0 – 0, 1, 1, 0 – timp., batt. – arpa, pf., arm. – archi
+texts:
+  hu: in Hungarian by Béla Paulini
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Magyar Betlehem
