@@ -1,6 +1,6 @@
 category: cantata_oratorio
 composition_date: 1965
-date: 2024-04-30T16:14:10.659Z
+date: 2024-05-02T13:00:56.320Z
 description: cantata for alto and baritone solo, mixed choir and chamber
   orchestra based on Negro Spirituals
 duration: 1260
@@ -16,6 +16,8 @@ movements:
   - title: Reménysugár
   - title: Alomvonat
   - title: Véget ér
+nb: You can find the manuscript at the [National Széchényi library
+  Budapest](https://oszk.hu/en)
 setting: 1, 0, 2 (cl.b.), 1 – 0, 2, 1, 0 – chit. – 3 vl., 2 vla, 1 vlc., 1 cb.
 texts:
   hu: in Hungarian
