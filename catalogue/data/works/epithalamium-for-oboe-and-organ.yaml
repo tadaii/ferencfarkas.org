@@ -1,6 +1,6 @@
 category: chamber
 composition_date: 1978
-date: 2023-12-30T17:21:32.180Z
+date: 2024-04-27T12:59:09.449Z
 description: for oboe and organ
 duration: 180
 id: epithalamium-for-oboe-and-organ
@@ -9,8 +9,10 @@ publications:
 rework_of: epithalamium
 title:
   main: la
-  original: la
+  original: fr
   sort:
     - la
+    - fr
   translations:
     la: Epithalamium
+    fr: Epithalame
