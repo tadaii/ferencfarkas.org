@@ -1,0 +1,17 @@
+category: choir
+composition_date: 1997
+date: 2023-12-30T17:21:17.746Z
+description: for 4-part mixed choir
+duration: 30
+id: aphorismae
+publications:
+  - publisher_id: afp
+texts:
+  la: in Latin by Ovidius
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Aphorismae
