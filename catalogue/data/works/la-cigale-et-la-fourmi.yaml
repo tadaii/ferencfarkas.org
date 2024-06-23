@@ -1,0 +1,18 @@
+category: choir
+composition_date: 1977
+date: 2023-12-30T17:21:17.746Z
+description: for mezzo-soprano solo, 4-part mixed choir and piano or 4 guitars
+duration: 260
+id: la-cigale-et-la-fourmi
+nb: For the accompaniement with 4 guitars, see the score of " A tücsök és a hangya" for mixed choir, mezzo-soprano solo and piano or 4 guitars
+publications:
+  - publisher_id: afp
+texts:
+  fr: in French by Jean de la Fontaine
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: La cigale et la fourmi
