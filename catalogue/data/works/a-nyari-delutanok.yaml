@@ -1,0 +1,18 @@
+category: choir
+composition_date: 1984
+date: 2023-12-30T17:21:17.746Z
+dedication: a Vasas Kórusnak és karnagyának Vass Lajosnak
+description: for 4-part mixed choir
+duration: 240
+id: a-nyari-delutanok
+publications:
+  - publisher_id: emb
+texts:
+  hu: in Hungarian by Endre Ady
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: A nyári délutánok
