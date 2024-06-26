@@ -1,0 +1,22 @@
+category: choir
+date: 2023-12-30T17:21:33.095Z
+description: for 4-part mixed choir
+duration: 240
+id: arra-ala-baranyaban
+movements:
+  - title: Zörög a citrom a kertbe...
+  - title: Erre ?
+  - title: Merre ?
+  - title: Sej ! kis kákicsom
+publications:
+  - publisher_id: afp
+texts:
+  hu: in Hungarian
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Arra alá Baranyában
+    
