@@ -12,6 +12,8 @@ menu:
 {{% row %}}
 {{% column %}}
 
+> Words of the work and its English translation
+> 
 > Donec eris felix, multos numerabis amicos
 > tempora si fuerint nubila, solus eris
 > 
