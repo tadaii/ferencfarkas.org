@@ -1,4 +1,12 @@
 - id: az-oeroem-illan
+  description: Az öröm illan
+  cd: p84
+  track: 4
+- id: az-oeroem-illan
+  description: Ez a nap is
+  cd: p84
+  track: 5
+- id: az-oeroem-illan
   description: Tavaszi Holdtölte
   cd: p84
   track: 6
