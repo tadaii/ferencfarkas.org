@@ -14,10 +14,9 @@ publications:
 rework_of: early-hungarian-dances-from-the-17th-century-for-piano-or-harpsichord
 title:
   main: en
-  original: it
+  original: en
   sort:
     - en
-    - it
   translations:
     en: Old Hungarian dances from the 17th century
-    it: Antiche danze ungheresi del 17. secolo
+
