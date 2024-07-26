@@ -1,0 +1,18 @@
+category: choir
+composition_date: 1957
+date: 2023-12-30T17:21:33.095Z
+description: Suite for 4-part mixed choir and piano
+duration: 600
+id: baranyai-lakodalmas-for-mixed-choir-and-piano
+publications:
+  - publisher_id: afp
+rework_of: baranyai-lakodalmas
+texts:
+  hu: in Hungarian 
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Baranyai lakodalmas
