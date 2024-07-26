@@ -1,6 +1,6 @@
 ---
 title: Come away
-date: 2024.07.26
+date: 2024-07-26
 menu:
   main:
     parent: 'work'
