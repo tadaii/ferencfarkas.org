@@ -23,7 +23,6 @@ Ferenc Farkas also used this song as a motif in the 2nd movement of his "Concert
 {{% /column %}}
 {{% column %}}
 
-
 {{< catalogue work-id="come-away" >}}
 
 {{% /column %}}
