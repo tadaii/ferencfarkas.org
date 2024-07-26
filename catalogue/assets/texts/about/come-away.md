@@ -12,8 +12,8 @@ menu:
 {{% row %}}
 {{% column %}}
 
-> In 1954 I was asked to compose incidental music to accompany Shakespeare's play "Twelft Night" and it was 
-> on this occasion that I set the famous text "Come away" to music.
+> In 1954 I was asked to compose incidental music to accompany Shakespeare's play "Twelft Night" 
+> and it was on this occasion that I set the famous text "Come away" to music.
 >
 > I rewrote my music from “Come away” for choir in 1995, and dedicated it to my daughter-in-law Françoise.
 > {{< author name="Ferenc Farkas" >}}
