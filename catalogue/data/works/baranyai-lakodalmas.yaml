@@ -1,0 +1,24 @@
+category: choir
+composition_date: 1940
+date: 2023-12-30T17:21:33.095Z
+description: for 3-part mixed choir
+duration: 600
+id: baranyai-lakodalmas
+movements:
+  - title: Tulsó soron van a mi házunk
+  - title: Házasodj meg
+  - title: Ez az udvar
+  - title: Köszönöm a szállást
+  - title: Edes anyám, adjon Isten
+  - title: Muzsika szól hangosan
+publications:
+  - publisher_id: emb
+texts:
+  hu: in Hungarian 
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Baranyai lakodalmas
