@@ -4,9 +4,9 @@ date: 2022-03-31
 description: for 4-part mixed choir
 duration: 206
 id: csonakos-dal
+nb: Csónakos-dal is edited under the title "Két Madrigál"
 publications:
   - publisher_id: emb 
-    type: Two madrigals
 texts:
   hu: in Hungarian by József Erdélyi
 title:
@@ -15,4 +15,4 @@ title:
   sort:
     - hu
   translations:
-    hu: Csónakos-dal  
+    hu: Csónakos-dal
