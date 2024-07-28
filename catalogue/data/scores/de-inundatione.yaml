@@ -1,0 +1,5 @@
+- id: de-inundatione-score
+  score_type: score
+  ref: /MIXED CHOIR/De inundatione/score/score.pdf
+  manuscript: true
+  published: false

@@ -1,0 +1,17 @@
+category: choir
+composition_date: 1989
+date: 2023-12-30T17:21:31.786Z
+description: for 3-part mixed choir
+duration: 300
+id: de-inundatione
+publications:
+  - publisher_id: afp
+texts:
+  la: in Latin by Janus Pannonius
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: De inundatione
