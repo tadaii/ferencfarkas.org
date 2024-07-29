@@ -1,0 +1,19 @@
+category: choir
+composition_date: 1977
+date: 2023-12-30T17:21:31.786Z
+dedicated: Archiepiscopo Cardinali Ladislao Lékai in honorem dedicata
+description: for 4-part mixed choir
+duration: 150
+id: de-sancto-ladislas-rege
+publications:
+  - publisher_id: afp
+texts:
+  la: in Latin
+  hu: Hungarian translated by Béla Csanádi
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: De Sancto Ladislas Rege

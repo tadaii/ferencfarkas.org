@@ -1,0 +1,27 @@
+category: choir
+composition_date: 1976
+date: 2023-12-30T17:21:31.786Z
+dedicated: dem Universitätchor Rostock und seinem Dirigenten Hans-Jürgen Plog
+description: for 4-part mixed choir based on poems by contemporary authors
+duration: 750
+id: deutsche-lieder
+movements:
+  - title: Es flogen einst drei Drosseln - text by John Erpenbeck
+  - title: Der Biber - text by John Erpenbeck
+  - title: Altes Lied - text by Waldemar Spender
+  - title: Von der Liebe ein Lied - text by Wolfgang Tilgner
+  - title: Frost - text by Heinz Kahlau
+  - title: An der Vogel Frühling - text by Uwe Gressmann
+  - title: Die Überlebenden - text by Michael Thürmer
+  - title: Die Fahrt - text by Christoph Eisenhuth
+publications:
+  - publisher_id: afp
+texts:
+  de: in German
+title:
+  main: de
+  original: de
+  sort:
+    - de
+  translations:
+    de: Deutsche Lieder

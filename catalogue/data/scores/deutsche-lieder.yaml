@@ -1,0 +1,5 @@
+- id: deutsche-lieder-score
+  score_type: score
+  ref: /MIXED CHOIR/Deutsche Lieder/score/score.pdf
+  manuscript: true
+  published: false
