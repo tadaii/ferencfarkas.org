@@ -1,0 +1,5 @@
+- id: emmaus-latin-score
+  score_type: score
+  ref: /MIXED CHOIR/Emmaus latin/score/score.pdf
+  manuscript: true
+  published: false

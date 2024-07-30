@@ -1,0 +1,17 @@
+category: choir
+composition_date: 1993
+date: 2023-12-30T17:21:20.767Z
+description: Basque song for 4-part mixed choir
+duration: 150
+id: eguenttobatez-nindaguelarik
+publications:
+  - publisher_id: kontrapunkt
+texts:
+  baq: in Basque
+title:
+  main: baq
+  original: baq
+  sort:
+    - baq
+  translations:
+    baq: Egünttobatez nindaguelarik
