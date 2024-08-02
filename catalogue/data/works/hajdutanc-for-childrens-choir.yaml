@@ -1,0 +1,18 @@
+category: children
+composition_date: 1975
+date: 2024-01-13T09:05:20.623Z
+description: for children's choir
+duration: 142
+id: hajdutanc-for-childrens-choir
+publications:
+  - publisher_id: kontrapunkt
+rework_of: hajdutanc
+texts:
+  hu: in Hungarian
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Hajdútánc

@@ -1,12 +1,12 @@
-category: children
+category: choir
 composition_date: 1975
-date: 2024-01-13T09:05:20.623Z
-description: for 3-part female choir or children's choir
-duration: 142
+date: 2023-12-30T17:21:32.978Z
+dedicated: Rákóczi Ferenc születésének 300. évfordulójáras
+description: for 4-part mixed choir
+duration: 150
 id: hajdutanc
 publications:
   - publisher_id: kontrapunkt
-rework_of: choreae-hungaricae
 texts:
   hu: in Hungarian
 title:
