@@ -1,0 +1,18 @@
+category: female
+composition_date: 1975
+date: 2023-12-30T17:21:33.288Z
+description: for 3-part female choir
+duration: 142
+id: hajdutanc-for-female-choir
+publications:
+  - publisher_id: kontrapunkt
+rework_of: hajdutanc
+texts:
+  hu: in Hungarian
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Hajdútánc
