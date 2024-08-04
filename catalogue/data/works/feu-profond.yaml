@@ -1,0 +1,22 @@
+category: choir
+composition_date: 1981
+date: 2023-12-30T17:21:33.095Z
+dedicated: á la chorale “Persévérance” de Vallorbe á l’occasion de son 100ème anniversaire et á son chef András Farkas
+description: for 4-part mixed choir
+duration: 600
+id: feu-profond
+movements:
+  - title: D’un été
+  - title: Parabole au coin du feu
+  - title: Eau-forte
+publications:
+  - publisher_id: afp
+texts:
+  fr: in French by Jean Cuttat
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Feu profond

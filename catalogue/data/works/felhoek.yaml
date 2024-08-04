@@ -1,0 +1,24 @@
+category: choir
+composition_date: 1971
+date: 2023-12-30T17:21:33.095Z
+description: for 3-part mixed choir
+duration: 480
+id: felhoek
+movements:
+  - title: Múlandóság
+  - title: Földét a földmives
+  - title: Te ifjúság
+  - title: Elvándorol a madár
+  - title: Odanézzetek
+publications:
+  - publisher_id: emb
+texts:
+  hu: in Hungarian by Sándor Petőfi
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Felhők
+    

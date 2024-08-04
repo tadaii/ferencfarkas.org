@@ -1,0 +1,18 @@
+category: male
+composition_date: 1981
+date: 2021-03-13
+description: for 3-part male choir
+duration: 142
+id: hajdutanc-for-male-choir
+publications:
+  - publisher_id: afp
+rework_of: hajdutanc
+texts:
+  hu: in Hungarian
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Hajdútánc
