@@ -1,0 +1,18 @@
+category: choir
+composition_date: 1999
+date: 2023-12-30T17:21:33.095Z
+dedicated: a Magyar Rádió Énekkarának félszázados fennállása alkalmából
+description: for 4-part mixed choir
+duration: 180
+id: horatius-ad-thaliarcam
+publications:
+  - publisher_id: afp
+texts:
+  la: in Latin by Horatius
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Horatius ad Thaliarcamac

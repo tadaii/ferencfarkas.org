@@ -1,0 +1,17 @@
+category: choir
+composition_date: 1994
+date: 2023-12-30T17:21:30.811Z
+description: for 4-part mixed choir
+duration: 150
+id: hymnus-in-honorem-sanctae-crucis
+publications:
+  - publisher_id: emb
+texts:
+  la: in Latin (Venantius Fortunatus)
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: hymnus-in-honorem-sanctae-crucis

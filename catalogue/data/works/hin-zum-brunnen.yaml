@@ -1,0 +1,19 @@
+category: choir
+date: 2023-12-30T17:21:33.095Z
+description: 2 Hungarian folk songs for 4-part mixed choir
+duration: 60
+id: hin-zum-brunnen
+movements:
+  - title: Hin zum Brunnen - German translated by Hans Baumann
+  - title: Auf dem Marktplatz von Jánoshid - German translated by Gottfried Wolters
+publications:
+  - publisher_id: afp
+texts: 
+  de: in German
+title:
+  main: de
+  original: de
+  sort:
+    - de
+  translations:
+    de: Hin zum Brunnen
