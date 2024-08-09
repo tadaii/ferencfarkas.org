@@ -1,0 +1,17 @@
+category: choir
+composition_date: 1993
+date: 2023-12-30T17:21:32.452Z
+description: for 4-part mixed choir
+duration: 150
+id: ici-entrez-vous
+publications:
+  - publisher_id: afp
+texts:
+  fr: in French by François Rabelais (extract from "Gargantua")
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Ici entrez vous
