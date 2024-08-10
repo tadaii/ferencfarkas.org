@@ -1,0 +1,27 @@
+category: choir
+composition_date: 1987
+date: 2023-12-30T17:21:33.095Z
+description: Suite of 8 songs for 4-part mixed choir
+duration: 540
+id: intelmek
+movements:
+  - title: Udmurt népköltés - Hungarian translated by Géza Képes
+  - title: Epiktétos
+  - title: Hippokratés
+  - title: Minnermos - Hungarian translated by Zoltán Franyó
+  - title: Pythagoras
+  - title: Marcus Aurelius
+  - title: Kempis Tamás
+  - title: Lao-Ce
+publications:
+  - publisher_id: afp
+texts:
+  hu: in Hungarian from texts by Udmurt, Greek, Roman, Dutch and Chinese authors
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Intelmek
+    
