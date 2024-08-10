@@ -1,0 +1,5 @@
+- id: intelmek-score
+  score_type: score
+  ref: /MIXED CHOIR/Intelmek/score/score.pdf
+  manuscript: true
+  published: false

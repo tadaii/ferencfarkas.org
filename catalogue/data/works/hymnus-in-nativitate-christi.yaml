@@ -1,0 +1,18 @@
+category: choir
+composition_date: 1999
+date: 2023-12-30T17:21:30.811Z
+dedication: au Choeur du Carillon de Pully et à son chef Françoise Farkas
+description: for 4-part mixed choir
+duration: 135
+id: hymnus-in-nativitate-christi
+publications:
+  - publisher_id: emb
+texts:
+  la: in Latin
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Hymnus in nativitate Christi
