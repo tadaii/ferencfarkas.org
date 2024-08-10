@@ -1,0 +1,18 @@
+category: choir
+composition_date: 1999
+date: 2023-12-30T17:21:30.811Z
+dedicated: Kiss Katalinnak és az Ars Nova énekegyüttesnek
+description: for 4-part mixed choir
+duration: 120
+id: integer-vitae
+publications:
+  - publisher_id: afp
+texts:
+  la: in Latin by Horatius
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Integer vitae

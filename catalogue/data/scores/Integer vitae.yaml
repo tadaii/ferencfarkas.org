@@ -1,0 +1,5 @@
+- id: integer-vitae-score
+  score_type: score
+  ref: /MIXED CHOIR/Integer vitae/score/score.pdf
+  manuscript: true
+  published: false
