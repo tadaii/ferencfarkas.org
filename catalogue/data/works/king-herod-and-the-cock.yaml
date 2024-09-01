@@ -1,0 +1,18 @@
+category: choir
+date: 2023-12-30T17:21:32.593Z
+dedication: A Françoise, avec affection
+description: English Christmas song for 4-part mixed choir
+duration: 80
+id: king-herod-and-the-cock
+publications:
+  - publisher_id: afp
+rework_of: christmas-album
+texts:
+  en: in English
+title:
+  main: en
+  original: en
+  sort:
+    - en
+  translations:
+    en: King Herod and the cock

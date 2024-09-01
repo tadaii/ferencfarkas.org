@@ -1,0 +1,19 @@
+category: choir
+composition_date: 1964-1968
+date: 2023-12-30T17:21:33.746Z
+description: for 4-part mixed choir
+duration: 90
+id: kyrie-for-mixed-choir
+nb: Extract from the ”Missa secunda in honorem Santcta Margaritae”
+publications:
+  - publisher_id: carus
+rework_of: missa-secunda
+texts:
+  la: in Latin
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Kyrie
