@@ -1,0 +1,17 @@
+category: choir
+composition_date: 1987
+date: 2023-12-30T17:21:33.746Z
+description: for 4-part mixed choir
+duration: 150
+id: la-saint-jean
+publications:
+  - publisher_id: afp
+texts:
+  fr: in French by Emile Verhaeren
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: La Saint Jean

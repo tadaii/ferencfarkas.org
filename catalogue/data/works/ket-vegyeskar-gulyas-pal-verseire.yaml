@@ -1,0 +1,21 @@
+category: choir
+composition_date: 1975
+date: 2023-12-30T17:21:32.593Z
+dedication: a Maróthi György Kórusnak és karnagyának Czövek Lajosnak
+description: for 4-part mixed choir
+duration: 275
+id: ket-vegyeskar-gulyas-pal-verseire
+movements:
+  - title: Elpihent pillangók
+  - title: Halld mit súg a nap
+publications:
+  - publisher_id: emb
+texts:
+  hu: in Hungarian by Pál Gulyás
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Két vegyeskar Gulyás Pál verseire
