@@ -1,0 +1,25 @@
+category: choir
+composition_date: 1986
+date: 2023-12-30T17:21:32.593Z
+description: for 4-part mixed choir
+duration: 440
+id: laus-joannis-vitezue-archiepiscopi
+movements:
+  - title: Evocatio - Hungarian translated by István Tóth
+  - title: De tectis per Joannem Archiepiscopum Strigoniensem instauratis - Hungarian translated by Agnes Kurcz
+  - title: Ad Joannem Archiepiscorum Strigoniensem - Hungarian translated by Magda
+  - title: De signo Joanni Vitézii Archiepiscopi - Hungarian translated by Agnes Kurcz
+publications:
+  - publisher_id: afp
+texts:
+  la: in Latin by Janus Pannonius
+  hu: Hungarian translated
+title:
+  main: la
+  original: hu
+  sort:
+    - La
+    - hu
+  translations:
+    la: Laus Joannis Vitézü Archiepiscopi
+    hu: Vitéz János érsek dicsérete

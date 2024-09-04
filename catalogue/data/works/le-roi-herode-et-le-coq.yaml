@@ -1,0 +1,17 @@
+category: choir
+date: 2023-12-30T17:21:33.746Z
+description: English Christmas song for 4-part mixed choir
+duration: 80
+id: le-roi-herode-et-le-coq
+publications:
+  - publisher_id: afp
+rework_of: christmas-album
+texts:
+  fr: in Frensh translated by Françoise Farkas
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Le roi Hérode et le coq

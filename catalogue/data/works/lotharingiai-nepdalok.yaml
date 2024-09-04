@@ -1,0 +1,23 @@
+category: choir
+date: 2023-12-30T17:21:32.593Z
+description: for 4-part mixed choir and piano ad lib.
+duration: 360
+id: lotharingiai-nepdalok
+movements:
+  - title: A Lothringi Legény / Der Lothringer Bur
+  - title: A viz meg a bor / Der Wein und das Wasser
+  - title: A Földmüves dicsérete / Den Akkermann soll man loben
+publications:
+  - publisher_id: afp
+texts:
+  hu: Hungarian translated by László Lukin
+  ge: in German
+title:
+  main: hu
+  original: ge
+  sort:
+    - hu
+    - ge
+  translations:
+    hu: Lotharingiai népdalok
+    ge: Lieder aus Lothringen
