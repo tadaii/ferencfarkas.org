@@ -1,5 +1,5 @@
 - id: lotharingiai-nepdalok-score
   score_type: score
-  ref: /MIXED CHOIR/Lotharingiai népdalok/score/score.pdf
-  manuscript: false
+  ref: /MIXED CHOIR/Lotharingiai népdalok/score/score.pdf
+  manuscript: true
   published: false
