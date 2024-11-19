@@ -1,0 +1,21 @@
+category: choir
+composition_date: 1987
+date: 2023-12-30T17:21:32.688Z
+description: for 4-part mixed choir
+duration: 900
+id: ex-libro-job
+movements:
+  - title: Nihil in terra
+  - title: Quamobrem ego
+  - title: Beatus homo
+publications:
+  - publisher_id: afp
+texts:
+  la: in Latin
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Ex libro Job
