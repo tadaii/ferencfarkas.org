@@ -1,0 +1,24 @@
+category: choir
+composition_date: 1985
+date: 2024-12-08
+dedication : az 1985. évi VII athéni kórusfesztivál felkérésére irótt mü. Dedicato a Thrassos Cavouras
+description: for 4-part mixed choir
+duration: 480
+id: vazakepek
+movements:
+  - title: Anakreoni dal a tücsökhöz – Hungarian translated by Imre Trencsényi-Waldapfel from Greek words by Anakreon
+  - title: Töredék a halálról – Hungarian translated by Miklós Radnóti from Greek
+  - title: A kedves dicsérete – Hungarian translated by Mihály Babits from Greek words by Theokritos
+publications:
+  - publisher_id: emb
+texts:
+  hu: Hungarian, translated from Greek words
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Vázaképek
+
+
