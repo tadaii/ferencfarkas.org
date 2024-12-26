@@ -1,0 +1,20 @@
+category: choir
+composition_date: 1990
+date: 2023-12-30T17:21:32.593Z
+description: for 4-part mixed choir
+duration: 360
+id: omaggio-a-leopardi
+movements:
+  - title: A se stesso
+  - title: L’infinito
+publications:
+  - publisher_id: afp
+texts:
+  it: in Italian by Giacomo Leopardi
+title:
+  main: it
+  original: it
+  sort:
+    - it
+  translations:
+    it: Omaggio a Leopardi
