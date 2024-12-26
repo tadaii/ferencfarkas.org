@@ -1,0 +1,5 @@
+- id: ode-score
+  score_type: score
+  ref: /MIXED CHOIR/Ode/score/score.pdf
+  manuscript: true
+  published: false

@@ -1,0 +1,24 @@
+category: choir
+composition_date: 1983
+date: 2023-12-30T17:21:32.593Z
+dedication: A Szlovákiai Magyar Tanitók Ènekkarának
+description: for 4-part mixed choir
+duration: 420
+id: negysoros-versek
+movements:
+  - title: Kirándulás - text by Jenő Dsida
+  - title: Négysoros - text by Jenő Dsida
+  - title: Négy sor - text by Jenő Dsida
+  - title: Fecskék - text by Zoltán Jékely
+  - title: Reggeli rajz - text by Jenő Dsida
+publications:
+  - publisher_id: emb
+texts:
+  hu: in Hungarian
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Négysoros versek
