@@ -1,0 +1,21 @@
+category: choir
+composition_date: 1990
+date: 2023-12-30T17:21:32.593Z
+description: for 4-part mixed choir
+duration: 300
+id: phaedri-fabulae
+movements:
+  - title: Lupus et Agnus
+  - title: Vulpis ad Personam tragicam
+  - title: Pugna Murium et Mustelarum
+publications:
+  - publisher_id: afp
+texts:
+  la: in Latin by Phaedrus
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: phaedri-fabulae

@@ -1,0 +1,17 @@
+category: choir
+composition_date: 1995
+date: 2023-12-30T17:21:32.593Z
+description: for 4-part mixed choir
+duration: 360
+id: petoefi-sorok
+publications:
+  - publisher_id: kontrapunkt
+texts:
+  hu: in Hungarian by Sándor Petőfi
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Petőfi sorok
