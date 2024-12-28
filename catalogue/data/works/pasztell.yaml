@@ -1,0 +1,22 @@
+category: choir
+composition_date: 1986
+date: 2023-12-30T17:21:32.593Z
+description: for 4-part mixed choir
+duration: 720
+id: pasztell
+movements:
+  - title: Emlékezés - text by Arpád Papp
+  - title: Ej és napközt - text by Sándor Weöres
+  - title: Áhitat - text by László Lator
+  - title: Április végén - text by Géza Gárdonyi
+publications:
+  - publisher_id: emb
+texts:
+  hu: in Hungarian
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Pasztell
