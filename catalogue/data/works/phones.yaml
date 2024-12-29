@@ -1,17 +1,17 @@
 category: choir
-composition_date: 1997
+composition_date: 1992
 date: 2023-12-30T17:21:32.593Z
 description: for 4-part mixed choir
-duration: 40
-id: omagyar-rovasfelirat
+duration: 90
+id: phones
 publications:
   - publisher_id: afp
 texts:
-  hu: in Hungarian
+  el: in Greek by Konstantinos Petrou Kavafis
 title:
-  main: hu
-  original: hu
+  main: el
+  original: el
   sort:
-    - hu
+    - el
   translations:
-    hu: Ómagyar rovásfelirat
+    el: Phones

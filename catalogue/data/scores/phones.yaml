@@ -1,0 +1,5 @@
+- id: phones-score
+  score_type: score
+  ref: /MIXED CHOIR/Phones/score/score.pdf
+  manuscript: true
+  published: false
