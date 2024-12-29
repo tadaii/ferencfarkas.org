@@ -1,0 +1,17 @@
+category: choir
+composition_date: 1992
+date: 2023-12-30T17:21:32.593Z
+description: for 4-part mixed choir
+duration: 90
+id: phones
+publications:
+  - publisher_id: afp
+texts:
+  el: in Greek by Konstantinos Petrou Kavafis
+title:
+  main: el
+  original: el
+  sort:
+    - el
+  translations:
+    el: Phones
