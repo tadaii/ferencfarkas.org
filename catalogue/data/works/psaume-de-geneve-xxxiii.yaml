@@ -1,0 +1,20 @@
+category: choir
+composition_date: 1976
+date: 2023-12-30T17:21:32.593Z
+description: for 4-part mixed choir
+duration: 120
+id: psaume-de-geneve-xxxiii
+publications:
+  - publisher_id: afp
+texts:
+  fr: in French by Clément Marot 
+  hu: Hungarian translated by Albert Szenci Molnár
+title:
+  main: fr
+  original: hu
+  sort:
+   - fr
+   - hu
+  translations:
+    fr: Psaume de Genève XXXIII
+    hu: XXXIII genfi szoltár
