@@ -1,0 +1,18 @@
+category: choir
+composition_date: 1994
+date: 2023-12-30T17:21:33.118Z
+dedication: Pro memoria M
+description: for 4-part mixed choir
+duration: 150
+id: sirfelirat
+publications:
+  - publisher_id: afp
+texts:
+  hu: in Hungarian by Sándor Weöres
+title:
+  main: hu
+  original: hu
+  sort:
+    - hu
+  translations:
+    hu: Sirfelirat
