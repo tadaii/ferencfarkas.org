@@ -1,0 +1,5 @@
+- id: rossz-eloejelek-score
+  score_type: score
+  ref: /MIXED CHOIR/Rossz előjelek/score/score.pdf
+  manuscript: true
+  published: false

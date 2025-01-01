@@ -1,0 +1,18 @@
+category: choir
+composition_date: 1997
+date: 2023-12-30T17:21:33.118Z
+dedication: Szeged város felkérésére készült mü, az Egyházzenei Fesztiválra
+description: for 4-part mixed choir
+duration: 135
+id: sancti-pauli-epistola-v-ad-corinthos
+publications:
+  - publisher_id: kontrapunkt
+texts:
+  la: in Latin
+title:
+  main: la
+  original: la
+  sort:
+    - la
+  translations:
+    la: Sancti Pauli Epistola V. ad Corinthos
