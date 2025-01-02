@@ -1,0 +1,18 @@
+category: choir
+composition_date: 1979
+date: 2023-12-30T17:21:32.174Z
+dedication: à Paul Richard
+description: French Christmas song for 4-part mixed choir
+duration: 120
+id: sous-le-sapin
+publications:
+  - publisher_id: afp
+texts:
+  fr: in French by Henri Magnenat
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Sous le sapin
