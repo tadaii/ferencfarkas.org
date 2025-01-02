@@ -1,0 +1,21 @@
+category: choir
+composition_date: 1984
+date: 2023-12-30T17:21:32.593Z
+description: for 4-part mixed choir
+duration: 420
+id: trois-poemes
+movements:
+  - title: Le champ d’août
+  - title: Cède automne
+  - title: Elégie d’août
+publications:
+  - publisher_id: afp
+texts:
+  fr: in French by Jacques Chessex
+title:
+  main: fr
+  original: fr
+  sort:
+    - fr
+  translations:
+    fr: Trois poèmes
