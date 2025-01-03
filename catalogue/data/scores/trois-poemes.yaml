@@ -1,0 +1,5 @@
+- id: trois-poemes-score
+  score_type: score
+  ref: /MIXED CHOIR/Trois poèmes/score/score.pdf
+  manuscript: true
+  published: false
