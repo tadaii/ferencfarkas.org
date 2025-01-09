@@ -1,24 +1,21 @@
 category: choir
 composition_date: 1947
-date: 2025-01-09
+date: 2025.01.09
+dedication: a székesfehérvári Kamarakórusnak
 description: for 4-part mixed choir
 duration: 120
-id: rose-madrigal
+id: rozsa-madrigal
 publications:
-  - publisher_id: afp
+  - publisher_id: emb
 texts:
   hu: in Hungarian by Sándor Weöres
   de: German translated by Gerhard Ewald Rischka
-  en: English version translated by Jeremy Jackmann
-rework_of: rozsa-madrigal
 title:
-  main: en
+  main: hu
   original: hu
   sort:
-    - en
     - hu
     - de
   translations:
-    en: Rose-madrigal
     hu: Rózsa madrigal
     de: Rosen-Madrigal
