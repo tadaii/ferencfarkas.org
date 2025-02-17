@@ -44,7 +44,7 @@
     "postcss-cli": "^10.1.0",
     "postcss-custom-media": "^10.0.1",
     "prettier": "^3.0.3",
-    "rollup": "^3.29.4",
+    "rollup": "^3.29.5",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-css-only": "^4.3.0",
     "rollup-plugin-livereload": "^2.0.5",
